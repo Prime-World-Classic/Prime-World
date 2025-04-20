@@ -52,7 +52,7 @@
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>216</behaviorFlags>
+	<behaviorFlags>152</behaviorFlags>
 	<caption>статус Бонуса</caption>
 	<customCounter>
 		<compiledString></compiledString>

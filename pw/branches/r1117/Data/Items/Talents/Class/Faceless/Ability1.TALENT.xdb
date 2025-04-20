@@ -307,7 +307,7 @@
 					<Item href="" />
 					<Item href="" />
 				</cancelEffect>
-				<caption>РикошетV2</caption>
+				<caption>Рикошет (Новая, полностью переписана)</caption>
 				<effect>
 					<Item href="" />
 					<Item href="" />
@@ -654,7 +654,7 @@
 		<Item href="/Items/Talents/Class/Faceless/Ability1.TALENT" id="65083E31-F3B1-4683-9EE0-5F55F07E6357">
 			<SpellApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>рикошет</caption>
+				<caption>рикошет (Старая версия)</caption>
 				<enabled>
 					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 					<returnType>bool</returnType>

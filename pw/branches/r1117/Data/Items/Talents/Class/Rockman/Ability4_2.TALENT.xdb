@@ -339,7 +339,7 @@
 										</applicators>
 										<dispatch href="/Items/Talents/Class/Rockman/Ability4_2.TALENT" id="F033E280-4E2A-44EC-BF59-81471B838F67">
 											<DispatchLinear>
-												<aiming>Homing</aiming>
+												<aiming>Pursue</aiming>
 												<alwaysApply>false</alwaysApply>
 												<applyEffect>
 													<Item href="/Effects/Debuffs/Discharge/_RockmanHit.EFFT" />
