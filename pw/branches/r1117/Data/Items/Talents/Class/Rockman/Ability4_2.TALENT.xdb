@@ -417,9 +417,9 @@
 								<isNotStackable>false</isNotStackable>
 								<justRotate>false</justRotate>
 								<lifeTime>
-									<compiledString>FQAAAAACAAAAEwAAABkAAABVi+xRi0UQixCLTRCLQgz/0Nw1LwAAANwFJwAAANld/NlF/IvlXcMAAAAAAADwPwAAAAAAAD5A</compiledString>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
 									<returnType>float</returnType>
-									<sString>mDist2Target / 30 + 1</sString>
+									<sString>-1</sString>
 								</lifeTime>
 								<LoggingEvent>-1</LoggingEvent>
 								<moveRange>
@@ -435,7 +435,7 @@
 								<moveTarget>Hier1UpApplicatorTarget</moveTarget>
 								<offset>
 									<x>0</x>
-									<y>3.5</y>
+									<y>3</y>
 								</offset>
 								<providerName></providerName>
 								<pushUnits>false</pushUnits>
