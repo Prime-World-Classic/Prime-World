@@ -3,7 +3,6 @@
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Items/Talents/Rockman_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability_A0_SUP.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Rockman.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -55,56 +54,6 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Rockman/const_A3_Stun_Duration" />
-				<Item href="/Items/Talents/Class/Rockman/Ability_A3_SUP.TALENT" id="B352F8D3-273B-4E68-A02C-7A4C43F1AFD9">
-					<UnitConstant>
-						<name>Dec_MoveSpeed</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
-							<returnType>float</returnType>
-							<sString>50</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Rockman/Ability_A3_SUP.TALENT" id="5085CAE0-B808-4CB2-94C0-770C0C40C476">
-					<UnitConstant>
-						<name>Slow_Duration</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
-							<returnType>float</returnType>
-							<sString>3</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Rockman/Ability_A3_SUP.TALENT" id="7DA9DD74-3E14-4290-81ED-F4252914E48A">
-					<UnitConstant>
-						<name>Disarm_Duration</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
-							<returnType>float</returnType>
-							<sString>1.5</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Rockman/Ability_A3_SUP.TALENT" id="5ECF0C96-E4DF-4798-B2FB-3C61B26D6531">
-					<UnitConstant>
-						<name>A3_SUP_MovingDamage</name>
-						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCDP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABAQQAArkI=</compiledString>
-							<returnType>float</returnType>
-							<sString>damageScaleCustomLife(sMaxLife, 48/4, 348/4)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Rockman/Ability_A3_SUP.TALENT" id="9AE8CB61-17A6-4DEF-A161-61016291BA06">
-					<UnitConstant>
-						<name>A3_SUP_MovingDamagePeriod</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
-							<returnType>float</returnType>
-							<sString>0.5</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

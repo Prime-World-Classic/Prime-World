@@ -54,16 +54,7 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Reaper/const_A2_SUP_DamageCoeff" />
-				<Item href="/Items/Talents/Class/Reaper/Ability_A2_SUP.TALENT" id="F2534D2D-78FB-419B-A959-14443A236EA7">
-					<UnitConstant>
-						<name>A2_SUP_Cost</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>15</sString>
-						</var>
-					</UnitConstant>
-				</Item>
+				<Item href="/Items/Talents/Class/Reaper/const_A1_SUP_Cost" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

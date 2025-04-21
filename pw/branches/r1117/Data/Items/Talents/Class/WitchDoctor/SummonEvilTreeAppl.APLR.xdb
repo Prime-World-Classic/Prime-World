@@ -2,6 +2,7 @@
 <SummonApplicator>
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/WitchDoctor/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability1.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Life.APLR" />
 		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Intellect.APLR" />

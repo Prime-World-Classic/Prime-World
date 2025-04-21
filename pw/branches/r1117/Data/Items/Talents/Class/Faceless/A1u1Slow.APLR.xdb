@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpellApplicator>
-	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="7" />
+	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="2" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<caption>A1u1: положить замедление</caption>
 	<enabled>

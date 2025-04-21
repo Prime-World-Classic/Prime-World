@@ -6,7 +6,6 @@
 	<BackLink DBID="/Items/Talents/Class/BladeDancer/Ability_A4_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/BladeDancer/Ability_A4u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/BladeDancer.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -139,7 +138,7 @@
 								<sString>-1.0</sString>
 							</customProgress>
 							<description textref="/Items/Talents/Class/BladeDancer/Ability_A4_2.TALENT_082270ec12d64f4db2fcf05e67380fd0_description.txt" />
-							<dispellPriority>NonDispellable</dispellPriority>
+							<dispellPriority>Medium</dispellPriority>
 							<effect>
 								<Item href="/Heroes/BladeDancer/FXAbility4_2.EFFT" />
 								<Item href="" />
@@ -211,53 +210,6 @@
 								<stat>Life</stat>
 								<topModifier>false</topModifier>
 								<variable>Immune2EvilTree</variable>
-							</modifier>
-							<providerName></providerName>
-							<startCondition>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</startCondition>
-							<statModName></statModName>
-						</StatModApplicator>
-					</Item>
-					<Item href="/Items/Talents/Class/BladeDancer/Ability_A4_2.TALENT" id="A13982AF-E01C-40BE-8D52-147B6DDC105B">
-						<StatModApplicator>
-							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>0</behaviorFlags>
-							<caption>A4_2_ModeOn = 1</caption>
-							<constraint>None</constraint>
-							<dontUpdate>false</dontUpdate>
-							<effect>
-								<Item href="" />
-								<Item href="" />
-							</effect>
-							<enabled>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</enabled>
-							<formulaName></formulaName>
-							<lifeTime>
-								<compiledString></compiledString>
-								<returnType>float</returnType>
-								<sString>-1.0</sString>
-							</lifeTime>
-							<LoggingEvent>-1</LoggingEvent>
-							<modifier>
-								<addValue>
-									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-									<returnType>float</returnType>
-									<sString>1.0f</sString>
-								</addValue>
-								<multValue>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>1.0f</sString>
-								</multValue>
-								<stat>Life</stat>
-								<topModifier>false</topModifier>
-								<variable>A4_2_ModeOn</variable>
 							</modifier>
 							<providerName></providerName>
 							<startCondition>

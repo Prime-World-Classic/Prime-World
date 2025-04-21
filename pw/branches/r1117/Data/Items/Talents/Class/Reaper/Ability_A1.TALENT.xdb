@@ -911,9 +911,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FRgAAAAEAAAAIwAAAC0AAABiAAAAeAAAAEExX1NVUF9BZGREYW1hZ2VQZXJjZW50AFWL7IPsDGoBUdkFoQAAANkcJFHZBZ0AAADZHCRqAItFCIsQi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcNZUAAADZ6N7B3E342V302UX0i+VdwwAAAAAAAPA/AAAAAAAAWUAAALpCAAAvRA==</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAC6QgAAL0Q=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 93, 700)*(1+cA1_SUP_AddDamagePercent/100)</sString>
+							<sString>damageScale(sIntellect, 93, 700)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -963,9 +963,9 @@
 					<UnitConstant>
 						<name>A1_PushDamage</name>
 						<var>
-							<compiledString>FRgAAAAEAAAAIwAAAC0AAABiAAAAeAAAAEExX1NVUF9BZGREYW1hZ2VQZXJjZW50AFWL7IPsDGoBUdkFoQAAANkcJFHZBZ0AAADZHCRqAItFCIsQi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcNZUAAADZ6N7B3E342V302UX0i+VdwwAAAAAAAPA/AAAAAAAAWUAAALpCAAAvRA==</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABwQgAA4UM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 93, 700)*(1+cA1_SUP_AddDamagePercent/100)</sString>
+							<sString>damageScale(sIntellect, 60, 450)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -990,16 +990,6 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Reaper/const_A1_SUP_Cost" />
-				<Item href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" id="16DA94B6-2E1D-40AB-AFC7-2C6129EAF721">
-					<UnitConstant>
-						<name>A1_SUP_AddDamagePercent</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>20</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

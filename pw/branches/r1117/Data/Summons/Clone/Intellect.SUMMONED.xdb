@@ -35,9 +35,4 @@
 			</stats>
 		</StatsContainer>
 	</stats>
-	<targetingParams href="/Summons/Clone/Intellect.SUMMONED" id="CF711C8E-0036-4795-B592-6D1F16A713C6">
-		<UnitTargetingParameters parent="/Summons/Clone/TargetParametersClone.UNTP">
-			<chaseRange>17</chaseRange>
-		</UnitTargetingParameters>
-	</targetingParams>
 </Summoned>

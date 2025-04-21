@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A1.TALENT" Count="1" />
 	<name>A1_SUP_BonusHaste</name>
 	<var>
-		<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCGP/Q3CUhAAAA2V382UX8i+VdwwAAAAAAAElA</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>sMoveSpeed-50</sString>
+		<sString>5.0f</sString>
 	</var>
 </UnitConstant>

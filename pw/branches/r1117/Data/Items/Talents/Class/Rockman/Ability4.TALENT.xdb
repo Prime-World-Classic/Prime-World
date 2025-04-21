@@ -2,6 +2,7 @@
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/SocialTest.ROOT" Count="1" />
+	<BackLink DBID="/Items/Talents/Rockman.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4_2u.TALENT" Count="1" />
@@ -881,7 +882,7 @@
 										</Item>
 									</applicators>
 									<applyTarget>AbilityOwner</applyTarget>
-									<behaviorFlags>4</behaviorFlags>
+									<behaviorFlags>2</behaviorFlags>
 									<caption>Program</caption>
 									<effect>
 										<Item href="" />

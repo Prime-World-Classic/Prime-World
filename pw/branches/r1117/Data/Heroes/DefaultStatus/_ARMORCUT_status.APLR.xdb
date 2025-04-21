@@ -2,7 +2,7 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Archeress/Ability_A4_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A1.TALENT" Count="30" />
+	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A1.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Crusader/A4_DamageAndDebuff.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Crusader/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fairy/Ability_A3_2.TALENT" Count="1" />

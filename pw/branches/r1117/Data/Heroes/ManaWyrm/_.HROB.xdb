@@ -1300,9 +1300,9 @@
 					<levelUpgrades />
 					<statId>BaseAttack</statId>
 					<value>
-						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>1.0f</sString>
+						<sString>0.8f</sString>
 					</value>
 				</Item>
 				<Item>

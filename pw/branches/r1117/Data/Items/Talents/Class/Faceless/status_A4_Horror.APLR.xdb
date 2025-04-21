@@ -52,9 +52,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FR4AAAACAAAAJQAAAD4AAABGYWNlbGVzc19BNHUxAAAARmFjZWxlc3NfQTR1MQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<compiledString></compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Faceless_A4u1")</sString>
+					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -134,7 +134,7 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+		<compiledString></compiledString>
 		<returnType>bool</returnType>
 		<sString>true</sString>
 	</enabled>

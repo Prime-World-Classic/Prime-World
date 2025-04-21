@@ -6,7 +6,7 @@
 	<BackLink DBID="/Items/Talents/WitchDoctor_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/_refreshMana.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability2_Upg1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/WitchDoctor_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/WitchDoctor.TALENTSET" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/WitchDoctor/Ability0.TALENT" Count="1" />

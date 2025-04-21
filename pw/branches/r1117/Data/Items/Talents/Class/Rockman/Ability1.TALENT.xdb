@@ -17,7 +17,6 @@
 	<BackLink DBID="/Test/Talents/Rockman/Elite_Life.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Rockman/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Rockman/Epic_StrLife.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

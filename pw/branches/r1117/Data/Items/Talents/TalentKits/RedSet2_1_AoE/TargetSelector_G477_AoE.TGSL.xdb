@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ConditionTargetSelector>
 	<BackLink DBID="/Items/Talents/TalentKits/RedSet2_1_AoE/status_G477_ImFurios.APLR" Count="3" />
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3.TALENT" Count="1" />
 	<condition>
 		<compiledString>FRUAAAACAAAAIAAAAEAAAABOZXV0cmFsU3RhdHVzAAAAV2FyZABVi+xRagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdSlqAItNEFFoEAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3D</compiledString>
 		<returnType>bool</returnType>

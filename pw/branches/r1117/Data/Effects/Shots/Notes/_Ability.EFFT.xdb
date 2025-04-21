@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
 	<BackLink DBID="/Items/Talents/Class/Bard/A1A4_SpellEnemies.SPLL" Count="1" />
-	<BackLink DBID="/Heroes/FallenAngel/_.HROB" Count="1" />
 	<component href="/Effects/Shots/Notes/_Ability.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

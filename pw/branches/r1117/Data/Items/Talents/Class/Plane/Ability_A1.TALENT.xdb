@@ -139,9 +139,9 @@
 					<UnitConstant>
 						<name>A1_VoidZoneDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAAEIAAG1DVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAAQgAAbUM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(max(sStrength, sIntellect),32, 237)</sString>
+							<sString>damageScale( sIntellect,32, 237)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -162,26 +162,6 @@
 							<compiledString>FSgAAAACAAAANwAAAFEAAABBMV9Wb2lkWm9uZURhbWFnZQAAAEExX1ZvaWRab25lRHVyYXRpb24AVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgUAAAAi1UQiwKLTRCLUFDdXfj/0tx9+Nld9NlF9IvlXcM=</compiledString>
 							<returnType>float</returnType>
 							<sString>cA1_VoidZoneDamage/cA1_VoidZoneDuration</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Plane/Ability_A1.TALENT" id="24392409-E25F-4260-B166-5A5A7B07112A">
-					<UnitConstant>
-						<name>Stun_Condition</name>
-						<var>
-							<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgjABAAD/0ItNCIsRi00Ii4I0AQAA3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAANtF9IvlXcM=</compiledString>
-							<returnType>float</returnType>
-							<sString>sStrength&gt;sIntellect</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Plane/Ability_A1.TALENT" id="818BB977-3EDF-4632-94A1-8D2D21C24B67">
-					<UnitConstant>
-						<name>Stun_Duration</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
-							<returnType>float</returnType>
-							<sString>0.5</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -302,9 +282,9 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLQhT/0F3D</compiledString>
+		<compiledString>FQkAAAABAAAAFQAAAEExX1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>sRange</sString>
+		<sString>cA1_Range</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

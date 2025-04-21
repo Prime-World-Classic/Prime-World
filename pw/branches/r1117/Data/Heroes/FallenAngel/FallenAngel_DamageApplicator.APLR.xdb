@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VariableProxyApplicator>
-	<BackLink DBID="/Heroes/FallenAngel/_.HROB" Count="5" />
+	<BackLink DBID="/Heroes/FallenAngel/_.HROB" Count="1" />
 	<applicators>
 		<Item>
 			<applicator href="/Heroes/FallenAngel/FallenAngel_DamageApplicator.APLR" id="1A7CAB81-1EA6-4494-A6D0-8C3D33933C05">

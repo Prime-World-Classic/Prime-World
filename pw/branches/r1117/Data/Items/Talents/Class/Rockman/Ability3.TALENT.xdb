@@ -4,7 +4,7 @@
 	<BackLink DBID="/SocialTest.ROOT" Count="1" />
 	<BackLink DBID="/Items/Talents/Rockman.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Rockman_Alternative.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability_A3_SUP.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability_A3_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3Upg.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/WithA1Upgrade.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
@@ -19,7 +19,6 @@
 	<BackLink DBID="/Test/Talents/Rockman/Elite_Life.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Rockman/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Rockman/Epic_StrLife.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -282,7 +281,7 @@
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</continueCondition>
-															<continueEvents>2</continueEvents>
+															<continueEvents>1</continueEvents>
 															<delay>
 																<compiledString></compiledString>
 																<returnType>float</returnType>
@@ -322,7 +321,7 @@
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</continueCondition>
-															<continueEvents>2</continueEvents>
+															<continueEvents>1</continueEvents>
 															<delay>
 																<compiledString></compiledString>
 																<returnType>float</returnType>
@@ -363,62 +362,6 @@
 																<sString>0</sString>
 															</continueCondition>
 															<continueEvents>1</continueEvents>
-															<delay>
-																<compiledString></compiledString>
-																<returnType>float</returnType>
-																<sString>-1.0</sString>
-															</delay>
-															<stopCondition>
-																<compiledString></compiledString>
-																<returnType>bool</returnType>
-																<sString>0</sString>
-															</stopCondition>
-															<stopEvents>0</stopEvents>
-														</Item>
-														<Item>
-															<applicator href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="85C58639-A2C8-4481-AD7F-0D960E026312">
-																<StatusApplicator parent="/Heroes/DefaultStatus/_DISARM.APLR">
-																	<startCondition>
-																		<compiledString>FUsAAAAIAAAAUgAAAGgAAACIAAAAwQAAANYAAADsAAAA+AAAABEBAABBbGxvd0NvbnRyb2wAAAAAVGFyZ2V0AABUYXJnZXQAAExpa2VIZXJvAAAAAFJvY2ttYW5fQTNfU1VQAABSb2NrbWFuX0EzX1NVUABVi+yD7BxoAAAAAItFDIsQi00Mi4KIAQAA/9DcHWUBAADf4PbERA+L2AAAAItNEIsRi00Qi0JI/9CJRfxoEAAAAItN/IsRi038i0JM/9CJRfiLTfiLEYtN+ItCVP/QD7bIhcl1R4tVEIsCi00Qi1BI/9KJRfRoGAAAAItF9IsQi030i0JM/9CJRfBoIAAAAItN8IsRi03wi4KIAQAA/9DcHV0BAADf4PbERHtYaCwAAACLTQiLEYtNCIuCqAEAAP/QhcB0Kmg8AAAAi00IixGLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk3rhcl0CcdF5AEAAADrB8dF5AAAAACKReSL5V3DAAAAAAAAAAAAAAAAAADwPw==</compiledString>
-																		<returnType>bool</returnType>
-																		<sString>receiver.vAllowControl != 1 &amp;&amp; (appl.parent.oTarget.IsHero() || appl.parent.oTarget.vLikeHero)&amp;&amp;tal("Rockman_A3_SUP")</sString>
-																	</startCondition>
-																</StatusApplicator>
-															</applicator>
-															<continueCondition>
-																<compiledString></compiledString>
-																<returnType>bool</returnType>
-																<sString>0</sString>
-															</continueCondition>
-															<continueEvents>1</continueEvents>
-															<delay>
-																<compiledString></compiledString>
-																<returnType>float</returnType>
-																<sString>-1.0</sString>
-															</delay>
-															<stopCondition>
-																<compiledString></compiledString>
-																<returnType>bool</returnType>
-																<sString>0</sString>
-															</stopCondition>
-															<stopEvents>0</stopEvents>
-														</Item>
-														<Item>
-															<applicator href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="CCD0AB03-610C-45E3-962F-2AD1199B4070">
-																<StatusApplicator parent="/Heroes/DefaultStatus/_SLOW_MOVE.APLR">
-																	<enabled>
-																		<compiledString>FT8AAAAGAAAARgAAAFwAAABoAAAAfgAAAIoAAACjAAAASW1tdW5lMkNvbnRyb2wAAEFsbG93Q29udHJvbAAAAABSb2NrbWFuX0EzX1NVUAAAUm9ja21hbl9BM19TVVAAVYvsg+wMaAAAAACLRQyLEItNDIuCiAEAAP/Q3B33AAAA3+D2xER7ImgQAAAAi00MixGLTQyLgogBAAD/0Nwd7wAAAN/g9sREelhoIAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaDAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAADwPwAAAAAAAAAA</compiledString>
-																		<returnType>bool</returnType>
-																		<sString>(receiver.vImmune2Control == 0 || receiver.vAllowControl == 1)&amp;&amp;tal("Rockman_A3_SUP")</sString>
-																	</enabled>
-																</StatusApplicator>
-															</applicator>
-															<continueCondition>
-																<compiledString></compiledString>
-																<returnType>bool</returnType>
-																<sString>0</sString>
-															</continueCondition>
-															<continueEvents>2</continueEvents>
 															<delay>
 																<compiledString></compiledString>
 																<returnType>float</returnType>
@@ -629,225 +572,6 @@
 						</stopCondition>
 						<stopEvents>0</stopEvents>
 					</Item>
-					<Item>
-						<applicator href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="F41DAF47-045F-40DA-87ED-4A992A31E5C9">
-							<StatusApplicator>
-								<applicators>
-									<Item href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="8345E0B9-5FD1-497C-86C5-876026C83936">
-										<GhostMoveApplicator>
-											<applyTarget>AbilityOwner</applyTarget>
-											<behaviorFlags>0</behaviorFlags>
-											<caption>Проходим сквозь юниты</caption>
-											<collisionFlags>1</collisionFlags>
-											<effect>
-												<Item href="" />
-												<Item href="" />
-											</effect>
-											<enabled>
-												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</enabled>
-											<formulaName></formulaName>
-											<lifeTime>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
-												<returnType>float</returnType>
-												<sString>-1</sString>
-											</lifeTime>
-											<LoggingEvent>-1</LoggingEvent>
-											<providerName></providerName>
-											<pushUnits>true</pushUnits>
-											<startCondition>
-												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</startCondition>
-										</GhostMoveApplicator>
-									</Item>
-									<Item href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="F5715815-D5B9-4B83-86AB-714ABA6649B6">
-										<SpellPeriodicallyApplicator>
-											<applyTarget>ApplicatorTarget</applyTarget>
-											<behaviorFlags>0</behaviorFlags>
-											<caption>период урон всем врагам</caption>
-											<effect>
-												<Item href="" />
-												<Item href="" />
-											</effect>
-											<enabled>
-												<compiledString>FQAAAAAAAAAAVYvsi0UMixCLTQyLQkT/0F3D</compiledString>
-												<returnType>bool</returnType>
-												<sString>rIsMoving</sString>
-											</enabled>
-											<formulaName></formulaName>
-											<lifeTime>
-												<compiledString></compiledString>
-												<returnType>float</returnType>
-												<sString>-1.0</sString>
-											</lifeTime>
-											<LoggingEvent>-1</LoggingEvent>
-											<period>
-												<compiledString>FRoAAAABAAAAJgAAAEEzX1NVUF9Nb3ZpbmdEYW1hZ2VQZXJpb2QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-												<returnType>float</returnType>
-												<sString>cA3_SUP_MovingDamagePeriod</sString>
-											</period>
-											<providerName></providerName>
-											<scaleMode>ScaleIsCount</scaleMode>
-											<spell href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="1D9C3EC4-A7F4-4672-BBBE-77D1D938D47C">
-												<Spell>
-													<applicators>
-														<Item href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="890901A3-E0EA-4EDF-BBBD-9E5A762752F6">
-															<DamageApplicator>
-																<applyTarget>ApplicatorTarget</applyTarget>
-																<cancelInvisibility>false</cancelInvisibility>
-																<caption>урон</caption>
-																<damage>
-																	<compiledString>FRQAAAABAAAAIAAAAEEzX1NVUF9Nb3ZpbmdEYW1hZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-																	<returnType>float</returnType>
-																	<sString>cA3_SUP_MovingDamage</sString>
-																</damage>
-																<damageMode>4</damageMode>
-																<damageType>Material</damageType>
-																<enabled>
-																	<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-																	<returnType>bool</returnType>
-																	<sString>true</sString>
-																</enabled>
-																<formulaName></formulaName>
-																<LoggingEvent>-1</LoggingEvent>
-																<providerName></providerName>
-																<timeLimiter>-1</timeLimiter>
-																<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
-															</DamageApplicator>
-														</Item>
-													</applicators>
-													<dispatch href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="9E4C9EB8-FADC-4000-BC76-8FF9103A3B84">
-														<DispatchImmediate>
-															<alwaysApply>false</alwaysApply>
-															<applyEffect>
-																<Item href="" />
-																<Item href="" />
-															</applyEffect>
-															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-															<applyEffectOrientation>Default</applyEffectOrientation>
-															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-															<dieAfterApply>true</dieAfterApply>
-															<dispatchEffect>
-																<Item href="" />
-																<Item href="" />
-															</dispatchEffect>
-															<flags>0</flags>
-															<instantApply>false</instantApply>
-														</DispatchImmediate>
-													</dispatch>
-												</Spell>
-											</spell>
-											<startCondition>
-												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</startCondition>
-											<startOffset>
-												<compiledString></compiledString>
-												<returnType>float</returnType>
-												<sString>0.0f</sString>
-											</startOffset>
-											<targetSelector href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="B347AD8F-1022-43EF-9CCA-D280E86C9CA7">
-												<ConditionTargetSelector>
-													<condition>
-														<compiledString>FRUAAAACAAAAIAAAAEAAAABOZXV0cmFsU3RhdHVzAAAAV2FyZABVi+xRagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdSlqAItNEFFoEAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3D</compiledString>
-														<returnType>bool</returnType>
-														<sString>receiver.FindApplicator("NeutralStatus", pMisc, GLOBAL) == pMisc &amp;&amp;  receiver.applWard(GLOBAL) == pMisc</sString>
-													</condition>
-													<flags>0</flags>
-													<mode>Normal</mode>
-													<targetSelector href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="B1EE094A-42B0-49A8-AC27-897D856026C0">
-														<AreaTargetSelector>
-															<absolutePosition>
-																<x>0</x>
-																<y>0</y>
-															</absolutePosition>
-															<flags>0</flags>
-															<mode>Normal</mode>
-															<range>
-																<compiledString>FRkAAAABAAAAJQAAAEEzX1NVUF9Nb3ZpbmdEYW1hZ2VSYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-																<returnType>float</returnType>
-																<sString>cA3_SUP_MovingDamageRange</sString>
-															</range>
-															<targetFilter>538771519</targetFilter>
-															<targetSelector href="" />
-														</AreaTargetSelector>
-													</targetSelector>
-												</ConditionTargetSelector>
-											</targetSelector>
-										</SpellPeriodicallyApplicator>
-									</Item>
-								</applicators>
-								<applyTarget>AbilityOwner</applyTarget>
-								<behaviorFlags>0</behaviorFlags>
-								<caption>Статус Проходим сквозь юниты</caption>
-								<customCounter>
-									<compiledString></compiledString>
-									<returnType>int</returnType>
-									<sString>0</sString>
-								</customCounter>
-								<customProgress>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>-1.0</sString>
-								</customProgress>
-								<description textref="/Items/Talents/Class/Rockman/Ability3.TALENT_f41daf47045f40da87ed4a992a31e5c9_description.txt" />
-								<dispellPriority>Medium</dispellPriority>
-								<effect>
-									<Item href="" />
-									<Item href="" />
-								</effect>
-								<enabled>
-									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-									<returnType>bool</returnType>
-									<sString>true</sString>
-								</enabled>
-								<flags>0</flags>
-								<formulaName></formulaName>
-								<image href="/UI/Styles/Icons/Heroes/Rockman/A3_SUP.ITEX" />
-								<lifeTime>
-									<compiledString>FQ4AAAABAAAAGgAAAFNsb3dfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-									<returnType>float</returnType>
-									<sString>cSlow_Duration</sString>
-								</lifeTime>
-								<LoggingEvent>-1</LoggingEvent>
-								<name textref="/Items/Talents/Class/Rockman/Ability3.TALENT_f41daf47045f40da87ed4a992a31e5c9_name.txt" />
-								<power>0</power>
-								<providerName></providerName>
-								<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
-								<stackCount>0</stackCount>
-								<startCondition>
-									<compiledString>FR8AAAACAAAAJgAAAD8AAABSb2NrbWFuX0EzX1NVUAAAUm9ja21hbl9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
-									<returnType>bool</returnType>
-									<sString>tal("Rockman_A3_SUP")</sString>
-								</startCondition>
-								<statusPosition>0</statusPosition>
-								<stopBehaviour>StopByTime</stopBehaviour>
-								<unstackableWith href="" />
-							</StatusApplicator>
-						</applicator>
-						<continueCondition>
-							<compiledString></compiledString>
-							<returnType>bool</returnType>
-							<sString>0</sString>
-						</continueCondition>
-						<continueEvents>0</continueEvents>
-						<delay>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>-1.0</sString>
-						</delay>
-						<stopCondition>
-							<compiledString></compiledString>
-							<returnType>bool</returnType>
-							<sString>0</sString>
-						</stopCondition>
-						<stopEvents>0</stopEvents>
-					</Item>
 				</applicators>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>2</behaviorFlags>
@@ -955,66 +679,6 @@
 							<compiledString>FR8AAAACAAAAJgAAAD8AAABSb2NrbWFuX0EzX1NVUAAAUm9ja21hbl9BM19TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37iU3020X0i+Vdww==</compiledString>
 							<returnType>float</returnType>
 							<sString>tal("Rockman_A3_SUP") </sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="B2B8283A-3994-486B-AC0E-77AA1F2F594C">
-					<UnitConstant>
-						<name>Dec_MoveSpeed</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
-							<returnType>float</returnType>
-							<sString>50</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="8668AE1E-0764-430D-B97F-FF43AA4EF949">
-					<UnitConstant>
-						<name>Slow_Duration</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
-							<returnType>float</returnType>
-							<sString>3</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="E9954C4F-051F-4DAC-BEBE-F6BE25430611">
-					<UnitConstant>
-						<name>Disarm_Duration</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
-							<returnType>float</returnType>
-							<sString>1.5</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="7AFDD917-2F2B-4593-8474-4B8F7AE8C648">
-					<UnitConstant>
-						<name>A3_SUP_MovingDamage</name>
-						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCDP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABAQQAArkI=</compiledString>
-							<returnType>float</returnType>
-							<sString>damageScaleCustomLife(sMaxLife, 48/4, 348/4)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="A713F4A0-ECD8-4920-BFE7-1526A099F4E2">
-					<UnitConstant>
-						<name>A3_SUP_MovingDamagePeriod</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
-							<returnType>float</returnType>
-							<sString>0.5</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="647B90DF-2DFE-4ED1-B704-F479218A554C">
-					<UnitConstant>
-						<name>A3_SUP_MovingDamageRange</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
-							<returnType>float</returnType>
-							<sString>1.5</sString>
 						</var>
 					</UnitConstant>
 				</Item>

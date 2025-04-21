@@ -8,7 +8,6 @@
 	<BackLink DBID="/Maps/Multiplayer/MidOnly/_.BOTS" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/PFmap/_.ADMPSTTN" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/PFmap/Training.ADMPSTTN" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/MidOnly/Aram/_.BOTS" Count="1" />
 	<abilities>
 		<Item href="" />
 		<Item href="" />

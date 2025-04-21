@@ -689,9 +689,9 @@
 			<autoTargetSelector href="" />
 			<caption></caption>
 			<castAllowRange>
-				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+				<compiledString></compiledString>
 				<returnType>float</returnType>
-				<sString>0</sString>
+				<sString>0.0f</sString>
 			</castAllowRange>
 			<castLimitations />
 			<commonDescription textref="" />
@@ -738,16 +738,6 @@
 						<Item href="/Items/Talents/Class/FallenAngel/const_A0_Dist" />
 						<Item href="/Items/Talents/Class/FallenAngel/const_A0_AdditionalCreepDamage" />
 						<Item href="/Items/Talents/Class/FallenAngel/const_A0_CreepDamage" />
-						<Item href="/Heroes/FallenAngel/_.HROB" id="A459D535-F4BA-4FB2-85DB-60C53FBD17BF">
-							<UnitConstant>
-								<name>A3_SUP_RangeUP</name>
-								<var>
-									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
-									<returnType>float</returnType>
-									<sString>5</sString>
-								</var>
-							</UnitConstant>
-						</Item>
 					</vars>
 				</UnitConstantsContainer>
 			</constants>
@@ -762,7 +752,7 @@
 				<sString>0.0f</sString>
 			</cooldownTimeSecondState>
 			<description textref="" />
-			<dispatch href="/Heroes/FallenAngel/_.HROB" id="613E1861-7EFD-4979-A748-379C196DF67E">
+			<dispatch href="/Heroes/FallenAngel/_.HROB" id="04CFD037-678B-4CAD-852F-F436364309C8">
 				<DispatchLinear>
 					<aiming>Straight</aiming>
 					<alwaysApply>false</alwaysApply>
@@ -775,7 +765,7 @@
 					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
 					<dieAfterApply>true</dieAfterApply>
 					<dispatchEffect>
-						<Item href="/Heroes/FallenAngel/_.HROB" id="ECF8CC5D-75DA-4BA7-8B55-283826D823EC">
+						<Item href="/Heroes/FallenAngel/_.HROB" id="8CCA7A7C-074A-4F77-9EF0-31082FF1E5C4">
 							<EffectList>
 								<deathType>Manual</deathType>
 								<effects>
@@ -824,9 +814,9 @@
 			<targetType>0</targetType>
 			<type>Passive</type>
 			<useRange>
-				<compiledString>FW8AAAAGAAAAdgAAAI8AAADJAAAA4gAAAB4BAABNAQAARmFsbGVuQW5nZWxfQTNfU1VQAABGYWxsZW5BbmdlbF9BM19TVVAAAEZhbGxlbkFuZ2VsX0EzAABGYWxsZW5BbmdlbF9BMwAARmFsbGVuQW5nZWxfQTNTdGF0dXMAAAAAQTNfU1VQX1JhbmdlVVAAVYvsg+wsaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhLkAAABoKAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaDgAAACLRQiLEItNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXRqagCLVRBSaEgAAACLRQyLEItNDIuCnAEAAP/QO0UQdDKLTQiLEYtNCItCFP/Qi00MUYtVCFJoYAAAAItFEIsQi00Qi0JQ3V3o/9DcRejdXeDrEItNCIsRi00Ii0IU/9DdXeDdReDdXdjrEItNCIsRi00Ii0IU/9DdXdjdRdjZXdTZRdSL5V3D</compiledString>
+				<compiledString></compiledString>
 				<returnType>float</returnType>
-				<sString>(tal("FallenAngel_A3_SUP") &amp;&amp; tal("FallenAngel_A3")) ? (receiver.FindApplicator("FallenAngel_A3Status",pMisc, GLOBAL) != pMisc ? sRange+cA3_SUP_RangeUP  :sRange ) : sRange</sString>
+				<sString>0.0f</sString>
 			</useRange>
 			<useRangeMaterial href="" />
 			<warFogRemoveRadius>0</warFogRemoveRadius>

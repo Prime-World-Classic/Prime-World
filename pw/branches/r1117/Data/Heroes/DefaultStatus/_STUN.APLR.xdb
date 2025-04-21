@@ -35,7 +35,6 @@
 	</startCondition>
 	<talents>
 		<Item href="/Items/Talents/Class/Shadow/Ability_A3.TALENT" />
-		<Item href="/Items/Talents/Class/Reaper/Ability_A4.TALENT" />
 	</talents>
 	<useListAs>ListAsException</useListAs>
 </FlagsApplicator>

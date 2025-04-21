@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CountingTargetSelector>
-	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A1.TALENT" Count="15" />
+	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A2.TALENT" Count="2" />
 	<enableSorting>true</enableSorting>
 	<flags>0</flags>

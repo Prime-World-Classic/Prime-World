@@ -3,8 +3,8 @@
 	<BackLink DBID="/Items/Talents/Class/Faceless/Ability4.TALENT" Count="1" />
 	<name>Add_CritChanceBonusPercent_ForA4Kill</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 		<returnType>float</returnType>
-		<sString>2</sString>
+		<sString>1</sString>
 	</var>
 </UnitConstant>

@@ -15,6 +15,7 @@
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/PlagueDoctor/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Plane/A1_program.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A1.TALENT" Count="1" />

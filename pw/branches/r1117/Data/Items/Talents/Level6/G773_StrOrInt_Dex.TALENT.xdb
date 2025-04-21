@@ -10,6 +10,7 @@
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_CollectionList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Test/Talents/RedSet7_11.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Bomber/Test.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Assassin.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>false</activeCustomTrigger>
 	<allowChase>

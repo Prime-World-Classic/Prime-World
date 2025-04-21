@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramApplicator>
 	<BackLink DBID="/Heroes/Faceless/_.HROB" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="7" />
+	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="2" />
 	<applicators>
 		<Item>
 			<applicator href="/Items/Talents/Class/Faceless/A4IncreaseCCB.APLR" id="CD9A75CD-2918-4E4E-9DBB-C16329C4F503">

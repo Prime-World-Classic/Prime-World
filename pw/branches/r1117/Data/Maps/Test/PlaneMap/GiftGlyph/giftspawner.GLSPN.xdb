@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GlyphSpawner>
-	<BackLink DBID="/Maps/Test/PlaneMap/_.ADMP" Count="10" />
+	<BackLink DBID="/Maps/Test/PlaneMap/_.ADMP" Count="3" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/_.ADMP" Count="24" />
 	<collision>
 		<x1>0</x1>

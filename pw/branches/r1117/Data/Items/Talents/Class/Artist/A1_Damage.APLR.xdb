@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DamageApplicator parent="/GameLogic/GeneralApplicators/CommonDamage.APLR">
-	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A1.TALENT" Count="15" />
+	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A1.TALENT" Count="2" />
 	<damage>
 		<compiledString>FQoAAAABAAAAFgAAAEExX0RhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>

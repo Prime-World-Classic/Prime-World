@@ -40,9 +40,4 @@
 			</stats>
 		</StatsContainer>
 	</stats>
-	<targetingParams href="/Summons/Clone/Strength.SUMMONED" id="37AD61F6-7F8E-47A3-AD48-5CA95A5ACC08">
-		<UnitTargetingParameters parent="/Summons/Clone/TargetParametersClone.UNTP">
-			<chaseRange>17</chaseRange>
-		</UnitTargetingParameters>
-	</targetingParams>
 </Summoned>

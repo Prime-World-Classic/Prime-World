@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Heroes/FallenAngel/_.HROB" Count="5" />
-	<BackLink DBID="/Items/Talents/Class/Bard/A1A4_SpellEnemies.SPLL" Count="1" />
-	<BackLink DBID="/Heroes/Hunter/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/FallenAngel/_.HROB" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/FallenAngel/status_tech_forA0.APLR" />
 	</applicators>

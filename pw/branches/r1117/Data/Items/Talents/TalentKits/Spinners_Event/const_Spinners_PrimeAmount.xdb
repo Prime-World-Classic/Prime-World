@@ -7,8 +7,6 @@
 	<BackLink DBID="/Items/Talents/Level1/G610_Sta.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G606_Str.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G607_Int.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level1/G610_1_Life.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level1/G611_1_Energy.TALENT" Count="1" />
 	<name>PrimeAmount</name>
 	<var>
 		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>

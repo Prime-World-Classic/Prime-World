@@ -33,66 +33,6 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Items/Talents/Class/Assassin/Ability_A2.TALENT" id="9698FDC9-6235-4F69-897A-9F65C0EBAB7B">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Обнулить рз</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-						<returnType>float</returnType>
-						<sString>0.0f</sString>
-					</addValue>
-					<multValue>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-						<returnType>float</returnType>
-						<sString>0.0f</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable>NtOrNot</variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Class/Assassin/Ability_A2.TALENT" id="8FCC7D34-9BCA-4DC5-B746-418139FBE4D5">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>рз или нет?</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FRAAAAABAAAAQQAAAEEyX1RlcnJhaW5Cb251cwBVi+xRVotFCIsQi00Ii0JM/9CL8ItNCIsRi00Ii4KQAQAA/9A78HUfi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V382UX8XovlXcMAAAAA</compiledString>
-						<returnType>float</returnType>
-						<sString>nt(cA2_TerrainBonus,0)</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable>NtOrNot</variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
 		<Item href="/Items/Talents/Class/Assassin/status_A2_GhostRun.APLR" />
 	</applicators>
 	<askId>2</askId>
@@ -192,9 +132,9 @@
 					<UnitConstant>
 						<name>Haste_Percent</name>
 						<var>
-							<compiledString>FQgAAAACAAAADQAAACMAAABOdE9yTm90AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcBTEAAADZXfzZRfyL5V3DAAAAAAAANEA=</compiledString>
+							<compiledString>FRAAAAACAAAAQwAAAGMAAABBMl9UZXJyYWluQm9udXMAVYvsg+wIVotFCIsQi00Ii0JM/9CL8ItNCIsRi00Ii4KQAQAA/9A78HUfi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V382UX83AVyAAAA2V342UX4XovlXcMAAAAAAAA0QAAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>20+ sender.vNtOrNot</sString>
+							<sString>20+ nt( cA2_TerrainBonus, 0 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>

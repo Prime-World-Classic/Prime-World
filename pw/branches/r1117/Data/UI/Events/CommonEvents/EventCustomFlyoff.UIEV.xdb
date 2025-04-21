@@ -101,7 +101,6 @@
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Buildings/Road.FLAG" Count="1" />
 	<BackLink DBID="/Summons/EvilTree/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Spear/_Mowgli.SUMMONED" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4_2.TALENT" Count="1" />
 	<signRecipients>PLAYER_ONLY</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventCustomFlyoff.UIEV" id="8BB942C3-4CCD-4302-A121-C182BF75F144">

@@ -7,7 +7,7 @@
 				<applyTarget>AbilityOwner</applyTarget>
 				<behaviorFlags>1</behaviorFlags>
 				<caption>Даем себе гостмув</caption>
-				<collisionFlags>3</collisionFlags>
+				<collisionFlags>7</collisionFlags>
 				<effect>
 					<Item href="/Effects/General/Ghost/_Prime.EFFT" />
 					<Item href="" />
