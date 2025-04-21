@@ -296,6 +296,11 @@
 		</Item>
 		<Item href="/Items/Talents/Class/Assassin/status_A2_GhostRun.APLR" id="41C8057A-A5D3-4FE2-BF90-5F9F865E33E1">
 			<StatusApplicator parent="/Heroes/DefaultStatus/_HASTE_status.APLR">
+				<enabled>
+					<compiledString>FRAAAAACAAAAHQAAADAAAABIYXN0ZV9Db25kaXRpb24AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B1MAAAA3+D2xER7BsZF/wHrBMZF/wCKRf+L5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>cHaste_Condition</sString>
+				</enabled>
 				<image href="" />
 			</StatusApplicator>
 		</Item>

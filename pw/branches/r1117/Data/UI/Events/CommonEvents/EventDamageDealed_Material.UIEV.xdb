@@ -153,7 +153,7 @@
 	<BackLink DBID="/Items/Talents/Class/Archeress/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Archeress/PhysDamage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Artist/A1_Damage.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A1.TALENT" Count="15" />
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Bard/A4_SummonViolin.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/BladeDancer/appl_BladeDancerAA.APLR" Count="1" />
@@ -212,7 +212,7 @@
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A4.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Plane/programm.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4_2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4_2.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Shaman/A4Jump_spellapplicator.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A1.TALENT" Count="1" />
@@ -308,6 +308,8 @@
 	<BackLink DBID="/Summons/Panther/_Parent.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Panther/PantherAttack.ATCK" Count="2" />
 	<BackLink DBID="/Test/Talents/Feya_A1.ARCT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Vampire/A2_BlinkToTarget.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3.TALENT" Count="2" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" id="056252F1-C640-4D83-8686-0E833A2DD99E">

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramApplicator>
 	<BackLink DBID="/Heroes/Faceless/_.HROB" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="7" />
 	<applicators>
 		<Item>
 			<applicator href="/Items/Talents/Class/Faceless/A2InstaKill.APLR" id="F4C06E89-1E93-4CEE-9FCA-EE37D83C4C02">
@@ -100,8 +100,8 @@
 	<LoggingEvent>-1</LoggingEvent>
 	<providerName></providerName>
 	<startCondition>
-		<compiledString>FWcAAAAKAAAAdgAAAIkAAACZAAAAsgAAAOgAAAAIAQAARgEAAGYBAACfAQAAxgEAAEF0a0RhbWFnZUNvbmRpdGlvbgAARmFjZWxlc3NfQTIARmFjZWxlc3NfQTIARmFjZWxlc3NfQTIAQTJNaW5MaWZlAAAAQW5jaWVudABDYW50RGVhdGgAAABHNDU1UG9seVN0YXR1cwBVi+yD7BSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twd7AEAAN/g9sRED4tCAQAAaBQAAACLRQiLEItNCIuCqAEAAP/QhcB0KmggAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2gsAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaDgAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8ItFDIsQi00MiwL/0NlF8N7Z3+D2xEEPhZsAAABqAItNEFFoRAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1e2oAi0UQUGhMAAAAi00MixGLTQyLgpwBAAD/0DtFEHVbaAAABACLTQyLEYtNDItCaP/QD7bIhcl1QmoAi1UQUmhYAAAAi0UMixCLTQyLgpwBAAD/0DtFEHUii00MixGLTQyLAv/Q3B3sAQAA3+D2xEF1CcdF7AEAAADrB8dF7AAAAACKReyL5V3DAAAAAAAAAAAAAAAA</compiledString>
+		<compiledString>FV8AAAAJAAAAbgAAAIEAAACRAAAAqgAAAOAAAAAAAQAAOgEAAHMBAACaAQAAQXRrRGFtYWdlQ29uZGl0aW9uAABGYWNlbGVzc19BMgBGYWNlbGVzc19BMgBGYWNlbGVzc19BMgBBMk1pbkxpZmUAAABDYW50RGVhdGgAAABHNDU1UG9seVN0YXR1cwBVi+yD7BSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdwAEAAN/g9sRED4seAQAAaBQAAACLRQiLEItNCIuCqAEAAP/QhcB0KmggAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2gsAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaDgAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8ItFDIsQi00MiwL/0NlF8N7Z3+D2xEF1e2oAi00QUWhEAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHVbaAAABACLRQyLEItNDItCaP/QD7bIhcl1QmoAi1UQUmhQAAAAi0UMixCLTQyLgpwBAAD/0DtFEHUii00MixGLTQyLAv/Q3B3AAQAA3+D2xEF1CcdF7AEAAADrB8dF7AAAAACKReyL5V3DAAAAAAAAAAAAAAAA</compiledString>
 		<returnType>bool</returnType>
-		<sString>cAtkDamageCondition &amp;&amp; rLife &lt; talconst("Faceless_A2","A2MinLife") &amp;&amp; receiver.applAncient(GLOBAL) == pMisc &amp;&amp; receiver.applCantDeath(GLOBAL) == pMisc &amp;&amp; !rFlag(262144) &amp;&amp; receiver.applG455PolyStatus(GLOBAL) == pMisc &amp;&amp; rLife &gt; 0</sString>
+		<sString>cAtkDamageCondition &amp;&amp; rLife &lt; talconst("Faceless_A2","A2MinLife") &amp;&amp; receiver.applCantDeath(GLOBAL) == pMisc &amp;&amp; !rFlag(262144) &amp;&amp; receiver.applG455PolyStatus(GLOBAL) == pMisc &amp;&amp; rLife &gt; 0</sString>
 	</startCondition>
 </ProgramApplicator>

@@ -323,6 +323,95 @@
 																<stopEvents>0</stopEvents>
 															</Item>
 															<Item>
+																<applicator href="/Items/Talents/Class/Plane/Ability_A3.TALENT" id="DA9B3FDB-660A-418D-8BF7-A78C03B6D4BF">
+																	<SpellApplicator>
+																		<applyTarget>AbilityOwner</applyTarget>
+																		<caption>вешаем антиконтроль</caption>
+																		<enabled>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>true</sString>
+																		</enabled>
+																		<formulaName></formulaName>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<providerName></providerName>
+																		<spell href="/Items/Talents/Class/Plane/Ability_A3.TALENT" id="59C27EB8-E14E-40C2-AA89-5A74590A9FD6">
+																			<Spell>
+																				<applicators>
+																					<Item href="/Items/Talents/Class/Plane/Ability_A3.TALENT" id="08CD3B9C-EFC8-4C91-9D1A-83CAF8DB5510">
+																						<StatusApplicator parent="/Items/Talents/Class/Plane/status_A3_Shield.APLR">
+																							<applicators>
+																								<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
+																								<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+																								<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
+																							</applicators>
+																							<behaviorFlags>2</behaviorFlags>
+																							<caption>статус Невосприимчивый маневр</caption>
+																							<description textref="/Items/Talents/Class/Plane/Ability_A3.TALENT_08cd3b9cefc84c919d1a83caf8db5510_description.txt" />
+																							<effect>
+																								<Item href="/Effects/Buffs/Defence/_BootShield.EFFT" />
+																								<Item skip="1" />
+																							</effect>
+																							<formulaName></formulaName>
+																							<lifeTime>
+																								<compiledString>FRAAAAABAAAAHAAAAEEzX1NVUF9EdXJhdGlvbgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																								<returnType>float</returnType>
+																								<sString>cA3_SUP_Duration</sString>
+																							</lifeTime>
+																							<name textref="/Items/Talents/Class/Plane/Ability_A3.TALENT_08cd3b9cefc84c919d1a83caf8db5510_name.txt" />
+																							<startCondition>
+																								<compiledString>FR0AAAACAAAAJAAAAD0AAABQbGFuZV9BM19TVVAAAAAAUGxhbmVfQTNfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+																								<returnType>bool</returnType>
+																								<sString>tal("Plane_A3_SUP")</sString>
+																							</startCondition>
+																							<stopBehaviour>StopByTime</stopBehaviour>
+																						</StatusApplicator>
+																					</Item>
+																				</applicators>
+																				<dispatch href="/Items/Talents/Class/Plane/Ability_A3.TALENT" id="592C13C3-91E0-462B-A63F-A3B3D864A850">
+																					<DispatchImmediate>
+																						<alwaysApply>false</alwaysApply>
+																						<applyEffect>
+																							<Item href="" />
+																							<Item href="" />
+																						</applyEffect>
+																						<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																						<applyEffectOrientation>Default</applyEffectOrientation>
+																						<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																						<dieAfterApply>true</dieAfterApply>
+																						<dispatchEffect>
+																							<Item href="" />
+																							<Item href="" />
+																						</dispatchEffect>
+																						<flags>0</flags>
+																						<instantApply>false</instantApply>
+																					</DispatchImmediate>
+																				</dispatch>
+																			</Spell>
+																		</spell>
+																		<spellTarget>ApplicatorTarget</spellTarget>
+																		<targetSelector href="" />
+																	</SpellApplicator>
+																</applicator>
+																<continueCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>0</sString>
+																</continueCondition>
+																<continueEvents>1</continueEvents>
+																<delay>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</delay>
+																<stopCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>0</sString>
+																</stopCondition>
+																<stopEvents>0</stopEvents>
+															</Item>
+															<Item>
 																<applicator href="/Items/Talents/Class/Plane/Ability_A3.TALENT" id="CC42950E-A271-4761-8625-29E732F1A581">
 																	<SpellApplicator>
 																		<applyTarget>AbilityOwner</applyTarget>
@@ -923,6 +1012,16 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Plane/const_A0_BonusDex" />
 				<Item href="/Items/Talents/Class/Plane/const_A3_SUP_DecCD" />
+				<Item href="/Items/Talents/Class/Plane/Ability_A3.TALENT" id="A31BCD12-707B-499E-9BC3-EB17D7D6107C">
+					<UnitConstant>
+						<name>A3_SUP_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

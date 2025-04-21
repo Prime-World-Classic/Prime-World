@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatModApplicator>
-	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="7" />
 	<BackLink DBID="/Items/Talents/Class/Faceless/Ability3.TALENT" Count="1" />
 	<BackLink DBID="/Heroes/Faceless/_.HROB" Count="1" />
 	<applyTarget>AbilityOwner</applyTarget>

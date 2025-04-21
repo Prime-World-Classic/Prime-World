@@ -259,6 +259,37 @@
 						<upper>false</upper>
 					</ChangeAnimationApplicator>
 				</Item>
+				<Item href="/Summons/Bear/_.SUMMONED" id="31561540-04EA-4458-9C6B-F77FC9EC3414">
+					<GhostMoveApplicator>
+						<applyTarget>AbilityOwner</applyTarget>
+						<behaviorFlags>0</behaviorFlags>
+						<caption>гостмув</caption>
+						<collisionFlags>1</collisionFlags>
+						<effect>
+							<Item href="" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<lifeTime>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<providerName></providerName>
+						<pushUnits>true</pushUnits>
+						<startCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</startCondition>
+					</GhostMoveApplicator>
+				</Item>
 			</passiveApplicators>
 			<requireLineOfSight>true</requireLineOfSight>
 			<shortDescription textref="" />

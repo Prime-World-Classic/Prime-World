@@ -30,3 +30,15 @@ function ShowHeroLevel (heroName)
 	LuaShowTutorialOvertipLevelHighlight ( heroName, true )
 	WaitForUnitsDead( heroName )
 end
+
+function Init( reconnecting )
+	if not reconnecting then	
+		for team = 0, 1 do
+			for hero = 0, 4 do
+				currentHero = tostring(team) .. tostring(hero)
+				LuaHeroTakeConsumable ( currentHero, "RemoveCooldown" ) -- прописан в dictionary 
+			end
+		end
+				
+	end
+end

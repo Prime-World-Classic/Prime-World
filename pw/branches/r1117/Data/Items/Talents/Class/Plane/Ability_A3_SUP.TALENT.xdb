@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Plane.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Plane.TALENTSET" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Plane/Ability_A0_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
@@ -64,6 +64,16 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Plane/const_A3_SUP_DecCD" />
+				<Item href="/Items/Talents/Class/Plane/Ability_A3_SUP.TALENT" id="CE8364B9-7347-42CB-B20C-2CD254234D1E">
+					<UnitConstant>
+						<name>A3_SUP_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

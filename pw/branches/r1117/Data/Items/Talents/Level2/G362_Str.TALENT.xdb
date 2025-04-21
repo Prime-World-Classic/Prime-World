@@ -15,6 +15,7 @@
 	<BackLink DBID="/Items/Talents/Rockman_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Brewer.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Trickster_Alternative.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Artist.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

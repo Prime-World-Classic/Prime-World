@@ -26,13 +26,13 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G399_AntiCreepProc_NT.TALENT" />
+					<talent href="/Items/Talents/Level1/G718_Str.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G737_Int.TALENT" />
+					<talent href="/Items/Talents/Level1/G736_Str.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>3</aIPriority>
@@ -72,13 +72,13 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G738_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level2/G706_Str.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G451_Str_int_Life.TALENT" />
+					<talent href="/Items/Talents/Level2/G362_Str.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -88,7 +88,7 @@
 					<aIPriority>3</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Artist/Ability_A4_2.TALENT" />
+					<talent href="/Items/Talents/Class/Artist/Ability_A4.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -106,7 +106,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G686_Int.TALENT" />
+					<talent href="/Items/Talents/Level3/G687_Str.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -128,7 +128,7 @@
 					<aIPriority>2</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Artist/Ability_A4_2u.TALENT" />
+					<talent href="/Items/Talents/Class/Artist/Ability_A4u.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -168,7 +168,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Artist/Ability_A2_SUP.TALENT" />
+					<talent href="/Items/Talents/Class/Artist/Ability_A1_SUP.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>

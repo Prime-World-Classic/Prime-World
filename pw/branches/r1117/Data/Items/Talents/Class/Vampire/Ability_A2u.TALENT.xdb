@@ -62,6 +62,26 @@
 			<vars>
 				<Item href="/Items/Talents/Class/Vampire/const_A2u_RepeatTime" />
 				<Item href="/Items/Talents/Class/Vampire/const_A2u_RootDuration" />
+				<Item href="/Items/Talents/Class/Vampire/Ability_A2u.TALENT" id="59C313B1-FA30-4516-B21B-ADDAC8F9A2DF">
+					<UnitConstant>
+						<name>A2_DamageMaterial</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWAAAADZHCRR2QVcAAAA2RwkagCLRQiLEItNCIuCOAEAAP/QUdkcJItNCIsRi00Ii0Ic/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAlkIAoAxEVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(max(sAttackSpeed,sDexterity), 75, 562.5)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Vampire/Ability_A2u.TALENT" id="29317B1F-596D-44EA-B07E-9AC7A34A5709">
+					<UnitConstant>
+						<name>A2u_AddDefence</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>100</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

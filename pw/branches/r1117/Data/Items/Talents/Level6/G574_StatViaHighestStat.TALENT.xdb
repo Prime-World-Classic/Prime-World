@@ -22,7 +22,6 @@
 	<BackLink DBID="/Test/Talents/TestSetNewUltimates1.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Mage.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Artist.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Assassin.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Bard.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/BladeDancer.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Bomber.TALENTSET" Count="1" />

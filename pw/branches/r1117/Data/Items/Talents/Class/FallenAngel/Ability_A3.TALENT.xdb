@@ -227,7 +227,7 @@
 					<sString>true</sString>
 				</enabled>
 				<flags>0</flags>
-				<formulaName></formulaName>
+				<formulaName>A3_FallenA1</formulaName>
 				<lifeTime>
 					<compiledString></compiledString>
 					<returnType>float</returnType>

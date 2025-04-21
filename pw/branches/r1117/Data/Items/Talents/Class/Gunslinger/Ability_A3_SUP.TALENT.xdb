@@ -3,6 +3,7 @@
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Items/Talents/Gunslinger_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/Ability_A2_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Gunslinger.TALENTSET" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -55,6 +56,16 @@
 			<vars>
 				<Item href="/Items/Talents/Class/Gunslinger/const_A3_DamageDecreaseSUP_All" />
 				<Item href="/Items/Talents/Class/Gunslinger/const_A3_DamageDecreaseSUP" />
+				<Item href="/Items/Talents/Class/Gunslinger/Ability_A3_SUP.TALENT" id="50A89794-D532-455A-BB4F-4A207F2FDD1F">
+					<UnitConstant>
+						<name>Dec_MoveSpeed</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

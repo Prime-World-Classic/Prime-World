@@ -7,6 +7,7 @@
 	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A4u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Reaper.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -771,9 +772,9 @@
 															<flags>0</flags>
 															<mode>Normal</mode>
 															<range>
-																<compiledString>FQsAAAABAAAAFwAAAEE0XzJfUmFuZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 																<returnType>float</returnType>
-																<sString>cA4_2_Range</sString>
+																<sString>100</sString>
 															</range>
 															<targetFilter>536870915</targetFilter>
 															<targetSelector href="/Items/Talents/Class/Reaper/Ability_A4_2.TALENT" id="E12D04C6-6553-4CAE-983A-BC763629DCD6">
@@ -901,9 +902,9 @@
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQsAAAABAAAAFwAAAEE0XzJfUmFuZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>cA4_2_Range</sString>
+		<sString>100</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

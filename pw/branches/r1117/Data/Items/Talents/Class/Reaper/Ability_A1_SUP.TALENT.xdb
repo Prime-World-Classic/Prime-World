@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A2_SUP.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Reaper.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Reaper.TALENTSET" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Reaper_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<activationConditions />
@@ -55,6 +55,26 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Reaper/const_A1_SUP_Cost" />
+				<Item href="/Items/Talents/Class/Reaper/Ability_A1_SUP.TALENT" id="5C7678D1-030B-4A35-8676-A47E91FB0622">
+					<UnitConstant>
+						<name>A2_SUP_Cost</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>10</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Reaper/Ability_A1_SUP.TALENT" id="DFB78E1B-3438-4769-8783-3C72A47A6270">
+					<UnitConstant>
+						<name>A1_SUP_AddDamagePercent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>20</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

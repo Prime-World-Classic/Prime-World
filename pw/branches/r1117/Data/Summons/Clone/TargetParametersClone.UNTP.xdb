@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UnitTargetingParameters>
 	<BackLink DBID="/Summons/Clone/_Parent.SUMMONED" Count="1" />
-	<BackLink DBID="/Summons/Clone/Intellect.SUMMONED" Count="1" />
-	<BackLink DBID="/Summons/Clone/Strength.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/Clone/Intellect.SUMMONED" Count="2" />
+	<BackLink DBID="/Summons/Clone/Strength.SUMMONED" Count="2" />
 	<aggressiveNeutralAttackingHeroWeight>10</aggressiveNeutralAttackingHeroWeight>
 	<aggressiveNeutralWeight>10</aggressiveNeutralWeight>
 	<aggroRange>-1</aggroRange>

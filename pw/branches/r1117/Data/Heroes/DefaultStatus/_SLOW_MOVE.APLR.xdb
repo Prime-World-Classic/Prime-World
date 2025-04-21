@@ -34,7 +34,7 @@
 	<BackLink DBID="/Items/Talents/Class/FireFox/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Gunslinger/status_A3_Mark.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Gunslinger/status_A3_Mark.APLR" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A1.TALENT" Count="1" />
@@ -88,6 +88,7 @@
 	<BackLink DBID="/Items/Talents/Level1/G295_LifeDrain.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A1.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Frogenglut/Ability4.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3.TALENT" Count="3" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" id="BD7263A6-11FD-4EAA-A701-C57196049889">
 			<StatModApplicator>

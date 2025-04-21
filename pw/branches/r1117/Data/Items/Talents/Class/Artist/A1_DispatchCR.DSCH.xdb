@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DispatchLinear>
-	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A1.TALENT" Count="2" />
 	<aiming>Homing</aiming>
 	<alwaysApply>false</alwaysApply>
 	<applyEffect>

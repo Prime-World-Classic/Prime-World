@@ -57,9 +57,9 @@
 				<applyTarget>AbilityOwner</applyTarget>
 				<caption>- refresh CD классовых абилок</caption>
 				<enabled>
-					<compiledString>FR4AAAACAAAAJQAAAD4AAABGYWNlbGVzc19BNHUxAAAARmFjZWxlc3NfQTR1MQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Faceless_A4u1")</sString>
+					<sString>true</sString>
 				</enabled>
 				<flags>128</flags>
 				<formulaName></formulaName>
@@ -161,9 +161,9 @@
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<caption>оболочка для запуска статуса Потеря Сил с условием</caption>
 								<enabled>
-									<compiledString>FQ8AAAABAAAAGQAAAEZhY2VsZXNzX1V6aG9zAFWL7GoBi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DPJO0UQD5TBisFdww==</compiledString>
+									<compiledString>FQ8AAAABAAAAGgAAAEZhY2VsZXNzX1V6aG9zAFWL7FFqAYtFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1DTPJdAnHRfwBAAAA6wfHRfwAAAAAikX8i+Vdww==</compiledString>
 									<returnType>bool</returnType>
-									<sString>receiver.FindApplicator("Faceless_Uzhos",pMisc,UNIT) == pMisc</sString>
+									<sString>receiver.FindApplicator("Faceless_Uzhos",pMisc,UNIT) == pMisc &amp;&amp; 1==2</sString>
 								</enabled>
 								<formulaName></formulaName>
 								<LoggingEvent>-1</LoggingEvent>
@@ -409,6 +409,16 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Faceless/const_Add_CritChanceBonusPercent_ForA4Kill" />
+				<Item href="/Items/Talents/Class/Faceless/Ability4.TALENT" id="3DF87342-50F3-4208-95CA-C31C6C07F680">
+					<UnitConstant>
+						<name>CritChanceBonus</name>
+						<var>
+							<compiledString>FTAAAAAEAAAANwAAAE0AAAB5AAAAkgAAAEEwU3RhY2tDb3VudAAAAABBZGRfQ3JpdENoYW5jZV9SZWRzZXQ5XzFDb3VudGVyAFWL7IPsEGgQAAAAi0UIixCLTQiLgogBAAD/0NwdrgAAAN/g9sREegnHRfwEAAAA6wfHRfwAAAAAi00IixGLTQiLgmwBAAD/0GgAAAAAi00IixGLTQiLgogBAADdXfT/0NwNpgAAANxt9Npl/Nld8NlF8IvlXcMAAAAAAAAUQAAAAAAAAABA</compiledString>
+							<returnType>float</returnType>
+							<sString>sCritChanceBonus - sender.vA0StackCount * 5 - (sender.vAdd_CritChance_Redset9_1Counter == 2 ? 4 :0)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

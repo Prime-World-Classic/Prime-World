@@ -309,9 +309,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>90</sString>
+		<sString>75</sString>
 	</manaCost>
 	<marker>doCast2</marker>
 	<microAI href="/Items/Talents/Class/PlagueDoctor/Ability_A2.TALENT" id="230B47DB-F0D9-44E0-AABF-D868F0F59DBC">

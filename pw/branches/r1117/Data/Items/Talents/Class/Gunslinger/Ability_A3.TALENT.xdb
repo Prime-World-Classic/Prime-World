@@ -285,9 +285,9 @@
 					<UnitConstant>
 						<name>Dec_MoveSpeed</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<compiledString>FSYAAAACAAAALQAAAEYAAABHdW5zbGluZ2VyX0EzX1NVUAAAAEd1bnNsaW5nZXJfQTNfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4R6JTfTbRfSL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>30</sString>
+							<sString>tal("Gunslinger_A3_SUP") ? 30 : 0</sString>
 						</var>
 					</UnitConstant>
 				</Item>

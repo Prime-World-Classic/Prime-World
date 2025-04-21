@@ -28,7 +28,6 @@
 	<BackLink DBID="/Items/Talents/Dryad.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Invisible.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Wendigo.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Assassin.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

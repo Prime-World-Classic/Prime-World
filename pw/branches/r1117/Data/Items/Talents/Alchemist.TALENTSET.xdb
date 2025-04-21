@@ -26,13 +26,13 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G563_AxesEngReg.TALENT" />
+					<talent href="/Items/Talents/Level1/G610_1_Life.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G295_LifeDrain.TALENT" />
+					<talent href="/Items/Talents/Level1/G611_1_Energy.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>3</aIPriority>
@@ -106,7 +106,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G693_Str.TALENT" />
+					<talent href="/Items/Talents/Level3/G686_Int.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -140,13 +140,13 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G498_Blink.TALENT" />
+					<talent href="/Items/Talents/Level4/G688_AtSpd.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G782_StrInt.TALENT" />
+					<talent href="/Items/Talents/Level4/G689_Dex.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>

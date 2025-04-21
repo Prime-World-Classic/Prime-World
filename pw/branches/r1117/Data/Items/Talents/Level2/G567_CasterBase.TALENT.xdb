@@ -567,6 +567,7 @@
 					<Item href="/Items/Talents/Class/Witch/Ability_A1.TALENT" />
 					<Item href="/Items/Talents/Class/Witch/Ability_A4_2.TALENT" />
 					<Item href="/Items/Talents/Class/WitchDoctor/Ability1.TALENT" />
+					<Item href="/Items/Talents/Class/WitchDoctor/Ability2.TALENT" />
 					<Item href="/Items/Talents/Class/WitchDoctor/Ability3.TALENT" />
 					<Item href="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" />
 					<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" />
@@ -684,7 +685,6 @@
 				</startCondition>
 				<talents>
 					<Item href="/Items/Talents/Class/Chronicle/Ability_A0.TALENT" />
-					<Item href="/Items/Talents/Class/WitchDoctor/Ability2.TALENT" />
 					<Item href="/Items/Talents/Class/Brewer/Ability_A0.TALENT" />
 				</talents>
 				<targetAbility>TalentFromList</targetAbility>

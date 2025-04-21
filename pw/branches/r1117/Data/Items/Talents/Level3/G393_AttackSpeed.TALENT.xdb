@@ -34,6 +34,7 @@
 	<BackLink DBID="/Test/Talents/Witch/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witch/Epic_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Marine_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Assassin.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

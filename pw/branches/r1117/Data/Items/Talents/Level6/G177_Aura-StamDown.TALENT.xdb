@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Talents/TalentLists/Str_AtkSpd" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet2.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="1" />
+	<BackLink DBID="/Items/Talents/Plane.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

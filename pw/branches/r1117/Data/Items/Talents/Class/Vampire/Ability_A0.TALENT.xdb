@@ -96,9 +96,9 @@
 					<UnitConstant>
 						<name>A0_LifeDrainPercentTT</name>
 						<var>
-							<compiledString>FR8AAAAEAAAAJgAAAD8AAAB2AAAAiQAAAFZhbXBpcmVfQTBfU1VQAABWYW1waXJlX0EwX1NVUABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQL3QWnAAAA3V3w6wXZ6N1d8N1F8NwNlwAAANld7NlF7IvlXcMAAAAAAAAqQAAAAAAAAPA/zczMzMzM/D8=</compiledString>
+							<compiledString>FR8AAAAEAAAAJgAAAD8AAAB2AAAAiQAAAFZhbXBpcmVfQTBfU1VQAABWYW1waXJlX0EwX1NVUABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQL3QWnAAAA3V3w6wXZ6N1d8N1F8NwNlwAAANld7NlF7IvlXcMAAAAAAAA0QAAAAAAAAPA/zczMzMzM/D8=</compiledString>
 							<returnType>float</returnType>
-							<sString>(tal("Vampire_A0_SUP") ? 1.8 : 1) * 13.0f</sString>
+							<sString>(tal("Vampire_A0_SUP") ? 1.8 : 1) * 20.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

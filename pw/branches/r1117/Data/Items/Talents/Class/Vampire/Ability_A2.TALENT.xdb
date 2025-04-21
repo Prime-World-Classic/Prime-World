@@ -1032,6 +1032,16 @@
 				<name>Vampire_A2u</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Vampire/Ability_A2.TALENT" id="7CC8111F-6F60-43E6-B25F-84E6BE1768DB">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgkABAAD/0ItNCIsRi00Ii4JEAQAA3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sStamina&gt;sWill</sString>
+				</condition>
+				<name>Boost_Stamina</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Vampire/Ability_A2.TALENT" id="7DE3330C-C3D8-475E-B9A7-5F1EF3AAB0CA">
@@ -1089,6 +1099,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Vampire/Ability_A2.TALENT" id="DB04EF9A-A599-4609-9067-81DD05BF3C1A">
+					<UnitConstant>
+						<name>A2_DamageMaterial</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWAAAADZHCRR2QVcAAAA2RwkagCLRQiLEItNCIuCOAEAAP/QUdkcJItNCIsRi00Ii0Ic/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAlkIAoAxEVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(max(sAttackSpeed,sDexterity), 75, 562.5)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 				<Item href="/Items/Talents/Class/Vampire/const_A2u_RootDuration" />
 				<Item href="/Items/Talents/Class/Vampire/const_A2u_RepeatTime" />
 				<Item href="/Items/Talents/Class/Vampire/Ability_A2.TALENT" id="FA9A39F9-A9FA-41A1-8C8C-1B0363131AAD">
@@ -1128,6 +1148,26 @@
 							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 							<returnType>float</returnType>
 							<sString>cRange_ExLong</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Vampire/Ability_A2.TALENT" id="EF277C73-A8F0-4049-944B-DFFDF0911A37">
+					<UnitConstant>
+						<name>A2u_AddDefence</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAUEEAAIJCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(max(sStrength,sIntellect), 13, 65 )</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Vampire/Ability_A2.TALENT" id="D6397F1F-232D-4B1D-A6BB-A07038636A9A">
+					<UnitConstant>
+						<name>AddDefenceDuration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>5</sString>
 						</var>
 					</UnitConstant>
 				</Item>

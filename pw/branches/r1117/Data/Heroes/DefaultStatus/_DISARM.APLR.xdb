@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_Disarm.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_9_AntiMnM/appl_DisarmOnHit.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3.TALENT" Count="3" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_DISARM.APLR" id="D4CA6446-2DC4-4CF6-B255-0B475A41C55D">
 			<FlagsApplicator>

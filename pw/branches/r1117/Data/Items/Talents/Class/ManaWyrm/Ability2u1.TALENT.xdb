@@ -61,9 +61,9 @@
 					<UnitConstant>
 						<name>A2Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAEQgAAekM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACEQgAA+kM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect,33,250)</sString>
+							<sString>damageScale(sIntellect,33*2,250*2)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

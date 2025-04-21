@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PointTargetSelector>
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3.TALENT" Count="5" />
 	<checkMinRange>false</checkMinRange>
 	<mode>RangeFromOwner</mode>
 	<offset>

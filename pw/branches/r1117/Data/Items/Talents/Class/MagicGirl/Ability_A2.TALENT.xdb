@@ -3,7 +3,7 @@
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Items/Talents/MagicGirl.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/MagicGirl_Alternative.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A2_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
@@ -775,6 +775,81 @@
 										</targetSelector>
 									</SpellApplicator>
 								</Item>
+								<Item href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="E2DC89B4-18E7-48CC-B944-EBDC3A8966C1">
+									<TargetsCounterApplicator>
+										<applyTarget>AbilityOwner</applyTarget>
+										<behaviorFlags>0</behaviorFlags>
+										<caption> - считаем кол-во целей, чтобы сделать фейковый вампиризм</caption>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName>EnergyHealTargetCounter</formulaName>
+										<lifeTime>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+											<returnType>float</returnType>
+											<sString>0.4</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<targetSelector href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="7FEC2EB6-311F-424C-816E-7EF8CF78DC96">
+											<AreaTargetSelector>
+												<absolutePosition>
+													<x>0</x>
+													<y>0</y>
+												</absolutePosition>
+												<flags>0</flags>
+												<mode>Normal</mode>
+												<range>
+													<compiledString>FQoAAAABAAAAFgAAAEEyX1JhZGl1cwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+													<returnType>float</returnType>
+													<sString>cA2_Radius</sString>
+												</range>
+												<targetFilter>538771519</targetFilter>
+												<targetSelector href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="9A8179F4-5DFC-4700-BF07-147A3E06837C">
+													<SelectApplicatorTarget>
+														<applicatorIndex>0</applicatorIndex>
+														<applicatorName></applicatorName>
+														<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+														<selectTarget>Hier1UpApplicatorTarget</selectTarget>
+													</SelectApplicatorTarget>
+												</targetSelector>
+											</AreaTargetSelector>
+										</targetSelector>
+									</TargetsCounterApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="7F274FF9-2B11-4282-8D89-7A60B09E7673">
+									<HealApplicator>
+										<amount>
+											<compiledString>FUUAAAAEAAAAUgAAAHIAAACIAAAArgAAAEVuZXJneVBlclVuaXQAAABFbmVyZ3lVbml0Q291bnQARW5lcmd5SGVhbFRhcmdldENvdW50ZXIAdGFyZ2V0c0NvdW50AFWL7IPsEGoBi0UQUGggAAAAi00IixGLTQiLgpwBAAD/0IlF/ItNDFGLVQhSaBAAAACLRRCLEItNEItCUP/QUdkcJGg4AAAAi038ixGLTfyLQlT/0FHZHCToLQAAAIPECItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d9P/Q3E302V3w2UXwi+Vdw1WL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+											<returnType>float</returnType>
+											<sString>cEnergyPerUnit * min(sender.FindApplicator("EnergyHealTargetCounter", pMisc, UNIT)-&gt;GetVariable("targetsCount"),cEnergyUnitCount)</sString>
+										</amount>
+										<applyTarget>AbilityOwner</applyTarget>
+										<caption>Восстановление энергии</caption>
+										<enabled>
+											<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii0JM/9CL8ItNCIsRi00Ii4KQAQAA/9A78A+UwF5dww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>nt( true, false )</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<healTarget>Energy</healTarget>
+										<ignoreHealingMods>false</ignoreHealingMods>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<uiEvent href="/UI/Events/CommonEvents/EventEnergy.UIEV" />
+									</HealApplicator>
+								</Item>
 								<Item href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="F3BD3053-5182-45B2-A96E-54FEB725F863">
 									<FlagsApplicator>
 										<applyTarget>ApplicatorTarget</applyTarget>
@@ -835,7 +910,7 @@
 											<sString>!mIsNight</sString>
 										</enabled>
 										<flags>128</flags>
-										<formulaName></formulaName>
+										<formulaName>AlternativeTargetIndexMana</formulaName>
 										<LoggingEvent>-1</LoggingEvent>
 										<providerName></providerName>
 										<reduceByPercent>false</reduceByPercent>
@@ -1019,6 +1094,36 @@
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="A4D02B9F-83B6-4E2A-BE63-9B75C7AE4ABF">
+					<UnitConstant>
+						<name>EnergyPerUnit</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCEP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQQAAyEI=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScaleCustomLife( sMaxEnergy, 20, 100)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="DC648A7C-B363-4F53-8CEB-6ECEE7290E3E">
+					<UnitConstant>
+						<name>EnergyUnitCount</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="3D3DE496-BD25-4489-BA16-4281401241D2">
+					<UnitConstant>
+						<name>EnergyMaxHeal</name>
+						<var>
+							<compiledString>FR4AAAACAAAALQAAAEcAAABFbmVyZ3lVbml0Q291bnQARW5lcmd5UGVyVW5pdABVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaBAAAACLVRCLAotNEItQUN1d+P/S3E342V302UX0i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>cEnergyUnitCount*cEnergyPerUnit</sString>
 						</var>
 					</UnitConstant>
 				</Item>

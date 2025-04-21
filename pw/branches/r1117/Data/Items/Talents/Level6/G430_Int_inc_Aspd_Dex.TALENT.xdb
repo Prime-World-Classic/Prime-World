@@ -70,7 +70,6 @@
 	<BackLink DBID="/Test/Talents/Thunder/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Vampire/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witch/Epic_Int.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Assassin.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

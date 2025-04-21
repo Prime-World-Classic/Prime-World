@@ -52,7 +52,7 @@
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>216</behaviorFlags>
+	<behaviorFlags>152</behaviorFlags>
 	<caption>статус Бонуса</caption>
 	<customCounter>
 		<compiledString></compiledString>
@@ -88,7 +88,7 @@
 	<power>0</power>
 	<providerName></providerName>
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
-	<stackCount>9</stackCount>
+	<stackCount>4</stackCount>
 	<startCondition>
 		<compiledString></compiledString>
 		<returnType>bool</returnType>

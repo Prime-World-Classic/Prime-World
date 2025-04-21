@@ -523,6 +523,7 @@
 																				<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
 																			</DamageApplicator>
 																		</Item>
+																		<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 																	</applicators>
 																	<dispatch href="/Items/Talents/Class/Plane/A1_program.APLR" id="5F4A1071-2222-492A-BDF6-A3A213A30E10">
 																		<DispatchImmediate>
@@ -619,6 +620,7 @@
 																				<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
 																			</DamageApplicator>
 																		</Item>
+																		<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 																	</applicators>
 																	<dispatch href="/Items/Talents/Class/Plane/A1_program.APLR" id="3E1C5ABC-0887-45F1-A924-E65F43DDC057">
 																		<DispatchImmediate>

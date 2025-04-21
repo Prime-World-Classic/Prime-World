@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3.TALENT" Count="1" />
 	<name>A3u_AddEnergyRegenAbs</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCuAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DexSOQAAABEI=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCuAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DuB7VQAAARkI=</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale(sBaseStrength, 4.44, 33 )</sString>
+		<sString>abilityScale(sBaseStrength, 6.66, 49.5 )</sString>
 	</var>
 </UnitConstant>

@@ -362,9 +362,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FSAAAAACAAAAJwAAAEAAAABSaWZsZW1hbl9BMV9TVVAAUmlmbGVtYW5fQTFfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDaLVQiLAotNCIuQyAAAAP/Si0UIixCLTQiLgswAAADdXfD/0Nxd8N/g9sRBegnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABSaWZsZW1hbl9BMV9TVVAAUmlmbGVtYW5fQTFfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Rifleman_A1_SUP") &amp;&amp; sBaseStamina &gt;= sBaseWill</sString>
+					<sString>tal("Rifleman_A1_SUP")</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -409,9 +409,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FSAAAAACAAAAJwAAAEAAAABSaWZsZW1hbl9BMV9TVVAAUmlmbGVtYW5fQTFfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDaLVQiLAotNCIuQyAAAAP/Si0UIixCLTQiLgswAAADdXfD/0Nxd8N/g9sRBdQnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABSaWZsZW1hbl9BMV9TVVAAUmlmbGVtYW5fQTFfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Rifleman_A1_SUP") &amp;&amp; sBaseStamina &lt; sBaseWill</sString>
+					<sString>tal("Rifleman_A1_SUP")</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

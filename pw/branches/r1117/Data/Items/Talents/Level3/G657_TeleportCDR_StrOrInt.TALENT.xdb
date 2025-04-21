@@ -9,7 +9,6 @@
 	<BackLink DBID="/Test/Talents/TestSet14.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet16.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_ClanRed" Count="1" />
-	<BackLink DBID="/Items/Talents/Assassin.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

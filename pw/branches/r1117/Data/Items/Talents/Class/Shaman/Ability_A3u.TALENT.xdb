@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
-	<BackLink DBID="/Items/Talents/Shaman.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Shaman_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Shaman_Mighty.TALENTSET" Count="1" />
 	<activationConditions />

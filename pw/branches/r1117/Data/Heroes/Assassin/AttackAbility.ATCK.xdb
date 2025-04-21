@@ -37,6 +37,28 @@
 		</Item>
 		<Item href="/Items/Talents/Class/Assassin/StopGhostRun.APLR" />
 		<Item href="/Items/Talents/Class/Assassin/A2u1_Stun.APLR" />
+		<Item href="/Heroes/Assassin/AttackAbility.ATCK" id="398B565F-9765-4338-98C1-09BF012ACABB">
+			<HealApplicator>
+				<amount>
+					<compiledString>FRAAAAABAAAAHAAAAEEzSGVhbFBlckF0dGFjawBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+					<returnType>float</returnType>
+					<sString>cA3HealPerAttack</sString>
+				</amount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Отхил</caption>
+				<enabled>
+					<compiledString>FRAAAAABAAAAGgAAAEEzQXNzYXNpblN0YXR1cwBVi+xqAYtFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9AzyTtFEA+VwYrBXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>receiver.applA3AssasinStatus(UNIT) != pMisc</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<healTarget>Health</healTarget>
+				<ignoreHealingMods>false</ignoreHealingMods>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+			</HealApplicator>
+		</Item>
 	</applicators>
 	<autoTargetSelector href="" />
 	<caption></caption>
@@ -59,6 +81,16 @@
 				<Item href="/Items/Talents/Class/Assassin/const_A3u_Haste_StartCondition" />
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Inc_Resp_Time" />
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Appl_Duration" />
+				<Item href="/Heroes/Assassin/AttackAbility.ATCK" id="29857C92-F9CA-4432-B412-85B68E6B6362">
+					<UnitConstant>
+						<name>A3HealPerAttack</name>
+						<var>
+							<compiledString>FTQAAAAEAAAAOwAAAFQAAACKAAAAqgAAAEFzc2Fzc2luX0EzAEFzc2Fzc2luX0EzAEFzc2Fzc2luX0EzAEEzSGVhbFBlckF0dGFjawBVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aBgAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoJAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3w2UXwi+VdwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>talconst("Assassin_A3","A3HealPerAttack")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

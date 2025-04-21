@@ -81,6 +81,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Faceless/Ability4_Upg1.TALENT" id="028B256E-0E7E-44C5-BF11-FFFD0D053C79">
+					<UnitConstant>
+						<name>Add_CritChanceBonusPercent_ForA4Kill</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

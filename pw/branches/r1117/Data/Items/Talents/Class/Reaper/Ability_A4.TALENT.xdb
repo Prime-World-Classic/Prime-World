@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Reaper.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A4_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A4u.TALENT" Count="1" />
@@ -11,6 +10,7 @@
 	<BackLink DBID="/Test/Talents/RedSet3.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Reaper/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Reaper/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Heroes/DefaultStatus/_STUN.APLR" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

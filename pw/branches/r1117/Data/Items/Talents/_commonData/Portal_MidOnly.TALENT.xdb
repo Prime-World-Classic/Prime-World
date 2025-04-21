@@ -4,6 +4,8 @@
 	<BackLink DBID="/Maps/Multiplayer/MidOnly/_.ADMPSTTN" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MidOnly/Scoring.SCTB" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/status_G336_TelBlock.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MidOnly/Aram/_.ADMPSTTN" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MidOnly/Aram/Scoring.SCTB" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/_commonData/Portal_MidOnly.TALENT" id="A2708362-6C41-4BE9-A3F1-66B67BDA7B64">
 			<SpellApplicator parent="/Items/Talents/_commonData/Teleport_to_friendly_terrain.APLR">
