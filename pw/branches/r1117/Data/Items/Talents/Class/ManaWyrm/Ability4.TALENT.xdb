@@ -502,9 +502,19 @@
 					<UnitConstant>
 						<name>A4u_Damage</name>
 						<var>
-							<compiledString>FTsAAAAEAAAAQgAAAFsAAACRAAAAsQAAAE1hbmFXeXJtX0E0dQAAAABNYW5hV3lybV9BNHUAAAAATWFuYVd5cm1fQTR1AAAAAEE0dV9EYW1hZ2UAVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2ggAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaDAAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8NlF8IvlXcMAAAAA</compiledString>
+							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCBP/Q3A0hAAAA2V382UX8i+VdwzMzMzMzM9M/</compiledString>
 							<returnType>float</returnType>
-							<sString>talconst("ManaWyrm_A4u","A4u_Damage")</sString>
+							<sString>sEnergy*0.3</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="7C60DB62-F3AB-4926-9D97-2575B3260AE6">
+					<UnitConstant>
+						<name>DopDamage</name>
+						<var>
+							<compiledString>FQAAAAABAAAAFQAAAFWL7FGLRQiLEItNCItCBP/Q3MDcDSMAAADZXfzZRfyL5V3DMzMzMzMz0z8=</compiledString>
+							<returnType>float</returnType>
+							<sString>sEnergy*2*0.3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -512,9 +522,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FTsAAAAEAAAAQgAAAFsAAACZAAAAvQAAAEE0X0Jhc2VEYW1hZ2UAAABNYW5hV3lybV9BNHUAAAAATWFuYVd5cm1fQTR1AAAAAEE0dV9EYW1hZ2UAVYvsg+wQaBAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmggAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0H4tVDFKLRQhQaDAAAACLTRCLEYtNEItCUP/Q2V306wXZ7tld9ItNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Q2EX02V3w2UXwi+VdwwAAAAA=</compiledString>
+							<compiledString>FToAAAAEAAAAQQAAAFoAAACYAAAAvAAAAEE0X0Jhc2VEYW1hZ2UAAABNYW5hV3lybV9BNHUAAAAATWFuYVd5cm1fQTR1AAAAAERvcERhbWFnZQBVi+yD7BBoEAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaCAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQfi1UMUotFCFBoMAAAAItNEIsRi00Qi0JQ/9DZXfTrBdnu2V30i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DYRfTZXfDZRfCL5V3DAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>cA4_BaseDamage + (tal("ManaWyrm_A4u") ? cA4u_Damage : 0)</sString>
+							<sString>cA4_BaseDamage + (tal("ManaWyrm_A4u") ? cDopDamage : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
