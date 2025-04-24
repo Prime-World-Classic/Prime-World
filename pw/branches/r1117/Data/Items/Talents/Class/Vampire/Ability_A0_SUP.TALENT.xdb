@@ -64,6 +64,26 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="802CBFC9-0042-46BC-9AC2-365A854FEB68">
+					<UnitConstant>
+						<name>AddLife</name>
+						<var>
+							<compiledString>FQ8AAAABAAAAKwAAAEFkZExpZmVQZXJjZW50AFWL7IPsDItFCIsQi00Ii0J8/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>sBaseLife*cAddLifePercent</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="175D39C7-4BD4-4004-A785-614E0E13F56E">
+					<UnitConstant>
+						<name>AddLifePercent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+							<returnType>float</returnType>
+							<sString>30*0.01</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

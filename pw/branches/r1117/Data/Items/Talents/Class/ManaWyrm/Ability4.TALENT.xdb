@@ -2,7 +2,7 @@
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/SocialTest.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Manawyrm.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Manawyrm.TALENTSET" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability4_2U.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability4Upg.TALENT" Count="1" />
@@ -12,6 +12,7 @@
 	<BackLink DBID="/Test/Talents/Manawyrm/Duel.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Manawyrm/Elite.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Manawyrm/Epic.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -34,6 +35,26 @@
 		<Item href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="7FDA6BDC-CAEE-497A-8E90-56B28680A2CA">
 			<ProgramApplicator>
 				<applicators>
+					<Item>
+						<applicator href="/Heroes/DefaultStatus/_SILENCE_Status.APLR" />
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>11</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
 					<Item>
 						<applicator href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="49C9FD68-0D26-49E3-9E87-86001DE4F989">
 							<SpellApplicator>
@@ -88,6 +109,49 @@
 						</delay>
 						<stopCondition>
 							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="F086A0F5-549F-4FC3-8C0D-D37AADC5F14C">
+							<DamageApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<cancelInvisibility>false</cancelInvisibility>
+								<caption>Сжигаем энергию Креветке</caption>
+								<damage>
+									<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCBP/Q3A0hAAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
+									<returnType>float</returnType>
+									<sString>(sEnergy * 0.5)</sString>
+								</damage>
+								<damageMode>4</damageMode>
+								<damageType>Mana</damageType>
+								<enabled>
+									<compiledString>FR0AAAACAAAAJAAAAD0AAABNYW5hV3lybV9BNHUAAAAATWFuYVd5cm1fQTR1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>tal("ManaWyrm_A4u")</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<timeLimiter>-1</timeLimiter>
+								<uiEvent href="/UI/Events/CommonEvents/EventEnergyBurn.UIEV" />
+							</DamageApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>1</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -384,6 +448,32 @@
 				<uiEvent href="/UI/Events/ErrorMessages/CastError_NoValidCurrentTarget.UIEV" />
 			</ConditionCastLimitation>
 		</Item>
+		<Item href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="4993D727-79C9-4420-823D-5D2503BF11AD">
+			<ConditionCastLimitation>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</condition>
+				<uiEvent href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="251F81C0-47DC-4370-AE12-D27C313EBCED">
+					<UIEvent>
+						<signRecipients>PLAYER_ONLY</signRecipients>
+						<UISigns>
+							<Item href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="200CA56D-D6DB-4C3A-8F12-B6A07E176A22">
+								<UISignMessageToStatusLine>
+									<messages>
+										<Item textref="/Items/Talents/Class/ManaWyrm/Ability4.TALENT_200ca56dd6db4c3a8f12b6a07e176a22_messages_0.txt" />
+										<Item textref="" />
+										<Item textref="" />
+									</messages>
+									<signRecipients>USE_FROM_PARENT</signRecipients>
+								</UISignMessageToStatusLine>
+							</Item>
+						</UISigns>
+					</UIEvent>
+				</uiEvent>
+			</ConditionCastLimitation>
+		</Item>
 	</castLimitations>
 	<commonDescription textref="/Items/Talents/Class/ManaWyrm/Ability4.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
@@ -422,9 +512,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FRsAAAACAAAAKgAAAEQAAABBNF9CYXNlRGFtYWdlAAAAQTR1X0RhbWFnZQBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaBAAAACLVRCLAotNEItQUN1d+P/S3EX42V302UX0i+Vdww==</compiledString>
+							<compiledString>FTsAAAAEAAAAQgAAAFsAAACZAAAAvQAAAEE0X0Jhc2VEYW1hZ2UAAABNYW5hV3lybV9BNHUAAAAATWFuYVd5cm1fQTR1AAAAAEE0dV9EYW1hZ2UAVYvsg+wQaBAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmggAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0H4tVDFKLRQhQaDAAAACLTRCLEYtNEItCUP/Q2V306wXZ7tld9ItNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Q2EX02V3w2UXwi+VdwwAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>cA4_BaseDamage + cA4u_Damage</sString>
+							<sString>cA4_BaseDamage + (tal("ManaWyrm_A4u") ? cA4u_Damage : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -465,6 +555,46 @@
 				<Item href="/Items/Talents/Class/ManaWyrm/const_A0_SUP_BonusStacks" />
 				<Item href="/Items/Talents/Class/ManaWyrm/const_Delay_AfterCast" />
 				<Item href="/Items/Talents/Class/ManaWyrm/const_Delay_DamageDealed" />
+				<Item href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="34EA00C9-77B0-4DC0-8F94-9B271AC08D76">
+					<UnitConstant>
+						<name>ManaCost</name>
+						<var>
+							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCBP/Q3A0hAAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
+							<returnType>float</returnType>
+							<sString>sEnergy*0.5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="6162DB75-68D3-4CCF-A2FE-9EA6E461C044">
+					<UnitConstant>
+						<name>ManaCostMax</name>
+						<var>
+							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCEP/Q3A0hAAAA2V382UX8i+Vdw5qZmZmZmbk/</compiledString>
+							<returnType>float</returnType>
+							<sString>sMaxEnergy*0.1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="0EF8DD54-86D1-4194-9609-53EBF6111E39">
+					<UnitConstant>
+						<name>Silence_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>1.5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="AB5B54C0-0DED-45EF-AB1A-0365ABDDFEEF">
+					<UnitConstant>
+						<name>Silence_StartCondition</name>
+						<var>
+							<compiledString>FQ0AAAACAAAAEgAAACgAAABBbGxvd0NvbnRyb2wAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdSgAAAN/g9sREewnHRfwBAAAA6wfHRfwAAAAA20X8i+VdwwAAAAAAAPA/</compiledString>
+							<returnType>float</returnType>
+							<sString>receiver.vAllowControl != 1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -512,9 +642,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQw==</compiledString>
+		<compiledString>FR0AAAACAAAAJAAAAD0AAABNYW5hV3lybV9BNHUAAAAATWFuYVd5cm1fQTR1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mB4cD+//+BwUABAACJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>320</sString>
+		<sString>tal("ManaWyrm_A4u") ? 0 : 320</sString>
 	</manaCost>
 	<marker>doCast4</marker>
 	<microAI href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="BBEB3D1D-4295-4CCC-BA1A-0326FBAA012F">
@@ -554,7 +684,43 @@
 	<naftaCost>540</naftaCost>
 	<name textref="/Items/Talents/Class/ManaWyrm/Ability4.TALENT_name.txt" />
 	<node>ability4</node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" id="E075AB5A-54FF-4477-A6CD-0930BD13AED3">
+			<FlagsApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Запрет на использование ульты, если Max&gt;10%</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAABAAAAFQAAAFWL7IPsDItFCIsQi00Ii0IQ/9DcDUoAAACLTQiLEYtNCItCBN1d+P/Q3F343+D2xAV6CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DmpmZmZmZuT8=</compiledString>
+					<returnType>bool</returnType>
+					<sString>(sMaxEnergy*0.1&gt;sEnergy) ? 1 : 0 &amp;&amp; tal("ManaWyrm_A4u")</sString>
+				</enabled>
+				<flag>1024</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents>
+					<Item href="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>ManaWyrm_A4</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

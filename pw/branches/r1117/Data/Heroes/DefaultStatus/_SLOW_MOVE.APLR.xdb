@@ -50,7 +50,7 @@
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Summon_Trap_SUP.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Shadow/spell_A1_arrow.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A1.TALENT" Count="1" />

@@ -16,6 +16,7 @@
 	<BackLink DBID="/Test/Talents/Rockman/Elite_Life.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Rockman/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Rockman/Epic_StrLife.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Rockman.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -40,7 +41,7 @@
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<caption></caption>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
@@ -213,7 +214,7 @@
 														<Item href="" />
 													</effect>
 													<enabled>
-														<compiledString></compiledString>
+														<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 														<returnType>bool</returnType>
 														<sString>true</sString>
 													</enabled>
@@ -881,7 +882,7 @@
 										</Item>
 									</applicators>
 									<applyTarget>AbilityOwner</applyTarget>
-									<behaviorFlags>4</behaviorFlags>
+									<behaviorFlags>2</behaviorFlags>
 									<caption>Program</caption>
 									<effect>
 										<Item href="" />
@@ -1219,6 +1220,8 @@
 			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
 				<enabled>
 					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQyLEItNDItCaP/QXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>rFlag(131072)</sString>
 				</enabled>
 				<lifeTime>
 					<compiledString></compiledString>
