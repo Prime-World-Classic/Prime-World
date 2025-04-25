@@ -1670,6 +1670,56 @@
 				<name>RefineRate10</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/GameLogic/AILogic.AILP" id="4A2CDC71-07DB-4A97-B58D-BBA1577849A8">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQiz/0DPJg/gLD5TBisFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>mRefineRate == 11</sString>
+				</condition>
+				<name>RefineRate11</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/GameLogic/AILogic.AILP" id="8C52DAE0-65A0-47EE-A23A-E194DD3E8336">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQiz/0DPJg/gMD5TBisFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>mRefineRate == 12</sString>
+				</condition>
+				<name>RefineRate12</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/GameLogic/AILogic.AILP" id="CF90E91C-9B07-461D-B8A1-24B2122FD9CB">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQiz/0DPJg/gND5TBisFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>mRefineRate == 13</sString>
+				</condition>
+				<name>RefineRate13</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/GameLogic/AILogic.AILP" id="09B4905A-84E4-429B-A38F-F66E10C1914F">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQiz/0DPJg/gOD5TBisFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>mRefineRate == 14</sString>
+				</condition>
+				<name>RefineRate14</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/GameLogic/AILogic.AILP" id="2EE2BA2D-D718-4DDE-9CAA-D60BA111AE67">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQiz/0DPJg/gPD5TBisFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>mRefineRate == 15</sString>
+				</condition>
+				<name>RefineRate15</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<consumableGroups href="/GameLogic/ConsumableGroup.CGRP" />
 	<creatureHappyStateParams>
