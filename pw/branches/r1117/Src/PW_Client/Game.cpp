@@ -109,6 +109,7 @@
 #include "RegistryToolbox.h"
 #include "../PF_GameLogic/WebLauncher.h"
 #include "../PW_Game/server_ip.h"
+#include "../Shared/WebRequests.h"
 
 static int    g_VideoFPS = 10;
 static float  g_RecordingTime = 10.0f;
@@ -165,7 +166,6 @@ static NDebug::DebugVar<int> totalAllocsSize( "TotalAllocsSize", "", true );
 
 std::string g_protocolToken;
 
-#pragma optimize ("", off)
 //CRAP
 extern "C" INTERMODULE_EXPORT void TooSmartLinker();
 
@@ -1189,13 +1189,35 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
     context = new Game::GameContext(socialLaunchData.sessionId.c_str(), NULL, socialLaunchData.mapId.c_str(), socialServer, guildEmblem, false, true);
   }
 
-
-
+  std::string protocolLineStr;
   if(CmdLineLite::Instance().ArgsCount() < 2) {
-    ShowLocalizedErrorMB( L"StartViaLauncher", L"Invalid arguments! Please start the game via the web-launcher. https://playpw.fun" );
+    WebPostRequest request(L"127.0.0.1", L"/getConnectionData", 34980, 0);
+    std::string protocolResponse = request.SendPostRequest("getConnectionData");
+
+    Json::Value parsedValue = ParseJson(protocolResponse.c_str());
+
+    if (parsedValue.empty()) {
+      systemLog( NLogg::LEVEL_MESSAGE ) << "Invalid protocol response: \"" << protocolResponse.c_str() << "\"" << endl;
+      ShowLocalizedErrorMB( L"StartViaLauncher", L"Invalid arguments [invalid socket protocol]! Please start the game via the launcher." );
+      return 0;
+    }
+    Json::Value protocolValue = parsedValue.get("protocol", "");
+    if (protocolValue.asString().empty()) {
+      systemLog( NLogg::LEVEL_MESSAGE ) << "Empty protocol response: \"" << protocolResponse.c_str() << "\"" << endl;
+      ShowLocalizedErrorMB( L"StartViaLauncher", L"Invalid arguments [empty socket protocol]! Please start the game via the launcher." );
+      return 0;
+    }
+
+    protocolLineStr = protocolValue.asString();
+  } else {
+    protocolLineStr = CmdLineLite::Instance().GetStringKey( "protocol", "" );
+  }
+
+  if(protocolLineStr.empty()) {
+    ShowLocalizedErrorMB( L"StartViaLauncher", L"Invalid arguments [empty protocol]! Please start the game via the launcher." );
     return 0;
   } else {
-    const char* protocolLine = CmdLineLite::Instance().GetStringKey( "protocol", "" );
+    const char* protocolLine = protocolLineStr.c_str();
     const char* delimiter = "/";
 
     char* token = strtok(const_cast<char*>(protocolLine), delimiter);
@@ -1235,8 +1257,8 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
 
     WebLauncherPostRequest::WebLoginResponse response;
     if (protocolMethod == "runGame" || protocolMethod == "reconnect") {
-      //WebLauncherPostRequest cprequest;
-      //cprequest.CreateDebugSession();
+      WebLauncherPostRequest cprequest;
+      cprequest.CreateDebugSession();
       WebLauncherPostRequest rprequest;
       response = rprequest.GetSessionData(protocolToken);
       if (response.retCode == WebLauncherPostRequest::LoginResponse_WEB_FAILED_CONNECTION) {
