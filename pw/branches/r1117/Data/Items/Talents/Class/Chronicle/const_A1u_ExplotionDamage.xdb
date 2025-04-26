@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Chronicle/Ability_A1u.TALENT" Count="1" />
 	<name>A1_ExplosionDamage</name>
 	<var>
-		<compiledString>FSsAAAACAAAAOgAAAFQAAABBMV9QZXJpb2RpY0RhbWFnZQAAAEExX0V4cERhbWFnZU11bHRpcGxpZXIAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgUAAAAi1UQiwKLTRCLUFDdXfj/0txN+Nld9NlF9IvlXcM=</compiledString>
+		<compiledString>FSsAAAADAAAAOgAAAFQAAABtAAAAQTFfUGVyaW9kaWNEYW1hZ2UAAABBMV9FeHBEYW1hZ2VNdWx0aXBsaWVyAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoFAAAAItVEIsCi00Qi1BQ3V34/9LcTfjcDXsAAADZXfTZRfSL5V3DMzMzMzMz8z8=</compiledString>
 		<returnType>float</returnType>
-		<sString>cA1_PeriodicDamage*cA1_ExpDamageMultiplier</sString>
+		<sString>cA1_PeriodicDamage*cA1_ExpDamageMultiplier*1.2</sString>
 	</var>
 </UnitConstant>

@@ -47,9 +47,9 @@
 					<UnitConstant>
 						<name>A0_Damage</name>
 						<var>
-							<compiledString>FQgAAAAGAAAADQAAACMAAAAzAAAAPQAAAJIAAACcAAAASXNDbG9uZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B0BAQAA3+D2xER6X2oBUdkF/QAAANkcJFHZBfkAAADZHCRqAItNCIsRi00Ii4IwAQAA/9BR2Rwki00IixGLTQiLgjQBAAD/0FHZHCTolgAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld/OtdagFR2QX1AAAA2RwkUdkF8QAAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOg3AAAAg8QE2RwkagGLTRCLEYtNEItCYP/Q2V382UX8i+VdwwAA+EEAAGtDAADIQQAAPkMAAAAAAADwP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FQgAAAAHAAAADwAAACUAAAA1AAAAPwAAAJQAAACeAAAA8QAAAElzQ2xvbmUAVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B0XAQAA3+D2xER6X2oBUdkFEwEAANkcJFHZBQ8BAADZHCRqAItNCIsRi00Ii4IwAQAA/9BR2Rwki00IixGLTQiLgjQBAAD/0FHZHCToqgAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld/OtdagFR2QULAQAA2RwkUdkFBwEAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOhLAAAAg8QE2RwkagGLTRCLEYtNEItCYP/Q2V382UX83A3/AAAA2V342UX4i+Vdw5qZmZmZmfE/AAD4QQAAa0MAAMhBAAA+QwAAAAAAAPA/VYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vIsClone == 1 ? damageScale( max( sIntellect, sStrength), 25, 190) : damageScale( max( sIntellect, sStrength), 31, 235)</sString>
+							<sString>(sender.vIsClone == 1 ? damageScale( max( sIntellect, sStrength), 25, 190) : damageScale( max( sIntellect, sStrength), 31, 235))*1.1</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -127,9 +127,9 @@
 					<UnitConstant>
 						<name>A0_LifeReg</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsUYtFCIsQi00Ii4JgAQAA/9CJRfzbRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>4.0f</sString>
+							<sString>sNaftaLevel</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -837,17 +837,28 @@
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Chronicle/Ability_A0.TALENT" id="979F2A33-D1E0-4A82-866F-1A3565D569C3">
-			<PermanentStatModApplicator>
+		<Item href="/Items/Talents/Class/Chronicle/Ability_A0.TALENT" id="D9EC9481-C1C4-4149-AC5A-6072070D125F">
+			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
 				<caption>Регенерация</caption>
-				<customApplyType>None</customApplyType>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
@@ -865,7 +876,13 @@
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>Chronicle_A0</persistentId>

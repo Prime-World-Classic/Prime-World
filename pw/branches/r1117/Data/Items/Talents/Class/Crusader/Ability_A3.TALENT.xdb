@@ -25,7 +25,6 @@
 	<BackLink DBID="/Test/Talents/Crusader/Epic_A_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Crusader/Epic_B_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Crusader/Epic_B_Str.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/123Crusader_B.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -229,7 +228,6 @@
 		</Item>
 		<Item href="/Items/Talents/Class/Crusader/var_A0_AddStack.APLR" />
 		<Item href="/Items/Talents/Class/Crusader/fx_A0_AddStack.APLR" />
-		<Item href="/Items/Talents/Class/Crusader/status_A3uAddWill.APLR" />
 	</applicators>
 	<askId>3</askId>
 	<autoTargetSelector href="" />
@@ -486,6 +484,7 @@
 	<name textref="/Items/Talents/Class/Crusader/Ability_A3.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Crusader/status_A3uAddWill.APLR" />
 		<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/trigger_G766_RefreshAndNotify.APLR" />
 	</passiveApplicators>
 	<persistentId>Crusader_A3</persistentId>
