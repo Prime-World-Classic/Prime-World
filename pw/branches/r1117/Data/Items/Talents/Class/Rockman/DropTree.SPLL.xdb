@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Spell>
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="2" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/rockman/Ability4.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Rockman/DropTree.SPLL" id="2CC9133A-3A83-4107-9B2A-7AF192E809C9">

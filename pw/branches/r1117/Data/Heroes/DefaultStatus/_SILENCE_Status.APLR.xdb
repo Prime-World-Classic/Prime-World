@@ -23,7 +23,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_9_AntiMnM/appl_SilenceOnHit.APLR" Count="1" />
 	<BackLink DBID="/Maps/Tutorial/Talents/Tutorial_ThunderGod.TALENT" Count="1" />
 	<BackLink DBID="/Summons/Spear/_Mowgli.SUMMONED" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" Count="2" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_SILENCE.APLR" />
 		<Item href="/Heroes/DefaultStatus/_SILENCE_Status.APLR" id="7F12B074-E964-4C1A-9CF7-4AC772DEEF01">

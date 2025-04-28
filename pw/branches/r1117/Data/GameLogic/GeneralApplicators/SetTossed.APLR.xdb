@@ -33,7 +33,7 @@
 	<BackLink DBID="/Items/Talents/Class/Plane/spell_A3.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Reaper/A1_JumpAndDown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Warlord/Ability2.TALENT" Count="1" />
@@ -57,7 +57,7 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 		<returnType>bool</returnType>
 		<sString>true</sString>
 	</enabled>

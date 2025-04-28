@@ -17,7 +17,7 @@
 	<BackLink DBID="/Test/Talents/Unicorn/Epic_IntWill.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Warlord/Epic_StrSta.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season9_Mediocre.ROLLCONT" Count="1" />
-	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="1" />
+	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Naga_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_MediocreList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_MediocreList.ROLLCONT" Count="1" />
