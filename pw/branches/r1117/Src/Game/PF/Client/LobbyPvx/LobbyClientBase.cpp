@@ -404,10 +404,11 @@ void ClientBase::UpdateCustomGameMemberReadiness( int userId, bool ready )
 void ClientBase::StartSession( TGameId _sessionId, const SGameParameters & _params, const TGameLineUp & _gameLineUp, Peered::RIGameServer * _gameServerInstance, const Peered::SInstanceId & _gsInstId, unsigned timestamp32 )
 {
   MessageTrace( "Starting game session. map='%s', players=%d, gameid=%s, custom=%i, gs_svcid=%s, gs_instid=%s", _params.mapId, _gameLineUp.size(), FmtGameId( _sessionId ), _params.customGame, _gsInstId.serviceId, _gsInstId.instanceId );
-
+/*
   for ( int i = 0; i < _gameLineUp.size(); ++i )
     MessageTrace( "  Player info. uid=%d, sex=%d, nick=%d, type=%d, team=%d, hero=%s, bot_skin=%s", _gameLineUp[i].user.userId, (int)_gameLineUp[i].user.zzimaSex, _gameLineUp[i].user.nickname,
     (int)_gameLineUp[i].context.playerType, (int)_gameLineUp[i].context.team, _gameLineUp[i].context.hero, _gameLineUp[i].context.botSkin );
+*/
 
   bool statusIsRight = false;
   if ( status == EClientStatus::InCustomLobby )
