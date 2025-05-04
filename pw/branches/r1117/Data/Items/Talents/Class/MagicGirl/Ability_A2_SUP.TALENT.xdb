@@ -3,6 +3,7 @@
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A1_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/MagicGirl_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/Items/Talents/MagicGirl.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -55,6 +56,16 @@
 			<vars>
 				<Item href="/Items/Talents/Class/MagicGirl/const_A2_SUP_BonusCount" />
 				<Item href="/Items/Talents/Class/MagicGirl/const_A2_SUP_DmgReduction" />
+				<Item href="/Items/Talents/Class/MagicGirl/Ability_A2_SUP.TALENT" id="5E702ABD-30C6-4C95-9F19-49F497610129">
+					<UnitConstant>
+						<name>A2_SUP_Dexterity</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADIQQAAlkI=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sStrength, 25, 75)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

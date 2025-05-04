@@ -1087,6 +1087,16 @@
 				</Item>
 				<Item href="/Items/Talents/Class/MagicGirl/const_A2_SUP_BonusCount" />
 				<Item href="/Items/Talents/Class/MagicGirl/const_A2_SUP_DmgReduction" />
+				<Item href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="19E9DCCF-D060-4708-88DF-A25BAD3706DC">
+					<UnitConstant>
+						<name>A2_SUP_Dexterity</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADIQQAAlkI=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sStrength, 25, 75)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 				<Item href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="77D8D968-88F6-4360-A15C-6D9137CCE59B">
 					<UnitConstant>
 						<name>BaseCD</name>

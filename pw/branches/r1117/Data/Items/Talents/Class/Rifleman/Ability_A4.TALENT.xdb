@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Rifleman.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Rifleman.TALENTSET" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A4_2u.TALENT" Count="1" />
@@ -134,9 +134,9 @@
 									<flag>65536</flag>
 									<formulaName></formulaName>
 									<lifeTime>
-										<compiledString></compiledString>
+										<compiledString>FQwAAAABAAAAGAAAAENoYW5uZWxUaW1lAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 										<returnType>float</returnType>
-										<sString>-1.0</sString>
+										<sString>cChannelTime</sString>
 									</lifeTime>
 									<LoggingEvent>-1</LoggingEvent>
 									<providerName></providerName>
@@ -168,9 +168,9 @@
 									<flags>8</flags>
 									<formulaName></formulaName>
 									<lifeTime>
-										<compiledString></compiledString>
+										<compiledString>FQwAAAABAAAAGAAAAENoYW5uZWxUaW1lAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 										<returnType>float</returnType>
-										<sString>-1.0</sString>
+										<sString>cChannelTime</sString>
 									</lifeTime>
 									<LoggingEvent>-1</LoggingEvent>
 									<providerName></providerName>

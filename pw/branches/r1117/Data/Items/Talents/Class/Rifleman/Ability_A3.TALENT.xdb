@@ -235,9 +235,9 @@
 					<UnitConstant>
 						<name>SummonLifeTime</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQw==</compiledString>
 							<returnType>float</returnType>
-							<sString>120</sString>
+							<sString>300</sString>
 						</var>
 					</UnitConstant>
 				</Item>

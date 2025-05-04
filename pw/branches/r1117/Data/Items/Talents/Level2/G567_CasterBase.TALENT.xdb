@@ -31,6 +31,8 @@
 	<BackLink DBID="/Test/Talents/Vampire/Epic_Str_Ult2.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Bomber/Test.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/SnowQueen.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Hunter.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>false</activeCustomTrigger>
 	<allowChase>
@@ -193,9 +195,9 @@
 					<UnitConstant>
 						<name>G567_DamagePerTick</name>
 						<var>
-							<compiledString>FTwAAAAJAAAAQwAAAFkAAABtAAAAiQAAAJ8AAACzAAAA0wAAAN0AAAAqAQAARzU2OF9BY3RpdmUARzU2OF9BZGREYW1hZ2UAAEc1NzFfQWN0aXZlAEc1NzFfQWRkU2tpbGxEYW1hZ2UAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1SAQAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/GgcAAAAi00IixGLTQiLgogBAAD/0NwdUgEAAN/g9sRBdR+LTQxRi1UIUmgoAAAAi0UQixCLTRCLQlD/0Nld+OsF2e7ZXfhqAVHZBUoBAADZHCRR2QVGAQAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6EcAAACDxATZHCRqAYtNEIsRi00Qi0Jg/9DcBT4BAADYRfzYRfjZXfTZRfSL5V3DAAAAAAAAHEAAAIBAAAAMQgAAAAAAAAAAAAAAAFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FTwAAAAJAAAAvwAAANUAAADpAAAABQEAABsBAAAvAQAATwEAAFkBAAC4AQAARzU2OF9BY3RpdmUARzU2OF9BZGREYW1hZ2UAAEc1NzFfQWN0aXZlAEc1NzFfQWRkU2tpbGxEYW1hZ2UAVYvsg+wQi0UMixCLTQyLQlT/0A+2yIXJdDWLVQyLAotNDIuQNAEAAP/SUdkcJItFDIsQi00Mi4IwAQAA/9BR2Rwk6I0BAACDxAjZXfzrM4tNCIsRi00Ii4I0AQAA/9BR2Rwki00IixGLTQiLgjABAAD/0FHZHCToWAEAAIPECNld/GgAAAAAi00IixGLTQiLgogBAAD/0Nwd4AEAAN/g9sRBdR+LTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0Nld+OsF2e7ZXfhoHAAAAItNCIsRi00Ii4KIAQAA/9DcHeABAADf4PbEQXUfi00MUYtVCFJoKAAAAItFEIsQi00Qi0JQ/9DZXfTrBdnu2V30agFR2QXYAQAA2RwkUdkF1AEAANkcJGoAUdlF/NkcJItNCIsRi00Ii4I0AQAA/9BR2Rwki00IixGLTQiLgjABAAD/0FHZHCToegAAAIPEBNkcJOhHAAAAg8QE2RwkagGLTRCLEYtNEItCYP/Q3AXMAQAA2EX42EX02V3w2UXwi+VdwwAAAAAAABxAAACAQAAADEIAAAAAAAAAAAAAAABVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3DVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>7+damageScale(max(sStrength,sIntellect),4,35)+ (sender.vG568_Active &gt; 0 ? cG568_AddDamage : 0) + (sender.vG571_Active &gt; 0 ? cG571_AddSkillDamage : 0)</sString>
+							<sString>7+damageScale(min(max(sStrength,sIntellect), (rIsHero ? max(rStrength,rIntellect) : max(sStrength,sIntellect))),4,35)+ (sender.vG568_Active &gt; 0 ? cG568_AddDamage : 0) + (sender.vG571_Active &gt; 0 ? cG571_AddSkillDamage : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -348,9 +350,9 @@
 					<UnitConstant>
 						<name>G571_HealthDamage</name>
 						<var>
-							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQyLEItNDItCDP/Q3A0hAAAA2V382UX8i+Vdw/p+arx0k4g/</compiledString>
+							<compiledString>FQAAAAACAAAAEwAAABkAAABVi+xRi0UMixCLTQyLQgz/0NwNLwAAANwNJwAAANld/NlF/IvlXcN7FK5H4XqEP83MzMzMzOw/</compiledString>
 							<returnType>float</returnType>
-							<sString>rMaxLife * ( 1.2 * 0.01) </sString>
+							<sString>rMaxLife * 0.9 * 0.01</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -625,6 +627,7 @@
 					<Item href="/Items/Talents/Class/Bomber/Ability_A2.TALENT" />
 					<Item href="/Items/Talents/Class/Bomber/Ability_A3.TALENT" />
 					<Item href="/Items/Talents/Class/Bomber/Ability_A4_2.TALENT" />
+					<Item href="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" />
 				</talents>
 				<targetAbility>TalentFromList</targetAbility>
 				<useListAs>ListAsRule</useListAs>

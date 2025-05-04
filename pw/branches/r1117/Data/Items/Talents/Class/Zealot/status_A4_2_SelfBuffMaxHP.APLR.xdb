@@ -31,9 +31,9 @@
 								<LoggingEvent>-1</LoggingEvent>
 								<modifier>
 									<addValue>
-										<compiledString>FQsAAAABAAAAFwAAAEE0XzJfQWRkSFAAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+										<compiledString>FSoAAAADAAAAMQAAAEoAAACAAAAAQTRfMl9BZGRIUAAAWmVhbG90X0EyX1NVUAAAAFplYWxvdF9BMl9TVVAAVYvsg+wQaAwAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgcAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0A+2Tfv32RvJ99mDwQGJTfTaTfTZXfDZRfCL5V3D</compiledString>
 										<returnType>float</returnType>
-										<sString>cA4_2_AddHP</sString>
+										<sString>cA4_2_AddHP*(tal("Zealot_A2_SUP") ? 2:1)</sString>
 									</addValue>
 									<multValue>
 										<compiledString></compiledString>
@@ -95,9 +95,9 @@
 						<applicator href="/Items/Talents/Class/Zealot/status_A4_2_SelfBuffMaxHP.APLR" id="51EBB2D5-DD4B-4A4B-9AAD-F2F301A56D06">
 							<HealApplicator>
 								<amount>
-									<compiledString>FREAAAABAAAAHQAAAEE0XzJ1X0hlYWxBbW91bnQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+									<compiledString>FTIAAAADAAAAOQAAAFIAAACIAAAAQTRfMnVfSGVhbEFtb3VudAAAAABaZWFsb3RfQTJfU1VQAAAAWmVhbG90X0EyX1NVUABVi+yD7BBoFAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaCQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AItNDFGLVQhSaAAAAACLRRCLEItNEItCUP/QD7ZN+/fZG8n32YPBAYlN9NpN9Nld8NlF8IvlXcM=</compiledString>
 									<returnType>float</returnType>
-									<sString>cA4_2u_HealAmount</sString>
+									<sString>cA4_2u_HealAmount*(tal("Zealot_A2_SUP") ? 2:1)</sString>
 								</amount>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<caption> - Хил</caption>
