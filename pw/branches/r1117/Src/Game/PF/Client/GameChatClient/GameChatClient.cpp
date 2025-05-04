@@ -58,7 +58,7 @@ namespace gamechat
 
   void Client::SendMsg(wstring const & message, gamechat::ChannelType::Enum const channelType)
   {
-    MessageTrace("%s(msg=%s chnltype=%d)", __FUNCTION__, message.c_str(), (int)channelType);
+    //MessageTrace("%s(msg=%s chnltype=%d)", __FUNCTION__, message.c_str(), (int)channelType);
 
     if (chatiface_ && chatiface_->isopen())
     {
@@ -153,7 +153,7 @@ namespace gamechat
 
   void Client::OnNewMessage(chat::SessionId _sid, const chat::ChannelName &_chnlname, const chat::NickName &_nickname, chat::CustomId _useridGlobal, const wstring &_sourceMsg, const wstring &_fiteredMsg)
   {
-    MessageTrace("%s(sid=%d chnlname=%s nickname=%s msg=%s)", __FUNCTION__, _sid, _chnlname, _nickname, _sourceMsg, _fiteredMsg);
+    //MessageTrace("%s(sid=%d chnlname=%s nickname=%s msg=%s)", __FUNCTION__, _sid, _chnlname, _nickname, _sourceMsg, _fiteredMsg);
 
     ChatMessage& msg = messages_.push_back();
     msg.message = _sourceMsg;
