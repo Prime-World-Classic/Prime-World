@@ -32,7 +32,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G775_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level1/G598_RegEnergy.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>3</aIPriority>
@@ -112,7 +112,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G777_MoveSpeed_Super.TALENT" />
+					<talent href="/Items/Talents/Level3/G575_EnergyReg_MoveSpeed.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>

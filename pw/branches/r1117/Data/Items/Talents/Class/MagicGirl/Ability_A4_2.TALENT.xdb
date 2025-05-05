@@ -9,7 +9,6 @@
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/spell_A1_InstantDmg.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/MagicGirl_Mighty.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/MagicGirl.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -442,9 +441,9 @@
 							<flags>0</flags>
 							<mode>Normal</mode>
 							<range>
-								<compiledString>FQsAAAABAAAAFwAAAEE0XzJfUmFuZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+								<compiledString>FQkAAAABAAAAFQAAAEE0X1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 								<returnType>float</returnType>
-								<sString>cA4_2_Range</sString>
+								<sString>cA4_Range</sString>
 							</range>
 							<targetFilter>679477251</targetFilter>
 							<targetSelector href="" />

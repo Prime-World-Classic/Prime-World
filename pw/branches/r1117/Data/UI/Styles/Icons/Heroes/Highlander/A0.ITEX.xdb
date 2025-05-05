@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Items/Talents/Class/Highlander/Ability0.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/Ability0.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/status_A0_StartCooldown.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>

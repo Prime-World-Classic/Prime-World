@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level5/G596_Dex.TALENT" Count="1" />
 	<name>IntCutAmount</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCuAAAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADIQQAANEI=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sBaseStrength, 25, 45)</sString>
+		<sString>20</sString>
 	</var>
 </UnitConstant>

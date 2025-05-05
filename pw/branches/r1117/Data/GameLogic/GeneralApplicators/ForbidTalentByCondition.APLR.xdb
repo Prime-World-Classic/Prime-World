@@ -46,7 +46,8 @@
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/Werewolf_A4.TALENT" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/rockman/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/witcher/Ability1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A4_1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Frogenglut/Ability_A4.TALENT" Count="3" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>0</behaviorFlags>
 	<caption>автозапрет таланта при ForbidMoveSpeical</caption>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability_A2_SUP.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="2" />
+	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
@@ -54,16 +54,6 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Highlander/const_A1_StunDuration" />
-				<Item href="/Items/Talents/Class/Highlander/Ability_A1_SUP.TALENT" id="718E7042-755F-47C2-83B0-FAF3A840471B">
-					<UnitConstant>
-						<name>A1TargetsNumber</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
-							<returnType>float</returnType>
-							<sString>5</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

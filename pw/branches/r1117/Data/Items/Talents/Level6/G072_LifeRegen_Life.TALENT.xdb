@@ -31,7 +31,6 @@
 	<BackLink DBID="/Test/Talents/Test_ManaRework.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet3.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="3" />
-	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -73,9 +72,9 @@
 					<UnitConstant>
 						<name>Add_Life</name>
 						<var>
-							<compiledString>FQAAAAADAAAABwAAABEAAAAnAAAAVYvsUVHZBUEAAADZHCRR2QU9AAAA2Rwki0UQixCLTRCLQmz/0NwNNQAAANld/NlF/IvlXcMAAAAAAAA+QAAA2EEAAABA</compiledString>
+							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcNmZiZBmpkZPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(27,2)*30</sString>
+							<sString>refineScale(10.4,0.6)*cLifeBudget</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -166,9 +165,9 @@
 				<caption></caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+					<compiledString></compiledString>
 					<returnType>bool</returnType>
-					<sString>false</sString>
+					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -193,7 +192,7 @@
 	</passiveApplicators>
 	<persistentId>G072</persistentId>
 	<prerequisiteTalents />
-	<rarity>outstanding</rarity>
+	<rarity>excellent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>

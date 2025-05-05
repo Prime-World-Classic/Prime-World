@@ -1212,9 +1212,9 @@
 					<calcIncrement>27.5</calcIncrement>
 					<calcValue>800</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAEQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>30</sString>
+						<sString>33</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Life</statId>
@@ -1276,9 +1276,9 @@
 					<calcIncrement>0.4</calcIncrement>
 					<calcValue>45</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcwMPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.55</sString>
+						<sString>0.5</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Dexterity</statId>
@@ -1292,9 +1292,9 @@
 					<calcIncrement>0.3</calcIncrement>
 					<calcValue>57</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcwMPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.55</sString>
+						<sString>0.5</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>AttackSpeed</statId>
@@ -1308,9 +1308,9 @@
 					<calcIncrement>0.8</calcIncrement>
 					<calcValue>56</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.6</sString>
+						<sString>0.75</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Stamina</statId>

@@ -146,7 +146,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G636_Life.TALENT" />
+					<talent href="/Items/Talents/Level4/G660_GuildAllyDispell_Red.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -192,7 +192,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" />
+					<talent href="/Items/Talents/Level5/G650_Int.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -238,7 +238,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G639_Will_DexOrAtSpd.TALENT" />
+					<talent href="/Items/Talents/Level6/G593_IntDexOrAtSpd.TALENT" />
 				</Item>
 			</talents>
 		</Item>

@@ -85,9 +85,9 @@
 					<UnitConstant>
 						<name>Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>7</sString>
+							<sString>5</sString>
 						</var>
 					</UnitConstant>
 				</Item>

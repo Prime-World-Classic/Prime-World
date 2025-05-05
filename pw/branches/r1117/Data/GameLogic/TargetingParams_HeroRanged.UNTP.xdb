@@ -19,7 +19,7 @@
 	<BackLink DBID="/Heroes/Healer/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Hunter/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Inventor/_.HROB" Count="1" />
-	<BackLink DBID="/Heroes/Invisible/_.HROB" Count="2" />
+	<BackLink DBID="/Heroes/Invisible/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Mage/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/MagicGirl/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/ManaWyrm/_.HROB" Count="1" />

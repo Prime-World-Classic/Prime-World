@@ -252,16 +252,6 @@
 				<name>Zealot_A4_2u</name>
 			</ConditionFormula>
 		</Item>
-		<Item href="/Items/Talents/Class/Zealot/Ability_A4_2.TALENT" id="F3AD2634-E8D8-4E5A-BED8-9AFA9A2A65A0">
-			<ConditionFormula>
-				<condition>
-					<compiledString>FR4AAAACAAAAJQAAAD4AAABaZWFsb3RfQTJfU1VQAAAAWmVhbG90X0EyX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
-					<returnType>bool</returnType>
-					<sString>tal("Zealot_A2_SUP")==false</sString>
-				</condition>
-				<name>Zealot_A2_SUP</name>
-			</ConditionFormula>
-		</Item>
 	</conditionFormulas>
 	<conflictingTalents>
 		<Item href="/Items/Talents/Class/Zealot/Ability_A4.TALENT" />
@@ -324,9 +314,9 @@
 					<UnitConstant>
 						<name>A4_2_MaxDamage</name>
 						<var>
-							<compiledString>FR4AAAAFAAAAJQAAAD4AAAB1AAAAiAAAAJIAAABaZWFsb3RfQTJfU1VQAAAAWmVhbG90X0EyX1NVUABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQL3QXbAAAA3V3w6wXZ6N1d8GoBUdkFzwAAANkcJFHZBcsAAADZHCRqAItVCIsCi00Ii5AwAQAA/9JR2RwkagGLRRCLEItNEItCYP/Q3E3w2V3s2UXsi+VdwwAAoEMAABZFAAAAAAAA8D8AAAAAAAD4Pw==</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQwAAFkU=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 320, 2400)*(tal("Zealot_A2_SUP") ? 1.5:1)</sString>
+							<sString>damageScale(sStrength, 320, 2400)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -347,16 +337,6 @@
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Zealot/Ability_A4_2.TALENT" id="6E32EA25-5895-47CE-81DB-C8D43A754C51">
-					<UnitConstant>
-						<name>A4_2_ShowHP</name>
-						<var>
-							<compiledString>FSoAAAADAAAAMQAAAEoAAACAAAAAQTRfMl9BZGRIUAAAWmVhbG90X0EyX1NVUAAAAFplYWxvdF9BMl9TVVAAVYvsg+wQaAwAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgcAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0A+2Tfv32RvJ99mDwQGJTfTaTfTZXfDZRfCL5V3D</compiledString>
-							<returnType>float</returnType>
-							<sString>cA4_2_AddHP*(tal("Zealot_A2_SUP") ? 2:1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

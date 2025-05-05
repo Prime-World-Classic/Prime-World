@@ -123,6 +123,8 @@
 	<BackLink DBID="/Test/Talents/TST_My_Terrain.TALENT" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_Neutral_Terrain.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Inventor/Ability4_1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A4_3.TALENT" Count="1" />
 	<aspectRatio>2</aspectRatio>
 	<caption></caption>
 	<DiffuseMap>

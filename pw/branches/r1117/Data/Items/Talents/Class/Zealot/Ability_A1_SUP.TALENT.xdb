@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A2_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Zealot.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Zealot_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<activationConditions />

@@ -263,9 +263,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAAAAAAAVYvsUYtFCIsQi00Ii4JgAQAA/9BrwAWDwGSJRfzbRfyL5V3D</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>100+sNaftaLevel*5</sString>
+		<sString>240</sString>
 	</manaCost>
 	<marker>doCast4</marker>
 	<microAI href="/Items/Talents/Class/Artist/Ability_A4.TALENT" id="23ED2C86-257E-41A2-BF62-783A858FAE81">

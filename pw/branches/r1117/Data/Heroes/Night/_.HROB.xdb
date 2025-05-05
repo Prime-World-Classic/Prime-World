@@ -1062,32 +1062,32 @@
 					<calcIncrement>0.5</calcIncrement>
 					<calcValue>52.8</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmYmPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.65</sString>
+						<sString>0.5</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmplhQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzNTQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>56.4</sString>
+						<sString>52.8</sString>
 					</value>
 				</Item>
 				<Item>
 					<calcIncrement>0.8</calcIncrement>
 					<calcValue>60</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmYmPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.65</sString>
+						<sString>0.8</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Intellect</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmplhQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>56.4</sString>
+						<sString>60</sString>
 					</value>
 				</Item>
 				<Item>

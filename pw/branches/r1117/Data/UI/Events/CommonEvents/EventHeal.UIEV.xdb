@@ -153,7 +153,6 @@
 	<BackLink DBID="/Items/Talents/Class/Vampire/A2_BlinkToTarget.APLR" Count="1" />
 	<BackLink DBID="/Heroes/Assassin/AttackAbility.ATCK" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" Count="1" />
 	<signRecipients>ALL_PLAYERS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventHeal.UIEV" id="878B438C-C615-4D95-A3F9-437FB33C2559">

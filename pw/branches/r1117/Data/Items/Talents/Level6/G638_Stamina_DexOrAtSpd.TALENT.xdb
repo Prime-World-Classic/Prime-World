@@ -13,7 +13,6 @@
 	<BackLink DBID="/Test/Talents/RedSet6.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_BadList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_BadList.ROLLCONT" Count="1" />
-	<BackLink DBID="/Items/Talents/Rockman.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -72,16 +71,6 @@
 							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ6NkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAFhBAACAPw==</compiledString>
 							<returnType>float</returnType>
 							<sString>refineScale(13.5, 1)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G638_Stamina_DexOrAtSpd.TALENT" id="BA448969-6341-4BA9-A17D-2ABA7D90CC43">
-					<UnitConstant>
-						<name>Add_Life</name>
-						<var>
-							<compiledString>FQAAAAACAAAADQAAACMAAABVi+xRUdno2RwkUdkFOQAAANkcJItFEIsQi00Qi0Js/9DcDTEAAADZXfzZRfyL5V3DAAAAAAAAPkAAAFhBAACAPw==</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(13.5, 1)*30</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -170,45 +159,15 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level6/G638_Stamina_DexOrAtSpd.TALENT" id="2689A267-5981-4E7A-87F3-E59F4F6228B9">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Life</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
 		<Item href="/Items/Talents/Level6/G638_Stamina_DexOrAtSpd.TALENT" id="E055F3A5-4EC1-4FD4-A7A6-CFAC8548F1C9">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<caption>SpdOrDex</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB0DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)&amp;&amp;false</sString>
+					<sString>(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -236,9 +195,9 @@
 				<caption>Add_AttackSpeed</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB0DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)&amp;&amp;false</sString>
+					<sString>(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -266,10 +225,9 @@
 				<caption>Add_Dex</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB1DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/DPAg338AA+UwF6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>!(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)&amp;&amp;false
-</sString>
+					<sString>!(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>

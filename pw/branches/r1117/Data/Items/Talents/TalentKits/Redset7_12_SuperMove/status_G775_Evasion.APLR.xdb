@@ -14,9 +14,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQwAAAACAAAAEQAAACcAAABFdmFkZWRPck5vdABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xAF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+					<compiledString></compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vEvadedOrNot &gt;= 1</sString>
+					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

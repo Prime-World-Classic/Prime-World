@@ -18,7 +18,6 @@
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_GoodList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season9_CollectionList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_7_2_Pirates.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -62,16 +61,6 @@
 				<name>StrOrInt</name>
 			</ConditionFormula>
 		</Item>
-		<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="7D847D2B-B452-41B8-9429-4271A1DAAB45">
-			<ConditionFormula>
-				<condition>
-					<compiledString>FQ8AAAACAAAAFAAAACoAAABHNTg3X1N0YU9yV2lsbABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
-					<returnType>bool</returnType>
-					<sString>sender.vG587_StaOrWill==1</sString>
-				</condition>
-				<name>StaOrWill</name>
-			</ConditionFormula>
-		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level5/G690_Stamina.TALENT" id="04A824A7-025D-4333-AFF6-B7F985C1E277">
@@ -79,7 +68,7 @@
 			<vars>
 				<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="077F99AF-7873-497A-B9F8-F432EDD3D144">
 					<UnitConstant>
-						<name>Add_Stat</name>
+						<name>Add_Sta</name>
 						<var>
 							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAmEEzM7M/</compiledString>
 							<returnType>float</returnType>
@@ -132,83 +121,23 @@
 	<name textref="/Items/Talents/Level5/G690_Stamina.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="83B97871-6798-43AD-B97D-AAE30F050F04">
+		<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="DD8ECDE6-B040-461D-B32E-66BCA95A692F">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>StaOrWill</caption>
-				<customApplyType>Maximize</customApplyType>
+				<caption>Add_Sta</caption>
+				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoTi0UIixCLTQiLgiwBAAD/0A+28GoUi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqE4tVCIsCi00Ii5AsAQAA/9IPtvBqFItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkMgAAAD/0otFCIsQi00Ii4LMAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
+					<compiledString></compiledString>
 					<returnType>bool</returnType>
-					<sString>(pFirst-&gt;IsRecommended(19) &gt; pFirst-&gt;IsRecommended(20) ? 1 : pFirst-&gt;IsRecommended(19) &lt; pFirst-&gt;IsRecommended(20) ? 0 : sBaseStamina&gt;=sBaseWill)</sString>
+					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<compiledString>FQgAAAABAAAAFAAAAEFkZF9TdGEAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 						<returnType>float</returnType>
-						<sString>1</sString>
-					</addValue>
-					<multValue>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-						<returnType>float</returnType>
-						<sString>0</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable>G690_StaOrWill</variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="9DE31362-2536-4DE7-A384-2DABE862EBEB">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Will</caption>
-				<customApplyType>Maximize</customApplyType>
-				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoTi0UIixCLTQiLgiwBAAD/0A+28GoUi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqE4tVCIsCi00Ii5AsAQAA/9IPtvBqFItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkMgAAAD/0otFCIsQi00Ii4LMAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/DPAg338AA+UwF6L5V3D</compiledString>
-					<returnType>bool</returnType>
-					<sString>!(pFirst-&gt;IsRecommended(19) &gt; pFirst-&gt;IsRecommended(20) ? 1 : pFirst-&gt;IsRecommended(19) &lt; pFirst-&gt;IsRecommended(20) ? 0 : sBaseStamina&gt;=sBaseWill)</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Stat</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Will</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level5/G690_Stamina.TALENT" id="861F0514-B118-4218-8538-AEEFCED1AE68">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Stamina</caption>
-				<customApplyType>Maximize</customApplyType>
-				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoTi0UIixCLTQiLgiwBAAD/0A+28GoUi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqE4tVCIsCi00Ii5AsAQAA/9IPtvBqFItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkMgAAAD/0otFCIsQi00Ii4LMAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
-					<returnType>bool</returnType>
-					<sString>(pFirst-&gt;IsRecommended(19) &gt; pFirst-&gt;IsRecommended(20) ? 1 : pFirst-&gt;IsRecommended(19) &lt; pFirst-&gt;IsRecommended(20) ? 0 : sBaseStamina&gt;=sBaseWill)</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Stat</sString>
+						<sString>cAdd_Sta</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>

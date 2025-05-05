@@ -963,36 +963,6 @@
 											<providerName></providerName>
 										</PermanentStatModApplicator>
 									</Item>
-									<Item href="/Creeps/A/SuperHeavy/InventorSummon.CREEP" id="C9B1CC5D-D7B8-49AA-A9A5-10AA5772959B">
-										<PermanentStatModApplicator>
-											<applyTarget>AbilityOwner</applyTarget>
-											<caption>Хитрость от Хитрости + Проворства</caption>
-											<customApplyType>None</customApplyType>
-											<enabled>
-												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</enabled>
-											<formulaName></formulaName>
-											<LoggingEvent>-1</LoggingEvent>
-											<modifier>
-												<addValue>
-													<compiledString>FQ8AAAADAAAAFgAAACsAAABkAAAAVGFyZ2V0AABUYXJnZXQAVYvsg+wUaAAAAACLRRCLEItNEItCTP/QiUX8aAgAAACLTRCLEYtNEItCTP/QiUX4i034ixGLTfiLQhz/0ItN/IsRi038i4I4AQAA3V3w/9DcRfDcNXIAAADZXezZReyL5V3DAAAAAAAAAEA=</compiledString>
-													<returnType>float</returnType>
-													<sString>(appl.oTarget.Dexterity+appl.oTarget.AttackSpeed)/2</sString>
-												</addValue>
-												<multValue>
-													<compiledString></compiledString>
-													<returnType>float</returnType>
-													<sString>1.0f</sString>
-												</multValue>
-												<stat>Dexterity</stat>
-												<topModifier>false</topModifier>
-												<variable></variable>
-											</modifier>
-											<providerName></providerName>
-										</PermanentStatModApplicator>
-									</Item>
 								</applicators>
 								<dispatch href="/Creeps/A/SuperHeavy/InventorSummon.CREEP" id="C3EE2BDC-10C8-46D4-A58F-DF14610A7E35">
 									<DispatchImmediate>

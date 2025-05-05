@@ -9,7 +9,6 @@
 	<BackLink DBID="/Social/Quests/TalentQuests/_Settings" Count="1" />
 	<BackLink DBID="/Items/Talents/WitchDoctor.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Bard.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Unicorn.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

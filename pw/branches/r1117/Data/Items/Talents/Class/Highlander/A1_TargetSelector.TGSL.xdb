@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HighlanderA1TargetSelector>
 	<BackLink DBID="/Items/Talents/Class/Highlander/foralltargets.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Highlander/Ability1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/Ability1.TALENT" Count="1" />
 	<flags>0</flags>
 	<mode>CaptureTargets</mode>
 	<range>

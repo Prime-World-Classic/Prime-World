@@ -20,7 +20,6 @@
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_CollectionGoodList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_GoodList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_GoodList.ROLLCONT" Count="1" />
-	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -194,9 +193,9 @@
 					<UnitConstant>
 						<name>Lifetrigger</name>
 						<var>
-							<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNTMwAAAAAEc1MzAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPh+4PBD4lN9NtF9IvlXcM=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("G530") ? 10 : 15</sString>
+							<sString>15</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -258,9 +257,9 @@
 					<UnitConstant>
 						<name>DamageIncomePercent</name>
 						<var>
-							<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNTMwAAAAAEc1MzAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPh+4PBD4lN9NtF9IvlXcM=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("G530") ? 10 : 15</sString>
+							<sString>15</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -10,7 +10,6 @@
 	<BackLink DBID="/Items/RerollShop/TalentsList_SuperSpeed" Count="1" />
 	<BackLink DBID="/Social/Quests/TalentQuests/_Settings" Count="1" />
 	<BackLink DBID="/Items/Talents/Fluffy.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Unicorn.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -30,36 +29,6 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="DEB8B9F7-4B12-41E7-93F2-B9978197842B">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Мы уклонимся</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-						<returnType>float</returnType>
-						<sString>1</sString>
-					</addValue>
-					<multValue>
-						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable>EvadedOrNot</variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset7_12_SuperMove/status_G775_Evasion.APLR" />
 		<Item href="/Items/Talents/TalentKits/Redset7_12_SuperMove/status_G780_G781_Buff.APLR" />
 	</applicators>
@@ -93,16 +62,6 @@
 		<Item href="/Items/Talents/TalentKits/Redset7_12_SuperMove/condition_G780_BuffStrOrInt" />
 		<Item href="/Items/Talents/TalentKits/Redset7_12_SuperMove/condition_G781_InForma" />
 		<Item href="/Items/Talents/TalentKits/Redset7_12_SuperMove/condition_G781_BuffSpdOrDex" />
-		<Item href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="11370E68-E213-41B1-B6ED-AD758070218F">
-			<ConditionFormula>
-				<condition>
-					<compiledString>FQwAAAACAAAAEQAAACcAAABFdmFkZWRPck5vdABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xAF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
-					<returnType>bool</returnType>
-					<sString>sender.vEvadedOrNot&gt;=1</sString>
-				</condition>
-				<name>EvadedOrNotC</name>
-			</ConditionFormula>
-		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="C585675E-E360-445E-A3F5-892C9CCFD5FC">
@@ -134,16 +93,6 @@
 							<compiledString>FQwAAAACAAAAEQAAACcAAABHNzc1X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
 							<returnType>float</returnType>
 							<sString>sender.vG775_Active &gt; 0</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="32B8D33C-089F-4FF3-8600-9235EFC3039C">
-					<UnitConstant>
-						<name>EvadedOrNot</name>
-						<var>
-							<compiledString>FQwAAAABAAAAEAAAAEV2YWRlZE9yTm90AFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
-							<returnType>float</returnType>
-							<sString>sender.vEvadedOrNot</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -341,236 +290,6 @@
 			</FlagsApplicator>
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset7_12_SuperMove/appl_G777_BonusSpeed.APLR" />
-		<Item href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="484AAA4C-0B0A-4C85-AB56-886835BD2B45">
-			<TriggerApplicator>
-				<actionsCount>
-					<compiledString></compiledString>
-					<returnType>int</returnType>
-					<sString>0</sString>
-				</actionsCount>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>Если уклонились - отключаем</caption>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<playAck>false</playAck>
-				<processor href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="5F74A2C4-9703-4865-9731-36C793A49AE7">
-					<EventProcessorCondition>
-						<applyTarget>ApplicatorTarget</applyTarget>
-						<condition>
-							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-							<returnType>bool</returnType>
-							<sString>true</sString>
-						</condition>
-						<events>1024</events>
-						<onlyParent>false</onlyParent>
-						<spell href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="92D65A89-AF03-49E2-B223-A0D8C42FA12E">
-							<Spell>
-								<applicators>
-									<Item href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="06E0257C-1DAF-4A22-A0BB-FA0770D81041">
-										<PermanentStatModApplicator>
-											<applyTarget>ApplicatorTarget</applyTarget>
-											<caption>Мы уклонились</caption>
-											<customApplyType>None</customApplyType>
-											<enabled>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</enabled>
-											<formulaName></formulaName>
-											<LoggingEvent>-1</LoggingEvent>
-											<modifier>
-												<addValue>
-													<compiledString></compiledString>
-													<returnType>float</returnType>
-													<sString>0.0f</sString>
-												</addValue>
-												<multValue>
-													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-													<returnType>float</returnType>
-													<sString>0</sString>
-												</multValue>
-												<stat>Life</stat>
-												<topModifier>true</topModifier>
-												<variable>EvadedOrNot</variable>
-											</modifier>
-											<providerName></providerName>
-										</PermanentStatModApplicator>
-									</Item>
-								</applicators>
-								<dispatch href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="9A90C053-A75B-41BB-9089-029A30A7B36F">
-									<DispatchImmediate>
-										<alwaysApply>false</alwaysApply>
-										<applyEffect>
-											<Item href="" />
-											<Item href="" />
-										</applyEffect>
-										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-										<applyEffectOrientation>Default</applyEffectOrientation>
-										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-										<dieAfterApply>true</dieAfterApply>
-										<dispatchEffect>
-											<Item href="" />
-											<Item href="" />
-										</dispatchEffect>
-										<flags>0</flags>
-										<instantApply>false</instantApply>
-									</DispatchImmediate>
-								</dispatch>
-							</Spell>
-						</spell>
-					</EventProcessorCondition>
-				</processor>
-				<providerName></providerName>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<useAbilityCooldown>false</useAbilityCooldown>
-				<useAbilityOwnerMana>false</useAbilityOwnerMana>
-			</TriggerApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="D8CED681-909B-4D7A-BDE5-E7CA0151A826">
-			<TriggerApplicator>
-				<actionsCount>
-					<compiledString></compiledString>
-					<returnType>int</returnType>
-					<sString>0</sString>
-				</actionsCount>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>Получили урон - включаем</caption>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<playAck>false</playAck>
-				<processor href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="0B89F3B4-CFD4-489E-83CD-675B12DEA50B">
-					<EventProcessorDamageTransformer>
-						<abilityFilter>
-							<abilitiesList />
-							<abilityCondition>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</abilityCondition>
-							<abilityCostMode>Energy</abilityCostMode>
-							<exceptThis>false</exceptThis>
-							<flags>1073741825</flags>
-							<onlySingleTarget>false</onlySingleTarget>
-						</abilityFilter>
-						<add>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>0.0f</sString>
-						</add>
-						<applyTarget>ApplicatorTarget</applyTarget>
-						<checkSender>0</checkSender>
-						<damageTypeFilter>15</damageTypeFilter>
-						<flags>0</flags>
-						<matchTargetInverted>false</matchTargetInverted>
-						<mul>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>1.0f</sString>
-						</mul>
-						<objectFilter>2040319</objectFilter>
-						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
-						<spell href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="D85F5CEE-C273-4A05-B2B0-BF5B037FA749">
-							<Spell>
-								<applicators>
-									<Item href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="62E30404-A9FC-4BF0-9FA7-6D698C416495">
-										<PermanentStatModApplicator>
-											<applyTarget>ApplicatorTarget</applyTarget>
-											<caption>Мы уклонимся</caption>
-											<customApplyType>None</customApplyType>
-											<enabled>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</enabled>
-											<formulaName></formulaName>
-											<LoggingEvent>-1</LoggingEvent>
-											<modifier>
-												<addValue>
-													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-													<returnType>float</returnType>
-													<sString>1</sString>
-												</addValue>
-												<multValue>
-													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-													<returnType>float</returnType>
-													<sString>1.0f</sString>
-												</multValue>
-												<stat>Life</stat>
-												<topModifier>false</topModifier>
-												<variable>EvadedOrNot</variable>
-											</modifier>
-											<providerName></providerName>
-										</PermanentStatModApplicator>
-									</Item>
-								</applicators>
-								<dispatch href="/Items/Talents/Level1/G775_StrOrInt.TALENT" id="29ADA9EA-349B-4246-8896-7D762CCB8539">
-									<DispatchImmediate>
-										<alwaysApply>false</alwaysApply>
-										<applyEffect>
-											<Item href="" />
-											<Item href="" />
-										</applyEffect>
-										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-										<applyEffectOrientation>Default</applyEffectOrientation>
-										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-										<dieAfterApply>true</dieAfterApply>
-										<dispatchEffect>
-											<Item href="" />
-											<Item href="" />
-										</dispatchEffect>
-										<flags>0</flags>
-										<instantApply>false</instantApply>
-									</DispatchImmediate>
-								</dispatch>
-							</Spell>
-						</spell>
-						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
-					</EventProcessorDamageTransformer>
-				</processor>
-				<providerName></providerName>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<useAbilityCooldown>false</useAbilityCooldown>
-				<useAbilityOwnerMana>false</useAbilityOwnerMana>
-			</TriggerApplicator>
-		</Item>
 	</passiveApplicators>
 	<persistentId>G775</persistentId>
 	<prerequisiteTalents />

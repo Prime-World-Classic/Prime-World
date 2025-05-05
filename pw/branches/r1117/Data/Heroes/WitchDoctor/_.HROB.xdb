@@ -961,7 +961,7 @@
 	</recolor>
 	<recommendedStats>
 		<Item>Life</Item>
-		<Item>Strength</Item>
+		<Item>Intellect</Item>
 		<Item>Dexterity</Item>
 	</recommendedStats>
 	<rounded>false</rounded>

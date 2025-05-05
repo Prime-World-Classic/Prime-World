@@ -76,7 +76,7 @@
 	<BackLink DBID="/Items/Scrolls/SignOfStarfall.ARCT" Count="1" />
 	<BackLink DBID="/Items/Scrolls/status_Burn.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A2.TALENT" Count="2" />
-	<BackLink DBID="/Items/Talents/Class/Archeress/Ability_A1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Archeress/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Archeress/MagicDamage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Artist/status_A2_damage.APLR" Count="1" />
@@ -274,7 +274,6 @@
 	<BackLink DBID="/Buildings/DefaultStats/MainBuildingAutoAttackEnergy.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/status_A3_CrowForm.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset4_4_Axes/status_ImproveAA_1.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" Count="2" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" id="FCDDC7F1-12E2-4611-8C2F-927182843C56">

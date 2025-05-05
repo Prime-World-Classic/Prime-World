@@ -69,9 +69,9 @@
 					<UnitConstant>
 						<name>Add_AttackSpeed</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAmEEzM7M/</compiledString>
+							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ6NkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAHBBAACAPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(19, 1.4)</sString>
+							<sString>refineScale(15, 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -125,9 +125,9 @@
 				<caption>Add_Life</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>false</sString>
+					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>

@@ -22,7 +22,6 @@
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_BadList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Test/Talents/RedSet7_10.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_BadList.ROLLCONT" Count="1" />
-	<BackLink DBID="/Items/Talents/Freeze.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -80,16 +79,6 @@
 							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ6NkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAFhBAACAPw==</compiledString>
 							<returnType>float</returnType>
 							<sString>refineScale(13.5, 1)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G639_Will_DexOrAtSpd.TALENT" id="C20A0125-9B40-4B12-8521-AA0FBE8FA237">
-					<UnitConstant>
-						<name>Add_Life</name>
-						<var>
-							<compiledString>FQAAAAACAAAADQAAACMAAABVi+xRUdno2RwkUdkFOQAAANkcJItFEIsQi00Qi0Js/9DcDTEAAADZXfzZRfyL5V3DAAAAAAAAPkAAAFhBAACAPw==</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(13.5, 1)*30</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -172,36 +161,6 @@
 						<sString>1.0f</sString>
 					</multValue>
 					<stat>Will</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level6/G639_Will_DexOrAtSpd.TALENT" id="A633B9F9-FA95-4CE0-A059-1672DC1C5CA6">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Life</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Life</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

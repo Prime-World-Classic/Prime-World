@@ -14,7 +14,6 @@
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Rockman_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_BadList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_BadList.ROLLCONT" Count="1" />
-	<BackLink DBID="/Items/Talents/Freeze.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -253,9 +252,9 @@
 					<UnitConstant>
 						<name>Add_Life</name>
 						<var>
-							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMAAJhBMzOzPw==</compiledString>
+							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMAAIBAzczMPg==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(19,1.4)*cLifeBudget</sString>
+							<sString>refineScale(4,0.4)*cLifeBudget</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -348,9 +347,9 @@
 				<caption>StrOrInt</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB0DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)&amp;&amp;false</sString>
+					<sString>(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -408,9 +407,9 @@
 				<caption>Add_Strength</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB0DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)&amp;&amp;false</sString>
+					<sString>(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -438,9 +437,9 @@
 				<caption>Add_Intellect</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB1DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/DPAg338AA+UwF6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>!(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)&amp;&amp;false</sString>
+					<sString>!(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>

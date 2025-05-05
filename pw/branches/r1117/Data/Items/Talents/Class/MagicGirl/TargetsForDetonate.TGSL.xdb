@@ -21,7 +21,7 @@
 				<returnType>float</returnType>
 				<sString>cTECH_A4_2_TriggeredRange</sString>
 			</range>
-			<targetFilter>537395203</targetFilter>
+			<targetFilter>537657347</targetFilter>
 			<targetSelector href="" />
 		</AreaTargetSelector>
 	</targetSelector>

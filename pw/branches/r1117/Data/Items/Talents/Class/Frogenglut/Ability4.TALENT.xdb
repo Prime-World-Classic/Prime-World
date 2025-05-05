@@ -1117,9 +1117,9 @@
 					<UnitConstant>
 						<name>A4_StackCooldown</name>
 						<var>
-							<compiledString>FWwAAAAJAAAAcwAAAIkAAACTAAAAmAAAALEAAAC9AAAA1gAAAOIAAAD7AAAAVG90YWxfQ29vbGRvd25SZWR1Y3Rpb24AR2x5cGhSZWZyZXNoZXJfQ0RSX0Ftb3VudAAAAFNpZ25PZkNvcHlfQ0RSX0Ftb3VudAAAAFRvdGFsX0Nvb2xkb3duVWx0aW1hdGVSZWR1Y3Rpb24AVYvsg+wcaAAAAACLRQiLEItNCIuCiAEAAP/Q3DUgAQAA2eje4dwNEAEAAGgYAAAAi00IixGLTQiLgogBAADdXfj/0Nw1IAEAANno3uHcTfhoNAAAAItNCIsRi00Ii4KIAQAA3V3w/9DcNSABAADZ6N7h3E3waEwAAACLTQiLEYtNCIuCiAEAAN1d6P/Q3DUgAQAA2eje4dxN6Nld5NlF5IvlXcMAAAAAAMBDQAAAAAAAAPA/AAAAAAAAWUA=</compiledString>
+							<compiledString>FWwAAAAJAAAAcwAAAIkAAACTAAAAmAAAALEAAAC9AAAA1gAAAOIAAAD7AAAAVG90YWxfQ29vbGRvd25SZWR1Y3Rpb24AR2x5cGhSZWZyZXNoZXJfQ0RSX0Ftb3VudAAAAFNpZ25PZkNvcHlfQ0RSX0Ftb3VudAAAAFRvdGFsX0Nvb2xkb3duVWx0aW1hdGVSZWR1Y3Rpb24AVYvsg+wcaAAAAACLRQiLEItNCIuCiAEAAP/Q3DUgAQAA2eje4dwNEAEAAGgYAAAAi00IixGLTQiLgogBAADdXfj/0Nw1IAEAANno3uHcTfhoNAAAAItNCIsRi00Ii4KIAQAA3V3w/9DcNSABAADZ6N7h3E3waEwAAACLTQiLEYtNCIuCiAEAAN1d6P/Q3DUgAQAA2eje4dxN6Nld5NlF5IvlXcMAAAAAAIA9QAAAAAAAAPA/AAAAAAAAWUA=</compiledString>
 							<returnType>float</returnType>
-							<sString>39.5 * (1 - sender.vTotal_CooldownReduction/100) * (1 - sender.vGlyphRefresher_CDR_Amount/100) * (1 - sender.vSignOfCopy_CDR_Amount/100) * (1 - sender.vTotal_CooldownUltimateReduction/100)</sString>
+							<sString>29.5 * (1 - sender.vTotal_CooldownReduction/100) * (1 - sender.vGlyphRefresher_CDR_Amount/100) * (1 - sender.vSignOfCopy_CDR_Amount/100) * (1 - sender.vTotal_CooldownUltimateReduction/100)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1460,7 +1460,7 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>

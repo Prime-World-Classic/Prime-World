@@ -3,7 +3,6 @@
 	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A4_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Inventor_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Inventor.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

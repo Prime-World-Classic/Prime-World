@@ -5271,16 +5271,6 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Artist/Ability_A1.TALENT" id="5DAA5A08-BD8D-46B6-B9CB-90047CC4C730">
-					<UnitConstant>
-						<name>A1ManaCost</name>
-						<var>
-							<compiledString>FREAAAADAAAAHgAAADkAAABEAAAAQXJ0aXN0X0E0X3N0YXR1cwBVi+yD7AxqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9A7RRB0C90FYAAAAN1d+OsJ3QVYAAAA3V343UX42V302UX0i+VdwwAAAAAAAFVAAAAAAACAYUA=</compiledString>
-							<returnType>float</returnType>
-							<sString>sender.applArtist_A4_status(UNIT) != pMisc ? 140 : 140*0.6</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -5328,9 +5318,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQsAAAABAAAAFwAAAEExTWFuYUNvc3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>cA1ManaCost</sString>
+		<sString>140</sString>
 	</manaCost>
 	<marker>doCast1</marker>
 	<microAI href="/Items/Talents/Class/Artist/Ability_A1.TALENT" id="99160CE2-FF9C-4983-B83E-BEE4BD8BD1B8">
