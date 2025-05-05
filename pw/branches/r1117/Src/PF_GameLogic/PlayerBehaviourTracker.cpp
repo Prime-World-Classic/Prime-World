@@ -156,7 +156,7 @@ namespace NWorld
     const bool trackBadZumaPlayer = true;
       //(params->goodZumaActionTimeout > 0);
     const bool trackReports = true;// (params->badBehaviourComplaintsThreshold > 0);
-    const bool trackMessage = true;// (params->insultComplaintsThreshold);
+    //const bool trackMessage = true;// (params->insultComplaintsThreshold);
 
     if (trackIdler)
       AddTracking(EMark::Idler);
@@ -363,7 +363,7 @@ namespace NWorld
   {
     NI_ASSERT(HasTracking(EMark::ToxicPlayer), "Invalid state");
 
-    const int checkReports = static_cast<int>(insultComplaints);
+    //const int checkReports = static_cast<int>(insultComplaints);
 
     //if (isBadMessage)
 //      return;
