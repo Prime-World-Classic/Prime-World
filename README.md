@@ -1,4 +1,4 @@
-## Prime World Classic #1 fork
+# Prime World Classic #1 fork
 
 ## Prime World
 Исходный код боевой части игры Prime World.  
@@ -7,24 +7,39 @@
 ## Содержимое
 - pw — основной код боевой части
 - pw_publish — собранный клиент боевой части с читами и редактор для клиента
+- make-links.bat - создаёт junction ссылки на директории **Data**, **Localization**, **Profiles**, **Tools** из `pw\branches\r1117` в `pw_publish\branch\Client\PvP`
+- copy_data_patch.bat - копирует файлы, перечисленные в коммите из `pw\branches\r1117\Data` в `Data_Patch\Data`. Использование `copy_data_patch.bat ea03238`
+- setup_update_repos.bat - инициализирует репозитории обновлений - **content** и **PWCGitUpdates** (тестовые **-test** и публичные версии), с указанием дополнительных remote зеркал
 
-## Подготовка
-Необходимо выкачать ветку pw и объединить папку Bin с основными данными игры.
+## Компиляция клиента и сервера
+Основной солюшен: `pw\branches\r1117\Src\PF.sln`. Конфигурации: ShippingSingleExe - публичная версия, ReleaseSingleExe - тестовая версия с читами. На данный момент компилируются:
+* PW_Game.exe
+* UniServerApp
 
-1. Переключитесь на ветку `pw`.
-2. Скопируйте папку `Prime-World\pw_publish\branch\Client\PvP\Bin` в `PW-Battle\pw\branches\r1117` с заменой файлов.
-3. Запустите клиент с читами `Prime-World\pw\branches\r1117\Bin\PW_Game.exe`.
-4. Если всё ок — на этом этапе откроется окно загрузки, но без картинки и с чёрным экраном.
-5. В папке Profiles -> game.cfg поменяйте значение `local_game 0` на `local_game 1`.
-6. Запустите клиент с читами. Теперь вы должны увидеть лобби, где можете выбрать карту, героя и уйти в бой.
-7. В бою нажмите тильду — откроется консоль для ввода читов.
+Не компилируется:
+* PF_Editor
 
-В случае возникновения ошибок смотрите логи в `Prime-World\pw\branches\r1117\Bin\logs`.
+Публичная конфигурация - ShippingSingleExe. Тестовая конфигурация (с читами) - ReleaseSingleExe. Возможны проблемы с компиляцией некоторых конфигураций/проектов на разных этапах жизни репозитория.
+
+## Запуск клиента с читами в режиме локальной игры
+Необходимо клонировать ветку main и объединить папку Bin с основными данными игры.
+
+1. Запустите make-links.bat
+2. В `pw_publish\branch\Client\PvP\Profiles\game.cfg` должно стоять значение `local_game 3` или `local_game 1` для запуска игры без активного сервера.
+3. Запуск клиента с читами `pw_publish\branch\Client\PvP\Bin\PW_Game.exe`.
+
+### Общие сведения при запуске игры
+1. Вы должны увидеть лобби, где можете выбрать карту, героя и уйти в бой.
+2. Первый запуск будет долгим из-за загрузки файлов в оперативную память.
+3. Для героев используются билды по умолчанию.
+4. В бою нажмите тильду — откроется консоль для ввода читов. Список команд на **help** крашит игру, но в логах отобразится список.
+
+В случае возникновения ошибок смотрите логи в `pw_publish\branch\Client\PvP\Bin\logs`.
 
 ## Данные игры
 Данные редактируются через редактор.  
 Расположены в:  
-`Prime-World\pw\branches\r1117\Data`
+`pw\branches\r1117\Data`
 
 Через данные можно:
 1. Менять описания талантов и способностей героев.
@@ -39,40 +54,60 @@
 
 ## Редактор
 Находится в:  
-`Prime-World\pw\branches\r1117\Bin\PF_Editor.exe`
+`pw_publish\branch\Client\PvP\Bin\PF_Editor.exe`
 
 При первом открытии редактора нужно настроить путь к `Data`:
 1. Tools -> File System Configuration.
 2. Add -> WinFileSystem.
-3. В качестве system root установите папку Data: `Prime-World\pw\branches\r1117\Data`.
+3. В качестве system root установите папку Data: `pw_publish\branch\Client\PvP\Data`.
 4. Закройте окна.
 5. В редакторе: Views -> Object Browser и Views -> Properties Editor. Это две основные панели для редактирования данных.
 
 Вкладки редактора можно перемещать и закреплять.
 
-## Клиент с читами
-В репозитории собран и лежит клиент с читами:  
-`PW-Battle\pw_publish\branch\Client\PvP\Bin\PW_Game.exe`
-
-Ему нужно, чтобы рядом с папкой Bin находились Localization, Profiles и Data. Поэтому при подготовке мы его переносим в папку `pw`. При изменении кода клиент нужно собирать.
-
 ## Как запустить PvP
-1. В `Profiles -> game.cfg` поменяйте `local_game 0`.
-2. Добавьте `login_adress` <адрес сервера>.
-3. Запустите игру с параметром -dev_login MyNickname.
+1. В `Profiles -> game.cfg` выставить значение `local_game 0`.
+2. В `login_adress` указать <адрес сервера>.
+3. Запустите игру с параметром -dev_login MyNickname или PW_MiniLauncher.exe. При передаче аргументов учитывайте наличие пробелов.
 
-## Как запустить игру с ботами
-1. В `Profiles -> private.cfg_example` переименуйте файл в `private.cfg`.
+## Как запустить игру с ботами и крипами
+1. В `Profiles -> найдите файл в `private.cfg`.
 2. Откройте файл через блокнот.
 3. Найдите `AT BEGINNING GAME`.
 4. Вставьте новую строку: `add_ai bots` — это для каждого героя в игре поставит ИИ бота.
+5. Для спавна крипов фракций `spawn_creeps 6` (битовая маска 2 | 4)
+6. Для спавна нейтральных крипов (лагеря в лесу, мини-боссы) `spawn_neutral_creeps 1`
+7. Данные команды также можно прописать в консоли в игре
 
-## Устранение возможных ошибок
-1. В `Profiles -> private.cfg_example` переименуйте файл в `private.cfg`.
-2. Откройте файл через блокнот.
-3. Найдите секцию `performance section`.
-4. Найдите строку `setvar gfx_fullscreen = 0` — это запустит игру в оконном режиме, так она может работать стабильнее.
-5. В секции `performance section` можно поменять и другие настройки оптимизации.
+## Список серверов Prime World по состоянию на 05.05.2024
+**Prime World: Classic**
+* Активный сервер Prime World, сообщество ВК насчитывает 5000+ подписчиков
+* Сервер организации Prime World Classic, владеющей данным репозиторием на github. Разработка ведётся в пределах репозиториев данной организации. Будем рады помощи в разработке.
+### Ссылки
+* Страница ВК: https://vk.com/primeworldclassic
+* Сообщество в Telegram: https://t.me/primeworldclassic
+* Сообщество Discord: https://discord.gg/S3yrbFGT86
+* Страница Steam: https://store.steampowered.com/app/3684820/Prime_World_Classic/
+* Сайт с веб-версией замка: https://playpw.fun/
+* Сайт со служебной информацией: https://pw.26rus-game.ru/
+  
+**Prime World: Nova**
+* Активный сервер Prime World, сообщество ВК насчитывает 10000+ подписчиков
+### Ссылки
+* Страница ВК: https://vk.com/pw_nova
+* Сообщество в Telegram: https://t.me/PW_Nova
+* Сообщество Discord: https://discord.gg/F5UCRsD7QJ
+* Сайт: https://playnova.ru
 
-## Благодарности
-Сообществу **Prime World: Nova** за вклад в документацию и исправление ошибок.
+## Другие известные серверы
+**Prime World: Reborn** 
+* На данный момент неизвестно, функционирует ли сервер.
+### Ссылки
+* Страница ВК: https://vk.com/pw.reborn
+
+**Prime World: Legends**
+* Находится в стадии открытого бета-тестирования.
+# Ссылки
+* Страница Steam: https://store.steampowered.com/app/3602240/Prime_World_Legends/
+* Сообщество Telegram: https://t.me/prime_world_legends_game
+* Сайт: https://primeworld.top
