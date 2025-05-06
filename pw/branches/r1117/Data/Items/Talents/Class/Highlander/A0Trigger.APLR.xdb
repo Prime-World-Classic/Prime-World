@@ -70,6 +70,36 @@
 								<providerName></providerName>
 							</PermanentStatModApplicator>
 						</Item>
+						<Item href="/Items/Talents/Class/Highlander/A0Trigger.APLR" id="797B1024-DDDF-46BA-98E0-7ABDFBC8038C">
+							<PermanentStatModApplicator>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<caption>сохраняем хп</caption>
+								<customApplyType>None</customApplyType>
+								<enabled>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<modifier>
+									<addValue>
+										<compiledString>FQ0AAAABAAAAGQAAAEEwQWRkTWF4TGlmZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+										<returnType>float</returnType>
+										<sString>cA0AddMaxLife</sString>
+									</addValue>
+									<multValue>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<stat>Life</stat>
+									<topModifier>false</topModifier>
+									<variable>AmassLife</variable>
+								</modifier>
+								<providerName></providerName>
+							</PermanentStatModApplicator>
+						</Item>
 					</applicators>
 					<dispatch href="/Items/Talents/Class/Highlander/A0Trigger.APLR" id="E1293960-39D0-4E8C-B33A-2E6C4D7CE4FC">
 						<DispatchImmediate>

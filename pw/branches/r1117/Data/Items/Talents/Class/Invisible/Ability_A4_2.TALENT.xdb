@@ -8,6 +8,7 @@
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Invisible_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Invisible.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -93,7 +94,7 @@
 															<segmentDirectionOffset>0</segmentDirectionOffset>
 															<segmentEnd>CurrentPosition</segmentEnd>
 															<segmentEndTargetSelector href="" />
-															<targetFilter>537133119</targetFilter>
+															<targetFilter>537133059</targetFilter>
 														</CapsuleTargetSelector>
 													</targetSelector>
 												</ConditionTargetSelector>

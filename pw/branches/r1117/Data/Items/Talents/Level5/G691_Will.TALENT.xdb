@@ -17,6 +17,7 @@
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_GoodList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season9_CollectionList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_7_2_Pirates.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -67,11 +68,11 @@
 			<vars>
 				<Item href="/Items/Talents/Level5/G691_Will.TALENT" id="D50386BC-8BB9-4E37-90B1-4ED7F606B333">
 					<UnitConstant>
-						<name>Add_Will</name>
+						<name>Add_LifeOrEnergy</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAmEEzM7M/</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwCADkQAAChC</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(19, 1.4)</sString>
+							<sString>refineScale(19*30, 1.4*30)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -120,30 +121,60 @@
 	<name textref="/Items/Talents/Level5/G691_Will.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level5/G691_Will.TALENT" id="29B92FE5-87EC-47C5-A170-366B91215810">
+		<Item href="/Items/Talents/Level5/G691_Will.TALENT" id="19576066-FD37-487A-AE0B-B651801C0B9E">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Will</caption>
-				<customApplyType>None</customApplyType>
+				<caption>Add_Life</caption>
+				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLQgz/0ItNCIsRi00Ii0IQ3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sMaxLife&gt;=sMaxEnergy</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9XaWxsAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FREAAAABAAAAHQAAAEFkZF9MaWZlT3JFbmVyZ3kAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Will</sString>
+						<sString>cAdd_LifeOrEnergy</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Will</stat>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G691_Will.TALENT" id="29B92FE5-87EC-47C5-A170-366B91215810">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Energy</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLQgz/0ItNCIsRi00Ii0IQ3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sMaxLife&lt;sMaxEnergy</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FREAAAABAAAAHQAAAEFkZF9MaWZlT3JFbmVyZ3kAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_LifeOrEnergy</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Energy</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

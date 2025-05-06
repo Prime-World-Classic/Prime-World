@@ -84,6 +84,7 @@
 	<BackLink DBID="/Maps/Test/PlaneMap/Portal/G291_TeleportBackToCaster_1.ABLT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<cancelApplicators>false</cancelApplicators>
 	<caption>End Of Ability</caption>

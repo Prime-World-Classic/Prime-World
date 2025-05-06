@@ -2,7 +2,7 @@
 <DispatchLinear>
 	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4.TALENT" Count="1" />
-	<aiming>Straight</aiming>
+	<aiming>Homing</aiming>
 	<alwaysApply>true</alwaysApply>
 	<applyEffect>
 		<Item href="/Effects/Shots/Fan/_Hit.EFFT" />

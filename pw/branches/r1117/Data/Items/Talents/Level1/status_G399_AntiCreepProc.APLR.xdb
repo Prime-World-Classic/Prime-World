@@ -2,6 +2,7 @@
 <StatusApplicator>
 	<BackLink DBID="/Heroes/DefaultStatus/AxesPrimeUnstackable.APLS" Count="1" />
 	<BackLink DBID="/Items/Talents/Level1/G399_AntiCreepProc_NT.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G399_AntiCreepProc_NT.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Level1/status_G399_AntiCreepProc.APLR" id="B4FDFEDB-4161-4408-A818-12F806CC8F9C">
 			<AbilityUpgradeApplicator>

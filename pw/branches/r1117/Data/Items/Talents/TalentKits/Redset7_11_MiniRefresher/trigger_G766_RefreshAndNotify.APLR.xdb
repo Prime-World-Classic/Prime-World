@@ -138,6 +138,7 @@
 	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A1u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" Count="1" />
 	<actionsCount>
 		<compiledString></compiledString>
 		<returnType>int</returnType>

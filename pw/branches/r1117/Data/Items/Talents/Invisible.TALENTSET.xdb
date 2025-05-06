@@ -100,7 +100,7 @@
 					<aIPriority>2</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G476_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Class/Invisible/Ability_A4_2.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
