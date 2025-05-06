@@ -83,7 +83,7 @@
 ## Prime World: Classic
 * Активный сервер Prime World, сообщество ВК насчитывает 5000+ подписчиков
 * Сервер организации Prime World Classic, владеющей данным репозиторием на github. Разработка ведётся в пределах репозиториев данной организации. Будем рады помощи в разработке.
-**Ссылки**
+### Ссылки
 * Страница ВК: https://vk.com/primeworldclassic
 * Сообщество в Telegram: https://t.me/primeworldclassic
 * Сообщество Discord: https://discord.gg/S3yrbFGT86
@@ -93,7 +93,7 @@
   
 ## Prime World: Nova
 * Активный сервер Prime World, сообщество ВК насчитывает 10000+ подписчиков
-**Ссылки**
+### Ссылки
 * Страница ВК: https://vk.com/pw_nova
 * Сообщество в Telegram: https://t.me/PW_Nova
 * Сообщество Discord: https://discord.gg/F5UCRsD7QJ
@@ -102,12 +102,12 @@
 # Другие известные серверы
 ## Prime World: Reborn
 * На данный момент неизвестно, функционирует ли сервер.
-**Ссылки**
+### Ссылки
 * Страница ВК: https://vk.com/pw.reborn
 
 ## Prime World: Legends
 * Находится в стадии открытого бета-тестирования.
-**Ссылки**
+### Ссылки
 * Страница Steam: https://store.steampowered.com/app/3602240/Prime_World_Legends/
 * Сообщество Telegram: https://t.me/prime_world_legends_game
 * Сайт: https://primeworld.top
