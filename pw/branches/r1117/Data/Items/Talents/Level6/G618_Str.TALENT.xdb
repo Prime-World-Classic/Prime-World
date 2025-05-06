@@ -22,6 +22,7 @@
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Zealot_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="3" />
 	<BackLink DBID="/Social/Quests/TalentQuests/_Settings" Count="1" />
+	<BackLink DBID="/Items/Talents/Demonolog.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

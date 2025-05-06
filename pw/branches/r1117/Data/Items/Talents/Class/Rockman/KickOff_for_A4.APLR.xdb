@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ShiftApplicator>
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="4" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/rockman/Ability4.TALENT" Count="2" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<caption>Kick off</caption>

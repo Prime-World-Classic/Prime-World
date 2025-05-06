@@ -7,6 +7,7 @@
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Redset7_13.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Quests/TalentQuests/_Settings" Count="1" />
 	<BackLink DBID="/Test/Talents/RedSet7_9.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Bard.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -211,36 +212,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level3/G784_MoveSpeed_afterRess.TALENT" id="536270E7-9F8E-4320-8EFF-9701A21A7B62">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Speed</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString>FR4AAAACAAAAJQAAAEIAAABBZGRlZF9Nb3ZlU3BlZWQAQWRkX01vdmVTcGVlZABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9CLTQxRi1UIUmgQAAAAi0UQixCLTRCLQlDdXfj/0Nxd+N/g9sRBdQnHRfQBAAAA6wfHRfQAAAAAikX0i+Vdww==</compiledString>
-					<returnType>bool</returnType>
-					<sString>sender.vAdded_MoveSpeed &lt; cAdd_MoveSpeed</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FSAAAAACAAAALwAAAEEAAABBZGRfTW92ZVNwZWVkAAAAQWRkZWRfTW92ZVNwZWVkAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SaBAAAACLRQiLEItNCIuCiAEAAN1d+P/Q3G342V302UX0i+Vdww==</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_MoveSpeed - sender.vAdded_MoveSpeed</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>MoveSpeed</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
+		<Item href="/Items/Talents/_commonData/parent_MoveChange.APLR" />
 		<Item href="/Items/Talents/Level3/G784_MoveSpeed_afterRess.TALENT" id="4E0E3162-18AD-4506-A945-7BC290108522">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
@@ -271,6 +243,7 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/_commonData/AddedMoveSpeed.APLR" />
 	</passiveApplicators>
 	<persistentId>G784</persistentId>
 	<prerequisiteTalents />

@@ -137,5 +137,45 @@
 				<Item href="/Items/Talents/Level3/G566_AxesStrInt.TALENT" />
 			</talents>
 		</Item>
+		<Item>
+			<caption>Искажение</caption>
+			<cooldown>150</cooldown>
+			<description textref="/GameLogic/TalentGroup.TGRP_groups_4_description.txt" />
+			<name textref="/GameLogic/TalentGroup.TGRP_groups_4_name.txt" />
+			<talents>
+				<Item href="/Items/Talents/Level5/G294_GuildHeroOff.TALENT" />
+				<Item href="/Items/Talents/Level5/G661_GuildHeroOff_Red.TALENT" />
+			</talents>
+		</Item>
+		<Item>
+			<caption>Непоколебимость</caption>
+			<cooldown>120</cooldown>
+			<description textref="/GameLogic/TalentGroup.TGRP_groups_5_description.txt" />
+			<name textref="/GameLogic/TalentGroup.TGRP_groups_5_name.txt" />
+			<talents>
+				<Item href="/Items/Talents/Level5/G063_Life-Int-DispellAoE.TALENT" />
+				<Item href="/Items/Talents/Level5/G467_Life_StaOrWill.TALENT" />
+			</talents>
+		</Item>
+		<Item>
+			<caption>Освобождение</caption>
+			<cooldown>60</cooldown>
+			<description textref="/GameLogic/TalentGroup.TGRP_groups_6_description.txt" />
+			<name textref="/GameLogic/TalentGroup.TGRP_groups_6_name.txt" />
+			<talents>
+				<Item href="/Items/Talents/Level4/G660_GuildAllyDispell_Red.TALENT" />
+				<Item href="/Items/Talents/Level4/G293_GuildAllyDispell.TALENT" />
+			</talents>
+		</Item>
+		<Item>
+			<caption>Покров</caption>
+			<cooldown>15</cooldown>
+			<description textref="/GameLogic/TalentGroup.TGRP_groups_7_description.txt" />
+			<name textref="/GameLogic/TalentGroup.TGRP_groups_7_name.txt" />
+			<talents>
+				<Item href="/Items/Talents/Level4/G658_InvisibilityStrOrInt.TALENT" />
+				<Item href="/Items/Talents/Level4/G075_Invisibility.TALENT" />
+			</talents>
+		</Item>
 	</groups>
 </TalentGroupList>

@@ -24,7 +24,6 @@
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Archeress/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A4_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A4_3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Bomber/status_A4_2_Debuff.APLR" Count="1" />
@@ -71,7 +70,7 @@
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4_2.TALENT" Count="5" />
 	<BackLink DBID="/Items/Talents/Class/Shaman/A4Jump_spellapplicator.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="2" />
@@ -97,6 +96,7 @@
 	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A3.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability4.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Plane/A1_program.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/Ability1.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_STUN.APLR" />
 		<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" id="24D40B45-6F9C-41C0-AC2C-F5CC8C76A195">

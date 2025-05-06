@@ -15,7 +15,7 @@
 		<sString>true</sString>
 	</allowChase>
 	<alternativeTargets />
-	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeDisplayOnMinimap>true</aoeDisplayOnMinimap>
 	<aoeHeight>0</aoeHeight>
 	<aoeMaterial href="/Effects/UI/AOESelection/Circle.MTRL" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>

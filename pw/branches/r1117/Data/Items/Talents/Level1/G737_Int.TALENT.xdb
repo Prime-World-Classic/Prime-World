@@ -17,7 +17,6 @@
 	<BackLink DBID="/Items/Talents/Mage.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Banshee.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Bomber.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Demonolog.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Dryad.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Freeze.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/WitchDoctor.TALENTSET" Count="1" />

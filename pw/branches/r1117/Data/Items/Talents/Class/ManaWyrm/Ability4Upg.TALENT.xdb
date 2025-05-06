@@ -2,7 +2,7 @@
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/SocialTest.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Manawyrm.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Manawyrm.TALENTSET" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability4_2U.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Manawyrm_Mighty.TALENTSET" Count="1" />
@@ -65,9 +65,9 @@
 					<UnitConstant>
 						<name>A4u_Damage</name>
 						<var>
-							<compiledString>FSUAAAADAAAANAAAAE4AAABnAAAAQTRfQmFzZURhbWFnZQAAAEE0dV9Ub3BEYW1hZ2VQZXJjZW50AFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoEAAAAItVEIsCi00Qi1BQ3V34/9LcTfjcDXUAAADZXfTZRfSL5V3DAAAAQOF6hD8=</compiledString>
+							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCBP/Q3A0hAAAA2V382UX8i+VdwzMzMzMzM9M/</compiledString>
 							<returnType>float</returnType>
-							<sString>cA4_BaseDamage * cA4u_TopDamagePercent * 0.01f</sString>
+							<sString>sEnergy*0.3</sString>
 						</var>
 					</UnitConstant>
 				</Item>

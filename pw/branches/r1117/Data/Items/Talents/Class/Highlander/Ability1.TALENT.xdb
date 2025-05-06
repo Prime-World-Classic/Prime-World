@@ -250,6 +250,67 @@
 										</stopCondition>
 										<stopEvents>0</stopEvents>
 									</Item>
+									<Item>
+										<applicator href="/Items/Talents/Class/Highlander/Ability1.TALENT" id="AE3D9D29-98F6-4A89-99C2-908A3C381D0D">
+											<SpellApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<caption>Новый стан</caption>
+												<enabled>
+													<compiledString>FUYAAAAEAAAATQAAAGYAAACcAAAAtQAAAEhpZ2hsYW5kZXJfQTF1MQBIaWdobGFuZGVyX0ExdTEASGlnaGxhbmRlcl9BMV9TVVAAAABIaWdobGFuZGVyX0ExX1NVUABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRYaCAAAACLVQiLAotNCIuQqAEAAP/ShcB0Kmg0AAAAi0UIixCLTQiLgqgBAAD/0IlF9ItN9IsRi030i0IE/9CIRfPrBMZF8wAPtk3zhcl0CcdF7AEAAADrB8dF7AAAAACKReyL5V3D</compiledString>
+													<returnType>bool</returnType>
+													<sString>tal("Highlander_A1u1") &amp;&amp; tal("Highlander_A1_SUP")</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<spell href="/Items/Talents/Class/Highlander/Ability1.TALENT" id="269AD67A-2527-4128-AAD5-5611A9A3B040">
+													<Spell>
+														<applicators>
+															<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
+														</applicators>
+														<dispatch href="/Items/Talents/Class/Highlander/Ability1.TALENT" id="0854D9A8-8062-47D0-8139-93CF6FACB7C7">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>0</flags>
+																<instantApply>false</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</spell>
+												<spellTarget>ApplicatorTarget</spellTarget>
+												<targetSelector href="/Items/Talents/Class/Highlander/A1_TargetSelector.TGSL" />
+											</SpellApplicator>
+										</applicator>
+										<continueCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>0</sString>
+										</continueCondition>
+										<continueEvents>13</continueEvents>
+										<delay>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</delay>
+										<stopCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>0</sString>
+										</stopCondition>
+										<stopEvents>0</stopEvents>
+									</Item>
 								</applicators>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<behaviorFlags>2</behaviorFlags>
@@ -492,9 +553,9 @@
 		<Item href="/Items/Talents/Class/Highlander/Ability1.TALENT" id="2BF6D400-3471-4C6C-A487-C35B0822CC0E">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FSAAAAACAAAAJwAAAEAAAABIaWdobGFuZGVyX0ExdTEASGlnaGxhbmRlcl9BMXUxAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
+					<compiledString>FSYAAAACAAAALQAAAEYAAABIaWdobGFuZGVyX0ExX1NVUAAAAEhpZ2hsYW5kZXJfQTFfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Highlander_A1u1") == false</sString>
+					<sString>tal("Highlander_A1_SUP") == false</sString>
 				</condition>
 				<name>Highlander_A1_SUP</name>
 			</ConditionFormula>

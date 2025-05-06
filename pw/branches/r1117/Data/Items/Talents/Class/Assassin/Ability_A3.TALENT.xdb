@@ -658,9 +658,9 @@
 					<UnitConstant>
 						<name>A3HealPerAttack</name>
 						<var>
-							<compiledString>FTgAAAAGAAAAQwAAAE0AAACIAAAAngAAAKMAAADRAAAAQXR0YWNrU3BlZWRNdWx0UGVyY2VudAAASGVyb19BdHRhY2tTcGVlZE11bHRpcGxpZXJDb3VudABVi+yD7BhqAVHZBfoAAADZHCRR2QX2AAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0FHZ7tkcJItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d+P/Q3DXqAAAAaBgAAACLTQiLEYtNCIuCiAEAAN1d8P/Q3G3w2V3s2UXsUdkcJOgyAAAAg8QI3AXiAAAA3E342V3o2UXoi+Vdw5qZmZmZmck/AAAAAAAAWUAAAAAAAABIQgAAFkNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<compiledString>FTgAAAAHAAAAQwAAAE0AAACIAAAAngAAAKMAAAC8AAAA1wAAAEF0dGFja1NwZWVkTXVsdFBlcmNlbnQAAEhlcm9fQXR0YWNrU3BlZWRNdWx0aXBsaWVyQ291bnQAVYvsg+wYagFR2QUIAQAA2RwkUdkFBAEAANkcJGoAi0UIixCLTQiLgjABAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9BR2e7ZHCSLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0Nw1+AAAAGgYAAAAi00IixGLTQiLgogBAADdXfD/0NwN8AAAANxt8Nld7NlF7FHZHCToOgAAAIPECNwF6AAAANxN+Nld6NlF6IvlXcOamZmZmZnJPzMzMzMzM+M/AAAAAAAAWUAAAAAAAABIQgAAFkNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>(damageScale(sStrength, 50, 150)*(0.2+max((cAttackSpeedMultPercent/100 - sender.vHero_AttackSpeedMultiplierCount),0)))</sString>
+							<sString>(damageScale(sStrength, 50, 150)*(0.2+max((cAttackSpeedMultPercent/100 - sender.vHero_AttackSpeedMultiplierCount*0.6),0)))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -688,9 +688,9 @@
 					<UnitConstant>
 						<name>A3HealPerAttackMin</name>
 						<var>
-							<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+Vdw5qZmZmZmck/AABIQgAAFkM=</compiledString>
+							<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+Vdw5qZmZmZmdk/AABIQgAAFkM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 50, 150)*0.2</sString>
+							<sString>damageScale(sStrength, 50, 150)*0.4</sString>
 						</var>
 					</UnitConstant>
 				</Item>

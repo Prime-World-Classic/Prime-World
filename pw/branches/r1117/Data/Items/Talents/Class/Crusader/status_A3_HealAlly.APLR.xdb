@@ -102,9 +102,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<compiledString>FQ8AAAACAAAAFgAAACwAAABWYW1wUmVzU3RhcnRlZABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXsAAADf4PbERHo2i00MixGLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>(rBaseStamina &lt; rBaseWill)</sString>
+					<sString>sender.vVampResStarted == 0 &amp;&amp; rBaseStamina &lt;= rBaseWill</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -149,9 +149,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<compiledString>FQ8AAAACAAAAFgAAACwAAABWYW1wUmVzU3RhcnRlZABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXsAAADf4PbERHo2i00MixGLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>(rBaseStamina &gt; rBaseWill)</sString>
+					<sString>sender.vVampResStarted == 0 &amp;&amp; rBaseStamina &gt; rBaseWill</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

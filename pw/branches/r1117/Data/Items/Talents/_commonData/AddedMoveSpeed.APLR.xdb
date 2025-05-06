@@ -21,6 +21,7 @@
 	<BackLink DBID="/Items/Talents/Level2/G742_MoveSpeed_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G769_Move_AtSpdOrDex.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G777_MoveSpeed_Super.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G784_MoveSpeed_afterRess.TALENT" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<caption>Установить Added_MoveSpeed на новую величину</caption>
 	<customApplyType>None</customApplyType>

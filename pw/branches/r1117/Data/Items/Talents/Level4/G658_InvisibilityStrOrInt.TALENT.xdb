@@ -2,7 +2,7 @@
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
-	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="1" />
+	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="2" />
 	<BackLink DBID="/Items/ClanItems/CS133_G658" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="4" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_RedSet7.ROLLCONT" Count="1" />

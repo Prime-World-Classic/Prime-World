@@ -8,6 +8,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSetNewUltimates1.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Inventor/Epic_Str_Ult2.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Inventor.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

@@ -170,9 +170,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FR0AAAACAAAAJAAAAD0AAABDcnVzYWRlcl9BM3UAAAAAQ3J1c2FkZXJfQTN1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<compiledString>FQ8AAAACAAAAFgAAACwAAABWYW1wUmVzU3RhcnRlZABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXsAAADf4PbERHo2i00IixGLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Crusader_A3u")</sString>
+					<sString>sender.vVampResStarted == 0 &amp;&amp; sBaseStamina &lt;= sBaseWill</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -198,11 +198,58 @@
 				</modifier>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString>FR0AAAACAAAAJAAAAD0AAABDcnVzYWRlcl9BM3UAAAAAQ3J1c2FkZXJfQTN1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>tal("Crusader_A3u")</sString>
 				</startCondition>
 				<statModName>Add_Will</statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Crusader/status_A3_HealSelf.APLR" id="7E0B732A-B20D-4B15-A778-96E0441EFA3E">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Add Stamina</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQ8AAAACAAAAFgAAACwAAABWYW1wUmVzU3RhcnRlZABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXsAAADf4PbERHo2i00IixGLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vVampResStarted == 0 &amp;&amp; sBaseStamina &gt; sBaseWill</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQwAAAABAAAAGAAAAEEzX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>cA3_Duration</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEEzdV9BZGRXaWxsAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cA3u_AddWill</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Stamina</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FR0AAAACAAAAJAAAAD0AAABDcnVzYWRlcl9BM3UAAAAAQ3J1c2FkZXJfQTN1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Crusader_A3u")</sString>
+				</startCondition>
+				<statModName>Add_Stamina</statModName>
 			</StatModApplicator>
 		</Item>
 	</applicators>
@@ -226,9 +273,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+		<compiledString>FQ8AAAACAAAAFAAAACoAAABWYW1wUmVzU3RhcnRlZABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>sender.vVampResStarted == 0</sString>
 	</enabled>
 	<flags>64</flags>
 	<formulaName>A3OnTime</formulaName>
