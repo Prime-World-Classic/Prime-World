@@ -5,7 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Marine/A2_Program.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Marine/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_2_stun.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" Count="3" />
 	<activeSpellIndex>
 		<compiledString>FTYAAAAFAAAAPQAAAFoAAACEAAAAoQAAALcAAABNYXJpbmVBMF9CdWZmcwAAQTBfUGFyaXR5AAAATWFyaW5lQTBfQnVmZnMAAEEwX1Bhcml0eQBVi+yD7BhoAAAAAItFCIsQi00Ii4KIAQAA/9CLTQxRi1UIUmgQAAAAi0UQixCLTRCLQlDdXfj/0N1F+Nrp3+D2xER6CcdF9AAAAADrWGgcAAAAi00IixGLTQiLgogBAAD/0ItNDFGLVQhSaCwAAACLRRCLEItNEItCUN1d7P/Q3CXiAAAA3F3s3+D2xEF1CcdF6AEAAADrB8dF6AIAAACLTeiJTfSLRfSL5V3DAAAAAAAA8D8=</compiledString>
 		<returnType>int</returnType>

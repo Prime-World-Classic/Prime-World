@@ -484,9 +484,9 @@
 					<UnitConstant>
 						<name>A1_DamageBase</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACSQgBACUQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAkkIAQAlEVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 73, 549)</sString>
+							<sString>damageScale(max(sIntellect,sStrength), 73, 549)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -534,9 +534,9 @@
 					<UnitConstant>
 						<name>A1u1_MaxHealth</name>
 						<var>
-							<compiledString>FQAAAAACAAAAQgAAAEwAAABVi+yD7AyLRQiLEItNCIuCMAEAAP/Qi00IixGLTQiLgjQBAADdXfj/0Nxd+N/g9sQFegbGRfcB6wTGRfcAagFR2QWkAAAA2RwkUdkFoAAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJA+2TfdR6CEAAACDxAjZHCRqAYtVEIsCi00Qi1Bg/9KL5V3DAACWQwCAO0RVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+							<compiledString>FQAAAAACAAAAQgAAAEwAAABVi+yD7BCLRQiLEItNCIuCMAEAAP/Qi00IixGLTQiLgjQBAADdXfj/0Nxd+N/g9sQFegbGRfcB6wTGRfcAagFR2QWsAAAA2RwkUdkFqAAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJA+2TfdR6CkAAACDxAjZHCRqAYtVEIsCi00Qi1Bg/9LcwNld8NlF8IvlXcMAAJZDAIA7RFWL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( s(sStrength&gt;sIntellect, sStrength, sIntellect), 300, 750)</sString>
+							<sString>damageScale( s(sStrength&gt;sIntellect, sStrength, sIntellect), 300, 750)*2</sString>
 						</var>
 					</UnitConstant>
 				</Item>

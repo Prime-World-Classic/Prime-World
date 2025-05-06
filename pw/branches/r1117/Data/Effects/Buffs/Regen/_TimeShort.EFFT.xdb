@@ -11,7 +11,7 @@
 	<BackLink DBID="/Items/Talents/Class/Faceless/A2CritHealing.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/A2_Ally.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Marine/A3_HealSpell.SPLL" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Night/A1Spell.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Warlord/status_A4_banner.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability1.TALENT" Count="1" />

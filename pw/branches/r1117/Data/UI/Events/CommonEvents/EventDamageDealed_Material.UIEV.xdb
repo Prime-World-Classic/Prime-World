@@ -202,7 +202,7 @@
 	<BackLink DBID="/Items/Talents/Class/Marine/A2_Program.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Marine/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_2_stun.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Monster/appl_A0_DebuffOnDamage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/appl_AA_Spell.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Naga/Ability1.TALENT" Count="1" />

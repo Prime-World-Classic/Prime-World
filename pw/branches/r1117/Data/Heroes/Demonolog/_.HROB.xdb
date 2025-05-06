@@ -1042,7 +1042,7 @@
 	</recolor>
 	<recommendedStats>
 		<Item>Life</Item>
-		<Item>Intellect</Item>
+		<Item>Strength</Item>
 		<Item>AttackSpeed</Item>
 	</recommendedStats>
 	<rounded>false</rounded>

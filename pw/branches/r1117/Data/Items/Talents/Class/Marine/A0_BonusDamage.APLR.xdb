@@ -5,7 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Marine/A2_Program.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Marine/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_2_stun.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" Count="3" />
 	<caption>(A0) урон</caption>
 	<damage>
 		<compiledString>FSYAAAADAAAARQAAAFcAAABwAAAAZGFtYWdlRGVhbGVkAAAAAEEwX0JvbnVzRGFtYWdlUGVyY2VudABVi+yD7BCLRRCLEItNEItCSP/QiUX8i00MUYtVCFJoEAAAAItFEIsQi00Qi0JQ/9BoAAAAAItN/IsRi038i0JU3V30/9DcTfTcDX4AAADZXfDZRfCL5V3DAAAAQOF6hD8=</compiledString>

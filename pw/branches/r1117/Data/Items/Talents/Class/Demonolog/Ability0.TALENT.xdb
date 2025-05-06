@@ -52,9 +52,9 @@
 					<UnitConstant>
 						<name>A0_SummonsTimer</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>60</sString>
+							<sString>40</sString>
 						</var>
 					</UnitConstant>
 				</Item>

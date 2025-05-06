@@ -179,9 +179,9 @@
 					<levelUpgrades />
 					<statId>Range</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>4</sString>
+						<sString>8</sString>
 					</value>
 				</Item>
 				<Item>
