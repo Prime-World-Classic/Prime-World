@@ -88,7 +88,7 @@
 					<aIPriority>3</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G515_Life_MoveSpeed.TALENT" />
+					<talent href="/Items/Talents/Level3/G552_PhantomBase.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
