@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability3.TALENT" Count="1" />
+	<name>MasterStatConnected_Power</name>
+	<var>
+		<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagCLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+VdwwAAAAAAAAhAAABAQAAAsEE=</compiledString>
+		<returnType>float</returnType>
+		<sString>abilityScale(sStrength, 3 , 22)*3</sString>
+	</var>
+</UnitConstant>
