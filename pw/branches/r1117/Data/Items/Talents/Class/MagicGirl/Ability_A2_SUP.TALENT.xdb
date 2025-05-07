@@ -60,9 +60,9 @@
 					<UnitConstant>
 						<name>A2_SUP_Dexterity</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADIQQAAlkI=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQQAAcEI=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 25, 75)</sString>
+							<sString>damageScale(sStrength, 20, 60)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

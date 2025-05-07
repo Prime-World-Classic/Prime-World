@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ConditionTargetSelector>
-	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4.TALENT" Count="1" />
 	<condition>
-		<compiledString>FRkAAAADAAEAOQAAAE8AAACuAAAAaQEAAEltbXVuZTJDb250cm9sAABBNF9SYW5nZQBVi+yD7BxogAAAAItFDIsQi00Mi0Jo/9APtsiFyXQ7aAAAAACLVQyLAotNDIuQiAEAAP/S3B3jAAAA3+D2xER6e2gAAAIAi0UMixCLTQyLQmj/0A+2yIXJdWKNVfhSi0UMixCLTQyLgowBAAD/0FCNTfBRi1UIiwKLTQiLkIwBAAD/0lDoSQAAAIPECItFDFCLTQhRaBAAAACLVRCLAotNEItQUN1d6P/S3F3o3+D2xAF1CcdF5AEAAADrB8dF5AAAAACKReSL5V3DAAAAAAAAAABVi+yD7BSLRQjZQASLTQzYYQTZXfTZRfRR2Rwki1UI2QKLRQzYINld8NlF8FHZHCSNTfjoVwAAANlF+NhN+NlF/NhN/N7B2V3s2UXsUdkcJOgHAAAAg8QEi+Vdw1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhv/v//g8QI2V382UX8i+Vdw1WL7FGJTfyLRfzZRQjZGItN/NlFDNlZBItF/IvlXcIIAA==</compiledString>
+		<compiledString>FQ8AAAACAAAALQAAAEMAAABJbW11bmUyQ29udHJvbABVi+xRaIAAAACLRQyLEItNDItCaP/QD7bIhcl0RGgAAAAAi1UMiwKLTQyLkIgBAAD/0twdfgAAAN/g9sREehloAAACAItFDIsQi00Mi0Jo/9APtsiFyXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
 		<returnType>bool</returnType>
-		<sString>(!rFlag(128) || (receiver.vImmune2Control == 0 &amp;&amp; !rFlag(131072)))&amp;&amp;d(sPos,rPos)&lt;=cA4_Range</sString>
+		<sString>(!rFlag(128) || (receiver.vImmune2Control == 0 &amp;&amp; !rFlag(131072)))</sString>
 	</condition>
 	<flags>0</flags>
 	<mode>Normal</mode>
@@ -17,9 +17,9 @@
 			<flags>0</flags>
 			<mode>Normal</mode>
 			<range>
-				<compiledString>FQkAAAACAAAAFgAAACkAAABBNF9SYW5nZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBTcAAADZXfzZRfyL5V3DAAAAAAAAFEA=</compiledString>
+				<compiledString>FQkAAAACAAAAFgAAACkAAABBNF9SYW5nZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBTcAAADZXfzZRfyL5V3DAAAAAAAAAEA=</compiledString>
 				<returnType>float</returnType>
-				<sString>cA4_Range+5</sString>
+				<sString>cA4_Range+2</sString>
 			</range>
 			<targetFilter>672923651</targetFilter>
 			<targetSelector href="" />

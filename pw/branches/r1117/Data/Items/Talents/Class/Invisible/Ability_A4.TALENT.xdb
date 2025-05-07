@@ -189,7 +189,7 @@
 															<Item href="" />
 														</effect>
 														<enabled>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>true</sString>
 														</enabled>
@@ -226,7 +226,7 @@
 															</Spell>
 														</spell>
 														<startCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>true</sString>
 														</startCondition>
@@ -314,7 +314,7 @@
 											<Item href="" />
 										</effect>
 										<enabled>
-											<compiledString></compiledString>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 											<returnType>bool</returnType>
 											<sString>true</sString>
 										</enabled>
@@ -327,7 +327,7 @@
 										<LoggingEvent>-1</LoggingEvent>
 										<providerName></providerName>
 										<startCondition>
-											<compiledString></compiledString>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 											<returnType>bool</returnType>
 											<sString>true</sString>
 										</startCondition>
@@ -336,7 +336,7 @@
 								<providerName></providerName>
 								<skipTargetIfInvalid>false</skipTargetIfInvalid>
 								<startCondition>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 									<returnType>bool</returnType>
 									<sString>true</sString>
 								</startCondition>
@@ -504,7 +504,34 @@
 	<castLimitations>
 		<Item href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="7F0C4582-B1A1-4148-B446-500C5D8E90AA">
 			<TargetCastLimitation>
-				<targetSelector href="/Items/Talents/Class/Invisible/A4_Enemies.TGSL" />
+				<targetSelector href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="F41D6C00-0EFF-450E-AA3F-DAAF3457962B">
+					<ConditionTargetSelector>
+						<condition>
+							<compiledString>FQ8AAAACAAAALQAAAEMAAABJbW11bmUyQ29udHJvbABVi+xRaIAAAACLRQyLEItNDItCaP/QD7bIhcl0RGgAAAAAi1UMiwKLTQyLkIgBAAD/0twdfgAAAN/g9sREehloAAACAItFDIsQi00Mi0Jo/9APtsiFyXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+							<returnType>bool</returnType>
+							<sString>(!rFlag(128) || (receiver.vImmune2Control == 0 &amp;&amp; !rFlag(131072)))</sString>
+						</condition>
+						<flags>0</flags>
+						<mode>Normal</mode>
+						<targetSelector href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="237BE93D-9519-43C9-940E-D9914CED36ED">
+							<AreaTargetSelector>
+								<absolutePosition>
+									<x>0</x>
+									<y>0</y>
+								</absolutePosition>
+								<flags>0</flags>
+								<mode>Normal</mode>
+								<range>
+									<compiledString>FQkAAAABAAAAFQAAAEE0X1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>cA4_Range</sString>
+								</range>
+								<targetFilter>672923651</targetFilter>
+								<targetSelector href="" />
+							</AreaTargetSelector>
+						</targetSelector>
+					</ConditionTargetSelector>
+				</targetSelector>
 				<uiEvent href="/UI/Events/ErrorMessages/CastError_NoValidTargets.UIEV" />
 			</TargetCastLimitation>
 		</Item>
@@ -643,9 +670,9 @@
 					<UnitConstant>
 						<name>A4_StackCooldown</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
-							<sString>10</sString>
+							<sString>1</sString>
 						</var>
 					</UnitConstant>
 				</Item>
