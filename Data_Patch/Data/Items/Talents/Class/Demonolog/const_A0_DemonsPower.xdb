@@ -7,8 +7,8 @@
 	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability3.TALENT" Count="1" />
 	<name>MasterStatConnected_Power</name>
 	<var>
-		<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagCLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+VdwwAAAAAAAAhAAABAQAAAsEE=</compiledString>
+		<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagCLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+Vdw5qZmZmZmQFAAABAQAAAsEE=</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale(sStrength, 3 , 22)*3</sString>
+		<sString>abilityScale(sStrength, 3 , 22)*2.2</sString>
 	</var>
 </UnitConstant>
