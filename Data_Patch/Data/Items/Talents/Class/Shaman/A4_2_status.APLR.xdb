@@ -169,9 +169,9 @@
 											</enabled>
 											<formulaName>MovementControl</formulaName>
 											<lifeTime>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZQA==</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 												<returnType>float</returnType>
-												<sString>2.4</sString>
+												<sString>2</sString>
 											</lifeTime>
 											<LoggingEvent>-1</LoggingEvent>
 											<providerName></providerName>
@@ -211,9 +211,9 @@
 								<formulaName></formulaName>
 								<image href="" />
 								<lifeTime>
-									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZQA==</compiledString>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 									<returnType>float</returnType>
-									<sString>2.4</sString>
+									<sString>2</sString>
 								</lifeTime>
 								<LoggingEvent>-1</LoggingEvent>
 								<name textref="" />
@@ -307,9 +307,9 @@
 				<maxDistance>0</maxDistance>
 				<maxHeight>0</maxHeight>
 				<moveSpeed>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+					<compiledString>FQ8AAAABAAAAGwAAAE1vdmVTcGVlZFRocm93AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 					<returnType>float</returnType>
-					<sString>15</sString>
+					<sString>cMoveSpeedThrow</sString>
 				</moveSpeed>
 				<providerName></providerName>
 				<startSpell href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="71459E6C-F0C9-4BEF-83C9-D6A64C680183">
