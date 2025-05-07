@@ -883,6 +883,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Shaman/Ability_A4_2.TALENT" id="D0F6E708-F675-4F5F-8F6C-970FF70FB852">
+					<UnitConstant>
+						<name>MoveSpeedThrow</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>12</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
