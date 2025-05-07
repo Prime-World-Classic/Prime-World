@@ -55,6 +55,16 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Fluffy/const_A0_SUP_CDR" />
+				<Item href="/Items/Talents/Class/Fluffy/Ability_A0_SUP.TALENT" id="FF5A2CAE-E977-42F2-9CE4-45B24B23E12E">
+					<UnitConstant>
+						<name>A0_SUP_Damage</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>10.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

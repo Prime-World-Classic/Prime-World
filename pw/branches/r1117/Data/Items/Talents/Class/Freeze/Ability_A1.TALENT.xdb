@@ -1067,9 +1067,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAANcAAADhAAAARnJlZXplX0ExX1NVUAAAAEZyZWV6ZV9BMV9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0X2oBUdkFQgEAANkcJFHZBT4BAADZHCRqAItVCIsCi00Ii5A0AQAA/9JR2Rwki0UIixCLTQiLgjABAAD/0FHZHCTojgAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld9OtdagFR2QU6AQAA2RwkUdkFNgEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOgvAAAAg8QE2RwkagGLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAASEIAgLtDAAB8QgCA6kNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAANcAAADhAAAARnJlZXplX0ExX1NVUAAAAEZyZWV6ZV9BMV9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0X2oBUdkFQgEAANkcJFHZBT4BAADZHCRqAItVCIsCi00Ii5A0AQAA/9JR2Rwki0UIixCLTQiLgjABAAD/0FHZHCTojgAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld9OtdagFR2QU6AQAA2RwkUdkFNgEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOgvAAAAg8QE2RwkagGLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAASEIAgLtDAACHQgAA/UNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Freeze_A1_SUP") ? damageScale(max(sStrength, sIntellect), 63, 469) : damageScale(max(sStrength, sIntellect), 50, 375)</sString>
+							<sString>tal("Freeze_A1_SUP") ? damageScale(max(sStrength, sIntellect), 67.5, 506) : damageScale(max(sStrength, sIntellect), 50, 375)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1112,9 +1112,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+		<compiledString>FR4AAAACAAAAJQAAAD4AAABGcmVlemVfQTFfU1VQAAAARnJlZXplX0ExX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Tfv32RvJg+H9g8EPiU3020X0i+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>15</sString>
+		<sString>tal("Freeze_A1_SUP") ? 12 : 15</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

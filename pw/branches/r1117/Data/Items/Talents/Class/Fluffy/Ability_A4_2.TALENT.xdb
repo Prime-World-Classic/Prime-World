@@ -298,9 +298,9 @@
 					<UnitConstant>
 						<name>Need_Rage</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>35</sString>
+							<sString>15</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -386,9 +386,9 @@
 					<UnitConstant>
 						<name>BaseCD</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>120.0f</sString>
+							<sString>60.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -3,8 +3,8 @@
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4_2.TALENT" Count="1" />
 	<name>A4_2_Damage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADUQgAASEQ=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABJQwAAvkQ=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sStrength, 106, 800)</sString>
+		<sString>damageScale(sStrength, 201, 1520)</sString>
 	</var>
 </UnitConstant>
