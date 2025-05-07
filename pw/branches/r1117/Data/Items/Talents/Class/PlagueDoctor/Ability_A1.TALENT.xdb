@@ -1386,9 +1386,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FRQAAAACAAAAMgAAAEgAAABDdXJyZW50QnVib25DaGFyZ2VzAFWL7FFoAAACAItFDIsQi00Mi0Jo/9APtsiFyXUraAAAAACLVQiLAotNCIuQiAEAAP/S3B1qAAAA3+D2xAV7CcdF/AAAAADrB8dF/AEAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+					<compiledString>FRQAAAACAAAAGQAAAC8AAABDdXJyZW50QnVib25DaGFyZ2VzAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEBXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072) || sender.vCurrentBubonCharges&lt;1</sString>
+					<sString>sender.vCurrentBubonCharges&lt;1</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>
