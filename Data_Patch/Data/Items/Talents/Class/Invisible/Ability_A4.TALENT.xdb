@@ -670,9 +670,9 @@
 					<UnitConstant>
 						<name>A4_StackCooldown</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>1</sString>
+							<sString>10</sString>
 						</var>
 					</UnitConstant>
 				</Item>
