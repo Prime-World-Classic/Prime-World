@@ -461,5 +461,5 @@ bool PFNeutralCreep::IsAggressiveNeutralCreep() const
 REGISTER_WORLD_OBJECT_WITH_CLIENT_NM(PFNeutralCreep,             NWorld);
 REGISTER_WORLD_OBJECT_WITH_CLIENT_NM(PFNeutralCreepSpawner,      NWorld)
 
-//REGISTER_DEV_VAR("spawn_neutral_creeps",  g_bSpawnNeutralCreeps,  STORAGE_NONE);
+REGISTER_VAR("spawn_neutral_creeps",  g_bSpawnNeutralCreeps,  STORAGE_NONE);
 REGISTER_DEV_VAR("kill_creeps_on_spawner_hide",  g_bKillCreepsOnSpawnerHide,  STORAGE_NONE);

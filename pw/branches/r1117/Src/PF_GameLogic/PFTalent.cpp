@@ -689,7 +689,7 @@ void PFTalentsSet::PreparePredefinedSet(const NDb::AILogicParameters* pAIParams,
         NI_VERIFY( dbSlot.talent->minLevel == level, "Wrong talent level (talent skipped)!", continue; );
         slotInfo.pTalentDesc = dbSlot.talent;
 #ifdef _SHIPPING
-        slotInfo.refineRate = isBot ? 10 : dbSlot.refineRate;
+        slotInfo.refineRate = isBot ? 5 : dbSlot.refineRate;
 #else
         slotInfo.refineRate = isBot ? 9 : dbSlot.refineRate; // guarantee async for release clients
 #endif

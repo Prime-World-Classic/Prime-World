@@ -63,7 +63,7 @@ REGISTER_DEV_VAR( "fs_log_ingame_activity0", s_LogIngameActivity, STORAGE_NONE )
 
 static int s_boostVal = 1;
 REGISTER_DEV_VAR( "boost_thread_priority_val", s_boostVal, STORAGE_NONE);
-// NOTE: hardcode. полагаемся на то, что оператор настроит список жалоб правильно. см. NUM_TASK
+// NOTE: hardcode. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅ. NUM_TASK
 #ifndef BAD_BEHAVIOUR_REPORT_ITEM_ID
 #define BAD_BEHAVIOUR_REPORT_ITEM_ID 1
 #endif
@@ -103,7 +103,7 @@ loadingScreeen (_loadingScreen)
   ignoreListStorage = new NGameX::IgnoreListStorage( ClientId() );
 }
 
-//наму нужен деструктор, чтобы в явном виде указать какие члены долны шотдауниться раньше
+//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 GameClientPW::~GameClientPW()
 {
   loadingThread = 0;
@@ -205,7 +205,7 @@ int GameClientPW::Poll( float transceiverDeltaTime )
           advScreeen->StartBots( NGameX::AdventureScreen::FilterHumans, true );
         }
         */
-        //advScreeen->StartBots( NGameX::AdventureScreen::FilterHumans, true, true );
+        advScreeen->StartBots( NGameX::AdventureScreen::FilterHumans, true, true );
       }
 
       OnMapLoaded();
@@ -978,7 +978,7 @@ void GameClientPW::ProcessBadBehaviourComplaints()
         return;
       }
 
-      // NOTE: такое не может случиться при нормальных условиях
+      // NOTE: пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
       if (sender == receiver)
       {
         ErrorTrace("ProcessBadBehaviourComplaints: reported self (uid=%d)", complaint.senderClientId);

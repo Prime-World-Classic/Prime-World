@@ -7302,7 +7302,7 @@ extern "C" INTERMODULE_EXPORT void TooSmartLinker()
 NI_DEFINE_REFCOUNT( NGameX::AdventureScreen );
 
 
-REGISTER_DEV_CMD( add_ai, AddAI );
+REGISTER_CMD( add_ai, AddAI );
 REGISTER_DEV_CMD( stop_ai, StopAI );
 
 #ifdef EXPOMODE

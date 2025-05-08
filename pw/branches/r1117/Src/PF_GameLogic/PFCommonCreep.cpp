@@ -695,7 +695,7 @@ REGISTER_WORLD_OBJECT_NM(PFCreepSpawner,  NWorld)
 REGISTER_WORLD_OBJECT_NM(PFCommonCreepBehaviour, NWorld)
 REGISTER_WORLD_OBJECT_NM(PFEvadeCreepBehaviour, NWorld)
 
-//REGISTER_DEV_VAR("spawn_creeps",                  g_bSpawnCreeps,                       STORAGE_NONE);
+REGISTER_VAR("spawn_creeps",                  g_bSpawnCreeps,                       STORAGE_NONE);
 REGISTER_DEV_VAR("creep_waypoint_radius",         g_fCreepWayPointRadius,               STORAGE_NONE);
 REGISTER_DEV_VAR("creep_force_spawn_delay",       g_fCreepForceSpawnDelay,              STORAGE_NONE);
 REGISTER_DEV_VAR("creep_force_spawn_level",       g_nCreepForceSpawnLevel,              STORAGE_NONE);
