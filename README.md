@@ -12,7 +12,7 @@
 - setup_update_repos.bat - инициализирует репозитории обновлений - **content** и **PWCGitUpdates** (тестовые **-test** и публичные версии), с указанием дополнительных remote зеркал
 
 ## Компиляция клиента и сервера
-Основной солюшен: `pw\branches\r1117\Src\PF.sln`. Конфигурации: ShippingSingleExe - публичная версия, ReleaseSingleExe - тестовая версия с читами. На данный момент компилируются:
+Основной солюшен: `pw\branches\r1117\Src\PF.sln`. Открывается в Visual Studio 2008 Professional SP1. Актуальные и проверенные конфигурации: ShippingSingleExe - публичная версия, ReleaseSingleExe - тестовая версия с читами. На данный момент компилируются:
 * PW_Game.exe
 * UniServerApp
 
