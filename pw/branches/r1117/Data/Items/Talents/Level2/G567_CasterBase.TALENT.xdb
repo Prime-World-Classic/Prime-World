@@ -33,6 +33,7 @@
 	<BackLink DBID="/Items/Talents/SnowQueen.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Hunter.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Naga.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>false</activeCustomTrigger>
 	<allowChase>

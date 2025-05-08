@@ -2,7 +2,63 @@
 <AdvMapDescription parent="/Maps/Multiplayer/MOBA/_.ADMPDSCR">
 	<BackLink DBID="/Maps/_.MAPLST" Count="1" />
 	<BackLink DBID="/Tech/Default/_.MAPLST" Count="1" />
-	<mapSettings href="/Maps/Multiplayer/MOBA/Trening/_.ADMPSTTN" />
-	<productionMode>false</productionMode>
+	<map href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" id="E51086A1-3B6C-49E8-9521-B7613509424D">
+		<AdvMap parent="/Maps/Multiplayer/MOBA/_.ADMP">
+			<mapSettings href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" id="E20C322C-15EB-42EB-A6CB-49BDED8BAA1E">
+				<AdvMapSettings parent="/Maps/Multiplayer/MOBA/_.ADMPSTTN">
+					<dictionary href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" id="F7C0D5BA-9591-45ED-80F6-0ED17DE0D54C">
+						<DictionaryPreloadingResources>
+							<resources>
+								<Item>
+									<key>SuperInventor</key>
+									<resource href="/Creeps/A/SuperHeavy/InventorSummon.CREEP" />
+								</Item>
+								<Item>
+									<key>Dragon</key>
+									<resource href="/Creeps/Bosses/Boss1/PVP_Walked.CREEP" />
+								</Item>
+								<Item>
+									<key>NaftaPotion20000</key>
+									<resource href="/Items/Temp/Test-Nafta2000.ARCT" />
+								</Item>
+								<Item>
+									<key>RemoveCooldown</key>
+									<resource href="/Items/Temp/Test-RemoveCooldown.ARCT" />
+								</Item>
+							</resources>
+						</DictionaryPreloadingResources>
+					</dictionary>
+				</AdvMapSettings>
+			</mapSettings>
+		</AdvMap>
+	</map>
+	<mapSettings href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" id="CF38E860-93F9-41CA-9FED-85DE7293CD6D">
+		<AdvMapSettings parent="/Maps/Multiplayer/MOBA/_.ADMPSTTN">
+			<dictionary href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" id="29812B3F-7B7F-45F3-864B-4303453C7A56">
+				<DictionaryPreloadingResources>
+					<resources>
+						<Item>
+							<key>SuperInventor</key>
+							<resource href="/Creeps/A/SuperHeavy/InventorSummon.CREEP" />
+						</Item>
+						<Item>
+							<key>Dragon</key>
+							<resource href="/Creeps/Bosses/Boss1/PVP_Walked.CREEP" />
+						</Item>
+						<Item>
+							<key>NaftaPotion20000</key>
+							<resource href="/Items/Temp/Test-Nafta2000.ARCT" />
+						</Item>
+						<Item>
+							<key>RemoveCooldown</key>
+							<resource href="/Items/Temp/Test-RemoveCooldown.ARCT" />
+						</Item>
+					</resources>
+				</DictionaryPreloadingResources>
+			</dictionary>
+			<scriptFileName>/GameLogic/Scripts/Trening.lua</scriptFileName>
+		</AdvMapSettings>
+	</mapSettings>
+	<productionMode>true</productionMode>
 	<title textref="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR_title.txt" />
 </AdvMapDescription>
