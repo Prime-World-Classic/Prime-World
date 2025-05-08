@@ -243,6 +243,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Hunter/Ability2.TALENT" id="8087BCB3-1B0A-4510-BF46-1769ED9425D2">
+					<UnitConstant>
+						<name>A2_AddDef</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABgQQAAhEI=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 14, 66)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
