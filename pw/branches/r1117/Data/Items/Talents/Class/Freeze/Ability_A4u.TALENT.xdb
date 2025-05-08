@@ -66,6 +66,16 @@
 				<Item href="/Items/Talents/Class/Freeze/const_A4_SummonLifeTime" />
 				<Item href="/Items/Talents/Class/Freeze/const_A4_Dec_MoveSpeed" />
 				<Item href="/Items/Talents/Class/Freeze/const_A4y_Stun_Duration" />
+				<Item href="/Items/Talents/Class/Freeze/Ability_A4u.TALENT" id="AF36D7F4-D55D-41F1-A40E-F080FF20ABB7">
+					<UnitConstant>
+						<name>A4_Damage</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAFQwAAekQ=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sStrength, 133, 1000)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

@@ -428,6 +428,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Inventor/Ability_A4_2.TALENT" id="A7454599-27A5-4F5C-9051-FC9AE819EFF4">
+					<UnitConstant>
+						<name>AddDexterity</name>
+						<var>
+							<compiledString>FQAAAAABAAAAKwAAAFWL7IPsDItFCIsQi00Ii4I4AQAA/9CLTQiLEYtNCItCHN1d+P/Q3EX43DU5AAAA2V302UX0i+VdwwAAAAAAAABA</compiledString>
+							<returnType>float</returnType>
+							<sString>(sDexterity+sAttackSpeed)/2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
