@@ -778,7 +778,9 @@ static void RunLinuxLauncher() {
   startupInfo.cb = sizeof(startupInfo);
   ZeroMemory(&processInfo, sizeof(processInfo));
 
-  CreateProcessA("../../Launcher/PWClassic", "", NULL, NULL, FALSE, 0, NULL, NULL, &startupInfo, &processInfo);
+  BOOL procRun = CreateProcessA("../../Launcher/PWClassic", "", NULL, NULL, FALSE, 0, NULL, NULL, &startupInfo, &processInfo);
+
+  systemLog( NLogg::LEVEL_MESSAGE ) << "Linux proc run: \"" << procRun << "\"" << endl;
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -888,10 +890,10 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
     else
       s_bSteamInited = true;
   }
-
+/*
   mainVars.useCrashRptHandler = !Compatibility::IsRunnedUnderWine() &&
     !CmdLineLite::Instance().IsKeyDefined( "-crashrpt_disable" );
-
+*/
   if ( mainVars.useCrashRptHandler )
   {
     const char * privacyPolicy = "http://updates.playpw.com/eula-ru.rtf";
