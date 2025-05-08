@@ -165,6 +165,7 @@ static NDebug::DebugVar<int> unfreeVirtualAllocs( "UnfreeVirtualAllocs", "", tru
 static NDebug::DebugVar<int> totalAllocsSize( "TotalAllocsSize", "", true );
 
 std::string g_protocolToken;
+extern bool g_localGameRun;
 
 //CRAP
 extern "C" INTERMODULE_EXPORT void TooSmartLinker();
@@ -767,6 +768,19 @@ int count = 0;
     return count;
 }
 
+static void RunLinuxLauncher() {
+  char curDirBuff[260];
+  GetCurrentDirectoryA(260,curDirBuff);
+
+  STARTUPINFO startupInfo;
+  PROCESS_INFORMATION processInfo;
+  ZeroMemory(&startupInfo, sizeof(startupInfo));
+  startupInfo.cb = sizeof(startupInfo);
+  ZeroMemory(&processInfo, sizeof(processInfo));
+
+  CreateProcessA("../../Launcher/PWClassic", "", NULL, NULL, FALSE, 0, NULL, NULL, &startupInfo, &processInfo);
+}
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, SPluginSettings * pluginSett )
 {
@@ -1189,16 +1203,21 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
     context = new Game::GameContext(socialLaunchData.sessionId.c_str(), NULL, socialLaunchData.mapId.c_str(), socialServer, guildEmblem, false, true);
   }
 
+  std::string linuxRun = CmdLineLite::Instance().GetStringKey( "linux", "" );
+
+  systemLog( NLogg::LEVEL_MESSAGE ) << "Linux run: \"" << linuxRun.c_str() << "\"" << endl;
   std::string protocolLineStr;
-  if(CmdLineLite::Instance().ArgsCount() < 2) {
+  if(!linuxRun.empty()) {
     WebPostRequest request(L"127.0.0.1", L"/getConnectionData", 34980, 0);
     std::string protocolResponse = request.SendPostRequest("getConnectionData");
 
     Json::Value parsedValue = ParseJson(protocolResponse.c_str());
+    systemLog( NLogg::LEVEL_MESSAGE ) << "Protocol response: \"" << protocolResponse.c_str() << "\"" << endl;
 
     if (parsedValue.empty()) {
       systemLog( NLogg::LEVEL_MESSAGE ) << "Invalid protocol response: \"" << protocolResponse.c_str() << "\"" << endl;
-      ShowLocalizedErrorMB( L"StartViaLauncher", L"Invalid arguments [invalid socket protocol]! Please start the game via the launcher." );
+      RunLinuxLauncher();
+      //ShowLocalizedErrorMB( L"StartViaLauncher", L"Invalid arguments [invalid socket protocol]! Please start the game via the launcher." );
       return 0;
     }
     Json::Value protocolValue = parsedValue.get("protocol", "");
@@ -1209,6 +1228,11 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
     }
 
     protocolLineStr = protocolValue.asString();
+
+    if (protocolLineStr.empty()) {
+      RunLinuxLauncher();
+      return 0;
+    }
   } else {
     protocolLineStr = CmdLineLite::Instance().GetStringKey( "protocol", "" );
   }
@@ -1257,8 +1281,8 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
 
     WebLauncherPostRequest::WebLoginResponse response;
     if (protocolMethod == "runGame" || protocolMethod == "reconnect") {
-      WebLauncherPostRequest cprequest;
-      cprequest.CreateDebugSession();
+      //WebLauncherPostRequest cprequest;
+      //cprequest.CreateDebugSession();
       WebLauncherPostRequest rprequest;
       response = rprequest.GetSessionData(protocolToken);
       if (response.retCode == WebLauncherPostRequest::LoginResponse_WEB_FAILED_CONNECTION) {
@@ -1285,8 +1309,12 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
         g_devLogin = currentLogin.c_str();
 
         const char * mapId = CmdLineLite::Instance().GetStringKey( "mapId", "" );
-
-        context = new Game::GameContext(g_sessionToken.c_str(), g_devLogin.c_str(), mapId, socialServer, guildEmblem, isSpectator, false );
+        if (g_localGameRun) {
+          context = new Game::LocalGameContext( false );
+          g_sessionStatus = WebLauncherPostRequest::RegisterInSessionRequest_WebCreate;
+        } else {
+          context = new Game::GameContext(g_sessionToken.c_str(), g_devLogin.c_str(), mapId, socialServer, guildEmblem, isSpectator, false );
+        }
         context->Start();
     } else {
       ShowLocalizedErrorMB( L"Error", L"Unknown response" );

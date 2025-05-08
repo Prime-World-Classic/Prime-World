@@ -26,6 +26,7 @@ WebLauncherPostRequest::RegisterSessionRequest g_sessionStatus;
 WebLauncherPostRequest::WebLoginResponse g_webLoginResponse;
 int g_playerHeroId;
 int g_playerPartyId;
+bool g_localGameRun = false;
 
 extern int g_playerTeamId;
 extern int g_fixedTeamCam;
@@ -674,6 +675,7 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
     g_playersCount++;
     curPlayer = usersData[g_playersCount];
   }
+  g_localGameRun = g_playersCount == 1;
 
   return res;
 }

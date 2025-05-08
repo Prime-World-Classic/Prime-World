@@ -84,6 +84,7 @@
 #include "Version.h"
 #include "../PF_GameLogic/WebLauncher.h"
 
+extern bool g_localGameRun;
 
 namespace
 {
@@ -694,7 +695,7 @@ void AdventureScreenLogic::UpdateConnectionAndSpeedWindows()
     bool hasTrancieverData = NDebug::GetDebugVarValue<bool>(L"HasTrancieverData");
     bool isInReplayMode = m_owner ? m_owner->IsInReplayMode() : false;
 
-    noConnectWnd->Show(g_showIcons || !hasTrancieverData && !isLocalGame && !isGameEnded && !isInReplayMode );
+    noConnectWnd->Show(g_showIcons || !hasTrancieverData && !g_localGameRun && !isGameEnded && !isInReplayMode );
   }
    
   if (lowSpeedWnd)

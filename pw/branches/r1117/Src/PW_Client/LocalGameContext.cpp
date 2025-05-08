@@ -30,6 +30,7 @@
 #include "Version.h"
 
 static bool g_enableReplayLocalGame = false;
+extern string g_devLogin;
 REGISTER_DEV_VAR( "enable_replay_local_game", g_enableReplayLocalGame, STORAGE_NONE);
 
 
@@ -153,7 +154,7 @@ void LocalGameContext::GenerateLineup( int playersNumber )
     {
       userInfo.userId = clientId;
       userInfo.zzimaSex = developerSex;
-      userInfo.nickname = NStr::ToUnicode( s_localNickname );
+      userInfo.nickname = NStr::ToUnicode( g_devLogin ); // NStr::ToUnicode( s_localNickname );
       plrCtx.playerType = lobby::EPlayerType::Human;
       plrCtx.team = lobby::ETeam::Team2;
       plrCtx.original_team = lobby::ETeam::Team1;

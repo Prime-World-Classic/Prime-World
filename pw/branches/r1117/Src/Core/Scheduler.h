@@ -1,6 +1,6 @@
 #pragma once
 
-static const int DEFAULT_GAME_STEP_LENGTH = 10;
+static const int DEFAULT_GAME_STEP_LENGTH = 100;
 
 namespace NCore
 {

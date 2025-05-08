@@ -45,7 +45,7 @@ REGISTER_VAR( "game_first_connect_timeout", gameFirstConnectionTimeout, STORAGE_
 static int gameConfirmFrequency = 1;
 REGISTER_VAR( "game_confirm_frequency", gameConfirmFrequency, STORAGE_NONE );
 
-static int gameSimulationStep = 10;
+static int gameSimulationStep = 100;
 REGISTER_VAR( "game_simulation_step", gameSimulationStep, STORAGE_NONE );
 
 static int gameLogLevel = 1;    
