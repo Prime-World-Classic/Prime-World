@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A4_2u.TALENT" Count="1" />
 	<name>A4_2u_HealAmount</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACUQgAAgkM=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DZma4QgAAqUM=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sIntellect , 74, 260)</sString>
+		<sString>damageScale(sIntellect , 92.2, 338)</sString>
 	</var>
 </UnitConstant>

@@ -521,9 +521,9 @@
 																						<cancelInvisibility>false</cancelInvisibility>
 																						<caption>раздаем урон</caption>
 																						<damage>
-																							<compiledString>FUMAAAAFAAAAoQAAALsAAADgAAAA+gAAACUBAABBMV9EYW1hZ2UAAABBMV9EYW1hZ2UAAABBMV9jcmVlcERhbWFnZQAAQTFfRGFtYWdlAAAAQTFfY3JlZXBEYW1hZ2UAVYvsg+wki0UMixCLTQyLQlD/0IXAD4S+AAAAi00MixGLTQyLQlD/0IP4AQ+EqAAAAItNDIsRi00Mi0JQ/9CD+AN0UYtNDIsRi00Mi0JQ/9CD+AJ0P4tNDFGLVQhSaCgAAACLRRCLEItNEItCUP/Qi00MUYtVCFJoNAAAAItFEIsQi00Qi0JQ3V34/9DcRfjdXfDrPYtNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Qi00MUYtVCFJoGAAAAItFEIsQi00Qi0JQ3V3o/9DcRejdXfDdRfDdXeDrHYtNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Q3V3g3UXg2V3c2UXci+Vdww==</compiledString>
+																							<compiledString>FQoAAAABAAAAFgAAAEExX0RhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 																							<returnType>float</returnType>
-																							<sString>(rUnitKind ==0 || rUnitKind ==1 ) ? cA1_Damage : (rUnitKind ==3 || rUnitKind ==2)  ? (cA1_Damage + cA1_creepDamage) : (cA1_Damage + cA1_creepDamage)</sString>
+																							<sString>cA1_Damage</sString>
 																						</damage>
 																						<damageMode>0</damageMode>
 																						<damageType>Material</damageType>
@@ -1289,9 +1289,9 @@
 					<UnitConstant>
 						<name>A1_baseDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAgQgAAlkM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAIEIAAJZDVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 40, 300)</sString>
+							<sString>damageScale(max(sStrength,sIntellect), 40, 300)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1377,16 +1377,6 @@
 							<compiledString>FQ0AAAACAAAAEgAAACgAAABBbGxvd0NvbnRyb2wAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdSgAAAN/g9sREewnHRfwBAAAA6wfHRfwAAAAA20X8i+VdwwAAAAAAAPA/</compiledString>
 							<returnType>float</returnType>
 							<sString>receiver.vAllowControl != 1</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="FCD94F75-2F8D-4CAF-A2EA-99F3DA505985">
-					<UnitConstant>
-						<name>A1_creepDamage</name>
-						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAgQQAAyEI=</compiledString>
-							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 10, 100)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
