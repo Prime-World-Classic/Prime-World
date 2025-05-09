@@ -73,9 +73,9 @@
 					<UnitConstant>
 						<name>AddDamageForIntellect</name>
 						<var>
-							<compiledString>FQAAAAADAAAACQAAAD0AAABDAAAAVYvsUWoBUdkFZQAAANkcJFHZ6NkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DcJVkAAADcDVEAAADZXfzZRfyL5V3DAAAAAAAAWUAAAAAAAADwPwAAgD/NzMw/</compiledString>
+							<compiledString>FQAAAAAFAAAACQAAABMAAABBAAAARwAAAE0AAABVi+xRagFR2QV3AAAA2RwkUdkFcwAAANkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DcDWsAAADcJWMAAADcDVsAAADZXfzZRfyL5V3DAAAAAAAAWUAAAAAAAADwPwAAAEDheoQ/AADIQgAASEM=</compiledString>
 							<returnType>float</returnType>
-							<sString>(damageScale(sIntellect, 1.0f, 1.6)-1)*100</sString>
+							<sString>(damageScale(sIntellect, 100, 200)*0.01f-1.0f)*100.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

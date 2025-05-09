@@ -512,9 +512,9 @@
 					<UnitConstant>
 						<name>DopDamage</name>
 						<var>
-							<compiledString>FQAAAAABAAAAFQAAAFWL7FGLRQiLEItNCItCBP/Q3MDcDSMAAADZXfzZRfyL5V3DMzMzMzMz0z8=</compiledString>
+							<compiledString>FQAAAAABAAAAFQAAAFWL7FGLRQiLEItNCItCBP/Q3MDcDSMAAADZXfzZRfyL5V3DAAAAAAAA0D8=</compiledString>
 							<returnType>float</returnType>
-							<sString>sEnergy*2*0.3</sString>
+							<sString>sEnergy*2*0.25</sString>
 						</var>
 					</UnitConstant>
 				</Item>

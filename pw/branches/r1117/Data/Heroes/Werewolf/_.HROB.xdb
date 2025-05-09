@@ -831,7 +831,7 @@
 	<recommendedStats>
 		<Item>Life</Item>
 		<Item>AttackSpeed</Item>
-		<Item>Strength</Item>
+		<Item>Intellect</Item>
 	</recommendedStats>
 	<rounded>false</rounded>
 	<sceneObject href="" />
