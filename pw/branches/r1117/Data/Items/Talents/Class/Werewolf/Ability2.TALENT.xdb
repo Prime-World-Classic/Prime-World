@@ -334,6 +334,7 @@
 																						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
 																					</DamageApplicator>
 																				</Item>
+																				<Item href="/Heroes/DefaultStatus/_BLIND_status.APLR" />
 																			</applicators>
 																			<dispatch href="/Items/Talents/Class/Werewolf/Ability2.TALENT" id="38FC97A1-6DF2-43C8-8111-95D4164E8172">
 																				<DispatchImmediate>
@@ -373,26 +374,6 @@
 															</delay>
 															<stopCondition>
 																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-																<returnType>bool</returnType>
-																<sString>0</sString>
-															</stopCondition>
-															<stopEvents>0</stopEvents>
-														</Item>
-														<Item>
-															<applicator href="/Heroes/DefaultStatus/_BLIND_status.APLR" />
-															<continueCondition>
-																<compiledString></compiledString>
-																<returnType>bool</returnType>
-																<sString>0</sString>
-															</continueCondition>
-															<continueEvents>2</continueEvents>
-															<delay>
-																<compiledString></compiledString>
-																<returnType>float</returnType>
-																<sString>-1.0</sString>
-															</delay>
-															<stopCondition>
-																<compiledString></compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</stopCondition>
