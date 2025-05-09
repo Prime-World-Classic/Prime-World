@@ -39,17 +39,16 @@
 							<DamageApplicator parent="/GameLogic/GeneralApplicators/CommonDamage.APLR">
 								<caption>(A0) доп урон</caption>
 								<damage>
-									<compiledString>FUgAAAAHAAAAbAAAAIUAAAC7AAAA2wAAAAkBAAAVAQAALAEAAGRhbWFnZURlYWxlZAAAAABXZXJld29sZl9BMABXZXJld29sZl9BMABXZXJld29sZl9BMABBMF9NdWxEYW1hZ2VQZXJjZW50AFWL7IPsJItFDIsQi00MiwL/0N3Yi00MixGLTQyLQgz/0N3YaBAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgcAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2goAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaDQAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8ItFEIsQi00Qi0JI/9CJRexR2QVVAQAA2Rwk2UXw3A1NAQAA2V3o2UXoUdkcJOg1AAAAg8QIaAAAAACLTeyLEYtN7ItCVN1d4P/Q3E3g2V3c2UXci+Vdw3sUrkfheoQ/AADAQAAAAABVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+									<compiledString>FUgAAAAIAAAAbAAAAIUAAAC7AAAA2wAAAAsBAABAAQAATAEAAGYBAABkYW1hZ2VEZWFsZWQAAAAAV2VyZXdvbGZfQTAAV2VyZXdvbGZfQTAAV2VyZXdvbGZfQTAAQTBfTXVsRGFtYWdlUGVyY2VudABVi+yD7CyLRQyLEItNDIsC/9Dd2ItNDIsRi00Mi0IM/9Dd2GgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoHAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoKAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWg0AAAAi1X0iwKLTfSLUFD/0tld8OsF2e7ZXfCLRRCLEItNEItCSP/QiUXsagFR2QWaAQAA2RwkUdno2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0FHZBZIBAADZHCTZRfDcDYoBAADZXejZRehR2Rwk3V3g6EAAAACDxAhoAAAAAItN7IsRi03si0JU3V3Y/9DcTdjcTeDZXdTZRdSL5V3DexSuR+F6hD8AAMBAAACAP83MzD8AAAAAVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 									<returnType>float</returnType>
-									<sString>$ParentApplVariable("damageDealed") * min(talconst("Werewolf_A0","A0_MulDamagePercent") * 0.01,((1-rLife/rMaxLife)*0,6))</sString>
+									<sString>$ParentApplVariable("damageDealed") * min(talconst("Werewolf_A0","A0_MulDamagePercent") * 0.01,((1-(rLife/rMaxLife))*0,6)) * damageScale(sIntellect, 1, 1.6)</sString>
 								</damage>
 								<damageMode>4</damageMode>
 								<damageType>Energy</damageType>
 								<enabled>
-									<compiledString>FRQAAAADAAAAQwAAAGsAAACLAAAAV2FyZAAAAABJbU1hZ2ljR2F0ZQBVi+yD7AxR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6LMAAACDxAzcHeEAAADf4PbERA+LgQAAAItVDIsCi00Mi1BQ/9KD+BF0b2oAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEHVPagCLTRBRaAgAAACLVQyLAotNDIuQnAEAAP/SO0UQdS+LRQyLEItNDIsC/9CLTQyLEYtNDItCDN1d+P/Q3F343+D2xAF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAAAAAAAAAACAP1WL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
+									<compiledString>FRQAAAADAAAAQQAAAGUAAACFAAAAV2FyZAAAAABJbU1hZ2ljR2F0ZQBVi+xRUdno2RwkUdnu2RwkagGLRQyLEItNDItCWP/QD7bIUeiJAAAAg8QM3B21AAAA3+D2xER7W4tVDIsCi00Mi1BQ/9KD+BF0SWoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEHUpagCLTRBRaAgAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAAgD9Vi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
 									<returnType>bool</returnType>
-									<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; receiver.applImMagicGate(GLOBAL) == pMisc &amp;&amp; rLife &lt;= rMaxLife
-</sString>
+									<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; receiver.applImMagicGate(GLOBAL) == pMisc</sString>
 								</enabled>
 								<formulaName>WW_A0Damage</formulaName>
 								<uiEvent href="" />
