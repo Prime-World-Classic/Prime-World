@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
-	<BackLink DBID="/Items/Talents/Ratcatcher.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability2_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Ratcatcher_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />

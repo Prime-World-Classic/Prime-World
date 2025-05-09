@@ -611,6 +611,53 @@
 													<statModName></statModName>
 												</StatModApplicator>
 											</Item>
+											<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="5DFD0976-B621-4134-B545-F8A09DCBFA7F">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>- Даем регенерацию маны законтролленому крипу</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgvwAAAD/0F3D</compiledString>
+															<returnType>float</returnType>
+															<sString>sEnergyRegenTotal</sString>
+														</addValue>
+														<multValue>
+															<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+															<returnType>float</returnType>
+															<sString>0</sString>
+														</multValue>
+														<stat>EnergyRegenerationAbsolute</stat>
+														<topModifier>true</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
 											<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="D34E55D9-DFE8-4FF3-A464-CCC56478776B">
 												<StatModApplicator>
 													<applyTarget>ApplicatorTarget</applyTarget>
@@ -646,6 +693,53 @@
 															<sString>0</sString>
 														</multValue>
 														<stat>LifeRegeneration</stat>
+														<topModifier>true</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+											<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="90F242CF-FAE1-418D-9671-CE12F45C828E">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>обнулить EnergyRegen</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+															<returnType>float</returnType>
+															<sString>0</sString>
+														</addValue>
+														<multValue>
+															<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+															<returnType>float</returnType>
+															<sString>0</sString>
+														</multValue>
+														<stat>EnergyRegeneration</stat>
 														<topModifier>true</topModifier>
 														<variable></variable>
 													</modifier>
