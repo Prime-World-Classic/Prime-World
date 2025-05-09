@@ -10,6 +10,7 @@
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Marine_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Naga_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Zealot_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Invisible.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

@@ -22,6 +22,7 @@
 	<BackLink DBID="/Items/Talents/WitchDoctor.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Hunter.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Witcher.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Manawyrm.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

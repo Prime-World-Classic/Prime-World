@@ -705,6 +705,100 @@
 													<statModName></statModName>
 												</StatModApplicator>
 											</Item>
+											<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="EBE851E5-2E3A-432C-BA8C-D85516084653">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>- Даем Стойкость</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgkABAAD/0ItNCIsRi00Ii4JEAQAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+														<returnType>bool</returnType>
+														<sString>sStamina&gt;=sWill</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FUsAAAAEAAAAUgAAAGsAAAChAAAAwQAAAFJhdGNhdGNoZXJfQTIAAABSYXRjYXRjaGVyX0EyAAAAUmF0Y2F0Y2hlcl9BMgAAAEEyX0NyZWVwQnVmZl9TdGFtaW5hT3JXaWxsAFWL7IPsEGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoIAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWgwAAAAi1X0iwKLTfSLUFD/0tld8OsF2e7ZXfDZRfCL5V3DAAAAAA==</compiledString>
+															<returnType>float</returnType>
+															<sString>talconst("Ratcatcher_A2","A2_CreepBuff_StaminaOrWill")</sString>
+														</addValue>
+														<multValue>
+															<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+															<returnType>float</returnType>
+															<sString>0</sString>
+														</multValue>
+														<stat>Stamina</stat>
+														<topModifier>true</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+											<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="AFE2EF98-179C-4599-B558-982A0BE95428">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>- Даем Волю</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgkABAAD/0ItNCIsRi00Ii4JEAQAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+														<returnType>bool</returnType>
+														<sString>sStamina&lt;sWill</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FUsAAAAEAAAAUgAAAGsAAAChAAAAwQAAAFJhdGNhdGNoZXJfQTIAAABSYXRjYXRjaGVyX0EyAAAAUmF0Y2F0Y2hlcl9BMgAAAEEyX0NyZWVwQnVmZl9TdGFtaW5hT3JXaWxsAFWL7IPsEGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoIAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWgwAAAAi1X0iwKLTfSLUFD/0tld8OsF2e7ZXfDZRfCL5V3DAAAAAA==</compiledString>
+															<returnType>float</returnType>
+															<sString>talconst("Ratcatcher_A2","A2_CreepBuff_StaminaOrWill")</sString>
+														</addValue>
+														<multValue>
+															<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+															<returnType>float</returnType>
+															<sString>0</sString>
+														</multValue>
+														<stat>Will</stat>
+														<topModifier>true</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
 										</applicators>
 										<applyTarget>ApplicatorTarget</applyTarget>
 										<behaviorFlags>0</behaviorFlags>
@@ -983,6 +1077,16 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Ratcatcher/const_A2_SUP_StunDuration" />
+				<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="8B35684B-17C0-46CD-A16F-59D4BF9E53A2">
+					<UnitConstant>
+						<name>A2_CreepBuff_StaminaOrWill</name>
+						<var>
+							<compiledString>FQAAAAABAAAANgAAAFWL7FGLRQiLEItNCIuCRAEAAP/QUdkcJItNCIsRi00Ii4JAAQAA/9BR2Rwk6BsAAACDxAjcDUQAAADZXfzZRfyL5V3DAAAAoJmZ6T9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>max(sStamina,sWill)*0.8f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

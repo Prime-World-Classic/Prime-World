@@ -64,6 +64,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Ratcatcher/Ability2_SUP.TALENT" id="71939F93-6A88-4B4E-A40D-1297750F37A2">
+					<UnitConstant>
+						<name>A2_CreepBuff_StaminaOrWill</name>
+						<var>
+							<compiledString>FQAAAAABAAAANgAAAFWL7FGLRQiLEItNCIuCRAEAAP/QUdkcJItNCIsRi00Ii4JAAQAA/9BR2Rwk6BsAAACDxAjcDUQAAADZXfzZRfyL5V3DAAAAoJmZ6T9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>max(sStamina,sWill)*0.8f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

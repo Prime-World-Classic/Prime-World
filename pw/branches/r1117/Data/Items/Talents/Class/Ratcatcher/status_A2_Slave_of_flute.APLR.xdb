@@ -217,6 +217,37 @@
 				<useListAs>ListAsRule</useListAs>
 			</AbilityUpgradeApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Ratcatcher/status_A2_Slave_of_flute.APLR" id="BF7E31F2-B09E-48C3-819D-BA47ECFE3B84">
+			<GhostMoveApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Проходим сквозь существ</caption>
+				<collisionFlags>1</collisionFlags>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<pushUnits>true</pushUnits>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+			</GhostMoveApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>1</behaviorFlags>
