@@ -2,6 +2,7 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Werewolf/program_A4_Transform.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlStatusesWithoutSlow.APLS" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Shaman/A4_2_status.APLR" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Werewolf/status_A4_curse.APLR" id="3FE0D025-F0D9-4265-9B70-08D1E9F46081">
 			<TauntApplicator>

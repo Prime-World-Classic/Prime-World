@@ -17,12 +17,12 @@
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
-				<flag>8914558</flag>
+				<flag>8914554</flag>
 				<formulaName></formulaName>
 				<lifeTime>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 					<returnType>float</returnType>
-					<sString>-1.0</sString>
+					<sString>3</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
@@ -260,7 +260,7 @@
 				<enabled>
 					<compiledString>FR8AAAADAAAAJAAAADoAAABMAAAASW1tdW5lMkNvbnRyb2wAAEludmlzaWJsZUNoYWluAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHXwAAADf4PbERHopagGLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 					<returnType>bool</returnType>
-					<sString>receiver.vImmune2Control == 0  &amp;&amp; receiver.applInvisibleChain(UNIT) == pMisc; //&amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMis</sString>
+					<sString>receiver.vImmune2Control == 0  &amp;&amp; receiver.applInvisibleChain(UNIT) == pMisc; //&amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMis&amp;&amp;false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -271,9 +271,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>false</sString>
 				</startCondition>
 			</ProgramApplicator>
 		</Item>
@@ -285,9 +285,9 @@
 				<caption>throw</caption>
 				<collisionFlags>7</collisionFlags>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>false</sString>
 				</enabled>
 				<firstTargetToHit href="" />
 				<flightType>Throw</flightType>
@@ -444,6 +444,162 @@
 					</Values>
 				</trajectory>
 			</ThrowApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="1A525E30-F4BC-4D69-951C-B240D1D7575A">
+			<TauntApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption> -- таунтим на AbilityOwner (для героев)</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>3</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvsi0UMixCLTQyLQlT/0F3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>rIsHero</sString>
+				</startCondition>
+				<strongTarget>true</strongTarget>
+				<tauntTarget>AbilityOwner</tauntTarget>
+			</TauntApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="F339E35E-61B3-4ACA-AA7E-6AEF0104300A">
+			<TauntApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption> -- таунтим на AbilityOwner (для остальных)</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>3</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvsi0UMixCLTQyLQlT/0A+2wPfYG8CDwAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>!rIsHero</sString>
+				</startCondition>
+				<strongTarget>false</strongTarget>
+				<tauntTarget>AbilityOwner</tauntTarget>
+			</TauntApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="BB8D7E69-FBE7-4BFA-A8A5-DB4A38AE16BA">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>144</behaviorFlags>
+				<caption>set Taunted</caption>
+				<constraint>None</constraint>
+				<dontUpdate>true</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>Taunted</variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="37A82325-5768-4C0E-8BC3-A0FA35958075">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>144</behaviorFlags>
+				<caption>Делаем melee attack</caption>
+				<constraint>None</constraint>
+				<dontUpdate>true</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</multValue>
+					<stat>Range</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
