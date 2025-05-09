@@ -46,9 +46,10 @@
 								<damageMode>4</damageMode>
 								<damageType>Energy</damageType>
 								<enabled>
-									<compiledString>FUcAAAAIAAAAdgAAAKIAAADGAAAA5AAAAP0AAAAzAQAAUwEAAI8BAABXYXJkAAAAAEltTWFnaWNHYXRlAFdlcmV3b2xmX0EwAFdlcmV3b2xmX0EwAFdlcmV3b2xmX0EwAEEwX0xpZmVQZXJjZW50AFWL7IPsHFHZ6NkcJFHZ7tkcJGoBi0UMixCLTQyLQlj/0A+2yFHoWwEAAIPEDNwdvAEAAN/g9sRED4shAQAAi1UMiwKLTQyLUFD/0oP4EQ+ECwEAAGoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEA+F5wAAAGoAi00QUWgIAAAAi1UMiwKLTQyLkJwBAAD/0jtFEA+FwwAAAGgUAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoIAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoLAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWg4AAAAi1X0iwKLTfSLUFD/0tld8OsF2e7ZXfCLRQyLEItNDIsC/9CLTQyLEYtNDItCDN1d6P/Q2E3w3A20AQAA3F3o3+D2xAF1CcdF5AEAAADrB8dF5AAAAACKReSL5V3DexSuR+F6hD8AAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+									<compiledString>FRQAAAADAAAAQwAAAGsAAACLAAAAV2FyZAAAAABJbU1hZ2ljR2F0ZQBVi+yD7AxR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6LMAAACDxAzcHeEAAADf4PbERA+LgQAAAItVDIsCi00Mi1BQ/9KD+BF0b2oAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEHVPagCLTRBRaAgAAACLVQyLAotNDIuQnAEAAP/SO0UQdS+LRQyLEItNDIsC/9CLTQyLEYtNDItCDN1d+P/Q3F343+D2xAF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAAAAAAAAAACAP1WL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
 									<returnType>bool</returnType>
-									<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; receiver.applImMagicGate(GLOBAL) == pMisc &amp;&amp; rLife &lt;= rMaxLife * talconst("Werewolf_A0","A0_LifePercent") * 0.01</sString>
+									<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; receiver.applImMagicGate(GLOBAL) == pMisc &amp;&amp; rLife &lt;= rMaxLife
+</sString>
 								</enabled>
 								<formulaName>WW_A0Damage</formulaName>
 								<uiEvent href="" />
