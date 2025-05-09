@@ -880,9 +880,9 @@
 					<calcIncrement>0.9</calcIncrement>
 					<calcValue>60</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.8</sString>
+						<sString>0.6</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>
@@ -912,9 +912,9 @@
 					<calcIncrement>0</calcIncrement>
 					<calcValue>50</calcValue>
 					<increment>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
 						<returnType>float</returnType>
-						<sString>0</sString>
+						<sString>0.4</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Dexterity</statId>
