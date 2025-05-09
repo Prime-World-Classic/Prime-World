@@ -5,11 +5,21 @@
 Внимательно ознакомьтесь с условиями лицензионного соглашения.
 
 ## Содержимое
+### Папки
 - pw — основной код боевой части
 - pw_publish — собранный клиент боевой части с читами и редактор для клиента
+- Client-Synchrinizer-Server - python скрипт синхронизатора, необходимого для связи клиентов с сервером (бэкэнд + боевая сессия) во время старта боевых сессий
+- Data_Patch - производная директория для скрипта `copy_data_patch.bat`
+- PW_NanoUpdater - проект, компилируемый в три таргета:
+* PW_NanoUpdater и PW_NanoUpdaterAdm - обновление игры на клиентах посредством C++ библиотеки libgit2
+* PW_HashesTest - проверка целостности хэш-сумм файлов Packs на клиентах
+* rating - общие алгоритмы начисления рейтингов (калибровочная .py и основная .html)
+
+### Файлы
 - make-links.bat - создаёт junction ссылки на директории **Data**, **Localization**, **Profiles**, **Tools** из `pw\branches\r1117` в `pw_publish\branch\Client\PvP`
 - copy_data_patch.bat - копирует файлы, перечисленные в коммите из `pw\branches\r1117\Data` в `Data_Patch\Data`. Использование `copy_data_patch.bat ea03238`
 - setup_update_repos.bat - инициализирует репозитории обновлений - **content** и **PWCGitUpdates** (тестовые **-test** и публичные версии), с указанием дополнительных remote зеркал
+- update.sh - скрипт обновления для Linux - Lutris версии
 
 ## Компиляция клиента и сервера
 Основной солюшен: `pw\branches\r1117\Src\PF.sln`. Открывается в Visual Studio 2008 Professional SP1. Актуальные и проверенные конфигурации: ShippingSingleExe - публичная версия, ReleaseSingleExe - тестовая версия с читами. На данный момент компилируются:
