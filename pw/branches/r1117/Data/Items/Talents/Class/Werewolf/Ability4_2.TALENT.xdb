@@ -339,9 +339,9 @@
 					<UnitConstant>
 						<name>Stun_Duration</name>
 						<var>
-							<compiledString>FS0AAAAJAAAANAAAAEoAAABXAAAAYQAAAHcAAACEAAAAjgAAAKQAAAC4AAAAQ291bnRQZXJIb3dsAAAAAENvdW50UGVySG93bAAAAABDb3VudFBlckhvd2wAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3yAAAA3+D2xER6C9kF7gAAANld/OtraBAAAACLTQiLEYtNCIuCiAEAAP/Q3B3mAAAA3+D2xER6C9kF4gAAANld+Os4aCAAAACLTQiLEYtNCIuCiAEAAP/Q3B3aAAAA3+D2xER6B9no2V306wnZBdIAAADZXfTZRfTZXfjZRfjZXfzZRfyL5V3DAAAAPwAAgD8AAAAAAAAIQAAAwD8AAAAAAAAAQAAAAEAAAAAAAADwPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vCountPerHowl == 1 ? 2.0f : sender.vCountPerHowl == 2 ? 1.5f : sender.vCountPerHowl == 3 ? 1.0f : 0.5f</sString>
+							<sString>2</sString>
 						</var>
 					</UnitConstant>
 				</Item>

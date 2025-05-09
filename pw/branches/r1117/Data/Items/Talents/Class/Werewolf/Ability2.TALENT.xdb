@@ -379,6 +379,26 @@
 															<stopEvents>0</stopEvents>
 														</Item>
 														<Item>
+															<applicator href="/Heroes/DefaultStatus/_BLIND_status.APLR" />
+															<continueCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>2</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
 															<applicator href="/Items/Talents/Class/Werewolf/Ability2.TALENT" id="EF6C4332-04C3-40EE-9809-3BBF7EDD070E">
 																<FlagsApplicator>
 																	<applyTarget>ApplicatorTarget</applyTarget>
@@ -739,6 +759,26 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Werewolf/const_A2_BonusSlow" />
+				<Item href="/Items/Talents/Class/Werewolf/Ability2.TALENT" id="0F7434F2-0C4A-4077-B77C-07A599B1A51F">
+					<UnitConstant>
+						<name>Blind_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Werewolf/Ability2.TALENT" id="9B6FBEF5-5EF2-40A6-B903-CD460657313A">
+					<UnitConstant>
+						<name>Blind_StartCondition</name>
+						<var>
+							<compiledString>FSAAAAACAAAAJwAAAEAAAABXZXJld29sZl9BMl9TVVAAV2VyZXdvbGZfQTJfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4lN9NtF9IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Werewolf_A2_SUP")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

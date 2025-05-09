@@ -56,6 +56,16 @@
 			<vars>
 				<Item href="/Items/Talents/Class/Werewolf/const_A2_BonusSlow" />
 				<Item href="/Items/Talents/Class/Werewolf/const_A2_BonusDamage" />
+				<Item href="/Items/Talents/Class/Werewolf/Ability_A2_SUP.TALENT" id="C50E44FB-0CF8-4D76-945E-DDED229BEC87">
+					<UnitConstant>
+						<name>Blind_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

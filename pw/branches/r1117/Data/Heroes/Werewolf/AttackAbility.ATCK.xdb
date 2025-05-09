@@ -39,16 +39,16 @@
 							<DamageApplicator parent="/GameLogic/GeneralApplicators/CommonDamage.APLR">
 								<caption>(A0) доп урон</caption>
 								<damage>
-									<compiledString>FUgAAAAGAAAATwAAAGgAAACeAAAAvgAAAO0AAAAGAQAAZGFtYWdlRGVhbGVkAAAAAFdlcmV3b2xmX0EwAFdlcmV3b2xmX0EwAFdlcmV3b2xmX0EwAEEwX011bERhbWFnZVBlcmNlbnQAVYvsg+wgaBAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgcAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2goAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaDQAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8ItFEIsQi00Qi0JI/9CJRezZRfBoAAAAAItN7IsRi03si0JU3V3k/9DcTeTcDRQBAADZXeDZReCL5V3DexSuR+F6hD8AAAAA</compiledString>
+									<compiledString>FUgAAAAHAAAAbAAAAIUAAAC7AAAA2wAAAAkBAAAVAQAALAEAAGRhbWFnZURlYWxlZAAAAABXZXJld29sZl9BMABXZXJld29sZl9BMABXZXJld29sZl9BMABBMF9NdWxEYW1hZ2VQZXJjZW50AFWL7IPsJItFDIsQi00MiwL/0N3Yi00MixGLTQyLQgz/0N3YaBAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgcAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2goAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaDQAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8ItFEIsQi00Qi0JI/9CJRexR2QVVAQAA2Rwk2UXw3A1NAQAA2V3o2UXoUdkcJOg1AAAAg8QIaAAAAACLTeyLEYtN7ItCVN1d4P/Q3E3g2V3c2UXci+Vdw3sUrkfheoQ/AADAQAAAAABVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 									<returnType>float</returnType>
-									<sString>$ParentApplVariable("damageDealed") * talconst("Werewolf_A0","A0_MulDamagePercent") * 0.01</sString>
+									<sString>$ParentApplVariable("damageDealed") * min(talconst("Werewolf_A0","A0_MulDamagePercent") * 0.01,((1-rLife/rMaxLife)*0,6))</sString>
 								</damage>
 								<damageMode>4</damageMode>
 								<damageType>Energy</damageType>
 								<enabled>
-									<compiledString>FUcAAAAIAAAAdgAAAKIAAADGAAAA5AAAAP0AAAAzAQAAUwEAAI8BAABXYXJkAAAAAEltTWFnaWNHYXRlAFdlcmV3b2xmX0EwAFdlcmV3b2xmX0EwAFdlcmV3b2xmX0EwAEEwX0xpZmVQZXJjZW50AFWL7IPsHFHZ6NkcJFHZ7tkcJGoBi0UMixCLTQyLQlj/0A+2yFHoWwEAAIPEDNwdvAEAAN/g9sRED4shAQAAi1UMiwKLTQyLUFD/0oP4EQ+ECwEAAGoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEA+F5wAAAGoAi00QUWgIAAAAi1UMiwKLTQyLkJwBAAD/0jtFEA+FwwAAAGgUAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoIAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoLAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWg4AAAAi1X0iwKLTfSLUFD/0tld8OsF2e7ZXfCLRQyLEItNDIsC/9CLTQyLEYtNDItCDN1d6P/Q2E3w3A20AQAA3F3o3+D2xEF1CcdF5AEAAADrB8dF5AAAAACKReSL5V3DexSuR+F6hD8AAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+									<compiledString>FUcAAAAIAAAAdgAAAKIAAADGAAAA5AAAAP0AAAAzAQAAUwEAAI8BAABXYXJkAAAAAEltTWFnaWNHYXRlAFdlcmV3b2xmX0EwAFdlcmV3b2xmX0EwAFdlcmV3b2xmX0EwAEEwX0xpZmVQZXJjZW50AFWL7IPsHFHZ6NkcJFHZ7tkcJGoBi0UMixCLTQyLQlj/0A+2yFHoWwEAAIPEDNwdvAEAAN/g9sRED4shAQAAi1UMiwKLTQyLUFD/0oP4EQ+ECwEAAGoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEA+F5wAAAGoAi00QUWgIAAAAi1UMiwKLTQyLkJwBAAD/0jtFEA+FwwAAAGgUAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoIAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoLAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWg4AAAAi1X0iwKLTfSLUFD/0tld8OsF2e7ZXfCLRQyLEItNDIsC/9CLTQyLEYtNDItCDN1d6P/Q2E3w3A20AQAA3F3o3+D2xAF1CcdF5AEAAADrB8dF5AAAAACKReSL5V3DexSuR+F6hD8AAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
 									<returnType>bool</returnType>
-									<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; receiver.applImMagicGate(GLOBAL) == pMisc &amp;&amp; rLife &lt; rMaxLife * talconst("Werewolf_A0","A0_LifePercent") * 0.01</sString>
+									<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; receiver.applImMagicGate(GLOBAL) == pMisc &amp;&amp; rLife &lt;= rMaxLife * talconst("Werewolf_A0","A0_LifePercent") * 0.01</sString>
 								</enabled>
 								<formulaName>WW_A0Damage</formulaName>
 								<uiEvent href="" />
