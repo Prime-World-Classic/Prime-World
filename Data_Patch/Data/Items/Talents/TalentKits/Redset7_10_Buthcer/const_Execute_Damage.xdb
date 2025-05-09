@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G764_WillOrSta.TALENT" Count="1" />
 	<name>Execute_Damage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBaEAAADZHCRR2QWdAAAA2RwkagCLRQiLEItNCIuCRAEAAP/QUdkcJItNCIsRi00Ii4JAAQAA/9BR2Rwk6F0AAACDxATZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6CoAAACDxATZHCToHwAAAIPEBNkcJGoBi00QixGLTRCLQmD/0F3DAADwQQAA8EJVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBaEAAADZHCRR2QWdAAAA2RwkagCLRQiLEItNCIuCRAEAAP/QUdkcJItNCIsRi00Ii4JAAQAA/9BR2Rwk6F0AAACDxATZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6CoAAACDxATZHCToHwAAAIPEBNkcJGoBi00QixGLTRCLQmD/0F3DAAAcQgAAHENVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(max(max(sStrength, sIntellect),max(sStamina, sWill)), 30, 120)</sString>
+		<sString>damageScale(max(max(sStrength, sIntellect),max(sStamina, sWill)), 39, 156)</sString>
 	</var>
 </UnitConstant>
