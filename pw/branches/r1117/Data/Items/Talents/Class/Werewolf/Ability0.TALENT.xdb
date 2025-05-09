@@ -69,6 +69,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Werewolf/Ability0.TALENT" id="9DA1981A-CD01-409D-B3E1-CD1CAF3306FC">
+					<UnitConstant>
+						<name>AddDamageForIntellect</name>
+						<var>
+							<compiledString>FQAAAAABAAAACAAAAFWL7GoBUdkFQAAAANkcJFHZ6NkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAgD/NzMw/</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 1, 1.6)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
