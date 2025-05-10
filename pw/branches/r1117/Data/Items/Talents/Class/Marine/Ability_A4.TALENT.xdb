@@ -398,6 +398,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Marine/Ability_A4.TALENT" id="CBFDB9DA-CAAD-4184-AE14-99C68443B2BC">
+					<UnitConstant>
+						<name>DamageDecrease</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>40</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
