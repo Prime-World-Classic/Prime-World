@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AdvMapNeutralCreepSpawner>
 	<BackLink DBID="/Maps/Multiplayer/MOBA/_.ADMP" Count="6" />
-	<BackLink DBID="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" Count="3" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" Count="6" />
 	<baseLevel>0</baseLevel>
 	<collision>
 		<x1>0</x1>

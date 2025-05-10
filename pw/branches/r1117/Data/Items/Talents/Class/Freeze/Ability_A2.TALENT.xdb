@@ -150,9 +150,9 @@
 													<Item href="/Items/Talents/Class/Freeze/Ability_A2.TALENT" id="5A7203F5-D29B-46C9-B3F3-828853A4844A">
 														<HealApplicator>
 															<amount>
-																<compiledString>FW8AAAAIAAAAdgAAAJMAAAC5AAAA2QAAAPsAAAAYAQAASwEAAF0BAABBMl9IZWFsVG90YWwAAAAAQTJfSGVhbEN1cnJlbnQAAEFiaWxpdHlUYXJnZXQAAABTVEVQAAAAAEFiaWxpdHlUYXJnZXQAAABTVEVQAAAAAEEyX0hlYWxUb3RhbAAAAABBMl9IZWFsQ3VycmVudABVi+yD7CxoIAAAAItFEIsQi00Qi0JM/9CJRfyLTQxRi1UIUmgwAAAAi0UQixCLTRCLQlD/0FHZHCSLTfyLEYtN/IuCrAEAAP/QaBAAAACLTQyLEYtNDIuCiAEAAN1d9P/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V3s/9DcZezcXfTf4PbEQXVIaDgAAACLTRCLEYtNEItCTP/QiUXoi00MUYtVCFJoSAAAAItFEIsQi00Qi0JQ/9BR2Rwki03oixGLTeiLgqwBAAD/0N1d4Os4i00MUYtVCFJoUAAAAItFEIsQi00Qi0JQ/9BoYAAAAItNDIsRi00Mi4KIAQAA3V3Y/9DcbdjdXeDdReDZXdTZRdSL5V3D</compiledString>
+																<compiledString>FXkAAAAJAAAAgAAAAJ0AAADDAAAA4wAAAAUBAAAiAQAAVQEAAGcBAACNAQAAQTJfSGVhbFRvdGFsAAAAAEEyX0hlYWxDdXJyZW50AABBYmlsaXR5VGFyZ2V0AAAAU1RFUAAAAABBYmlsaXR5VGFyZ2V0AAAAU1RFUAAAAABBMl9IZWFsVG90YWwAAAAAQTJfSGVhbEN1cnJlbnQAAEhlYWxNdWx0AFWL7IPsLGggAAAAi0UQixCLTRCLQkz/0IlF/ItNDFGLVQhSaDAAAACLRRCLEItNEItCUP/QUdkcJItN/IsRi038i4KsAQAA/9BoEAAAAItNDIsRi00Mi4KIAQAA3V30/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXez/0Nxl7Nxd9N/g9sRBdUhoOAAAAItNEIsRi00Qi0JM/9CJReiLTQxRi1UIUmhIAAAAi0UQixCLTRCLQlD/0FHZHCSLTeiLEYtN6IuCrAEAAP/Q3V3g6ziLTQxRi1UIUmhQAAAAi0UQixCLTRCLQlD/0GhgAAAAi00MixGLTQyLgogBAADdXdj/0Nxt2N1d4ItNDFGLVQhSaHAAAACLRRCLEItNEItCUP/Q3E3g2V3U2UXUi+Vdww==</compiledString>
 																<returnType>float</returnType>
-																<sString>(cA2_HealTotal - receiver.vA2_HealCurrent &gt; appl.oAbilityTarget.GetDamageTaken(cSTEP)) ? appl.oAbilityTarget.GetDamageTaken(cSTEP) : cA2_HealTotal - receiver.vA2_HealCurrent</sString>
+																<sString>((cA2_HealTotal - receiver.vA2_HealCurrent &gt; appl.oAbilityTarget.GetDamageTaken(cSTEP)) ? appl.oAbilityTarget.GetDamageTaken(cSTEP) : cA2_HealTotal - receiver.vA2_HealCurrent)*cHealMult</sString>
 															</amount>
 															<applyTarget>AbilityOwner</applyTarget>
 															<caption>Лечение</caption>
@@ -412,6 +412,26 @@
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
 							<returnType>float</returnType>
 							<sString>6.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Freeze/Ability_A2.TALENT" id="DE7E7227-4F1B-4F60-911D-DCDA54E690DB">
+					<UnitConstant>
+						<name>HealMult</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>1.5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Freeze/Ability_A2.TALENT" id="128C4F07-1EFD-45BE-9AC5-604D84840920">
+					<UnitConstant>
+						<name>TT_A2_HealTotal</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAZQwBwj0Q=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale (sStrength, 153, 1147.5)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
