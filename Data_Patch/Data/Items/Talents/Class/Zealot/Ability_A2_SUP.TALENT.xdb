@@ -55,6 +55,16 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Zealot/const_A2u_Blind_Duration" />
+				<Item href="/Items/Talents/Class/Zealot/Ability_A2_SUP.TALENT" id="63F56153-2C92-4B24-AE16-29D61F816019">
+					<UnitConstant>
+						<name>AddMaxDamage</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAgQwAAlkQ=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sStrength, 160, 1200)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
