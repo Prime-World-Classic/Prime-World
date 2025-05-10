@@ -128,26 +128,6 @@
 						<stopEvents>0</stopEvents>
 					</Item>
 					<Item>
-						<applicator href="/Items/Talents/Class/Zealot/status_A4_2_SelfBuffMaxHP.APLR" />
-						<continueCondition>
-							<compiledString></compiledString>
-							<returnType>bool</returnType>
-							<sString>0</sString>
-						</continueCondition>
-						<continueEvents>1</continueEvents>
-						<delay>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>-1.0</sString>
-						</delay>
-						<stopCondition>
-							<compiledString></compiledString>
-							<returnType>bool</returnType>
-							<sString>0</sString>
-						</stopCondition>
-						<stopEvents>0</stopEvents>
-					</Item>
-					<Item>
 						<applicator href="/Items/Talents/Class/Zealot/status_A4_2_EnemyReduceHP.APLR" />
 						<continueCondition>
 							<compiledString></compiledString>
@@ -236,6 +216,7 @@
 				</startCondition>
 			</ProgramApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Zealot/status_A4_2_SelfBuffMaxHP.APLR" />
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />
