@@ -39,9 +39,9 @@
 							<DamageApplicator parent="/GameLogic/GeneralApplicators/CommonDamage.APLR">
 								<caption>(A0) доп урон</caption>
 								<damage>
-									<compiledString>FVgAAAAKAAAAXwAAAHgAAACuAAAAzgAAACIBAAAsAQAAWgEAAHoBAACUAQAAqwEAAGRhbWFnZURlYWxlZAAAAABEYW1hZ2VQZXJjZW50AAAAV2VyZXdvbGZfQTAAV2VyZXdvbGZfQTAAV2VyZXdvbGZfQTAAQTBfTXVsRGFtYWdlUGVyY2VudABVi+yD7DRoIAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaCwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aDgAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoRAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3wi0UIixCLTQiLgjQBAAD/0ItNCIsRi00Ii4IwAQAA3V3o/9DcXejf4PbEQXUH2ejdXeDrRGoBUdkF4wEAANkcJFHZBd8BAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A3XAQAA3V3gi00QixGLTRCLQkj/0IlF3ItNDFGLVQhSaBAAAACLRRCLEItNEItCUP/QUdkcJNlF8NwNzwEAANld2NlF2FHZHCToTAAAAIPECGgAAAAAi03cixGLTdyLQlTdXdD/0NxN0NxN4NldzNlFzIvlXcN7FK5H4XqEPwAAAEDheoQ/AADIQgAASEMAAAAAAADwPwAAAABVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+									<compiledString>FW8AAAAIAAAAdgAAAI8AAADFAAAA5QAAAD0BAABtAQAAigEAAKEBAABkYW1hZ2VEZWFsZWQAAAAARGFtYWdlUGVyY2VudAAAAFdlcmV3b2xmX0EwAFdlcmV3b2xmX0EwAFdlcmV3b2xmX0EwAEEwX011bERhbWFnZVBlcmNlbnQAQWRkRGFtYWdlRnJvbUludGVsbGVjdABVi+yD7DhoIAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaCwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aDgAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoRAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3wi0UIixCLTQiLgjQBAAD/0ItNCIsRi00Ii4IwAQAA3V3o/9DcXejf4PbEQXUH2ejZXeTrHYtNDFGLVQhSaFgAAACLRRCLEItNEItCUP/Q2V3ki00QixGLTRCLQkj/0IlF4NlF5ItNDFGLVQhSaBAAAACLRRCLEItNEItCUN1d2P/QUdkcJNlF8NwNxQEAANld1NlF1FHZHCToOAAAAIPECGgAAAAAi03gixGLTeCLQlTdXcz/0NxNzNxN2NldyNlFyIvlXcN7FK5H4XqEPwAAgD8AAAAAVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 									<returnType>float</returnType>
-									<sString>$ParentApplVariable("damageDealed") * min(talconst("Werewolf_A0","A0_MulDamagePercent") * 0.01,cDamagePercent) * (sIntellect&lt;sStrength ? 1 : (damageScale(sIntellect, 100, 200)*0.01f))</sString>
+									<sString>$ParentApplVariable("damageDealed") * min(talconst("Werewolf_A0","A0_MulDamagePercent") * 0.01,cDamagePercent) * (sIntellect&lt;sStrength ? 1 : cAddDamageFromIntellect)</sString>
 								</damage>
 								<damageMode>4</damageMode>
 								<damageType>Energy</damageType>
@@ -136,6 +136,16 @@
 							<compiledString>FQAAAAADAAAAFAAAACoAAAA3AAAAVYvsg+wMi0UMixCLTQyLAv/Q3A1NAAAAi00MixGLTQyLQgzdXfj/0NwNTQAAANx9+Nno3uHcDUUAAADZXfTZRfSL5V3DAAAAQDMz4z8AAAAAAADwPw==</compiledString>
 							<returnType>float</returnType>
 							<sString>(1-(rLife*1.0f)/(rMaxLife*1.0f))*0.6f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Heroes/Werewolf/AttackAbility.ATCK" id="02C96936-89E5-4842-93CC-4134527B483D">
+					<UnitConstant>
+						<name>AddDamageFromIntellect</name>
+						<var>
+							<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+VdwwAAAEDheoQ/AADIQgAAKkM=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 100, 170)*0.01f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
