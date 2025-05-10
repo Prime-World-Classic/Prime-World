@@ -128,7 +128,7 @@
 						<stopEvents>0</stopEvents>
 					</Item>
 					<Item>
-						<applicator href="/Items/Talents/Class/Zealot/status_A4_2_EnemyReduceHP.APLR" />
+						<applicator href="/Items/Talents/Class/Zealot/status_A4_2_SelfBuffMaxHP.APLR" />
 						<continueCondition>
 							<compiledString></compiledString>
 							<returnType>bool</returnType>
@@ -148,7 +148,7 @@
 						<stopEvents>0</stopEvents>
 					</Item>
 					<Item>
-						<applicator href="/Items/Talents/Class/Zealot/status_A4_2_SelfBuffMaxHP.APLR" />
+						<applicator href="/Items/Talents/Class/Zealot/status_A4_2_EnemyReduceHP.APLR" />
 						<continueCondition>
 							<compiledString></compiledString>
 							<returnType>bool</returnType>
