@@ -6972,7 +6972,14 @@
 				<Item skip="1" />
 				<Item skip="1" />
 				<Item skip="1" />
-				<Item skip="1" />
+				<Item>
+					<gameObject href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" id="EE5BC464-7952-448B-96F7-EA3BC83AB5E3">
+						<AdvMapNeutralCreepSpawner parent="/Maps/Multiplayer/MOBA/Spawners/NeutralBossNY.NCSPN">
+							<firstSpawnTimeOffset>1</firstSpawnTimeOffset>
+							<spawnDelay>5</spawnDelay>
+						</AdvMapNeutralCreepSpawner>
+					</gameObject>
+				</Item>
 				<Item>
 					<gameObject href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" id="89F93EAC-EE3E-4266-BA9F-7DBA27D5FE3D">
 						<AdvMapNeutralCreepSpawner parent="/Maps/Multiplayer/MOBA/Spawners/NeutralBossNY.NCSPN">

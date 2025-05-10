@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A2u.TALENT" Count="1" />
 	<name>A2_HealTotal</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAZQwBwj0Q=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADMQgBAP0Q=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale (sStrength, 153, 1147.5)</sString>
+		<sString>damageScale (sStrength, 102, 765)</sString>
 	</var>
 </UnitConstant>

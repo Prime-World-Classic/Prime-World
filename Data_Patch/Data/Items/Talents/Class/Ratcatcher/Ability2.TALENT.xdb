@@ -1175,9 +1175,9 @@
 					<UnitConstant>
 						<name>A2_CreepBuff_StaminaOrWill</name>
 						<var>
-							<compiledString>FQAAAAABAAAANgAAAFWL7FGLRQiLEItNCIuCRAEAAP/QUdkcJItNCIsRi00Ii4JAAQAA/9BR2Rwk6BsAAACDxAjcDUQAAADZXfzZRfyL5V3DAAAAoJmZ6T9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<compiledString>FQAAAAABAAAANgAAAFWL7FGLRQiLEItNCIuCRAEAAP/QUdkcJItNCIsRi00Ii4JAAQAA/9BR2Rwk6BsAAACDxAjcDUQAAADZXfzZRfyL5V3DAAAAAAAA+D9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>max(sStamina,sWill)*0.8f</sString>
+							<sString>max(sStamina,sWill)*1.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
