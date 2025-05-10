@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Zealot/status_A4_2_EnemyReduceHP.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A4_2.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Zealot/status_A4_2_SelfBuffMaxHP.APLR" id="5F42A169-D3D4-4E0B-B99A-3232F8E570D9">
 			<ProgramApplicator>
