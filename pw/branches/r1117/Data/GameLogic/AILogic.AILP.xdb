@@ -3071,9 +3071,9 @@
 					<UnitConstant>
 						<name>CastRange_ExLong</name>
 						<var>
-							<compiledString>FR0AAAADAAAAIgAAADgAAAA+AAAAUmVkc2V0X0Nhc3RSYW5nZV9Gb3JtQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3A1UAAAA3AVMAAAA2V382UX8i+VdwwAAAAAAADVAzczMzMzM8D8=</compiledString>
+							<compiledString>FR0AAAADAAAAIgAAADgAAAA+AAAAUmVkc2V0X0Nhc3RSYW5nZV9Gb3JtQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3A1UAAAA3AVMAAAA2V382UX8i+VdwwAAAAAAADdAZ2ZmZmZm8j8=</compiledString>
 							<returnType>float</returnType>
-							<sString>21 + (21*0.05*sender.vRedset_CastRange_FormCounter)</sString>
+							<sString>23 + (23*0.05*sender.vRedset_CastRange_FormCounter)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

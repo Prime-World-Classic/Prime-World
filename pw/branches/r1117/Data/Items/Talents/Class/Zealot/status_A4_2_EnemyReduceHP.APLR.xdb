@@ -2,7 +2,6 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A4_2.TALENT" Count="1" />
 	<applicators>
-		<Item href="/Items/Talents/Class/Zealot/status_A4_2_SelfBuffMaxHP.APLR" />
 		<Item href="/Items/Talents/Class/Zealot/status_ScaleFX.APLR" />
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
