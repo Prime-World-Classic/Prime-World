@@ -769,7 +769,7 @@
 																<returnType>float</returnType>
 																<sString>talconst("Prince_A3","A3_Damage")</sString>
 															</damage>
-															<damageMode>11</damageMode>
+															<damageMode>9</damageMode>
 															<damageType>Energy</damageType>
 															<enabled>
 																<compiledString></compiledString>
