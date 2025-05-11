@@ -986,9 +986,9 @@
 										<flags>0</flags>
 										<mode>Normal</mode>
 										<range>
-											<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLQhT/0F3D</compiledString>
+											<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCFP/Q3AUhAAAA2V382UX8i+VdwwAAAAAAAPA/</compiledString>
 											<returnType>float</returnType>
-											<sString>sRange</sString>
+											<sString>sRange+1</sString>
 										</range>
 										<targetFilter>673120767</targetFilter>
 										<targetSelector href="" />
@@ -1011,7 +1011,49 @@
 				<returnType>float</returnType>
 				<sString>0.0f</sString>
 			</castAllowRange>
-			<castLimitations />
+			<castLimitations>
+				<Item href="/Heroes/Hunter/_.HROB" id="CCEBEF1C-34C8-447A-8091-733949F59353">
+					<TargetCastLimitation>
+						<targetSelector href="/Heroes/Hunter/_.HROB" id="1FA23DE1-EE6A-45B4-A701-C3599F2B7066">
+							<CountingTargetSelector>
+								<enableSorting>true</enableSorting>
+								<flags>0</flags>
+								<heroesFirst>false</heroesFirst>
+								<mode>CaptureTargets</mode>
+								<order>Increasing</order>
+								<sortingValue>
+									<compiledString>FQAAAAAAAAEA5wAAAFWL7IPsII1F+FCLTQyLEYtNDIuCjAEAAP/QUI1N8FGLVRCLAotNEItQWP/SUOg3AAAAg8QIi0UMixCLTQyLQlDdXej/0IPoEPfYG8AlGPz//wXoAwAAiUXk20Xk3EXo2V3g2UXgi+Vdw1WL7IPsFItFCNlABItNDNhhBNld9NlF9FHZHCSLVQjZAotFDNgg2V3w2UXwUdkcJI1N+OhXAAAA2UX42E342UX82E383sHZXezZRexR2Rwk6AcAAACDxASL5V3DVYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6PH+//+DxAjZXfzZRfyL5V3DVYvsUYlN/ItF/NlFCNkYi0382UUM2VkEi0X8i+VdwggA</compiledString>
+									<returnType>float</returnType>
+									<sString>d( appl.TargetPos, rPos ) + ( rUnitKind == 16 ? 1000 : 0 )</sString>
+								</sortingValue>
+								<targetSelector href="/Heroes/Hunter/_.HROB" id="56B882FE-9E9D-4BEA-980B-F630AC5DD2DF">
+									<AreaTargetSelector>
+										<absolutePosition>
+											<x>0</x>
+											<y>0</y>
+										</absolutePosition>
+										<flags>0</flags>
+										<mode>Normal</mode>
+										<range>
+											<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLQhT/0F3D</compiledString>
+											<returnType>float</returnType>
+											<sString>sRange</sString>
+										</range>
+										<targetFilter>673120767</targetFilter>
+										<targetSelector href="" />
+									</AreaTargetSelector>
+								</targetSelector>
+								<targetsNumber>
+									<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
+									<returnType>int</returnType>
+									<sString>1</sString>
+								</targetsNumber>
+							</CountingTargetSelector>
+						</targetSelector>
+						<uiEvent href="" />
+					</TargetCastLimitation>
+				</Item>
+			</castLimitations>
 			<commonDescription textref="" />
 			<compiledDescriptionA textref="" />
 			<compiledDescriptionB textref="" />
