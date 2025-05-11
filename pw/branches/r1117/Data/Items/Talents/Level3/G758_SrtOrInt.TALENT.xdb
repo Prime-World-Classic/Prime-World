@@ -242,6 +242,16 @@
 				<Item href="/Items/Talents/TalentKits/Redset7_10_Buthcer/const_Execute_Damage" />
 				<Item href="/Items/Talents/TalentKits/Redset7_10_Buthcer/const_AddExecute_Damage_Condition" />
 				<Item href="/Items/Talents/TalentKits/Redset7_10_Buthcer/const_AddExecute_Damage" />
+				<Item href="/Items/Talents/Level3/G758_SrtOrInt.TALENT" id="53FC0034-379D-475F-90A4-E8CDD9DF6031">
+					<UnitConstant>
+						<name>TotalExecute_Damage</name>
+						<var>
+							<compiledString>FTIAAAAFAAAAOQAAAFIAAACIAAAApQAAALkAAABFeGVjdXRlX0RhbWFnZQAARzc2NAAAAABHNzY0AAAAAEFkZEV4ZWN1dGVfRGFtYWdlAFWL7IPsEGgQAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9APtk37iU302kX03B3fAAAA3+D2xER7H4tVDFKLRQhQaCAAAACLTRCLEYtNEItCUP/Q2V3w6wXZ7tld8NlF8IvlXcMAAAAAAAAAAAAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>cExecute_Damage+tal("G764") ? cAddExecute_Damage : 0</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
