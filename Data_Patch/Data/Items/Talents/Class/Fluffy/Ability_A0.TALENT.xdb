@@ -146,9 +146,9 @@
 					<UnitConstant>
 						<name>TransformCD</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<compiledString>FTMAAAAFAAAAOgAAAFMAAACRAAAApAAAAK8AAABGbHVmZnlfQTRfQTRfMl9TVVAAAEZsdWZmeV9BNF9BNF8yX1NVUAAAQTBfU1VQX0NEUgBVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQli1UMUotFCFBoKAAAAItNEIsRi00Qi0JQ/9DcLcMAAADdXfDrCd0FwwAAAN1d8N1F8Nld7NlF7IvlXcMAAAAAAAAuQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>10</sString>
+							<sString>tal("Fluffy_A4_A4_2_SUP")?(15-cA0_SUP_CDR) : 15</sString>
 						</var>
 					</UnitConstant>
 				</Item>
