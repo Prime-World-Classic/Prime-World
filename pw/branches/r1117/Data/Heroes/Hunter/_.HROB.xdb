@@ -975,7 +975,7 @@
 								<sortingValue>
 									<compiledString>FQAAAAAAAAEA5wAAAFWL7IPsII1F+FCLTQyLEYtNDIuCjAEAAP/QUI1N8FGLVRCLAotNEItQWP/SUOg3AAAAg8QIi0UMixCLTQyLQlDdXej/0IPoEPfYG8AlGPz//wXoAwAAiUXk20Xk3EXo2V3g2UXgi+Vdw1WL7IPsFItFCNlABItNDNhhBNld9NlF9FHZHCSLVQjZAotFDNgg2V3w2UXwUdkcJI1N+OhXAAAA2UX42E342UX82E383sHZXezZRexR2Rwk6AcAAACDxASL5V3DVYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6PH+//+DxAjZXfzZRfyL5V3DVYvsUYlN/ItF/NlFCNkYi0382UUM2VkEi0X8i+VdwggA</compiledString>
 									<returnType>float</returnType>
-									<sString>d( appl.TargetPos, rPos ) + ( rUnitKind == 16 ? 1000 : 0 )</sString>
+									<sString>d( appl.TargetPos, rPos )  + ( rUnitKind == 16 ? 1000 : 0 )</sString>
 								</sortingValue>
 								<targetSelector href="/Heroes/Hunter/_.HROB" id="8A4BC523-9040-4C77-BFAA-3E8242F95F93">
 									<AreaTargetSelector>
@@ -986,9 +986,9 @@
 										<flags>0</flags>
 										<mode>Normal</mode>
 										<range>
-											<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCFP/Q3AUhAAAA2V382UX8i+VdwwAAAAAAAPA/</compiledString>
+											<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCFP/Q3AUhAAAA2V382UX8i+VdwwAAAAAAAAhA</compiledString>
 											<returnType>float</returnType>
-											<sString>sRange+1</sString>
+											<sString>sRange+3</sString>
 										</range>
 										<targetFilter>673120767</targetFilter>
 										<targetSelector href="" />
