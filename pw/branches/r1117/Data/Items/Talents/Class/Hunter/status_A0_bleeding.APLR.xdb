@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Heroes/Hunter/_.HROB" Count="3" />
+	<BackLink DBID="/Heroes/Hunter/_.HROB" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/A4_2_SpellSwitch.APLR" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/Hunter/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="1" />

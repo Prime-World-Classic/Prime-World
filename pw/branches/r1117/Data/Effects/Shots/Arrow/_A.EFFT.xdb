@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
 	<BackLink DBID="/Effects/Shots/Arrow/_A.EFFT" Count="4" />
-	<BackLink DBID="/Heroes/Hunter/_.HROB" Count="2" />
+	<BackLink DBID="/Heroes/Hunter/_.HROB" Count="3" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/Hunter/_.HROB" Count="1" />
 	<component href="/Effects/Shots/Arrow/_ATRS.PRXY" />
 	<deathType>Manual</deathType>
