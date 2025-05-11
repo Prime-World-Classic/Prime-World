@@ -320,9 +320,9 @@
 								<cancelInvisibility>false</cancelInvisibility>
 								<caption>Сжигаем энергию</caption>
 								<damage>
-									<compiledString>FRQAAAACAAAAMAAAAEkAAABBNHVfVG90YWxFbmVyZ3lCdXJuAFWL7IPsDItFDIsQi00Mi0IQ/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+NwNVwAAANld9NlF9IvlXcMAAABA4XqEPw==</compiledString>
+									<compiledString>FRQAAAACAAAAMAAAAEkAAABBNHVfVG90YWxFbmVyZ3lCdXJuAFWL7IPsDItFDIsQi00Mi0IE/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+NwNVwAAANld9NlF9IvlXcMAAABA4XqEPw==</compiledString>
 									<returnType>float</returnType>
-									<sString>rMaxEnergy * cA4u_TotalEnergyBurn * 0.01f</sString>
+									<sString>rEnergy * cA4u_TotalEnergyBurn * 0.01f</sString>
 								</damage>
 								<damageMode>4</damageMode>
 								<damageType>Mana</damageType>
@@ -589,9 +589,9 @@
 					<UnitConstant>
 						<name>Silence_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>1.5</sString>
+							<sString>0.7</sString>
 						</var>
 					</UnitConstant>
 				</Item>
