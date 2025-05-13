@@ -20,6 +20,7 @@ bool g_playerPwcChatMute = false;
 string g_devLogin;
 string g_sessionToken;
 string g_playerToken;
+string g_mapId;
 
 string g_sessionName;
 WebLauncherPostRequest::RegisterSessionRequest g_sessionStatus;
@@ -590,6 +591,13 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
     res.response = "method section is empty";
     res.retCode = LoginResponse_WEB_FAIL;
     return res;
+  }
+
+  Json::Value mapId = parsedJson.get("mapId", Json::Value());
+  if (mapId.empty()) {
+    g_mapId = "Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR.xdb";
+  } else {
+    g_mapId = mapId.asString().c_str();
   }
 
   Json::Value nickname = playerInfo.get("nickname", Json::Value());
