@@ -31,7 +31,6 @@
 	<BackLink DBID="/Test/Talents/Vampire/Epic_Str_Ult2.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Bomber/Test.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/SnowQueen.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Hunter.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Naga.TALENTSET" Count="1" />
 	<activationConditions />
