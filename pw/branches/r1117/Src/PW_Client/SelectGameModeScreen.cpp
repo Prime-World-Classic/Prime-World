@@ -17,6 +17,7 @@ extern int g_playerPartyId;
 extern int g_playersCount;
 extern std::string g_protocolToken;
 extern bool g_localGameRun;
+extern string g_mapId;
 
 static string s_reconnect_hero = "rockman";
 static int s_reconnect_team = 1;
@@ -184,7 +185,7 @@ void SelectGameModeScreen::Step( bool bAppActive )
   }
   if (g_sessionStatus == WebLauncherPostRequest::RegisterInSessionRequest_WebCreate) {
     if (g_localGameRun) {
-      locked->CreateGame("Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR.xdb", 10);
+      locked->CreateGame(g_mapId.c_str(), 10);
       g_sessionStatus = WebLauncherPostRequest::RegisterInSessionRequest_WebJoined;
     } else {
     locked->CreateGame("Maps/Multiplayer/MOBA/_.ADMPDSCR.xdb", g_playersCount);

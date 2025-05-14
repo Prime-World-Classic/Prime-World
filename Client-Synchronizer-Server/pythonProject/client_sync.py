@@ -61,7 +61,8 @@ def sendSessionFinishData(data):
         infoSend = False
         while not infoSend:
             try:
-                requests.post('https://pw2.26rus-game.ru/api/launcher/', json={'method': 'finishGame', 'data': data});
+                requests.post('http://192.168.31.9:7777', json={'method': 'finishGame', 'data': data});
+                logger.info('Success!!!      ' + str(json.dumps(data)))
                 infoSend = True
             except:
                 logger.info('No backend response!!!      ' + str(json.dumps(data)))
@@ -69,7 +70,22 @@ def sendSessionFinishData(data):
     
     thread = threading.Thread(target=sendInfo, args=(data,))
     thread.start()
-
+            
+def sendSessionPlayersData(data):
+    def sendInfo(data):
+        infoSend = False
+        while not infoSend:
+            try:
+                requests.post('http://192.168.31.9:7777', json={'method': 'sendSessionPlayersData', 'data': data});
+                logger.info('Success!!!      ' + str(json.dumps(data)))
+                infoSend = True
+            except:
+                logger.info('No backend response!!!      ' + str(json.dumps(data)))
+                time.sleep(10)
+    
+    thread = threading.Thread(target=sendInfo, args=(data,))
+    thread.start()
+    
 @app.route('/api', methods=['POST'])
 def api():
     print(request.data)
@@ -110,6 +126,11 @@ def api():
 
             webSessions[data['sessionToken']] = {'players': {}, 'lock': threading.Lock(), 'timestamp': dt.now(), 'gameName': '', 'gameStarted': False, 'gameFinished': False, 'gameCreated': False }
 
+            mapId = 'Maps/Multiplayer/MOBA/_.ADMPDSCR.xdb';
+            if 'mapId' in data:
+                mapId = data['mapId']
+            webSessions[data['sessionToken']]['mapId'] = mapId
+            
             # generate player keys, fill player data
             for player in data['players']:
                 if 'id' not in player:
@@ -213,7 +234,7 @@ def api():
                         method = 'reconnect'
                     else:
                         method = 'connect'
-                        tryRotten = True
+                        tryRotten = False # True
                      
                 # Test rotten sessions
                 if tryRotten:
@@ -237,7 +258,8 @@ def api():
                     'method': method,
                     'playerInfo': webSessions[sessionToken]['players'][playerKey],
                     'usersData': list(webSessions[sessionToken]['players'].values()),
-                    'gameName': gameName
+                    'gameName': gameName,
+                    'mapId': webSessions[sessionToken]['mapId']
                 }
                 logger.info('Response!!!      ' + str(json.dumps(response)))
                 return jsonify(response)
@@ -297,6 +319,7 @@ def api():
                     return jsonify(response)
                     
         if method == 'notifyGameFinishLegacy':
+            sendSessionPlayersData(data)
             response = {
                 'error': '',
             }
