@@ -280,6 +280,55 @@
 																		</summonedUnitsCount>
 																	</SummonApplicator>
 																</Item>
+																<Item href="/Items/Talents/Class/Demonolog/Ability1.TALENT" id="1E4C6812-3E3C-441F-A523-2E50096A9727">
+																	<HealApplicator>
+																		<amount>
+																			<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCGP/Q3A0hAAAA2V382UX8i+VdwwAAAKCqqvo/</compiledString>
+																			<returnType>float</returnType>
+																			<sString>mManaCost*(1/0.6f)</sString>
+																		</amount>
+																		<applyTarget>AbilityOwner</applyTarget>
+																		<caption>Вернуть ману</caption>
+																		<enabled>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>true</sString>
+																		</enabled>
+																		<formulaName></formulaName>
+																		<healTarget>Energy</healTarget>
+																		<ignoreHealingMods>false</ignoreHealingMods>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<providerName></providerName>
+																		<uiEvent href="/UI/Events/CommonEvents/EventEnergy.UIEV" />
+																	</HealApplicator>
+																</Item>
+																<Item href="/Items/Talents/Class/Demonolog/Ability1.TALENT" id="9D3EB5CA-FA79-470C-AECB-F6DC02117986">
+																	<RefreshCooldownApplicator>
+																		<allowCdIncrease>false</allowCdIncrease>
+																		<applyTarget>AbilityOwner</applyTarget>
+																		<caption>откатить Ловушку</caption>
+																		<enabled>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>true</sString>
+																		</enabled>
+																		<flags>2301</flags>
+																		<formulaName></formulaName>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<providerName></providerName>
+																		<reduceByPercent>true</reduceByPercent>
+																		<reductionAmount>
+																			<compiledString>FRIAAAACAAAAHwAAADIAAABDb29sZG93blJlZHVjdGlvbgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDUAAAADZXfzZRfyL5V3DexSuR+F6hD8=</compiledString>
+																			<returnType>float</returnType>
+																			<sString>cCooldownReduction*0.01</sString>
+																		</reductionAmount>
+																		<refreshThis>false</refreshThis>
+																		<talents>
+																			<Item href="/Items/Talents/Class/Demonolog/Ability2.TALENT" />
+																		</talents>
+																		<useListAs>ListAsRule</useListAs>
+																	</RefreshCooldownApplicator>
+																</Item>
 															</applicators>
 															<dispatch href="/Items/Talents/Class/Demonolog/Ability1.TALENT" id="2E009355-C2C7-4127-800E-2CAEDC98E66D">
 																<DispatchImmediate>
@@ -562,6 +611,26 @@
 				<Item href="/Items/Talents/Class/Demonolog/const_A0_HealSelf" />
 				<Item href="/Items/Talents/Class/Demonolog/const_A0_CastAbsorb" />
 				<Item href="/Items/Talents/Class/Demonolog/const_A0_SUP_IncMaxDemons" />
+				<Item href="/Items/Talents/Class/Demonolog/Ability1.TALENT" id="E0F73776-EFF8-4429-8E77-2CDFEF8C3438">
+					<UnitConstant>
+						<name>RestoreMana</name>
+						<var>
+							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCGP/Q3A0hAAAA2V382UX8i+VdwwAAAKCqqvo/</compiledString>
+							<returnType>float</returnType>
+							<sString>mManaCost*(1/0.6f)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Demonolog/Ability1.TALENT" id="2EE498B7-26B7-402B-91F7-4480C89DF5F7">
+					<UnitConstant>
+						<name>CooldownReduction</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>50</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

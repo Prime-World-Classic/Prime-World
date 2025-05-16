@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Class/Highlander/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/Ability2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/Ability2_Upg1.TALENT" Count="1" />
+	<name>A2_10Stack_SpeedBuff_Percent</name>
+	<var>
+		<compiledString>FQwAAAACAAAAEQAAACcAAABKb3lPZkJhdHRsZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3A01AAAA2V382UX8i+VdwwAAAAAAABhA</compiledString>
+		<returnType>float</returnType>
+		<sString>6*sender.vJoyOfBattle</sString>
+	</var>
+</UnitConstant>

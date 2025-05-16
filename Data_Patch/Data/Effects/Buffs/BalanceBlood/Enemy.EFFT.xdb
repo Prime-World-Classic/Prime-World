@@ -2,9 +2,10 @@
 <BasicEffectAttached>
 	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" Count="2" />
 	<attachFlags>1</attachFlags>
 	<attachType>Ground</attachType>
-	<component href="/Effects/Buffs/Balance/EnemyTRS.PRXY" />
+	<component href="/Effects/Buffs/BalanceBlood/EnemyTRS.PRXY" />
 	<deathType>Anim</deathType>
 	<enableCondition href="" />
 	<fadeIn>0</fadeIn>

@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectAttached>
-	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G328_AoERegEnergy.TALENT" Count="1" />
 	<attachFlags>1</attachFlags>
 	<attachType>Ground</attachType>
-	<component href="/Effects/Buffs/Balance/EnemyTRS.PRXY" />
+	<component href="/Effects/Buffs/Balance/EnemyBlueTRS.PRXY" />
 	<deathType>Anim</deathType>
 	<enableCondition href="" />
 	<fadeIn>0</fadeIn>
