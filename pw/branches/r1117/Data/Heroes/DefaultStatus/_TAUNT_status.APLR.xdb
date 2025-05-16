@@ -7,6 +7,7 @@
 	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G350_AoE.TALENT" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/witcher/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability2.TALENT" Count="5" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_TAUNT_status.APLR" id="BF59B5B7-06F0-4B71-903B-3EFBE788A666">
 			<TauntApplicator>
@@ -100,7 +101,7 @@
 					<sString>true</sString>
 				</startCondition>
 				<talents>
-					<Item href="/Items/Talents/Class/Shadow/Ability_A3u.TALENT" />
+					<Item href="/Items/Talents/Class/Shadow/Ability_A3.TALENT" />
 				</talents>
 				<useListAs>ListAsException</useListAs>
 			</FlagsApplicator>

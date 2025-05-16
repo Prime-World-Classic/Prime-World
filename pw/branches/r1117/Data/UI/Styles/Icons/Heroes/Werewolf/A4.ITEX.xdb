@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability2_Upg.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Werewolf/status_A2u_LoneBeast.APLR" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/Werewolf_A4.TALENT" Count="1" />

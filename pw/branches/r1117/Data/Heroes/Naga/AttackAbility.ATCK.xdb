@@ -2,6 +2,7 @@
 <BaseAttack>
 	<BackLink DBID="/Heroes/Naga/_.HROB" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/Naga/_.HROB" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>

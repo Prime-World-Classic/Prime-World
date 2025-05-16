@@ -129,9 +129,9 @@
 					<UnitConstant>
 						<name>A4PassiveManaCost</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABcQw==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>220</sString>
+							<sString>0</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -119,6 +119,9 @@
 	<BackLink DBID="/Effects/Buffs/Balance/Ally.PRXY" Count="2" />
 	<BackLink DBID="/Effects/Buffs/Balance/Enemy.PRXY" Count="2" />
 	<BackLink DBID="/Effects/Buffs/Balance/EnemyBlue.PRXY" Count="2" />
+	<BackLink DBID="/Effects/Buffs/BalanceBlood/Ally.PRXY" Count="2" />
+	<BackLink DBID="/Effects/Buffs/BalanceBlood/Enemy.PRXY" Count="2" />
+	<BackLink DBID="/Effects/Buffs/BalanceBlood/EnemyBlue.PRXY" Count="2" />
 	<BackLink DBID="/Effects/Buffs/Beam/_.PRXY" Count="3" />
 	<BackLink DBID="/Effects/Buffs/Beam/_Flame.PRXY" Count="3" />
 	<BackLink DBID="/Effects/Buffs/Beam/_Flame_Long.PRXY" Count="3" />

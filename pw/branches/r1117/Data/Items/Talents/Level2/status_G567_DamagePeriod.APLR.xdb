@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBaseBaseAttack.APLR" Count="2" />
 	<applicators>
 		<Item href="/Items/Talents/Level2/status_G567_DamagePeriod.APLR" id="F807FA5D-B401-45F9-B08A-BFA9BC1CADF4">
 			<PermanentStatModApplicator>

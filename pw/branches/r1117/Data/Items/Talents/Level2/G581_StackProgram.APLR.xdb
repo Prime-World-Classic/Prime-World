@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramApplicator>
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBaseBaseAttack.APLR" Count="2" />
 	<applicators>
 		<Item>
 			<applicator href="/Items/Talents/Level2/G581_StackProgram.APLR" id="971C98BA-DFD8-4789-8132-C60F95B21194">

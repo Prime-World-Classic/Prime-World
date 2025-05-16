@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpellSwitchApplicator>
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBaseBaseAttack.APLR" Count="1" />
 	<activeSpellIndex>
 		<compiledString>FQAAAAAAAAAAVYvsUdno2RwkUdnu2RwkagGLRQyLEItNDItCWP/QD7bIUegYAAAAg8QI2Rwk6C4AAACDxARdwwAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3DuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
 		<returnType>int</returnType>

@@ -6,7 +6,7 @@
 	<BackLink DBID="/Items/Talents/Brewer.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Brewer_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A0_SUP.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Brewer_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Brewer/Brewer.TALENTSET" Count="1" />
 	<activationConditions />

@@ -694,6 +694,66 @@
 				<useListAs>ListAsRule</useListAs>
 			</AbilityUpgradeApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level2/G567_CasterBase.TALENT" id="D5723CAE-AF55-4A52-9770-FE9752FE09FB">
+			<AbilityUpgradeApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Level2/G567_CasterBaseBaseAttack.APLR" />
+					<Item href="/Items/Talents/Level2/G567_CasterBase.TALENT" id="A59D4D71-1FC7-489B-AB91-040DA045D41F">
+						<AbilityUpgradeTechApplicator>
+							<abilityLastUseStep>0</abilityLastUseStep>
+							<abilityObjectId>0</abilityObjectId>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>TECH_Applicator</caption>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+						</AbilityUpgradeTechApplicator>
+					</Item>
+				</applicators>
+				<applyCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</applyCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>144</behaviorFlags>
+				<caption>Урон в цель от яда Наги</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRAAAAACAAAAFwAAADAAAABOYWdhX0EyAE5hZ2FfQTIAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Naga_A2")</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<persistentApplicators />
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>false</sString>
+				</startCondition>
+				<talents>
+					<Item href="/Heroes/Naga/AttackAbility.ATCK" />
+				</talents>
+				<targetAbility>BaseAttack</targetAbility>
+				<useListAs>ListAsRule</useListAs>
+			</AbilityUpgradeApplicator>
+		</Item>
 		<Item href="/Items/Talents/Level2/G567_CasterBase.TALENT" id="FA663FBD-629A-4D76-88A3-08976440D4D2">
 			<StatModApplicator>
 				<applyTarget>AbilityOwner</applyTarget>

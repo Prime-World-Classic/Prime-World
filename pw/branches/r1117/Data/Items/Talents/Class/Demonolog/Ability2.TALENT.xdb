@@ -12,6 +12,7 @@
 	<BackLink DBID="/Test/Talents/Demonolog/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Demonolog/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Demonolog/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability1.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

@@ -102,7 +102,7 @@
 															<applicator href="/Items/Talents/Class/Werewolf/Ability2.TALENT" id="7407940B-EE1A-4320-9C5C-69CAB2B98376">
 																<SpellApplicator>
 																	<applyTarget>AbilityTarget</applyTarget>
-																	<caption>замедлить</caption>
+																	<caption>замедлить + Taunt</caption>
 																	<enabled>
 																		<compiledString></compiledString>
 																		<returnType>bool</returnType>
@@ -115,6 +115,11 @@
 																		<Spell>
 																			<applicators>
 																				<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
+																				<Item href="/Items/Talents/Class/Werewolf/Ability2.TALENT" id="6CF490A6-3138-45D9-B573-EC1D67B5E709">
+																					<StatusApplicator parent="/Heroes/DefaultStatus/_TAUNT_status.APLR">
+																						<image href="/UI/Styles/Icons/Heroes/Werewolf/A4.ITEX" />
+																					</StatusApplicator>
+																				</Item>
 																			</applicators>
 																			<dispatch href="/Items/Talents/Class/Werewolf/Ability2.TALENT" id="2F233B1F-7278-4CD4-87F4-3D459558A239">
 																				<DispatchImmediate>
@@ -757,6 +762,26 @@
 							<compiledString>FSAAAAACAAAAJwAAAEAAAABXZXJld29sZl9BMl9TVVAAV2VyZXdvbGZfQTJfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4lN9NtF9IvlXcM=</compiledString>
 							<returnType>float</returnType>
 							<sString>tal("Werewolf_A2_SUP")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Werewolf/Ability2.TALENT" id="9F9868C1-BB06-4F32-A4B2-EA9478532F2D">
+					<UnitConstant>
+						<name>Taunt_StartCondition</name>
+						<var>
+							<compiledString>FQ0AAAACAAAAEgAAACgAAABBbGxvd0NvbnRyb2wAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdSgAAAN/g9sREewnHRfwBAAAA6wfHRfwAAAAA20X8i+VdwwAAAAAAAPA/</compiledString>
+							<returnType>float</returnType>
+							<sString>receiver.vAllowControl != 1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Werewolf/Ability2.TALENT" id="BDFC6FEB-4A94-459D-BB3B-5287E8121A6B">
+					<UnitConstant>
+						<name>Taunt_Duration</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1</sString>
 						</var>
 					</UnitConstant>
 				</Item>

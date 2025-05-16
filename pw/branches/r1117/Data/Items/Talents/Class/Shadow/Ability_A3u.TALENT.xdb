@@ -2,7 +2,6 @@
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_PANIC_status.APLR" Count="1" />
-	<BackLink DBID="/Heroes/DefaultStatus/_TAUNT_status.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_TERROR_status.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Shadow.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Shadow_Alternative.TALENTSET" Count="1" />

@@ -17,6 +17,8 @@
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Shadow_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Maps/Tutorial/FlagsForbidAbility1.APLR" Count="1" />
 	<BackLink DBID="/Test/Talents/Shadow/Shadow.TALENTSET" Count="1" />
+	<BackLink DBID="/Heroes/DefaultStatus/_TAUNT_status.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability2.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

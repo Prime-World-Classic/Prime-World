@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<name>DurationCountRedset7_3</name>
+	<var>
+		<compiledString>FT4AAAAFAAAARQAAAFsAAABuAAAAhAAAAIoAAABBZGRfQWxsU3RhdHNfUmVkc2V0N18zQ291bnRlcgAAAEFkZF9BbGxTdGF0c19SZWRzZXQ3XzNDb3VudGVyAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdqgAAAN/g9sREegfZ6N1d+OsoaCAAAACLTQiLEYtNCIuCiAEAAP/Q3CWqAAAA3A2iAAAA2eje8d1d+N1F+Nld9NlF9IvlXcMAAAAAAAAAQAAAAAAAAPA/</compiledString>
+		<returnType>float</returnType>
+		<sString>sender.vAdd_AllStats_Redset7_3Counter == 1 ? 1 : (1/(2*(sender.vAdd_AllStats_Redset7_3Counter-1)))</sString>
+	</var>
+</UnitConstant>

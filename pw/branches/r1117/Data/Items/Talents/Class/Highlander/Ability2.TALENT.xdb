@@ -109,9 +109,9 @@
 					<UnitConstant>
 						<name>Haste_Condition</name>
 						<var>
-							<compiledString>FRgAAAACAAAAHwAAADwAAABKb3lPZkJhdHRsZQBBMk1heFN0YWNrcwBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9CLTQxRi1UIUmgMAAAAi0UQixCLTRCLQlDdXfj/0Nxd+N/g9sRBegnHRfQBAAAA6wfHRfQAAAAA20X0i+Vdww==</compiledString>
+							<compiledString>FQwAAAACAAAAEQAAACcAAABKb3lPZkJhdHRsZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xAF1CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAA8D8=</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vJoyOfBattle &gt;= cA2MaxStacks</sString>
+							<sString>sender.vJoyOfBattle &gt;= 1</sString>
 						</var>
 					</UnitConstant>
 				</Item>

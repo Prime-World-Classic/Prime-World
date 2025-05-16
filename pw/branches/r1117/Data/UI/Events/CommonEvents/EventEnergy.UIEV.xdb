@@ -17,6 +17,7 @@
 	<BackLink DBID="/Items/Talents/Level4/G096_Flower.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/spell_G766_RefreshAndNotify.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability1.TALENT" Count="1" />
 	<signRecipients>ALL_PLAYERS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventEnergy.UIEV" id="57DBE8C0-79EF-41CB-9C83-9BC26CFA7FB6">
