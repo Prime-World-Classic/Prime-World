@@ -538,9 +538,9 @@
 										<targetSelector href="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" id="8B5F766C-72A8-463B-A0CE-B54FCB88CDF4">
 											<ConditionTargetSelector>
 												<condition>
-													<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLQgz/0ItNDIsRi00MiwLdXfj/0Nxd+N/g9sQFegnHRfQBAAAA6wfHRfQAAAAAikX0i+Vdww==</compiledString>
+													<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLQgz/0ItNDIsRi00MiwLdXfj/0Nxd+N/g9sQFeh2LTQyLEYtNDItCVP/QD7bIhcl0CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
 													<returnType>bool</returnType>
-													<sString>rMaxLife&gt;rLife</sString>
+													<sString>rMaxLife&gt;rLife&amp;&amp; rIsHero</sString>
 												</condition>
 												<flags>0</flags>
 												<mode>Normal</mode>

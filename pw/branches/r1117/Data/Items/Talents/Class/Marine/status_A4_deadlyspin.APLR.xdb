@@ -93,7 +93,7 @@
 			<SpellPeriodicallyApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
-				<caption>период спелл</caption>
+				<caption>период спелл Притягивание</caption>
 				<effect>
 					<Item href="" />
 					<Item href="" />
@@ -186,6 +186,39 @@
 															<sString>d(rPos,sPos)&gt;=4</sString>
 														</startCondition>
 													</MoveToApplicator>
+												</Item>
+												<Item href="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" id="ED7C7552-1CB2-440B-8E53-727B59F87A19">
+													<FlagsApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<behaviorFlags>0</behaviorFlags>
+														<caption> -- запрещаем все кроме автоатаки</caption>
+														<consumables />
+														<effect>
+															<Item href="/Effects/Debuffs/Taunt/_.EFFT" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<flag>8912897</flag>
+														<formulaName></formulaName>
+														<lifeTime>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+														<talents />
+														<useListAs>ListAsRule</useListAs>
+													</FlagsApplicator>
 												</Item>
 											</applicators>
 											<dispatch href="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" id="D6E03D67-C983-4524-9571-6A4C9B83C2B7">
