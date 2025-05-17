@@ -6,6 +6,7 @@
 	<BackLink DBID="/Items/Talents/Class/Shaman/A4_2_status.APLR" Count="1" />
 	<BackLink DBID="/Summons/JackInTheBox/status_PinkGirl_Taunt.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" Count="1" />
 	<attachFlags>1</attachFlags>
 	<attachType>Above</attachType>
 	<component href="/Effects/Debuffs/Taunt/_.PRXY" />
