@@ -149,7 +149,7 @@
 															<returnType>bool</returnType>
 															<sString>true</sString>
 														</enabled>
-														<formulaName></formulaName>
+														<formulaName>MoveSpin</formulaName>
 														<isMoveDirect>
 															<compiledString></compiledString>
 															<returnType>bool</returnType>
@@ -187,27 +187,27 @@
 														</startCondition>
 													</MoveToApplicator>
 												</Item>
-												<Item href="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" id="ED7C7552-1CB2-440B-8E53-727B59F87A19">
+												<Item href="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" id="7AAE4B3E-90F0-4C59-8EA4-1E8B2367585F">
 													<FlagsApplicator>
 														<applyTarget>ApplicatorTarget</applyTarget>
 														<behaviorFlags>0</behaviorFlags>
-														<caption> -- запрещаем все кроме автоатаки</caption>
+														<caption>Запрет</caption>
 														<consumables />
 														<effect>
-															<Item href="/Effects/Debuffs/Taunt/_.EFFT" />
+															<Item href="" />
 															<Item href="" />
 														</effect>
 														<enabled>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>true</sString>
 														</enabled>
-														<flag>8912897</flag>
+														<flag>1</flag>
 														<formulaName></formulaName>
 														<lifeTime>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
 															<returnType>float</returnType>
-															<sString>-1.0</sString>
+															<sString>0.3</sString>
 														</lifeTime>
 														<LoggingEvent>-1</LoggingEvent>
 														<providerName></providerName>
