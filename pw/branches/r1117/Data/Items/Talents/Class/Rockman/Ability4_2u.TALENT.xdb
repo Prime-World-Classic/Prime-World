@@ -6,6 +6,7 @@
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4Upg.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Rockman_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/rockman/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Rockman.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

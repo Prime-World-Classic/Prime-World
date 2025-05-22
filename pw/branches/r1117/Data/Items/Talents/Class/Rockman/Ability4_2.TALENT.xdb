@@ -9,6 +9,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Rockman_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/rockman/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Rockman.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -486,9 +487,9 @@
 									<Item href="" />
 								</effect>
 								<enabled>
-									<compiledString>FQwAAAACAAAAEQAAACcAAABBMUlzV29ya2luZwBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+									<compiledString>FQwAAAACAAAAEQAAACcAAABBMUlzV29ya2luZwBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1NAAAA3+D2xER6DTPJdAnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 									<returnType>bool</returnType>
-									<sString>sender.vA1IsWorking == 0</sString>
+									<sString>sender.vA1IsWorking == 0 &amp;&amp; false</sString>
 								</enabled>
 								<flag>0</flag>
 								<formulaName></formulaName>
@@ -532,9 +533,9 @@
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<caption>Нанесение урона по области + Стан</caption>
 								<enabled>
-									<compiledString>FR4AAAACAAAAJQAAAD4AAABSb2NrbWFuX0E0XzJ1AAAAUm9ja21hbl9BNF8ydQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+									<compiledString>FR4AAAACAAAAJQAAAD4AAABSb2NrbWFuX0E0XzJ1AAAAUm9ja21hbl9BNF8ydQBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQNM9J0CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
 									<returnType>bool</returnType>
-									<sString>tal("Rockman_A4_2u")</sString>
+									<sString>tal("Rockman_A4_2u") &amp;&amp; false</sString>
 								</enabled>
 								<formulaName></formulaName>
 								<LoggingEvent>-1</LoggingEvent>
