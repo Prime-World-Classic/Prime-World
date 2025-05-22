@@ -34,6 +34,66 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
+		<Item href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="13C0B45F-4924-491D-B4BD-D18F62481356">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Damage - 0</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>Damage</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="2A723998-01A0-46DA-98B1-689ED97EAE14">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Damage - cA1_Damage</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQoAAAABAAAAFgAAAEExX0RhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cA1_Damage</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>Damage</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="8BEBA4D1-7D2F-456E-B267-464CDD30F696">
 			<FlagsApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
@@ -210,7 +270,15 @@
 														<spell href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="E7FA2406-918D-4EAF-A655-B7611CA8506B">
 															<Spell>
 																<applicators>
-																	<Item href="/Items/Talents/Class/Invisible/A1_Damage.APLR" />
+																	<Item href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="24BC5F2E-07F5-4B97-A39C-56EFFA543499">
+																		<DamageApplicator parent="/Items/Talents/Class/Invisible/A1_Damage.APLR">
+																			<damage>
+																				<compiledString>FQcAAAABAAAACwAAAERhbWFnZQBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9Bdww==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>sender.vDamage</sString>
+																			</damage>
+																		</DamageApplicator>
+																	</Item>
 																	<Item href="/Items/Talents/Class/Invisible/A1_SpellFan.APLR" />
 																	<Item href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="DBDB37C6-7ACF-4F78-8585-440381039880">
 																		<ProgramApplicator parent="/Items/Talents/Class/Invisible/A1Upg_Push.APLR">
@@ -615,7 +683,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Invisible/const_A1_Damage" />
+				<Item href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="A11A378C-3EE5-497F-BC15-4F7298523157">
+					<UnitConstant>
+						<name>A1_Damage</name>
+						<var>
+							<compiledString>FRcAAAAKAAAAJgAAADkAAABQAAAAWgAAAIgAAACVAAAAqwAAALoAAADEAAAA8gAAAEZhbkNoYXJnZXMAAEZhbkNoYXJnZXMAVYvsg+wUi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHSsBAADf4PbEBXoH2e7dXfjramoBUdkFHwEAANkcJFHZBRsBAADZHCRqAItFCIsQi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A0TAQAAi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ3V3w/9DcJQsBAADcTfDdXfhqAVHZBR8BAADZHCRR2QUbAQAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0NwNAwEAANxF+Nld7NlF7IvlXcMzMzMzMzPjPwAAAAAAAAhAexSuR+F6tD8AAIxCAEADRAAAAAAAAAAAAAAAAAAAEEA=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale( sIntellect, 70, 525 )*0.6 + (cFanCharges&lt;4 ? 0 : (damageScale( sIntellect, 70, 525 )*0.08*(cFanCharges-3)))</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 				<Item href="/Items/Talents/Class/Invisible/const_A1_NTDamage" />
 				<Item href="/Items/Talents/Class/Invisible/const_A1u_PushDistance" />
 				<Item href="/Items/Talents/Class/Invisible/const_A1u_PushMaxDamage" />
@@ -676,6 +753,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="B53BF6AA-7FD1-41FE-8B94-BBDC5E1DA2B6">
+					<UnitConstant>
+						<name>ManaCost</name>
+						<var>
+							<compiledString>FQsAAAADAAAAEgAAACIAAAA1AAAARmFuQ2hhcmdlcwBVi+xRUdkFVwAAANkcJItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A1PAAAA2V382UX8UdkcJOgTAAAAg8QIi+VdwwAAAAAAAElAAACWQ1WL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>min(50*cFanCharges,300)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -723,9 +810,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQsAAAACAAAAGAAAACsAAABGYW5DaGFyZ2VzAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNOQAAANld/NlF/IvlXcMAAAAAAABJQA==</compiledString>
+		<compiledString>FQkAAAABAAAAFQAAAE1hbmFDb3N0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>50*cFanCharges</sString>
+		<sString>cManaCost</sString>
 	</manaCost>
 	<marker>doCast4</marker>
 	<microAI href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="75A161E9-B116-47EE-9391-002FFC424BBB">

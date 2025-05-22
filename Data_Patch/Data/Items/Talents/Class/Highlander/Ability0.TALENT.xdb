@@ -52,9 +52,9 @@
 					<UnitConstant>
 						<name>A0AddMaxLife</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAACQw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>130</sString>
+							<sString>80</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -99,9 +99,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsaAAAABCLRQiLEItNCItCaP/QD7bA99gbwIPAAV3D</compiledString>
+					<compiledString>FR0AAAAEAAAAOwAAAFEAAABdAAAAcwAAAEltbXVuZTJDb250cm9sAABBbGxvd0NvbnRyb2wAVYvsUWgAAAAQi0UIixCLTQiLQmj/0A+2yIXJdU1oAAAAAItVDIsCi00Mi5CIAQAA/9LcHZ0AAADf4PbERHsiaBAAAACLRQyLEItNDIuCiAEAAP/Q3B2VAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8AAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>!sFlag(268435456)</sString>
+					<sString>!sFlag(268435456)&amp;&amp;(receiver.vImmune2Control == 0 || receiver.vAllowControl == 1)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -205,9 +205,9 @@
 														<flag>1</flag>
 														<formulaName></formulaName>
 														<lifeTime>
-															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
 															<returnType>float</returnType>
-															<sString>0.3</sString>
+															<sString>0.2</sString>
 														</lifeTime>
 														<LoggingEvent>-1</LoggingEvent>
 														<providerName></providerName>
@@ -287,7 +287,7 @@
 				<startCondition>
 					<compiledString>FR0AAAAEAAAAIgAAADgAAABEAAAAWgAAAEltbXVuZTJDb250cm9sAABBbGxvd0NvbnRyb2wAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdhAAAAN/g9sREeytoEAAAAItNDIsRi00Mi4KIAQAA/9DcHXwAAADf4PbERHsJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAADwPwAAAAAAAAAA</compiledString>
 					<returnType>bool</returnType>
-					<sString>receiver.vImmune2Control == 0 || receiver.vAllowControl == 1</sString>
+					<sString>(receiver.vImmune2Control == 0 || receiver.vAllowControl == 1)</sString>
 				</startCondition>
 				<startOffset>
 					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
