@@ -52,9 +52,9 @@
 					<UnitConstant>
 						<name>A0AddMaxLife</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>100</sString>
+							<sString>80</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -105,6 +105,16 @@
 							<compiledString>FQoAAAABAAAADgAAAEFtYXNzTGlmZQBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9Bdww==</compiledString>
 							<returnType>float</returnType>
 							<sString>sender.vAmassLife</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Highlander/Ability0.TALENT" id="18A4EA5E-CA89-4A09-B427-541A3322691F">
+					<UnitConstant>
+						<name>A0AddMaxLifeAlly</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>70</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -204,9 +214,9 @@
 											<LoggingEvent>-1</LoggingEvent>
 											<modifier>
 												<addValue>
-													<compiledString>FQ0AAAABAAAAGQAAAEEwQWRkTWF4TGlmZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+													<compiledString>FREAAAABAAAAHQAAAEEwQWRkTWF4TGlmZUFsbHkAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 													<returnType>float</returnType>
-													<sString>cA0AddMaxLife</sString>
+													<sString>cA0AddMaxLifeAlly</sString>
 												</addValue>
 												<multValue>
 													<compiledString></compiledString>
@@ -234,9 +244,9 @@
 											<LoggingEvent>-1</LoggingEvent>
 											<modifier>
 												<addValue>
-													<compiledString>FQ0AAAABAAAAGQAAAEEwQWRkTWF4TGlmZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+													<compiledString>FREAAAABAAAAHQAAAEEwQWRkTWF4TGlmZUFsbHkAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 													<returnType>float</returnType>
-													<sString>cA0AddMaxLife</sString>
+													<sString>cA0AddMaxLifeAlly</sString>
 												</addValue>
 												<multValue>
 													<compiledString></compiledString>

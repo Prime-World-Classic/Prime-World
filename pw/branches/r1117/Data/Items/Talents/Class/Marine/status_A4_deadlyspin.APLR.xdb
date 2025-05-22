@@ -93,7 +93,7 @@
 			<SpellPeriodicallyApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
-				<caption>период спелл</caption>
+				<caption>период спелл Притягивание</caption>
 				<effect>
 					<Item href="" />
 					<Item href="" />
@@ -145,11 +145,11 @@
 															<Item href="" />
 														</effect>
 														<enabled>
-															<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+															<compiledString>FScAAAAFAAAALAAAAEIAAABUAAAAbgAAAIQAAABJbW11bmUyQ29udHJvbAAAVGhyb3dfSnVtcAAAVGVsZXBvcnRlZABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B2mAAAA3+D2xER6S2oAi00QUWgQAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUraBwAAACLRQyLEItNDIuCiAEAAP/Q3B2mAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 															<returnType>bool</returnType>
-															<sString>true</sString>
+															<sString>receiver.vImmune2Control == 0 &amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMisc &amp;&amp; receiver.vTeleported == 0</sString>
 														</enabled>
-														<formulaName></formulaName>
+														<formulaName>MoveSpin</formulaName>
 														<isMoveDirect>
 															<compiledString></compiledString>
 															<returnType>bool</returnType>
@@ -187,6 +187,39 @@
 														</startCondition>
 													</MoveToApplicator>
 												</Item>
+												<Item href="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" id="7AAE4B3E-90F0-4C59-8EA4-1E8B2367585F">
+													<FlagsApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<behaviorFlags>0</behaviorFlags>
+														<caption>Запрет</caption>
+														<consumables />
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString>FScAAAAFAAAALAAAAEIAAABUAAAAbgAAAIQAAABJbW11bmUyQ29udHJvbAAAVGhyb3dfSnVtcAAAVGVsZXBvcnRlZABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B2mAAAA3+D2xER6S2oAi00QUWgQAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUraBwAAACLRQyLEItNDIuCiAEAAP/Q3B2mAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+															<returnType>bool</returnType>
+															<sString>receiver.vImmune2Control == 0 &amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMisc &amp;&amp; receiver.vTeleported == 0</sString>
+														</enabled>
+														<flag>1</flag>
+														<formulaName></formulaName>
+														<lifeTime>
+															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+															<returnType>float</returnType>
+															<sString>0.2</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+														<talents />
+														<useListAs>ListAsRule</useListAs>
+													</FlagsApplicator>
+												</Item>
 											</applicators>
 											<dispatch href="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" id="D6E03D67-C983-4524-9571-6A4C9B83C2B7">
 												<DispatchImmediate>
@@ -223,7 +256,7 @@
 												<returnType>float</returnType>
 												<sString>cA4_Range+2</sString>
 											</range>
-											<targetFilter>538771519</targetFilter>
+											<targetFilter>538247231</targetFilter>
 											<targetSelector href="" />
 										</AreaTargetSelector>
 									</targetSelector>
