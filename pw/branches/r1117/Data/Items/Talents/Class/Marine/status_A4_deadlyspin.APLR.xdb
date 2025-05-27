@@ -111,9 +111,9 @@
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<period>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcyMPw==</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPw==</compiledString>
 					<returnType>float</returnType>
-					<sString>1.1</sString>
+					<sString>0.8f</sString>
 				</period>
 				<providerName></providerName>
 				<scaleMode>ScaleIsCount</scaleMode>
@@ -198,9 +198,9 @@
 															<Item href="" />
 														</effect>
 														<enabled>
-															<compiledString>FScAAAAFAAAALAAAAEIAAABUAAAAbgAAAIQAAABJbW11bmUyQ29udHJvbAAAVGhyb3dfSnVtcAAAVGVsZXBvcnRlZABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B2mAAAA3+D2xER6S2oAi00QUWgQAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUraBwAAACLRQyLEItNDIuCiAEAAP/Q3B2mAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+															<compiledString>FQkAAAABAAAAEwAAAE1vdmVTcGluAFWL7GoBi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJOUUQD5TBisFdww==</compiledString>
 															<returnType>bool</returnType>
-															<sString>receiver.vImmune2Control == 0 &amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMisc &amp;&amp; receiver.vTeleported == 0</sString>
+															<sString>(pMisc == sender.applMoveSpin(UNIT))</sString>
 														</enabled>
 														<flag>1</flag>
 														<formulaName></formulaName>
@@ -252,9 +252,9 @@
 											<flags>0</flags>
 											<mode>Normal</mode>
 											<range>
-												<compiledString>FQkAAAACAAAAFgAAACkAAABBNF9SYW5nZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBTcAAADZXfzZRfyL5V3DAAAAAAAAAEA=</compiledString>
+												<compiledString>FQkAAAACAAAAFgAAACkAAABBNF9SYW5nZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBTcAAADZXfzZRfyL5V3DAAAAAAAABEA=</compiledString>
 												<returnType>float</returnType>
-												<sString>cA4_Range+2</sString>
+												<sString>cA4_Range+2.5</sString>
 											</range>
 											<targetFilter>538247231</targetFilter>
 											<targetSelector href="" />
