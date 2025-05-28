@@ -148,9 +148,9 @@
 																	<LoggingEvent>-1</LoggingEvent>
 																	<modifier>
 																		<addValue>
-																			<compiledString>FQ0AAAABAAAAIgAAAGRhbWFnZURlYWxlZABVi+xRi0UQixCLTRCLQkj/0IlF/GgAAAAAi038ixGLTfyLQlT/0IvlXcM=</compiledString>
+																			<compiledString>FSsAAAADAAAASgAAAFwAAAB1AAAAZGFtYWdlRGVhbGVkAAAAAEFjY3VtdWxhdG9yTW9kaWZpZXJQZXJjZW50AFWL7IPsEItFEIsQi00Qi0JI/9CJRfyLTQxRi1UIUmgQAAAAi0UQixCLTRCLQlD/0GgAAAAAi038ixGLTfyLQlTdXfT/0NxN9NwNgwAAANld8NlF8IvlXcN7FK5H4XqEPw==</compiledString>
 																			<returnType>float</returnType>
-																			<sString>mObjectParent-&gt;GetVariable("damageDealed")</sString>
+																			<sString>mObjectParent-&gt;GetVariable("damageDealed")*cAccumulatorModifierPercent*0.01</sString>
 																		</addValue>
 																		<multValue>
 																			<compiledString></compiledString>
@@ -741,9 +741,9 @@
 					<UnitConstant>
 						<name>DamagePercent</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>5</sString>
+							<sString>4</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -761,9 +761,9 @@
 					<UnitConstant>
 						<name>Range</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>14</sString>
+							<sString>10</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -804,6 +804,16 @@
 							<compiledString>FRIAAAABAAAAFgAAAERhbWFnZUFjY3VtdWxhdG9yAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
 							<returnType>float</returnType>
 							<sString>sender.vDamageAccumulator</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" id="08A3EBBB-B44B-4CB1-864A-52E6E969363E">
+					<UnitConstant>
+						<name>AccumulatorModifierPercent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>50</sString>
 						</var>
 					</UnitConstant>
 				</Item>
