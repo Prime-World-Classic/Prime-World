@@ -536,10 +536,12 @@
 			</Ability>
 		</Item>
 	</abilities>
+	<aoeRadius>27</aoeRadius>
 	<attackAbility href="/Buildings/DefaultStats/DefaultMainAttack.ATCK" />
 	<maxAOEDelay>90</maxAOEDelay>
 	<minAOEDelay>60</minAOEDelay>
 	<overtipBarsWidth>300</overtipBarsWidth>
+	<size>12.5</size>
 	<stats href="/Buildings/DefaultStats/Main_MOBA.STCN" />
 	<targetingParams href="/GameLogic/Main_TargetingParams.UNTP" />
 </MainBuilding>
