@@ -63,9 +63,9 @@
 			<levelUpgrades />
 			<statId>Range</statId>
 			<value>
-				<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+				<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9FeExvbmcAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
 				<returnType>float</returnType>
-				<sString>cRange_ExLong</sString>
+				<sString>cRange_ExLong+0.5f</sString>
 			</value>
 		</Item>
 		<Item>

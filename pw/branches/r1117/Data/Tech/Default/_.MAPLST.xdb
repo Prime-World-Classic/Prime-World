@@ -37,5 +37,6 @@
 		<Item href="/Maps/Multiplayer/MOBA/NewYear/Test_NY_3x3.ADMPDSCR" />
 		<Item href="/Maps/Multiplayer/MOBA/NightMap/_.ADMPDSCR" />
 		<Item href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" />
+		<Item href="/Maps/Multiplayer/ARAM/_.ADMPDSCR" />
 	</maps>
 </MapList>
