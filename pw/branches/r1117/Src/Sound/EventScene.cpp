@@ -51,6 +51,7 @@ static FMOD::EventSystem *eventSystem = 0;
 static FMOD::System *fmodSystem = 0;
 static FMOD::MusicSystem *musicSystem = 0;
 static FMOD::EventProject *g_eventProject = 0;
+static FMOD::EventProject *g_eventProjectAlt = 0;
 
 static FMOD_VECTOR g_listenerPosition = { 0, 0, 0 };
 static FMOD_VECTOR g_listenerForward = { 1, 0, 0 };
@@ -402,7 +403,16 @@ FMOD::EventGroup* GetGroup( const nstl::string& project, const nstl::string& cat
     return 0;
 
   FMOD::EventGroup *pEventGroup;
-  FMOD_RESULT result = g_eventProject->getGroup(category.c_str(), true, &pEventGroup );
+
+  FMOD_RESULT result;
+  if (g_eventProjectAlt) {
+    result = g_eventProjectAlt->getGroup(category.c_str(), true, &pEventGroup );
+    if (result == FMOD_OK) {
+      return pEventGroup;
+    }
+  }
+  
+  result = g_eventProject->getGroup(category.c_str(), true, &pEventGroup );
   NI_DATA_VERIFY( result == FMOD_OK, NStr::StrFmt( "Cannot get group %s:%s. %s", project.c_str(), category.c_str(), FMOD_ErrorString( result ) ), return 0 );
 
   return pEventGroup;
@@ -668,6 +678,7 @@ FMOD::System* EventSystemInit( const NDb::SoundEnvironment *pSoundEnvironment, i
   //@Ivn@TODO: Move this variables to parameters
   const char* mediaPath = "\\Audio\\";
   const char* projectName = "PrimeWorld";
+  const char* projectNameAlt = "PrimeWorldClassic";
 
   FMOD_RESULT result;
 #ifdef USE_SOUND_SCENE_MEMORY_HOOKS
@@ -780,6 +791,8 @@ FMOD::System* EventSystemInit( const NDb::SoundEnvironment *pSoundEnvironment, i
     EventSystemRelease();
     return 0;
   }
+
+  result = eventSystem->getProject( projectNameAlt, &g_eventProjectAlt );
 
   result = eventSystem->getMusicSystem(&musicSystem);
   if ( result != FMOD_OK )
@@ -916,8 +929,19 @@ bool PreCacheGroup( const nstl::string & groupName, bool loadEventData /*= false
     return false;
   if ( g_groupCache.find(groupName) == g_groupCache.end() )
   {
-    FMOD::EventGroup *pEventGroup;
-    FMOD_RESULT result = g_eventProject->getGroup(groupName.c_str(), true, &pEventGroup );
+    FMOD::EventGroup *pEventGroup = NULL;
+    FMOD_RESULT result = FMOD_RESULT_FORCEINT;
+
+    // Load new sound
+    if (g_eventProjectAlt) {
+      result = g_eventProjectAlt->getGroup(groupName.c_str(), true, &pEventGroup );
+    }
+
+    // Load standard sound
+    if( result != FMOD_OK) {
+      result = g_eventProject->getGroup(groupName.c_str(), true, &pEventGroup );
+    }
+
     if( result != FMOD_OK)
     {
       return false;
