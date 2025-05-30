@@ -34822,9 +34822,9 @@
 				<scaleX>63.90917</scaleX>
 				<scaleY>5.766887</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>129.1818</translateX>
-				<translateY>154.3822</translateY>
-				<translateZ>0</translateZ>
+				<translateX>129.0867</translateX>
+				<translateY>195.6703</translateY>
+				<translateZ>0.3020319</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -34841,8 +34841,8 @@
 				<scaleY>4.876123</scaleY>
 				<scaleZ>1</scaleZ>
 				<translateX>128.0325</translateX>
-				<translateY>97.79853</translateY>
-				<translateZ>0</translateZ>
+				<translateY>57.81016</translateY>
+				<translateZ>-0.5164583</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
