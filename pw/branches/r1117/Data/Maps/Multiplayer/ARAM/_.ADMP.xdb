@@ -34819,12 +34819,12 @@
 				<rotationX>0</rotationX>
 				<rotationY>0</rotationY>
 				<rotationZ>0</rotationZ>
-				<scaleX>47.64542</scaleX>
+				<scaleX>63.90917</scaleX>
 				<scaleY>5.766887</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>143.6578</translateX>
-				<translateY>205.6536</translateY>
-				<translateZ>2.918553</translateZ>
+				<translateX>129.1818</translateX>
+				<translateY>154.3822</translateY>
+				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -34837,12 +34837,12 @@
 				<rotationX>0</rotationX>
 				<rotationY>0</rotationY>
 				<rotationZ>0</rotationZ>
-				<scaleX>47.64542</scaleX>
+				<scaleX>66.77355</scaleX>
 				<scaleY>4.876123</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>137.1367</translateX>
-				<translateY>52.70317</translateY>
-				<translateZ>-0.7354034</translateZ>
+				<translateX>128.0325</translateX>
+				<translateY>97.79853</translateY>
+				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
