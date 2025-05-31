@@ -401,12 +401,25 @@ lobby::EOperationResult::Enum ServerNode::TryCreateWebSession(const char* token)
     return EOperationResult::RestrictedAccess;
   }
 
+  int maxPlayersCount[2];
+  int playersCount = 0;
+  Json::Value curPlayer = usersData[playersCount];
+  while (!curPlayer.empty()) {
+    Json::Value team = curPlayer.get("team", Json::Value());
+    if (team.asInt() - 1 >= 0 && team.asInt() - 1 < 2) {
+      ++maxPlayersCount[team.asInt() - 1];
+    }
+
+    playersCount++;
+    curPlayer = usersData[playersCount];
+  }
+
   SGameParameters params;
   params.gameType = EGameType::Custom;
   params.name = L"";
   params.mapId = mapId.asString().c_str();
   params.slotsCount = usersDataMap.size();
-  params.maxPlayersPerTeam = usersDataMap.size() / 2;
+  params.maxPlayersPerTeam = max(maxPlayersCount[0], maxPlayersCount[1]); // usersDataMap.size() / 2;
   params.randomSeed = GetGameRandom();
   params.manoeuvresFaction = lobby::ETeam::None;
 
