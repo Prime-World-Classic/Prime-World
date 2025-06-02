@@ -167,7 +167,7 @@
 															<variableNames />
 														</Item>
 													</applicators>
-													<applyTarget>AbilityOwner</applyTarget>
+													<applyTarget>ApplicatorTarget</applyTarget>
 													<caption>делаем урон и аккумулируем его в переменную DamageAccumulator</caption>
 													<enabled>
 														<compiledString></compiledString>
@@ -639,7 +639,7 @@
 			</ProgramApplicator>
 		</Item>
 	</applicators>
-	<askId>0</askId>
+	<askId>3</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
 	<caption>А3у. Презрение боли</caption>
@@ -905,9 +905,9 @@
 	<type>Active</type>
 	<upgradeLevel>1</upgradeLevel>
 	<useRange>
-		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQYAAAABAAAAEgAAAFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Long</sString>
+		<sString>cRange</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

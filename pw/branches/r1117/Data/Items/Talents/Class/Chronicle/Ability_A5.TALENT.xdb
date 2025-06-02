@@ -58,9 +58,9 @@
 					<UnitConstant>
 						<name>A5_DamageReduce</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>25</sString>
+							<sString>15</sString>
 						</var>
 					</UnitConstant>
 				</Item>

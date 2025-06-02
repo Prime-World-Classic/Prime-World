@@ -102,6 +102,16 @@
 				<name>Chronicle_A4u</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Chronicle/Ability_A4.TALENT" id="628D7244-B850-42F1-9DC7-7D7CEAAB11E6">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStamina &lt;= sBaseWill</sString>
+				</condition>
+				<name>WillOrStamina</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents>
 		<Item href="/Items/Talents/Class/Chronicle/Ability_A4_2.TALENT" />

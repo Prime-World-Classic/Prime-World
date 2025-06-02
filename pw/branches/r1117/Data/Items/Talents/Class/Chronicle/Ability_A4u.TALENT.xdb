@@ -110,9 +110,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEAXUNM8l0CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>sBaseStamina &lt;= sBaseWill</sString>
+					<sString>sBaseStamina &lt;= sBaseWill&amp;&amp;false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -157,9 +157,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEBXoNM8l0CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>sBaseStamina &gt; sBaseWill</sString>
+					<sString>sBaseStamina &gt; sBaseWill&amp;&amp;false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
