@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G570_CasterDexWill.TALENT" Count="1" />
+	<name>G570_Heal</name>
+	<var>
+		<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCDP/Q3A0hAAAA2V382UX8i+Vdw3jpJjEIrHw/</compiledString>
+		<returnType>float</returnType>
+		<sString>sMaxLife * ( 0.7 * 0.01) </sString>
+	</var>
+</UnitConstant>
