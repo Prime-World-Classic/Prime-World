@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Maps/Multiplayer/ARAM/Mains/AbilityToReduceCD.ABLT" Count="1" />
 	<applicators>
 		<Item href="/Maps/Multiplayer/ARAM/Mains/status_ReduceCD.APLR" id="2B3F6C47-FB84-4BF1-87BA-44EEC3EB943F">
 			<TriggerApplicator>

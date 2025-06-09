@@ -75,6 +75,26 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Maps/Multiplayer/ARAM/Mains/AbilityToReduceCD.ABLT" id="605E6AB0-85F4-4450-8AE1-A987C329A6BE">
+					<UnitConstant>
+						<name>MortalStrike_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+							<returnType>float</returnType>
+							<sString>-1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Multiplayer/ARAM/Mains/AbilityToReduceCD.ABLT" id="7E3F59DA-6D87-4E58-B29B-DB13F297AB36">
+					<UnitConstant>
+						<name>MortalStrike_Amount</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>50</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -108,7 +128,22 @@
 		<Item href="/Maps/Multiplayer/ARAM/Mains/AbilityToReduceCD.ABLT" id="8238DA29-E1D5-45BD-8C83-D2C6CB6E6E66">
 			<AuraApplicator>
 				<applicators>
-					<Item href="/Maps/Multiplayer/ARAM/Mains/status_ReduceCD.APLR" />
+					<Item href="/Maps/Multiplayer/ARAM/Mains/AbilityToReduceCD.ABLT" id="385C4B5E-2B79-4DB6-A96C-2543DE996229">
+						<StatusApplicator parent="/Heroes/DefaultStatus/_MORTALSTRIKE_Status.APLR">
+							<effect>
+								<Item href="" />
+								<Item skip="1" />
+							</effect>
+							<flags>2</flags>
+							<name textref="/Maps/Multiplayer/ARAM/Mains/AbilityToReduceCD.ABLT_385c4b5e2b794db6a96c2543de996229_name.txt" />
+							<startCondition>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<stopBehaviour>StopByTime</stopBehaviour>
+						</StatusApplicator>
+					</Item>
 					<Item href="/Maps/Multiplayer/ARAM/Mains/AbilityToReduceCD.ABLT" id="B5E50FB3-4759-479D-AC66-AD2C7CFB3C8D">
 						<TriggerApplicator>
 							<actionsCount>

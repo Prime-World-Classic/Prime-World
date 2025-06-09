@@ -8,6 +8,7 @@
 	<BackLink DBID="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G157_Dmg_LifeRegStop.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset1_2_Dot/status_G460_MortalStrike.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Mains/AbilityToReduceCD.ABLT" Count="3" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_MORTALSTRIKE_Status.APLR" id="807806F7-2DE3-47E1-8179-5D3CD9DF1C99">
 			<UIMessageApplicator>

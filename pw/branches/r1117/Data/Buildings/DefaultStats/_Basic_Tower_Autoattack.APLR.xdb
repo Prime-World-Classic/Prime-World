@@ -5,6 +5,7 @@
 	<BackLink DBID="/Buildings/DefaultStats/ability_BParent_AttackAbility.ATCK" Count="2" />
 	<BackLink DBID="/Buildings/DefaultStats/ability_BTier1_AttackAbility.ATCK" Count="2" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Towers/BottomA1.TOWR" Count="2" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateB.TOWR" Count="4" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<cancelInvisibility>false</cancelInvisibility>
 	<caption> -- Стандартный урон автоатаки башни</caption>

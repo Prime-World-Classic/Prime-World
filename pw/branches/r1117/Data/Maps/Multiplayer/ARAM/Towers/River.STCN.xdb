@@ -14,9 +14,9 @@
 			<levelUpgrades />
 			<statId>Life</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAECcRQ==</compiledString>
 				<returnType>float</returnType>
-				<sString>10000</sString>
+				<sString>10000*0.5</sString>
 			</value>
 		</Item>
 		<Item>
@@ -110,9 +110,9 @@
 			<levelUpgrades />
 			<statId>Dexterity</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
 				<returnType>float</returnType>
-				<sString>40</sString>
+				<sString>80</sString>
 			</value>
 		</Item>
 		<Item>
@@ -142,9 +142,9 @@
 			<levelUpgrades />
 			<statId>Range</statId>
 			<value>
-				<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFOQAAANld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>
+				<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFOQAAANld/NlF/IvlXcMAAAAAAAAQQA==</compiledString>
 				<returnType>float</returnType>
-				<sString>cRange_Long+2</sString>
+				<sString>cRange_Long+4</sString>
 			</value>
 		</Item>
 	</stats>

@@ -5,6 +5,10 @@
 	<BackLink DBID="/Buildings/DefaultStats/ability_BParent_AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/ability_BTier1_AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Towers/BottomA1.TOWR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/RiverB.TOWR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/RiverA.TOWR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateB.TOWR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateA.TOWR" Count="1" />
 	<vars>
 		<Item href="/Buildings/DefaultStats/StackTowerDamage_const.UCCN" id="D6266627-65F0-4C49-A646-38FEEB1A28F9">
 			<UnitConstant>

@@ -8712,13 +8712,13 @@
 			<offset>
 				<rotationX>-0.04828143</rotationX>
 				<rotationY>-0.1810773</rotationY>
-				<rotationZ>104.3394</rotationZ>
+				<rotationZ>129.3394</rotationZ>
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>19.65643</translateX>
-				<translateY>105.5885</translateY>
-				<translateZ>0.2038569</translateZ>
+				<translateX>19.09932</translateX>
+				<translateY>96.8838</translateY>
+				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -16637,8 +16637,8 @@
 					<points>
 						<Item>
 							<location>
-								<x>19.97462</x>
-								<y>105.3089</y>
+								<x>20.78786</x>
+								<y>98.51011</y>
 							</location>
 							<opacity>1</opacity>
 							<width>3</width>

@@ -13,6 +13,26 @@
 	<attackAbility href="/Buildings/DefaultStats/DefaultMainAttack.ATCK" />
 	<maxAOEDelay>180</maxAOEDelay>
 	<minAOEDelay>180</minAOEDelay>
-	<stats href="/Buildings/DefaultStats/Main_MidOnly.STCN" />
+	<stats href="/Maps/Multiplayer/ARAM/Mains/_A.MBLD" id="4210A27B-1504-4E47-88FA-B28D06CE6CA1">
+		<StatsContainer parent="/Buildings/DefaultStats/Main_MidOnly.STCN">
+			<stats>
+				<Item>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DALiIRg==</compiledString>
+						<returnType>float</returnType>
+						<sString>25000*0.7</sString>
+					</value>
+				</Item>
+				<Item skip="1" />
+				<Item skip="1" />
+				<Item skip="1" />
+				<Item skip="1" />
+				<Item skip="1" />
+				<Item skip="1" />
+				<Item skip="1" />
+				<Item skip="1" />
+			</stats>
+		</StatsContainer>
+	</stats>
 	<targetingParams href="/GameLogic/Main_TargetingParams.UNTP" />
 </MainBuilding>

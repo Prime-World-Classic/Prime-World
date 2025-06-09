@@ -18,6 +18,8 @@
 	<BackLink DBID="/Maps/Multiplayer/MidOnly/Barracks/_B.QRTR" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MidOnly/Aram/Barracks/_A.QRTR" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MidOnly/Aram/Barracks/_B.QRTR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Barracks/_A.QRTR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Barracks/_B.QRTR" Count="1" />
 	<stats>
 		<Item>
 			<calcIncrement>0</calcIncrement>
