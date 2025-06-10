@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Glyph>
-	<BackLink DBID="/Glyphs/_.GLDB" Count="1" />
 	<BackLink DBID="/Glyphs/GlyphSpawnerAbility.ABLT" Count="2" />
 	<BackLink DBID="/Glyphs/PvE_Coop1_Refresher.GLPH" Count="1" />
 	<BackLink DBID="/Glyphs/RefresherAfterKill.GLPH" Count="1" />
