@@ -130,10 +130,16 @@
 				<applicators>
 					<Item href="/Maps/Multiplayer/ARAM/Mains/AbilityToReduceCD.ABLT" id="385C4B5E-2B79-4DB6-A96C-2543DE996229">
 						<StatusApplicator parent="/Heroes/DefaultStatus/_MORTALSTRIKE_Status.APLR">
+							<behaviorFlags>248</behaviorFlags>
 							<effect>
 								<Item href="" />
 								<Item skip="1" />
 							</effect>
+							<enabled>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
 							<flags>2</flags>
 							<name textref="/Maps/Multiplayer/ARAM/Mains/AbilityToReduceCD.ABLT_385c4b5e2b794db6a96c2543de996229_name.txt" />
 							<startCondition>
