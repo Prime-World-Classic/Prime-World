@@ -28868,8 +28868,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>154.6002</translateX>
-				<translateY>125.2573</translateY>
+				<translateX>156.9984</translateX>
+				<translateY>124.6404</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -28886,8 +28886,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>105.7887</translateX>
-				<translateY>125.7322</translateY>
+				<translateX>102.6779</translateX>
+				<translateY>126.9838</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -31496,8 +31496,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>97.2298</translateX>
-				<translateY>125.3685</translateY>
+				<translateX>97.14332</translateX>
+				<translateY>127.1333</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -35128,8 +35128,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>129.9135</translateX>
-				<translateY>136.4174</translateY>
+				<translateX>139.6569</translateX>
+				<translateY>140.5706</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -35146,8 +35146,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>129.9534</translateX>
-				<translateY>113.7732</translateY>
+				<translateX>119.0125</translateX>
+				<translateY>109.3409</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -36760,9 +36760,9 @@
 				<scaleX>-12.10856</scaleX>
 				<scaleY>-4.465784</scaleY>
 				<scaleZ>-0.9550733</scaleZ>
-				<translateX>126.338</translateX>
-				<translateY>124.6054</translateY>
-				<translateZ>1.5</translateZ>
+				<translateX>130.0256</translateX>
+				<translateY>126.6973</translateY>
+				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -45924,6 +45924,58 @@
 				<scaleZ>1</scaleZ>
 				<translateX>184.1256</translateX>
 				<translateY>125.8732</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="95F20BA5-1760-45B4-8315-191D233536C3">
+				<GlyphSpawner parent="/Glyphs/GlyphSpawner.GLSPN">
+					<glyphs href="/Glyphs/_.GLDB" />
+					<heightObject>false</heightObject>
+					<minLockScale>0</minLockScale>
+					<rounded>false</rounded>
+					<useGlyphManager>false</useGlyphManager>
+				</GlyphSpawner>
+			</gameObject>
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>137.7315</translateX>
+				<translateY>108.5851</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="95F20BA5-1760-45B4-8315-191D233536C3">
+				<GlyphSpawner parent="/Glyphs/GlyphSpawner.GLSPN">
+					<glyphs href="/Glyphs/_.GLDB" />
+					<heightObject>false</heightObject>
+					<minLockScale>0</minLockScale>
+					<rounded>false</rounded>
+					<useGlyphManager>false</useGlyphManager>
+				</GlyphSpawner>
+			</gameObject>
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>120.1486</translateX>
+				<translateY>141.4952</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
