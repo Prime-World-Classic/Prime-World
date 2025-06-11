@@ -45931,12 +45931,31 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="95F20BA5-1760-45B4-8315-191D233536C3">
-				<GlyphSpawner parent="/Glyphs/GlyphSpawner.GLSPN">
+			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="32E3FADF-31A1-46C1-A585-50193927C9FB">
+				<GlyphSpawner>
+					<collision>
+						<x1>0</x1>
+						<x2>0</x2>
+						<y1>0</y1>
+						<y2>0</y2>
+					</collision>
 					<glyphs href="/Glyphs/_.GLDB" />
 					<heightObject>false</heightObject>
+					<lockMask>
+						<mask />
+						<tileSize>0.5</tileSize>
+					</lockMask>
 					<minLockScale>0</minLockScale>
 					<rounded>false</rounded>
+					<settings>
+						<maxAfterPickupSpawnDelay>240</maxAfterPickupSpawnDelay>
+						<maxInstances>2</maxInstances>
+						<maxNormalSpawnDelay>150</maxNormalSpawnDelay>
+						<minAfterPickupSpawnDelay>50</minAfterPickupSpawnDelay>
+						<minNormalSpawnDelay>50</minNormalSpawnDelay>
+						<spawnAttemptDelayDecrease>50</spawnAttemptDelayDecrease>
+						<spawnMode>RandomWeight</spawnMode>
+					</settings>
 					<useGlyphManager>false</useGlyphManager>
 				</GlyphSpawner>
 			</gameObject>
@@ -45948,8 +45967,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>80.30961</translateX>
-				<translateY>107.8955</translateY>
+				<translateX>81.522</translateX>
+				<translateY>145.0899</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -45957,38 +45976,31 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="95F20BA5-1760-45B4-8315-191D233536C3">
-				<GlyphSpawner parent="/Glyphs/GlyphSpawner.GLSPN">
+			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="412DCA70-1659-4141-9A72-824B8A481137">
+				<GlyphSpawner>
+					<collision>
+						<x1>0</x1>
+						<x2>0</x2>
+						<y1>0</y1>
+						<y2>0</y2>
+					</collision>
 					<glyphs href="/Glyphs/_.GLDB" />
 					<heightObject>false</heightObject>
+					<lockMask>
+						<mask />
+						<tileSize>0.5</tileSize>
+					</lockMask>
 					<minLockScale>0</minLockScale>
 					<rounded>false</rounded>
-					<useGlyphManager>false</useGlyphManager>
-				</GlyphSpawner>
-			</gameObject>
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>88.89358</translateX>
-				<translateY>145.7637</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="95F20BA5-1760-45B4-8315-191D233536C3">
-				<GlyphSpawner parent="/Glyphs/GlyphSpawner.GLSPN">
-					<glyphs href="/Glyphs/_.GLDB" />
-					<heightObject>false</heightObject>
-					<minLockScale>0</minLockScale>
-					<rounded>false</rounded>
+					<settings>
+						<maxAfterPickupSpawnDelay>240</maxAfterPickupSpawnDelay>
+						<maxInstances>2</maxInstances>
+						<maxNormalSpawnDelay>150</maxNormalSpawnDelay>
+						<minAfterPickupSpawnDelay>50</minAfterPickupSpawnDelay>
+						<minNormalSpawnDelay>50</minNormalSpawnDelay>
+						<spawnAttemptDelayDecrease>50</spawnAttemptDelayDecrease>
+						<spawnMode>RandomWeight</spawnMode>
+					</settings>
 					<useGlyphManager>false</useGlyphManager>
 				</GlyphSpawner>
 			</gameObject>
@@ -46009,12 +46021,31 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="95F20BA5-1760-45B4-8315-191D233536C3">
-				<GlyphSpawner parent="/Glyphs/GlyphSpawner.GLSPN">
+			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="EBC6870A-71C4-4DB8-99DC-30371775D4F0">
+				<GlyphSpawner>
+					<collision>
+						<x1>0</x1>
+						<x2>0</x2>
+						<y1>0</y1>
+						<y2>0</y2>
+					</collision>
 					<glyphs href="/Glyphs/_.GLDB" />
 					<heightObject>false</heightObject>
+					<lockMask>
+						<mask />
+						<tileSize>0.5</tileSize>
+					</lockMask>
 					<minLockScale>0</minLockScale>
 					<rounded>false</rounded>
+					<settings>
+						<maxAfterPickupSpawnDelay>240</maxAfterPickupSpawnDelay>
+						<maxInstances>2</maxInstances>
+						<maxNormalSpawnDelay>150</maxNormalSpawnDelay>
+						<minAfterPickupSpawnDelay>50</minAfterPickupSpawnDelay>
+						<minNormalSpawnDelay>50</minNormalSpawnDelay>
+						<spawnAttemptDelayDecrease>50</spawnAttemptDelayDecrease>
+						<spawnMode>RandomWeight</spawnMode>
+					</settings>
 					<useGlyphManager>false</useGlyphManager>
 				</GlyphSpawner>
 			</gameObject>
@@ -46028,6 +46059,51 @@
 				<scaleZ>1</scaleZ>
 				<translateX>183.6331</translateX>
 				<translateY>105.2442</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="32E3FADF-31A1-46C1-A585-50193927C9FB">
+				<GlyphSpawner>
+					<collision>
+						<x1>0</x1>
+						<x2>0</x2>
+						<y1>0</y1>
+						<y2>0</y2>
+					</collision>
+					<glyphs href="/Glyphs/_.GLDB" />
+					<heightObject>false</heightObject>
+					<lockMask>
+						<mask />
+						<tileSize>0.5</tileSize>
+					</lockMask>
+					<minLockScale>0</minLockScale>
+					<rounded>false</rounded>
+					<settings>
+						<maxAfterPickupSpawnDelay>240</maxAfterPickupSpawnDelay>
+						<maxInstances>2</maxInstances>
+						<maxNormalSpawnDelay>150</maxNormalSpawnDelay>
+						<minAfterPickupSpawnDelay>50</minAfterPickupSpawnDelay>
+						<minNormalSpawnDelay>50</minNormalSpawnDelay>
+						<spawnAttemptDelayDecrease>50</spawnAttemptDelayDecrease>
+						<spawnMode>RandomWeight</spawnMode>
+					</settings>
+					<useGlyphManager>false</useGlyphManager>
+				</GlyphSpawner>
+			</gameObject>
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>90.51936</translateX>
+				<translateY>106.9798</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
