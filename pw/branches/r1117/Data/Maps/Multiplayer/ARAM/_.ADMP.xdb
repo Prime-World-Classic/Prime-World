@@ -45948,8 +45948,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>137.7315</translateX>
-				<translateY>108.5851</translateY>
+				<translateX>80.30961</translateX>
+				<translateY>107.8955</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -45974,8 +45974,60 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>120.1486</translateX>
-				<translateY>141.4952</translateY>
+				<translateX>88.89358</translateX>
+				<translateY>145.7637</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="95F20BA5-1760-45B4-8315-191D233536C3">
+				<GlyphSpawner parent="/Glyphs/GlyphSpawner.GLSPN">
+					<glyphs href="/Glyphs/_.GLDB" />
+					<heightObject>false</heightObject>
+					<minLockScale>0</minLockScale>
+					<rounded>false</rounded>
+					<useGlyphManager>false</useGlyphManager>
+				</GlyphSpawner>
+			</gameObject>
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>168.3176</translateX>
+				<translateY>143.6379</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="95F20BA5-1760-45B4-8315-191D233536C3">
+				<GlyphSpawner parent="/Glyphs/GlyphSpawner.GLSPN">
+					<glyphs href="/Glyphs/_.GLDB" />
+					<heightObject>false</heightObject>
+					<minLockScale>0</minLockScale>
+					<rounded>false</rounded>
+					<useGlyphManager>false</useGlyphManager>
+				</GlyphSpawner>
+			</gameObject>
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>183.6331</translateX>
+				<translateY>105.2442</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
