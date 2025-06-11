@@ -89,9 +89,9 @@
 					<UnitConstant>
 						<name>MortalStrike_Amount</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>50</sString>
+							<sString>25</sString>
 						</var>
 					</UnitConstant>
 				</Item>
