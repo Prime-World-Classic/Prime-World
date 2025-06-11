@@ -36,12 +36,12 @@
 	<fullPartyOnly>false</fullPartyOnly>
 	<heroRespawnParams href="/Maps/Multiplayer/ARAM/_.ADMPSTTN" id="8E53C328-FB4D-4370-A1D4-477B272F94DB">
 		<HeroRespawnParams>
-			<heroBaseRespawnTime>0</heroBaseRespawnTime>
+			<heroBaseRespawnTime>5</heroBaseRespawnTime>
 			<heroMinRespawnTime>5</heroMinRespawnTime>
-			<heroRespawnDelayMultiplier>5</heroRespawnDelayMultiplier>
+			<heroRespawnDelayMultiplier>0</heroRespawnDelayMultiplier>
 			<overtimeRespawnParams>
-				<overtime>0</overtime>
-				<respawnDelayForOvertime>0</respawnDelayForOvertime>
+				<overtime>1</overtime>
+				<respawnDelayForOvertime>5</respawnDelayForOvertime>
 			</overtimeRespawnParams>
 		</HeroRespawnParams>
 	</heroRespawnParams>

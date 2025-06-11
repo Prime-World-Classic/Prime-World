@@ -78,9 +78,9 @@
 			<levelUpgrades />
 			<statId>Stamina</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 				<returnType>float</returnType>
-				<sString>100</sString>
+				<sString>100/2</sString>
 			</value>
 		</Item>
 		<Item>
@@ -94,9 +94,9 @@
 			<levelUpgrades />
 			<statId>Will</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 				<returnType>float</returnType>
-				<sString>100</sString>
+				<sString>100/2</sString>
 			</value>
 		</Item>
 		<Item>
