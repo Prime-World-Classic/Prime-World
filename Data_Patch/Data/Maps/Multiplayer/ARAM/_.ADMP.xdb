@@ -45967,8 +45967,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>81.522</translateX>
-				<translateY>145.0899</translateY>
+				<translateX>89.09255</translateX>
+				<translateY>146.0096</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -46066,7 +46066,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="32E3FADF-31A1-46C1-A585-50193927C9FB">
+			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="8D5C58BE-5BCD-4C03-BAF3-EC1491FEFE26">
 				<GlyphSpawner>
 					<collision>
 						<x1>0</x1>
@@ -46102,8 +46102,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>90.51936</translateX>
-				<translateY>106.9798</translateY>
+				<translateX>80.2691</translateX>
+				<translateY>108.4759</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
