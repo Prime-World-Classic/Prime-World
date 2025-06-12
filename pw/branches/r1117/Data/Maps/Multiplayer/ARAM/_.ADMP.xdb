@@ -31469,24 +31469,6 @@
 			<scriptName>TowerB2_m2</scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Buildings/Flagstaff/NoOwners.FLAG" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>129.8815</translateX>
-				<translateY>125.0321</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName>M2_FlagMiddle</scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Buildings/Flagstaff/_Parent.FLAG" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -36295,24 +36277,6 @@
 				<translateX>152.3951</translateX>
 				<translateY>150.938</translateY>
 				<translateZ>-1.5</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Ruins/Flat03.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-85.38906</rotationZ>
-				<scaleX>1.161208</scaleX>
-				<scaleY>1.161208</scaleY>
-				<scaleZ>1.161208</scaleZ>
-				<translateX>129.9473</translateX>
-				<translateY>124.9322</translateY>
-				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
