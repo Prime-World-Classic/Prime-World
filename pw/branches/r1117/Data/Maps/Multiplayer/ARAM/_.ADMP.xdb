@@ -28868,8 +28868,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>154.6002</translateX>
-				<translateY>125.2573</translateY>
+				<translateX>160.1062</translateX>
+				<translateY>124.8995</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -28886,8 +28886,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>105.7887</translateX>
-				<translateY>125.7322</translateY>
+				<translateX>100.1603</translateX>
+				<translateY>125.8724</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -31496,8 +31496,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>97.2298</translateX>
-				<translateY>125.3685</translateY>
+				<translateX>90.55887</translateX>
+				<translateY>125.45</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -31514,8 +31514,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>162.5463</translateX>
-				<translateY>124.9393</translateY>
+				<translateX>169.8561</translateX>
+				<translateY>125.2284</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -33475,24 +33475,6 @@
 				<translateX>70.34115</translateX>
 				<translateY>163.2047</translateY>
 				<translateZ>-0.005403519</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Effects/Environment/TerrainDomination/_.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-90</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>145.262</translateX>
-				<translateY>124.6028</translateY>
-				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -40599,51 +40581,51 @@
 					<points>
 						<Item>
 							<location>
-								<x>112.322</x>
-								<y>124.0921</y>
+								<x>107.5546</x>
+								<y>121.4919</y>
 							</location>
 							<opacity>0</opacity>
-							<width>1.972933</width>
+							<width>3.142756</width>
 						</Item>
 						<Item>
 							<location>
-								<x>108.9422</x>
-								<y>123.1613</y>
+								<x>104.326</x>
+								<y>118.8188</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.357983</width>
+							<width>3.252426</width>
 						</Item>
 						<Item>
 							<location>
-								<x>103.9842</x>
-								<y>118.2051</y>
+								<x>97.54377</x>
+								<y>116.0119</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.743032</width>
+							<width>3.252813</width>
 						</Item>
 						<Item>
 							<location>
-								<x>94.25078</x>
-								<y>127.097</y>
+								<x>89.21619</x>
+								<y>125.9326</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.446231</width>
+							<width>3.829448</width>
 						</Item>
 						<Item>
 							<location>
-								<x>107.1632</x>
-								<y>131.0212</y>
+								<x>100.0099</x>
+								<y>135.2329</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.662657</width>
+							<width>2.988648</width>
 						</Item>
 						<Item>
 							<location>
-								<x>111.034</x>
-								<y>125.7336</y>
+								<x>107.9724</x>
+								<y>126.6049</y>
 							</location>
 							<opacity>0</opacity>
-							<width>2.22829</width>
+							<width>3.525923</width>
 						</Item>
 					</points>
 					<properties>
@@ -40699,51 +40681,59 @@
 					<points>
 						<Item>
 							<location>
-								<x>149.0412</x>
-								<y>124.5264</y>
+								<x>152.2215</x>
+								<y>124.8785</y>
 							</location>
 							<opacity>0</opacity>
-							<width>1.972933</width>
+							<width>2.666452</width>
 						</Item>
 						<Item>
 							<location>
-								<x>150.655</x>
-								<y>128.4558</y>
+								<x>154.529</x>
+								<y>130.9823</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.357983</width>
+							<width>3.512081</width>
 						</Item>
 						<Item>
 							<location>
-								<x>157.3751</x>
-								<y>129.549</y>
+								<x>164.2333</x>
+								<y>131.9482</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.743032</width>
+							<width>3.858617</width>
 						</Item>
 						<Item>
 							<location>
-								<x>163.0203</x>
-								<y>124.405</y>
+								<x>168.3226</x>
+								<y>124.4877</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.446231</width>
+							<width>3.60315</width>
 						</Item>
 						<Item>
 							<location>
-								<x>154.6216</x>
-								<y>117.2642</y>
+								<x>163.6236</x>
+								<y>116.8766</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.662657</width>
+							<width>3.324157</width>
 						</Item>
 						<Item>
 							<location>
-								<x>147.3723</x>
-								<y>122.243</y>
+								<x>156.0451</x>
+								<y>118.4048</y>
+							</location>
+							<opacity>1</opacity>
+							<width>3.50109</width>
+						</Item>
+						<Item>
+							<location>
+								<x>152.4246</x>
+								<y>122.1374</y>
 							</location>
 							<opacity>0</opacity>
-							<width>2.22829</width>
+							<width>4.108267</width>
 						</Item>
 					</points>
 					<properties>
@@ -40799,51 +40789,51 @@
 					<points>
 						<Item>
 							<location>
-								<x>152.764</x>
-								<y>123.9234</y>
+								<x>160.3526</x>
+								<y>124.2329</y>
 							</location>
 							<opacity>0</opacity>
-							<width>5.115809</width>
+							<width>8.927176</width>
 						</Item>
 						<Item>
 							<location>
-								<x>141.6437</x>
-								<y>124.064</y>
+								<x>144.9312</x>
+								<y>124.0232</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.607622</width>
+							<width>5.401138</width>
 						</Item>
 						<Item>
 							<location>
-								<x>133.9176</x>
-								<y>124.2575</y>
+								<x>134.0737</x>
+								<y>124.409</y>
 							</location>
 							<opacity>1</opacity>
 							<width>3.231749</width>
 						</Item>
 						<Item>
 							<location>
-								<x>124.1167</x>
-								<y>124.8179</y>
+								<x>125.3455</x>
+								<y>124.9388</y>
 							</location>
 							<opacity>1</opacity>
 							<width>3.056285</width>
 						</Item>
 						<Item>
 							<location>
-								<x>113.1838</x>
-								<y>125.7265</y>
+								<x>112.2134</x>
+								<y>125.0844</y>
 							</location>
 							<opacity>1</opacity>
-							<width>4.610719</width>
+							<width>5.562948</width>
 						</Item>
 						<Item>
 							<location>
-								<x>103.3092</x>
-								<y>125.2977</y>
+								<x>99.75542</x>
+								<y>125.3031</y>
 							</location>
 							<opacity>0</opacity>
-							<width>5.073812</width>
+							<width>7.751368</width>
 						</Item>
 					</points>
 					<properties>
@@ -45653,11 +45643,11 @@
 					<points>
 						<Item>
 							<location>
-								<x>93.80367</x>
-								<y>126.2536</y>
+								<x>99.49087</x>
+								<y>125.553</y>
 							</location>
 							<opacity>0</opacity>
-							<width>1.612978</width>
+							<width>3.334962</width>
 						</Item>
 						<Item>
 							<location>
@@ -45665,7 +45655,7 @@
 								<y>126.3352</y>
 							</location>
 							<opacity>1</opacity>
-							<width>7.79275</width>
+							<width>7.218581</width>
 						</Item>
 						<Item>
 							<location>
@@ -45885,15 +45875,15 @@
 								<y>126.4128</y>
 							</location>
 							<opacity>1</opacity>
-							<width>7.888786</width>
+							<width>6.802285</width>
 						</Item>
 						<Item>
 							<location>
-								<x>162.6882</x>
-								<y>125.5351</y>
+								<x>160.4803</x>
+								<y>125.3204</y>
 							</location>
 							<opacity>0</opacity>
-							<width>1.291087</width>
+							<width>2.826538</width>
 						</Item>
 					</points>
 					<properties>
@@ -45922,8 +45912,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>184.1256</translateX>
-				<translateY>125.8732</translateY>
+				<translateX>184.1253</translateX>
+				<translateY>126.0024</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
