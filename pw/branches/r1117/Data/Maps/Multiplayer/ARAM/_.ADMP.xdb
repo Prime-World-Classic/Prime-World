@@ -46233,35 +46233,18 @@
 			<attenuation>Linear</attenuation>
 			<diffuse>
 				<A>1</A>
-				<B>0.1843137</B>
-				<G>0.1843137</G>
+				<B>0</B>
+				<G>0</G>
 				<R>1</R>
 			</diffuse>
-			<diffuseIntensity>0.5</diffuseIntensity>
-			<flags>1</flags>
+			<diffuseIntensity>25</diffuseIntensity>
+			<flags>3</flags>
 			<location>
-				<x>129.8349</x>
-				<y>125.2076</y>
-				<z>5</z>
+				<x>129.9956</x>
+				<y>124.8389</y>
+				<z>10.48359</z>
 			</location>
-			<range>20</range>
-		</Item>
-		<Item>
-			<attenuation>Linear</attenuation>
-			<diffuse>
-				<A>1</A>
-				<B>0.1843137</B>
-				<G>0.1843137</G>
-				<R>1</R>
-			</diffuse>
-			<diffuseIntensity>0.5</diffuseIntensity>
-			<flags>1</flags>
-			<location>
-				<x>106.8165</x>
-				<y>101.6024</y>
-				<z>0</z>
-			</location>
-			<range>20</range>
+			<range>18</range>
 		</Item>
 		<Item>
 			<attenuation>Normal</attenuation>
@@ -46313,6 +46296,108 @@
 				<z>14.77213</z>
 			</location>
 			<range>25</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>25</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>117.8371</x>
+				<y>113.5824</y>
+				<z>3.509135</z>
+			</location>
+			<range>8</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>25</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>116.5316</x>
+				<y>139.4838</y>
+				<z>1.594976</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>25</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>137.993</x>
+				<y>114.0925</y>
+				<z>2.453977</z>
+			</location>
+			<range>8</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>25</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>142.3659</x>
+				<y>135.7388</y>
+				<z>2.764968</z>
+			</location>
+			<range>8</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0.2078431</B>
+				<G>0.2078431</G>
+				<R>0.2078431</R>
+			</diffuse>
+			<diffuseIntensity>10</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>33.84875</x>
+				<y>110.7889</y>
+				<z>8.675517</z>
+			</location>
+			<range>15</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0.2078431</B>
+				<G>0.2078431</G>
+				<R>0.2078431</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>55.46131</x>
+				<y>137.6674</y>
+				<z>7.008375</z>
+			</location>
+			<range>10</range>
 		</Item>
 	</pointLights>
 	<postEffect href="" />
