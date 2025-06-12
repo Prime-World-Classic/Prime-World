@@ -46237,7 +46237,7 @@
 				<G>0</G>
 				<R>1</R>
 			</diffuse>
-			<diffuseIntensity>25</diffuseIntensity>
+			<diffuseIntensity>15</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>129.9956</x>
@@ -46291,9 +46291,9 @@
 			<diffuseIntensity>25</diffuseIntensity>
 			<flags>3</flags>
 			<location>
-				<x>117.8371</x>
-				<y>113.5824</y>
-				<z>1.990585</z>
+				<x>116.3858</x>
+				<y>115.3494</y>
+				<z>2.005719</z>
 			</location>
 			<range>8</range>
 		</Item>
@@ -46308,9 +46308,9 @@
 			<diffuseIntensity>25</diffuseIntensity>
 			<flags>3</flags>
 			<location>
-				<x>116.5316</x>
-				<y>139.4838</y>
-				<z>1.594976</z>
+				<x>116.1534</x>
+				<y>137.9069</y>
+				<z>1.635465</z>
 			</location>
 			<range>5</range>
 		</Item>
@@ -46404,15 +46404,15 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
 			<flags>3</flags>
 			<location>
-				<x>177.3271</x>
-				<y>115.8092</y>
-				<z>2.674041</z>
+				<x>175.2433</x>
+				<y>114.4416</y>
+				<z>2.671264</z>
 			</location>
 			<range>5</range>
 		</Item>
@@ -46421,7 +46421,7 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
@@ -46438,7 +46438,7 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
@@ -46455,7 +46455,7 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>10</diffuseIntensity>
@@ -46472,7 +46472,7 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
@@ -46506,7 +46506,7 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
@@ -46523,7 +46523,7 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
@@ -46540,24 +46540,7 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
-				<R>1</R>
-			</diffuse>
-			<diffuseIntensity>5</diffuseIntensity>
-			<flags>3</flags>
-			<location>
-				<x>107.0234</x>
-				<y>140.329</y>
-				<z>2.754958</z>
-			</location>
-			<range>5</range>
-		</Item>
-		<Item>
-			<attenuation>Linear</attenuation>
-			<diffuse>
-				<A>1</A>
-				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
@@ -46574,7 +46557,7 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
@@ -46591,7 +46574,7 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
@@ -46608,7 +46591,7 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
@@ -46625,15 +46608,15 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
 			<flags>3</flags>
 			<location>
-				<x>99.27441</x>
-				<y>109.6939</y>
-				<z>2.525883</z>
+				<x>100.2338</x>
+				<y>110.0328</y>
+				<z>2.546547</z>
 			</location>
 			<range>5</range>
 		</Item>
@@ -46642,7 +46625,7 @@
 			<diffuse>
 				<A>1</A>
 				<B>0</B>
-				<G>0</G>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
 			<diffuseIntensity>5</diffuseIntensity>
@@ -46668,6 +46651,23 @@
 				<x>130.6675</x>
 				<y>106.7167</y>
 				<z>0.9442527</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>107.6904</x>
+				<y>139.8066</y>
+				<z>2.826546</z>
 			</location>
 			<range>5</range>
 		</Item>
