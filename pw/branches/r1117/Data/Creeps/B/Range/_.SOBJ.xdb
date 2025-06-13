@@ -4,6 +4,7 @@
 	<BackLink DBID="/Creeps/B/Range/PvE.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/B/Range/PvP.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/B/Range/Tutorial.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/B/Range/PvP_ARAM.CREEP" Count="1" />
 	<attached>
 		<Item>
 			<attachFlags>15</attachFlags>
@@ -580,7 +581,7 @@
 						<Item>
 							<Key>10</Key>
 							<Value>
-								<w>0.007565925</w>
+								<w>0.007565978</w>
 								<x>0</x>
 								<y>0</y>
 								<z>0.9999714</z>

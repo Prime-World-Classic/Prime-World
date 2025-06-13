@@ -5,6 +5,7 @@
 	<BackLink DBID="/Creeps/B/Melee1/PvE_Coop1_Dude.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/B/Melee1/PvE_Ep1_NoControl.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/B/Melee1/PvP.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/B/Melee1/PvP_ARAM.CREEP" Count="1" />
 	<attached>
 		<Item>
 			<attachFlags>15</attachFlags>

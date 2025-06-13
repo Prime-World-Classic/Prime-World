@@ -46,6 +46,11 @@
 		<Item href="/Buildings/DefaultStats/_Basic_Tower_Autoattack.APLR" />
 		<Item href="/Buildings/DefaultStats/ability_AParent_AttackAbility.ATCK" id="ACDD09CB-3CEA-44D7-AB88-C75689740A9E">
 			<DamageApplicator parent="/Buildings/DefaultStats/_Basic_Tower_Autoattack.APLR">
+				<damage>
+					<compiledString>FSQAAAAEAAAAlwAAAMcAAADdAAAA7QAAAEJvbnVzRGFtYWdlUGVyY2VudAAATG93RG1nVnNTb2xkZXJzAFWL7IPsFItFCIsQi00Ii0Jg/9CFwHQVi00IixGLTQiLgjQBAAD/0Nld/OsTi00IixGLTQiLgjABAAD/0Nld/ItNDIsRi00Mi0JQ/9CD+AN0GYtNDIsRi00Mi0JQ/9CD+AR0B9no2V346x2LTQxRi1UIUmgUAAAAi0UQixCLTRCLQlD/0Nld+ItNCIsRi00Ii4I8AQAA/9DYTfyLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfD/0Nw1CwEAANno3sHcTfDYTfjcDfsAAADZXezZReyL5V3DAAAAAAAA4D8AAAAAAADwPwAAAAAAAFlAAACAPw==</compiledString>
+					<returnType>float</returnType>
+					<sString>((sBaseAttack *( sNativeAttackIndex ? sIntellect : sStrength )) * (1 + cBonusDamagePercent / 100) * ((rUnitKind == 3 || rUnitKind == 4) ? cLowDmgVsSolders : 1)) * 0.5</sString>
+				</damage>
 				<damageType>Energy</damageType>
 				<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
 			</DamageApplicator>

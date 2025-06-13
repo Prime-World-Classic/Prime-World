@@ -46316,6 +46316,78 @@
 			<scriptGroupName></scriptGroupName>
 			<scriptName></scriptName>
 		</Item>
+		<Item>
+			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="E35217C4-B7EA-4145-86A5-460EB2C0FCDE">
+				<GlyphSpawner>
+					<collision>
+						<x1>0</x1>
+						<x2>0</x2>
+						<y1>0</y1>
+						<y2>0</y2>
+					</collision>
+					<glyphs href="/Maps/Multiplayer/ARAM/_.ADMP" id="038DC22A-CA21-4BAA-B28C-6471F31B7A30">
+						<GlyphsDB>
+							<glyphs>
+								<Item>
+									<glyph href="/Glyphs/PrimeRune_ARAM.GLPH" />
+									<weight>1</weight>
+								</Item>
+							</glyphs>
+						</GlyphsDB>
+					</glyphs>
+					<heightObject>false</heightObject>
+					<lockMask>
+						<mask />
+						<tileSize>0.5</tileSize>
+					</lockMask>
+					<minLockScale>0</minLockScale>
+					<rounded>false</rounded>
+					<settings>
+						<maxAfterPickupSpawnDelay>120</maxAfterPickupSpawnDelay>
+						<maxInstances>1</maxInstances>
+						<maxNormalSpawnDelay>60</maxNormalSpawnDelay>
+						<minAfterPickupSpawnDelay>60</minAfterPickupSpawnDelay>
+						<minNormalSpawnDelay>60</minNormalSpawnDelay>
+						<spawnAttemptDelayDecrease>120</spawnAttemptDelayDecrease>
+						<spawnMode>RandomWeight</spawnMode>
+					</settings>
+					<useGlyphManager>false</useGlyphManager>
+				</GlyphSpawner>
+			</gameObject>
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>262.192</rotationZ>
+				<scaleX>1.254097</scaleX>
+				<scaleY>1.254097</scaleY>
+				<scaleZ>1.254097</scaleZ>
+				<translateX>129.8763</translateX>
+				<translateY>124.7435</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Glyphs/EyeGlyph.SSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>0</translateX>
+				<translateY>0</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
 	</objects>
 	<ObjectsLayerFileName>/Maps/Multiplayer/ARAM/_.objectheight</ObjectsLayerFileName>
 	<pointLights>

@@ -2,6 +2,7 @@
 <AdvMapCreep>
 	<BackLink DBID="/Creeps/B/Melee1/PvE.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/B/Melee1/PvP.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/B/Melee1/PvP_ARAM.CREEP" Count="5" />
 	<abilities>
 		<Item href="" />
 		<Item href="" />

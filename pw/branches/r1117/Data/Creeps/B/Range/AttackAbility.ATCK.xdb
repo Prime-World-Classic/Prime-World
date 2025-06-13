@@ -3,6 +3,7 @@
 	<BackLink DBID="/Creeps/B/Range/PvE.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/B/Range/PvP.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/B/Range/Tutorial.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/B/Range/PvP_ARAM.CREEP" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>

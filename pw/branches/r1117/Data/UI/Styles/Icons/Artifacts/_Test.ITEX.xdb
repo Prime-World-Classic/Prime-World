@@ -153,6 +153,7 @@
 	<BackLink DBID="/UI/Screens/Minigames/Minigame2/Counter_Material.MTRL" Count="1" />
 	<BackLink DBID="/UI/Styles/Icons/Artifacts/_Test.MTRL" Count="1" />
 	<BackLink DBID="/UI/Styles/Shared/Radio_Dsbld_Selected.MTRL" Count="1" />
+	<BackLink DBID="/Glyphs/PrimeRune_ARAM.GLPH" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

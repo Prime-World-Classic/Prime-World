@@ -222,9 +222,9 @@
 					<levelUpgrades />
 					<statId>NaftaForKill</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>12</sString>
+						<sString>24</sString>
 					</value>
 				</Item>
 				<Item>

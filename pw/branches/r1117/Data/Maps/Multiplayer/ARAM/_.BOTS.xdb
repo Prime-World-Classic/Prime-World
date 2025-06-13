@@ -4,8 +4,6 @@
 	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMPSTTN" Count="1" />
 	<doNotBuyMana>
 		<Item href="/Heroes/Vampire/_.HROB" />
-		<Item href="/Heroes/Crusader/_A.HROB" />
-		<Item href="/Heroes/Crusader/_B.HROB" />
 	</doNotBuyMana>
 	<enableBotsAI>true</enableBotsAI>
 	<escapeTowerDistance>20</escapeTowerDistance>

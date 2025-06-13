@@ -277,6 +277,12 @@
 	<BackLink DBID="/Creeps/Normals/Normal5/PVP.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/Champions/Champion2/PVP_1.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/Champions/Champion2/PVP_2.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/A/Melee1/PvP_ARAM.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/A/Melee2/PvP_ARAM.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/A/Range/PvP_ARAM.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/B/Melee1/PvP_ARAM.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/B/Melee2/PVP_ARAM.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/B/Range/PvP_ARAM.CREEP" Count="1" />
 	<deathTime>5</deathTime>
 	<effect href="/Effects/General/Death/_.EFFT" />
 	<effectOffset>0</effectOffset>

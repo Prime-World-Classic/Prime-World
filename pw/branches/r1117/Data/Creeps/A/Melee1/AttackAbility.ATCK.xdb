@@ -3,6 +3,7 @@
 	<BackLink DBID="/Creeps/A/Melee1/PvE.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/A/Melee1/PvE_Ep1_NoControl.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/A/Melee1/PvP.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/A/Melee1/PvP_ARAM.CREEP" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
