@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Glyph>
 	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMP" Count="1" />
+	<BackLink DBID="/Glyphs/_.GLDB" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>

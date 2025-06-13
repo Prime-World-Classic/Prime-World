@@ -17,6 +17,7 @@
 	<BackLink DBID="/Items/Talents/Level6/G741_DexOrAtSpd.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_7_Glyph/Interaction.ABLT" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/CTE/CTE_LifeRestorer.GLPH" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMP" Count="4" />
 	<name>ExtraDuration</name>
 	<var>
 		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
