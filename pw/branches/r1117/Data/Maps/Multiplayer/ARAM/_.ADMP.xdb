@@ -46146,9 +46146,9 @@
 				<scaleX>0.319264</scaleX>
 				<scaleY>0.319264</scaleY>
 				<scaleZ>0.319264</scaleZ>
-				<translateX>123.4951</translateX>
-				<translateY>148.5868</translateY>
-				<translateZ>1.451217</translateZ>
+				<translateX>123.5051</translateX>
+				<translateY>148.2591</translateY>
+				<translateZ>1.507644</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -46165,8 +46165,8 @@
 				<scaleY>0.319264</scaleY>
 				<scaleZ>0.319264</scaleZ>
 				<translateX>122.3954</translateX>
-				<translateY>147.1035</translateY>
-				<translateZ>0.6452544</translateZ>
+				<translateY>146.5407</translateY>
+				<translateZ>0.7780347</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -46200,9 +46200,9 @@
 				<scaleX>0.319264</scaleX>
 				<scaleY>0.319264</scaleY>
 				<scaleZ>0.319264</scaleZ>
-				<translateX>125.5927</translateX>
+				<translateX>125.6857</translateX>
 				<translateY>145.1682</translateY>
-				<translateZ>1.245027</translateZ>
+				<translateZ>1.24808</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -46218,9 +46218,9 @@
 				<scaleX>0.319264</scaleX>
 				<scaleY>0.319264</scaleY>
 				<scaleZ>0.319264</scaleZ>
-				<translateX>125.2025</translateX>
-				<translateY>145.8231</translateY>
-				<translateZ>1.008156</translateZ>
+				<translateX>125.3973</translateX>
+				<translateY>145.7006</translateY>
+				<translateZ>1.046748</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -46383,6 +46383,150 @@
 				<translateX>0</translateX>
 				<translateY>0</translateY>
 				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>0.319264</scaleX>
+				<scaleY>0.319264</scaleY>
+				<scaleZ>0.319264</scaleZ>
+				<translateX>124.2624</translateX>
+				<translateY>145.7969</translateY>
+				<translateZ>1.008156</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough06.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>556.6063</rotationZ>
+				<scaleX>1.08502</scaleX>
+				<scaleY>1.08502</scaleY>
+				<scaleZ>0.7713302</scaleZ>
+				<translateX>99.98343</translateX>
+				<translateY>145.7567</translateY>
+				<translateZ>-0.3954232</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough05.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>-6.18564</rotationX>
+				<rotationY>2.134434E-07</rotationY>
+				<rotationZ>-59.6851</rotationZ>
+				<scaleX>1.008998</scaleX>
+				<scaleY>1.008998</scaleY>
+				<scaleZ>0.7386652</scaleZ>
+				<translateX>104.235</translateX>
+				<translateY>144.3308</translateY>
+				<translateZ>-0.7489227</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough06.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>325.5941</rotationZ>
+				<scaleX>1.099086</scaleX>
+				<scaleY>1.099086</scaleY>
+				<scaleZ>0.7527441</scaleZ>
+				<translateX>102.8383</translateX>
+				<translateY>147.5284</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough05.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>93.34387</rotationZ>
+				<scaleX>0.9518682</scaleX>
+				<scaleY>0.9518682</scaleY>
+				<scaleZ>0.9518682</scaleZ>
+				<translateX>101.56</translateX>
+				<translateY>107.6804</translateY>
+				<translateZ>-0.2888276</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough05.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>-152.2978</rotationZ>
+				<scaleX>1.079447</scaleX>
+				<scaleY>1.079447</scaleY>
+				<scaleZ>1.079447</scaleZ>
+				<translateX>152.4264</translateX>
+				<translateY>142.5784</translateY>
+				<translateZ>-0.3609945</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough05.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>2.305583</rotationX>
+				<rotationY>11.98555</rotationY>
+				<rotationZ>50</rotationZ>
+				<scaleX>0.9264367</scaleX>
+				<scaleY>0.9264369</scaleY>
+				<scaleZ>0.5741478</scaleZ>
+				<translateX>158.9825</translateX>
+				<translateY>107.1712</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough06.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>556.6063</rotationZ>
+				<scaleX>1.08502</scaleX>
+				<scaleY>1.08502</scaleY>
+				<scaleZ>0.7713302</scaleZ>
+				<translateX>156.0753</translateX>
+				<translateY>143.5793</translateY>
+				<translateZ>-0.3954232</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
