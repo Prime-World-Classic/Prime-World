@@ -28,7 +28,30 @@
 						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
 					</DamageApplicator>
 				</Item>
-				<Item skip="1" />
+				<Item href="/Maps/Multiplayer/ARAM/Towers/GateB.TOWR" id="E7BADBB6-32B1-42CD-9BA4-5D9D96884673">
+					<DamageApplicator>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<cancelInvisibility>false</cancelInvisibility>
+						<caption> -- Стандартный урон автоатаки башни</caption>
+						<damage>
+							<compiledString>FTgAAAAFAAAAqwAAANsAAAD7AAAAEQEAACEBAABBdGtEYW1hZ2VEaXNwX1Rvd2VyAEJvbnVzRGFtYWdlUGVyY2VudAAATG93RG1nVnNTb2xkZXJzAFWL7IPsHItFCIsQi00Ii0Jg/9CFwHQVi00IixGLTQiLgjQBAAD/0Nld/OsTi00IixGLTQiLgjABAAD/0Nld/ItNDIsRi00Mi0JQ/9CD+AN0GYtNDIsRi00Mi0JQ/9CD+AR0B9no2V346x2LTQxRi1UIUmgoAAAAi0UQixCLTRCLQlD/0Nld+ItNCIsRi00Ii4I8AQAA/9DYTfyLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfD/0NxN8ItNDFGLVQhSaBQAAACLRRCLEItNEItCUN1d6P/Q3DU/AQAA2ejewdxN6NhN+NwNLwEAANld5NlF5IvlXcMzMzMzMzPjPwAAAAAAAPA/AAAAAAAAWUAAAIA/</compiledString>
+							<returnType>float</returnType>
+							<sString>((sBaseAttack *( sNativeAttackIndex ? sIntellect : sStrength )) * cAtkDamageDisp_Tower * (1.0 + cBonusDamagePercent/100) * ((rUnitKind == 3 || rUnitKind == 4) ? cLowDmgVsSolders : 1))*0.6</sString>
+						</damage>
+						<damageMode>4</damageMode>
+						<damageType>Energy</damageType>
+						<enabled>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<LoggingEvent>-1</LoggingEvent>
+						<providerName></providerName>
+						<timeLimiter>-1</timeLimiter>
+						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+					</DamageApplicator>
+				</Item>
 				<Item skip="1" />
 				<Item href="/Maps/Multiplayer/ARAM/Towers/GateB.TOWR" id="AA19F750-64E5-475C-9F56-682A167258E2">
 					<DamageApplicator>

@@ -99,7 +99,7 @@
 	<BackLink DBID="/Items/Talents/Class/Ent/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ent/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Faceless/A1Damage.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="4" />
+	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="6" />
 	<BackLink DBID="/Items/Talents/Class/Faceless/Ability3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fairy/A2_Strike.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fairy/status_A1_battlefairys.APLR" Count="1" />
@@ -275,10 +275,10 @@
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/status_A3_CrowForm.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset4_4_Axes/status_ImproveAA_1.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" Count="2" />
-	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/RiverB.TOWR" Count="2" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/RiverB.TOWR" Count="3" />
 	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/RiverA.TOWR" Count="2" />
-	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateA.TOWR" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateB.TOWR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateA.TOWR" Count="2" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateB.TOWR" Count="2" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" id="FCDDC7F1-12E2-4611-8C2F-927182843C56">

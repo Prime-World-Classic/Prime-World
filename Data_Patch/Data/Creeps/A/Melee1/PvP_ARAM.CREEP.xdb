@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdvMapCreep parent="/Creeps/A/Melee1/_Parent.CREEP">
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Spawners/_A.CSPN" Count="3" />
+	<attackAbility href="/Creeps/A/Melee1/AttackAbility.ATCK" />
+	<stats href="/Creeps/DefaultStats/PvP/Faction_Melee_ARAM.STCN" />
+</AdvMapCreep>
