@@ -6,7 +6,8 @@
 	<BackLink DBID="/Maps/Multiplayer/CTE/CTE_LifeRestorer.GLPH" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Moba_LifeRestorer.GLPH" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/_.ADMPSTTN" Count="1" />
-	<BackLink DBID="/Glyphs/_.GLDB" Count="3" />
+	<BackLink DBID="/Glyphs/_.GLDB" Count="4" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMP" Count="3" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
@@ -231,13 +232,13 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Glyphs/LifeRestorer.GLPH" id="9519485B-9ECC-4D7A-82FC-94793C424081">
+				<Item href="/Glyphs/LifeRestorer.GLPH" id="BAB60177-1044-48FB-BE2B-BE3D19E41206">
 					<UnitConstant>
 						<name>Heal</name>
 						<var>
-							<compiledString>FQAAAAADAAAAEwAAABkAAAAfAAAAVYvsUYtFDIsQi00Mi0IM/9DcDT0AAADcBTUAAADcDS0AAADZXfzZRfyL5V3DAAAAAAAA8D8AAAAAAABJQAAAAOBRuL4/</compiledString>
+							<compiledString>FQAAAAACAAAAEwAAABkAAABVi+xRi0UMixCLTQyLQgz/0NwNLwAAANwFJwAAANld/NlF/IvlXcMAAAAAAABJQAAAAOBRuL4/</compiledString>
 							<returnType>float</returnType>
-							<sString>(rMaxLife * 0.12f + 50.0f)*(100/75)</sString>
+							<sString>(rMaxLife * 0.12f + 50.0f)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

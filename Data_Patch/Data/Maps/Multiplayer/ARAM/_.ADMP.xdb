@@ -9484,15 +9484,15 @@
 			<gameObject href="/Terrain/Stones/Rough05.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
-				<rotationX>-3.427609</rotationX>
-				<rotationY>11.06305</rotationY>
-				<rotationZ>159.2064</rotationZ>
+				<rotationX>5.315743</rotationX>
+				<rotationY>4.143084</rotationY>
+				<rotationZ>157.7897</rotationZ>
 				<scaleX>1.14592</scaleX>
 				<scaleY>1.14592</scaleY>
 				<scaleZ>1.14592</scaleZ>
 				<translateX>73.23019</translateX>
 				<translateY>148.8033</translateY>
-				<translateZ>0</translateZ>
+				<translateZ>-1.106714</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -19518,9 +19518,9 @@
 				<scaleX>0.8053716</scaleX>
 				<scaleY>0.8053716</scaleY>
 				<scaleZ>0.8053716</scaleZ>
-				<translateX>241.1449</translateX>
-				<translateY>110.0571</translateY>
-				<translateZ>-0.005724907</translateZ>
+				<translateX>235.6724</translateX>
+				<translateY>139.2967</translateY>
+				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -19662,9 +19662,9 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>238.9007</translateX>
-				<translateY>108.7438</translateY>
-				<translateZ>-0.02310586</translateZ>
+				<translateX>240.516</translateX>
+				<translateY>109.7549</translateY>
+				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -19824,8 +19824,8 @@
 				<scaleX>0.9515898</scaleX>
 				<scaleY>0.9515898</scaleY>
 				<scaleZ>0.9515898</scaleZ>
-				<translateX>243.1184</translateX>
-				<translateY>114.553</translateY>
+				<translateX>243.9568</translateX>
+				<translateY>112.9779</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -22812,8 +22812,8 @@
 				<scaleX>1.018621</scaleX>
 				<scaleY>1.018621</scaleY>
 				<scaleZ>1.018621</scaleZ>
-				<translateX>238.9477</translateX>
-				<translateY>114.0303</translateY>
+				<translateX>237.4116</translateX>
+				<translateY>114.6986</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -22992,8 +22992,8 @@
 				<scaleX>1.172038</scaleX>
 				<scaleY>1.172038</scaleY>
 				<scaleZ>1.172038</scaleZ>
-				<translateX>210.21</translateX>
-				<translateY>130.2883</translateY>
+				<translateX>224.4457</translateX>
+				<translateY>133.7497</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -28868,8 +28868,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>154.6002</translateX>
-				<translateY>125.2573</translateY>
+				<translateX>160.1062</translateX>
+				<translateY>124.8995</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -28886,8 +28886,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>105.7887</translateX>
-				<translateY>125.7322</translateY>
+				<translateX>100.1603</translateX>
+				<translateY>125.8724</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -30848,8 +30848,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>205.5486</translateX>
-				<translateY>125.4028</translateY>
+				<translateX>226.2803</translateX>
+				<translateY>120.801</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -31244,9 +31244,9 @@
 				<scaleX>0.8396088</scaleX>
 				<scaleY>0.8396088</scaleY>
 				<scaleZ>0.8396088</scaleZ>
-				<translateX>240.7925</translateX>
-				<translateY>117.3485</translateY>
-				<translateZ>-0.2499104</translateZ>
+				<translateX>243.0692</translateX>
+				<translateY>118.452</translateY>
+				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -31469,24 +31469,6 @@
 			<scriptName>TowerB2_m2</scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Buildings/Flagstaff/NoOwners.FLAG" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>129.8815</translateX>
-				<translateY>125.0321</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName>M2_FlagMiddle</scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Buildings/Flagstaff/_Parent.FLAG" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -31496,8 +31478,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>97.2298</translateX>
-				<translateY>125.3685</translateY>
+				<translateX>90.55887</translateX>
+				<translateY>125.45</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -31514,8 +31496,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>162.5463</translateX>
-				<translateY>124.9393</translateY>
+				<translateX>169.8561</translateX>
+				<translateY>125.2284</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -31820,8 +31802,8 @@
 				<scaleX>1.268942</scaleX>
 				<scaleY>1.268942</scaleY>
 				<scaleZ>1.268942</scaleZ>
-				<translateX>213.8125</translateX>
-				<translateY>123.2231</translateY>
+				<translateX>204.1382</translateX>
+				<translateY>113.6719</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -33475,24 +33457,6 @@
 				<translateX>70.34115</translateX>
 				<translateY>163.2047</translateY>
 				<translateZ>-0.005403519</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Effects/Environment/TerrainDomination/_.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-90</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>145.262</translateX>
-				<translateY>124.6028</translateY>
-				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -36319,24 +36283,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Ruins/Flat03.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-85.38906</rotationZ>
-				<scaleX>1.161208</scaleX>
-				<scaleY>1.161208</scaleY>
-				<scaleZ>1.161208</scaleZ>
-				<translateX>129.9473</translateX>
-				<translateY>124.9322</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Ruins/Rough09CTE.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -37120,8 +37066,8 @@
 				<scaleX>1.692802</scaleX>
 				<scaleY>1.692802</scaleY>
 				<scaleZ>1.692802</scaleZ>
-				<translateX>214.9833</translateX>
-				<translateY>128.1852</translateY>
+				<translateX>215.3839</translateX>
+				<translateY>136.05</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -40599,51 +40545,51 @@
 					<points>
 						<Item>
 							<location>
-								<x>112.322</x>
-								<y>124.0921</y>
+								<x>107.5546</x>
+								<y>121.4919</y>
 							</location>
 							<opacity>0</opacity>
-							<width>1.972933</width>
+							<width>3.142756</width>
 						</Item>
 						<Item>
 							<location>
-								<x>108.9422</x>
-								<y>123.1613</y>
+								<x>104.326</x>
+								<y>118.8188</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.357983</width>
+							<width>3.252426</width>
 						</Item>
 						<Item>
 							<location>
-								<x>103.9842</x>
-								<y>118.2051</y>
+								<x>97.54377</x>
+								<y>116.0119</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.743032</width>
+							<width>3.252813</width>
 						</Item>
 						<Item>
 							<location>
-								<x>94.25078</x>
-								<y>127.097</y>
+								<x>89.21619</x>
+								<y>125.9326</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.446231</width>
+							<width>3.829448</width>
 						</Item>
 						<Item>
 							<location>
-								<x>107.1632</x>
-								<y>131.0212</y>
+								<x>100.0099</x>
+								<y>135.2329</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.662657</width>
+							<width>2.988648</width>
 						</Item>
 						<Item>
 							<location>
-								<x>111.034</x>
-								<y>125.7336</y>
+								<x>107.9724</x>
+								<y>126.6049</y>
 							</location>
 							<opacity>0</opacity>
-							<width>2.22829</width>
+							<width>3.525923</width>
 						</Item>
 					</points>
 					<properties>
@@ -40699,51 +40645,59 @@
 					<points>
 						<Item>
 							<location>
-								<x>149.0412</x>
-								<y>124.5264</y>
+								<x>152.2215</x>
+								<y>124.8785</y>
 							</location>
 							<opacity>0</opacity>
-							<width>1.972933</width>
+							<width>2.666452</width>
 						</Item>
 						<Item>
 							<location>
-								<x>150.655</x>
-								<y>128.4558</y>
+								<x>154.529</x>
+								<y>130.9823</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.357983</width>
+							<width>3.512081</width>
 						</Item>
 						<Item>
 							<location>
-								<x>157.3751</x>
-								<y>129.549</y>
+								<x>164.2333</x>
+								<y>131.9482</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.743032</width>
+							<width>3.858617</width>
 						</Item>
 						<Item>
 							<location>
-								<x>163.0203</x>
-								<y>124.405</y>
+								<x>168.3226</x>
+								<y>124.4877</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.446231</width>
+							<width>3.60315</width>
 						</Item>
 						<Item>
 							<location>
-								<x>154.6216</x>
-								<y>117.2642</y>
+								<x>163.6236</x>
+								<y>116.8766</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.662657</width>
+							<width>3.324157</width>
 						</Item>
 						<Item>
 							<location>
-								<x>147.3723</x>
-								<y>122.243</y>
+								<x>156.0451</x>
+								<y>118.4048</y>
+							</location>
+							<opacity>1</opacity>
+							<width>3.50109</width>
+						</Item>
+						<Item>
+							<location>
+								<x>152.4246</x>
+								<y>122.1374</y>
 							</location>
 							<opacity>0</opacity>
-							<width>2.22829</width>
+							<width>4.108267</width>
 						</Item>
 					</points>
 					<properties>
@@ -40799,51 +40753,51 @@
 					<points>
 						<Item>
 							<location>
-								<x>152.764</x>
-								<y>123.9234</y>
+								<x>160.3526</x>
+								<y>124.2329</y>
 							</location>
 							<opacity>0</opacity>
-							<width>5.115809</width>
+							<width>8.927176</width>
 						</Item>
 						<Item>
 							<location>
-								<x>141.6437</x>
-								<y>124.064</y>
+								<x>144.9312</x>
+								<y>124.0232</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.607622</width>
+							<width>5.401138</width>
 						</Item>
 						<Item>
 							<location>
-								<x>133.9176</x>
-								<y>124.2575</y>
+								<x>134.0737</x>
+								<y>124.409</y>
 							</location>
 							<opacity>1</opacity>
 							<width>3.231749</width>
 						</Item>
 						<Item>
 							<location>
-								<x>124.1167</x>
-								<y>124.8179</y>
+								<x>125.3455</x>
+								<y>124.9388</y>
 							</location>
 							<opacity>1</opacity>
 							<width>3.056285</width>
 						</Item>
 						<Item>
 							<location>
-								<x>113.1838</x>
-								<y>125.7265</y>
+								<x>112.2134</x>
+								<y>125.0844</y>
 							</location>
 							<opacity>1</opacity>
-							<width>4.610719</width>
+							<width>5.562948</width>
 						</Item>
 						<Item>
 							<location>
-								<x>103.3092</x>
-								<y>125.2977</y>
+								<x>99.75542</x>
+								<y>125.3031</y>
 							</location>
 							<opacity>0</opacity>
-							<width>5.073812</width>
+							<width>7.751368</width>
 						</Item>
 					</points>
 					<properties>
@@ -45653,11 +45607,11 @@
 					<points>
 						<Item>
 							<location>
-								<x>93.80367</x>
-								<y>126.2536</y>
+								<x>99.49087</x>
+								<y>125.553</y>
 							</location>
 							<opacity>0</opacity>
-							<width>1.612978</width>
+							<width>3.334962</width>
 						</Item>
 						<Item>
 							<location>
@@ -45665,7 +45619,7 @@
 								<y>126.3352</y>
 							</location>
 							<opacity>1</opacity>
-							<width>7.79275</width>
+							<width>7.218581</width>
 						</Item>
 						<Item>
 							<location>
@@ -45885,15 +45839,15 @@
 								<y>126.4128</y>
 							</location>
 							<opacity>1</opacity>
-							<width>7.888786</width>
+							<width>6.802285</width>
 						</Item>
 						<Item>
 							<location>
-								<x>162.6882</x>
-								<y>125.5351</y>
+								<x>160.4803</x>
+								<y>125.3204</y>
 							</location>
 							<opacity>0</opacity>
-							<width>1.291087</width>
+							<width>2.826538</width>
 						</Item>
 					</points>
 					<properties>
@@ -45922,8 +45876,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>184.1256</translateX>
-				<translateY>125.8732</translateY>
+				<translateX>184.1253</translateX>
+				<translateY>126.0024</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -45939,7 +45893,56 @@
 						<y1>0</y1>
 						<y2>0</y2>
 					</collision>
-					<glyphs href="/Glyphs/_.GLDB" />
+					<glyphs href="/Maps/Multiplayer/ARAM/_.ADMP" id="5C9D7D5B-1250-45AD-BBBA-8A215E038B29">
+						<GlyphsDB>
+							<glyphs>
+								<Item>
+									<glyph href="/Maps/Multiplayer/ARAM/_.ADMP" id="A734D2C9-4887-471D-8D1D-025FECCD28F1">
+										<Glyph parent="/Glyphs/LifeRestorer.GLPH">
+											<constants href="/Maps/Multiplayer/ARAM/_.ADMP" id="DE2064DF-22F7-4020-A3C6-8ABA84948047">
+												<UnitConstantsContainer>
+													<vars>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="8C9A8606-A54D-4073-B5A7-352EE0078390">
+															<UnitConstant>
+																<name>Duration</name>
+																<var>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>6</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="D9DB046C-1C95-4A4C-B385-572E5CE96194">
+															<UnitConstant>
+																<name>Heal</name>
+																<var>
+																	<compiledString>FQAAAAADAAAAEwAAABkAAAAfAAAAVYvsUYtFDIsQi00Mi0IM/9DcDT0AAADcBTUAAADcDS0AAADZXfzZRfyL5V3DAAAAAAAA8D8AAAAAAABJQAAAAOBRuL4/</compiledString>
+																	<returnType>float</returnType>
+																	<sString>(rMaxLife * 0.12f + 50.0f)*(100/75)</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="EE9B6122-C5D5-4AC6-BCC6-D7DD4D8E83DA">
+															<UnitConstant>
+																<name>Period</name>
+																<var>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>2</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Items/Talents/TalentKits/Redset7_7_Glyph/const_Redset7_7ExtraDuration" />
+													</vars>
+												</UnitConstantsContainer>
+											</constants>
+										</Glyph>
+									</glyph>
+									<weight>1</weight>
+								</Item>
+							</glyphs>
+						</GlyphsDB>
+					</glyphs>
 					<heightObject>false</heightObject>
 					<lockMask>
 						<mask />
@@ -45984,7 +45987,361 @@
 						<y1>0</y1>
 						<y2>0</y2>
 					</collision>
-					<glyphs href="/Glyphs/_.GLDB" />
+					<glyphs href="/Maps/Multiplayer/ARAM/_.ADMP" id="11F86C62-578E-4548-8E47-F2A71F0965DB">
+						<GlyphsDB>
+							<glyphs>
+								<Item>
+									<glyph href="/Maps/Multiplayer/ARAM/_.ADMP" id="5F9E4997-03F4-4EC2-9645-C8EBFF273ECA">
+										<Glyph>
+											<activeCustomTrigger>true</activeCustomTrigger>
+											<allowChase>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</allowChase>
+											<alternativeTargets />
+											<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+											<aoeHeight>0</aoeHeight>
+											<aoeMaterial href="" />
+											<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+											<aoeSize>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</aoeSize>
+											<aoeType>None</aoeType>
+											<applicators>
+												<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="C555A02E-DB98-411F-B46D-7B34D8FA07ED">
+													<StatusApplicator>
+														<applicators>
+															<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="B3BF4FC5-2702-430F-91E6-0B62B8DBE3E5">
+																<SpellPeriodicallyApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>0</behaviorFlags>
+																	<caption>период спелл</caption>
+																	<effect>
+																		<Item href="/Effects/Buffs/Regen/_Cycle.EFFT" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<period>
+																		<compiledString>FQcAAAABAAAAEwAAAFBlcmlvZABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cPeriod</sString>
+																	</period>
+																	<providerName></providerName>
+																	<scaleMode>ScaleIsCount</scaleMode>
+																	<spell href="/Maps/Multiplayer/ARAM/_.ADMP" id="1C0118D2-AB1E-4FDF-8746-A469003C4B83">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="69471A8C-AD39-4DAD-ACED-391A362642A2">
+																					<HealApplicator>
+																						<amount>
+																							<compiledString>FQUAAAABAAAAEQAAAEhlYWwAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																							<returnType>float</returnType>
+																							<sString>cHeal</sString>
+																						</amount>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<caption>лечение здоровья</caption>
+																						<enabled>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<healTarget>Health</healTarget>
+																						<ignoreHealingMods>false</ignoreHealingMods>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<providerName></providerName>
+																						<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+																					</HealApplicator>
+																				</Item>
+																			</applicators>
+																			<dispatch href="/Maps/Multiplayer/ARAM/_.ADMP" id="99471D18-6240-4FB6-840E-54C471688301">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</spell>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<startOffset>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</startOffset>
+																	<targetSelector href="/Maps/Multiplayer/ARAM/_.ADMP" id="52A4059A-012B-4956-B2AC-24E0D2D0D056">
+																		<ComparingTargetSelector>
+																			<referenceValue>
+																				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>0</sString>
+																			</referenceValue>
+																			<targetSelector href="/Maps/Multiplayer/ARAM/_.ADMP" id="F774D8F4-DEEE-4D24-9576-2D59484098C7">
+																				<ListOfTargetSelectors>
+																					<flags>0</flags>
+																					<mode>Normal</mode>
+																					<targetSelectors>
+																						<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="2217B3D2-FEB3-422E-99BD-BC6D2DB6886C">
+																							<SelectApplicatorTarget>
+																								<applicatorIndex>0</applicatorIndex>
+																								<applicatorName></applicatorName>
+																								<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																								<selectTarget>AbilityOwner</selectTarget>
+																							</SelectApplicatorTarget>
+																						</Item>
+																						<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="D1AFD68F-36F1-4250-9699-D8037461F675">
+																							<RelativeUnitTargetSelector>
+																								<relation>AlphaSummon</relation>
+																							</RelativeUnitTargetSelector>
+																						</Item>
+																					</targetSelectors>
+																				</ListOfTargetSelectors>
+																			</targetSelector>
+																			<valueToCompare>
+																				<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLAv/Qi00MixGLTQyLQgzdXfj/0Nx9+Nld9NlF9IvlXcM=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>rLife / rMaxLife</sString>
+																			</valueToCompare>
+																		</ComparingTargetSelector>
+																	</targetSelector>
+																</SpellPeriodicallyApplicator>
+															</Item>
+														</applicators>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<behaviorFlags>0</behaviorFlags>
+														<caption>Статус</caption>
+														<customCounter>
+															<compiledString></compiledString>
+															<returnType>int</returnType>
+															<sString>0</sString>
+														</customCounter>
+														<customProgress>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</customProgress>
+														<description textref="/Maps/Multiplayer/ARAM/_.ADMP_c555a02edb98411fb46d7b34d8fa07ed_description.txt" />
+														<dispellPriority>High</dispellPriority>
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<flags>0</flags>
+														<formulaName></formulaName>
+														<image href="/UI/Styles/Icons/Glyphs/glyph_life_status.ITEX" />
+														<lifeTime>
+															<compiledString>FTkAAAAFAAAAQAAAAFYAAABqAAAAhAAAAKkAAABSZWRzZXQ3XzdDb3VudGVyAAAAAER1cmF0aW9uAAAAAEV4dHJhRHVyYXRpb24AAABEdXJhdGlvbgBVi+yD7BRoAAAAAItFDIsQi00Mi4KIAQAA/9DcHcoAAADf4PbEAXU/i00MUYtVCFJoFAAAAItFEIsQi00Qi0JQ/9CLTQxRi1UIUmggAAAAi0UQixCLTRCLQlDdXfj/0NxF+N1d8Osdi00MUYtVCFJoMAAAAItFEIsQi00Qi0JQ/9DdXfDdRfDZXezZReyL5V3DAAAAAAAAAEA=</compiledString>
+															<returnType>float</returnType>
+															<sString>receiver.vRedset7_7Counter &gt;= 2? cDuration + cExtraDuration : cDuration</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<name textref="/Maps/Multiplayer/ARAM/_.ADMP_c555a02edb98411fb46d7b34d8fa07ed_name.txt" />
+														<power>0</power>
+														<providerName></providerName>
+														<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+														<stackCount>0</stackCount>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+														<statusPosition>0</statusPosition>
+														<stopBehaviour>StopByTime</stopBehaviour>
+														<unstackableWith href="" />
+													</StatusApplicator>
+												</Item>
+											</applicators>
+											<autoTargetSelector href="" />
+											<caption></caption>
+											<castAllowRange>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</castAllowRange>
+											<castLimitations />
+											<color>
+												<A>1</A>
+												<B>1</B>
+												<G>1</G>
+												<R>1</R>
+											</color>
+											<commonDescription textref="" />
+											<compiledDescriptionA textref="" />
+											<compiledDescriptionB textref="" />
+											<conditionFormulas />
+											<constants href="/Maps/Multiplayer/ARAM/_.ADMP" id="88FE87F7-B3D2-4404-8A59-14881D5EC2E1">
+												<UnitConstantsContainer>
+													<vars>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="77CB7858-EDD6-4E5B-9B6B-0A7D4ADEAC31">
+															<UnitConstant>
+																<name>Duration</name>
+																<var>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>6</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="2D4F10E8-A767-4CA4-840A-C9F771BD816F">
+															<UnitConstant>
+																<name>Heal</name>
+																<var>
+																	<compiledString>FQAAAAADAAAAEwAAABkAAAAfAAAAVYvsUYtFDIsQi00Mi0IM/9DcDT0AAADcBTUAAADcDS0AAADZXfzZRfyL5V3DAAAAAAAA8D8AAAAAAABJQAAAAOBRuL4/</compiledString>
+																	<returnType>float</returnType>
+																	<sString>(rMaxLife * 0.12f + 50.0f)*(100/75)</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="CB77CC1B-8ADB-4BBF-A209-B4D7A0B67826">
+															<UnitConstant>
+																<name>Period</name>
+																<var>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>2</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Items/Talents/TalentKits/Redset7_7_Glyph/const_Redset7_7ExtraDuration" />
+													</vars>
+												</UnitConstantsContainer>
+											</constants>
+											<cooldownTime>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0</sString>
+											</cooldownTime>
+											<cooldownTimeSecondState>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</cooldownTimeSecondState>
+											<description textref="" />
+											<dispatch href="/Maps/Multiplayer/ARAM/_.ADMP" id="CC175153-DC4C-4B2F-B095-324EF39C5315">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="/Effects/Buffs/Regen/_.EFFT" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>false</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+											<flags>1</flags>
+											<gameObject href="/Glyphs/LifeRestorer.SSO" />
+											<id>LifeRestorer</id>
+											<image href="/UI/Styles/Icons/Artifacts/_Test.ITEX" />
+											<imageSecondState href="" />
+											<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+											<manaCost>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0</sString>
+											</manaCost>
+											<marker></marker>
+											<microAI href="" />
+											<minimapIcon>None</minimapIcon>
+											<minUseRangeCorrection>0</minUseRangeCorrection>
+											<naftaCost>0</naftaCost>
+											<name textref="" />
+											<node></node>
+											<openWarFogRadius>0</openWarFogRadius>
+											<passiveApplicators>
+												<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="F4286993-B815-4010-980E-66F581677A35">
+													<PermanentStatModApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<caption>записывалка ImLifeRestorerGlyph</caption>
+														<customApplyType>None</customApplyType>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<modifier>
+															<addValue>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</addValue>
+															<multValue>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</multValue>
+															<stat>Life</stat>
+															<topModifier>false</topModifier>
+															<variable>ImLifeRestorerGlyph</variable>
+														</modifier>
+														<providerName></providerName>
+													</PermanentStatModApplicator>
+												</Item>
+											</passiveApplicators>
+											<pickupAbility href="" />
+											<requireLineOfSight>true</requireLineOfSight>
+											<shortDescription textref="" />
+											<targetType>7</targetType>
+											<type>Passive</type>
+											<useRange>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0</sString>
+											</useRange>
+											<useRangeMaterial href="" />
+											<warFogRemoveRadius>0</warFogRemoveRadius>
+											<warFogRemoveTime>0</warFogRemoveTime>
+										</Glyph>
+									</glyph>
+									<weight>1</weight>
+								</Item>
+							</glyphs>
+						</GlyphsDB>
+					</glyphs>
 					<heightObject>false</heightObject>
 					<lockMask>
 						<mask />
@@ -46029,7 +46386,361 @@
 						<y1>0</y1>
 						<y2>0</y2>
 					</collision>
-					<glyphs href="/Glyphs/_.GLDB" />
+					<glyphs href="/Maps/Multiplayer/ARAM/_.ADMP" id="AF5B8433-1552-4995-8E78-5EFCB31E3E27">
+						<GlyphsDB>
+							<glyphs>
+								<Item>
+									<glyph href="/Maps/Multiplayer/ARAM/_.ADMP" id="65DDDD45-4D40-42DA-B3E9-BC6DD4686F14">
+										<Glyph>
+											<activeCustomTrigger>true</activeCustomTrigger>
+											<allowChase>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</allowChase>
+											<alternativeTargets />
+											<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+											<aoeHeight>0</aoeHeight>
+											<aoeMaterial href="" />
+											<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+											<aoeSize>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</aoeSize>
+											<aoeType>None</aoeType>
+											<applicators>
+												<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="549887A7-0E15-4A8F-BA61-9236EFC27DB6">
+													<StatusApplicator>
+														<applicators>
+															<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="ADCB565C-42BB-4605-8B98-78781D510FDA">
+																<SpellPeriodicallyApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>0</behaviorFlags>
+																	<caption>период спелл</caption>
+																	<effect>
+																		<Item href="/Effects/Buffs/Regen/_Cycle.EFFT" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<period>
+																		<compiledString>FQcAAAABAAAAEwAAAFBlcmlvZABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cPeriod</sString>
+																	</period>
+																	<providerName></providerName>
+																	<scaleMode>ScaleIsCount</scaleMode>
+																	<spell href="/Maps/Multiplayer/ARAM/_.ADMP" id="7A60066F-D7FC-4AF2-9CB7-32FE488F8CE9">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="BA0B8CB4-BABB-4CAB-A361-96E647B6866F">
+																					<HealApplicator>
+																						<amount>
+																							<compiledString>FQUAAAABAAAAEQAAAEhlYWwAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																							<returnType>float</returnType>
+																							<sString>cHeal</sString>
+																						</amount>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<caption>лечение здоровья</caption>
+																						<enabled>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<healTarget>Health</healTarget>
+																						<ignoreHealingMods>false</ignoreHealingMods>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<providerName></providerName>
+																						<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+																					</HealApplicator>
+																				</Item>
+																			</applicators>
+																			<dispatch href="/Maps/Multiplayer/ARAM/_.ADMP" id="866489CC-04C5-4484-8CA9-9736AE9DB401">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</spell>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<startOffset>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</startOffset>
+																	<targetSelector href="/Maps/Multiplayer/ARAM/_.ADMP" id="501431DE-D1A6-4177-B936-3EE0DC393323">
+																		<ComparingTargetSelector>
+																			<referenceValue>
+																				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>0</sString>
+																			</referenceValue>
+																			<targetSelector href="/Maps/Multiplayer/ARAM/_.ADMP" id="62538763-0325-4C08-B708-E4554D0BBE36">
+																				<ListOfTargetSelectors>
+																					<flags>0</flags>
+																					<mode>Normal</mode>
+																					<targetSelectors>
+																						<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="E1A003F1-7329-4453-8ACE-6659CFACA905">
+																							<SelectApplicatorTarget>
+																								<applicatorIndex>0</applicatorIndex>
+																								<applicatorName></applicatorName>
+																								<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																								<selectTarget>AbilityOwner</selectTarget>
+																							</SelectApplicatorTarget>
+																						</Item>
+																						<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="3B6DC309-6453-4EFD-9BD5-CC6034A13471">
+																							<RelativeUnitTargetSelector>
+																								<relation>AlphaSummon</relation>
+																							</RelativeUnitTargetSelector>
+																						</Item>
+																					</targetSelectors>
+																				</ListOfTargetSelectors>
+																			</targetSelector>
+																			<valueToCompare>
+																				<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLAv/Qi00MixGLTQyLQgzdXfj/0Nx9+Nld9NlF9IvlXcM=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>rLife / rMaxLife</sString>
+																			</valueToCompare>
+																		</ComparingTargetSelector>
+																	</targetSelector>
+																</SpellPeriodicallyApplicator>
+															</Item>
+														</applicators>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<behaviorFlags>0</behaviorFlags>
+														<caption>Статус</caption>
+														<customCounter>
+															<compiledString></compiledString>
+															<returnType>int</returnType>
+															<sString>0</sString>
+														</customCounter>
+														<customProgress>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</customProgress>
+														<description textref="/Maps/Multiplayer/ARAM/_.ADMP_549887a70e154a8fba619236efc27db6_description.txt" />
+														<dispellPriority>High</dispellPriority>
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<flags>0</flags>
+														<formulaName></formulaName>
+														<image href="/UI/Styles/Icons/Glyphs/glyph_life_status.ITEX" />
+														<lifeTime>
+															<compiledString>FTkAAAAFAAAAQAAAAFYAAABqAAAAhAAAAKkAAABSZWRzZXQ3XzdDb3VudGVyAAAAAER1cmF0aW9uAAAAAEV4dHJhRHVyYXRpb24AAABEdXJhdGlvbgBVi+yD7BRoAAAAAItFDIsQi00Mi4KIAQAA/9DcHcoAAADf4PbEAXU/i00MUYtVCFJoFAAAAItFEIsQi00Qi0JQ/9CLTQxRi1UIUmggAAAAi0UQixCLTRCLQlDdXfj/0NxF+N1d8Osdi00MUYtVCFJoMAAAAItFEIsQi00Qi0JQ/9DdXfDdRfDZXezZReyL5V3DAAAAAAAAAEA=</compiledString>
+															<returnType>float</returnType>
+															<sString>receiver.vRedset7_7Counter &gt;= 2? cDuration + cExtraDuration : cDuration</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<name textref="/Maps/Multiplayer/ARAM/_.ADMP_549887a70e154a8fba619236efc27db6_name.txt" />
+														<power>0</power>
+														<providerName></providerName>
+														<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+														<stackCount>0</stackCount>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+														<statusPosition>0</statusPosition>
+														<stopBehaviour>StopByTime</stopBehaviour>
+														<unstackableWith href="" />
+													</StatusApplicator>
+												</Item>
+											</applicators>
+											<autoTargetSelector href="" />
+											<caption></caption>
+											<castAllowRange>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</castAllowRange>
+											<castLimitations />
+											<color>
+												<A>1</A>
+												<B>1</B>
+												<G>1</G>
+												<R>1</R>
+											</color>
+											<commonDescription textref="" />
+											<compiledDescriptionA textref="" />
+											<compiledDescriptionB textref="" />
+											<conditionFormulas />
+											<constants href="/Maps/Multiplayer/ARAM/_.ADMP" id="8C74DE75-DAF0-4CCE-81E1-24A80B6BE820">
+												<UnitConstantsContainer>
+													<vars>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="ADC36C00-E7A3-4F7F-B520-D10895D4EA12">
+															<UnitConstant>
+																<name>Duration</name>
+																<var>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>6</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="53FF9926-EAF0-4629-9B24-A62CC80C0EAF">
+															<UnitConstant>
+																<name>Heal</name>
+																<var>
+																	<compiledString>FQAAAAADAAAAEwAAABkAAAAfAAAAVYvsUYtFDIsQi00Mi0IM/9DcDT0AAADcBTUAAADcDS0AAADZXfzZRfyL5V3DAAAAAAAA8D8AAAAAAABJQAAAAOBRuL4/</compiledString>
+																	<returnType>float</returnType>
+																	<sString>(rMaxLife * 0.12f + 50.0f)*(100/75)</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="D7FA5D97-0E6D-4399-87F4-F950218E68A5">
+															<UnitConstant>
+																<name>Period</name>
+																<var>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>2</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Items/Talents/TalentKits/Redset7_7_Glyph/const_Redset7_7ExtraDuration" />
+													</vars>
+												</UnitConstantsContainer>
+											</constants>
+											<cooldownTime>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0</sString>
+											</cooldownTime>
+											<cooldownTimeSecondState>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</cooldownTimeSecondState>
+											<description textref="" />
+											<dispatch href="/Maps/Multiplayer/ARAM/_.ADMP" id="53E2F130-1A27-4384-AA37-1C9330094AE0">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="/Effects/Buffs/Regen/_.EFFT" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>false</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+											<flags>1</flags>
+											<gameObject href="/Glyphs/LifeRestorer.SSO" />
+											<id>LifeRestorer</id>
+											<image href="/UI/Styles/Icons/Artifacts/_Test.ITEX" />
+											<imageSecondState href="" />
+											<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+											<manaCost>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0</sString>
+											</manaCost>
+											<marker></marker>
+											<microAI href="" />
+											<minimapIcon>None</minimapIcon>
+											<minUseRangeCorrection>0</minUseRangeCorrection>
+											<naftaCost>0</naftaCost>
+											<name textref="" />
+											<node></node>
+											<openWarFogRadius>0</openWarFogRadius>
+											<passiveApplicators>
+												<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="6F37DD4D-59B8-4186-AA1B-2FF6B52D510D">
+													<PermanentStatModApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<caption>записывалка ImLifeRestorerGlyph</caption>
+														<customApplyType>None</customApplyType>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<modifier>
+															<addValue>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</addValue>
+															<multValue>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</multValue>
+															<stat>Life</stat>
+															<topModifier>false</topModifier>
+															<variable>ImLifeRestorerGlyph</variable>
+														</modifier>
+														<providerName></providerName>
+													</PermanentStatModApplicator>
+												</Item>
+											</passiveApplicators>
+											<pickupAbility href="" />
+											<requireLineOfSight>true</requireLineOfSight>
+											<shortDescription textref="" />
+											<targetType>7</targetType>
+											<type>Passive</type>
+											<useRange>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0</sString>
+											</useRange>
+											<useRangeMaterial href="" />
+											<warFogRemoveRadius>0</warFogRemoveRadius>
+											<warFogRemoveTime>0</warFogRemoveTime>
+										</Glyph>
+									</glyph>
+									<weight>1</weight>
+								</Item>
+							</glyphs>
+						</GlyphsDB>
+					</glyphs>
 					<heightObject>false</heightObject>
 					<lockMask>
 						<mask />
@@ -46074,7 +46785,361 @@
 						<y1>0</y1>
 						<y2>0</y2>
 					</collision>
-					<glyphs href="/Glyphs/_.GLDB" />
+					<glyphs href="/Maps/Multiplayer/ARAM/_.ADMP" id="FD456585-CCB6-41BF-AB5E-251467922589">
+						<GlyphsDB>
+							<glyphs>
+								<Item>
+									<glyph href="/Maps/Multiplayer/ARAM/_.ADMP" id="BE879838-921A-4E98-81C8-FBE1C96556B7">
+										<Glyph>
+											<activeCustomTrigger>true</activeCustomTrigger>
+											<allowChase>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</allowChase>
+											<alternativeTargets />
+											<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+											<aoeHeight>0</aoeHeight>
+											<aoeMaterial href="" />
+											<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+											<aoeSize>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</aoeSize>
+											<aoeType>None</aoeType>
+											<applicators>
+												<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="E91B1D9B-CB74-4128-9020-524DC717D521">
+													<StatusApplicator>
+														<applicators>
+															<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="06B78579-0F24-49D3-88BB-EE05F560BF36">
+																<SpellPeriodicallyApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>0</behaviorFlags>
+																	<caption>период спелл</caption>
+																	<effect>
+																		<Item href="/Effects/Buffs/Regen/_Cycle.EFFT" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<period>
+																		<compiledString>FQcAAAABAAAAEwAAAFBlcmlvZABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cPeriod</sString>
+																	</period>
+																	<providerName></providerName>
+																	<scaleMode>ScaleIsCount</scaleMode>
+																	<spell href="/Maps/Multiplayer/ARAM/_.ADMP" id="97C094CC-F95C-4691-9DB4-66E1375559A1">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="DB495912-F85A-473E-9971-31DA7770F49C">
+																					<HealApplicator>
+																						<amount>
+																							<compiledString>FQUAAAABAAAAEQAAAEhlYWwAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																							<returnType>float</returnType>
+																							<sString>cHeal</sString>
+																						</amount>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<caption>лечение здоровья</caption>
+																						<enabled>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<healTarget>Health</healTarget>
+																						<ignoreHealingMods>false</ignoreHealingMods>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<providerName></providerName>
+																						<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+																					</HealApplicator>
+																				</Item>
+																			</applicators>
+																			<dispatch href="/Maps/Multiplayer/ARAM/_.ADMP" id="B9DB1971-898A-4BA9-9E7E-F4D6C0A25F15">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</spell>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<startOffset>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</startOffset>
+																	<targetSelector href="/Maps/Multiplayer/ARAM/_.ADMP" id="02B37C54-2A47-447F-9993-EC0CC646E054">
+																		<ComparingTargetSelector>
+																			<referenceValue>
+																				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>0</sString>
+																			</referenceValue>
+																			<targetSelector href="/Maps/Multiplayer/ARAM/_.ADMP" id="316DAD36-CDD1-4386-8EA2-DAD67829F673">
+																				<ListOfTargetSelectors>
+																					<flags>0</flags>
+																					<mode>Normal</mode>
+																					<targetSelectors>
+																						<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="0EEC7DAD-AE25-4061-AD86-D282BEE25407">
+																							<SelectApplicatorTarget>
+																								<applicatorIndex>0</applicatorIndex>
+																								<applicatorName></applicatorName>
+																								<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																								<selectTarget>AbilityOwner</selectTarget>
+																							</SelectApplicatorTarget>
+																						</Item>
+																						<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="64710FD0-61B7-436B-832F-794F6AEFA02A">
+																							<RelativeUnitTargetSelector>
+																								<relation>AlphaSummon</relation>
+																							</RelativeUnitTargetSelector>
+																						</Item>
+																					</targetSelectors>
+																				</ListOfTargetSelectors>
+																			</targetSelector>
+																			<valueToCompare>
+																				<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLAv/Qi00MixGLTQyLQgzdXfj/0Nx9+Nld9NlF9IvlXcM=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>rLife / rMaxLife</sString>
+																			</valueToCompare>
+																		</ComparingTargetSelector>
+																	</targetSelector>
+																</SpellPeriodicallyApplicator>
+															</Item>
+														</applicators>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<behaviorFlags>0</behaviorFlags>
+														<caption>Статус</caption>
+														<customCounter>
+															<compiledString></compiledString>
+															<returnType>int</returnType>
+															<sString>0</sString>
+														</customCounter>
+														<customProgress>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</customProgress>
+														<description textref="/Maps/Multiplayer/ARAM/_.ADMP_e91b1d9bcb7441289020524dc717d521_description.txt" />
+														<dispellPriority>High</dispellPriority>
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<flags>0</flags>
+														<formulaName></formulaName>
+														<image href="/UI/Styles/Icons/Glyphs/glyph_life_status.ITEX" />
+														<lifeTime>
+															<compiledString>FTkAAAAFAAAAQAAAAFYAAABqAAAAhAAAAKkAAABSZWRzZXQ3XzdDb3VudGVyAAAAAER1cmF0aW9uAAAAAEV4dHJhRHVyYXRpb24AAABEdXJhdGlvbgBVi+yD7BRoAAAAAItFDIsQi00Mi4KIAQAA/9DcHcoAAADf4PbEAXU/i00MUYtVCFJoFAAAAItFEIsQi00Qi0JQ/9CLTQxRi1UIUmggAAAAi0UQixCLTRCLQlDdXfj/0NxF+N1d8Osdi00MUYtVCFJoMAAAAItFEIsQi00Qi0JQ/9DdXfDdRfDZXezZReyL5V3DAAAAAAAAAEA=</compiledString>
+															<returnType>float</returnType>
+															<sString>receiver.vRedset7_7Counter &gt;= 2? cDuration + cExtraDuration : cDuration</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<name textref="/Maps/Multiplayer/ARAM/_.ADMP_e91b1d9bcb7441289020524dc717d521_name.txt" />
+														<power>0</power>
+														<providerName></providerName>
+														<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+														<stackCount>0</stackCount>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+														<statusPosition>0</statusPosition>
+														<stopBehaviour>StopByTime</stopBehaviour>
+														<unstackableWith href="" />
+													</StatusApplicator>
+												</Item>
+											</applicators>
+											<autoTargetSelector href="" />
+											<caption></caption>
+											<castAllowRange>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</castAllowRange>
+											<castLimitations />
+											<color>
+												<A>1</A>
+												<B>1</B>
+												<G>1</G>
+												<R>1</R>
+											</color>
+											<commonDescription textref="" />
+											<compiledDescriptionA textref="" />
+											<compiledDescriptionB textref="" />
+											<conditionFormulas />
+											<constants href="/Maps/Multiplayer/ARAM/_.ADMP" id="A9909C77-EBBB-4931-BD91-3B8EA89B8CF4">
+												<UnitConstantsContainer>
+													<vars>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="DA2C16CA-A198-40CC-8857-378B73F75FFA">
+															<UnitConstant>
+																<name>Duration</name>
+																<var>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>6</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="26823D38-199D-4CA8-BD5A-0F4071C3F25B">
+															<UnitConstant>
+																<name>Heal</name>
+																<var>
+																	<compiledString>FQAAAAADAAAAEwAAABkAAAAfAAAAVYvsUYtFDIsQi00Mi0IM/9DcDT0AAADcBTUAAADcDS0AAADZXfzZRfyL5V3DAAAAAAAA8D8AAAAAAABJQAAAAOBRuL4/</compiledString>
+																	<returnType>float</returnType>
+																	<sString>(rMaxLife * 0.12f + 50.0f)*(100/75)</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="07D26BE9-A9F4-49DD-A87F-9E8A11DCA429">
+															<UnitConstant>
+																<name>Period</name>
+																<var>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>2</sString>
+																</var>
+															</UnitConstant>
+														</Item>
+														<Item href="/Items/Talents/TalentKits/Redset7_7_Glyph/const_Redset7_7ExtraDuration" />
+													</vars>
+												</UnitConstantsContainer>
+											</constants>
+											<cooldownTime>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0</sString>
+											</cooldownTime>
+											<cooldownTimeSecondState>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</cooldownTimeSecondState>
+											<description textref="" />
+											<dispatch href="/Maps/Multiplayer/ARAM/_.ADMP" id="48CF35F1-5513-46F7-B6BE-2B50FA90768C">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="/Effects/Buffs/Regen/_.EFFT" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>false</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+											<flags>1</flags>
+											<gameObject href="/Glyphs/LifeRestorer.SSO" />
+											<id>LifeRestorer</id>
+											<image href="/UI/Styles/Icons/Artifacts/_Test.ITEX" />
+											<imageSecondState href="" />
+											<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+											<manaCost>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0</sString>
+											</manaCost>
+											<marker></marker>
+											<microAI href="" />
+											<minimapIcon>None</minimapIcon>
+											<minUseRangeCorrection>0</minUseRangeCorrection>
+											<naftaCost>0</naftaCost>
+											<name textref="" />
+											<node></node>
+											<openWarFogRadius>0</openWarFogRadius>
+											<passiveApplicators>
+												<Item href="/Maps/Multiplayer/ARAM/_.ADMP" id="822DE177-B126-4CB0-989A-73478BBFB742">
+													<PermanentStatModApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<caption>записывалка ImLifeRestorerGlyph</caption>
+														<customApplyType>None</customApplyType>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<modifier>
+															<addValue>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</addValue>
+															<multValue>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</multValue>
+															<stat>Life</stat>
+															<topModifier>false</topModifier>
+															<variable>ImLifeRestorerGlyph</variable>
+														</modifier>
+														<providerName></providerName>
+													</PermanentStatModApplicator>
+												</Item>
+											</passiveApplicators>
+											<pickupAbility href="" />
+											<requireLineOfSight>true</requireLineOfSight>
+											<shortDescription textref="" />
+											<targetType>7</targetType>
+											<type>Passive</type>
+											<useRange>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0</sString>
+											</useRange>
+											<useRangeMaterial href="" />
+											<warFogRemoveRadius>0</warFogRemoveRadius>
+											<warFogRemoveTime>0</warFogRemoveTime>
+										</Glyph>
+									</glyph>
+									<weight>1</weight>
+								</Item>
+							</glyphs>
+						</GlyphsDB>
+					</glyphs>
 					<heightObject>false</heightObject>
 					<lockMask>
 						<mask />
@@ -46110,6 +47175,474 @@
 			<scriptGroupName></scriptGroupName>
 			<scriptName></scriptName>
 		</Item>
+		<Item>
+			<gameObject href="/Terrain/Totems/_09.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>-24.84434</rotationZ>
+				<scaleX>1.58228</scaleX>
+				<scaleY>1.58228</scaleY>
+				<scaleZ>1.58228</scaleZ>
+				<translateX>125.3197</translateX>
+				<translateY>147.1267</translateY>
+				<translateZ>-0.2566055</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Totems/_10CTE.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>-82.75011</rotationX>
+				<rotationY>2.328364</rotationY>
+				<rotationZ>-139.6536</rotationZ>
+				<scaleX>0.9898855</scaleX>
+				<scaleY>0.9898855</scaleY>
+				<scaleZ>0.9898855</scaleZ>
+				<translateX>124.2564</translateX>
+				<translateY>146.94</translateY>
+				<translateZ>-0.07534921</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough07CTE.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1.380262</scaleX>
+				<scaleY>1.380262</scaleY>
+				<scaleZ>1.380262</scaleZ>
+				<translateX>66.84053</translateX>
+				<translateY>145.6647</translateY>
+				<translateZ>1.065831</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough05.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>-0.1892696</rotationX>
+				<rotationY>-7.986228</rotationY>
+				<rotationZ>-129.7002</rotationZ>
+				<scaleX>0.9170646</scaleX>
+				<scaleY>0.9170646</scaleY>
+				<scaleZ>0.8430195</scaleZ>
+				<translateX>71.09428</translateX>
+				<translateY>145.7182</translateY>
+				<translateZ>-0.3314764</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>0.319264</scaleX>
+				<scaleY>0.319264</scaleY>
+				<scaleZ>0.319264</scaleZ>
+				<translateX>123.5051</translateX>
+				<translateY>148.2591</translateY>
+				<translateZ>1.507644</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>0.319264</scaleX>
+				<scaleY>0.319264</scaleY>
+				<scaleZ>0.319264</scaleZ>
+				<translateX>122.3954</translateX>
+				<translateY>146.5407</translateY>
+				<translateZ>0.7780347</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>0.319264</scaleX>
+				<scaleY>0.319264</scaleY>
+				<scaleZ>0.319264</scaleZ>
+				<translateX>123.0645</translateX>
+				<translateY>147.1</translateY>
+				<translateZ>0.6350199</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>0.319264</scaleX>
+				<scaleY>0.319264</scaleY>
+				<scaleZ>0.319264</scaleZ>
+				<translateX>125.6857</translateX>
+				<translateY>145.1682</translateY>
+				<translateZ>1.24808</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>0.319264</scaleX>
+				<scaleY>0.319264</scaleY>
+				<scaleZ>0.319264</scaleZ>
+				<translateX>125.3973</translateX>
+				<translateY>145.7006</translateY>
+				<translateZ>1.046748</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/BaseB/Bottom3.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>214.1864</translateX>
+				<translateY>125.1589</translateY>
+				<translateZ>-0.00974226</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/BaseB/ConstructionBarrack.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>210.2644</translateX>
+				<translateY>107.2805</translateY>
+				<translateZ>-0.01339841</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Trees/Sakura3.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>131.982</rotationZ>
+				<scaleX>1.30302</scaleX>
+				<scaleY>1.30302</scaleY>
+				<scaleZ>1.30302</scaleZ>
+				<translateX>197.4169</translateX>
+				<translateY>148.611</translateY>
+				<translateZ>-1.115546</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Effects/Environment/Birds/_1.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>131.134</translateX>
+				<translateY>95</translateY>
+				<translateZ>8</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Effects/Environment/Birds/_2.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>130.0207</translateX>
+				<translateY>155.7164</translateY>
+				<translateZ>10</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Maps/Multiplayer/ARAM/_.ADMP" id="E35217C4-B7EA-4145-86A5-460EB2C0FCDE">
+				<GlyphSpawner>
+					<collision>
+						<x1>0</x1>
+						<x2>0</x2>
+						<y1>0</y1>
+						<y2>0</y2>
+					</collision>
+					<glyphs href="/Maps/Multiplayer/ARAM/_.ADMP" id="038DC22A-CA21-4BAA-B28C-6471F31B7A30">
+						<GlyphsDB>
+							<glyphs>
+								<Item>
+									<glyph href="/Glyphs/PrimeRune_ARAM.GLPH" />
+									<weight>1</weight>
+								</Item>
+							</glyphs>
+						</GlyphsDB>
+					</glyphs>
+					<heightObject>false</heightObject>
+					<lockMask>
+						<mask />
+						<tileSize>0.5</tileSize>
+					</lockMask>
+					<minLockScale>0</minLockScale>
+					<rounded>false</rounded>
+					<settings>
+						<maxAfterPickupSpawnDelay>120</maxAfterPickupSpawnDelay>
+						<maxInstances>1</maxInstances>
+						<maxNormalSpawnDelay>60</maxNormalSpawnDelay>
+						<minAfterPickupSpawnDelay>60</minAfterPickupSpawnDelay>
+						<minNormalSpawnDelay>60</minNormalSpawnDelay>
+						<spawnAttemptDelayDecrease>120</spawnAttemptDelayDecrease>
+						<spawnMode>RandomWeight</spawnMode>
+					</settings>
+					<useGlyphManager>false</useGlyphManager>
+				</GlyphSpawner>
+			</gameObject>
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>262.192</rotationZ>
+				<scaleX>1.254097</scaleX>
+				<scaleY>1.254097</scaleY>
+				<scaleZ>1.254097</scaleZ>
+				<translateX>129.8763</translateX>
+				<translateY>124.7435</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Glyphs/EyeGlyph.SSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>0</translateX>
+				<translateY>0</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>0.319264</scaleX>
+				<scaleY>0.319264</scaleY>
+				<scaleZ>0.319264</scaleZ>
+				<translateX>124.2624</translateX>
+				<translateY>145.7969</translateY>
+				<translateZ>1.008156</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough06.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>556.6063</rotationZ>
+				<scaleX>1.08502</scaleX>
+				<scaleY>1.08502</scaleY>
+				<scaleZ>0.7713302</scaleZ>
+				<translateX>99.98343</translateX>
+				<translateY>145.7567</translateY>
+				<translateZ>-0.3954232</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough05.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>-6.18564</rotationX>
+				<rotationY>2.134434E-07</rotationY>
+				<rotationZ>-59.6851</rotationZ>
+				<scaleX>1.008998</scaleX>
+				<scaleY>1.008998</scaleY>
+				<scaleZ>0.7386652</scaleZ>
+				<translateX>104.235</translateX>
+				<translateY>144.3308</translateY>
+				<translateZ>-0.7489227</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough06.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>325.5941</rotationZ>
+				<scaleX>1.099086</scaleX>
+				<scaleY>1.099086</scaleY>
+				<scaleZ>0.7527441</scaleZ>
+				<translateX>102.8383</translateX>
+				<translateY>147.5284</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough05.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>93.34387</rotationZ>
+				<scaleX>0.9518682</scaleX>
+				<scaleY>0.9518682</scaleY>
+				<scaleZ>0.9518682</scaleZ>
+				<translateX>101.56</translateX>
+				<translateY>107.6804</translateY>
+				<translateZ>-0.2888276</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough05.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>-152.2978</rotationZ>
+				<scaleX>1.079447</scaleX>
+				<scaleY>1.079447</scaleY>
+				<scaleZ>1.079447</scaleZ>
+				<translateX>152.4264</translateX>
+				<translateY>142.5784</translateY>
+				<translateZ>-0.3609945</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough05.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>2.305583</rotationX>
+				<rotationY>11.98555</rotationY>
+				<rotationZ>50</rotationZ>
+				<scaleX>0.9264367</scaleX>
+				<scaleY>0.9264369</scaleY>
+				<scaleZ>0.5741478</scaleZ>
+				<translateX>158.9825</translateX>
+				<translateY>107.1712</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Stones/Rough06.MSO" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>556.6063</rotationZ>
+				<scaleX>1.08502</scaleX>
+				<scaleY>1.08502</scaleY>
+				<scaleZ>0.7713302</scaleZ>
+				<translateX>156.0753</translateX>
+				<translateY>143.5793</translateY>
+				<translateZ>-0.3954232</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
 	</objects>
 	<ObjectsLayerFileName>/Maps/Multiplayer/ARAM/_.objectheight</ObjectsLayerFileName>
 	<pointLights>
@@ -46117,35 +47650,18 @@
 			<attenuation>Linear</attenuation>
 			<diffuse>
 				<A>1</A>
-				<B>0.1843137</B>
-				<G>0.1843137</G>
+				<B>0</B>
+				<G>0</G>
 				<R>1</R>
 			</diffuse>
-			<diffuseIntensity>0.5</diffuseIntensity>
-			<flags>1</flags>
+			<diffuseIntensity>15</diffuseIntensity>
+			<flags>3</flags>
 			<location>
-				<x>129.8349</x>
-				<y>125.2076</y>
-				<z>5</z>
+				<x>129.9956</x>
+				<y>124.8389</y>
+				<z>10.48359</z>
 			</location>
-			<range>20</range>
-		</Item>
-		<Item>
-			<attenuation>Linear</attenuation>
-			<diffuse>
-				<A>1</A>
-				<B>0.1843137</B>
-				<G>0.1843137</G>
-				<R>1</R>
-			</diffuse>
-			<diffuseIntensity>0.5</diffuseIntensity>
-			<flags>1</flags>
-			<location>
-				<x>106.8165</x>
-				<y>101.6024</y>
-				<z>0</z>
-			</location>
-			<range>20</range>
+			<range>18</range>
 		</Item>
 		<Item>
 			<attenuation>Normal</attenuation>
@@ -46165,19 +47681,104 @@
 			<range>15</range>
 		</Item>
 		<Item>
-			<attenuation>Normal</attenuation>
+			<attenuation>Linear</attenuation>
 			<diffuse>
 				<A>1</A>
-				<B>0.6078432</B>
-				<G>0.8431373</G>
+				<B>0</B>
+				<G>0</G>
 				<R>1</R>
 			</diffuse>
-			<diffuseIntensity>0.5</diffuseIntensity>
-			<flags>1</flags>
+			<diffuseIntensity>25</diffuseIntensity>
+			<flags>3</flags>
 			<location>
-				<x>208.3678</x>
-				<y>150.2123</y>
-				<z>10.38704</z>
+				<x>116.3858</x>
+				<y>115.3494</y>
+				<z>2.005719</z>
+			</location>
+			<range>8</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>25</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>116.1534</x>
+				<y>137.9069</y>
+				<z>1.635465</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>25</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>143.1513</x>
+				<y>111.7707</y>
+				<z>2.995435</z>
+			</location>
+			<range>8</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>25</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>142.3659</x>
+				<y>135.7388</y>
+				<z>2.764968</z>
+			</location>
+			<range>8</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0.2078431</B>
+				<G>0.2078431</G>
+				<R>0.2078431</R>
+			</diffuse>
+			<diffuseIntensity>10</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>34.21017</x>
+				<y>111.6603</y>
+				<z>8.675517</z>
+			</location>
+			<range>15</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0.2078431</B>
+				<G>0.2078431</G>
+				<R>0.2078431</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>55.61955</x>
+				<y>137.7344</y>
+				<z>7.008375</z>
 			</location>
 			<range>10</range>
 		</Item>
@@ -46185,18 +47786,290 @@
 			<attenuation>Linear</attenuation>
 			<diffuse>
 				<A>1</A>
-				<B>0.1843137</B>
-				<G>0.1843137</G>
+				<B>0.2078431</B>
+				<G>0.2078431</G>
+				<R>0.2078431</R>
+			</diffuse>
+			<diffuseIntensity>10</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>227.1196</x>
+				<y>147.1763</y>
+				<z>8.675517</z>
+			</location>
+			<range>15</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
 				<R>1</R>
 			</diffuse>
-			<diffuseIntensity>0.5</diffuseIntensity>
-			<flags>1</flags>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
 			<location>
-				<x>139.1094</x>
-				<y>165.3351</y>
-				<z>14.77213</z>
+				<x>175.2433</x>
+				<y>114.4416</y>
+				<z>2.671264</z>
 			</location>
-			<range>25</range>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>173.3092</x>
+				<y>138.0352</y>
+				<z>3.798244</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>168.4788</x>
+				<y>111.2391</y>
+				<z>2.410989</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>10</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>161.8495</x>
+				<y>110.1862</y>
+				<z>3.039328</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>153.7404</x>
+				<y>110.8107</y>
+				<z>3.827353</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>151.5859</x>
+				<y>139.1369</y>
+				<z>2.674041</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>158.7061</x>
+				<y>140.2854</y>
+				<z>2.732092</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>166.8454</x>
+				<y>139.4949</y>
+				<z>2.732092</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>99.61955</x>
+				<y>141.0561</y>
+				<z>2.826546</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>93.00916</x>
+				<y>140.2823</y>
+				<z>2.833249</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>85.96545</x>
+				<y>138.1384</y>
+				<z>2.555165</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>107.3125</x>
+				<y>110.6081</y>
+				<z>2.167393</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>100.2338</x>
+				<y>110.0328</y>
+				<z>2.546547</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>92.40311</x>
+				<y>110.6545</y>
+				<z>2.092803</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>127.3835</x>
+				<y>108.1684</y>
+				<z>1.204382</z>
+			</location>
+			<range>5</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0</B>
+				<G>0.145098</G>
+				<R>1</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>107.6904</x>
+				<y>139.8066</y>
+				<z>2.826546</z>
+			</location>
+			<range>5</range>
 		</Item>
 	</pointLights>
 	<postEffect href="" />

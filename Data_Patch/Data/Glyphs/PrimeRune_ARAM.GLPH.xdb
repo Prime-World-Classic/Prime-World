@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Glyph>
+	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMP" Count="1" />
+	<BackLink DBID="/Glyphs/_.GLDB" Count="1" />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators>
+		<Item href="/Glyphs/PrimeRune_ARAM.GLPH" id="5297AC2F-B425-4B60-B315-265A68A607E7">
+			<ProgramApplicator>
+				<applicators>
+					<Item>
+						<applicator href="/Glyphs/PrimeRune_ARAM.GLPH" id="14D3C81F-6A65-4BF2-A5CF-623056AB33FD">
+							<SpellApplicator>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<caption>спелл в гз</caption>
+								<enabled>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<spell href="/Glyphs/PrimeRune_ARAM.GLPH" id="7B1A0252-4393-4E1D-97A1-65F28DE12FD8">
+									<Spell>
+										<applicators>
+											<Item href="/Glyphs/PrimeRune_ARAM.GLPH" id="B898AA78-1674-4F49-B07C-D1EDCFF3E3AA">
+												<PermanentStatModApplicator>
+													<applyTarget>AbilityOwner</applyTarget>
+													<caption>сколько времени не подскажете</caption>
+													<customApplyType>None</customApplyType>
+													<enabled>
+														<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName>DayDuration1</formulaName>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FRUAAAACAAAAGgAAAC8AAABUYXJnZXQAAEdhbWVEdXJhdGlvbgBVi+xRaAAAAACLRRCLEItNEItCTP/QiUX8aAgAAACLTfyLEYtN/IuCiAEAAP/Qi+Vdww==</compiledString>
+															<returnType>float</returnType>
+															<sString>$ApplTarget-&gt;GetVariable("GameDuration")</sString>
+														</addValue>
+														<multValue>
+															<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+															<returnType>float</returnType>
+															<sString>0.0f</sString>
+														</multValue>
+														<stat>Life</stat>
+														<topModifier>false</topModifier>
+														<variable>GameDuration</variable>
+													</modifier>
+													<providerName></providerName>
+												</PermanentStatModApplicator>
+											</Item>
+										</applicators>
+										<dispatch href="/Glyphs/PrimeRune_ARAM.GLPH" id="0459A6B0-78D6-4450-B8A5-2D5F94801EB6">
+											<DispatchImmediate>
+												<alwaysApply>false</alwaysApply>
+												<applyEffect>
+													<Item href="" />
+													<Item href="" />
+												</applyEffect>
+												<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+												<applyEffectOrientation>Default</applyEffectOrientation>
+												<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+												<dieAfterApply>true</dieAfterApply>
+												<dispatchEffect>
+													<Item href="" />
+													<Item href="" />
+												</dispatchEffect>
+												<flags>0</flags>
+												<instantApply>true</instantApply>
+											</DispatchImmediate>
+										</dispatch>
+									</Spell>
+								</spell>
+								<spellTarget>ApplicatorTarget</spellTarget>
+								<targetSelector href="/Glyphs/PrimeRune_ARAM.GLPH" id="1C66EFA0-07B8-40C3-AD64-41AEAE5CB6DF">
+									<MainBuildingTargetSelector />
+								</targetSelector>
+							</SpellApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Glyphs/PrimeRune_ARAM.GLPH" id="282BB0C8-3CA2-47C5-A2CF-F92026D910F4">
+							<SpellApplicator>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<caption>спелл с праймом союзникам</caption>
+								<enabled>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<spell href="/Glyphs/PrimeRune_ARAM.GLPH" id="2F685F42-578E-4A16-AB36-80DB03D1E9D0">
+									<Spell>
+										<applicators>
+											<Item href="/Glyphs/PrimeRune_ARAM.GLPH" id="BC4062CA-E202-4EA0-8E3F-BB6F3A5D93DA">
+												<AddNaftaApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<caption>начисляем прайм</caption>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<isFromImpulseBuff>false</isFromImpulseBuff>
+													<LoggingEvent>-1</LoggingEvent>
+													<nafta>
+														<compiledString>FTUAAAAEAAEAPAAAAFIAAABxAAAAkQAAAO4AAABHYW1lRHVyYXRpb24AAAAAUHJpbWVfQWRkaXRpb25hbAAAAABQcmltZUFtb3VudF9CYXNlAFWL7IPsHGgAAAAAi0UIixCLTQiLgogBAAD/0Nw1xAAAANld/NlF/FHZHCToZwAAAIPEBItNDFGLVQhSaBAAAACLRRCLEItNEItCUN1d9P/Q3E30i00MUYtVCFJoJAAAAItFEIsQi00Qi0JQ3V3s/9DcRezZXejZRehR2Rwk6EgAAACDxASJReTbReSL5V3DAAAAAACAVkBVi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCToAv///4PECNld/NlF/IvlXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+														<returnType>float</returnType>
+														<sString>f2l(floor(sender.vGameDuration/90)*cPrime_Additional+cPrimeAmount_Base)</sString>
+													</nafta>
+													<providerName></providerName>
+												</AddNaftaApplicator>
+											</Item>
+										</applicators>
+										<dispatch href="/Glyphs/PrimeRune_ARAM.GLPH" id="01762835-DE7D-4F18-BBAD-672E1A949F0D">
+											<DispatchImmediate>
+												<alwaysApply>false</alwaysApply>
+												<applyEffect>
+													<Item href="" />
+													<Item href="" />
+												</applyEffect>
+												<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+												<applyEffectOrientation>Default</applyEffectOrientation>
+												<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+												<dieAfterApply>true</dieAfterApply>
+												<dispatchEffect>
+													<Item href="" />
+													<Item href="" />
+												</dispatchEffect>
+												<flags>0</flags>
+												<instantApply>false</instantApply>
+											</DispatchImmediate>
+										</dispatch>
+									</Spell>
+								</spell>
+								<spellTarget>ApplicatorTarget</spellTarget>
+								<targetSelector href="/Glyphs/PrimeRune_ARAM.GLPH" id="0E154325-3F5D-4A9C-8F3F-9060BB497579">
+									<HeroEnumerator>
+										<flags>2</flags>
+										<mode>Normal</mode>
+										<targetFilter>1342177283</targetFilter>
+									</HeroEnumerator>
+								</targetSelector>
+							</SpellApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>3</behaviorFlags>
+				<caption>Программа с начислением прайма</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+			</ProgramApplicator>
+		</Item>
+	</applicators>
+	<autoTargetSelector href="" />
+	<caption></caption>
+	<castAllowRange>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<color>
+		<A>1</A>
+		<B>1</B>
+		<G>1</G>
+		<R>1</R>
+	</color>
+	<commonDescription textref="" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas />
+	<constants href="/Glyphs/PrimeRune_ARAM.GLPH" id="2B5254D8-71B8-4E3A-A745-260A9342FA22">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Glyphs/PrimeRune_ARAM.GLPH" id="EB0DD876-3599-4299-8D57-BC780B53D406">
+					<UnitConstant>
+						<name>PrimeAmount_Base</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>100</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Glyphs/PrimeRune_ARAM.GLPH" id="1AC40711-56D4-4066-933E-DAAD4CADF97B">
+					<UnitConstant>
+						<name>Prime_Additional</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>20</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Glyphs/PrimeRune_ARAM.GLPH" id="329D1796-FA3C-45A8-83E6-1C88EFF7FFAF">
+					<UnitConstant>
+						<name>PrimeAmount</name>
+						<var>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<cooldownTime>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Glyphs/PrimeRune_ARAM.GLPH_description.txt" />
+	<dispatch href="/Glyphs/PrimeRune_ARAM.GLPH" id="3AE78F73-EC60-46DD-81E1-F355666D1186">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="/Effects/Buffs/SpeedingUp/_Move.EFFT" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>5</flags>
+	<gameObject href="/Glyphs/PrimeRune.SSO" />
+	<id>Booster</id>
+	<image href="/UI/Styles/Icons/Artifacts/_Test.ITEX" />
+	<imageSecondState href="" />
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minimapIcon>None</minimapIcon>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>0</naftaCost>
+	<name textref="/Glyphs/PrimeRune_ARAM.GLPH_name.txt" />
+	<node></node>
+	<openWarFogRadius>0</openWarFogRadius>
+	<passiveApplicators />
+	<pickupAbility href="" />
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="" />
+	<targetType>7</targetType>
+	<type>Passive</type>
+	<useRange>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Glyph>
