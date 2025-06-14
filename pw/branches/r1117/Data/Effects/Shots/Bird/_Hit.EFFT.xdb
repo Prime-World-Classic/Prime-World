@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectAttached>
 	<BackLink DBID="/Buildings/DefaultStats/DefaultMainAttack.ATCK" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Mains/_A.MBLD" Count="1" />
 	<attachFlags>0</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/Shots/Bird/_HitTRS.PRXY" />

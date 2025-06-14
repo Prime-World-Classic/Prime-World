@@ -2,6 +2,7 @@
 <DamageApplicator>
 	<BackLink DBID="/Buildings/A/Main/_.ATCK" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/DefaultMainAttack.ATCK" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Mains/_A.MBLD" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<cancelInvisibility>false</cancelInvisibility>
 	<caption>Настекивающийся урон</caption>

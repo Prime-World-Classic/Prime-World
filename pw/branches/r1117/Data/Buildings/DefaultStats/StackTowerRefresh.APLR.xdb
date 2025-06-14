@@ -7,6 +7,7 @@
 	<BackLink DBID="/Buildings/DefaultStats/ability_BTier1_AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/DefaultMainAttack.ATCK" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Towers/BottomA1.TOWR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Mains/_A.MBLD" Count="1" />
 	<actionsCount>
 		<compiledString></compiledString>
 		<returnType>int</returnType>

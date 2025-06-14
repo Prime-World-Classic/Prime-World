@@ -23,9 +23,9 @@
 		<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="3817A836-14C1-4E60-A9D9-E198DF230DAB">
 			<SpellSwitchApplicator>
 				<activeSpellIndex>
-					<compiledString>FRQAAAAEAAAAIwAAADYAAABKAAAAXQAAAFNwZWVkVG90YWwAAENEVG90YWwAVYvsg+wIi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHbUAAADf4PbERHpZi0UMUItNCFFoDAAAAItVEIsCi00Qi1BQ/9LcHbUAAADf4PbERHoWagNqAotFEIsQi00Qi0Jc/9CJRfzrFGoDagGLTRCLEYtNEItCXP/QiUX8i038iU346xRqA2oAi1UQiwKLTRCLUFz/0olF+ItF+IvlXcMAAAAAAAAkQA==</compiledString>
+					<compiledString>FRwAAAAGAAAAKwAAAD4AAABSAAAAZQAAAKsAAAC+AAAAU3BlZWRUb3RhbAAAQ0RUb3RhbABDRFRvdGFsAFWL7IPsEItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B0lAQAA3+D2xAF1WYtFDFCLTQhRaAwAAACLVRCLAotNEItQUP/S3B0lAQAA3+D2xAF1FmoDagKLRRCLEItNEItCXP/QiUX86xRqA2oBi00QixGLTRCLQlz/0IlF/ItN/IlN+Ot8i1UMUotFCFBoFAAAAItNEIsRi00Qi0JQ/9DcHSUBAADf4PbEAXU7agNqAYtNEIsRi00Qi0Jc/9CD+AF1CcdF9AAAAADrFGoDagKLTRCLEYtNEItCXP/QiUX0i030iU3w6xRqA2oAi1UQiwKLTRCLUFz/0olF8ItF8IlF+ItF+IvlXcMAAAAAAAAkQA==</compiledString>
 					<returnType>int</returnType>
-					<sString>(cSpeedTotal==10)? ((cCDTotal==10)?random(2,3):random(1,3)) : random(0,3)</sString>
+					<sString>(cSpeedTotal&gt;=10) ? ((cCDTotal&gt;=10) ? random(2,3) : random(1,3)) : ((cCDTotal&gt;=10) ? (random(1,3) == 1 ? 0 : random(2,3)) : random(0,3))</sString>
 				</activeSpellIndex>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<caption></caption>

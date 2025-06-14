@@ -188,7 +188,36 @@
 	</abilities>
 	<aoeRadius>20</aoeRadius>
 	<aoeUnitsCount>5</aoeUnitsCount>
-	<attackAbility href="/Buildings/DefaultStats/DefaultMainAttack.ATCK" />
+	<attackAbility href="/Maps/Multiplayer/ARAM/Mains/_B.MBLD" id="68BB9848-ECD4-4BE4-B67F-F087508183E4">
+		<BaseAttack parent="/Buildings/DefaultStats/DefaultMainAttack.ATCK">
+			<constants href="/Maps/Multiplayer/ARAM/Mains/_B.MBLD" id="D30B5751-47B9-4646-BDE1-7104704C9CBF">
+				<UnitConstantsContainer parent="/Buildings/DefaultStats/MainBuildingAttackConst.UCCN">
+					<vars>
+						<Item skip="1" />
+						<Item skip="1" />
+						<Item skip="1" />
+						<Item skip="1" />
+						<Item href="/Maps/Multiplayer/ARAM/Mains/_B.MBLD" id="813D5884-98A1-43CB-B30C-121AE5D6A0F7">
+							<UnitConstant>
+								<name>LowDmgVsSolders</name>
+								<var>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPw==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.6f*2</sString>
+								</var>
+							</UnitConstant>
+						</Item>
+						<Item skip="1" />
+						<Item skip="1" />
+						<Item skip="1" />
+						<Item skip="1" />
+						<Item skip="1" />
+					</vars>
+				</UnitConstantsContainer>
+			</constants>
+			<flags>1</flags>
+		</BaseAttack>
+	</attackAbility>
 	<maxAOEDelay>180</maxAOEDelay>
 	<minAOEDelay>180</minAOEDelay>
 	<stats href="/Maps/Multiplayer/ARAM/Mains/_B.MBLD" id="61355459-E8AE-4C62-B6B9-95186E6FC466">

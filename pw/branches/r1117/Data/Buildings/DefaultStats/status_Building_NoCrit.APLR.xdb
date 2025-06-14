@@ -6,6 +6,7 @@
 	<BackLink DBID="/Buildings/DefaultStats/ability_BTier1_AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/ability_BParent_AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/DefaultMainAttack.ATCK" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Mains/_A.MBLD" Count="1" />
 	<applicators>
 		<Item href="/Buildings/DefaultStats/status_Building_NoCrit.APLR" id="3FA1B383-0B1E-4ACB-A9C3-F8F6948CA9F7">
 			<TriggerApplicator>

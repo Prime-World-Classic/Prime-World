@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Buildings/DefaultStats/DefaultMainAttack.ATCK" Count="2" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Mains/_A.MBLD" Count="2" />
 	<applicators>
 		<Item href="/Buildings/DefaultStats/status_Building_RechargableShield.APLR" id="B7B1553B-731E-41C6-AEE0-D202FD53D3AA">
 			<AbsorbShieldApplicator>
