@@ -1,0 +1,1217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Glyph>
+	<BackLink DBID="/Maps/Test/PlaneMap/GiftGlyph/giftspawner.GLSPN" Count="1" />
+	<BackLink DBID="/Glyphs/_.GLDB" Count="1" />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators>
+		<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="3817A836-14C1-4E60-A9D9-E198DF230DAB">
+			<SpellSwitchApplicator>
+				<activeSpellIndex>
+					<compiledString>FRwAAAAGAAAAKwAAAD4AAABSAAAAZQAAAKsAAAC+AAAAU3BlZWRUb3RhbAAAQ0RUb3RhbABDRFRvdGFsAFWL7IPsEItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B0lAQAA3+D2xAF1WYtFDFCLTQhRaAwAAACLVRCLAotNEItQUP/S3B0lAQAA3+D2xAF1FmoDagKLRRCLEItNEItCXP/QiUX86xRqA2oBi00QixGLTRCLQlz/0IlF/ItN/IlN+Ot8i1UMUotFCFBoFAAAAItNEIsRi00Qi0JQ/9DcHSUBAADf4PbEAXU7agNqAYtNEIsRi00Qi0Jc/9CD+AF1CcdF9AAAAADrFGoDagKLTRCLEYtNEItCXP/QiUX0i030iU3w6xRqA2oAi1UQiwKLTRCLUFz/0olF8ItF8IlF+ItF+IvlXcMAAAAAAAAkQA==</compiledString>
+					<returnType>int</returnType>
+					<sString>(cSpeedTotal&gt;=10) ? ((cCDTotal&gt;=10) ? random(2,3) : random(1,3)) : ((cCDTotal&gt;=10) ? (random(1,3) == 1 ? 0 : random(2,3)) : random(0,3))</sString>
+				</activeSpellIndex>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<dontUseDispatches>false</dontUseDispatches>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spells>
+					<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="FB93028A-7829-4305-8B98-4392D0C5011D">
+						<Ability>
+							<activeCustomTrigger>true</activeCustomTrigger>
+							<allowChase>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</allowChase>
+							<alternativeTargets />
+							<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+							<aoeHeight>0</aoeHeight>
+							<aoeMaterial href="" />
+							<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+							<aoeSize>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</aoeSize>
+							<aoeType>None</aoeType>
+							<applicators>
+								<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="CCEB4794-98AE-4AF3-8897-45044695EEAD">
+									<PermanentStatModApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption></caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName>Speed</formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FSYAAAAGAAAANQAAAE8AAABoAAAAfAAAAI8AAAChAAAAU3BlZWQAAABTcGVlZFRvdGFsAABTcGVlZFRvdGFsAABTcGVlZABVi+yD7BSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaAgAAACLVRCLAotNEItQUN1d+P/S3EX43B3CAAAA3+D2xEF1JYtFDFCLTQhRaBQAAACLVRCLAotNEItQUP/S3C3CAAAA3V3w6x2LRQxQi00IUWggAAAAi1UQiwKLTRCLUFD/0t1d8N1F8Nld7NlF7IvlXcMAAAAAAAAkQA==</compiledString>
+												<returnType>float</returnType>
+												<sString>(cSpeed+cSpeedTotal)&gt;10? (10-cSpeedTotal) :cSpeed</sString>
+											</addValue>
+											<multValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</multValue>
+											<stat>MoveSpeed</stat>
+											<topModifier>false</topModifier>
+											<variable></variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+								<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="A560DE11-AEAE-4266-BA44-15EDC70FF922">
+									<UIMessageApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption></caption>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<message textref="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH_a560de11aeae4266ba4415edc70ff922_message.txt" />
+										<providerName></providerName>
+										<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff.UIEV" />
+										<value>
+											<compiledString>FSYAAAAGAAAANQAAAE8AAABoAAAAfAAAAI8AAAChAAAAU3BlZWQAAABTcGVlZFRvdGFsAABTcGVlZFRvdGFsAABTcGVlZABVi+yD7BSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaAgAAACLVRCLAotNEItQUN1d+P/S3EX43B3CAAAA3+D2xEF1JYtFDFCLTQhRaBQAAACLVRCLAotNEItQUP/S3C3CAAAA3V3w6x2LRQxQi00IUWggAAAAi1UQiwKLTRCLUFD/0t1d8N1F8Nld7NlF7IvlXcMAAAAAAAAkQA==</compiledString>
+											<returnType>float</returnType>
+											<sString>(cSpeed+cSpeedTotal)&gt;10? (10-cSpeedTotal) :cSpeed</sString>
+										</value>
+									</UIMessageApplicator>
+								</Item>
+								<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="81761579-7BEF-4897-8899-87F8615518F5">
+									<PermanentStatModApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption></caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FSYAAAAGAAAANQAAAE8AAABoAAAAfAAAAI8AAAChAAAAU3BlZWQAAABTcGVlZFRvdGFsAABTcGVlZFRvdGFsAABTcGVlZABVi+yD7BSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaAgAAACLVRCLAotNEItQUN1d+P/S3EX43B3CAAAA3+D2xEF1JYtFDFCLTQhRaBQAAACLVRCLAotNEItQUP/S3C3CAAAA3V3w6x2LRQxQi00IUWggAAAAi1UQiwKLTRCLUFD/0t1d8N1F8Nld7NlF7IvlXcMAAAAAAAAkQA==</compiledString>
+												<returnType>float</returnType>
+												<sString>(cSpeed+cSpeedTotal)&gt;10? (10-cSpeedTotal) :cSpeed</sString>
+											</addValue>
+											<multValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>false</topModifier>
+											<variable>SpeedTotal</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+							</applicators>
+							<autoTargetSelector href="" />
+							<caption>Speed</caption>
+							<castAllowRange>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</castAllowRange>
+							<castLimitations />
+							<commonDescription textref="" />
+							<compiledDescriptionA textref="" />
+							<compiledDescriptionB textref="" />
+							<conditionFormulas />
+							<constants href="" />
+							<cooldownTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</cooldownTime>
+							<cooldownTimeSecondState>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</cooldownTimeSecondState>
+							<description textref="" />
+							<dispatch href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="1F7CCECA-9554-495D-84A9-A5C225C8F9BA">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+							<flags>5</flags>
+							<image href="" />
+							<imageSecondState href="" />
+							<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+							<manaCost>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</manaCost>
+							<marker></marker>
+							<microAI href="" />
+							<minUseRangeCorrection>0</minUseRangeCorrection>
+							<name textref="" />
+							<node></node>
+							<passiveApplicators />
+							<requireLineOfSight>true</requireLineOfSight>
+							<shortDescription textref="" />
+							<targetType>136258047</targetType>
+							<type>Passive</type>
+							<useRange>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</useRange>
+							<useRangeMaterial href="" />
+							<warFogRemoveRadius>0</warFogRemoveRadius>
+							<warFogRemoveTime>0</warFogRemoveTime>
+						</Ability>
+					</Item>
+					<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="58CF7C0B-6907-43F9-B873-D6531137AE7A">
+						<Ability>
+							<activeCustomTrigger>true</activeCustomTrigger>
+							<allowChase>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</allowChase>
+							<alternativeTargets />
+							<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+							<aoeHeight>0</aoeHeight>
+							<aoeMaterial href="" />
+							<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+							<aoeSize>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</aoeSize>
+							<aoeType>None</aoeType>
+							<applicators>
+								<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="BF873C15-5EB0-424C-91FC-FDA16FEBD160">
+									<PermanentStatModApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption></caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName>CD</formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FTYAAAAGAAAARQAAAF8AAAB4AAAAjAAAAJ8AAACxAAAAQ29vbGRvd25SZWR1Y3Rpb24AAABDRFRvdGFsAENEVG90YWwAQ29vbGRvd25SZWR1Y3Rpb24AVYvsg+wUi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgUAAAAi1UQiwKLTRCLUFDdXfj/0txF+Nwd0gAAAN/g9sRBdSWLRQxQi00IUWgcAAAAi1UQiwKLTRCLUFD/0twt0gAAAN1d8Osdi0UMUItNCFFoJAAAAItVEIsCi00Qi1BQ/9LdXfDdRfDZXezZReyL5V3DAAAAAAAAJEA=</compiledString>
+												<returnType>float</returnType>
+												<sString>(cCooldownReduction+cCDTotal)&gt;10? (10-cCDTotal) :cCooldownReduction</sString>
+											</addValue>
+											<multValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>false</topModifier>
+											<variable>Total_CooldownReduction</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+								<Item href="/GameLogic/GeneralApplicators/CooldownReduction.APLR" />
+								<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="99D6BB3B-6B53-4320-BA55-96127125A141">
+									<UIMessageApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption></caption>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<message textref="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH_99d6bb3b6b534320ba5596127125a141_message.txt" />
+										<providerName></providerName>
+										<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff.UIEV" />
+										<value>
+											<compiledString>FTYAAAAGAAAARQAAAF8AAAB4AAAAjAAAAJ8AAACxAAAAQ29vbGRvd25SZWR1Y3Rpb24AAABDRFRvdGFsAENEVG90YWwAQ29vbGRvd25SZWR1Y3Rpb24AVYvsg+wUi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgUAAAAi1UQiwKLTRCLUFDdXfj/0txF+Nwd0gAAAN/g9sRBdSWLRQxQi00IUWgcAAAAi1UQiwKLTRCLUFD/0twt0gAAAN1d8Osdi0UMUItNCFFoJAAAAItVEIsCi00Qi1BQ/9LdXfDdRfDZXezZReyL5V3DAAAAAAAAJEA=</compiledString>
+											<returnType>float</returnType>
+											<sString>(cCooldownReduction+cCDTotal)&gt;10? (10-cCDTotal) :cCooldownReduction</sString>
+										</value>
+									</UIMessageApplicator>
+								</Item>
+								<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="EE243EB1-CE7C-4FCA-9F91-46179891632A">
+									<PermanentStatModApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption></caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FTYAAAAGAAAARQAAAF8AAAB4AAAAjAAAAJ8AAACxAAAAQ29vbGRvd25SZWR1Y3Rpb24AAABDRFRvdGFsAENEVG90YWwAQ29vbGRvd25SZWR1Y3Rpb24AVYvsg+wUi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgUAAAAi1UQiwKLTRCLUFDdXfj/0txF+Nwd0gAAAN/g9sRBdSWLRQxQi00IUWgcAAAAi1UQiwKLTRCLUFD/0twt0gAAAN1d8Osdi0UMUItNCFFoJAAAAItVEIsCi00Qi1BQ/9LdXfDdRfDZXezZReyL5V3DAAAAAAAAJEA=</compiledString>
+												<returnType>float</returnType>
+												<sString>(cCooldownReduction+cCDTotal)&gt;10? (10-cCDTotal) :cCooldownReduction</sString>
+											</addValue>
+											<multValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>false</topModifier>
+											<variable>CDTotal</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+							</applicators>
+							<autoTargetSelector href="" />
+							<caption>CDR</caption>
+							<castAllowRange>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</castAllowRange>
+							<castLimitations />
+							<commonDescription textref="" />
+							<compiledDescriptionA textref="" />
+							<compiledDescriptionB textref="" />
+							<conditionFormulas />
+							<constants href="" />
+							<cooldownTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</cooldownTime>
+							<cooldownTimeSecondState>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</cooldownTimeSecondState>
+							<description textref="" />
+							<dispatch href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="ECCCE07B-102D-49A3-AE23-D03E95BBFD7F">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+							<flags>1</flags>
+							<image href="" />
+							<imageSecondState href="" />
+							<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+							<manaCost>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</manaCost>
+							<marker></marker>
+							<microAI href="" />
+							<minUseRangeCorrection>0</minUseRangeCorrection>
+							<name textref="" />
+							<node></node>
+							<passiveApplicators />
+							<requireLineOfSight>true</requireLineOfSight>
+							<shortDescription textref="" />
+							<targetType>136258047</targetType>
+							<type>Passive</type>
+							<useRange>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</useRange>
+							<useRangeMaterial href="" />
+							<warFogRemoveRadius>0</warFogRemoveRadius>
+							<warFogRemoveTime>0</warFogRemoveTime>
+						</Ability>
+					</Item>
+					<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="34B39F8B-581C-420B-8665-23070BEEF3E9">
+						<Ability>
+							<activeCustomTrigger>true</activeCustomTrigger>
+							<allowChase>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</allowChase>
+							<alternativeTargets />
+							<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+							<aoeHeight>0</aoeHeight>
+							<aoeMaterial href="" />
+							<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+							<aoeSize>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</aoeSize>
+							<aoeType>None</aoeType>
+							<applicators>
+								<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="C27E2982-70DE-43D2-90D8-9AE6D2E80E1B">
+									<PermanentStatModApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption></caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName>Life</formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQUAAAABAAAAEQAAAExpZmUAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+												<returnType>float</returnType>
+												<sString>cLife</sString>
+											</addValue>
+											<multValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>false</topModifier>
+											<variable></variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+								<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="56B119A1-97DC-4E2D-B5E0-C997086E9DA2">
+									<UIMessageApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption></caption>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<message textref="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH_56b119a197dc4e2db5e0c997086e9da2_message.txt" />
+										<providerName></providerName>
+										<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff.UIEV" />
+										<value>
+											<compiledString>FQUAAAABAAAAEQAAAExpZmUAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+											<returnType>float</returnType>
+											<sString>cLife</sString>
+										</value>
+									</UIMessageApplicator>
+								</Item>
+								<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="5C608112-0AF7-47DB-972D-B13FBEFBF48B">
+									<PermanentStatModApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption></caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName>Life</formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQUAAAABAAAAEQAAAExpZmUAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+												<returnType>float</returnType>
+												<sString>cLife</sString>
+											</addValue>
+											<multValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>false</topModifier>
+											<variable>LifeTotal</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+							</applicators>
+							<autoTargetSelector href="" />
+							<caption>Life</caption>
+							<castAllowRange>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</castAllowRange>
+							<castLimitations />
+							<commonDescription textref="" />
+							<compiledDescriptionA textref="" />
+							<compiledDescriptionB textref="" />
+							<conditionFormulas />
+							<constants href="" />
+							<cooldownTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</cooldownTime>
+							<cooldownTimeSecondState>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</cooldownTimeSecondState>
+							<description textref="" />
+							<dispatch href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="A2CFBA6C-7311-4F89-A9EE-EE7A7FCC657B">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+							<flags>1</flags>
+							<image href="" />
+							<imageSecondState href="" />
+							<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+							<manaCost>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</manaCost>
+							<marker></marker>
+							<microAI href="" />
+							<minUseRangeCorrection>0</minUseRangeCorrection>
+							<name textref="" />
+							<node></node>
+							<passiveApplicators />
+							<requireLineOfSight>true</requireLineOfSight>
+							<shortDescription textref="" />
+							<targetType>136258047</targetType>
+							<type>Passive</type>
+							<useRange>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</useRange>
+							<useRangeMaterial href="" />
+							<warFogRemoveRadius>0</warFogRemoveRadius>
+							<warFogRemoveTime>0</warFogRemoveTime>
+						</Ability>
+					</Item>
+					<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="BDB8376B-6049-40AC-A6B3-9693E69BB2EA">
+						<Ability>
+							<activeCustomTrigger>true</activeCustomTrigger>
+							<allowChase>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</allowChase>
+							<alternativeTargets />
+							<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+							<aoeHeight>0</aoeHeight>
+							<aoeMaterial href="" />
+							<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+							<aoeSize>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</aoeSize>
+							<aoeType>None</aoeType>
+							<applicators>
+								<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="5F32D81E-00BD-4F95-867D-4A4B07DC56EA">
+									<SpellSwitchApplicator>
+										<activeSpellIndex>
+											<compiledString>FQAAAAAAAAAAVYvsg+wUVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/ItF/F6L5V3D</compiledString>
+											<returnType>int</returnType>
+											<sString>(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect ? 1 : 0 )</sString>
+										</activeSpellIndex>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption></caption>
+										<dontUseDispatches>true</dontUseDispatches>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spells>
+											<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="D67A5523-1643-476A-A471-14BEA5AB2677">
+												<Spell>
+													<applicators>
+														<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="0A4CF89D-EAFF-4E54-B7FD-8972C8DB6F7E">
+															<PermanentStatModApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<caption></caption>
+																<customApplyType>None</customApplyType>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FQQAAAABAAAAEAAAAFN0cgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cStr</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0f</sString>
+																	</multValue>
+																	<stat>Intellect</stat>
+																	<topModifier>false</topModifier>
+																	<variable></variable>
+																</modifier>
+																<providerName></providerName>
+															</PermanentStatModApplicator>
+														</Item>
+														<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="3BD958A2-18BD-4C27-ACF4-86D118442AD3">
+															<UIMessageApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<caption></caption>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<message textref="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH_3bd958a218bd4c27acf486d118442ad3_message.txt" />
+																<providerName></providerName>
+																<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff.UIEV" />
+																<value>
+																	<compiledString>FQQAAAABAAAAEAAAAFN0cgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																	<returnType>float</returnType>
+																	<sString>cStr</sString>
+																</value>
+															</UIMessageApplicator>
+														</Item>
+														<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="092B237D-CA14-4956-9E38-159D036F715E">
+															<PermanentStatModApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<caption></caption>
+																<customApplyType>None</customApplyType>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName>Int</formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FQQAAAABAAAAEAAAAFN0cgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cStr</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0f</sString>
+																	</multValue>
+																	<stat>Life</stat>
+																	<topModifier>false</topModifier>
+																	<variable>IntTotal</variable>
+																</modifier>
+																<providerName></providerName>
+															</PermanentStatModApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="" />
+												</Spell>
+											</Item>
+											<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="A3178222-A619-43E5-9E73-0DAA5F46674B">
+												<Spell>
+													<applicators>
+														<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="9BD28F9B-CB7B-4E08-AEF2-8CC755A64A19">
+															<PermanentStatModApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<caption></caption>
+																<customApplyType>None</customApplyType>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FQQAAAABAAAAEAAAAFN0cgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cStr</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0f</sString>
+																	</multValue>
+																	<stat>Strength</stat>
+																	<topModifier>false</topModifier>
+																	<variable></variable>
+																</modifier>
+																<providerName></providerName>
+															</PermanentStatModApplicator>
+														</Item>
+														<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="DC151A15-4077-463A-8028-545A2DAA6826">
+															<UIMessageApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<caption></caption>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<message textref="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH_dc151a154077463a8028545a2daa6826_message.txt" />
+																<providerName></providerName>
+																<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff.UIEV" />
+																<value>
+																	<compiledString>FQQAAAABAAAAEAAAAFN0cgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																	<returnType>float</returnType>
+																	<sString>cStr</sString>
+																</value>
+															</UIMessageApplicator>
+														</Item>
+														<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="EED96CAD-BE4C-4292-8CA1-D19523AA05FE">
+															<PermanentStatModApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<caption></caption>
+																<customApplyType>None</customApplyType>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName>Str</formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FQQAAAABAAAAEAAAAFN0cgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cStr</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0f</sString>
+																	</multValue>
+																	<stat>Life</stat>
+																	<topModifier>false</topModifier>
+																	<variable>StrTotal</variable>
+																</modifier>
+																<providerName></providerName>
+															</PermanentStatModApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="" />
+												</Spell>
+											</Item>
+										</spells>
+									</SpellSwitchApplicator>
+								</Item>
+							</applicators>
+							<autoTargetSelector href="" />
+							<caption>Str</caption>
+							<castAllowRange>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</castAllowRange>
+							<castLimitations />
+							<commonDescription textref="" />
+							<compiledDescriptionA textref="" />
+							<compiledDescriptionB textref="" />
+							<conditionFormulas />
+							<constants href="" />
+							<cooldownTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</cooldownTime>
+							<cooldownTimeSecondState>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</cooldownTimeSecondState>
+							<description textref="" />
+							<dispatch href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="6134FDF8-7DB9-46F1-B8B6-A1071992E039">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+							<flags>1</flags>
+							<image href="" />
+							<imageSecondState href="" />
+							<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+							<manaCost>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</manaCost>
+							<marker></marker>
+							<microAI href="" />
+							<minUseRangeCorrection>0</minUseRangeCorrection>
+							<name textref="" />
+							<node></node>
+							<passiveApplicators />
+							<requireLineOfSight>true</requireLineOfSight>
+							<shortDescription textref="" />
+							<targetType>136258047</targetType>
+							<type>Passive</type>
+							<useRange>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</useRange>
+							<useRangeMaterial href="" />
+							<warFogRemoveRadius>0</warFogRemoveRadius>
+							<warFogRemoveTime>0</warFogRemoveTime>
+						</Ability>
+					</Item>
+				</spells>
+			</SpellSwitchApplicator>
+		</Item>
+		<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="681C72C3-A6F0-4592-ACA5-1DE192912D3C">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="7E783385-A9D4-4A33-BD9C-7E83A52383C9">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption></caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>0.0f</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Life</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>248</behaviorFlags>
+				<caption>Статус</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH_681c72c3a6f04592aca51de192912d3c_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<image href="/Maps/Test/PlaneMap/GiftGlyph/Icon/LB_NewYear2020.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH_681c72c3a6f04592aca51de192912d3c_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>999</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>-90</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+	</applicators>
+	<autoTargetSelector href="" />
+	<caption></caption>
+	<castAllowRange>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<color>
+		<A>1</A>
+		<B>1</B>
+		<G>1</G>
+		<R>1</R>
+	</color>
+	<commonDescription textref="" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="9A355F29-198D-4F50-9982-5B7BCE6BA0C7">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQsAAAACAAAAEAAAACYAAABTcGVlZFRvdGFsAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUIAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSpeedTotal</sString>
+				</condition>
+				<name>Speed</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="145B1B4A-2223-440D-B722-FB72E5B412A2">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQoAAAACAAAADwAAACUAAABMaWZlVG90YWwAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdQQAAAN/g9sREewbGRf8B6wTGRf8AikX/i+VdwwAAAAAAAAAA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vLifeTotal</sString>
+				</condition>
+				<name>Life</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="A5F0034B-7A12-4AAB-8C05-41D65C551281">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQkAAAACAAAADgAAACQAAABTdHJUb3RhbABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1AAAAA3+D2xER7BsZF/wHrBMZF/wCKRf+L5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vStrTotal</sString>
+				</condition>
+				<name>Str</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="FC41AAE5-7F35-4653-93E8-DF1F26C52A68">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQgAAAACAAAADQAAACMAAABDRFRvdGFsAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHT8AAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vCDTotal</sString>
+				</condition>
+				<name>CD</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="A67F1C89-D5A1-453D-8E8E-1B0FD45950AF">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQkAAAACAAAADgAAACQAAABJbnRUb3RhbABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1AAAAA3+D2xER7BsZF/wHrBMZF/wCKRf+L5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vIntTotal</sString>
+				</condition>
+				<name>Int</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<constants href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="A522BB61-FE48-4F77-8F3C-EDF67234E7C1">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="CD8D7542-E110-4E9A-9D35-9EBE4D8547BB">
+					<UnitConstant>
+						<name>PrimeAmount_Base</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>70</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="25C04B4F-9F9C-4436-BB5B-B51490980200">
+					<UnitConstant>
+						<name>Prime_Additional</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>70</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="8FD7C113-70E3-43D0-A18D-9289B669EE4E">
+					<UnitConstant>
+						<name>PrimeAmount</name>
+						<var>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="DB0296A4-FE35-4951-8C1F-75127FB2A3E9">
+					<UnitConstant>
+						<name>Speed</name>
+						<var>
+							<compiledString>FQAAAAABAAAAHgAAAFWL7IPsCItFCIsQi00Ii4JgAQAA/9CJRfzbRfzcDSwAAADZXfjZRfiL5V3DmpmZmZmZqT8=</compiledString>
+							<returnType>float</returnType>
+							<sString>0.05*sNaftaLevel</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="3C4657B2-0652-4266-B5D6-CA54C1F26D82">
+					<UnitConstant>
+						<name>Life</name>
+						<var>
+							<compiledString>FQAAAAACAAAAHgAAACQAAABVi+yD7AiLRQiLEItNCIuCYAEAAP/QiUX820X83A06AAAA3AUyAAAA2V342UX4i+VdwwAAAAAAAD5AzczMzMzMAEA=</compiledString>
+							<returnType>float</returnType>
+							<sString>30+2.1*sNaftaLevel</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="F742BF4F-5898-474A-91A1-83B57C857FB7">
+					<UnitConstant>
+						<name>Str</name>
+						<var>
+							<compiledString>FQAAAAABAAAAHgAAAFWL7IPsCItFCIsQi00Ii4JgAQAA/9CJRfzbRfzcDTgAAADZ6N7B2V342UX4i+VdwwAAAAAAAPA/7FG4HoXrsT8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1+0.07*sNaftaLevel</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="FFA8D993-4CBF-4D75-963F-5E4DD8B9BD7A">
+					<UnitConstant>
+						<name>SpeedTotal</name>
+						<var>
+							<compiledString>FQsAAAABAAAADwAAAFNwZWVkVG90YWwAVYvsaAAAAACLRQiLEItNCIuCiAEAAP/QXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vSpeedTotal</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="9687F5CF-7BCE-45DC-8F5D-95BAE8C7C937">
+					<UnitConstant>
+						<name>LifeTotal</name>
+						<var>
+							<compiledString>FQoAAAABAAAADgAAAExpZmVUb3RhbABVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9Bdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vLifeTotal</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="92842E07-E00A-493C-BF93-1037D6ECC497">
+					<UnitConstant>
+						<name>StrTotal</name>
+						<var>
+							<compiledString>FQkAAAABAAAADQAAAFN0clRvdGFsAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vStrTotal</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="7EA8A625-0CF2-4FC9-8AA1-D36F2FDDBA1C">
+					<UnitConstant>
+						<name>CDTotal</name>
+						<var>
+							<compiledString>FQgAAAABAAAADAAAAENEVG90YWwAVYvsaAAAAACLRQiLEItNCIuCiAEAAP/QXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vCDTotal</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="BBCAB044-88CD-45EF-A864-FCEBB3BAABDE">
+					<UnitConstant>
+						<name>CooldownReduction</name>
+						<var>
+							<compiledString>FQAAAAABAAAAHgAAAFWL7IPsCItFCIsQi00Ii4JgAQAA/9CJRfzbRfzcDSwAAADZXfjZRfiL5V3DmpmZmZmZqT8=</compiledString>
+							<returnType>float</returnType>
+							<sString>0.05*sNaftaLevel</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="D71E8025-22BB-442A-804F-FDD77CC7E7FB">
+					<UnitConstant>
+						<name>IntTotal</name>
+						<var>
+							<compiledString>FQkAAAABAAAADQAAAEludFRvdGFsAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vIntTotal</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<cooldownTime>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH_description.txt" />
+	<dispatch href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH" id="75F9BF53-051C-4A3C-BB84-DCF81C348CC1">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="/Effects/Buffs/SpeedingUp/_Move.EFFT" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>5</flags>
+	<gameObject href="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.SSO" />
+	<id>Booster</id>
+	<image href="/UI/Styles/Icons/Artifacts/_Test.ITEX" />
+	<imageSecondState href="" />
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minimapIcon>None</minimapIcon>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>0</naftaCost>
+	<name textref="/Maps/Test/PlaneMap/GiftGlyph/PrimeRune.GLPH_name.txt" />
+	<node></node>
+	<openWarFogRadius>0</openWarFogRadius>
+	<passiveApplicators />
+	<pickupAbility href="" />
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="" />
+	<targetType>7</targetType>
+	<type>Passive</type>
+	<useRange>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Glyph>
