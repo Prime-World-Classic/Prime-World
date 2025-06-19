@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Consumables/status_Eye.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G510_FireWard.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/status_G076_summonEye.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

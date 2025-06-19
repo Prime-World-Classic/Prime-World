@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
 	<BackLink DBID="/Items/Consumables/LittleTSightPotion.ARCT" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

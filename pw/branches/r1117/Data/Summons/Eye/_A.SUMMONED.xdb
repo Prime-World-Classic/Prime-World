@@ -2,6 +2,7 @@
 <Summoned>
 	<BackLink DBID="/Items/Consumables/EyeOfSeeing.ARCT" Count="1" />
 	<BackLink DBID="/Test/Talents/EyeOfSeeing.TALENT" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" Count="1" />
 	<abilities>
 		<Item href="" />
 		<Item href="" />

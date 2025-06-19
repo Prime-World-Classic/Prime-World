@@ -1,6 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Shop parent="/Buildings/B/Shop/_Parent.SHOP">
 	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMP" Count="1" />
-	<shop href="/Buildings/DefaultStats/MidOnly_ShopList.CNSH" />
+	<faction>Freeze</faction>
+	<shop href="/Maps/Multiplayer/ARAM/Shops/_B.SHOP" id="B7DDEE30-EF25-472E-A98D-1273AACFD1A8">
+		<ConsumablesShop parent="/Buildings/DefaultStats/MidOnly_ShopList.CNSH">
+			<items>
+				<Item skip="1" />
+				<Item skip="1" />
+				<Item skip="1" />
+				<Item skip="1" />
+				<Item href="/Maps/Multiplayer/ARAM/Shops/_B.SHOP" id="FD3E5567-57E8-43B4-8959-30EC9F242EC5">
+					<Consumable parent="/Items/Consumables/LittleTSightPotion.ARCT">
+						<naftaCost>1000</naftaCost>
+					</Consumable>
+				</Item>
+				<Item skip="1" />
+				<Item href="/Maps/Multiplayer/ARAM/Shops/_B.SHOP" id="72A150D9-9F9B-4F35-A31D-79B7527453BE">
+					<Consumable parent="/Items/Consumables/EyeOfSeeing.ARCT">
+						<naftaCost>1500</naftaCost>
+					</Consumable>
+				</Item>
+				<Item skip="1" />
+				<Item skip="1" />
+			</items>
+		</ConsumablesShop>
+	</shop>
 	<stats href="/Buildings/DefaultStats/Shop.STCN" />
 </Shop>

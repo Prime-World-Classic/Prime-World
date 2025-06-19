@@ -25,6 +25,7 @@
 	<BackLink DBID="/Items/Talents/Level2/G396_BurnLand.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G510_FireWard.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" Count="1" />
 	<signRecipients>PLAYER_ONLY</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/ErrorMessages/CastError_UnsuitablePlace.UIEV" id="9E35EE21-A5F5-49CF-90A2-EECA616CC2E0">

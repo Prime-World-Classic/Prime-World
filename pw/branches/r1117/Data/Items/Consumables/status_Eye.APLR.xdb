@@ -8,6 +8,7 @@
 	<BackLink DBID="/Items/Talents/Level2/G341_Aspd_CreateWard.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G510_FireWard.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_7_Glyph/Summon_Glyph.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" Count="1" />
 	<applicators>
 		<Item href="/Items/Consumables/status_Eye.APLR" id="6A0D4EE6-43FD-42F0-8A39-7D3F1EA906EC">
 			<TriggerApplicator>
