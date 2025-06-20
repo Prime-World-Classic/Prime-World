@@ -10207,12 +10207,12 @@
 				<leftWidth>260</leftWidth>
 				<nodes>
 					<Item>
-						<x>79.74809</x>
-						<y>126.1879</y>
+						<x>80</x>
+						<y>125</y>
 					</Item>
 					<Item>
-						<x>179.3009</x>
-						<y>127.4137</y>
+						<x>180</x>
+						<y>125</y>
 					</Item>
 				</nodes>
 				<rightWidth>260</rightWidth>
