@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Shop parent="/Buildings/A/Shop/_Parent.SHOP">
 	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMP" Count="1" />
+	<faction>Freeze</faction>
 	<shop href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="DBA24BCE-D757-4917-BD75-5FA283FB73F7">
 		<ConsumablesShop>
 			<interactionRadius>30</interactionRadius>
@@ -9,15 +10,14 @@
 				<Item href="/Items/Consumables/EnergyPotion.ARCT" />
 				<Item href="/Items/Consumables/SpeedPotion.ARCT" />
 				<Item href="/Items/Consumables/CleansingPotion.ARCT" />
-				<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="854EE80C-9F45-4D5D-8F65-7CFE18B4A408">
-					<Consumable>
+				<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="67EF1B18-249D-4C69-B2E9-3F5F0DE05C4C">
+					<Consumable parent="/Items/Consumables/LittleTSightPotion.ARCT">
 						<activeCustomTrigger>true</activeCustomTrigger>
 						<allowChase>
 							<compiledString></compiledString>
 							<returnType>bool</returnType>
 							<sString>true</sString>
 						</allowChase>
-						<alternativeTargets />
 						<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
 						<aoeHeight>0</aoeHeight>
 						<aoeMaterial href="" />
@@ -39,7 +39,7 @@
 							<sString>0.0f</sString>
 						</castAllowRange>
 						<castLimitations>
-							<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="DA082EB0-512B-4170-A1A5-985F847DBBE9">
+							<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="92163501-AA0A-45A5-9214-E32DCC9FC0A5">
 								<ConditionCastLimitation>
 									<condition>
 										<compiledString>FRAAAAABAAAAGgAAAFN0YXR1c1RydWVTaWdodABVi+xqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9AzyTtFEA+UwYrBXcM=</compiledString>
@@ -50,14 +50,10 @@
 								</ConditionCastLimitation>
 							</Item>
 						</castLimitations>
-						<commonDescription textref="" />
-						<compiledDescriptionA textref="" />
-						<compiledDescriptionB textref="" />
-						<conditionFormulas />
-						<constants href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="6BBF1AA1-536C-4DF9-8A38-26C216DDC800">
+						<constants href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="BB69D1A1-1A0D-4377-BCAB-2E9E372FC9DA">
 							<UnitConstantsContainer>
 								<vars>
-									<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="CEAA263A-9A2B-492D-926B-8296F8B20CF8">
+									<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="17911732-745C-4CBF-B81F-014062312C03">
 										<UnitConstant>
 											<name>TrueSight_Duration</name>
 											<var>
@@ -67,7 +63,7 @@
 											</var>
 										</UnitConstant>
 									</Item>
-									<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="E09A33EC-3D3E-4C05-ADE2-6D2D82D31AD6">
+									<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="C9266027-E8C0-490C-AC66-4AD246493AC3">
 										<UnitConstant>
 											<name>TT_TrueSight_Duration</name>
 											<var>
@@ -90,8 +86,7 @@
 							<returnType>float</returnType>
 							<sString>0.0f</sString>
 						</cooldownTimeSecondState>
-						<description textref="" />
-						<dispatch href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="A68BD1B8-04FB-431C-B338-5E3E8AE8E41C">
+						<dispatch href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="7AB17E09-A850-41B8-9DBE-1731EEF461CA">
 							<DispatchImmediate>
 								<alwaysApply>false</alwaysApply>
 								<applyEffect>
@@ -126,12 +121,9 @@
 						<microAI href="" />
 						<minUseRangeCorrection>0</minUseRangeCorrection>
 						<naftaCost>1000</naftaCost>
-						<name textref="" />
 						<node></node>
-						<passiveApplicators />
 						<persistentId></persistentId>
 						<requireLineOfSight>true</requireLineOfSight>
-						<shortDescription textref="" />
 						<targetType>0</targetType>
 						<type>Active</type>
 						<useRange>
@@ -140,285 +132,6 @@
 							<sString>0.0f</sString>
 						</useRange>
 						<useRangeMaterial href="" />
-						<warFogRemoveRadius>0</warFogRemoveRadius>
-						<warFogRemoveTime>0</warFogRemoveTime>
-					</Consumable>
-				</Item>
-				<Item href="/Items/Consumables/TrueSightPotion.ARCT" />
-				<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="914A575E-CFD1-492E-8F69-875C542A2EA2">
-					<Consumable>
-						<activeCustomTrigger>true</activeCustomTrigger>
-						<allowChase>
-							<compiledString></compiledString>
-							<returnType>bool</returnType>
-							<sString>true</sString>
-						</allowChase>
-						<alternativeTargets />
-						<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
-						<aoeHeight>0</aoeHeight>
-						<aoeMaterial href="/Effects/UI/AOESelection/Circle.MTRL" />
-						<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
-						<aoeSize>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>14</sString>
-						</aoeSize>
-						<aoeType>Disk</aoeType>
-						<applicators>
-							<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="08DFAE56-F4B5-40AB-8A16-E5925D0576E1">
-								<SummonApplicator>
-									<applicators>
-										<Item href="/Items/Consumables/status_Eye.APLR" />
-										<Item href="/Items/Consumables/_obstacle_Vision.APLR" />
-									</applicators>
-									<applyTarget>AbilityOwner</applyTarget>
-									<behaviour href="" />
-									<caption>создать глаз</caption>
-									<enabled>
-										<compiledString></compiledString>
-										<returnType>bool</returnType>
-										<sString>true</sString>
-									</enabled>
-									<flags>0</flags>
-									<formulaName></formulaName>
-									<lifeTime>
-										<compiledString>FQkAAAABAAAAFQAAAER1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-										<returnType>float</returnType>
-										<sString>cDuration</sString>
-									</lifeTime>
-									<LoggingEvent>-1</LoggingEvent>
-									<openWarFog>true</openWarFog>
-									<placeMode>ByTargetSelector</placeMode>
-									<placeSelector href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="524BBE2C-FC98-4DC0-8E5F-095D0ADE7108">
-										<UnitPlaceCorrector>
-											<checkByRangeToRequester>false</checkByRangeToRequester>
-											<checkLineOfSight>false</checkLineOfSight>
-											<nativeTerrainOnly>false</nativeTerrainOnly>
-											<passabilityCheckMode>0</passabilityCheckMode>
-											<radius>0</radius>
-											<targetSelector href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="C852E427-9BC3-487D-BD26-FB7DE4439B6D">
-												<SelectApplicatorTarget>
-													<applicatorIndex>0</applicatorIndex>
-													<applicatorName></applicatorName>
-													<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
-													<selectTarget>AbilityTarget</selectTarget>
-												</SelectApplicatorTarget>
-											</targetSelector>
-										</UnitPlaceCorrector>
-									</placeSelector>
-									<providerName></providerName>
-									<spawnStats>
-										<energy>
-											<compiledString></compiledString>
-											<returnType>float</returnType>
-											<sString>-1.0</sString>
-										</energy>
-										<life>
-											<compiledString></compiledString>
-											<returnType>float</returnType>
-											<sString>-1.0</sString>
-										</life>
-									</spawnStats>
-									<summonedUnitIndex>
-										<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgpABAAD/0IPoAV3D</compiledString>
-										<returnType>int</returnType>
-										<sString>sFctn-1</sString>
-									</summonedUnitIndex>
-									<summonedUnits>
-										<Item href="/Summons/Eye/_A.SUMMONED" />
-										<Item href="/Summons/Eye/_B.SUMMONED" />
-									</summonedUnits>
-									<summonedUnitsCount>
-										<compiledString></compiledString>
-										<returnType>int</returnType>
-										<sString>1</sString>
-									</summonedUnitsCount>
-									<summonGroupName></summonGroupName>
-									<summonSource>ByApplicator</summonSource>
-									<takeModDmg>
-										<compiledString></compiledString>
-										<returnType>float</returnType>
-										<sString>1.0f</sString>
-									</takeModDmg>
-									<takeTypeUnit>10428927</takeTypeUnit>
-									<unsummonSortCriterion>
-										<compiledString></compiledString>
-										<returnType>float</returnType>
-										<sString>0.0f</sString>
-									</unsummonSortCriterion>
-								</SummonApplicator>
-							</Item>
-						</applicators>
-						<autoTargetSelector href="" />
-						<caption></caption>
-						<castAllowRange>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>0.0f</sString>
-						</castAllowRange>
-						<castLimitations>
-							<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="3CFC2673-E120-4627-865A-ABECAA2135E2">
-								<TargetCastLimitation>
-									<targetSelector href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="9185E240-D09B-4FCF-BC68-1741696FABD9">
-										<UnitPlaceCorrector>
-											<checkByRangeToRequester>false</checkByRangeToRequester>
-											<checkLineOfSight>false</checkLineOfSight>
-											<nativeTerrainOnly>false</nativeTerrainOnly>
-											<passabilityCheckMode>0</passabilityCheckMode>
-											<radius>0</radius>
-											<targetSelector href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="BCACF62D-96DA-4883-8AD4-09E44C290BEA">
-												<ConvertTargetToLand>
-													<aggregateMode>First</aggregateMode>
-													<targetSelector href="" />
-												</ConvertTargetToLand>
-											</targetSelector>
-										</UnitPlaceCorrector>
-									</targetSelector>
-									<uiEvent href="/UI/Events/ErrorMessages/CastError_UnsuitablePlace.UIEV" />
-								</TargetCastLimitation>
-							</Item>
-						</castLimitations>
-						<commonDescription textref="" />
-						<compiledDescriptionA textref="" />
-						<compiledDescriptionB textref="" />
-						<conditionFormulas>
-							<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="6F8D0805-9525-4A1C-8D61-C92226090529">
-								<ConditionFormula>
-									<condition>
-										<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNzI0AAAAAEc3MjQAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
-										<returnType>bool</returnType>
-										<sString>tal("G724") == false</sString>
-									</condition>
-									<name>G724</name>
-								</ConditionFormula>
-							</Item>
-						</conditionFormulas>
-						<constants href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="9289F9FF-473A-43F6-BF26-C175A5B6911A">
-							<UnitConstantsContainer>
-								<vars>
-									<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="8097BBAB-132C-4E37-B66A-98BAAA4A30CE">
-										<UnitConstant>
-											<name>Duration</name>
-											<var>
-												<compiledString>FRAAAAACAAAAHQAAADAAAABEdXJhdGlvbk1pbnV0ZXMAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A0+AAAA2V382UX8i+VdwwAAAAAAAE5A</compiledString>
-												<returnType>float</returnType>
-												<sString>cDurationMinutes * 60</sString>
-											</var>
-										</UnitConstant>
-									</Item>
-									<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="45A37D56-0949-4376-9F4E-880AC1FC08CA">
-										<UnitConstant>
-											<name>DurationMinutes</name>
-											<var>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
-												<returnType>float</returnType>
-												<sString>6</sString>
-											</var>
-										</UnitConstant>
-									</Item>
-									<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="4282B209-3FFB-43A7-AF8E-69D33455814E">
-										<UnitConstant>
-											<name>Invisibility_Duration</name>
-											<var>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
-												<returnType>float</returnType>
-												<sString>-1</sString>
-											</var>
-										</UnitConstant>
-									</Item>
-									<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="E0DEA6B1-0813-49BE-A64D-CFABF7A41915">
-										<UnitConstant>
-											<name>Invisibility_FadeIn</name>
-											<var>
-												<compiledString></compiledString>
-												<returnType>float</returnType>
-												<sString>0.0f</sString>
-											</var>
-										</UnitConstant>
-									</Item>
-									<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="438889EC-8218-456C-A57F-ED4DD6305882">
-										<UnitConstant>
-											<name>TrueSight_Duration</name>
-											<var>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
-												<returnType>float</returnType>
-												<sString>-1</sString>
-											</var>
-										</UnitConstant>
-									</Item>
-									<Item href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="6B0AF2E5-3EA4-470D-8613-D7F0AE43EEE1">
-										<UnitConstant>
-											<name>VisRange</name>
-											<var>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQQ==</compiledString>
-												<returnType>float</returnType>
-												<sString>16</sString>
-											</var>
-										</UnitConstant>
-									</Item>
-								</vars>
-							</UnitConstantsContainer>
-						</constants>
-						<cooldownTime>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>30</sString>
-						</cooldownTime>
-						<cooldownTimeSecondState>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>0.0f</sString>
-						</cooldownTimeSecondState>
-						<description textref="" />
-						<dispatch href="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" id="F947DCFE-B196-4059-8FC2-E995C4332195">
-							<DispatchImmediate>
-								<alwaysApply>false</alwaysApply>
-								<applyEffect>
-									<Item href="" />
-									<Item href="" />
-								</applyEffect>
-								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-								<applyEffectOrientation>Default</applyEffectOrientation>
-								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-								<dieAfterApply>true</dieAfterApply>
-								<dispatchEffect>
-									<Item href="" />
-									<Item href="" />
-								</dispatchEffect>
-								<flags>0</flags>
-								<instantApply>false</instantApply>
-							</DispatchImmediate>
-						</dispatch>
-						<flags>19</flags>
-						<gameObject href="" />
-						<image href="/UI/Styles/Icons/Artifacts/EyeYellow.ITEX" />
-						<imageSecondState href="" />
-						<isPotion>false</isPotion>
-						<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
-						<manaCost>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>0.0f</sString>
-						</manaCost>
-						<marker></marker>
-						<maxQuantity>10</maxQuantity>
-						<microAI href="" />
-						<minUseRangeCorrection>0</minUseRangeCorrection>
-						<naftaCost>1500</naftaCost>
-						<name textref="" />
-						<node></node>
-						<passiveApplicators />
-						<persistentId></persistentId>
-						<requireLineOfSight>false</requireLineOfSight>
-						<shortDescription textref="" />
-						<targetType>16777216</targetType>
-						<type>Active</type>
-						<useRange>
-							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-							<returnType>float</returnType>
-							<sString>cRange_Long</sString>
-						</useRange>
-						<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 						<warFogRemoveRadius>0</warFogRemoveRadius>
 						<warFogRemoveTime>0</warFogRemoveTime>
 					</Consumable>
