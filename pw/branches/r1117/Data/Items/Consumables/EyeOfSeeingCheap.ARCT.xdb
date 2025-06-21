@@ -13,6 +13,7 @@
 	<BackLink DBID="/Maps/PvE/Series/Episode1/buildings/Shop.SHOP" Count="1" />
 	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Shops/_B.SHOP" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>

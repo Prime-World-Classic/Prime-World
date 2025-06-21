@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Shop parent="/Buildings/B/Shop/_Parent.SHOP">
 	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMP" Count="1" />
-	<faction>Freeze</faction>
+	<faction>Burn</faction>
 	<shop href="/Maps/Multiplayer/ARAM/Shops/_B.SHOP" id="B7DDEE30-EF25-472E-A98D-1273AACFD1A8">
 		<ConsumablesShop parent="/Buildings/DefaultStats/MidOnly_ShopList.CNSH">
 			<items>
@@ -14,14 +14,10 @@
 						<naftaCost>1000</naftaCost>
 					</Consumable>
 				</Item>
-				<Item skip="1" />
-				<Item href="/Maps/Multiplayer/ARAM/Shops/_B.SHOP" id="72A150D9-9F9B-4F35-A31D-79B7527453BE">
-					<Consumable parent="/Items/Consumables/EyeOfSeeing.ARCT">
-						<naftaCost>1500</naftaCost>
-					</Consumable>
-				</Item>
-				<Item skip="1" />
-				<Item skip="1" />
+				<Item href="/Items/Consumables/EyeOfSeeingCheap.ARCT" />
+				<Item href="/Items/Consumables/EyeOfSeeingCheapest.ARCT" />
+				<Item delete="1" />
+				<Item delete="1" />
 			</items>
 		</ConsumablesShop>
 	</shop>
