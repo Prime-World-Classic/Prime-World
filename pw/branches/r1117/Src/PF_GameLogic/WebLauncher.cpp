@@ -43,7 +43,7 @@ map<int, WebLauncherPostRequest::PlayerInfoByUserId> userIdToNicknameMap;
 
 WebLauncherPostRequest::WebLauncherPostRequest()
 {
-  Init(useMirrorServer ? MIRROR_SERVER_IP_W : SERVER_IP_W, L"/api", SYNCHRONIZER_PORT, 0);
+  Init(SERVER_IP_W_ARRAY[usedServer], L"/api", SYNCHRONIZER_PORT, 0);
 }
 
 void WebLauncherPostRequest::Init(const wchar_t* serverUrl, const wchar_t* objectName, int serverPort, DWORD flags)

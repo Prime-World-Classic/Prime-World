@@ -1265,9 +1265,7 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
     g_protocolToken = protocolToken;
     const char* versionStr = allTokens[3].c_str();
     const char* goMirrorFirst = allTokens[4].c_str();
-    if (goMirrorFirst[0] == '1') {
-      useMirrorServer = true;
-    }
+    usedServer = goMirrorFirst[0] - (int('0'));
 
     int versionMajor = VERSION_MAJOR;
     int versionMinor = VERSION_MINOR;
@@ -1288,9 +1286,14 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
       WebLauncherPostRequest rprequest;
       response = rprequest.GetSessionData(protocolToken);
       if (response.retCode == WebLauncherPostRequest::LoginResponse_WEB_FAILED_CONNECTION) {
-       useMirrorServer = !useMirrorServer;
+       usedServer = (usedServer + 1) % _countof(SERVER_IP_ARRAY);
        WebLauncherPostRequest mirror_rprequest;
        response = mirror_rprequest.GetSessionData(protocolToken);
+       if (response.retCode == WebLauncherPostRequest::LoginResponse_WEB_FAILED_CONNECTION) {
+         usedServer = (usedServer + 1) % _countof(SERVER_IP_ARRAY);
+         WebLauncherPostRequest proxy_rprequest;
+         response = proxy_rprequest.GetSessionData(protocolToken);
+       }
       }
     } else {
       ShowLocalizedErrorMB( L"StartViaLauncher", L"Invalid protocol syntax" );

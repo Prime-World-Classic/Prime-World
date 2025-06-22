@@ -90,7 +90,7 @@ static Network::NetAddress ReplaceIpWithServerIp(Network::NetAddress& frontendAd
   const char* port = std::find(frontendAddress.begin(),frontendAddress.end(), ':');
   int portSize = strlen(port);
 
-  const char* whiteIp = useMirrorServer ? MIRROR_SERVER_IP : SERVER_IP;
+  const char* whiteIp = SERVER_IP_ARRAY[usedServer];
   char newAddress[64];
 
   memcpy((void*)newAddress, whiteIp, strlen(whiteIp) + 1);
