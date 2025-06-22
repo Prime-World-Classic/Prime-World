@@ -41,6 +41,9 @@ std::map<nstl::wstring, WebLauncherPostRequest::WebUserData> g_usersData;
 map<int, WebLauncherPostRequest::PlayerInfoByUserId> userIdToNicknameMap;
 
 
+std::string GetFormattedJson(Json::Value value);
+
+
 WebLauncherPostRequest::WebLauncherPostRequest()
 {
   Init(SERVER_IP_W_ARRAY[usedServer], L"/api", SYNCHRONIZER_PORT, 0);
@@ -534,20 +537,17 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
   res.response = "";
   res.retCode = LoginResponse_WEB_FAILED_CONNECTION;
 
-  char jsonBuff[4096];
-  ZeroMemory(jsonBuff,4096);
+  Json::Value data;
+  data["sessionToken"] = Json::Value (std::string(token, 32));
+  data["playerKey"] = Json::Value (std::string(token + 32));
 
-  std::string sessionToken(token, 32);
-  std::string playerKey(token + 32);
+  Json::Value result;
+  result["data"] = data;
+  result["method"] = Json::Value("connectToWebSession");
 
-  g_sessionToken = sessionToken.c_str();
-  g_playerToken = playerKey.c_str();
+  std::string req = GetFormattedJson(result);
 
-  sprintf(jsonBuff,"{\"method\":\"connectToWebSession\",\"data\":{\"sessionToken\":\"%s\",\"playerKey\":\"%s\",\"apiKey\":\"%s\"}}", sessionToken.c_str(), playerKey.c_str());
-  OutputDebugStringA(jsonBuff);
-  const std::string jsonData = jsonBuff;
-
-  std::string responseStream = SendPostRequest(jsonData);
+  std::string responseStream = SendPostRequest(req);
 
   OutputDebugStringA(responseStream.c_str());
 

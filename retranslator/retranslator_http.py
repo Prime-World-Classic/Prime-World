@@ -1,6 +1,27 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse
 import requests
+import logging
+import os
+import sys
+from logging.handlers import TimedRotatingFileHandler
+
+log_directory = './'  #    
+os.makedirs(log_directory, exist_ok=True)  #  ,    
+
+log_file_path = os.path.join(log_directory, 'http_relay.log')
+handler = TimedRotatingFileHandler(log_file_path, when="midnight", interval=1, backupCount=7)  #    7 
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+
+stdout_handler = logging.StreamHandler(sys.stdout)
+stdout_handler.setLevel(logging.DEBUG)
+stdout_handler.setFormatter(formatter)
+
+logging.basicConfig(
+    handlers=[handler, stdout_handler],
+    level=logging.INFO
+)
 
 class ProxyHTTPRequestHandler(BaseHTTPRequestHandler):
     # Укажите здесь адрес целевого сервера, на который нужно перенаправлять запросы
@@ -57,7 +78,7 @@ class ProxyHTTPRequestHandler(BaseHTTPRequestHandler):
             elif self.command == "OPTIONS":
                 resp = requests.options(target_url, headers=headers, stream=True)
 
-            print(resp.text)
+            logging.info(resp.text)
             # Отправляем статус и заголовки клиенту
             self.send_response(resp.status_code)
             for header, value in resp.headers.items():
@@ -75,7 +96,7 @@ class ProxyHTTPRequestHandler(BaseHTTPRequestHandler):
 def run(server_class=HTTPServer, handler_class=ProxyHTTPRequestHandler, port=27302):
     server_address = ('127.0.0.1', port)
     httpd = server_class(server_address, handler_class)
-    print(f"Starting proxy server on port {port}...")
+    logging.info(f"Starting proxy server on port {port}...")
     httpd.serve_forever()
 
 if __name__ == '__main__':
