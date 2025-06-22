@@ -99,7 +99,7 @@ class RelayServer:
         #"""Удаляет маппинг и закрывает сокет."""
         if relay_port in self.relay_to_client:
             _, _, sock = self.relay_to_client[relay_port]
-            sock.close()
+            sock[0].close()
             del self.relay_to_client[relay_port]
             del self.last_active_time[relay_port]
             
