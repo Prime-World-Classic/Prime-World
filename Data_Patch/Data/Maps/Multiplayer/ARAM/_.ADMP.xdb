@@ -28886,7 +28886,7 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>100.1603</translateX>
+				<translateX>98.9103</translateX>
 				<translateY>125.8724</translateY>
 				<translateZ>0</translateZ>
 			</offset>
@@ -31478,8 +31478,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>90.55887</translateX>
-				<translateY>125.45</translateY>
+				<translateX>92.37451</translateX>
+				<translateY>124.9967</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -31496,8 +31496,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>169.8561</translateX>
-				<translateY>125.2284</translateY>
+				<translateX>167.7016</translateX>
+				<translateY>124.873</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
