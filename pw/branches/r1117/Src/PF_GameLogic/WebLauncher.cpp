@@ -537,9 +537,15 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
   res.response = "";
   res.retCode = LoginResponse_WEB_FAILED_CONNECTION;
 
+  std::string sessionToken(token, 32);
+  std::string playerKey(token + 32);
+
+  g_sessionToken = sessionToken.c_str();
+  g_playerToken = playerKey.c_str();
+
   Json::Value data;
-  data["sessionToken"] = Json::Value (std::string(token, 32));
-  data["playerKey"] = Json::Value (std::string(token + 32));
+  data["sessionToken"] = Json::Value (sessionToken);
+  data["playerKey"] = Json::Value (playerKey);
 
   Json::Value result;
   result["data"] = data;
