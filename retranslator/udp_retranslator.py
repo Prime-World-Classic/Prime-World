@@ -1,8 +1,27 @@
 import socket
 import threading
 import time
-from collections import defaultdict
-import json
+import logging
+import os
+import sys
+from logging.handlers import TimedRotatingFileHandler
+
+log_directory = './udp_logs/'  #
+os.makedirs(log_directory, exist_ok=True)  #  ,
+
+log_file_path = os.path.join(log_directory, 'udp_relay.log')
+handler = TimedRotatingFileHandler(log_file_path, when="midnight", interval=1, backupCount=7)  #    7
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+
+stdout_handler = logging.StreamHandler(sys.stdout)
+stdout_handler.setLevel(logging.DEBUG)
+stdout_handler.setFormatter(formatter)
+
+logging.basicConfig(
+    handlers=[handler, stdout_handler],
+    level=logging.INFO
+)
 
 class RelayServer:
     def __init__(self, relay_host, relay_ports_range, main_server_host):
@@ -59,13 +78,13 @@ class RelayServer:
                     #print(f"{client_ip} sends: {data}")
                     relay_port = relay_sock.getsockname()[1]
                     if relay_port is None:
-                        print(f"[ERROR] No free relay ports available")
+                        logging.info(f"[ERROR] No free relay ports available")
                         continue
 
                     self._add_mapping(client_ip, client_port, relay_port, (relay_sock, sock))
                     threading.Thread(target=self.listen_response, args=(relay_sock,), daemon=True).start()
             except OSError as e:
-                print(f"[ERROR] Failed to send via relay port {relay_port}: {e}")
+                logging.info(f"[ERROR] Failed to send via relay port {relay_port}: {e}")
                 self._remove_mapping(relay_port)
             
             # Обновляем время активности
@@ -120,15 +139,15 @@ class RelayServer:
             ]
             for port in inactive_ports:
                 self._remove_mapping(port)
-            print(f"[INFO] Cleaned up {len(inactive_ports)} inactive mappings")
+            logging.info(f"[INFO] Cleaned up {len(inactive_ports)} inactive mappings")
 
     def start_response_listener(self):
         #"""Слушает ответы от сервера и пересылает клиентам."""
         while True:
-            print('Active connections:')
+            logging.info('Active connections:')
             items_list = list(self.client_to_relay.items())
             for key, value in items_list:
-                print(f"Key: {key}, Value: {value}")
+                logging.info(f"Key: {key}, Value: {value}")
             time.sleep(10)
             continue
             #data, (server_ip, server_port) = self.response_socket.recvfrom(65535)
