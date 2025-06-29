@@ -66,7 +66,7 @@ REGISTER_VAR( "fast_reconnect_delay", s_fast_reconnect_delay, STORAGE_NONE );
 REGISTER_VAR( "fast_reconnect_retry_delay", s_fast_reconnect_retry_delay, STORAGE_NONE );
 
 
-static int s_base_udp_port = 34990;
+static int s_base_udp_port = 27005;
 REGISTER_VAR( "rdp_base_port", s_base_udp_port , STORAGE_NONE );
 
 
