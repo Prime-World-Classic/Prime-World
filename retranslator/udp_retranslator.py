@@ -163,7 +163,7 @@ class RelayServer:
 if __name__ == "__main__":
     RELAY_HOST = "0.0.0.0"
     RELAY_PORTS_RANGE = (27301, 27360)  # 34000-34010
-    MAIN_SERVER_HOST = "81.88.210.30"
+    MAIN_SERVER_HOST = "target_ip"
     
     relay = RelayServer(RELAY_HOST, RELAY_PORTS_RANGE, MAIN_SERVER_HOST)
     relay.start_response_listener()  # Запускаем обработчик ответов
