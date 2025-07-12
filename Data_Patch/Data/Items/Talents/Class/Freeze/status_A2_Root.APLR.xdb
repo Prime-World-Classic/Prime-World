@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StatusApplicator>
+	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
+	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlStatusesWithoutSlow.APLS" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/FallenAngel/status_A2u_ControlTimeDecrease.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A2.TALENT" Count="1" />
+	<applicators>
+		<Item href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="368AF6EE-0C74-4ED0-B4B0-E857526069DF">
+			<FlagsApplicator parent="/Heroes/DefaultStatus/_ROOT.APLR">
+				<effect>
+					<Item href="/Effects/Debuffs/Roots/_Needle.EFFT" />
+					<Item skip="1" />
+				</effect>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="F96FDF73-444C-4316-ABF6-10119B3F7418">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Триггер для хила</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="8DD65E6E-2670-4289-B7BD-A156B837AD77">
+					<EventProcessorOnDeath>
+						<applyTarget>AbilityOwner</applyTarget>
+						<castSpellDelay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</castSpellDelay>
+						<checkSender>0</checkSender>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="33790F9A-B7BB-4FF6-967E-70CF5CFA7751">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="D40FBF2F-8115-44A7-A352-C992DDE53491">
+										<HealApplicator>
+											<amount>
+												<compiledString>FTcAAAAEAAAAPgAAAFsAAACFAAAAogAAAEFiaWxpdHlUYXJnZXQAAABTVEVQAAAAAFRUX0EyX0hlYWxUb3RhbABBMl9IZWFsQ3VycmVudABVi+yD7BBoAAAAAItFEIsQi00Qi0JM/9CJRfyLTQxRi1UIUmgQAAAAi0UQixCLTRCLQlD/0FHZHCSLTfyLEYtN/IuCrAEAAP/QUdkcJGgoAAAAi00MixGLTQyLgogBAAD/0ItNDFGLVQhSaBgAAACLRRCLEItNEItCUN1d9P/Q3GX02V3w2UXwUdkcJOgHAAAAg8QIi+Vdw1WL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+												<returnType>float</returnType>
+												<sString>min((cTT_A2_HealTotal - receiver.vA2_HealCurrent) , appl.oAbilityTarget.GetDamageTaken(cSTEP))</sString>
+											</amount>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>Хил</caption>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<healTarget>Health</healTarget>
+											<ignoreHealingMods>false</ignoreHealingMods>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+										</HealApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="2D26A4E6-119E-4789-BE79-C468C0064AFD">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorOnDeath>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+	</applicators>
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<behaviorFlags>147</behaviorFlags>
+	<caption>Кастомный рут</caption>
+	<customCounter>
+		<compiledString></compiledString>
+		<returnType>int</returnType>
+		<sString>0</sString>
+	</customCounter>
+	<customProgress>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</customProgress>
+	<description textref="/Items/Talents/Class/Freeze/status_A2_Root.APLR_description.txt" />
+	<dispellPriority>High</dispellPriority>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString>FUkAAAAHAAAAWAAAAGoAAACkAAAAwwAAANkAAADlAAAA+wAAAFJvb3RfRHVyYXRpb24AAABkdXJhdGlvbgAAAABBMl9TdG9wRGFtYWdlAAAASW1tdW5lMkNvbnRyb2wAAEFsbG93Q29udHJvbABVi+yD7BiLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0mgQAAAAi0UQixCLTRCLQlTdXfj/0Nxt+Nld9NlF9FHZHCSLTQyLEYtNDIuCrAEAAP/Qi00MUYtVCFJoHAAAAItFEIsQi00Qi0JQ3V3s/9DcXezf4PbEQXVNaCwAAACLTQyLEYtNDIuCiAEAAP/Q3B0lAQAA3+D2xER7Img8AAAAi00MixGLTQyLgogBAAD/0NwdHQEAAN/g9sREegnHRegBAAAA6wfHRegAAAAAikXoi+VdwwAAAAAAAPA/AAAAAAAAAAA=</compiledString>
+		<returnType>bool</returnType>
+		<sString>receiver.GetDamageTaken((cRoot_Duration - pMisc-&gt;GetVariable("duration")))&lt;cA2_StopDamage &amp;&amp; (receiver.vImmune2Control == 0 || receiver.vAllowControl == 1)</sString>
+	</enabled>
+	<flags>2</flags>
+	<formulaName>FreezeA2Root</formulaName>
+	<image href="/UI/Styles/Icons/Heroes/Freeze/A2.ITEX" />
+	<lifeTime>
+		<compiledString>FQ4AAAABAAAAGgAAAFJvb3RfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<returnType>float</returnType>
+		<sString>cRoot_Duration</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<name textref="/Items/Talents/Class/Freeze/status_A2_Root.APLR_name.txt" />
+	<power>0</power>
+	<providerName></providerName>
+	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+	<stackCount>0</stackCount>
+	<startCondition>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+	<statusPosition>0</statusPosition>
+	<stopBehaviour>StopByTime</stopBehaviour>
+	<unstackableWith href="" />
+</StatusApplicator>
