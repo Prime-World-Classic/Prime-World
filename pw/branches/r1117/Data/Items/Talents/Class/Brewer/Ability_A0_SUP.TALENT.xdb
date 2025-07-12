@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/Brewer_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Brewer/Brewer.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/Items/Talents/Brewer.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -40,7 +41,14 @@
 	<conflictingTalents>
 		<Item href="/Items/Talents/Class/Brewer/Ability_A1_SUP.TALENT" />
 	</conflictingTalents>
-	<constants href="" />
+	<constants href="/Items/Talents/Class/Brewer/Ability_A0_SUP.TALENT" id="1A88C4B5-FEBE-4AC8-874A-9BC9900CD6F1">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDec_Stamina" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_Dec_Stamina" />
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
 	<consumptionBonus>
 		<constant>0</constant>
 		<percent>0</percent>

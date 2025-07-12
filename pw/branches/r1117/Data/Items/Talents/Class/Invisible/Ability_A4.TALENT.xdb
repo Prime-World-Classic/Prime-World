@@ -9,7 +9,7 @@
 	<BackLink DBID="/Test/Talents/Invisible/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Invisible/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Invisible/Epic_Str.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4_2u.TALENT" Count="1" />
@@ -869,9 +869,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>2</sString>
+						<sString>4</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>

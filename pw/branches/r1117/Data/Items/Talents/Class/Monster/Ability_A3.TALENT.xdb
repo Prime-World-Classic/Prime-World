@@ -344,6 +344,27 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Monster/const_A3AttacksDmgMod" />
+				<Item href="/Items/Talents/Class/Monster/Ability_A3.TALENT" id="56708D54-75F5-4549-984C-22E8608AD6A2">
+					<UnitConstant>
+						<name>DexterityBuff</name>
+						<var>
+							<compiledString>FRIAAAADAAAAHQAAACcAAABzAAAATW9uc3Rlcl9BM0NvdW50ZXIAVYvsg+wMagFR2QWbAAAA2RwkUdkFlwAAANkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOhCAAAAg8QE2RwkagGLTRCLEYtNEItCYP/QaAAAAACLTQiLEYtNCIuCiAEAAN1d+P/Q3E342V302UX0i+Vdw2ZmZj8AANhAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale( max( sStrength, sIntellect ), 0.9, 6.75)*sender.vMonster_A3Counter
+</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Monster/Ability_A3.TALENT" id="AFF50942-9A1F-4036-9E86-FF9997A5AE18">
+					<UnitConstant>
+						<name>TT_DexterityBuff</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9Bdw2ZmZj8AANhAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale( max( sStrength, sIntellect ), 0.9, 6.75)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -447,6 +468,53 @@
 						<sString>1.0f</sString>
 					</multValue>
 					<stat>LifeDrain</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Monster/Ability_A3.TALENT" id="04670B58-6FED-432E-B2D9-EC9E1AF8BB74">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>баф хитры от когтей</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ4AAAABAAAAGgAAAERleHRlcml0eUJ1ZmYAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cDexterityBuff</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Dexterity</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

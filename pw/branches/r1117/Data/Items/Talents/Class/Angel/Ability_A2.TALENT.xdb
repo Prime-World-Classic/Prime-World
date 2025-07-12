@@ -5,7 +5,6 @@
 	<BackLink DBID="/Items/Talents/Angel_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A2u.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/status_A5_DeathGhost.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Angel_Mighty.TALENTSET" Count="1" />
@@ -15,6 +14,7 @@
 	<BackLink DBID="/Test/Talents/Angel/Elite_StrDex.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Angel/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Angel/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -117,9 +117,9 @@
 								<flag>1024</flag>
 								<formulaName></formulaName>
 								<lifeTime>
-									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
 									<returnType>float</returnType>
-									<sString>1</sString>
+									<sString>0.1</sString>
 								</lifeTime>
 								<LoggingEvent>-1</LoggingEvent>
 								<providerName></providerName>

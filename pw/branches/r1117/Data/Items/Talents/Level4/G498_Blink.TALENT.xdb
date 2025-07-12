@@ -453,9 +453,9 @@
 					<UnitConstant>
 						<name>CoolDown</name>
 						<var>
-							<compiledString>FRoAAAAEAAAAIQAAADcAAABLAAAAawAAAEc1MDFfQWN0aXZlAEc1MDFfQ29vbERvd24AVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2FAAAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/NlF/NwteQAAANld+NlF+IvlXcMAAAAAAMBiQAAAAAAAAAAAAAAAAA==</compiledString>
+							<compiledString>FRoAAAAEAAAAIQAAADcAAABLAAAAawAAAEc1MDFfQWN0aXZlAEc1MDFfQ29vbERvd24AVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2FAAAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/NlF/NwteQAAANld+NlF+IvlXcMAAAAAAIBWQAAAAAAAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>150 - (sender.vG501_Active&gt; 0 ? cG501_CoolDown : 0)</sString>
+							<sString>90 - (sender.vG501_Active&gt; 0 ? cG501_CoolDown : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

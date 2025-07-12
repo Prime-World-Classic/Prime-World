@@ -56,7 +56,6 @@
 	<BackLink DBID="/Items/Talents/Level6/status_G291_GuildPortal.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_7_Glyph/Summon_Glyph.APLR" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/NewYear/_.ADMP" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/MOBA/Spawners/NeutralBoss.NCSPN" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Tutorial/CreateArrows.ABLT" Count="2" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/applicators/Uncontrollable.ABLT" Count="1" />
 	<BackLink DBID="/Summons/Bear/_.SUMMONED" Count="1" />
@@ -75,6 +74,7 @@
 	<BackLink DBID="/Summons/Trap2/_Rifleman_A3_SUP.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Turret/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Wolf/_PassiveAbility.ABLT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>0</behaviorFlags>
 	<caption>записывалка IsUncontrollable</caption>

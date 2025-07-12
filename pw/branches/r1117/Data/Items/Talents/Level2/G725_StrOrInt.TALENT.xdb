@@ -109,6 +109,7 @@
 				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_Discount3" />
 				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_Discount" />
 				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_G725_AddDamage" />
+				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_TimeGift" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -260,6 +261,92 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 			</GiveConsumable>
+		</Item>
+		<Item href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="93C9FAA9-895B-458C-8ADD-9C062964B5EC">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Периодическая выдача </caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQkAAAABAAAAFQAAAFRpbWVHaWZ0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>cTimeGift</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="21218CEC-E09E-4444-AE52-00D13450C922">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="A0ABA8F4-AA51-45A0-B210-E8E7B7ED9AD0">
+								<GiveConsumable>
+									<amount>
+										<compiledString></compiledString>
+										<returnType>int</returnType>
+										<sString>1</sString>
+									</amount>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>GiveConsumable</caption>
+									<consumable href="/Items/Consumables/KU-Stick.ARCT" />
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+								</GiveConsumable>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="DD916107-4896-4BEA-A912-556A47A5D419">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQkAAAABAAAAFQAAAFRpbWVHaWZ0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>cTimeGift</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G725</persistentId>

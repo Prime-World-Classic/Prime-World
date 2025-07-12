@@ -4,8 +4,8 @@
 	<BackLink DBID="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" Count="1" />
 	<name>Range_CheckDeathDragon</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAFDDRw==</compiledString>
 		<returnType>float</returnType>
-		<sString>1000</sString>
+		<sString>100000</sString>
 	</var>
 </UnitConstant>

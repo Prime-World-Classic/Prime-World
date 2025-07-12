@@ -1011,9 +1011,9 @@
 					<calcIncrement>0.4</calcIncrement>
 					<calcValue>58</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmYmPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.4</sString>
+						<sString>0.65</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>
@@ -1059,9 +1059,9 @@
 					<calcIncrement>0.3</calcIncrement>
 					<calcValue>53</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.3</sString>
+						<sString>0.4</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>AttackSpeed</statId>

@@ -82,7 +82,7 @@
 							</enabled>
 							<flags>2</flags>
 							<formulaName></formulaName>
-							<image href="/UI/Styles/Icons/Heroes/Angel/A5.ITEX" />
+							<image href="" />
 							<lifeTime>
 								<compiledString></compiledString>
 								<returnType>float</returnType>
@@ -173,7 +173,7 @@
 	</enabled>
 	<flags>0</flags>
 	<formulaName>CantDeath</formulaName>
-	<image href="/UI/Styles/Icons/Heroes/Angel/A5.ITEX" />
+	<image href="" />
 	<lifeTime>
 		<compiledString></compiledString>
 		<returnType>float</returnType>

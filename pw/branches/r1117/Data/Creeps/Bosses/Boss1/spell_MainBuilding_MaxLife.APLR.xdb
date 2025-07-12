@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpellApplicator>
 	<BackLink DBID="/Creeps/Bosses/Boss1/status_AuraDragonPower.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Mains/Dragon/status_AuraDragonPower.APLR" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<caption>- Спелл в ГЗ для MaxLife</caption>
 	<enabled>

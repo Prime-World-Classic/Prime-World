@@ -71,9 +71,9 @@
 			<calcIncrement>0.4</calcIncrement>
 			<calcValue>54</calcValue>
 			<increment>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmbmPg==</compiledString>
 				<returnType>float</returnType>
-				<sString>0.3</sString>
+				<sString>0.45</sString>
 			</increment>
 			<levelUpgrades />
 			<statId>Dexterity</statId>
@@ -87,9 +87,9 @@
 			<calcIncrement>0.3</calcIncrement>
 			<calcValue>52</calcValue>
 			<increment>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmbmPg==</compiledString>
 				<returnType>float</returnType>
-				<sString>0.3</sString>
+				<sString>0.45</sString>
 			</increment>
 			<levelUpgrades />
 			<statId>AttackSpeed</statId>

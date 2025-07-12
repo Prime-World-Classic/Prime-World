@@ -5,7 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4u.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Brewer_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Brewer/Brewer.TALENTSET" Count="1" />
@@ -259,6 +259,8 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDec_Stamina" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_Dec_Stamina" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

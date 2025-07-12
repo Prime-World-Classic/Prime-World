@@ -84,9 +84,9 @@
 					<UnitConstant>
 						<name>A3_Proc</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>40</sString>
+							<sString>50</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -97,9 +97,9 @@
 					<UnitConstant>
 						<name>A3_FirstDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAACIQQAA/EI=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAACgQQAAEUM=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale(sIntellect, 17, 126)</sString>
+							<sString>abilityScale(sIntellect, 20, 145)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

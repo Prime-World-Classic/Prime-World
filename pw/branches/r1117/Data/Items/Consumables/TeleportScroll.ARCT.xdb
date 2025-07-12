@@ -25,7 +25,7 @@
 	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
 	<BackLink DBID="/Maps/Test/DesignArtTest/Buildings/_N.SHOP" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_TeleportCost.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level6/G728_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G728_StrOrInt.TALENT" Count="2" />
 	<BackLink DBID="/Maps/Multiplayer/MidOnly/Aram/Scoring.SCTB" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -116,9 +116,9 @@
 					<UnitConstant>
 						<name>Channeling_Time</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>6</sString>
+							<sString>4</sString>
 						</var>
 					</UnitConstant>
 				</Item>

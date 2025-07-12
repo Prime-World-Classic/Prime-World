@@ -7,8 +7,8 @@
 	<BackLink DBID="/Items/Talents/Class/Witch/Ability_A4_2.TALENT" Count="1" />
 	<name>A0_DamageDecrease</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>10</sString>
+		<sString>15</sString>
 	</var>
 </UnitConstant>

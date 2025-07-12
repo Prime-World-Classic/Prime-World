@@ -69,9 +69,9 @@
 					<UnitConstant>
 						<name>BaseAttackBonus</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>5.0f</sString>
+							<sString>7.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

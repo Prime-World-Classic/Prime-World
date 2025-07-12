@@ -2,6 +2,7 @@
 <StatusApplicator>
 	<BackLink DBID="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" Count="1" />
 	<BackLink DBID="/Creeps/Bosses/Boss1/status_AuraDragonPower.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Mains/Dragon/status_AuraDragonPower.APLR" Count="1" />
 	<applicators>
 		<Item href="/Creeps/Bosses/Boss1/spell_MainBuilding_MaxLife.APLR" />
 		<Item href="/Creeps/Bosses/Boss1/aura_NearDragon.APLR" />

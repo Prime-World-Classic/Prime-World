@@ -6,7 +6,7 @@
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_N.SHOP" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/buildings/Shop.SHOP" Count="1" />
 	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G725_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G725_StrOrInt.TALENT" Count="2" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>

@@ -2,11 +2,11 @@
 <ScaleColorEffect>
 	<BackLink DBID="/Effects/General/Ghost/_.EFFT" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_RunForest_Status.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/A0_GhostMove.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A4u_2_DeathSpectre.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<blendMode>AddColorMulAlpha</blendMode>
 	<colorAdd>
 		<A>0</A>

@@ -171,6 +171,43 @@
 											<useAbilityOwnerMana>false</useAbilityOwnerMana>
 										</TriggerApplicator>
 									</Item>
+									<Item href="/Items/Talents/Class/Angel/Summon_A3_Pick.APLR" id="4B2B064A-43ED-4D35-A409-9D8850A68B99">
+										<EyeApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<behaviorFlags>152</behaviorFlags>
+											<cancelObstacles>false</cancelObstacles>
+											<caption>Открываем область в месте каста</caption>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<eyeTarget>ApplicatorTarget</eyeTarget>
+											<flags>8</flags>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+												<returnType>float</returnType>
+												<sString>-1</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<visRange>
+												<compiledString>FQsAAAABAAAAFwAAAEEzX0FvRVNpemUAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+												<returnType>float</returnType>
+												<sString>cA3_AoESize</sString>
+											</visRange>
+										</EyeApplicator>
+									</Item>
 								</applicators>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<behaviorFlags>144</behaviorFlags>

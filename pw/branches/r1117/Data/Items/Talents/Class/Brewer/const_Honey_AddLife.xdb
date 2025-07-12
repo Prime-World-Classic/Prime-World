@@ -7,8 +7,8 @@
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4.TALENT" Count="1" />
 	<name>AddLife</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAYQgCAjkM=</compiledString>
+		<compiledString>FQAAAAAEAAAAEQAAABsAAABwAAAAegAAAFWL7FGLRQg7RQx1X2oBUdkFtAAAANkcJFHZBbAAAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2Rwki00IixGLTQiLgjABAAD/0FHZHCToZwAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld/Os+agFR2QW0AAAA2RwkUdkFsAAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DZXfzZRfyL5V3DAAAYQgCAjkNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sIntellect, 38, 285)</sString>
+		<sString>pFirst == pSecond ?damageScale(max(sStrength, sIntellect), 38, 285) :damageScale(sIntellect, 38, 285)</sString>
 	</var>
 </UnitConstant>

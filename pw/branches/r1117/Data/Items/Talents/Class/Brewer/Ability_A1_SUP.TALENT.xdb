@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A0_SUP.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Brewer.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Brewer_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<activationConditions />

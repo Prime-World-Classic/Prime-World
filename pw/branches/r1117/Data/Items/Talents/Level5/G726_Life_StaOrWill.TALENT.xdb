@@ -88,6 +88,7 @@
 				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_Discount2" />
 				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_Discount3" />
 				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_Discount" />
+				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_TimeGift" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -269,6 +270,92 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 			</GiveConsumable>
+		</Item>
+		<Item href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="1CDDF44A-B71D-43BA-9EF2-1241ECD5F1B8">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Периодическая выдача </caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQkAAAABAAAAFQAAAFRpbWVHaWZ0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>cTimeGift</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="04D7DF8A-B129-4949-BA9F-CBD6FB3CE213">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="11460CB9-EC1F-4056-AB4B-7469FD461857">
+								<GiveConsumable>
+									<amount>
+										<compiledString></compiledString>
+										<returnType>int</returnType>
+										<sString>1</sString>
+									</amount>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>GiveConsumable</caption>
+									<consumable href="/Items/Consumables/CleansingPotion.ARCT" />
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+								</GiveConsumable>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="24037AB7-89BA-4556-9F8B-8C55969304FB">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQkAAAABAAAAFQAAAFRpbWVHaWZ0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>cTimeGift</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G726</persistentId>

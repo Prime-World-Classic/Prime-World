@@ -1258,25 +1258,25 @@
 					<calcIncrement>8.5</calcIncrement>
 					<calcValue>525</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAIQQ==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>8.5</sString>
+						<sString>10</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Energy</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEADRA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEA1RA==</compiledString>
 						<returnType>float</returnType>
-						<sString>525</sString>
+						<sString>725</sString>
 					</value>
 				</Item>
 				<Item>
 					<calcIncrement>0.5</calcIncrement>
 					<calcValue>55</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.5</sString>
+						<sString>0.6</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>

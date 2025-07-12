@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_0E.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" Count="1" />
 	<applicators>
+		<Item href="/Items/Talents/Class/Brewer/appl_Honey_Dec_Stamina.APLR" />
 		<Item href="/Items/Talents/Class/Brewer/appl_Honey_Dec_Int.APLR" />
 		<Item href="/Items/Talents/Class/Brewer/appl_Honey_Dec_Str.APLR" />
 		<Item href="/Items/Talents/Class/Brewer/appl_Honey_StrOrInt.APLR" />

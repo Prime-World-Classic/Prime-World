@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TriggerApplicator>
 	<BackLink DBID="/Buildings/DefaultStats/spell_CastTriggerOnEveryHero.APLR" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/CheckCatKill.ABLT" Count="1" />
 	<actionsCount>
 		<compiledString>FQAAAAAAAAAAVYvsM8Bdww==</compiledString>
 		<returnType>int</returnType>

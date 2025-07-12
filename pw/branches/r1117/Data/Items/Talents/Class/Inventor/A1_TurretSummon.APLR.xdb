@@ -186,6 +186,7 @@
 			</maxThisCount>
 			<responseRange>0</responseRange>
 			<responseTime>0</responseTime>
+			<summonType>Secondary</summonType>
 		</SummonBehaviourCommon>
 	</behaviour>
 	<caption>создать турель</caption>
@@ -197,9 +198,9 @@
 	<flags>21</flags>
 	<formulaName></formulaName>
 	<lifeTime>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>0.0f</sString>
+		<sString>0</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
 	<openWarFog>true</openWarFog>

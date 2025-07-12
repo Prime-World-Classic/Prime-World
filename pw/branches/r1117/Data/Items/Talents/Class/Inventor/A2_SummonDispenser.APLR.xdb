@@ -62,6 +62,7 @@
 			</maxThisCount>
 			<responseRange>0</responseRange>
 			<responseTime>0</responseTime>
+			<summonType>Secondary</summonType>
 		</SummonBehaviourCommon>
 	</behaviour>
 	<caption>создать Диспенсер</caption>

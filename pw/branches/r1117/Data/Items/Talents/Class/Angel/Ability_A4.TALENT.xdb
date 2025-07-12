@@ -5,7 +5,6 @@
 	<BackLink DBID="/Items/Talents/Angel_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/A4_RefreshCD.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A4.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/status_A5_DeathGhost.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Angel_Mighty.TALENTSET" Count="1" />
@@ -15,6 +14,7 @@
 	<BackLink DBID="/Test/Talents/Angel/Elite_StrDex.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Angel/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Angel/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -68,9 +68,9 @@
 					<UnitConstant>
 						<name>A4_ChannelingTime</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>3</sString>
+							<sString>2</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -52,9 +52,9 @@
 					<UnitConstant>
 						<name>A0_TreesSearchRadius</name>
 						<var>
-							<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9TaG9ydABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAAAEA=</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Short</sString>
+							<sString>cRange_Short+2</sString>
 						</var>
 					</UnitConstant>
 				</Item>

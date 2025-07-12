@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Buildings/DefaultStats/CheckCatKill.ABLT" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/CheckCatKill.ABLT" Count="4" />
 	<applicators>
 		<Item href="/Maps/Multiplayer/MOBA/Mains/Krampus.APLR" id="12749227-9FCB-41E6-8704-B3CF0AF47167">
 			<StatModApplicator>

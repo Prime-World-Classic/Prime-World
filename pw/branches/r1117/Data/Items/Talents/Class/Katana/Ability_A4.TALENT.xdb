@@ -5,7 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A4_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A4u.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
@@ -608,6 +608,138 @@
 						<stopEvents>0</stopEvents>
 					</Item>
 					<Item>
+						<applicator href="/Items/Talents/Class/Katana/Ability_A4.TALENT" id="0A49BE71-3B27-4C3C-82E0-F7FD5F37D7E2">
+							<SpellPeriodicallyApplicator>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<behaviorFlags>0</behaviorFlags>
+								<caption>уменьшение замедла период</caption>
+								<effect>
+									<Item href="" />
+									<Item href="" />
+								</effect>
+								<enabled>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<lifeTime>
+									<compiledString>FQwAAAABAAAAGAAAAEE0X0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>cA4_Duration</sString>
+								</lifeTime>
+								<LoggingEvent>-1</LoggingEvent>
+								<period>
+									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<returnType>float</returnType>
+									<sString>1</sString>
+								</period>
+								<providerName></providerName>
+								<scaleMode>ScaleIsCount</scaleMode>
+								<spell href="/Items/Talents/Class/Katana/Ability_A4.TALENT" id="1C440CC6-88B3-463A-B4E2-B7D88F0BC6C7">
+									<Spell>
+										<applicators>
+											<Item href="/Items/Talents/Class/Katana/Ability_A4.TALENT" id="C6806E70-82F3-4086-8D34-597352BB50D0">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>Уменьшаем замедло каждую секунду</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString>FQwAAAABAAAAGAAAAEE0X0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+														<returnType>float</returnType>
+														<sString>cA4_Duration</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+															<returnType>float</returnType>
+															<sString>10.0f</sString>
+														</addValue>
+														<multValue>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</multValue>
+														<stat>Life</stat>
+														<topModifier>false</topModifier>
+														<variable>SlowPercent</variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+										</applicators>
+										<dispatch href="/Items/Talents/Class/Katana/Ability_A4.TALENT" id="5A1C2AC2-941C-467E-B443-0DC0312613DD">
+											<DispatchImmediate>
+												<alwaysApply>false</alwaysApply>
+												<applyEffect>
+													<Item href="" />
+													<Item href="" />
+												</applyEffect>
+												<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+												<applyEffectOrientation>Default</applyEffectOrientation>
+												<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+												<dieAfterApply>true</dieAfterApply>
+												<dispatchEffect>
+													<Item href="" />
+													<Item href="" />
+												</dispatchEffect>
+												<flags>0</flags>
+												<instantApply>false</instantApply>
+											</DispatchImmediate>
+										</dispatch>
+									</Spell>
+								</spell>
+								<startCondition>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</startCondition>
+								<startOffset>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>0.0f</sString>
+								</startOffset>
+								<targetSelector href="" />
+							</SpellPeriodicallyApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>1</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
 						<applicator href="/Items/Talents/Class/Katana/Ability_A4.TALENT" id="4FA1C7AC-B45F-4A2A-9789-8224A5C1C5BA">
 							<StatusApplicator>
 								<applicators>
@@ -1078,9 +1210,9 @@
 					<UnitConstant>
 						<name>A4_Damage_Total</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADQQgDAQUQ=</compiledString>
+							<compiledString>FSQAAAAIAAAAKwAAAEQAAAB+AAAAiAAAAL4AAADIAAAA9QAAAA4BAABLYXRhbmFfQTR1AABLYXRhbmFfQTR1AABTbG93UGVyY2VudABVi+yD7BxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRAagFR2QU9AQAA2RwkUdkFOQEAANkcJGoAi1UIiwKLTQiLkDQBAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9DdXfDrY2oBUdkFPQEAANkcJFHZBTkBAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/QaBgAAACLTQiLEYtNCIuCiAEAAN1d6P/Q3DUxAQAA2ejewdxN6N1d8N1F8Nld5NlF5IvlXcMAAAAAAADwPwAAAAAAAFlAAADQQgDAQUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect,104, 775)</sString>
+							<sString>tal("Katana_A4u")?(damageScale( sIntellect,104, 775)) :(damageScale( sIntellect,104, 775)*(1+sender.vSlowPercent/100) )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1088,9 +1220,9 @@
 					<UnitConstant>
 						<name>Dec_MoveSpeed</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<compiledString>FQwAAAACAAAAEQAAACcAAABTbG93UGVyY2VudABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3C01AAAA2V382UX8i+VdwwAAAAAAAFRA</compiledString>
 							<returnType>float</returnType>
-							<sString>20</sString>
+							<sString>80-sender.vSlowPercent</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1112,6 +1244,16 @@
 							<compiledString>FU8AAAAFAAAAVgAAAG8AAAClAAAAvwAAANUAAABBNF9EYW1hZ2VfVG90YWwAQTRfQTRfMl9TVVBfQWRkRGFtYWdlAAAAS2F0YW5hX0E0X0E0XzJfU1VQAABLYXRhbmFfQTRfQTRfMl9TVVAAVYvsg+wYaCgAAACLRQiLEItNCIuCqAEAAP/QhcB0Kmg8AAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0ItNDFGLVQhSaBAAAACLRRCLEItNEItCUN1d8P/Q3DXwAAAA3E3wD7ZN+4lN7NpN7Nld6NlF6IvlXcMAAAAAAABZQA==</compiledString>
 							<returnType>float</returnType>
 							<sString>cA4_Damage_Total * (cA4_A4_2_SUP_AddDamage / 100.0f) * tal("Katana_A4_A4_2_SUP")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Katana/Ability_A4.TALENT" id="EA4DF38D-43C3-42F6-97BE-A0A9EF71EA29">
+					<UnitConstant>
+						<name>Slow_StartCondition</name>
+						<var>
+							<compiledString>FRcAAAACAAAAHgAAADcAAABLYXRhbmFfQTR1AABLYXRhbmFfQTR1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4lN9NtF9IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Katana_A4u")</sString>
 						</var>
 					</UnitConstant>
 				</Item>

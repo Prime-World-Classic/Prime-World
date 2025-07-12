@@ -5,7 +5,7 @@
 	<BackLink DBID="/Items/Talents/Banshee_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Banshee_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Banshee/status_A0_Enemy.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
@@ -324,7 +324,7 @@
 	<shortDescription textref="/Items/Talents/Class/Banshee/Ability_A2.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
-	<targetType>671350785</targetType>
+	<targetType>671875129</targetType>
 	<type>Channelling</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>

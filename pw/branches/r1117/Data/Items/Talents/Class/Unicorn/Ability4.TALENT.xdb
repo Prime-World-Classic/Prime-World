@@ -6,7 +6,7 @@
 	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability4_2U.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability4Upg.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Test/Talents/Unicorn/Duel.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Unicorn/Elite_Int.TALENTSET" Count="1" />
@@ -190,9 +190,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>100</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

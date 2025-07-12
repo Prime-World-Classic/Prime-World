@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Heroes/Katana/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Heroes/Katana/_.HROB" Count="1" />
 	<applicators>
-		<Item href="/Items/Talents/Class/Katana/status_A0_SUP_Burn.APLR" id="8F19571B-6510-4B0E-A180-39F302B7AADC">
+		<Item href="/Items/Talents/Class/Katana/status_A0_SUP_Burn_Base.APLR" id="BEB3EF99-AD54-4AE6-9808-F048D22620E3">
 			<SpellPeriodicallyApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>144</behaviorFlags>
@@ -31,10 +31,10 @@
 				</period>
 				<providerName></providerName>
 				<scaleMode>ScaleIsCount</scaleMode>
-				<spell href="/Items/Talents/Class/Katana/status_A0_SUP_Burn.APLR" id="FC0168A6-A5E2-4102-98CE-03F160F28C34">
+				<spell href="/Items/Talents/Class/Katana/status_A0_SUP_Burn_Base.APLR" id="16DCDC8D-7217-485E-9443-1F2CF5C607D3">
 					<Spell>
 						<applicators>
-							<Item href="/Items/Talents/Class/Katana/status_A0_SUP_Burn.APLR" id="548348CB-7D3C-449D-8139-E0CF6CE2CCD6">
+							<Item href="/Items/Talents/Class/Katana/status_A0_SUP_Burn_Base.APLR" id="44A0F514-8B2A-4955-B68A-C61F9053990A">
 								<DamageApplicator>
 									<applyTarget>ApplicatorTarget</applyTarget>
 									<cancelInvisibility>false</cancelInvisibility>
@@ -59,7 +59,7 @@
 								</DamageApplicator>
 							</Item>
 						</applicators>
-						<dispatch href="/Items/Talents/Class/Katana/status_A0_SUP_Burn.APLR" id="391A0799-5814-448B-BD20-A08B7AE79A4A">
+						<dispatch href="/Items/Talents/Class/Katana/status_A0_SUP_Burn_Base.APLR" id="132B1110-EE90-4FEE-860A-EABBE704536C">
 							<DispatchImmediate>
 								<alwaysApply>false</alwaysApply>
 								<applyEffect>
@@ -108,7 +108,7 @@
 		<returnType>float</returnType>
 		<sString>-1.0</sString>
 	</customProgress>
-	<description textref="/Items/Talents/Class/Katana/status_A0_SUP_Burn.APLR_description.txt" />
+	<description textref="/Items/Talents/Class/Katana/status_A0_SUP_Burn_Base.APLR_description.txt" />
 	<dispellPriority>Medium</dispellPriority>
 	<effect>
 		<Item href="" />
@@ -128,15 +128,15 @@
 		<sString>cA0_SUP_Burn_Duration</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
-	<name textref="/Items/Talents/Class/Katana/status_A0_SUP_Burn.APLR_name.txt" />
+	<name textref="/Items/Talents/Class/Katana/status_A0_SUP_Burn_Base.APLR_name.txt" />
 	<power>0</power>
 	<providerName></providerName>
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
-	<stackCount>2</stackCount>
+	<stackCount>0</stackCount>
 	<startCondition>
-		<compiledString>FR4AAAACAAAAJQAAAD4AAABLYXRhbmFfQTBfU1VQAAAAS2F0YW5hX0EwX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+		<compiledString>FR4AAAACAAAAJQAAAD4AAABLYXRhbmFfQTBfU1VQAAAAS2F0YW5hX0EwX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>tal("Katana_A0_SUP")</sString>
+		<sString>!tal("Katana_A0_SUP")</sString>
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>

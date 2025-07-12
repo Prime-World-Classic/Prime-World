@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Prince/Ability1_Upg1.TALENT" Count="1" />
 	<name>Base_Stun_Duration</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmamPw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
 		<returnType>float</returnType>
-		<sString>1.3f</sString>
+		<sString>1.5f</sString>
 	</var>
 </UnitConstant>

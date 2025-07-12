@@ -810,9 +810,9 @@
 					<UnitConstant>
 						<name>Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADcQgCATkQ=</compiledString>
+							<compiledString>FR4AAAAHAAAAJQAAAD4AAAB4AAAAggAAALAAAAC+AAAAyAAAAFNoYWRvd19BMV9TVVAAAABTaGFkb3dfQTFfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEZqAVHZBRABAADZHCRR2QUMAQAA2RwkagCLVQiLAotNCIuQNAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0NwNBAEAAN1d8Os+agFR2QUQAQAA2RwkUdkFDAEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DdXfDdRfDZXezZReyL5V3DMzMzMzMz8z8AANxCAIBORA==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect,110, 826)</sString>
+							<sString>tal("Shadow_A1_SUP")?damageScale( sIntellect,110, 826)*1.2 :damageScale( sIntellect,110, 826)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

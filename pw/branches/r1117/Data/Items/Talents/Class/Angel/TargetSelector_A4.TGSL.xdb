@@ -26,9 +26,9 @@
 				<Item href="/Items/Talents/Class/Angel/TargetSelector_A4.TGSL" id="7960183B-B0FC-4B81-B12F-AD078F3D7611">
 					<ConditionTargetSelector>
 						<condition>
-							<compiledString>FSMAAAAFAAAAKAAAAD4AAABQAAAAagAAAIAAAABMaWtlSGVybwAAAABOaWdodEh1bnRlckE0AAAASXNTb3VsAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHaIAAADf4PbERHogagCLTRBRaAwAAACLVQyLAotNDIuQnAEAAP/SO0UQdStoHAAAAItFDIsQi00Mi4KIAQAA/9DcHaIAAADf4PbERHsJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+							<compiledString>FTIAAAAHAAAANwAAAE0AAABfAAAAeQAAAI8AAACbAAAAsQAAAExpa2VIZXJvAAAAAE5pZ2h0SHVudGVyQTQAAABJc1NvdWwAAElzQW5nZWxQZWFyY2UAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0Nwd0wAAAN/g9sREeiBqAItNEFFoDAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1TWgcAAAAi0UMixCLTQyLgogBAAD/0Nwd0wAAAN/g9sREeytoJAAAAItNDIsRi00Mi4KIAQAA/9DcHdMAAADf4PbERHsJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
 							<returnType>bool</returnType>
-							<sString>(receiver.vLikeHero==1 &amp;&amp; receiver.applNightHunterA4(GLOBAL) != pMisc) || (receiver.vIsSoul == 1)</sString>
+							<sString>(receiver.vLikeHero==1 &amp;&amp; receiver.applNightHunterA4(GLOBAL) != pMisc) || (receiver.vIsSoul == 1) || (receiver.vIsAngelPearce == 1)</sString>
 						</condition>
 						<flags>0</flags>
 						<mode>Normal</mode>

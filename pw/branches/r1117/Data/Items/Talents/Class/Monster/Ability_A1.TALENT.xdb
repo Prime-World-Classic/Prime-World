@@ -6,7 +6,7 @@
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A1_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A1u.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Monster_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Monster/Duel_Int.TALENTSET" Count="1" />
@@ -350,9 +350,9 @@
 																															<cancelInvisibility>false</cancelInvisibility>
 																															<caption>Урон</caption>
 																															<damage>
-																																<compiledString>FQoAAAABAAAAFgAAAEExX0RhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																																<compiledString>FQ4AAAABAAAAGgAAAEExX0RhbWFnZUZ1bGwAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 																																<returnType>float</returnType>
-																																<sString>cA1_Damage</sString>
+																																<sString>cA1_DamageFull</sString>
 																															</damage>
 																															<damageMode>0</damageMode>
 																															<damageType>Energy</damageType>
@@ -1313,9 +1313,9 @@
 					<UnitConstant>
 						<name>A1_ExplosionRange</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>2.5f</sString>
+							<sString>3.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1392,6 +1392,16 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Monster/const_A1_BonusDamage" />
 				<Item href="/Items/Talents/Class/Monster/const_NTMult" />
+				<Item href="/Items/Talents/Class/Monster/Ability_A1.TALENT" id="BF8288B1-0188-44FA-B010-670A10F82E4B">
+					<UnitConstant>
+						<name>A1_DamageFull</name>
+						<var>
+							<compiledString>FRYAAAADAAAASAAAAFsAAABtAAAAQTFfRGFtYWdlAAAAQTFfRGFtYWdlAFWL7IPsDItFDIsQi00Mi0JQ/9CFwHQ3i00MixGLTQyLQlD/0IP4AXQli00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ/9DcDY4AAADdXfjrHYtNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Q3V343UX42V302UX0i+VdwwAAAAAAAPg/</compiledString>
+							<returnType>float</returnType>
+							<sString>(rUnitKind ==0 || rUnitKind ==1) ? cA1_Damage : cA1_Damage*1.5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

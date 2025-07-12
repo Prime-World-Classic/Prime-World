@@ -276,7 +276,7 @@
 						<StatModApplicator>
 							<applyTarget>ApplicatorTarget</applyTarget>
 							<behaviorFlags>0</behaviorFlags>
-							<caption>- Boss_Dragon для спавна ходячего дракона</caption>
+							<caption>- Boss_Dragon для спавна ходячего дракона (отключено false чтобы не спаунился ходячий)</caption>
 							<constraint>None</constraint>
 							<dontUpdate>false</dontUpdate>
 							<effect>
@@ -284,9 +284,9 @@
 								<Item href="" />
 							</effect>
 							<enabled>
-								<compiledString></compiledString>
+								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 								<returnType>bool</returnType>
-								<sString>true</sString>
+								<sString>false</sString>
 							</enabled>
 							<formulaName></formulaName>
 							<lifeTime>
@@ -319,6 +319,39 @@
 							<statModName></statModName>
 						</StatModApplicator>
 					</Item>
+					<Item href="/Creeps/Bosses/Boss1/PVP.CREEP" id="2EA4B410-474D-4ECB-B802-659EDB45C16F">
+						<FlagsApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>я Gorynich</caption>
+							<consumables />
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<flag>0</flag>
+							<formulaName>Gorynich</formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<talents />
+							<useListAs>ListAsRule</useListAs>
+						</FlagsApplicator>
+					</Item>
 				</passiveApplicators>
 				<requireLineOfSight>true</requireLineOfSight>
 				<shortDescription textref="" />
@@ -334,7 +367,7 @@
 				<warFogRemoveTime>0</warFogRemoveTime>
 			</Ability>
 		</Item>
-		<Item skip="1" />
+		<Item href="" />
 	</abilities>
 	<attackAbility href="/Creeps/Bosses/Boss1/AttackAbility.ATCK" />
 	<deathParameters href="/Creeps/Bosses/Boss1/PVP.CREEP" id="8504CFB7-CC78-43D7-8155-815EDCEE79C1">
