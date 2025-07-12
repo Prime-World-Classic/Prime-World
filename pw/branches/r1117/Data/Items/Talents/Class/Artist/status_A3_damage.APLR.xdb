@@ -123,9 +123,9 @@
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
 	<stackCount>0</stackCount>
 	<startCondition>
-		<compiledString></compiledString>
+		<compiledString>FREAAAABAAAAGwAAAEFydGlzdF9BM19zdGF0dXMAVYvsagGLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlMGKwV3D</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>receiver.applArtist_A3_status(UNIT) == pMisc</sString>
 	</startCondition>
 	<statusPosition>-20</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>

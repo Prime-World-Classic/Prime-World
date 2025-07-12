@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A4_2u.TALENT" Count="1" />
 	<name>A4_2_Damage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAmkIAwA9EVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+		<compiledString>FQAAAAADAAAACQAAABMAAABgAAAAVYvsUWoBUdkFegAAANkcJFHZBXYAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2Rwki00IixGLTQiLgjQBAAD/0FHZHCToNQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0NwNbgAAANld/NlF/IvlXcMzMzMzMzPzPwAAmkIAwA9EVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale( max(sIntellect, sStrength), 77 , 575)</sString>
+		<sString>damageScale( max(sIntellect, sStrength), 77 , 575)*1.2</sString>
 	</var>
 </UnitConstant>

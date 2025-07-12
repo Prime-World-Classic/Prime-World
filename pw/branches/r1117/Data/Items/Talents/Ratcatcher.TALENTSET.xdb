@@ -88,7 +88,7 @@
 					<aIPriority>3</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" />
+					<talent href="/Items/Talents/Class/Ratcatcher/Ability4_2.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -128,7 +128,7 @@
 					<aIPriority>2</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Ratcatcher/Ability4_Upg.TALENT" />
+					<talent href="/Items/Talents/Class/Ratcatcher/Ability4_2_Upg.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>

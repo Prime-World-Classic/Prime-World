@@ -2,7 +2,6 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Level3/G143_Aura-regEnergy.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/status_143_ERegSelf.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Level3/status_143_EnergyReg.APLR" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Level3/status_143_EnergyReg.APLR" id="D1C9AB7C-6E40-4E04-91D0-AFB3641A38CB">
 			<StatModApplicator>
@@ -155,7 +154,7 @@
 		<ApplicatorsList>
 			<applicatorLists />
 			<applicators>
-				<Item href="/Items/Talents/Level3/status_143_EnergyReg.APLR" />
+				<Item href="/Items/Talents/Level3/status_143_ERegSelf.APLR" />
 			</applicators>
 		</ApplicatorsList>
 	</unstackableWith>

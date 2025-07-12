@@ -18,6 +18,103 @@
 				</lifeTime>
 			</FlagsApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="F96FDF73-444C-4316-ABF6-10119B3F7418">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Триггер для хила</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="8DD65E6E-2670-4289-B7BD-A156B837AD77">
+					<EventProcessorOnDeath>
+						<applyTarget>AbilityOwner</applyTarget>
+						<castSpellDelay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</castSpellDelay>
+						<checkSender>0</checkSender>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="33790F9A-B7BB-4FF6-967E-70CF5CFA7751">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="D40FBF2F-8115-44A7-A352-C992DDE53491">
+										<HealApplicator>
+											<amount>
+												<compiledString>FTcAAAAEAAAAPgAAAFsAAACFAAAAogAAAEFiaWxpdHlUYXJnZXQAAABTVEVQAAAAAFRUX0EyX0hlYWxUb3RhbABBMl9IZWFsQ3VycmVudABVi+yD7BBoAAAAAItFEIsQi00Qi0JM/9CJRfyLTQxRi1UIUmgQAAAAi0UQixCLTRCLQlD/0FHZHCSLTfyLEYtN/IuCrAEAAP/QUdkcJGgoAAAAi00MixGLTQyLgogBAAD/0ItNDFGLVQhSaBgAAACLRRCLEItNEItCUN1d9P/Q3GX02V3w2UXwUdkcJOgHAAAAg8QIi+Vdw1WL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+												<returnType>float</returnType>
+												<sString>min((cTT_A2_HealTotal - receiver.vA2_HealCurrent) , appl.oAbilityTarget.GetDamageTaken(cSTEP))</sString>
+											</amount>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>Хил</caption>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<healTarget>Health</healTarget>
+											<ignoreHealingMods>false</ignoreHealingMods>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+										</HealApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="2D26A4E6-119E-4789-BE79-C468C0064AFD">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorOnDeath>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>147</behaviorFlags>

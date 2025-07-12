@@ -801,7 +801,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>11</flags>
+	<flags>15</flags>
 	<forceBonus>13</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/Invisible/A4.ITEX" />
 	<imageSecondState href="" />
@@ -1074,9 +1074,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQsAAAACAAAAEAAAACYAAABGYW5DaGFyZ2VzAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<compiledString>FQsAAAACAAAAEAAAACYAAABGYW5DaGFyZ2VzAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vFanCharges&gt;=1</sString>
+					<sString>sender.vFanCharges&gt;=0</sString>
 				</enabled>
 				<flags>0</flags>
 				<formulaName></formulaName>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Items/Talents/Level1/G273_AntiCreep-Proc.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G273_AntiCreep-Proc.TALENT" Count="6" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

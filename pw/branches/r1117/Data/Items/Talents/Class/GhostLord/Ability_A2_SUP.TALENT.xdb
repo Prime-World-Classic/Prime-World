@@ -3,6 +3,7 @@
 	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A0_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/GhostLord_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A2_SpectralShield.APLR" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -64,6 +65,7 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/GhostLord/const_A2_SUP_LifeFeedback" />
+				<Item href="/Items/Talents/Class/GhostLord/const_A2_SUP_CD" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -72,9 +74,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>0.0f</sString>
+		<sString>0</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

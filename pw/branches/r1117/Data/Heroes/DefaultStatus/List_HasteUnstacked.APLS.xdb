@@ -25,6 +25,8 @@
 	<BackLink DBID="/Items/Talents/Level3/G289_GuildLifeReg_MoveSpeed.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/Status_G515_New_Haste.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_7_Glyph/status_Quickness.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A1_SpectralLashAlly.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" Count="1" />
 	<applicatorLists />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />

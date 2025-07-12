@@ -42,9 +42,9 @@
 					</levelUpgrades>
 					<statId>Life</statId>
 					<value>
-						<compiledString>FRQAAAACAAAAIQAAADQAAABOZXV0cmFsQ3JlZXBfTW9kX0hQAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNQgAAANld/NlF/IvlXcMAAAAAAMBsQA==</compiledString>
+						<compiledString>FRQAAAADAAAAIQAAADQAAAA6AAAATmV1dHJhbENyZWVwX01vZF9IUABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDVAAAADcDUgAAADZXfzZRfyL5V3DZmZmZmZm5j8AAAAAAMBsQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>230 * cNeutralCreep_Mod_HP</sString>
+						<sString>230 * cNeutralCreep_Mod_HP * 0.7</sString>
 					</value>
 				</Item>
 				<Item>

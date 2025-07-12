@@ -14,6 +14,8 @@
 	<BackLink DBID="/Items/Talents/Class/Night/status_A0_SUP_HASTE.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G289_GuildLifeReg_MoveSpeed.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/Status_G515_New_Haste.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A1_SpectralLashAlly.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

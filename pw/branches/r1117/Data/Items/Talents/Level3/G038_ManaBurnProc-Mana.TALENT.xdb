@@ -7,6 +7,7 @@
 	<BackLink DBID="/Social/TalentsCollection" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet16.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet3.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Artist.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -39,7 +40,18 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="D6DEEEDF-564F-4047-B5C8-68A4D4D5905E">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABHMDM4X1N0ck9ySW50AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG038_StrOrInt==1</sString>
+				</condition>
+				<name>StrOrInt</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="FE4DCE86-037D-4241-A3AE-F2CA857E514D">
 		<UnitConstantsContainer>
@@ -48,9 +60,9 @@
 					<UnitConstant>
 						<name>Proc_Chance</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>25</sString>
+							<sString>100</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -58,9 +70,29 @@
 					<UnitConstant>
 						<name>Energy_Burn</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAcEIAAKBA</compiledString>
+							<compiledString>FRQAAAAEAAAALAAAAFIAAABeAAAAaAAAAEVuZXJneV9CdXJuX1BlcmNlbnQAVYvsg+wUuAEAAACFwHQ4i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9CLTQyLEYtNDItCBN1d+P/Q3E343A2UAAAA3V3w6yRR2QWQAAAA2RwkUdkFjAAAANkcJItNEIsRi00Qi0Js/9DdXfDdRfDZXezZReyL5V3DAABwQgAAoEAAAABA4XqEPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(60, 5.0)</sString>
+							<sString>true ? (cEnergy_Burn_Percent * rEnergy *0.01f) : refineScale(60, 5.0)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="8ABCAC5E-5B63-4F0D-8253-9794A793B17D">
+					<UnitConstant>
+						<name>Energy_Burn_Percent</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="0DC82E8E-5B90-451E-B03E-7F94798485B0">
+					<UnitConstant>
+						<name>Add_Stat</name>
+						<var>
+							<compiledString>FQAAAAADAAAADwAAABsAAAAlAAAAVYvsUbgBAAAAhcB0C9kFSwAAANld/OskUdkFRwAAANkcJFHZBUMAAADZHCSLTRCLEYtNEItCbP/Q2V382UX8i+VdwwAAEEEzMzM/AADgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>true ? 7 : refineScale(9, 0.7)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -120,26 +152,76 @@
 							<formulaName></formulaName>
 							<LoggingEvent>-1</LoggingEvent>
 							<probability>
-								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+								<compiledString>FQwAAAABAAAAGAAAAFByb2NfQ2hhbmNlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 								<returnType>float</returnType>
-								<sString>20</sString>
+								<sString>cProc_Chance</sString>
 							</probability>
 							<providerName></providerName>
 							<spell href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="0180BB4B-C16D-47A5-933A-4BE8E793C3FB">
 								<Spell>
 									<applicators>
-										<Item href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="D12FD54A-F3C2-4E0A-9B2E-4FAAF2FA83D0">
-											<DamageApplicator>
+										<Item href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="0E13E02B-BEA6-4E98-BF44-22BBF1C89A81">
+											<VariableProxyApplicator>
+												<applicators>
+													<Item>
+														<applicator href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="4D5EC7BF-FBD4-419E-984F-10F9B293E21E">
+															<DamageApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<cancelInvisibility>false</cancelInvisibility>
+																<caption>- списываем с врага ману</caption>
+																<damage>
+																	<compiledString>FQwAAAABAAAAGAAAAEVuZXJneV9CdXJuAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																	<returnType>float</returnType>
+																	<sString>cEnergy_Burn</sString>
+																</damage>
+																<damageMode>0</damageMode>
+																<damageType>Mana</damageType>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<timeLimiter>-1</timeLimiter>
+																<uiEvent href="/UI/Events/CommonEvents/EventEnergyBurn.UIEV" />
+															</DamageApplicator>
+														</applicator>
+														<variableNames>
+															<Item>damageDealed</Item>
+														</variableNames>
+													</Item>
+													<Item>
+														<applicator href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="4773DAFE-27FE-45B9-9A78-C26694EA1B1E">
+															<DamageApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<cancelInvisibility>false</cancelInvisibility>
+																<caption>- наносим урон</caption>
+																<damage>
+																	<compiledString>FQ0AAAABAAAAJAAAAGRhbWFnZURlYWxlZABVi+yD7AiLRRCLEItNEItCSP/QiUX8aAAAAACLTfyLEYtN/ItCVP/Q3MDZXfjZRfiL5V3D</compiledString>
+																	<returnType>float</returnType>
+																	<sString>appl.parent.GetVariable("damageDealed")*2</sString>
+																</damage>
+																<damageMode>0</damageMode>
+																<damageType>Pure</damageType>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<timeLimiter>-1</timeLimiter>
+																<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+															</DamageApplicator>
+														</applicator>
+														<variableNames />
+													</Item>
+												</applicators>
 												<applyTarget>ApplicatorTarget</applyTarget>
-												<cancelInvisibility>false</cancelInvisibility>
-												<caption>- списываем с врага ману</caption>
-												<damage>
-													<compiledString>FQwAAAABAAAAGAAAAEVuZXJneV9CdXJuAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-													<returnType>float</returnType>
-													<sString>cEnergy_Burn</sString>
-												</damage>
-												<damageMode>0</damageMode>
-												<damageType>Mana</damageType>
+												<caption></caption>
 												<enabled>
 													<compiledString></compiledString>
 													<returnType>bool</returnType>
@@ -148,9 +230,7 @@
 												<formulaName></formulaName>
 												<LoggingEvent>-1</LoggingEvent>
 												<providerName></providerName>
-												<timeLimiter>-1</timeLimiter>
-												<uiEvent href="/UI/Events/CommonEvents/EventEnergyBurn.UIEV" />
-											</DamageApplicator>
+											</VariableProxyApplicator>
 										</Item>
 									</applicators>
 									<dispatch href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="0D16939A-498F-449A-921B-A1874CB6DEF2">
@@ -191,9 +271,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCEP/Q3B01AAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAABAf0A=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sMaxEnergy&gt;500</sString>
 				</enabled>
 				<flags>0</flags>
 				<formulaName></formulaName>
@@ -215,10 +295,100 @@
 				<useListAs>ListAsRule</useListAs>
 			</AbilityUpgradeApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="F9097E17-B7CD-4F1F-B8BC-75BCF0EDBB8D">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>StrOrInt</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>G038_StrOrInt</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="4F4CF861-2AE7-4BD0-9412-71ED67885821">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Strength</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" id="2CF8077E-4B1C-4BE5-8C82-0426365A9FB0">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Intellect</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/DPAg338AA+UwF6L5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>!(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>G038</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>0</talentRollGroups>

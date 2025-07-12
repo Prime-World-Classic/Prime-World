@@ -171,9 +171,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FSUAAAACAAAALAAAAEUAAABHaG9zdExvcmRfQTJfU1VQAAAAAEdob3N0TG9yZF9BMl9TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<compiledString>FTIAAAAEAAAAOQAAAFIAAACIAAAAngAAAEdob3N0TG9yZF9BMl9TVVAAAAAAR2hvc3RMb3JkX0EyX1NVUAAAAABBMl9TVVBfQ0QAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0K2goAAAAi1UIiwKLTQiLkIgBAAD/0twdwAAAAN/g9sREewnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAPA/</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("GhostLord_A2_SUP")</sString>
+					<sString>tal("GhostLord_A2_SUP")&amp;&amp;sender.vA2_SUP_CD != 1.0f</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -238,6 +238,53 @@
 											<providerName></providerName>
 											<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
 										</HealApplicator>
+									</Item>
+									<Item href="/Items/Talents/Class/GhostLord/status_A2_SpectralShield.APLR" id="FD1E02A6-1B56-457A-AE94-B4601376FBC3">
+										<StatModApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<behaviorFlags>0</behaviorFlags>
+											<caption>A2_SUP_CD</caption>
+											<constraint>None</constraint>
+											<dontUpdate>false</dontUpdate>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString>FRAAAAABAAAAHAAAAEEyX1NVUF9Db29sRG93bgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+												<returnType>float</returnType>
+												<sString>cA2_SUP_CoolDown</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>A2_SUP_CD</variable>
+											</modifier>
+											<providerName></providerName>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<statModName></statModName>
+										</StatModApplicator>
 									</Item>
 								</applicators>
 								<dispatch href="/Items/Talents/Class/GhostLord/status_A2_SpectralShield.APLR" id="1B3F9C81-D0D6-49C8-8D02-478D831E281B">

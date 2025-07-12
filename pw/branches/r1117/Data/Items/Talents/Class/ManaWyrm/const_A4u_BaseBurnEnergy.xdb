@@ -6,8 +6,8 @@
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/ManaWyrm/Ability4Upg.TALENT" Count="1" />
 	<name>A4u_BurnEnergy</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>50</sString>
+		<sString>30</sString>
 	</var>
 </UnitConstant>

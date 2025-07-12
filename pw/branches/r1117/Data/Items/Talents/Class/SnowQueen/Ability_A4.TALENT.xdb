@@ -102,7 +102,7 @@
 	<askId>4</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>А4. Вечность</caption>
+	<caption>А4. </caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
@@ -196,9 +196,9 @@
 					<UnitConstant>
 						<name>A4_ManaBurn_TT</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>25</sString>
+							<sString>15</sString>
 						</var>
 					</UnitConstant>
 				</Item>

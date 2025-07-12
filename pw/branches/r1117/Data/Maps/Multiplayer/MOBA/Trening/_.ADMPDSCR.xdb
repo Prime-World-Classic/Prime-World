@@ -7621,6 +7621,50 @@
 				<Item skip="1" />
 				<Item skip="1" />
 				<Item skip="1" />
+				<Item>
+					<gameObject href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" id="7274AD21-9517-4107-B676-8C5741FF9EDE">
+						<AdvMapNeutralCreepSpawner parent="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN">
+							<firstSpawnTimeOffset>-59</firstSpawnTimeOffset>
+							<groups>
+								<Item>
+									<creeps>
+										<Item>
+											<offset>
+												<scale>
+													<x>1</x>
+												</scale>
+											</offset>
+										</Item>
+										<Item skip="1" />
+										<Item skip="1" />
+										<Item skip="1" />
+										<Item skip="1" />
+										<Item skip="1" />
+										<Item skip="1" />
+										<Item skip="1" />
+										<Item skip="1" />
+										<Item skip="1" />
+									</creeps>
+								</Item>
+							</groups>
+						</AdvMapNeutralCreepSpawner>
+					</gameObject>
+					<lockMap>true</lockMap>
+					<offset>
+						<rotationX>0</rotationX>
+						<rotationY>0</rotationY>
+						<rotationZ>-10</rotationZ>
+						<scaleX>1</scaleX>
+						<scaleY>1</scaleY>
+						<scaleZ>1</scaleZ>
+						<translateX>195.6099</translateX>
+						<translateY>235.9589</translateY>
+						<translateZ>0</translateZ>
+					</offset>
+					<player>None</player>
+					<scriptGroupName></scriptGroupName>
+					<scriptName></scriptName>
+				</Item>
 			</objects>
 		</AdvMap>
 	</map>

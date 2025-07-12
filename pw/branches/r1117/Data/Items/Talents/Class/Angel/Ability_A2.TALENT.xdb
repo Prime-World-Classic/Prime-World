@@ -445,6 +445,28 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Angel/const_A2u_LifeRegAbs" />
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="51A7298B-F614-4CE1-A939-7B94C255158F">
+					<UnitConstant>
+						<name>A2_HealPeriod</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="43338F91-41E7-4CED-979E-A0F66215E626">
+					<UnitConstant>
+						<name>A2_HealAmount</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAdQQAAk0I=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 9.8125, 73.5)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/const_A2u_Damage" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

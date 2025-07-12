@@ -502,9 +502,9 @@
 					<UnitConstant>
 						<name>A4u_Damage</name>
 						<var>
-							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCBP/Q3A0hAAAA2V382UX8i+VdwzMzMzMzM9M/</compiledString>
+							<compiledString>FQAAAAACAAAAEwAAABkAAABVi+xRi0UIixCLTQiLQgT/0NwNLwAAANwNJwAAANld/NlF/IvlXcMAAAAAAADgP2ZmZmZmZtY/</compiledString>
 							<returnType>float</returnType>
-							<sString>sEnergy*0.3</sString>
+							<sString>sEnergy*0.35*0.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -512,9 +512,9 @@
 					<UnitConstant>
 						<name>DopDamage</name>
 						<var>
-							<compiledString>FQAAAAABAAAAFQAAAFWL7FGLRQiLEItNCItCBP/Q3MDcDSMAAADZXfzZRfyL5V3DAAAAAAAA0D8=</compiledString>
+							<compiledString>FQAAAAABAAAAFQAAAFWL7FGLRQiLEItNCItCBP/Q3MDcDSMAAADZXfzZRfyL5V3DAAAAYGZmxj8=</compiledString>
 							<returnType>float</returnType>
-							<sString>sEnergy*2*0.25</sString>
+							<sString>sEnergy*2*(0.35f/2)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -571,7 +571,7 @@
 						<var>
 							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCBP/Q3A0hAAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
 							<returnType>float</returnType>
-							<sString>sEnergy*0.5</sString>
+							<sString>sEnergy*0.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -579,9 +579,9 @@
 					<UnitConstant>
 						<name>ManaCostMax</name>
 						<var>
-							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCEP/Q3A0hAAAA2V382UX8i+Vdw5qZmZmZmbk/</compiledString>
+							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCEP/Q3A0hAAAA2V382UX8i+VdwwAAAKCZmbk/</compiledString>
 							<returnType>float</returnType>
-							<sString>sMaxEnergy*0.1</sString>
+							<sString>sMaxEnergy*0.1f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -589,9 +589,9 @@
 					<UnitConstant>
 						<name>Silence_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>0.7</sString>
+							<sString>0.6f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -699,7 +699,7 @@
 			<FlagsApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
-				<caption>Запрет на использование ульты, если Max&gt;10%</caption>
+				<caption>Запрет на использование ульты, если Max&lt;10%</caption>
 				<consumables />
 				<effect>
 					<Item href="" />

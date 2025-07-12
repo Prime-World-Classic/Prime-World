@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TriggerApplicator>
 	<BackLink DBID="/Items/Talents/Level4/G752_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G273_AntiCreep-Proc.TALENT" Count="1" />
 	<actionsCount>
 		<compiledString></compiledString>
 		<returnType>int</returnType>

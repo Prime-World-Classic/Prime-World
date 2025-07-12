@@ -88,7 +88,8 @@
 	<BackLink DBID="/Items/Talents/Level1/G295_LifeDrain.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A1.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Frogenglut/Ability4.TALENT" Count="3" />
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Level3/G101_LifeReg-Str.TALENT" Count="2" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" id="BD7263A6-11FD-4EAA-A701-C57196049889">
 			<StatModApplicator>

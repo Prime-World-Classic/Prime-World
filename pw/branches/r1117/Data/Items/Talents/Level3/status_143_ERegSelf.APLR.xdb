@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Level3/G143_Aura-regEnergy.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/status_143_EnergyReg.APLR" Count="1" />
 	<applicators />
 	<applyTarget>AbilityOwner</applyTarget>
 	<behaviorFlags>0</behaviorFlags>

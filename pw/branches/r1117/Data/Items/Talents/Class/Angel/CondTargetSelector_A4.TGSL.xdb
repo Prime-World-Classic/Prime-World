@@ -21,7 +21,7 @@
 				<returnType>float</returnType>
 				<sString>1000</sString>
 			</range>
-			<targetFilter>268510151</targetFilter>
+			<targetFilter>268510147</targetFilter>
 			<targetSelector href="" />
 		</AreaTargetSelector>
 	</targetSelector>

@@ -10,18 +10,47 @@
 							<DamageApplicator parent="/GameLogic/GeneralApplicators/CommonDamage.APLR">
 								<applyTarget>AbilityOwner</applyTarget>
 								<damage>
-									<compiledString>FTUAAAAFAAAATQAAAGYAAAB/AAAAkwAAAMoAAABEYW1hZ2VQZW5ldHJhdGlvbk11bHRpcGxpZXJfU3Bpcml0AABBMV9EYW1hZ2VQZXJUaWNrAFWL7IPsHItFDIsQi00Mi4JwAQAA/9DcHQMBAADf4PbEBXpXi00MixGLTQyLAv/Q3CX7AAAAi00MixGLTQyLgnABAADdXfj/0NwN8wAAANno3uHcffiLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfD/0Nx98N1d6OsF2e7dXejdRejZXeTZReRR2Rwki00MUYtVCFJoJAAAAItFEIsQi00Qi0JQ/9BR2Rwk6CcAAACDxAiL5V3DAAAAAAAAAAAAAABA4XqEPwAAAAAAAPA/AAAAAAAAWUBVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+									<compiledString>FTUAAAAGAAAATQAAAGYAAAB/AAAAkwAAAMoAAADpAAAARGFtYWdlUGVuZXRyYXRpb25NdWx0aXBsaWVyX1NwaXJpdAAAQTFfRGFtYWdlUGVyVGljawBVi+yD7CCLRQyLEItNDIuCcAEAAP/Q3B0XAQAA3+D2xAV6V4tNDIsRi00MiwL/0NwlDwEAAItNDIsRi00Mi4JwAQAA3V34/9DcDQcBAADZ6N7h3H34i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V3w/9DcffDdXejrBdnu3V3o3UXo2V3k2UXkUdkcJItNDFGLVQhSaCQAAACLRRCLEItNEItCUP/QUdkcJOg7AAAAg8QI3DX3AAAA2V3g2UXgi+VdwwAAAAAAAAhAAAAAAAAAAAAAAABA4XqEPwAAAAAAAPA/AAAAAAAAWUBVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 									<returnType>float</returnType>
-									<sString>min( cA1_DamagePerTick, rEnergyDamageDecrease &lt; 100.0f ? (rLife - 1.0f) / (1.0f - rEnergyDamageDecrease * 0.01f) / cDamagePenetrationMultiplier_Spirit : 0)</sString>
+									<sString>(min( cA1_DamagePerTick, rEnergyDamageDecrease &lt; 100.0f ? (rLife - 1.0f) / (1.0f - rEnergyDamageDecrease * 0.01f) / cDamagePenetrationMultiplier_Spirit : 0))/3</sString>
+								</damage>
+								<damageMode>4</damageMode>
+								<damageType>Mana</damageType>
+								<enabled>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<uiEvent href="/UI/Events/CommonEvents/EventEnergyBurn.UIEV" />
+							</DamageApplicator>
+						</applicator>
+						<variableNames>
+							<Item>damageDealed</Item>
+						</variableNames>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/GhostLord/A2_Ally.SPLL" id="7E13AD26-58D2-460D-A0E5-F6E14910F366">
+							<DamageApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<cancelInvisibility>false</cancelInvisibility>
+								<caption>урон</caption>
+								<damage>
+									<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+									<returnType>float</returnType>
+									<sString>0</sString>
 								</damage>
 								<damageMode>4</damageMode>
 								<damageType>Energy</damageType>
 								<enabled>
-									<compiledString>FQAAAAABAAAAEgAAAFWL7FGLRQyLEItNDIsC/9DcHTQAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 									<returnType>bool</returnType>
-									<sString>rLife &gt; 1</sString>
+									<sString>true</sString>
 								</enabled>
-								<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<timeLimiter>-1</timeLimiter>
+								<uiEvent href="" />
 							</DamageApplicator>
 						</applicator>
 						<variableNames>
@@ -83,6 +112,29 @@
 								</modifier>
 								<providerName></providerName>
 							</PermanentStatModApplicator>
+						</applicator>
+						<variableNames />
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/GhostLord/A2_Ally.SPLL" id="339DAC52-CFF9-4C16-8872-56E1D679E4F7">
+							<AddNaftaApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<caption>дать герою прайм</caption>
+								<enabled>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<isFromImpulseBuff>false</isFromImpulseBuff>
+								<LoggingEvent>-1</LoggingEvent>
+								<nafta>
+									<compiledString>FQwAAAABAAAAGAAAAEExX0FkZE5hZnRhAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>cA1_AddNafta</sString>
+								</nafta>
+								<providerName></providerName>
+							</AddNaftaApplicator>
 						</applicator>
 						<variableNames />
 					</Item>

@@ -582,26 +582,6 @@
 						<stopEvents>0</stopEvents>
 					</Item>
 					<Item>
-						<applicator href="/GameLogic/GeneralApplicators/EndOfAbility.APLR" />
-						<continueCondition>
-							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-							<returnType>bool</returnType>
-							<sString>0</sString>
-						</continueCondition>
-						<continueEvents>1</continueEvents>
-						<delay>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>-1.0</sString>
-						</delay>
-						<stopCondition>
-							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-							<returnType>bool</returnType>
-							<sString>0</sString>
-						</stopCondition>
-						<stopEvents>0</stopEvents>
-					</Item>
-					<Item>
 						<applicator href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="F41DAF47-045F-40DA-87ED-4A992A31E5C9">
 							<StatusApplicator>
 								<applicators>
@@ -815,6 +795,26 @@
 						</delay>
 						<stopCondition>
 							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/GameLogic/GeneralApplicators/EndOfAbility.APLR" />
+						<continueCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>1</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>

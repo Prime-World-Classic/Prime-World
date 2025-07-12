@@ -162,9 +162,9 @@
 					<UnitConstant>
 						<name>A1_DamagePerTick_TT</name>
 						<var>
-							<compiledString>FSkAAAACAAAAMAAAAE0AAABHaG9zdExvcmRfQTFBbGx5X0NvdW50AABBMV9EYW1hZ2VQZXJUaWNrAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0ItNDFGLVQhSaBgAAACLRRCLEItNEItCUN1d+P/Q3E342V302UX0i+Vdww==</compiledString>
+							<compiledString>FSkAAAADAAAAMAAAAE0AAABmAAAAR2hvc3RMb3JkX0ExQWxseV9Db3VudAAAQTFfRGFtYWdlUGVyVGljawBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9CLTQxRi1UIUmgYAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nw1dAAAANld9NlF9IvlXcMAAAAAAAAIQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vGhostLord_A1Ally_Count * cA1_DamagePerTick</sString>
+							<sString>sender.vGhostLord_A1Ally_Count * cA1_DamagePerTick/3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -218,6 +218,37 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" id="D115920C-3526-4542-B4C4-C2B836638C5C">
+					<UnitConstant>
+						<name>Haste_Percent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>20</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" id="E7EA1033-C28C-4B56-8EB5-825AF2A40742">
+					<UnitConstant>
+						<name>Haste_Percent_Self</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" id="C6724AC0-A086-4E1F-9859-E8B1679B8DF1">
+					<UnitConstant>
+						<name>A1_EnergyLoss</name>
+						<var>
+							<compiledString>FRYAAAACAAAAIwAAADYAAABBMXVfSW5jSGVhbGluZ1BlclRpY2sAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3DVEAAAA2V382UX8i+VdwwAAAAAAAAhA</compiledString>
+							<returnType>float</returnType>
+							<sString>cA1u_IncHealingPerTick/3.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/GhostLord/const_A1_AddNafta" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -679,6 +710,126 @@
 			</SpellPeriodicallyApplicator>
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/trigger_G766_RefreshAndNotify.APLR" />
+		<Item href="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" id="65A4FF7C-8E67-45F3-9446-29700D265551">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" id="F12A596B-344E-45FB-B0F1-77BA372E2E24">
+						<StatModApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>144</behaviorFlags>
+							<caption>Стремительность</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="/Effects/Buffs/SpeedingUp/_MoveCycle.EFFT" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>0.0f</sString>
+								</addValue>
+								<multValue>
+									<compiledString>FRMAAAACAAAAIAAAADMAAABIYXN0ZV9QZXJjZW50X1NlbGYAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A1NAAAA2ejewdld/NlF/IvlXcMAAAAAAADwPwAAAEDheoQ/</compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f+cHaste_Percent_Self*0.01f</sString>
+								</multValue>
+								<stat>MoveSpeed</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName>Haste_Percent</statModName>
+						</StatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" id="FD1A099D-2E73-40D4-9735-545E02139CDB">
+						<UIMessageApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption> - FlyOff Message</caption>
+							<enabled>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<message textref="/Items/Talents/Class/GhostLord/Ability_A1.TALENT_fd1a099d2e7340d49735545e02139cdb_message.txt" />
+							<providerName></providerName>
+							<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff.UIEV" />
+							<value>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</value>
+						</UIMessageApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Статус Стремительность (Haste_Duration, Haste_Percent, Haste_Condition)</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Class/GhostLord/Ability_A1.TALENT_65a4ff7c8e6745f3944629700d265551_description.txt" />
+				<dispellPriority>Low</dispellPriority>
+				<effect>
+					<Item href="/Effects/Buffs/SpeedingUp/_Move.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FTYAAAAEAAAAPQAAAFMAAABfAAAAeAAAAEdob3N0TG9yZF9BMUFsbHlfQ291bnQAAEdob3N0TG9yZF9BMXUAAABHaG9zdExvcmRfQTF1AFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdxAAAAN/g9sREe1hoGAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaCgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vGhostLord_A1Ally_Count &amp;&amp; tal("GhostLord_A1u") </sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName>HasteStatus</formulaName>
+				<image href="/UI/Styles/Icons/Statuses/Standard/Run.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Class/GhostLord/Ability_A1.TALENT_65a4ff7c8e6745f3944629700d265551_name.txt" />
+				<power>10</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="/Heroes/DefaultStatus/List_HasteUnstacked.APLS" />
+			</StatusApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>GhostLord_A1</persistentId>
 	<prerequisiteTalents />

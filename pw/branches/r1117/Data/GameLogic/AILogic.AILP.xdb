@@ -3774,6 +3774,38 @@
 				<Item href="/Items/Talents/TalentKits/Redset7_12_SuperMove/Redset7_12_SuperMove.TALKIT" />
 				<Item href="/Items/Talents/TalentKits/Redset_RessurectTime/Redset_RessurectTime.TALKIT" />
 				<Item href="/Items/Talents/TalentKits/Redset_CastRange/Redset_CastRange.TALKIT" />
+				<Item href="/GameLogic/AILogic.AILP" id="6EA70BC7-463D-4FAD-85A0-2E35DBC64FDF">
+					<TalentKit>
+						<caption>AuraBuffSet</caption>
+						<kitCapacity>9</kitCapacity>
+						<name textref="/GameLogic/AILogic.AILP_6ea70bc7463d4fad85a02e35dbc64fdf_name.txt" />
+						<special href="" />
+						<talents>
+							<Item href="/Items/Talents/Level6/G183_Aura-Str.TALENT" />
+							<Item href="/Items/Talents/Level6/G184_Aura-Int.TALENT" />
+							<Item href="/Items/Talents/Level6/G210_Aura_Dexterity.TALENT" />
+							<Item href="/Items/Talents/Level6/G222_Aura_AttackSpeed.TALENT" />
+							<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" />
+							<Item href="/Items/Talents/Level4/G156_Aura-Stamina.TALENT" />
+							<Item href="/Items/Talents/Level3/G019_Aura-StaWill.TALENT" />
+							<Item href="/Items/Talents/Level3/G100_Int_LifeReg.TALENT" />
+							<Item href="/Items/Talents/Level3/G089_LifeRegen.TALENT" />
+						</talents>
+					</TalentKit>
+				</Item>
+				<Item href="/GameLogic/AILogic.AILP" id="81D5F608-C8B9-4CCD-8206-EB5BE12618A2">
+					<TalentKit>
+						<caption>GodsPotential</caption>
+						<kitCapacity>3</kitCapacity>
+						<name textref="/GameLogic/AILogic.AILP_81d5f608c8b94ccd8206eb5be12618a2_name.txt" />
+						<special href="" />
+						<talents>
+							<Item href="/Items/Talents/Level6/G182_Int_Str.TALENT" />
+							<Item href="/Items/Talents/Level6/G213_StatViaHighestStat.TALENT" />
+							<Item href="/Items/Talents/Level6/G420_Int_Str.TALENT" />
+						</talents>
+					</TalentKit>
+				</Item>
 			</kits>
 		</TalentKitList>
 	</talentKits>
@@ -4436,6 +4468,16 @@
 							<Item href="/Items/Talents/Level5/G772_Int_CDR.TALENT" />
 							<Item href="/Items/Talents/Level6/G773_StrOrInt_Dex.TALENT" />
 						</talents>
+					</TalentPack>
+				</Item>
+				<Item href="/GameLogic/AILogic.AILP" id="E26CD91C-01E9-4D63-9BE9-F4D9A07BAFD0">
+					<TalentPack>
+						<icon href="" />
+						<iconStyle>TTClassicSet_big</iconStyle>
+						<id>ClassicSet_big</id>
+						<isRedPack>false</isRedPack>
+						<name textref="/GameLogic/AILogic.AILP_e26cd91c01e94d639be9f4d9a07bafd0_name.txt" />
+						<talents />
 					</TalentPack>
 				</Item>
 			</packs>

@@ -62,7 +62,7 @@
 	<BackLink DBID="/Items/Talents/Class/Demonolog/status_A4_2_Root.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Faceless/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/A1_FlyOff.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A4_Haste.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunner/status_A3_WebRoot.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/status_A3_Mark.APLR" Count="1" />
@@ -102,6 +102,7 @@
 	<BackLink DBID="/Summons/EvilTree/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Spear/_Mowgli.SUMMONED" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A1_SpectralLashAlly.APLR" Count="1" />
 	<signRecipients>PLAYER_ONLY</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventCustomFlyoff.UIEV" id="8BB942C3-4CCD-4302-A121-C182BF75F144">

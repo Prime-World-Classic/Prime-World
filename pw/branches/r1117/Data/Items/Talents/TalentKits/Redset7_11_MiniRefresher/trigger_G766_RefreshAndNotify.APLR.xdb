@@ -136,7 +136,7 @@
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/Werewolf_A4.TALENT" Count="1" />
 	<BackLink DBID="/Maps/Tutorial/Talents/Tutorial_ThunderGod.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A1u.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" Count="1" />
 	<actionsCount>

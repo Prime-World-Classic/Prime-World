@@ -3,6 +3,8 @@
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="4" />
 	<BackLink DBID="/Social/Quests/TalentQuests/_Settings" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/Items/Talents/Artist.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -32,18 +34,58 @@
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations />
-	<commonDescription textref="" />
+	<commonDescription textref="/Items/Talents/Level6/G420_Int_Str.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
 	<conditionFormulas>
-		<Item href="/Items/Talents/Level6/G420_Int_Str.TALENT" id="049BC6BB-04DC-41E3-A7B5-A110594E04DC">
+		<Item href="/Items/Talents/Level6/G420_Int_Str.TALENT" id="1676E9C7-AA27-4405-9063-D62A7947FCAA">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FQ4AAAACAAAAEwAAACkAAABHMTgyX1N0ck9ySW50AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABHNDIwX1N0ck9ySW50AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG182_StrOrInt==1</sString>
+					<sString>sender.vG420_StrOrInt==1</sString>
 				</condition>
 				<name>StrOrInt</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level6/G420_Int_Str.TALENT" id="E9C5F06B-78F8-421E-B0C9-C685A7800A6F">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength&gt;=sBaseIntellect</sString>
+				</condition>
+				<name>KitStrOrInt2</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level6/G420_Int_Str.TALENT" id="F7134C8E-3497-4189-800B-CD01C1296AD0">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength&gt;=sBaseIntellect</sString>
+				</condition>
+				<name>KitStrOrInt3</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level6/G420_Int_Str.TALENT" id="90A6C867-1157-4571-AC2A-246C14E9E90B">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRkAAAACAAAAHgAAADQAAABHb2RzUG90ZW50aWFsU2V0X0NvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdVgAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAABA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vGodsPotentialSet_Counter&gt;=2</sString>
+				</condition>
+				<name>Bonus2Active</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level6/G420_Int_Str.TALENT" id="8ED3E2C5-A746-4352-9A87-E756D40FBA97">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRkAAAACAAAAHgAAADQAAABHb2RzUG90ZW50aWFsU2V0X0NvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdVgAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vGodsPotentialSet_Counter&gt;=3</sString>
+				</condition>
+				<name>Bonus3Active</name>
 			</ConditionFormula>
 		</Item>
 	</conditionFormulas>
@@ -51,16 +93,18 @@
 	<constants href="/Items/Talents/Level6/G420_Int_Str.TALENT" id="E278326A-4B0F-4600-B2FA-43F58E1E9CB3">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level6/G420_Int_Str.TALENT" id="977823DF-EC6D-48B1-B877-AA62C7D29240">
+				<Item href="/Items/Talents/Level6/G420_Int_Str.TALENT" id="B8C91374-C195-40CB-B2AB-12BB019E999C">
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAAEAAEACQAAABMAAAApAAAAQQAAAIEAAABVi+yD7AhR2QVbAAAA2RwkUdkFVwAAANkcJItFEIsQi00Qi0Js/9DcDU8AAADZXfzZRfxR2Rwk6CMAAACDxATcNU8AAADZXfjZRfiL5V3DAAAAAAAAJEAAALBBMzPTP1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhv////g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAAFAAEAEQAAAB0AAAAnAAAAPQAAAFUAAACjAAAAVYvsg+wQuAEAAACFwHQL3QV5AAAA3V3460JR2QV1AAAA2RwkUdkFcQAAANkcJItNEIsRi00Qi0Js/9DcDWkAAADZXfTZRfRR2Rwk6DEAAACDxATcNWkAAADdXfjdRfjZXfDZRfCL5V3DAAAAAAAAJEAAALBBMzPTPwAAAAAAgEFAVYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6E3///+DxAjZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(22, 1.65)*10)/10</sString>
+							<sString>true ? 35 : floor(refineScale(22, 1.65)*10)/10</sString>
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/TalentKits/Redset10_2_GodsPotential/const_KitStrOrInt2" />
+				<Item href="/Items/Talents/TalentKits/Redset10_2_GodsPotential/const_KitStrOrInt3" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -127,7 +171,7 @@
 					</multValue>
 					<stat>Life</stat>
 					<topModifier>false</topModifier>
-					<variable>G182_StrOrInt</variable>
+					<variable>G420_StrOrInt</variable>
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
@@ -192,6 +236,7 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset10_2_GodsPotential/KitGodsPotentialAppls.APLR" />
 	</passiveApplicators>
 	<persistentId>G420</persistentId>
 	<prerequisiteTalents />
