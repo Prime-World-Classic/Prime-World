@@ -231,9 +231,9 @@
 					<UnitConstant>
 						<name>Add_Stamina</name>
 						<var>
-							<compiledString>FQAAAAADAAAADwAAABsAAAAlAAAAVYvsUbgBAAAAhcB0C9kFSwAAANld/OskUdkFRwAAANkcJFHZBUMAAADZHCSLTRCLEYtNEItCbP/Q2V382UX8i+Vdw5qZGUDNzEw+AADgQA==</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw5qZGT/NzEw/</compiledString>
 							<returnType>float</returnType>
-							<sString>true ? 7 : refineScale(2.4, 0.2)</sString>
+							<sString>refineScale(0.6, 0.8)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -241,9 +241,9 @@
 					<UnitConstant>
 						<name>Add_Will</name>
 						<var>
-							<compiledString>FQAAAAADAAAADwAAABsAAAAlAAAAVYvsUbgBAAAAhcB0C9kFSwAAANld/OskUdkFRwAAANkcJFHZBUMAAADZHCSLTRCLEYtNEItCbP/Q2V382UX8i+Vdw5qZGUDNzEw+AADgQA==</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw5qZGT/NzEw/</compiledString>
 							<returnType>float</returnType>
-							<sString>true ? 7 : refineScale(2.4, 0.2)</sString>
+							<sString>refineScale(0.6, 0.8)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

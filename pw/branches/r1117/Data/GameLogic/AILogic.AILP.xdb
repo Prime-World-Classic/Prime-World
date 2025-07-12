@@ -1720,6 +1720,16 @@
 				<name>RefineRate15</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/GameLogic/AILogic.AILP" id="C2E25456-08B1-47D4-A8B5-129041963061">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQiz/0DPJg/gPD5/BisFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>mRefineRate &gt; 15</sString>
+				</condition>
+				<name>RefineRate16</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<consumableGroups href="/GameLogic/ConsumableGroup.CGRP" />
 	<creatureHappyStateParams>
@@ -3084,6 +3094,16 @@
 							<compiledString>FR0AAAACAAAAIgAAADgAAABSZWRzZXRfQ2FzdFJhbmdlX0Zvcm1Db3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcDUYAAADZXfzZRfyL5V3DmpmZmZmZqT8=</compiledString>
 							<returnType>float</returnType>
 							<sString>(0.05*sender.vRedset_CastRange_FormCounter)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/GameLogic/AILogic.AILP" id="77924ADB-3BC9-4C0F-BD12-6D58BB70F7A5">
+					<UnitConstant>
+						<name>RefineRate16</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvsUYtFEIsQi00Qi0Is/9CD6A+JRfzbRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>mRefineRate-15</sString>
 						</var>
 					</UnitConstant>
 				</Item>

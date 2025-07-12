@@ -330,9 +330,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAADAAEADwAAABsAAAAlAAAAfQAAAFWL7FG4AQAAAIXAdAvZBVcAAADZXfzrMFHZBVMAAADZHCRR2QVPAAAA2Rwki00QixGLTRCLQmz/0FHZHCToGQAAAIPEBNld/NlF/IvlXcMAAKhBAADAPwAADEJVi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCToc////4PECNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAmEEAAABA</compiledString>
 							<returnType>float</returnType>
-							<sString>true ? 35 : floor(refineScale(21, 1.5))</sString>
+							<sString>refineScale(19, 2)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
