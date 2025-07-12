@@ -15,6 +15,12 @@ namespace
   string mirror_coordinatorAddr = string(MIRROR_SERVER_IP) + ":" + SERVER_PORT;
   string mirror_loginAddr = string(MIRROR_SERVER_IP) + ":" + LOGIN_PORT + "@10";
 
+  string proxy_coordinatorAddr = string(SERVER_PROXY_IP) + ":" + SERVER_PORT;
+  string proxy_loginAddr = string(SERVER_PROXY_IP) + ":" + LOGIN_PORT + "@10";
+
+  string* serverAddrs_coordinator[] = {&coordinatorAddr, &mirror_coordinatorAddr, &proxy_coordinatorAddr};
+  string* serverAddrs_login[] = {&loginAddr, &mirror_loginAddr, &proxy_loginAddr};
+
   string frontendIPAddr = "localhost";
   string backendIPAddr = "localhost";
 
@@ -31,12 +37,12 @@ namespace Network
 
 const string & GetCoordinatorAddress()
 {
-  return useMirrorServer ? mirror_coordinatorAddr : coordinatorAddr;
+  return *(serverAddrs_coordinator[usedServer]);
 }
 
 const string & GetLoginServerAddress()
 {
-  return useMirrorServer ? mirror_loginAddr : loginAddr;
+  return *(serverAddrs_login[usedServer]);
 }
 
 int GetFirstServerPortBack()

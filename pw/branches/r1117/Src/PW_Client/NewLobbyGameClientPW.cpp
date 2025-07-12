@@ -816,7 +816,7 @@ static void SendFinishGameRequest(const StatisticService::RPC::SessionClientResu
   sessionResultsJson["method"] = Json::Value("notifyGameFinishLegacy");
 
   std::string res = GetFormattedJson(sessionResultsJson);
-  WebPostRequest request(useMirrorServer ? MIRROR_SERVER_IP_W : SERVER_IP_W, L"/api", SYNCHRONIZER_PORT, 0);
+  WebPostRequest request(SERVER_IP_W_ARRAY[usedServer], L"/api", SYNCHRONIZER_PORT, 0);
   request.SendPostRequest(res);
 }
 

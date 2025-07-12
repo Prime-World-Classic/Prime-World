@@ -23,6 +23,6 @@ public:
 
 extern std::string GetSessionData(const char* token, bool registerSession);
 
-extern bool useMirrorServer;
+extern int usedServer;
 
 std::string GetFormattedJson(Json::Value value);

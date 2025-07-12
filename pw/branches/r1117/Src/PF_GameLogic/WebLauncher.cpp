@@ -41,9 +41,12 @@ std::map<nstl::wstring, WebLauncherPostRequest::WebUserData> g_usersData;
 map<int, WebLauncherPostRequest::PlayerInfoByUserId> userIdToNicknameMap;
 
 
+std::string GetFormattedJson(Json::Value value);
+
+
 WebLauncherPostRequest::WebLauncherPostRequest()
 {
-  Init(useMirrorServer ? MIRROR_SERVER_IP_W : SERVER_IP_W, L"/api", SYNCHRONIZER_PORT, 0);
+  Init(SERVER_IP_W_ARRAY[usedServer], L"/api", SYNCHRONIZER_PORT, 0);
 }
 
 void WebLauncherPostRequest::Init(const wchar_t* serverUrl, const wchar_t* objectName, int serverPort, DWORD flags)
@@ -534,20 +537,23 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
   res.response = "";
   res.retCode = LoginResponse_WEB_FAILED_CONNECTION;
 
-  char jsonBuff[4096];
-  ZeroMemory(jsonBuff,4096);
-
   std::string sessionToken(token, 32);
   std::string playerKey(token + 32);
 
   g_sessionToken = sessionToken.c_str();
   g_playerToken = playerKey.c_str();
 
-  sprintf(jsonBuff,"{\"method\":\"connectToWebSession\",\"data\":{\"sessionToken\":\"%s\",\"playerKey\":\"%s\",\"apiKey\":\"%s\"}}", sessionToken.c_str(), playerKey.c_str());
-  OutputDebugStringA(jsonBuff);
-  const std::string jsonData = jsonBuff;
+  Json::Value data;
+  data["sessionToken"] = Json::Value (sessionToken);
+  data["playerKey"] = Json::Value (playerKey);
 
-  std::string responseStream = SendPostRequest(jsonData);
+  Json::Value result;
+  result["data"] = data;
+  result["method"] = Json::Value("connectToWebSession");
+
+  std::string req = GetFormattedJson(result);
+
+  std::string responseStream = SendPostRequest(req);
 
   OutputDebugStringA(responseStream.c_str());
 
@@ -687,7 +693,7 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
 
   return res;
 }
-
+#pragma optimize("", off)
 std::string WebLauncherPostRequest::CreateDebugSession()
 {
   std::string res = "";
@@ -695,14 +701,54 @@ std::string WebLauncherPostRequest::CreateDebugSession()
   char jsonBuff[4096];
   ZeroMemory(jsonBuff,4096);
 
-  sprintf(jsonBuff,"{\"method\":\"registerSession\",\"key\":\"%s\",\"body\":{\"sessionToken\":\"%s\",\"players\":%s}}", API_KEY, SESSION_TOKEN,
-    "[{\"id\":1,\"nickname\":\"Rekongstor\",\"muteChat\":false,\"hero\":29,\"team\":2,\"party\":0,\"skin\":1,\"rating\":{\"current\":2001.01234567,\"victory\":2021.987654321,\"loss\":1995.456789123123456},\"build\":[689,634,413,576,415,377,687,632,370,510,426,723,686,631,605,508,677,676,-266,420,607,577,429,675,-263,-264,606,506,431,-265,-261,-262,406,507,564,-29],\"bar\":[-31,-32,30,19,8,0,0,0,0,0]},\
-      {\"id\":2,\"nickname\":\"DOK\",\"muteChat\":false,\"hero\":28,\"team\":1,\"party\":0,\"skin\":2,\"rating\":{\"current\":2021.01234567,\"victory\":2041.987654321,\"loss\":1975.456789123123456},\"build\":[689,634,413,576,415,377,687,632,370,510,426,723,686,631,605,508,677,676,-266,420,607,577,429,675,-263,-264,606,506,431,-265,-261,-262,406,507,564,-29],\"bar\":[-31,-32,30,19,8,0,0,0,0,0]}]"
-    );
-  OutputDebugStringA(jsonBuff);
-  const std::string jsonData = jsonBuff;
+  Json::Value players;
+  
+  Json::Value player;
+  player["id"] = Json::Value (1);
+  player["nickname"] = Json::Value ("Rekongstor");
+  player["muteChat"] = Json::Value (false);
+  player["hero"] = Json::Value (29);
+  player["team"] = Json::Value (2);
+  player["party"] = Json::Value (0);
+  player["skin"] = Json::Value (1);
 
-  std::string responseStream = SendPostRequest(jsonData);
+  Json::Value rating;
+  rating["current"] = Json::Value (2001.01234567);
+  rating["victory"] = Json::Value (2021.987654321);
+  rating["loss"] = Json::Value (1995.456789123123456);
+
+  Json::Value build;
+  build.resize(36);
+  int buildArray[] = {689,634,413,576,415,377,687,632,370,510,426,723,686,631,605,508,677,676,-266,420,607,577,429,675,-263,-264,606,506,431,-265,-261,-262,406,507,564,-29};
+  for (int i = 0; i < 36; ++i) {
+    build[i] = buildArray[i];
+  }
+  Json::Value bar;
+  bar.resize(10);
+  int barArray[] = {-31,-32,30,19,8,0,0,0,0,0};
+  for (int i = 0; i < 10; ++i) {
+    bar[i] = barArray[i];
+  }
+
+  player["rating"] = rating;
+  player["build"] = build;
+  player["bar"] = bar;
+  
+  players.resize(1);
+  players[0] = player;
+
+  Json::Value data;
+  data["sessionToken"] = Json::Value (SESSION_TOKEN);
+  data["players"] = players;
+
+  Json::Value result;
+  result["body"] = data;
+  result["method"] = Json::Value("registerSession");
+  result["key"] = Json::Value(API_KEY);
+
+  std::string req = GetFormattedJson(result);
+
+  std::string responseStream = SendPostRequest(req);
 
   OutputDebugStringA(responseStream.c_str());
 
