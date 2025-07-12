@@ -97,9 +97,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAAFAAEAEQAAAB0AAAAnAAAAPQAAAFUAAACjAAAAVYvsg+wQuAEAAACFwHQL3QV5AAAA3V3460JR2QV1AAAA2RwkUdkFcQAAANkcJItNEIsRi00Qi0Js/9DcDWkAAADZXfTZRfRR2Rwk6DEAAACDxATcNWkAAADdXfjdRfjZXfDZRfCL5V3DAAAAAAAAJEAAALBBMzPTPwAAAAAAgEFAVYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6E3///+DxAjZXfzZRfyL5V3D</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAmEEAAABA</compiledString>
 							<returnType>float</returnType>
-							<sString>true ? 35 : floor(refineScale(22, 1.65)*10)/10</sString>
+							<sString>refineScale(19, 2)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
