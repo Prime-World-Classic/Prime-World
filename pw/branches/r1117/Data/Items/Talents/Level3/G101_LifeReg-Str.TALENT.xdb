@@ -261,9 +261,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FSIAAAACAAAAKQAAAEYAAABHMTAxRGFtYWdlU3RhY2tDb3VudGVyAABNYXhTdGFja3MAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Qi00MUYtVCFJoGAAAAItFEIsQi00Qi0JQ3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG101DamageStackCounter &lt; cMaxStacks</sString>
+					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -293,9 +293,9 @@
 											<caption>G101DamageStackCounter</caption>
 											<customApplyType>None</customApplyType>
 											<enabled>
-												<compiledString></compiledString>
+												<compiledString>FSIAAAACAAAAKQAAAEYAAABHMTAxRGFtYWdlU3RhY2tDb3VudGVyAABNYXhTdGFja3MAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Qi00MUYtVCFJoGAAAAItFEIsQi00Qi0JQ3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 												<returnType>bool</returnType>
-												<sString>true</sString>
+												<sString>sender.vG101DamageStackCounter&lt;cMaxStacks</sString>
 											</enabled>
 											<formulaName></formulaName>
 											<LoggingEvent>-1</LoggingEvent>
@@ -520,9 +520,9 @@
 				<behaviorFlags>216</behaviorFlags>
 				<caption>Готов дамажить</caption>
 				<customCounter>
-					<compiledString></compiledString>
+					<compiledString>FQcAAAABAAAAEwAAAFN0YWNrcwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0lHZHCToBQAAAIPEBF3DuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
 					<returnType>int</returnType>
-					<sString>0</sString>
+					<sString>f2l(cStacks)</sString>
 				</customCounter>
 				<customProgress>
 					<compiledString></compiledString>

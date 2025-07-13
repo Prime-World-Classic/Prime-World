@@ -3,7 +3,7 @@
 	<BackLink DBID="/Items/Talents/Class/BladeDancer/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/BladeDancer/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/BladeDancer/Ability_A3.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/BladeDancer/Ability_A4.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/BladeDancer/Ability_A4.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/BladeDancer/Ability_A4_2.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/BladeDancer/status_A0_AddMastery.APLR" id="EDAE77AA-F421-4032-A366-A43C42EA5EAF">

@@ -8,6 +8,7 @@
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/BladeDancer_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/BladeDancer/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/BladeDancer/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/BladeDancer.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -56,8 +57,6 @@
 				<useListAs>ListAsRule</useListAs>
 			</RefreshCooldownApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/BladeDancer/status_A0_AddMastery.APLR" />
-		<Item href="/Items/Talents/Class/BladeDancer/status_A0_AddMastery.APLR" />
 		<Item href="/Items/Talents/Class/BladeDancer/Ability_A4.TALENT" id="89A359DC-4A73-4950-9246-A0B789BBD3B3">
 			<ProgramApplicator>
 				<applicators>
@@ -149,6 +148,9 @@
 				</startCondition>
 			</ProgramApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/BladeDancer/status_A0_AddMastery.APLR" />
+		<Item href="/Items/Talents/Class/BladeDancer/status_A0_AddMastery.APLR" />
+		<Item href="/Items/Talents/Class/BladeDancer/status_A0_AddMastery.APLR" />
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />

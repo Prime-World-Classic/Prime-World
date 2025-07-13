@@ -184,9 +184,9 @@
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
-					<compiledString></compiledString>
+					<compiledString>FQwAAAABAAAAGAAAAEEyX0hlYWxUaW1lAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 					<returnType>float</returnType>
-					<sString>-1.0</sString>
+					<sString>cA2_HealTime</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<period>
@@ -244,14 +244,14 @@
 					</Spell>
 				</spell>
 				<startCondition>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9CFwHQbi00MixGLTQyLQlD/0IP4AXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>rUnitKind == 0 ||rUnitKind == 1</sString>
 				</startCondition>
 				<startOffset>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 					<returnType>float</returnType>
-					<sString>0.0f</sString>
+					<sString>0.5f</sString>
 				</startOffset>
 				<targetSelector href="" />
 			</SpellPeriodicallyApplicator>
