@@ -467,6 +467,16 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Angel/const_A2u_Damage" />
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="8A7BE060-2FD8-4886-873A-9A5700D4C496">
+					<UnitConstant>
+						<name>A2_HealTime</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

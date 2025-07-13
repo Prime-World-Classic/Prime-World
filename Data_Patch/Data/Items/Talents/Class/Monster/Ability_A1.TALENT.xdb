@@ -1396,9 +1396,19 @@
 					<UnitConstant>
 						<name>A1_DamageFull</name>
 						<var>
-							<compiledString>FRYAAAADAAAASAAAAFsAAABtAAAAQTFfRGFtYWdlAAAAQTFfRGFtYWdlAFWL7IPsDItFDIsQi00Mi0JQ/9CFwHQ3i00MixGLTQyLQlD/0IP4AXQli00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ/9DcDY4AAADdXfjrHYtNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Q3V343UX42V302UX0i+VdwwAAAAAAAPg/</compiledString>
+							<compiledString>FSwAAAAEAAAAXgAAAHgAAACOAAAApwAAAEExX0RhbWFnZQAAAEExX0RhbWFnZQAAAENyZWVwc0RhbWFnZVBlcmNlbnQAVYvsg+wUi0UMixCLTQyLQlD/0IXAdFuLTQyLEYtNDItCUP/Qg/gBdEmLTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0ItNDFGLVQhSaBgAAACLRRCLEItNEItCUN1d+P/Q3A3QAAAA2ejewdxN+N1d8Osdi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DdXfDdRfDZXezZReyL5V3DAAAAAAAA8D8AAABA4XqEPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>(rUnitKind ==0 || rUnitKind ==1) ? cA1_Damage : cA1_Damage*1.5</sString>
+							<sString>(rUnitKind ==0 || rUnitKind ==1) ? cA1_Damage : cA1_Damage*(1+cCreepsDamagePercent*0.01f)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Monster/Ability_A1.TALENT" id="6D5A4D58-84CA-4645-A311-36272E4AF006">
+					<UnitConstant>
+						<name>CreepsDamagePercent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>50</sString>
 						</var>
 					</UnitConstant>
 				</Item>

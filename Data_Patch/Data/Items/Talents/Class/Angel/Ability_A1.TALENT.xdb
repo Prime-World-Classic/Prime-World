@@ -622,7 +622,7 @@
 						<var>
 							<compiledString>FTgAAAAJAAAAPwAAAFgAAACSAAAAnAAAANEAAADqAAAA+AAAAAIBAAA3AQAAQW5nZWxfQTFfU1VQAAAAAEFuZ2VsX0ExX1NVUAAAAABBMV9EdXJhdGlvbgBBMV9EdXJhdGlvbgBVi+yD7CRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRmagFR2QVqAQAA2RwkUdkFZgEAANkcJGoAi1UIiwKLTQiLkDABAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9CLTQxRi1UIUmggAAAAi0UQixCLTRCLQlDdXfD/0Nx98NwNXgEAAN1d6OteagFR2QVqAQAA2RwkUdkFZgEAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9CLTQxRi1UIUmgsAAAAi0UQixCLTRCLQlDdXeD/0Nx94N1d6N1F6Nld3NlF3IvlXcOamZmZmZnxPwAAQEIAALRD</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Angel_A1_SUP") ? (damageScale(sStrength, 48, 360) / cA1_Duration )*1.1 :damageScale(sStrength, 48, 360) / cA1_Duration</sString>
+							<sString>tal("Angel_A1_SUP") ? (damageScale(sStrength, 48, 360) / cA1_Duration )*1.1 : damageScale(sStrength, 48, 360) / cA1_Duration</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -630,9 +630,9 @@
 					<UnitConstant>
 						<name>A1_Heal</name>
 						<var>
-							<compiledString>FTgAAAAJAAAAPwAAAFgAAACSAAAAnAAAANEAAADqAAAA+AAAAAIBAAA3AQAAQW5nZWxfQTFfU1VQAAAAAEFuZ2VsX0ExX1NVUAAAAABBMV9EdXJhdGlvbgBBMV9EdXJhdGlvbgBVi+yD7CRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRmagFR2QVqAQAA2RwkUdkFZgEAANkcJGoAi1UIiwKLTQiLkDQBAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9CLTQxRi1UIUmggAAAAi0UQixCLTRCLQlDdXfD/0Nx98NwNXgEAAN1d6OteagFR2QVqAQAA2RwkUdkFZgEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9CLTQxRi1UIUmgsAAAAi0UQixCLTRCLQlDdXeD/0Nx94N1d6N1F6Nld3NlF3IvlXcOamZmZmZnxPwAAQEIAALRD</compiledString>
+							<compiledString>FR0AAAAHAAAAJAAAAD0AAAB3AAAAgQAAAK8AAAC9AAAAxwAAAEFuZ2VsX0ExX1NVUAAAAABBbmdlbF9BMV9TVVAAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0RmoBUdkFDwEAANkcJFHZBQsBAADZHCRqAItVCIsCi00Ii5A0AQAA/9JR2RwkagGLRRCLEItNEItCYP/Q3A0DAQAA3V3w6z5qAVHZBQ8BAADZHCRR2QULAQAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0N1d8N1F8Nld7NlF7IvlXcOamZmZmZnxPwAAQEIAALRD</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Angel_A1_SUP") ? (damageScale(sIntellect, 48, 360) / cA1_Duration )*1.1 :damageScale(sIntellect, 48, 360) / cA1_Duration</sString>
+							<sString>tal("Angel_A1_SUP") ? damageScale(sIntellect, 48, 360)*1.1 : damageScale(sIntellect, 48, 360)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
