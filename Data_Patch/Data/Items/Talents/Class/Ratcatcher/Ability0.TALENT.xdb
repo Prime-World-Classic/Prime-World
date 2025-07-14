@@ -52,9 +52,9 @@
 					<UnitConstant>
 						<name>Bonus_Life</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQgAA4UM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQgAAyEM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sStrength, 80, 450 )</sString>
+							<sString>damageScale( sStrength, 80, 400 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -62,9 +62,9 @@
 					<UnitConstant>
 						<name>Bonus_Stamina</name>
 						<var>
-							<compiledString>FQAAAAACAAAACQAAABMAAABVi+xRagBR2QVPAAAA2RwkUdkFSwAAANkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCRqAItNEIsRi00Qi0Jg/9DcwNld/NlF/IvlXcMK16M+mpkZQA==</compiledString>
+							<compiledString>FQAAAAACAAAACQAAABMAAABVi+xRagBR2QVPAAAA2RwkUdkFSwAAANkcJGoAi0UIixCLTQiLgjABAAD/0FHZHCRqAItNEIsRi00Qi0Jg/9DcwNld/NlF/IvlXcMzM7M+AAAgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale(sIntellect, 0.32, 2.4, false )*2</sString>
+							<sString>abilityScale(sStrength, 0.35, 2.5, false )*2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
