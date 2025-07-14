@@ -39,9 +39,9 @@
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<caption>(РЗ) Ослепление аое</caption>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii4KQAQAA/9CL8ItNCIsRi00Ii0JM/9AzyTvwD5TBisFeXcM=</compiledString>
+					<compiledString>FR4AAAACAAAAJgAAAD8AAABQcmluY2VfQTFfU1VQAAAAUHJpbmNlX0ExX1NVUABVi+yD7AxWaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0CcdF9AEAAADrKYtVCIsCi00Ii5CQAQAA/9KL8ItFCIsQi00Ii0JM/9AzyTvwD5TBiU30ikX0XovlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sFctn == sTerrainType</sString>
+					<sString>tal("Prince_A1_SUP")? true :(sFctn == sTerrainType)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -322,9 +322,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FTYAAAAJAAAAPQAAAFYAAACUAAAAngAAAOsAAAD4AAAAGQEAACMBAAB3AQAAUHJpbmNlX0ExX1NVUAAAAFByaW5jZV9BMV9TVVAAAABURVJSQk9OVVMAAABURVJSQk9OVVMAVYvsg+wkaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhIUAAABqAVHZBaoBAADZHCRR2QWmAQAA2RwkagCLVQiLAotNCIuQMAEAAP/SUdkcJItFCIsQi00Ii4I0AQAA/9BR2Rwk6NoAAACDxATZHCRqAYtNEIsRi00Qi0Jg/9DcDZ4BAACLTQxRi1UIUmggAAAAi0UQixCLTRCLQlDdXfD/0NxN8N1d6Ot9agFR2QWqAQAA2RwkUdkFpgEAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOhVAAAAg8QE2RwkagGLTRCLEYtNEItCYP/Qi00MUYtVCFJoLAAAAItFEIsQi00Qi0JQ3V3g/9DcTeDdXejdRejZXdzZRdyL5V3DAAAAAAAA9D8AAKBCAAAWRFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FTYAAAAJAAAAPQAAAFYAAACUAAAAngAAAOsAAAD4AAAAGQEAACMBAAB3AQAAUHJpbmNlX0ExX1NVUAAAAFByaW5jZV9BMV9TVVAAAABURVJSQk9OVVMAAABURVJSQk9OVVMAVYvsg+wkaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhIUAAABqAVHZBaoBAADZHCRR2QWmAQAA2RwkagCLVQiLAotNCIuQMAEAAP/SUdkcJItFCIsQi00Ii4I0AQAA/9BR2Rwk6NoAAACDxATZHCRqAYtNEIsRi00Qi0Jg/9DcDZ4BAACLTQxRi1UIUmggAAAAi0UQixCLTRCLQlDdXfD/0NxN8N1d6Ot9agFR2QWqAQAA2RwkUdkFpgEAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOhVAAAAg8QE2RwkagGLTRCLEYtNEItCYP/Qi00MUYtVCFJoLAAAAItFEIsQi00Qi0JQ3V3g/9DcTeDdXejdRejZXdzZRdyL5V3DmpmZmZmZ8T8AAIxCAIAJRFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Prince_A1_SUP") ? damageScale(max(sIntellect, sStrength), 80, 600)*1.25 * cTERRBONUS :damageScale(max(sIntellect, sStrength), 80, 600) * cTERRBONUS</sString>
+							<sString>tal("Prince_A1_SUP") ? damageScale(max(sIntellect, sStrength), 70, 550)*1.1 * cTERRBONUS :damageScale(max(sIntellect, sStrength), 70, 550) * cTERRBONUS</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -1110,9 +1110,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABQQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>15</sString>
+		<sString>13</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
@@ -1149,9 +1149,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAbQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>155</sString>
+		<sString>120</sString>
 	</manaCost>
 	<marker>doCast2</marker>
 	<microAI href="/Items/Talents/Class/Night/Ability2.TALENT" id="D022391B-2F2D-49FA-9713-4FCC1C4F05D9">

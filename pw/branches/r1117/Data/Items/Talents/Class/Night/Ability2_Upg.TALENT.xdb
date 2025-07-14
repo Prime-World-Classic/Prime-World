@@ -72,9 +72,9 @@
 					<UnitConstant>
 						<name>A2u_BounceTimes</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>3</sString>
+							<sString>4</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -82,9 +82,9 @@
 					<UnitConstant>
 						<name>A2u_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAsQgCAokM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABUQgCA1EM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 43, 325)</sString>
+							<sString>damageScale(sIntellect, 53, 425)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
