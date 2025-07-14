@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MinigamePlace>
+	<BackLink DBID="/Maps/Multiplayer/MOBA/_.ADMP" Count="5" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Map2/_.ADMP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Mod2/_.ADMP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Mod9/_.ADMP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/NewYear/_.ADMP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/NightMap/_.ADMP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/PFmap/_.ADMP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/PFmap/Mod2/_.ADMP" Count="1" />
+	<BackLink DBID="/Maps/Test/PlaneMap/_.ADMP" Count="2" />
+	<BackLink DBID="/Maps/Test/Test5x5/_.ADMP" Count="1" />
+	<abilities>
+		<Item href="" />
+		<Item href="/Buildings/A/MiniGame/_.MINI" id="A86B4E93-6DFE-437E-84EC-0F612E539704">
+			<Ability>
+				<activeCustomTrigger>true</activeCustomTrigger>
+				<allowChase>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</allowChase>
+				<alternativeTargets />
+				<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+				<aoeHeight>0</aoeHeight>
+				<aoeMaterial href="" />
+				<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+				<aoeSize>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</aoeSize>
+				<aoeType>None</aoeType>
+				<applicators />
+				<autoTargetSelector href="" />
+				<caption></caption>
+				<castAllowRange>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</castAllowRange>
+				<castLimitations />
+				<commonDescription textref="" />
+				<compiledDescriptionA textref="" />
+				<compiledDescriptionB textref="" />
+				<conditionFormulas />
+				<constants href="" />
+				<cooldownTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</cooldownTime>
+				<cooldownTimeSecondState>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</cooldownTimeSecondState>
+				<description textref="" />
+				<dispatch href="" />
+				<flags>1</flags>
+				<image href="" />
+				<imageSecondState href="" />
+				<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+				<manaCost>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</manaCost>
+				<marker></marker>
+				<microAI href="" />
+				<minUseRangeCorrection>0</minUseRangeCorrection>
+				<name textref="" />
+				<node></node>
+				<passiveApplicators>
+					<Item href="/Buildings/A/MiniGame/_.MINI" id="C6BF5F07-AC95-410B-8B86-3A71E490735C">
+						<TargetsCounterApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>считалка врагов рядом с зумой</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName>ZumaCounter</formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<targetSelector href="/Buildings/A/MiniGame/_.MINI" id="8547ACD8-E89F-405F-BB6A-8AE541F00982">
+								<AreaTargetSelector>
+									<absolutePosition>
+										<x>0</x>
+										<y>0</y>
+									</absolutePosition>
+									<flags>0</flags>
+									<mode>Normal</mode>
+									<range>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>30</sString>
+									</range>
+									<targetFilter>536870915</targetFilter>
+									<targetSelector href="" />
+								</AreaTargetSelector>
+							</targetSelector>
+						</TargetsCounterApplicator>
+					</Item>
+					<Item href="/Buildings/A/MiniGame/_.MINI" id="42397F65-FD0F-4BC9-875B-C8E653E8131D">
+						<StatusApplicator>
+							<applicators />
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>Статус "Враг рядом"</caption>
+							<customCounter>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</customCounter>
+							<customProgress>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</customProgress>
+							<description textref="/Buildings/A/MiniGame/_.MINI_42397f65fd0f4bc9875bc8e653e8131d_description.txt" />
+							<dispellPriority>Medium</dispellPriority>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FRkAAAADAAAAJgAAAD4AAABRAAAAWnVtYUNvdW50ZXIAdGFyZ2V0c0NvdW50AFWL7IPsCGoBi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0IlF/GgMAAAAi038ixGLTfyLQlT/0NwdcwAAAN/g9sRBdQnHRfgBAAAA6wfHRfgAAAAAikX4i+VdwwAAAAAAAAAA</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.FindApplicator("ZumaCounter", pMisc, UNIT)-&gt;GetVariable("targetsCount") &gt; 0 </sString>
+							</enabled>
+							<flags>0</flags>
+							<formulaName>ZumaZuma</formulaName>
+							<image href="/UI/Styles/Icons/Buildings/MiniGameA.ITEX" />
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<name textref="/Buildings/A/MiniGame/_.MINI_42397f65fd0f4bc9875bc8e653e8131d_name.txt" />
+							<power>0</power>
+							<providerName></providerName>
+							<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+							<stackCount>0</stackCount>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statusPosition>0</statusPosition>
+							<stopBehaviour>StopByTime</stopBehaviour>
+							<unstackableWith href="" />
+						</StatusApplicator>
+					</Item>
+				</passiveApplicators>
+				<requireLineOfSight>true</requireLineOfSight>
+				<shortDescription textref="" />
+				<targetType>136258047</targetType>
+				<type>Passive</type>
+				<useRange>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</useRange>
+				<useRangeMaterial href="" />
+				<warFogRemoveRadius>0</warFogRemoveRadius>
+				<warFogRemoveTime>0</warFogRemoveTime>
+			</Ability>
+		</Item>
+		<Item href="" />
+		<Item href="" />
+		<Item href="" />
+	</abilities>
+	<artifactsSpawnPosition>
+		<x>32</x>
+		<y>203</y>
+	</artifactsSpawnPosition>
+	<attackAbility href="" />
+	<collision>
+		<x1>-5</x1>
+		<x2>5</x2>
+		<y1>-4</y1>
+		<y2>6</y2>
+	</collision>
+	<deathParameters href="/GameLogic/MinigamePlace.UNDP" />
+	<description textref="/Buildings/A/MiniGame/_.MINI_description.txt" />
+	<faction>Freeze</faction>
+	<heightObject>false</heightObject>
+	<image href="/UI/Styles/Icons/Buildings/MiniGameA.ITEX" />
+	<interaction href="/Buildings/A/MiniGame/_.MINI" id="3C26A787-43FC-4324-B41F-FB9CE19FE8D6">
+		<Interaction>
+			<allowedFactions>8</allowedFactions>
+			<externalAbility href="/Buildings/A/MiniGame/_.MINI" id="4D96CCD5-ACBA-4783-8B64-866CBE9906C6">
+				<Ability>
+					<activeCustomTrigger>true</activeCustomTrigger>
+					<allowChase>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</allowChase>
+					<alternativeTargets />
+					<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+					<aoeHeight>0</aoeHeight>
+					<aoeMaterial href="" />
+					<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+					<aoeSize>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</aoeSize>
+					<aoeType>None</aoeType>
+					<applicators />
+					<autoTargetSelector href="" />
+					<caption></caption>
+					<castAllowRange>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</castAllowRange>
+					<castLimitations>
+						<Item href="/Buildings/A/MiniGame/_.MINI" id="343966E1-DDAD-4580-86B7-749AB8F8E676">
+							<ConditionCastLimitation>
+								<condition>
+									<compiledString>FRkAAAADAAAAJgAAAD4AAABRAAAAWnVtYUNvdW50ZXIAdGFyZ2V0c0NvdW50AFWL7IPsCGoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0IlF/GgMAAAAi038ixGLTfyLQlT/0NwdcwAAAN/g9sQFegnHRfgBAAAA6wfHRfgAAAAAikX4i+VdwwAAAAAAAPA/</compiledString>
+									<returnType>bool</returnType>
+									<sString>receiver.FindApplicator("ZumaCounter", pMisc, GLOBAL)-&gt;GetVariable("targetsCount") &lt; 1</sString>
+								</condition>
+								<uiEvent href="/Buildings/A/MiniGame/_.MINI" id="A9516F23-FAEB-443D-A342-E06ACEC21006">
+									<UIEvent>
+										<signRecipients>ALL_PLAYERS</signRecipients>
+										<UISigns>
+											<Item href="/Buildings/A/MiniGame/_.MINI" id="150006D7-9D0D-451A-A095-A1138B0E90A2">
+												<UISignMessageToStatusLine>
+													<messages>
+														<Item textref="/Buildings/A/MiniGame/_.MINI_150006d79d0d451aa095a1138b0e90a2_messages_0.txt" />
+														<Item textref="" />
+														<Item textref="" />
+													</messages>
+													<signRecipients>PLAYER_ONLY</signRecipients>
+												</UISignMessageToStatusLine>
+											</Item>
+										</UISigns>
+									</UIEvent>
+								</uiEvent>
+							</ConditionCastLimitation>
+						</Item>
+					</castLimitations>
+					<commonDescription textref="" />
+					<compiledDescriptionA textref="" />
+					<compiledDescriptionB textref="" />
+					<conditionFormulas />
+					<constants href="" />
+					<cooldownTime>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</cooldownTime>
+					<cooldownTimeSecondState>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</cooldownTimeSecondState>
+					<description textref="" />
+					<dispatch href="/Buildings/A/MiniGame/_.MINI" id="DEDAFDA3-B196-433E-989C-C9FBC412D9BF">
+						<DispatchImmediate>
+							<alwaysApply>false</alwaysApply>
+							<applyEffect>
+								<Item href="" />
+								<Item href="" />
+							</applyEffect>
+							<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+							<applyEffectOrientation>Default</applyEffectOrientation>
+							<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+							<dieAfterApply>true</dieAfterApply>
+							<dispatchEffect>
+								<Item href="" />
+								<Item href="" />
+							</dispatchEffect>
+							<flags>0</flags>
+							<instantApply>false</instantApply>
+						</DispatchImmediate>
+					</dispatch>
+					<flags>1</flags>
+					<image href="" />
+					<imageSecondState href="" />
+					<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+					<manaCost>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</manaCost>
+					<marker></marker>
+					<microAI href="" />
+					<minUseRangeCorrection>0</minUseRangeCorrection>
+					<name textref="" />
+					<node></node>
+					<passiveApplicators />
+					<requireLineOfSight>true</requireLineOfSight>
+					<shortDescription textref="" />
+					<targetType>136258047</targetType>
+					<type>Passive</type>
+					<useRange>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</useRange>
+					<useRangeMaterial href="" />
+					<warFogRemoveRadius>0</warFogRemoveRadius>
+					<warFogRemoveTime>0</warFogRemoveTime>
+				</Ability>
+			</externalAbility>
+		</Interaction>
+	</interaction>
+	<isDecoration>false</isDecoration>
+	<levelUpInterval>0</levelUpInterval>
+	<lockMask>
+		<mask />
+		<tileSize>0.5</tileSize>
+	</lockMask>
+	<minigameId>Easel</minigameId>
+	<minimapIcon>Minigame</minimapIcon>
+	<minimapIconOffset>
+		<x>0</x>
+		<y>0</y>
+	</minimapIconOffset>
+	<minLockScale>0</minLockScale>
+	<nativeAttack>Material</nativeAttack>
+	<nativeDefence>Material</nativeDefence>
+	<normalLevelling>0</normalLevelling>
+	<onDamageFragEffect href="" />
+	<onDestructionEffect href="" />
+	<onIdleEffect href="/Buildings/B/MiniGame/FX.EFFT" />
+	<overtipBarsWidth>0</overtipBarsWidth>
+	<overtipVerticalOffset>0</overtipVerticalOffset>
+	<pathFindingSteps>1</pathFindingSteps>
+	<placeParams href="/Buildings/A/MiniGame/_.MINI" id="D89090B5-C689-40ED-A19D-76B161B1C1D1">
+		<MinigamePlaceParams>
+			<stateChanges>
+				<Item href="/Buildings/A/MiniGame/_.MINI" id="25BFC614-D230-4FCD-B349-B050C9820309">
+					<MinigameVisualStateChange>
+						<changePlacement>ApplyRelational</changePlacement>
+						<clientType>Any</clientType>
+						<fromState>Session</fromState>
+						<newPlacement>
+							<pos>
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</pos>
+							<rot>
+								<w>1</w>
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</rot>
+							<scale>
+								<x>1</x>
+								<y>1</y>
+								<z>1</z>
+							</scale>
+						</newPlacement>
+						<toState>Easel_Lobby</toState>
+					</MinigameVisualStateChange>
+				</Item>
+				<Item href="/Buildings/A/MiniGame/_.MINI" id="8AE57065-C67C-492F-9A0E-07A8AF408E10">
+					<MinigameVisualStateChange>
+						<changePlacement>ApplyRelational</changePlacement>
+						<clientType>Any</clientType>
+						<fromState>Easel_Lobby</fromState>
+						<newPlacement>
+							<pos>
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</pos>
+							<rot>
+								<w>1</w>
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</rot>
+							<scale>
+								<x>1</x>
+								<y>1</y>
+								<z>1</z>
+							</scale>
+						</newPlacement>
+						<toState>Easel_LeavingLobby</toState>
+					</MinigameVisualStateChange>
+				</Item>
+				<Item href="/Buildings/A/MiniGame/_.MINI" id="D6DF1145-AFC7-4692-9FEB-31888818B472">
+					<MinigameVisualStateChange>
+						<changePlacement>ApplyRelational</changePlacement>
+						<clientType>Any</clientType>
+						<fromState>None</fromState>
+						<newPlacement>
+							<pos>
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</pos>
+							<rot>
+								<w>1</w>
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</rot>
+							<scale>
+								<x>1</x>
+								<y>1</y>
+								<z>1</z>
+							</scale>
+						</newPlacement>
+						<toState>None</toState>
+					</MinigameVisualStateChange>
+				</Item>
+				<Item href="/Buildings/A/MiniGame/_.MINI" id="5F62F559-C8C3-4C04-A996-8E29584AAEF5">
+					<MinigameVisualStateChange>
+						<changePlacement>ApplyRelational</changePlacement>
+						<clientType>Any</clientType>
+						<fromState>None</fromState>
+						<newPlacement>
+							<pos>
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</pos>
+							<rot>
+								<w>1</w>
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</rot>
+							<scale>
+								<x>1</x>
+								<y>1</y>
+								<z>1</z>
+							</scale>
+						</newPlacement>
+						<toState>None</toState>
+					</MinigameVisualStateChange>
+				</Item>
+			</stateChanges>
+		</MinigamePlaceParams>
+	</placeParams>
+	<rounded>false</rounded>
+	<routeID>Unassigned</routeID>
+	<routeLevel>0</routeLevel>
+	<ruinLocator>Crash</ruinLocator>
+	<ruinSceneObject href="" />
+	<sceneObject href="/Buildings/A/MiniGame/_.SOBJ" />
+	<selectionAoe>
+		<Item href="" />
+		<Item href="" />
+	</selectionAoe>
+	<showRuinDelay>0</showRuinDelay>
+	<size>9</size>
+	<sizeDynamic>-1</sizeDynamic>
+	<stats href="/Buildings/DefaultStats/MiniGame.STCN" />
+	<targetingParams href="" />
+	<updateUnderWarfog>false</updateUnderWarfog>
+</MinigamePlace>

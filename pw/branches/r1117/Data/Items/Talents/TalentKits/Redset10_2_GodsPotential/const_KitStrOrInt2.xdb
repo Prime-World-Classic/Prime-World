@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Level6/G182_Int_Str.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G213_StatViaHighestStat.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G420_Int_Str.TALENT" Count="1" />
+	<name>KitStrOrInt2</name>
+	<var>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+		<returnType>float</returnType>
+		<sString>8</sString>
+	</var>
+</UnitConstant>

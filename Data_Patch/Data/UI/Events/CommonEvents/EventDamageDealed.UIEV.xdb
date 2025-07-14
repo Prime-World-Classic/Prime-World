@@ -54,6 +54,10 @@
 	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/RiverB.TOWR" Count="2" />
 	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/RiverA.TOWR" Count="2" />
 	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateA.TOWR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/A2_Enemy.SPLL" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G273_AntiCreep-Proc.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G038_ManaBurnProc-Mana.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Katana/status_A0_SUP_Burn_Base.APLR" Count="1" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" id="00B3EB47-25ED-4F60-8A69-8807269EE6D0">
