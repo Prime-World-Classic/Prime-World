@@ -425,16 +425,6 @@
 				<Item href="/Items/Talents/Class/Angel/const_A2uExpBuffWill" />
 				<Item href="/Items/Talents/Class/Angel/const_A2u_ExpTerDef" />
 				<Item href="/Items/Talents/Class/Angel/const_A5u_RangeBuff" />
-				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="743F8A8C-CA71-4CB6-9BB4-F4F5FC0C48A2">
-					<UnitConstant>
-						<name>A2_CoolDown</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>10</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="18D4BA4E-AA90-4EE7-8BDC-FC52CA855DE9">
 					<UnitConstant>
 						<name>A2u_TECH_CooldownControl</name>
@@ -477,6 +467,26 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="84EC4DB8-1D0A-4C99-9804-63A9C1C849E9">
+					<UnitConstant>
+						<name>A2_CDFromIntellect</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>10</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="B5F18D68-06CF-4644-B5DA-0EDA6415A412">
+					<UnitConstant>
+						<name>A2_CDFromStrength</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>15</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -485,9 +495,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQwAAAABAAAAGAAAAEEyX0Nvb2xEb3duAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FScAAAACAAAAYwAAAIIAAABBMl9DREZyb21TdHJlbmd0aAAAAEEyX0NERnJvbUludGVsbGVjdABVi+yD7AyLRQiLEItNCIuCNAEAAP/Qi00IixGLTQiLgjABAADdXfj/0Nxd+N/g9sQBdR+LTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0Nld9Osdi00MUYtVCFJoFAAAAItFEIsQi00Qi0JQ/9DZXfTZRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>cA2_CoolDown</sString>
+		<sString>sIntellect&lt;=sStrength ? cA2_CDFromStrength : cA2_CDFromIntellect</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

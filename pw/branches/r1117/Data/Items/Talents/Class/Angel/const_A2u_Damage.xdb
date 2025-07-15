@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A2u.TALENT" Count="1" />
 	<name>A2u_Damage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DMzPHQgCAO0Q=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQgAAFkQ=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sStrength, 99.6, 750)</sString>
+		<sString>damageScale(sStrength, 80, 600)</sString>
 	</var>
 </UnitConstant>
