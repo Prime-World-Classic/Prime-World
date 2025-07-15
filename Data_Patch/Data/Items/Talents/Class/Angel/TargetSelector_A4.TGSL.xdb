@@ -26,9 +26,9 @@
 				<Item href="/Items/Talents/Class/Angel/TargetSelector_A4.TGSL" id="7960183B-B0FC-4B81-B12F-AD078F3D7611">
 					<ConditionTargetSelector>
 						<condition>
-							<compiledString>FTIAAAAHAAAANwAAAE0AAABfAAAAeQAAAI8AAACbAAAAsQAAAExpa2VIZXJvAAAAAE5pZ2h0SHVudGVyQTQAAABJc1NvdWwAAElzQW5nZWxQZWFyY2UAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0Nwd0wAAAN/g9sREeiBqAItNEFFoDAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1TWgcAAAAi0UMixCLTQyLgogBAAD/0Nwd0wAAAN/g9sREeytoJAAAAItNDIsRi00Mi4KIAQAA/9DcHdMAAADf4PbERHsJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+							<compiledString>FUYAAAAJAAAASwAAAGEAAABzAAAAjQAAAKMAAACvAAAAxQAAANEAAADnAAAATGlrZUhlcm8AAAAATmlnaHRIdW50ZXJBNAAAAElzU291bAAASXNBbmdlbFBlYXJjZQAAAFRlbGVwb3J0SXNBbGxvd2VkAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHREBAADf4PbERHogagCLTRBRaAwAAACLVQyLAotNDIuQnAEAAP/SO0UQdW9oHAAAAItFDIsQi00Mi4KIAQAA/9DcHREBAADf4PbERHtNaCQAAACLTQyLEYtNDIuCiAEAAP/Q3B0RAQAA3+D2xER6Img0AAAAi00IixGLTQiLgogBAAD/0NwdCQEAAN/g9sRBdAnHRfwAAAAA6wfHRfwBAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAA8D8=</compiledString>
 							<returnType>bool</returnType>
-							<sString>(receiver.vLikeHero==1 &amp;&amp; receiver.applNightHunterA4(GLOBAL) != pMisc) || (receiver.vIsSoul == 1) || (receiver.vIsAngelPearce == 1)</sString>
+							<sString>(receiver.vLikeHero==1 &amp;&amp; receiver.applNightHunterA4(GLOBAL) != pMisc) || (receiver.vIsSoul == 1) || (receiver.vIsAngelPearce == 1 &amp;&amp; sender.vTeleportIsAllowed &gt; 0)</sString>
 						</condition>
 						<flags>0</flags>
 						<mode>Normal</mode>

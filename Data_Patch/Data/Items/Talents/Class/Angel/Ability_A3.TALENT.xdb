@@ -39,6 +39,55 @@
 			<ProgramApplicator>
 				<applicators>
 					<Item>
+						<applicator href="/Items/Talents/Class/Angel/Ability_A3.TALENT" id="572D49FF-1EC1-4BAB-B9FB-9EACC22BB5C7">
+							<PermanentStatModApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<caption></caption>
+								<customApplyType>None</customApplyType>
+								<enabled>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<modifier>
+									<addValue>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</addValue>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</multValue>
+									<stat>Life</stat>
+									<topModifier>false</topModifier>
+									<variable>TeleportIsAllowed</variable>
+								</modifier>
+								<providerName></providerName>
+							</PermanentStatModApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
 						<applicator href="/Items/Talents/Class/Angel/Ability_A3.TALENT" id="80334118-754D-4A04-8208-955D73036B52">
 							<FlagsApplicator>
 								<applyTarget>AbilityOwner</applyTarget>
@@ -364,18 +413,74 @@
 																	<spell href="/Items/Talents/Class/Angel/Ability_A3.TALENT" id="9E72B977-EA79-454F-BE5C-813298724E41">
 																		<Spell>
 																			<applicators>
-																				<Item href="/Items/Talents/Class/Angel/Ability_A3.TALENT" id="FF5341BD-155F-4045-ABD1-A0A563984E3B">
-																					<DamageApplicator>
+																				<Item href="/Items/Talents/Class/Angel/Ability_A3.TALENT" id="F0C3553E-A1E8-4442-B75D-2D7A63C29512">
+																					<VariableProxyApplicator>
+																						<applicators>
+																							<Item>
+																								<applicator href="/Items/Talents/Class/Angel/Ability_A3.TALENT" id="425216B4-F697-4EE3-B2F4-723B3D760DD7">
+																									<DamageApplicator>
+																										<applyTarget>ApplicatorTarget</applyTarget>
+																										<cancelInvisibility>false</cancelInvisibility>
+																										<caption>урон</caption>
+																										<damage>
+																											<compiledString>FQoAAAABAAAAFgAAAEEzX0RhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																											<returnType>float</returnType>
+																											<sString>cA3_Damage</sString>
+																										</damage>
+																										<damageMode>4</damageMode>
+																										<damageType>Material</damageType>
+																										<enabled>
+																											<compiledString></compiledString>
+																											<returnType>bool</returnType>
+																											<sString>true</sString>
+																										</enabled>
+																										<formulaName></formulaName>
+																										<LoggingEvent>-1</LoggingEvent>
+																										<providerName></providerName>
+																										<timeLimiter>-1</timeLimiter>
+																										<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+																									</DamageApplicator>
+																								</applicator>
+																								<variableNames>
+																									<Item>damageDealed</Item>
+																								</variableNames>
+																							</Item>
+																							<Item>
+																								<applicator href="/Items/Talents/Class/Angel/Ability_A3.TALENT" id="33B0FDBA-5371-4718-B160-34A0E1CD55F2">
+																									<PermanentStatModApplicator>
+																										<applyTarget>AbilityOwner</applyTarget>
+																										<caption></caption>
+																										<customApplyType>None</customApplyType>
+																										<enabled>
+																											<compiledString>FQ0AAAACAAAAJAAAADcAAABkYW1hZ2VEZWFsZWQAVYvsg+wIi0UQixCLTRCLQkj/0IlF/GgAAAAAi038ixGLTfyLQlT/0NwdWQAAAN/g9sRBdQnHRfgBAAAA6wfHRfgAAAAAikX4i+VdwwAAAAAAAAAA</compiledString>
+																											<returnType>bool</returnType>
+																											<sString>appl.parent.GetVariable("damageDealed")&gt;0</sString>
+																										</enabled>
+																										<formulaName></formulaName>
+																										<LoggingEvent>-1</LoggingEvent>
+																										<modifier>
+																											<addValue>
+																												<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																												<returnType>float</returnType>
+																												<sString>1.0f</sString>
+																											</addValue>
+																											<multValue>
+																												<compiledString></compiledString>
+																												<returnType>float</returnType>
+																												<sString>1.0f</sString>
+																											</multValue>
+																											<stat>Life</stat>
+																											<topModifier>false</topModifier>
+																											<variable>TeleportIsAllowed</variable>
+																										</modifier>
+																										<providerName></providerName>
+																									</PermanentStatModApplicator>
+																								</applicator>
+																								<variableNames />
+																							</Item>
+																						</applicators>
 																						<applyTarget>ApplicatorTarget</applyTarget>
-																						<cancelInvisibility>false</cancelInvisibility>
-																						<caption>урон</caption>
-																						<damage>
-																							<compiledString>FQoAAAABAAAAFgAAAEEzX0RhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-																							<returnType>float</returnType>
-																							<sString>cA3_Damage</sString>
-																						</damage>
-																						<damageMode>4</damageMode>
-																						<damageType>Material</damageType>
+																						<caption></caption>
 																						<enabled>
 																							<compiledString></compiledString>
 																							<returnType>bool</returnType>
@@ -384,9 +489,7 @@
 																						<formulaName></formulaName>
 																						<LoggingEvent>-1</LoggingEvent>
 																						<providerName></providerName>
-																						<timeLimiter>-1</timeLimiter>
-																						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
-																					</DamageApplicator>
+																					</VariableProxyApplicator>
 																				</Item>
 																				<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 																			</applicators>
