@@ -109,9 +109,9 @@
 										<onlySingleTarget>false</onlySingleTarget>
 									</abilityFilter>
 									<add>
-										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<compiledString>FR8AAAADAAAAJgAAAD8AAAB9AAAAUGlua0dpcmxfQTRfMnUAAFBpbmtHaXJsX0E0XzJ1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAfZ6Nld9OsJ2QWLAAAA2V302UX0i+VdwwAAAEAAAIA/</compiledString>
 										<returnType>float</returnType>
-										<sString>1.0f</sString>
+										<sString>tal("PinkGirl_A4_2u") ? 1.0f : 2.0f</sString>
 									</add>
 									<applyTarget>ApplicatorTarget</applyTarget>
 									<checkSender>0</checkSender>

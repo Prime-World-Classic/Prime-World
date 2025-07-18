@@ -108,17 +108,41 @@
 							<spell href="/Items/Talents/Class/Brewer/appl_Honey_Heal.APLR" id="FA83B7FD-0F2C-4FFE-A78A-7456448A5F87">
 								<Spell>
 									<applicators>
+										<Item href="/Items/Talents/Class/Brewer/appl_Honey_Heal.APLR" id="93E15113-ED2E-4EEF-A7CC-D31A4541D3E2">
+											<DamageApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<cancelInvisibility>false</cancelInvisibility>
+												<caption>отнимаем хп</caption>
+												<damage>
+													<compiledString>FRgAAAADAAAAJwAAAEEAAACDAAAAQWRkTGlmZQBBZGRMaWZlAEFkZExpZmUAVYvsg+wsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgIAAAAi1UQiwKLTRCLUFDdXfj/0otFDIsQi00Mi0IM3V3w/9CLTQyLEYtNDIsC3V3o/9DcbejcTfCLTQxRi1UIUmgQAAAAi0UQixCLTRCLQlDdXeD/0ItNDIsRi00Mi0IM3V3Y/9DcRdjcfeDcbfjZXdTZRdSL5V3D</compiledString>
+													<returnType>float</returnType>
+													<sString>cAddLife - (cAddLife*(rMaxLife - rLife)/(cAddLife + rMaxLife))</sString>
+												</damage>
+												<damageMode>0</damageMode>
+												<damageType>Pure</damageType>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<timeLimiter>-1</timeLimiter>
+												<uiEvent href="" />
+											</DamageApplicator>
+										</Item>
 										<Item href="/Items/Talents/Class/Brewer/appl_Honey_Heal.APLR" id="5D4767D2-26A7-43F7-BB0E-FD363E67EEC5">
 											<HealApplicator>
 												<amount>
-													<compiledString>FRAAAAACAAAAHwAAAF4AAABBZGRMaWZlAEFkZExpZmUAVYvsg+wki0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQyLEItNDItCDN1d+P/Qi00MixGLTQyLAt1d8P/Q3G3w3E34i00MUYtVCFJoCAAAAItFEIsQi00Qi0JQ3V3o/9CLTQyLEYtNDItCDN1d4P/Q3EXg3H3o2V3c2UXci+Vdww==</compiledString>
+													<compiledString>FQgAAAABAAAAFAAAAEFkZExpZmUAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 													<returnType>float</returnType>
-													<sString>cAddLife*(rMaxLife - rLife)/(cAddLife + rMaxLife)</sString>
+													<sString>cAddLife</sString>
 												</amount>
 												<applyTarget>ApplicatorTarget</applyTarget>
 												<caption>heal</caption>
 												<enabled>
-													<compiledString></compiledString>
+													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 													<returnType>bool</returnType>
 													<sString>true</sString>
 												</enabled>
@@ -127,7 +151,7 @@
 												<ignoreHealingMods>false</ignoreHealingMods>
 												<LoggingEvent>-1</LoggingEvent>
 												<providerName></providerName>
-												<uiEvent href="" />
+												<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
 											</HealApplicator>
 										</Item>
 										<Item href="/Items/Talents/Class/Brewer/appl_Honey_Heal.APLR" id="31FADFB4-578A-4930-9489-244AAF2B6FE3">
