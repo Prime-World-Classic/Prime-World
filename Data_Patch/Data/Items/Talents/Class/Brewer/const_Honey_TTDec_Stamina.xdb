@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A0_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Heroes/Brewer/_.HROB" Count="1" />
 	<name>TTHoney_Dec_Stamina</name>
 	<var>
 		<compiledString>FS0AAAACAAAAPAAAAFQAAABIb25leV9EZWNfU3RhbWluYQAAAEJyZXdlcl9Ib25leVN0YXR1c19FbmVteQBVi+yD7BCLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0moBi0UQUGgUAAAAi00MixGLTQyLgqABAADdXfj/0IlF9NtF9NxN+Nld8NlF8IvlXcM=</compiledString>

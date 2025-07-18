@@ -169,6 +169,145 @@
 							<unstackableWith href="" />
 						</StatusApplicator>
 					</Item>
+					<Item href="/Buildings/B/MiniGame/_.MINI" id="1CAF8BE9-F65D-49C3-BDF5-600CB9E5F490">
+						<SpellPeriodicallyApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>1</behaviorFlags>
+							<caption></caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<period>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+								<returnType>float</returnType>
+								<sString>0.5</sString>
+							</period>
+							<providerName></providerName>
+							<scaleMode>ScaleIsCount</scaleMode>
+							<spell href="/Buildings/B/MiniGame/_.MINI" id="9128FA52-6A30-43EA-8324-23CA90F14F32">
+								<Spell>
+									<applicators>
+										<Item href="/Buildings/B/MiniGame/_.MINI" id="D563EB73-165A-443E-8AC8-4F2C782AD233">
+											<SpellApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<caption>спелл в гз</caption>
+												<enabled>
+													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<spell href="/Buildings/B/MiniGame/_.MINI" id="68225053-8EE4-48D9-B79D-896ECCDF78FC">
+													<Spell>
+														<applicators>
+															<Item href="/Buildings/B/MiniGame/_.MINI" id="50551F84-DFDC-4437-9C00-DAA40C24BDEF">
+																<PermanentStatModApplicator>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption>сколько времени не подскажете</caption>
+																	<customApplyType>None</customApplyType>
+																	<enabled>
+																		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<modifier>
+																		<addValue>
+																			<compiledString>FRUAAAACAAAAGgAAAC8AAABUYXJnZXQAAEdhbWVEdXJhdGlvbgBVi+xRaAAAAACLRRCLEItNEItCTP/QiUX8aAgAAACLTfyLEYtN/IuCiAEAAP/Qi+Vdww==</compiledString>
+																			<returnType>float</returnType>
+																			<sString>$ApplTarget-&gt;GetVariable("GameDuration")</sString>
+																		</addValue>
+																		<multValue>
+																			<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																			<returnType>float</returnType>
+																			<sString>0.0f</sString>
+																		</multValue>
+																		<stat>Life</stat>
+																		<topModifier>false</topModifier>
+																		<variable>GameDurationZuma</variable>
+																	</modifier>
+																	<providerName></providerName>
+																</PermanentStatModApplicator>
+															</Item>
+														</applicators>
+														<dispatch href="/Buildings/B/MiniGame/_.MINI" id="8F1E522C-8EF2-44D2-B46F-F5A3B704493B">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>0</flags>
+																<instantApply>true</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</spell>
+												<spellTarget>ApplicatorTarget</spellTarget>
+												<targetSelector href="/Buildings/B/MiniGame/_.MINI" id="DEC2C88A-4230-47C2-A78F-B3EB287A51B1">
+													<MainBuildingTargetSelector />
+												</targetSelector>
+											</SpellApplicator>
+										</Item>
+									</applicators>
+									<dispatch href="/Buildings/B/MiniGame/_.MINI" id="560DB469-6A86-412C-9AFE-3819F0D5A7A2">
+										<DispatchImmediate>
+											<alwaysApply>false</alwaysApply>
+											<applyEffect>
+												<Item href="" />
+												<Item href="" />
+											</applyEffect>
+											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+											<applyEffectOrientation>Default</applyEffectOrientation>
+											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+											<dieAfterApply>true</dieAfterApply>
+											<dispatchEffect>
+												<Item href="" />
+												<Item href="" />
+											</dispatchEffect>
+											<flags>0</flags>
+											<instantApply>false</instantApply>
+										</DispatchImmediate>
+									</dispatch>
+								</Spell>
+							</spell>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<startOffset>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</startOffset>
+							<targetSelector href="" />
+						</SpellPeriodicallyApplicator>
+					</Item>
 				</passiveApplicators>
 				<requireLineOfSight>true</requireLineOfSight>
 				<shortDescription textref="" />
@@ -250,6 +389,32 @@
 												<UISignMessageToStatusLine>
 													<messages>
 														<Item textref="/Buildings/B/MiniGame/_.MINI_e341b4dd2afa495b8a105dae86fb1aab_messages_0.txt" />
+														<Item textref="" />
+														<Item textref="" />
+													</messages>
+													<signRecipients>PLAYER_ONLY</signRecipients>
+												</UISignMessageToStatusLine>
+											</Item>
+										</UISigns>
+									</UIEvent>
+								</uiEvent>
+							</ConditionCastLimitation>
+						</Item>
+						<Item href="/Buildings/B/MiniGame/_.MINI" id="8D2AFB07-2D96-4187-8F9C-A2C88C7336D2">
+							<ConditionCastLimitation>
+								<condition>
+									<compiledString>FREAAAACAAAAFgAAACwAAABHYW1lRHVyYXRpb25adW1hAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHU4AAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAABOQA==</compiledString>
+									<returnType>bool</returnType>
+									<sString>receiver.vGameDurationZuma &gt;60</sString>
+								</condition>
+								<uiEvent href="/Buildings/B/MiniGame/_.MINI" id="9A77A5F4-411E-4B77-9EA8-5CDD358ECA3E">
+									<UIEvent>
+										<signRecipients>ALL_PLAYERS</signRecipients>
+										<UISigns>
+											<Item href="/Buildings/B/MiniGame/_.MINI" id="1F3A89B1-F677-481D-8447-62F5C66E73B1">
+												<UISignMessageToStatusLine>
+													<messages>
+														<Item textref="/Buildings/B/MiniGame/_.MINI_1f3a89b1f677481d844762f5c66e73b1_messages_0.txt" />
 														<Item textref="" />
 														<Item textref="" />
 													</messages>
