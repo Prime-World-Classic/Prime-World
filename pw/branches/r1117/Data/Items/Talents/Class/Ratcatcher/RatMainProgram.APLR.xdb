@@ -106,6 +106,97 @@
 							<stopEvents>0</stopEvents>
 						</Item>
 						<Item>
+							<applicator href="/Items/Talents/Class/Ratcatcher/RatMainProgram.APLR" id="7ECA6261-C694-4255-AD71-EE55CD907080">
+								<TriggerApplicator>
+									<actionsCount>
+										<compiledString></compiledString>
+										<returnType>int</returnType>
+										<sString>0</sString>
+									</actionsCount>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>144</behaviorFlags>
+									<caption>Меняем входящий урон </caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName>Ward</formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<playAck>false</playAck>
+									<processor href="/Items/Talents/Class/Ratcatcher/RatMainProgram.APLR" id="8B5EF48E-0A69-4553-960D-6E9C5B1D18DF">
+										<EventProcessorDamageTransformer>
+											<abilityFilter>
+												<abilitiesList />
+												<abilityCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</abilityCondition>
+												<abilityCostMode>Energy</abilityCostMode>
+												<exceptThis>false</exceptThis>
+												<flags>1610614015</flags>
+												<onlySingleTarget>false</onlySingleTarget>
+											</abilityFilter>
+											<add>
+												<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</add>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<checkSender>0</checkSender>
+											<damageTypeFilter>31</damageTypeFilter>
+											<flags>0</flags>
+											<matchTargetInverted>false</matchTargetInverted>
+											<mul>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</mul>
+											<objectFilter>1901055</objectFilter>
+											<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+											<spell href="" />
+											<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+										</EventProcessorDamageTransformer>
+									</processor>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<useAbilityCooldown>false</useAbilityCooldown>
+									<useAbilityOwnerMana>false</useAbilityOwnerMana>
+								</TriggerApplicator>
+							</applicator>
+							<continueCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>0</sString>
+							</continueCondition>
+							<continueEvents>1</continueEvents>
+							<delay>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</delay>
+							<stopCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>0</sString>
+							</stopCondition>
+							<stopEvents>0</stopEvents>
+						</Item>
+						<Item>
 							<applicator href="/Items/Talents/Class/Ratcatcher/RatMainProgram.APLR" id="B1B2182C-8E33-43BB-9537-66D0272DF2AF">
 								<TriggerApplicator>
 									<actionsCount>

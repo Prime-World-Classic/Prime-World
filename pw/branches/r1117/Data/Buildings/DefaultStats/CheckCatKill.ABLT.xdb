@@ -73,6 +73,16 @@
 				<name>HeroHasMana</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="85C954BA-10C6-410E-9450-5FF1490EF4C8">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9CFwHQbi00MixGLTQyLQlD/0IP4AXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>(rUnitKind == 0 || rUnitKind == 1 )</sString>
+				</condition>
+				<name>DragonHero</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<constants href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="CF69D470-B054-455A-ACA4-8D7E9DE3C5E4">
 		<UnitConstantsContainer>

@@ -745,6 +745,8 @@
 						<Item href="/Items/Talents/Class/Brewer/const_Honey_TTAddStaOrWill" />
 						<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDec_StrOrInt" />
 						<Item href="/Items/Talents/Class/Brewer/const_Honey_TTStaOrWill" />
+						<Item href="/Items/Talents/Class/Brewer/const_Honey_Dec_Stamina" />
+						<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDec_Stamina" />
 					</vars>
 				</UnitConstantsContainer>
 			</constants>

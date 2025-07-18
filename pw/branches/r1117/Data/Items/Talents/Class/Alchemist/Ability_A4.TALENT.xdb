@@ -12,7 +12,6 @@
 	<BackLink DBID="/Items/Talents/Level5/G353_AoE.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/NewYear/_.ADMP" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/MOBA/Spawners/NeutralBoss.NCSPN" Count="1" />
 	<BackLink DBID="/Test/Talents/Alchemist/Duel_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Alchemist/Duel_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Alchemist/Elite_Int.TALENTSET" Count="1" />
