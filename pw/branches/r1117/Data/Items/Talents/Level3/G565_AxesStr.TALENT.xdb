@@ -95,9 +95,9 @@
 					<UnitConstant>
 						<name>Add_DexOrAtSpd</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAoEAAAAA/</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwzMzc0DNzEw/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(5, 0.5)</sString>
+							<sString>refineScale(3.8, 0.8)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
