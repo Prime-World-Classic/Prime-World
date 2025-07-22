@@ -1167,6 +1167,34 @@
 				>
 			</File>
 		</Filter>
+		<Filter
+			Name="Achievements"
+			>
+			<File
+				RelativePath="..\Achievements\AchievementManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Achievements\AchievementManager.h"
+				>
+			</File>
+			<File
+				RelativePath="..\Achievements\EmptyAchievementProvider.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Achievements\EmptyAchievementProvider.h"
+				>
+			</File>
+			<File
+				RelativePath="..\Achievements\SteamAchievementProvider.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Achievements\SteamAchievementProvider.h"
+				>
+			</File>
+		</Filter>
 		<File
 			RelativePath="..\Game\PF\Client\LobbyPvx\base64.cpp"
 			>

@@ -22,7 +22,11 @@
 #include "AnnouncementParams.h"
 #include "System/StarForce/StarForce.h"
 #include "PFBaseSpawner.h"
+
+#include "Achievements/AchievementManager.h"
+
 REGISTER_WORLD_OBJECT_NM(PFStatistics, NWorld)
+#pragma optimize("", off)
 
 namespace
 {
@@ -399,6 +403,12 @@ void PFStatistics::AddAssist(CPtr<PFBaseUnit> const& pVictim, CPtr<PFBaseUnit> c
     }
 
     pHeroAssistant->LogSessionEvent(SessionEventType::KillAssist, eventParams);
+
+	if(IAchievementManager::GetInstance()->IsOurHero(pHeroAssistant))
+	{
+		IAchievementManager::GetInstance()->SetAchievment(IAchievementManager::FIRST_ASSIST);
+	}
+
     // update scores for assist
     stat.AddHeroAssist( pHeroVictim->GetObjectId() );
   }
@@ -457,6 +467,11 @@ void PFStatistics::AddKill(CPtr<PFBaseUnit> pVictim, CPtr<PFBaseHero> pKiller)
       killerStatistics.currentKillSpree = 1;
       killerStatistics.currentDeathSpree = 0;
     }
+
+	if(IAchievementManager::GetInstance()->IsOurHero(pKiller))
+	{
+		IAchievementManager::GetInstance()->SetAchievment(IAchievementManager::FIRST_KILL);
+	}
   }
   else 
   {
@@ -1215,6 +1230,11 @@ void PFStatistics::AddHeroDeathImpl(CPtr<PFBaseHero> pVictim, CPtr<PFBaseUnit> p
 {
   STARFORCE_STOPWATCH();
 
+  if(IAchievementManager::GetInstance()->IsOurHero(pVictim))
+  {
+	IAchievementManager::GetInstance()->SetAchievment(IAchievementManager::FIRST_DEATH);
+  }
+
   NI_VERIFY(IsValid(pVictim), "Victim invalid", return);
   NI_VERIFY(!pVictim->IsClone(), "Victim is a clone", return);
 
@@ -1265,7 +1285,7 @@ void PFStatistics::AddHeroDeathImpl(CPtr<PFBaseHero> pVictim, CPtr<PFBaseUnit> p
 
     //if the killer is not a hero or neutral hero - send another message - killed by enemy AI
     if ( heroKiller && heroKiller->GetFaction() != NDb::FACTION_NEUTRAL )
-    {      
+    {      	
       eventParams.intParam1 = heroKiller->GetStatisticsUid();
       if (pEventHeroKill)
       {

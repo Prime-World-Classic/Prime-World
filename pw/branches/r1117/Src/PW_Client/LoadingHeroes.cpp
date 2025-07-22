@@ -10,7 +10,7 @@
 #include "Server/LobbyPvx/CommonTypes.h"
 #include "PF_GameLogic/HeroSpawn.h"
 #include "LoadingScreenLogic.h"
-
+#include "Achievements/AchievementManager.h"
 
 namespace Game
 {
@@ -110,6 +110,8 @@ void LoadingHeroes::SetOurUserId( int userId, NCore::ETeam::Enum team, NCore::ET
     return;
 
   ourUserId = userId;
+
+  IAchievementManager::GetInstance()->SetOurUserID(ourUserId);
 
   NDb::EFaction faction = ConvertToFaction(team);
   flashInterface->SetOurHeroId(userId, faction);

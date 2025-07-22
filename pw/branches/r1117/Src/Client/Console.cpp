@@ -94,13 +94,13 @@ bool Console::IsModal() const
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 bool Console::OpenClose()
 {
-#ifndef _SHIPPING
+///#ifndef _SHIPPING
   consoleActive = !consoleActive;
   logic->Show( consoleActive );
   return true;
-#else
-  return false;
-#endif
+//#else
+//  return false;
+//#endif
 
   /*
 #ifndef _SHIPPING

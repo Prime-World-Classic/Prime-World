@@ -111,6 +111,9 @@
 #include "../PW_Game/server_ip.h"
 #include "../Shared/WebRequests.h"
 
+#include "Achievements/AchievementManager.h"
+#include "Achievements/SteamAchievementProvider.h"
+
 static int    g_VideoFPS = 10;
 static float  g_RecordingTime = 10.0f;
 static bool   g_DebugDumpInfo = false;
@@ -594,6 +597,7 @@ void OnPileFileReadError(FileReadResultCode code, FileReadCallbackContext* pCont
       DumpLoadedModules();
 #endif //_SHIPPING
 
+	  IAchievementManager::GetInstance()->Shutdown();
       // Shutdown the SteamAPI
       if (s_bSteamInited)
         SteamAPI_Shutdown();
@@ -650,6 +654,7 @@ struct MainVars
 
   void DeInit()
   {
+	  IAchievementManager::GetInstance()->Shutdown();
     if ( initSound )
 	    NSoundScene::TryTurnOffSound();
 
@@ -783,6 +788,7 @@ static void RunLinuxLauncher() {
   systemLog( NLogg::LEVEL_MESSAGE ) << "Linux proc run: \"" << procRun << "\"" << endl;
 }
 
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, SPluginSettings * pluginSett )
 {
@@ -883,13 +889,13 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
   if( Compatibility::IsRunnedUnderWine() )
     pAuxDumper = new NLogg::CStdOutDumper( &GetSystemLog(), stderr, false );
 
-  if ( isSpectator )
-  {
-    if ( !SteamAPI_Init() )
-      DebugTrace( "SteamAPI_Init() failed\n" );
-    else
-      s_bSteamInited = true;
-  }
+  if ( !SteamAPI_Init() )
+    DebugTrace( "SteamAPI_Init() failed\n" );
+  else
+    s_bSteamInited = true;
+  
+  IAchievementManager::GetInstance()->Init(s_bSteamInited ? new SteamAchievementProvider() : 0);
+
 /*
   mainVars.useCrashRptHandler = !Compatibility::IsRunnedUnderWine() &&
     !CmdLineLite::Instance().IsKeyDefined( "-crashrpt_disable" );
@@ -1281,8 +1287,8 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
 
     WebLauncherPostRequest::WebLoginResponse response;
     if (protocolMethod == "runGame" || protocolMethod == "reconnect") {
-      //WebLauncherPostRequest cprequest;
-      //cprequest.CreateDebugSession();
+      WebLauncherPostRequest cprequest;
+      cprequest.CreateDebugSession();
       WebLauncherPostRequest rprequest;
       response = rprequest.GetSessionData(protocolToken);
       if (response.retCode == WebLauncherPostRequest::LoginResponse_WEB_FAILED_CONNECTION) {
