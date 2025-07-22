@@ -108,9 +108,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9CFwHQYi00MixGLTQyLQlD/0IP4AXQGxkX/AOsExkX/AYpF/4vlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>(rUnitKind == 0 || rUnitKind == 1)? true : false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -155,9 +155,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9CFwHQYi00MixGLTQyLQlD/0IP4AXQGxkX/AOsExkX/AYpF/4vlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>(rUnitKind == 0 || rUnitKind == 1)? true : false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -307,9 +307,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9CFwHQYi00MixGLTQyLQlD/0IP4AXQGxkX/AOsExkX/AYpF/4vlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>(rUnitKind == 0 || rUnitKind == 1)? true : false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
