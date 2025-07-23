@@ -8,7 +8,7 @@
 			<StatModApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
 				<behaviorFlags>1</behaviorFlags>
-				<caption>Переменная для контролей, которые не отменяют ченнел</caption>
+				<caption>Переменная для контролей, которые не отменяют ченнел (отключено против сна Баньши)</caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
 				<effect>
@@ -16,9 +16,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

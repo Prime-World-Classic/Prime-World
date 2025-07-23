@@ -556,9 +556,9 @@
 					<levelUpgrades />
 					<statId>Intellect</statId>
 					<value>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 						<returnType>float</returnType>
-						<sString>0</sString>
+						<sString>1</sString>
 					</value>
 				</Item>
 				<Item>
@@ -572,9 +572,9 @@
 					<levelUpgrades />
 					<statId>Dexterity</statId>
 					<value>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 						<returnType>float</returnType>
-						<sString>0</sString>
+						<sString>1</sString>
 					</value>
 				</Item>
 				<Item>
