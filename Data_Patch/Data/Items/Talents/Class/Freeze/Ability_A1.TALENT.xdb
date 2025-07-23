@@ -1,16 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Brewer.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Brewer_Alternative.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A1.TALENT" Count="3" />
-	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A1_SUP.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A1u.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Brewer/appl_A3u_CDReduction.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Freeze.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Freeze_Alternative.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A1u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/TalentList_Mighty/Brewer_Mighty.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Brewer/Brewer.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Freeze_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Duel_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Duel_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Elite_IntAsp.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Elite_LifeStr.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Elite_LifeStrAsp.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Epic_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Freeze/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A1_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -30,54 +36,7 @@
 	</aoeSize>
 	<aoeType>CorridorMax</aoeType>
 	<applicators>
-		<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="EAA02A6E-4099-4D71-9049-7509BEDB1A04">
-			<PermanentStatModApplicator>
-				<applyTarget>AbilityOwner</applyTarget>
-				<caption>ally ground check</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQAAAAAAAAAAVYvsUVaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QM8k78A+UwYlN/NtF/F6L5V3D</compiledString>
-						<returnType>float</returnType>
-						<sString>(sTerrainType == sFctn ? 1 : 0 )</sString>
-					</addValue>
-					<multValue>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-						<returnType>float</returnType>
-						<sString>0.0f</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable>A1_TerrCast</variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="DA6941A6-ABAA-4210-8DF9-3659815CEBF4">
-			<SpellApplicator>
-				<applyTarget>AbilityOwner</applyTarget>
-				<caption>If A1u+Ally ground</caption>
-				<enabled>
-					<compiledString>FRQAAAACAAAAIQAAADQAAABBMXVfSG9uZXlfU3RhcnRDb25kAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdUAAAAN/g9sREewbGRf8B6wTGRf8AikX/i+VdwwAAAAAAAAAA</compiledString>
-					<returnType>bool</returnType>
-					<sString>cA1u_Honey_StartCond</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<providerName></providerName>
-				<spell href="/Items/Talents/Class/Brewer/spell_SpreadHoney.SPLL" />
-				<spellTarget>AbilityOwner</spellTarget>
-				<targetSelector href="" />
-			</SpellApplicator>
-		</Item>
-		<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="7D33BAEB-DBDF-4406-B7DA-CE8D01EC1455">
+		<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="E707B0D4-B0EA-4F91-94E9-CC5B6F3D2BEE">
 			<SpellApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
 				<caption>select point to move to</caption>
@@ -89,25 +48,25 @@
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
-				<spell href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="0BEC9905-4A2F-4F84-9F34-B44295A38EB7">
+				<spell href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="EB7823A7-B3DA-44FB-95BE-24848E5B3148">
 					<Spell>
 						<applicators>
-							<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="8C348C24-BE30-4F89-A057-8C68990D8558">
+							<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="14A710A7-787D-45A4-B964-670500542724">
 								<ProgramApplicator>
 									<applicators>
 										<Item>
-											<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="B48E2E19-B4CC-42A7-97F8-C13EAFD4DC2C">
+											<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="A8E4CEE7-4D67-42B8-BECE-DFB28BE5CB49">
 												<ProgramApplicator>
 													<applicators>
 														<Item>
-															<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="14CBFA6A-243F-42AA-A867-C36A3CF5EEA9">
+															<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="CFD493B0-FD11-409F-ACF0-29645AB4CCB6">
 																<FlagsApplicator>
 																	<applyTarget>ApplicatorTarget</applyTarget>
 																	<behaviorFlags>0</behaviorFlags>
 																	<caption></caption>
 																	<consumables />
 																	<effect>
-																		<Item href="" />
+																		<Item href="/Heroes/Freeze/FXAbility1.EFFT" />
 																		<Item href="" />
 																	</effect>
 																	<enabled>
@@ -172,27 +131,27 @@
 															<stopEvents>0</stopEvents>
 														</Item>
 														<Item>
-															<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="C597EB0D-2974-44F1-9024-11C273402ABD">
+															<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="C95A2F3B-49E2-4B2A-927D-6CF3AF0E8E6E">
 																<ProgramApplicator>
 																	<applicators>
 																		<Item>
-																			<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="5562D1E4-763D-4ECD-ABBD-978DB938DCEA">
+																			<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="AFFA9092-ABCB-48CF-9107-67AE7012B272">
 																				<PermanentStatModApplicator>
 																					<applyTarget>ApplicatorTarget</applyTarget>
 																					<caption>Запоминаем длительность статуса для сокращения КД</caption>
 																					<customApplyType>None</customApplyType>
 																					<enabled>
-																						<compiledString>FQ4AAAACAAAAEwAAACkAAABBMV9CcmV3ZXJEYXNoAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+																						<compiledString>FQ4AAAACAAAAEwAAACkAAABBMV9GcmVlemVEYXNoAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
 																						<returnType>bool</returnType>
-																						<sString>sender.vA1_BrewerDash == 1</sString>
+																						<sString>sender.vA1_FreezeDash == 1</sString>
 																					</enabled>
 																					<formulaName></formulaName>
 																					<LoggingEvent>-1</LoggingEvent>
 																					<modifier>
 																						<addValue>
-																							<compiledString>FRkAAAACAAAAJAAAADwAAABCcmV3ZXJBMVN0YXR1cwAAZHVyYXRpb24AVYvsUWoAi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0IlF/GgQAAAAi038ixGLTfyLQlT/0IvlXcM=</compiledString>
+																							<compiledString>FRkAAAACAAAAJAAAADwAAABGcmVlemVBMVN0YXR1cwAAZHVyYXRpb24AVYvsUWoAi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0IlF/GgQAAAAi038ixGLTfyLQlT/0IvlXcM=</compiledString>
 																							<returnType>float</returnType>
-																							<sString>sender.applBrewerA1Status(GLOBAL).GetVariable("duration")</sString>
+																							<sString>sender.applFreezeA1Status(GLOBAL).GetVariable("duration")</sString>
 																						</addValue>
 																						<multValue>
 																							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
@@ -201,7 +160,7 @@
 																						</multValue>
 																						<stat>Life</stat>
 																						<topModifier>false</topModifier>
-																						<variable>BrewerA1FixDuration</variable>
+																						<variable>FreezeA1FixDuration</variable>
 																					</modifier>
 																					<providerName></providerName>
 																				</PermanentStatModApplicator>
@@ -225,10 +184,10 @@
 																			<stopEvents>0</stopEvents>
 																		</Item>
 																		<Item>
-																			<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="047C45B0-54BB-416D-9BD7-6B68A0830B19">
+																			<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="EB22A70E-6BAA-4DED-AF2E-CC7615F66AE7">
 																				<PermanentStatModApplicator>
 																					<applyTarget>ApplicatorTarget</applyTarget>
-																					<caption>A1_BrewerDash</caption>
+																					<caption>A1_FreezeDash</caption>
 																					<customApplyType>None</customApplyType>
 																					<enabled>
 																						<compiledString></compiledString>
@@ -250,7 +209,7 @@
 																						</multValue>
 																						<stat>Life</stat>
 																						<topModifier>false</topModifier>
-																						<variable>A1_BrewerDash</variable>
+																						<variable>A1_FreezeDash</variable>
 																					</modifier>
 																					<providerName></providerName>
 																				</PermanentStatModApplicator>
@@ -274,15 +233,15 @@
 																			<stopEvents>0</stopEvents>
 																		</Item>
 																		<Item>
-																			<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="5A59454E-C2AA-4B22-B2A9-D58FACA0B300">
+																			<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="99BD23FB-025D-4B8C-9192-7A9E67C1E0B7">
 																				<RefreshCooldownApplicator>
 																					<allowCdIncrease>false</allowCdIncrease>
 																					<applyTarget>AbilityOwner</applyTarget>
 																					<caption>обнулить КД</caption>
 																					<enabled>
-																						<compiledString>FRoAAAACAAAAIQAAAD4AAABBMV9CcmV3ZXJEYXNoAAAARGFzaENvdW50AFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0ItNDFGLVQhSaBAAAACLRRCLEItNEItCUN1d+P/Q3F343+D2xAF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
+																						<compiledString>FRoAAAACAAAAIQAAAD4AAABBMV9GcmVlemVEYXNoAAAARGFzaENvdW50AFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0ItNDFGLVQhSaBAAAACLRRCLEItNEItCUN1d+P/Q3F343+D2xAF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
 																						<returnType>bool</returnType>
-																						<sString>sender.vA1_BrewerDash &lt;= cDashCount</sString>
+																						<sString>sender.vA1_FreezeDash &lt;= cDashCount</sString>
 																					</enabled>
 																					<flags>128</flags>
 																					<formulaName></formulaName>
@@ -296,7 +255,7 @@
 																					</reductionAmount>
 																					<refreshThis>false</refreshThis>
 																					<talents>
-																						<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" />
+																						<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" />
 																					</talents>
 																					<useListAs>ListAsRule</useListAs>
 																				</RefreshCooldownApplicator>
@@ -320,11 +279,11 @@
 																			<stopEvents>0</stopEvents>
 																		</Item>
 																		<Item>
-																			<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="DBADE15B-E433-4649-8704-C337DD0CF760">
+																			<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="B7950430-FD1A-4DFB-8446-0B5912B3EA08">
 																				<ProgramApplicator>
 																					<applicators>
 																						<Item>
-																							<applicator href="/Items/Talents/Class/Brewer/status_A1_Dash.APLR" />
+																							<applicator href="/Items/Talents/Class/Freeze/status_A1_Dash.APLR" />
 																							<continueCondition>
 																								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																								<returnType>bool</returnType>
@@ -344,7 +303,7 @@
 																							<stopEvents>0</stopEvents>
 																						</Item>
 																						<Item>
-																							<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="5FB244B7-D582-493F-A7EA-BA63DE9C34FE">
+																							<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="80358A0F-E6C0-4C2B-A34F-DF9DD551C103">
 																								<TriggerApplicator>
 																									<actionsCount>
 																										<compiledString></compiledString>
@@ -371,7 +330,7 @@
 																									</lifeTime>
 																									<LoggingEvent>-1</LoggingEvent>
 																									<playAck>false</playAck>
-																									<processor href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="B4884E5B-3CF1-4425-9D6B-907168F55594">
+																									<processor href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="B5E04FBF-3B1B-42CD-9DFC-6BDF556853B1">
 																										<EventProcessorCondition>
 																											<applyTarget>AbilityOwner</applyTarget>
 																											<condition>
@@ -413,7 +372,7 @@
 																							<stopEvents>0</stopEvents>
 																						</Item>
 																						<Item>
-																							<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="49445B5C-84BF-48D2-9B4B-867D8C6B0648">
+																							<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="831D0B70-6D9E-4C4A-977B-545251650281">
 																								<RefreshCooldownApplicator>
 																									<allowCdIncrease>false</allowCdIncrease>
 																									<applyTarget>AbilityOwner</applyTarget>
@@ -429,13 +388,13 @@
 																									<providerName></providerName>
 																									<reduceByPercent>false</reduceByPercent>
 																									<reductionAmount>
-																										<compiledString>FSgAAAACAAAANwAAAEkAAABBMV9SZXVzZUR1cmF0aW9uAAAAAEJyZXdlckExRml4RHVyYXRpb24AVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9JoFAAAAItFCIsQi00Ii4KIAQAA3V34/9DcbfjZXfTZRfSL5V3D</compiledString>
+																										<compiledString>FSQAAAACAAAAMwAAAEUAAABBMV9XYWl0RHVyYXRpb24ARnJlZXplQTFGaXhEdXJhdGlvbgBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0mgQAAAAi0UIixCLTQiLgogBAADdXfj/0Nxt+Nld9NlF9IvlXcM=</compiledString>
 																										<returnType>float</returnType>
-																										<sString>cA1_ReuseDuration - sender.vBrewerA1FixDuration</sString>
+																										<sString>cA1_WaitDuration - sender.vFreezeA1FixDuration</sString>
 																									</reductionAmount>
 																									<refreshThis>false</refreshThis>
 																									<talents>
-																										<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" />
+																										<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" />
 																									</talents>
 																									<useListAs>ListAsRule</useListAs>
 																								</RefreshCooldownApplicator>
@@ -459,27 +418,7 @@
 																							<stopEvents>0</stopEvents>
 																						</Item>
 																						<Item>
-																							<applicator href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/appl_G766_RefreshAndNotify.APLR" />
-																							<continueCondition>
-																								<compiledString></compiledString>
-																								<returnType>bool</returnType>
-																								<sString>0</sString>
-																							</continueCondition>
-																							<continueEvents>1</continueEvents>
-																							<delay>
-																								<compiledString></compiledString>
-																								<returnType>float</returnType>
-																								<sString>-1.0</sString>
-																							</delay>
-																							<stopCondition>
-																								<compiledString></compiledString>
-																								<returnType>bool</returnType>
-																								<sString>0</sString>
-																							</stopCondition>
-																							<stopEvents>0</stopEvents>
-																						</Item>
-																						<Item>
-																							<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="B09183AB-D00A-41EA-AE66-DD40C904FBCA">
+																							<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="DA86B5FF-DB13-4F05-B6A4-5CD4FEC2F1D5">
 																								<PermanentStatModApplicator>
 																									<applyTarget>AbilityOwner</applyTarget>
 																									<caption>Обнуляем счетчик</caption>
@@ -504,7 +443,7 @@
 																										</multValue>
 																										<stat>Life</stat>
 																										<topModifier>false</topModifier>
-																										<variable>A1_BrewerDash</variable>
+																										<variable>A1_FreezeDash</variable>
 																									</modifier>
 																									<providerName></providerName>
 																								</PermanentStatModApplicator>
@@ -522,6 +461,26 @@
 																							</delay>
 																							<stopCondition>
 																								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																								<returnType>bool</returnType>
+																								<sString>0</sString>
+																							</stopCondition>
+																							<stopEvents>0</stopEvents>
+																						</Item>
+																						<Item>
+																							<applicator href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/appl_G766_RefreshAndNotify.APLR" />
+																							<continueCondition>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>0</sString>
+																							</continueCondition>
+																							<continueEvents>2</continueEvents>
+																							<delay>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>-1.0</sString>
+																							</delay>
+																							<stopCondition>
+																								<compiledString></compiledString>
 																								<returnType>bool</returnType>
 																								<sString>0</sString>
 																							</stopCondition>
@@ -549,9 +508,9 @@
 																					<LoggingEvent>-1</LoggingEvent>
 																					<providerName></providerName>
 																					<startCondition>
-																						<compiledString>FQ4AAAACAAAAEwAAACkAAABBMV9CcmV3ZXJEYXNoAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+																						<compiledString>FQ4AAAACAAAAEwAAACkAAABBMV9GcmVlemVEYXNoAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
 																						<returnType>bool</returnType>
-																						<sString>sender.vA1_BrewerDash == 1</sString>
+																						<sString>sender.vA1_FreezeDash == 1</sString>
 																					</startCondition>
 																				</ProgramApplicator>
 																			</applicator>
@@ -595,9 +554,9 @@
 																	<LoggingEvent>-1</LoggingEvent>
 																	<providerName></providerName>
 																	<startCondition>
-																		<compiledString>FRoAAAACAAAAIQAAAD4AAABBMV9CcmV3ZXJEYXNoAAAARGFzaENvdW50AFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0ItNDFGLVQhSaBAAAACLRRCLEItNEItCUN1d+P/Q3F343+D2xAF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
+																		<compiledString>FRoAAAACAAAAIQAAAD4AAABBMV9GcmVlemVEYXNoAAAARGFzaENvdW50AFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0ItNDFGLVQhSaBAAAACLRRCLEItNEItCUN1d+P/Q3F343+D2xAF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
 																		<returnType>bool</returnType>
-																		<sString>sender.vA1_BrewerDash &lt;= cDashCount</sString>
+																		<sString>sender.vA1_FreezeDash &lt;= cDashCount</sString>
 																	</startCondition>
 																</ProgramApplicator>
 															</applicator>
@@ -620,17 +579,17 @@
 															<stopEvents>0</stopEvents>
 														</Item>
 														<Item>
-															<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="694F8D69-06F8-4300-B8D8-4E4EF3BEF2CF">
+															<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="D604D003-736E-4CB7-9AD6-CBBB90C655D0">
 																<SpellPeriodicallyApplicator>
 																	<applyTarget>ApplicatorTarget</applyTarget>
 																	<behaviorFlags>0</behaviorFlags>
-																	<caption>Collision_Default</caption>
+																	<caption>урон и стун врагам, пока летим</caption>
 																	<effect>
 																		<Item href="" />
 																		<Item href="" />
 																	</effect>
 																	<enabled>
-																		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																		<compiledString></compiledString>
 																		<returnType>bool</returnType>
 																		<sString>true</sString>
 																	</enabled>
@@ -648,21 +607,22 @@
 																	</period>
 																	<providerName></providerName>
 																	<scaleMode>ScaleIsCount</scaleMode>
-																	<spell href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="5D466E3B-BCE5-4A7B-9BB1-E00E353A767B">
+																	<spell href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="3F9BF955-863E-4511-AC33-4775A646CCB2">
 																		<Spell>
 																			<applicators>
-																				<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="9E77C157-DCE7-445A-BDF5-3B09052CCF53">
+																				<Item href="/Effects/Shots/HitsApplicators/MeleePurple.APLR" />
+																				<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="818AC8C0-58B1-4BF1-937B-15C723A09FF2">
 																					<DamageApplicator>
 																						<applyTarget>ApplicatorTarget</applyTarget>
 																						<cancelInvisibility>true</cancelInvisibility>
-																						<caption>Deal_Collision_Damage</caption>
+																						<caption>раздаем урон</caption>
 																						<damage>
 																							<compiledString>FQoAAAABAAAAFgAAAEExX0RhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 																							<returnType>float</returnType>
 																							<sString>cA1_Damage</sString>
 																						</damage>
 																						<damageMode>0</damageMode>
-																						<damageType>Material</damageType>
+																						<damageType>Energy</damageType>
 																						<enabled>
 																							<compiledString></compiledString>
 																							<returnType>bool</returnType>
@@ -672,28 +632,12 @@
 																						<LoggingEvent>-1</LoggingEvent>
 																						<providerName></providerName>
 																						<timeLimiter>-1</timeLimiter>
-																						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+																						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
 																					</DamageApplicator>
 																				</Item>
-																				<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="DD22B703-E4A5-48EE-BCC1-D8DD357A1370">
-																					<SpellApplicator>
-																						<applyTarget>ApplicatorTarget</applyTarget>
-																						<caption>spread honey spell</caption>
-																						<enabled>
-																							<compiledString>FQAAAAABAAAALQAAAFWL7FFR2e7ZHCRR2ejZHCRqAItFDIsQi00Mi0JY/9APtshR6DEAAACDxAzcHUkAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAAAAgD8AAAAAVYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
-																							<returnType>bool</returnType>
-																							<sString>ut_hero(1,0)</sString>
-																						</enabled>
-																						<formulaName></formulaName>
-																						<LoggingEvent>-1</LoggingEvent>
-																						<providerName></providerName>
-																						<spell href="/Items/Talents/Class/Brewer/spell_SpreadHoney.SPLL" />
-																						<spellTarget>ApplicatorTarget</spellTarget>
-																						<targetSelector href="" />
-																					</SpellApplicator>
-																				</Item>
+																				<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 																			</applicators>
-																			<dispatch href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="ABD3D406-89E0-4C34-B4CE-626A7ADB8A9A">
+																			<dispatch href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="D55E5759-14CD-4D19-843A-FD2BD0CCBBEC">
 																				<DispatchImmediate>
 																					<alwaysApply>false</alwaysApply>
 																					<applyEffect>
@@ -724,7 +668,7 @@
 																		<returnType>float</returnType>
 																		<sString>0.0f</sString>
 																	</startOffset>
-																	<targetSelector href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="0F3ECC28-EEC0-4694-B1CA-F8BE34E9678E">
+																	<targetSelector href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="6878C977-C51A-4FE6-B189-C784A8416BF6">
 																		<CapsuleTargetSelector>
 																			<cutoffFirstSegment>false</cutoffFirstSegment>
 																			<flags>0</flags>
@@ -743,7 +687,7 @@
 																			<segmentDirectionOffset>0</segmentDirectionOffset>
 																			<segmentEnd>CurrentPosition</segmentEnd>
 																			<segmentEndTargetSelector href="" />
-																			<targetFilter>538705983</targetFilter>
+																			<targetFilter>538771519</targetFilter>
 																		</CapsuleTargetSelector>
 																	</targetSelector>
 																</SpellPeriodicallyApplicator>
@@ -767,89 +711,7 @@
 															<stopEvents>0</stopEvents>
 														</Item>
 														<Item>
-															<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="B09526B4-EC56-42D5-BBAE-77A1314A9341">
-																<SpellPeriodicallyApplicator>
-																	<applyTarget>ApplicatorTarget</applyTarget>
-																	<behaviorFlags>0</behaviorFlags>
-																	<caption>Collision_A1_SUP</caption>
-																	<effect>
-																		<Item href="" />
-																		<Item href="" />
-																	</effect>
-																	<enabled>
-																		<compiledString></compiledString>
-																		<returnType>bool</returnType>
-																		<sString>true</sString>
-																	</enabled>
-																	<formulaName></formulaName>
-																	<lifeTime>
-																		<compiledString></compiledString>
-																		<returnType>float</returnType>
-																		<sString>-1.0</sString>
-																	</lifeTime>
-																	<LoggingEvent>-1</LoggingEvent>
-																	<period>
-																		<compiledString></compiledString>
-																		<returnType>float</returnType>
-																		<sString>0.0f</sString>
-																	</period>
-																	<providerName></providerName>
-																	<scaleMode>ScaleIsCount</scaleMode>
-																	<spell href="/Items/Talents/Class/Brewer/spell_SpreadHoney.SPLL" />
-																	<startCondition>
-																		<compiledString>FR4AAAACAAAAJQAAAD4AAABCcmV3ZXJfQTFfU1VQAAAAQnJld2VyX0ExX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
-																		<returnType>bool</returnType>
-																		<sString>tal("Brewer_A1_SUP")</sString>
-																	</startCondition>
-																	<startOffset>
-																		<compiledString></compiledString>
-																		<returnType>float</returnType>
-																		<sString>0.0f</sString>
-																	</startOffset>
-																	<targetSelector href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="4BC7E5DD-8F5E-4065-903A-1AC61A55FA93">
-																		<CapsuleTargetSelector>
-																			<cutoffFirstSegment>false</cutoffFirstSegment>
-																			<flags>0</flags>
-																			<mode>SendOnce</mode>
-																			<range>
-																				<compiledString>FQYAAAACAAAAEwAAACYAAABXaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTQAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
-																				<returnType>float</returnType>
-																				<sString>cWidth * 0.5</sString>
-																			</range>
-																			<rangeFromOwner>
-																				<compiledString></compiledString>
-																				<returnType>float</returnType>
-																				<sString>0.0f</sString>
-																			</rangeFromOwner>
-																			<segmentBegin>PreviousPosition</segmentBegin>
-																			<segmentDirectionOffset>0</segmentDirectionOffset>
-																			<segmentEnd>CurrentPosition</segmentEnd>
-																			<segmentEndTargetSelector href="" />
-																			<targetFilter>805306371</targetFilter>
-																		</CapsuleTargetSelector>
-																	</targetSelector>
-																</SpellPeriodicallyApplicator>
-															</applicator>
-															<continueCondition>
-																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-																<returnType>bool</returnType>
-																<sString>0</sString>
-															</continueCondition>
-															<continueEvents>1</continueEvents>
-															<delay>
-																<compiledString></compiledString>
-																<returnType>float</returnType>
-																<sString>-1.0</sString>
-															</delay>
-															<stopCondition>
-																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-																<returnType>bool</returnType>
-																<sString>0</sString>
-															</stopCondition>
-															<stopEvents>0</stopEvents>
-														</Item>
-														<Item>
-															<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="E7120895-99C0-4CB2-BE09-0079C06767F0">
+															<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="F185C25D-381B-4EB5-99EB-9FFE65406552">
 																<ThrowApplicator>
 																	<angle Animated="True">
 																		<Tracks>
@@ -893,7 +755,7 @@
 																		<sString>1.0</sString>
 																	</flipTime>
 																	<flyEffect>
-																		<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="AD5BFA28-8DF8-471C-A87C-CC11C6402705">
+																		<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="F5C891B0-FED2-41AB-966A-BBC217D86E0F">
 																			<PlayAnimationEffect>
 																				<animGraphNode>ability1</animGraphNode>
 																				<deathType>Manual</deathType>
@@ -923,7 +785,7 @@
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
 																	<takeOffTime>0.01</takeOffTime>
-																	<targetSelector href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="DB140FEE-282E-425E-9FFB-9BD4B70E9037">
+																	<targetSelector href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="AA5BDC96-43DD-4F74-AD80-D98FF2E647CC">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>
 																			<applicatorName></applicatorName>
@@ -1072,7 +934,7 @@
 								</ProgramApplicator>
 							</Item>
 						</applicators>
-						<dispatch href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="406E396C-8F4F-407E-83A6-BBDE87890047">
+						<dispatch href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="857F2D7D-B0A1-478A-9A42-E285A5634B1D">
 							<DispatchImmediate>
 								<alwaysApply>false</alwaysApply>
 								<applyEffect>
@@ -1094,7 +956,7 @@
 					</Spell>
 				</spell>
 				<spellTarget>ApplicatorTarget</spellTarget>
-				<targetSelector href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="DD5D3029-2875-45DF-8DAC-0B259DBCF7FE">
+				<targetSelector href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="388D1EAC-9FB5-4E06-BBE6-3D18F3AF9A8B">
 					<PointTargetSelector>
 						<checkMinRange>true</checkMinRange>
 						<mode>RangeFromOwner</mode>
@@ -1108,7 +970,7 @@
 							<returnType>float</returnType>
 							<sString>cRange</sString>
 						</range>
-						<targetSelector href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="C6487A7E-58C9-4AE4-B2C1-2406C3416A8C">
+						<targetSelector href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="7CE58E2C-189B-4CFC-B65A-2D8CA7F8E6F3">
 							<SelectApplicatorTarget>
 								<applicatorIndex>0</applicatorIndex>
 								<applicatorName></applicatorName>
@@ -1125,50 +987,65 @@
 	<askId>1</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>А1. Прием медовара</caption>
+	<caption>А1. Морозный натиск</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations />
-	<commonDescription textref="/Items/Talents/Class/Brewer/Ability_A1.TALENT_commonDescription.txt" />
+	<commonDescription textref="/Items/Talents/Class/Freeze/Ability_A1.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
 	<conditionFormulas>
-		<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="E2FEB2B8-3A67-46FD-823F-065A54B74209">
+		<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="5CC0C2C2-228E-4D8A-8783-372EA3D48CE8">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FR4AAAACAAAAJQAAAD4AAABCcmV3ZXJfQTFfU1VQAAAAQnJld2VyX0ExX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+					<compiledString>FRcAAAACAAAAHgAAADcAAABGcmVlemVfQTF1AABGcmVlemVfQTF1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Brewer_A1_SUP") == false</sString>
+					<sString>tal("Freeze_A1u") == false</sString>
 				</condition>
-				<name>NotBrewer_A1_SUP</name>
+				<name>Freeze_A1u</name>
 			</ConditionFormula>
 		</Item>
-		<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="459A783D-233D-4EA0-9927-BE0CE22D78C1">
+		<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="5DA22D61-426F-42A3-AB33-FC2E255C984F">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FRcAAAACAAAAHgAAADcAAABCcmV3ZXJfQTF1AABCcmV3ZXJfQTF1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABGcmVlemVfQTFfU1VQAAAARnJlZXplX0ExX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Brewer_A1u")</sString>
+					<sString>tal("Freeze_A1_SUP") == false</sString>
 				</condition>
-				<name>Brewer_A1u</name>
+				<name>Freeze_A1_SUP</name>
 			</ConditionFormula>
 		</Item>
-		<Item href="/Items/Talents/Class/Brewer/cond_TTStrOrInt" />
-		<Item href="/Items/Talents/Class/Brewer/cond_A0_SUP" />
-		<Item href="/Items/Talents/Class/Brewer/cond_TTStaOrWill" />
-		<Item href="/Items/Talents/Class/Brewer/cond_A4_2" />
-		<Item href="/Items/Talents/Class/Brewer/cond_A2" />
 	</conditionFormulas>
 	<conflictingTalents />
-	<constants href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="1F473B2D-8286-4CB5-8DB0-52F572B167D4">
+	<constants href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="3399B7A2-8C26-4612-9EAB-7F97FBD4805C">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="6D13791C-8AB7-4304-8143-A3B76104FFB8">
+				<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="D93C5B93-3010-4854-A317-FBC5B860D47D">
 					<UnitConstant>
 						<name>Width</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3.5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="67891DCD-4B6A-460A-905C-832F931BE78A">
+					<UnitConstant>
+						<name>Range</name>
+						<var>
+							<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9TaG9ydABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAA8D8=</compiledString>
+							<returnType>float</returnType>
+							<sString>cRange_Short + 1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="F7609CD6-E2D9-462C-B0B1-C864CD9BEE95">
+					<UnitConstant>
+						<name>A1_WaitDuration</name>
 						<var>
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
 							<returnType>float</returnType>
@@ -1176,17 +1053,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="33405235-EBF1-418F-BBDD-6E41BB65475A">
-					<UnitConstant>
-						<name>Range</name>
-						<var>
-							<compiledString>FTAAAAAFAAAANwAAAFAAAACOAAAAoQAAALMAAABCcmV3ZXJfQTF1AABCcmV3ZXJfQTF1AABSYW5nZV9TaG9ydABSYW5nZV9TaG9ydABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQli1UMUotFCFBoGAAAAItNEIsRi00Qi0JQ/9DcBdQAAADdXfDrHYtNDFGLVQhSaCQAAACLRRCLEItNEItCUP/Q3V3w3UXw2V3s2UXsi+VdwwAAAAAAAABA</compiledString>
-							<returnType>float</returnType>
-							<sString>tal("Brewer_A1u")? cRange_Short+2 : cRange_Short</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="3821EBC5-856C-4B12-88DB-9BC98C159638">
+				<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="039FAD27-D0A0-4072-9B11-641A6088F867">
 					<UnitConstant>
 						<name>DashCount</name>
 						<var>
@@ -1196,17 +1063,27 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="3791B779-3670-4AE4-8878-07A0D84F045C">
+				<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="EFB5E070-84BA-4474-98E7-61D899460F58">
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAgQgAAlkM=</compiledString>
+							<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAANcAAADhAAAARnJlZXplX0ExX1NVUAAAAEZyZWV6ZV9BMV9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0X2oBUdkFQgEAANkcJFHZBT4BAADZHCRqAItVCIsCi00Ii5A0AQAA/9JR2Rwki0UIixCLTQiLgjABAAD/0FHZHCTojgAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld9OtdagFR2QU6AQAA2RwkUdkFNgEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOgvAAAAg8QE2RwkagGLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAASEIAgLtDAACHQgAA/UNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 40, 300)</sString>
+							<sString>tal("Freeze_A1_SUP") ? damageScale(max(sStrength, sIntellect), 67.5, 506) : damageScale(max(sStrength, sIntellect), 50, 375)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="4CBF6851-01C4-4CE1-A67C-6FB571F4D445">
+				<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="D25D1586-B7A6-4651-A72A-1F7B374C4E1B">
+					<UnitConstant>
+						<name>A1_ManaCost</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>40</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="2F66D7BA-EE07-48FE-9E67-A8C5876FEB5B">
 					<UnitConstant>
 						<name>CooldownBetween</name>
 						<var>
@@ -1216,47 +1093,17 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="0CB5FE38-6966-4A89-884C-C9F7AEB23CB3">
+				<Item href="/Items/Talents/Class/Freeze/const_A1_Stun_Duration" />
+				<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="F8503DD1-4248-4779-8BB2-3EB64493BC95">
 					<UnitConstant>
-						<name>A1_ReuseDuration</name>
+						<name>Stun_StartCondition</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<compiledString>FRcAAAACAAAAHgAAADcAAABGcmVlemVfQTF1AABGcmVlemVfQTF1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4lN9NtF9IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>4</sString>
+							<sString>tal("Freeze_A1u")</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_AoE" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_Duration" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_AddLife" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_AddStaOrWill" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_Dec_StrOrInt" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_Slow_Duration" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_Slow_Condition" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_DecMS_PerStack" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_DecMS_Total" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_StackCount_Max" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDPS" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_DoT_DPS" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_DisarmDuration" />
-				<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="D7FE87B8-98F7-442F-91BD-28D0EF1FC9A9">
-					<UnitConstant>
-						<name>A1u_Honey_StartCond</name>
-						<var>
-							<compiledString>FSMAAAAEAAAAKgAAAEAAAABiAAAAewAAAEExX1RlcnJDYXN0AEJyZXdlcl9BMXUAAEJyZXdlcl9BMXUAVYvsg+wQaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3HAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACDffwAdFhoDAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX4i034ixGLTfiLQgT/0IhF9+sExkX3AA+2TfeFyXQJx0XwAQAAAOsHx0XwAAAAANtF8IvlXcMAAAAAAAAAAA==</compiledString>
-							<returnType>float</returnType>
-							<sString>(sender.vA1_TerrCast &gt; 0 ? 1 :0) &amp;&amp; tal("Brewer_A1u")</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Brewer/const_A3u_CDReduction" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTStrOrInt" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTAddLife" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTAddStaOrWill" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDec_StrOrInt" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTStaOrWill" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_Dec_Stamina" />
-				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDec_Stamina" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -1265,18 +1112,18 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQQ==</compiledString>
+		<compiledString>FR4AAAACAAAAJQAAAD4AAABGcmVlemVfQTFfU1VQAAAARnJlZXplX0ExX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Tfv32RvJg+H9g8EPiU3020X0i+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>16.0f</sString>
+		<sString>tal("Freeze_A1_SUP") ? 12 : 15</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</cooldownTimeSecondState>
-	<description textref="/Items/Talents/Class/Brewer/Ability_A1.TALENT_description.txt" />
+	<description textref="/Items/Talents/Class/Freeze/Ability_A1.TALENT_description.txt" />
 	<devPoints>1</devPoints>
-	<dispatch href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="354F233F-CB12-4B2F-902E-E6A8CD137962">
+	<dispatch href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="F535DF93-08E6-4A69-A880-424EF8CF702C">
 		<DispatchImmediate>
 			<alwaysApply>false</alwaysApply>
 			<applyEffect>
@@ -1292,24 +1139,24 @@
 				<Item href="" />
 			</dispatchEffect>
 			<flags>0</flags>
-			<instantApply>false</instantApply>
+			<instantApply>true</instantApply>
 		</DispatchImmediate>
 	</dispatch>
 	<flags>599</flags>
 	<forceBonus>0</forceBonus>
-	<image href="/UI/Styles/Icons/Heroes/Brewer/A1.ITEX" />
+	<image href="/UI/Styles/Icons/Heroes/Freeze/A1.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>false</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+		<compiledString>FQwAAAABAAAAGAAAAEExX01hbmFDb3N0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>50.0f</sString>
+		<sString>cA1_ManaCost</sString>
 	</manaCost>
 	<marker></marker>
-	<microAI href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="B5BAD76D-8AA2-4115-9541-689A05FE0E23">
+	<microAI href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="43996DF4-283A-468C-882C-B24DCC5F5B7E">
 		<TargetSelectorMicroAI>
 			<castWhenIdle>false</castWhenIdle>
 			<condition>
@@ -1317,13 +1164,13 @@
 				<returnType>bool</returnType>
 				<sString>true</sString>
 			</condition>
-			<targetSelector href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="FA23772C-9D75-461A-8154-B381DB860CC3">
+			<targetSelector href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="FD2E961C-5D9C-4E88-B9E8-4D57E0C7AA00">
 				<ConvertTargetToLand>
 					<aggregateMode>First</aggregateMode>
-					<targetSelector href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="4F5A4BCF-E8F3-4317-8634-9DAED1B81DB9">
+					<targetSelector href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="53685483-1800-41B0-A32D-685971CEDF71">
 						<FirstTargetSelector>
 							<nearestTarget>false</nearestTarget>
-							<targetSelector href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="21BE92E4-7800-4999-8EC2-8F9996DEE16B">
+							<targetSelector href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="A120C7C0-B8A8-40B3-8A47-CC03A5DD4EC8">
 								<AreaTargetSelector>
 									<absolutePosition>
 										<x>0</x>
@@ -1349,10 +1196,10 @@
 	<minLevel>0</minLevel>
 	<minUseRangeCorrection>8</minUseRangeCorrection>
 	<naftaCost>300</naftaCost>
-	<name textref="/Items/Talents/Class/Brewer/Ability_A1.TALENT_name.txt" />
+	<name textref="/Items/Talents/Class/Freeze/Ability_A1.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="8523B9DE-8A26-48D1-ABF1-08A427ECD5B6">
+		<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="88F59FF3-E9B1-483B-965B-93720234F5C5">
 			<FlagsApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
@@ -1382,12 +1229,12 @@
 					<sString>true</sString>
 				</startCondition>
 				<talents>
-					<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" />
+					<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" />
 				</talents>
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="D9819597-CFB5-4A36-9084-17A4D4BB5E9D">
+		<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="54237DE6-3ACF-4290-A9D8-76C101AE4C6C">
 			<TriggerApplicator>
 				<actionsCount>
 					<compiledString></compiledString>
@@ -1414,7 +1261,7 @@
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<playAck>false</playAck>
-				<processor href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="3B284DFD-7E3E-4687-B42C-03BD3C75AF4C">
+				<processor href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="EA03A3DF-5C97-4E7D-8763-2EFF39401BA2">
 					<EventProcessorOnDeath>
 						<applyTarget>AbilityOwner</applyTarget>
 						<castSpellDelay>
@@ -1425,10 +1272,10 @@
 						<checkSender>0</checkSender>
 						<objectFilter>2040319</objectFilter>
 						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
-						<spell href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="17B93B4C-F0D6-4EA6-9FAB-69C4E40961C7">
+						<spell href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="3AB83093-636F-4888-887C-A2603869EACB">
 							<Spell>
 								<applicators>
-									<Item href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="381FB160-F393-43D1-8344-999C59EC4CF2">
+									<Item href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="7F3BBC84-7DDE-4889-AE6B-4B1E4A89D9B9">
 										<PermanentStatModApplicator>
 											<applyTarget>AbilityOwner</applyTarget>
 											<caption>Обнуляем счетчик</caption>
@@ -1453,13 +1300,13 @@
 												</multValue>
 												<stat>Life</stat>
 												<topModifier>false</topModifier>
-												<variable>A1_BrewerDash</variable>
+												<variable>A1_FreezeDash</variable>
 											</modifier>
 											<providerName></providerName>
 										</PermanentStatModApplicator>
 									</Item>
 								</applicators>
-								<dispatch href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="5BB43062-8BA7-4707-AC1D-22F5A7BB7CF4">
+								<dispatch href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="4145456B-F1D6-440C-AA10-5573A405212B">
 									<DispatchImmediate>
 										<alwaysApply>false</alwaysApply>
 										<applyEffect>
@@ -1493,11 +1340,11 @@
 			</TriggerApplicator>
 		</Item>
 	</passiveApplicators>
-	<persistentId>Brewer_A1</persistentId>
+	<persistentId>Freeze_A1</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>
 	<requireLineOfSight>false</requireLineOfSight>
-	<shortDescription textref="/Items/Talents/Class/Brewer/Ability_A1.TALENT_shortDescription.txt" />
+	<shortDescription textref="/Items/Talents/Class/Freeze/Ability_A1.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
 	<targetType>16777216</targetType>

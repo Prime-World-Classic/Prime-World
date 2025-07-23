@@ -148,9 +148,9 @@
 												<onlySingleTarget>false</onlySingleTarget>
 											</abilityFilter>
 											<add>
-												<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 												<returnType>float</returnType>
-												<sString>1.0f</sString>
+												<sString>0</sString>
 											</add>
 											<applyTarget>ApplicatorTarget</applyTarget>
 											<checkSender>0</checkSender>
