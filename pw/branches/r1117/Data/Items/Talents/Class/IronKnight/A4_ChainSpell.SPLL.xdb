@@ -424,7 +424,7 @@
 																		</startSpell>
 																		<stopSpell href="" />
 																		<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																		<takeOffTime>0</takeOffTime>
+																		<takeOffTime>0.01</takeOffTime>
 																		<targetSelector href="/Items/Talents/Class/IronKnight/A4_ChainSpell.SPLL" id="41785675-B8E2-480E-A211-A5A332097C27">
 																			<PointTargetSelector>
 																				<checkMinRange>true</checkMinRange>

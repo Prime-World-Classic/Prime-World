@@ -616,7 +616,7 @@
 																		<startSpell href="" />
 																		<stopSpell href="" />
 																		<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																		<takeOffTime>0</takeOffTime>
+																		<takeOffTime>0.01</takeOffTime>
 																		<targetSelector href="/Items/Talents/Class/Plane/Ability_A3.TALENT" id="46E01A1A-27CF-4A2A-B8DB-3325A48A4BB4">
 																			<SelectApplicatorTarget>
 																				<applicatorIndex>0</applicatorIndex>

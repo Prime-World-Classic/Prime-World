@@ -1025,7 +1025,7 @@
 																	<startSpell href="" />
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0</takeOffTime>
+																	<takeOffTime>0.01</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/Witcher/Ability_A1.TALENT" id="FF502740-78AC-4A1A-A53C-FBE9FF74DE53">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>

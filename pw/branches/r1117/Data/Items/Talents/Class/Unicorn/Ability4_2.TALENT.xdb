@@ -335,7 +335,7 @@
 																	<startSpell href="" />
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0</takeOffTime>
+																	<takeOffTime>0.01</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/Unicorn/Ability4_2.TALENT" id="1B3E101C-0061-43B5-9677-4A26AFE36502">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>

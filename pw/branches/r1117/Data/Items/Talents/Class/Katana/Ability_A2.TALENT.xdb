@@ -204,7 +204,7 @@
 																	<startSpell href="" />
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0</takeOffTime>
+																	<takeOffTime>0.01</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/Katana/Ability_A2.TALENT" id="3CF9BD9D-1699-440A-BDB4-511DE5583C0B">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>
@@ -429,7 +429,7 @@
 																	<startSpell href="" />
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0</takeOffTime>
+																	<takeOffTime>0.01</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/Katana/Ability_A2.TALENT" id="333578B0-48CE-4A00-B531-D7AF435B20D1">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>

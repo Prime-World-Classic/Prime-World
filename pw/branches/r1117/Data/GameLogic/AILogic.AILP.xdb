@@ -1673,9 +1673,9 @@
 		<Item href="/GameLogic/AILogic.AILP" id="4A2CDC71-07DB-4A97-B58D-BBA1577849A8">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQiz/0DPJg/gLD5TBisFdww==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQiz/0DPJg/gKD5/BisFdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>mRefineRate == 11</sString>
+					<sString>mRefineRate &gt; 10</sString>
 				</condition>
 				<name>RefineRate11</name>
 			</ConditionFormula>
@@ -3099,11 +3099,11 @@
 				</Item>
 				<Item href="/GameLogic/AILogic.AILP" id="77924ADB-3BC9-4C0F-BD12-6D58BB70F7A5">
 					<UnitConstant>
-						<name>RefineRate16</name>
+						<name>RefineRate11</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvsUYtFEIsQi00Qi0Is/9CD6A+JRfzbRfyL5V3D</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsUYtFEIsQi00Qi0Is/9CD6AqJRfzbRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>mRefineRate-15</sString>
+							<sString>mRefineRate-10</sString>
 						</var>
 					</UnitConstant>
 				</Item>

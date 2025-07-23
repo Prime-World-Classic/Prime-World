@@ -116,7 +116,7 @@
 					<startSpell href="" />
 					<stopSpell href="" />
 					<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-					<takeOffTime>0</takeOffTime>
+					<takeOffTime>0.01</takeOffTime>
 					<targetSelector href="/Items/Talents/Class/Marine/A2_Program.APLR" id="973682A3-9036-4D3E-969D-9C564CE287E7">
 						<PointTargetSelector>
 							<checkMinRange>false</checkMinRange>

@@ -381,7 +381,7 @@
 																	<startSpell href="" />
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0</takeOffTime>
+																	<takeOffTime>0.01</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" id="5DCA3079-BE7F-4B1E-9D6F-D7E119DA5013">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>

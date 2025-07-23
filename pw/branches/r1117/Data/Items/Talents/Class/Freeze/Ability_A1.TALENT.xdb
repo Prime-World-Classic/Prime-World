@@ -784,7 +784,7 @@
 																	<startSpell href="" />
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0</takeOffTime>
+																	<takeOffTime>0.01</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="AA5BDC96-43DD-4F74-AD80-D98FF2E647CC">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>

@@ -324,7 +324,7 @@
 													</startSpell>
 													<stopSpell href="" />
 													<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-													<takeOffTime>0</takeOffTime>
+													<takeOffTime>0.01</takeOffTime>
 													<targetSelector href="/Items/Talents/Class/Gunner/Ability_A2.TALENT" id="56B5F942-2B87-48DC-BE58-6343C05EBAD5">
 														<SelectApplicatorTarget>
 															<applicatorIndex>0</applicatorIndex>
