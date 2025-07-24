@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TalentsSet>
-	<BackLink DBID="/Heroes/Angel/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/WitchDoctor/_.HROB" Count="1" />
 	<levels>
 		<Item>
 			<talents>
@@ -8,37 +8,37 @@
 					<aIPriority>3</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Angel/Ability_A1.TALENT" />
+					<talent href="/Items/Talents/Class/WitchDoctor/Ability1.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>3</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Angel/Ability_A2.TALENT" />
+					<talent href="/Items/Talents/Class/WitchDoctor/Ability2.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G415_A_DmgHealAfter.TALENT" />
+					<talent href="/Items/Talents/Level2/G563_AxesEngReg.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G511_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level1/G598_RegEnergy.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G537_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level1/G737_Int.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>3</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Angel/Ability_A0.TALENT" />
+					<talent href="/Items/Talents/Class/WitchDoctor/Ability0.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -48,19 +48,31 @@
 					<aIPriority>2</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" />
+					<talent href="/Items/Talents/Class/WitchDoctor/Ability1_Upg1.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>2</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Angel/Ability_A2u.TALENT" />
+					<talent href="/Items/Talents/Class/WitchDoctor/Ability2_Upg1.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>3</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Angel/Ability_A3.TALENT" />
+					<talent href="/Items/Talents/Class/WitchDoctor/Ability3.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>5</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level2/G600_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>5</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level2/G738_StrOrInt.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -68,18 +80,6 @@
 					<status>normal</status>
 					<talent href="/Items/Talents/Level2/G567_CasterBase.TALENT" />
 				</Item>
-				<Item>
-					<aIPriority>0</aIPriority>
-					<refineRate>5</refineRate>
-					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G510_FireWard.TALENT" />
-				</Item>
-				<Item>
-					<aIPriority>0</aIPriority>
-					<refineRate>5</refineRate>
-					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G724_AtSpdOrDex.TALENT" />
-				</Item>
 			</talents>
 		</Item>
 		<Item>
@@ -88,37 +88,37 @@
 					<aIPriority>3</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Angel/Ability_A1u.TALENT" />
+					<talent href="/Items/Talents/Class/WitchDoctor/Ability4.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Angel/Ability_A4.TALENT" />
+					<talent href="/Items/Talents/Level3/G566_AxesStrInt.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>2</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G575_EnergyReg_MoveSpeed.TALENT" />
+					<talent href="/Items/Talents/Class/WitchDoctor/Ability3_Upg1.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G629_StrOrInt_Life.TALENT" />
+					<talent href="/Items/Talents/Level3/G300_LifeRegen_Will.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G547_SilenceDamageBase.TALENT" />
+					<talent href="/Items/Talents/Level3/G500_Str_Dex.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G671_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level3/G499_Int_Dex.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -128,37 +128,37 @@
 					<aIPriority>2</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Angel/Ability_A5_2u.TALENT" />
+					<talent href="/Items/Talents/Class/WitchDoctor/Ability4_Upg1.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G660_GuildAllyDispell_Red.TALENT" />
+					<talent href="/Items/Talents/Level4/G702_StrOrInt.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G155_Aura-Will.TALENT" />
+					<talent href="/Items/Talents/Level4/G710_StrOrInt_SummonBuff.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G631_Int.TALENT" />
+					<talent href="/Items/Talents/Level4/G304_Int_CDR.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G156_Aura-Stamina.TALENT" />
+					<talent href="/Items/Talents/Level4/G779_AtSpdOrDex_Stun.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G673_Int.TALENT" />
+					<talent href="/Items/Talents/Level4/G498_Blink.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -168,19 +168,25 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Angel/Ability_A1_SUP.TALENT" />
+					<talent href="/Items/Talents/Class/WitchDoctor/Ability1_SUP.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G656_ShieldAOE_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level5/G703_Dex.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G588_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level5/G711_SpdOrDex_SummonBuff.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>5</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -192,13 +198,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G696_StrOrInt.TALENT" />
-				</Item>
-				<Item>
-					<aIPriority>0</aIPriority>
-					<refineRate>5</refineRate>
-					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G674_Life_StaOrWill.TALENT" />
+					<talent href="/Items/Talents/Level5/G310_Dexterity_Life.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -208,37 +208,37 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G183_Aura-Str.TALENT" />
+					<talent href="/Items/Talents/Level6/G574_StatViaHighestStat.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G184_Aura-Int.TALENT" />
+					<talent href="/Items/Talents/Level6/G705_Int_Dex.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G210_Aura_Dexterity.TALENT" />
+					<talent href="/Items/Talents/Level6/G713_Int_DexOrAtSpd.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G222_Aura_AttackSpeed.TALENT" />
+					<talent href="/Items/Talents/Level6/G315_Stamina_maxStrInt.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G701_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level6/G741_DexOrAtSpd.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G491_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level6/G749_Int_DexOrAtSpd.TALENT" />
 				</Item>
 			</talents>
 		</Item>
