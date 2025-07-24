@@ -71,9 +71,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQ8AAAACAAAAQwAAAFkAAABTdHJPckludEVuYWJsZQBVi+yD7AyLRQyLEItNDIuCuAAAAP/Qi00MixGLTQyLgrwAAADdXfj/0Nxd+N/g9sRBeitoAAAAAItNDIsRi00Mi4KIAQAA/9DcHXsAAADf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+					<compiledString>FQ8AAAACAAAAQwAAAFkAAABTdHJPckludEVuYWJsZQBVi+yD7AyLRQyLEItNDIuCMAEAAP/Qi00MixGLTQyLgjQBAADdXfj/0Nxd+N/g9sRBeitoAAAAAItNDIsRi00Mi4KIAQAA/9DcHXsAAADf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rBaseStrength&gt;=rBaseIntellect &amp;&amp; receiver.vStrOrIntEnable&gt;0</sString>
+					<sString>rStrength&gt;=rIntellect &amp;&amp; receiver.vStrOrIntEnable&gt;0</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -118,9 +118,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQ8AAAACAAAAQwAAAFkAAABTdHJPckludEVuYWJsZQBVi+yD7AyLRQyLEItNDIuCuAAAAP/Qi00MixGLTQyLgrwAAADdXfj/0Nxd+N/g9sRBdStoAAAAAItNDIsRi00Mi4KIAQAA/9DcHXsAAADf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+					<compiledString>FQ8AAAACAAAAQwAAAFkAAABTdHJPckludEVuYWJsZQBVi+yD7AyLRQyLEItNDIuCMAEAAP/Qi00MixGLTQyLgjQBAADdXfj/0Nxd+N/g9sRBdStoAAAAAItNDIsRi00Mi4KIAQAA/9DcHXsAAADf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rBaseStrength&lt;rBaseIntellect &amp;&amp; receiver.vStrOrIntEnable&gt;0</sString>
+					<sString>rStrength&lt;rIntellect &amp;&amp; receiver.vStrOrIntEnable&gt;0</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -165,9 +165,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQ8AAAACAAAAQwAAAFkAAABEZXhPckF0c0VuYWJsZQBVi+yD7AyLRQyLEItNDIuCwAAAAP/Qi00MixGLTQyLgowAAADdXfj/0Nxd+N/g9sRBeitoAAAAAItNDIsRi00Mi4KIAQAA/9DcHXsAAADf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+					<compiledString>FQ8AAAACAAAAQAAAAFYAAABEZXhPckF0c0VuYWJsZQBVi+yD7AyLRQyLEItNDIuCOAEAAP/Qi00MixGLTQyLQhzdXfj/0Nxd+N/g9sRBeitoAAAAAItNDIsRi00Mi4KIAQAA/9DcHXgAAADf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rBaseDexterity&gt;=rBaseAttackSpeed &amp;&amp; receiver.vDexOrAtsEnable&gt;0</sString>
+					<sString>rDexterity&gt;=rAttackSpeed &amp;&amp; receiver.vDexOrAtsEnable&gt;0</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -212,9 +212,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQ8AAAACAAAAQwAAAFkAAABEZXhPckF0c0VuYWJsZQBVi+yD7AyLRQyLEItNDIuCwAAAAP/Qi00MixGLTQyLgowAAADdXfj/0Nxd+N/g9sRBdStoAAAAAItNDIsRi00Mi4KIAQAA/9DcHXsAAADf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+					<compiledString>FQ8AAAACAAAAQAAAAFYAAABEZXhPckF0c0VuYWJsZQBVi+yD7AyLRQyLEItNDIuCOAEAAP/Qi00MixGLTQyLQhzdXfj/0Nxd+N/g9sRBdStoAAAAAItNDIsRi00Mi4KIAQAA/9DcHXgAAADf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rBaseDexterity&lt;rBaseAttackSpeed &amp;&amp; receiver.vDexOrAtsEnable&gt;0</sString>
+					<sString>rDexterity&lt;rAttackSpeed &amp;&amp; receiver.vDexOrAtsEnable&gt;0</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -259,9 +259,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FRAAAAACAAAARAAAAFoAAABTdGFPcldpbGxFbmFibGUAVYvsg+wMi0UMixCLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEQXoraAAAAACLTQyLEYtNDIuCiAEAAP/Q3B18AAAA3+D2xEF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FRAAAAACAAAARAAAAFoAAABTdGFPcldpbGxFbmFibGUAVYvsg+wMi0UMixCLTQyLgkABAAD/0ItNDIsRi00Mi4JEAQAA3V34/9DcXfjf4PbEQXoraAAAAACLTQyLEYtNDIuCiAEAAP/Q3B18AAAA3+D2xEF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>rBaseStamina&gt;=rBaseWill &amp;&amp; receiver.vStaOrWillEnable&gt;0</sString>
+					<sString>rStamina&gt;=rWill &amp;&amp; receiver.vStaOrWillEnable&gt;0</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -306,9 +306,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FRAAAAACAAAARAAAAFoAAABTdGFPcldpbGxFbmFibGUAVYvsg+wMi0UMixCLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEQXUraAAAAACLTQyLEYtNDIuCiAEAAP/Q3B18AAAA3+D2xEF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FRAAAAACAAAARAAAAFoAAABTdGFPcldpbGxFbmFibGUAVYvsg+wMi0UMixCLTQyLgkABAAD/0ItNDIsRi00Mi4JEAQAA3V34/9DcXfjf4PbEQXUraAAAAACLTQyLEYtNDIuCiAEAAP/Q3B18AAAA3+D2xEF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>rBaseStamina&lt;rBaseWill &amp;&amp; receiver.vStaOrWillEnable&gt;0</sString>
+					<sString>rStamina&lt;rWill &amp;&amp; receiver.vStaOrWillEnable&gt;0</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

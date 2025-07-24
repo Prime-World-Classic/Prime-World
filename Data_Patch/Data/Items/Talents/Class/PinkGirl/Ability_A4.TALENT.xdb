@@ -1007,7 +1007,7 @@
 																	</startSpell>
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0.01</takeOffTime>
+																	<takeOffTime>0</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/PinkGirl/Ability_A4.TALENT" id="E40B2A1E-6E7A-44B1-8E4D-4F88C5D45D59">
 																		<PointTargetSelector>
 																			<checkMinRange>true</checkMinRange>

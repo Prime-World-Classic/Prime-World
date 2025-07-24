@@ -174,7 +174,7 @@
 										</startSpell>
 										<stopSpell href="" />
 										<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-										<takeOffTime>0.01</takeOffTime>
+										<takeOffTime>0</takeOffTime>
 										<targetSelector href="/Items/Talents/Class/MagicGirl/A2_PortalAbility.IACT" id="257FAF2F-9D5D-4B7F-97A8-8D7B71F892DA">
 											<UnitPlaceCorrector>
 												<checkByRangeToRequester>true</checkByRangeToRequester>

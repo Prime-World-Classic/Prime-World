@@ -144,7 +144,7 @@
 												</abilityCondition>
 												<abilityCostMode>Energy</abilityCostMode>
 												<exceptThis>false</exceptThis>
-												<flags>1610614015</flags>
+												<flags>1610614014</flags>
 												<onlySingleTarget>false</onlySingleTarget>
 											</abilityFilter>
 											<add>
