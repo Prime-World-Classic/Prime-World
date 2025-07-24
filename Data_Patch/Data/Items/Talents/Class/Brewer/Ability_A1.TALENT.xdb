@@ -922,7 +922,7 @@
 																	<startSpell href="" />
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0</takeOffTime>
+																	<takeOffTime>0.01</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="DB140FEE-282E-425E-9FFB-9BD4B70E9037">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>

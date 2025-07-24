@@ -245,7 +245,7 @@
 																			</startSpell>
 																			<stopSpell href="" />
 																			<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																			<takeOffTime>0</takeOffTime>
+																			<takeOffTime>0.01</takeOffTime>
 																			<targetSelector href="/Items/Talents/Class/WitchDoctor/Ability2.TALENT" id="9406D5C7-B0B3-4F0E-8165-B6CE4C11C4BF">
 																				<PointTargetSelector>
 																					<checkMinRange>true</checkMinRange>
