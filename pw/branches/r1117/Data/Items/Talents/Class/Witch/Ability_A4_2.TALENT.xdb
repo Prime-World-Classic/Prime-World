@@ -625,7 +625,7 @@
 																		</Spell>
 																	</stopSpell>
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0.01</takeOffTime>
+																	<takeOffTime>0</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/Witch/Ability_A4_2.TALENT" id="4BE34578-7D3E-4F15-9D11-A18B9C000741">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>

@@ -211,7 +211,7 @@
 															</startSpell>
 															<stopSpell href="" />
 															<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-															<takeOffTime>0.01</takeOffTime>
+															<takeOffTime>0</takeOffTime>
 															<targetSelector href="/Items/Talents/Class/MagicGirl/spell_A1_blackhole.SPLL" id="6E23C33B-2A4B-4B19-8C39-C588A939530B">
 																<SelectApplicatorTarget>
 																	<applicatorIndex>0</applicatorIndex>

@@ -683,7 +683,7 @@
 																	<startSpell href="" />
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0.01</takeOffTime>
+																	<takeOffTime>0</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/PinkGirl/Ability_A1.TALENT" id="22797F3C-8A9C-4FE4-90FD-8792914F15F6">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>

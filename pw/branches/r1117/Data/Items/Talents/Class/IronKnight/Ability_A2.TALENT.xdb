@@ -1045,7 +1045,7 @@
 																										</startSpell>
 																										<stopSpell href="" />
 																										<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																										<takeOffTime>0.01</takeOffTime>
+																										<takeOffTime>0</takeOffTime>
 																										<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A2.TALENT" id="4329C968-6F94-45C8-9B20-1CB7E765C18D">
 																											<SelectApplicatorTarget>
 																												<applicatorIndex>0</applicatorIndex>

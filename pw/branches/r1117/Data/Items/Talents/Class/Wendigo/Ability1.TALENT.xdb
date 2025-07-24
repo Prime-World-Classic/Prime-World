@@ -204,7 +204,7 @@
 																	<startSpell href="" />
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0.01</takeOffTime>
+																	<takeOffTime>0</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/Wendigo/Ability1.TALENT" id="7591067D-3BE8-4AEE-B885-4551443B0CC9">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>

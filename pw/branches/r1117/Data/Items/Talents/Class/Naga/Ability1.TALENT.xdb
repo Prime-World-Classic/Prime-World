@@ -337,7 +337,7 @@
 																	<startSpell href="" />
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0.01</takeOffTime>
+																	<takeOffTime>0</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/Naga/Ability1.TALENT" id="6A349EF0-8C74-400F-A08E-1FE487E2B9B3">
 																		<SelectApplicatorTarget>
 																			<applicatorIndex>0</applicatorIndex>

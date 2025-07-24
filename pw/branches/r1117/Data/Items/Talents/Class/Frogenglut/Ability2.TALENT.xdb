@@ -13,7 +13,6 @@
 	<BackLink DBID="/Test/Talents/Frog/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Frog/Epic_Life.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Frog/Epic_Str.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -481,7 +480,7 @@
 																	<startSpell href="" />
 																	<stopSpell href="" />
 																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																	<takeOffTime>0.01</takeOffTime>
+																	<takeOffTime>0</takeOffTime>
 																	<targetSelector href="/Items/Talents/Class/Frogenglut/Ability2.TALENT" id="A9AB4BA7-44A4-4C6A-89AE-C38617703EE5">
 																		<PointTargetSelector>
 																			<checkMinRange>true</checkMinRange>
