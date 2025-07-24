@@ -89,9 +89,9 @@
 															<formulaName></formulaName>
 															<LoggingEvent>-1</LoggingEvent>
 															<maxDistance>
-																<compiledString>FQYAAAABAAAAEgAAAFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 																<returnType>float</returnType>
-																<sString>cRange</sString>
+																<sString>cRange_Medium</sString>
 															</maxDistance>
 															<notifyInboundDispatches>true</notifyInboundDispatches>
 															<providerName></providerName>
@@ -106,16 +106,16 @@
 															<caption>Teleport</caption>
 															<disappearEffect href="/Effects/Debuffs/Explosion/_GiftArchress.EFFT" />
 															<enabled>
-																<compiledString>FQ0AAAABAAAAEQAAAGFyY2hlcmVzc19TNwBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9Bdww==</compiledString>
+																<compiledString>FQ0AAAABAAAAEQAAAGFyY2hlcmVzc19TNwBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9APtsD32BvAg8ABXcM=</compiledString>
 																<returnType>bool</returnType>
-																<sString>sender.IsSkinUsed( "archeress_S7" )</sString>
+																<sString>!sender.IsSkinUsed( "archeress_S7" )</sString>
 															</enabled>
 															<formulaName></formulaName>
 															<LoggingEvent>-1</LoggingEvent>
 															<maxDistance>
-																<compiledString>FQYAAAABAAAAEgAAAFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 																<returnType>float</returnType>
-																<sString>cRange</sString>
+																<sString>cRange_Medium</sString>
 															</maxDistance>
 															<notifyInboundDispatches>true</notifyInboundDispatches>
 															<providerName></providerName>
@@ -340,7 +340,7 @@
 															<Item href="" />
 															<Item href="" />
 														</dispatchEffect>
-														<flags>0</flags>
+														<flags>1</flags>
 														<instantApply>false</instantApply>
 													</DispatchImmediate>
 												</dispatch>

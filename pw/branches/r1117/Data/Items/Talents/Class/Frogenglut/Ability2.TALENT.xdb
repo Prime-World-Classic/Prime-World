@@ -13,7 +13,7 @@
 	<BackLink DBID="/Test/Talents/Frog/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Frog/Epic_Life.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Frog/Epic_Str.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
