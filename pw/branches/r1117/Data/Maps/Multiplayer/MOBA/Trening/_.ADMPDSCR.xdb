@@ -7703,6 +7703,17 @@
 					</resources>
 				</DictionaryPreloadingResources>
 			</dictionary>
+			<heroRespawnParams href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" id="981DAE83-5D9D-493B-8B0E-046B49BE0948">
+				<HeroRespawnParams>
+					<heroBaseRespawnTime>0</heroBaseRespawnTime>
+					<heroMinRespawnTime>5</heroMinRespawnTime>
+					<heroRespawnDelayMultiplier>0</heroRespawnDelayMultiplier>
+					<overtimeRespawnParams>
+						<overtime>25</overtime>
+						<respawnDelayForOvertime>0</respawnDelayForOvertime>
+					</overtimeRespawnParams>
+				</HeroRespawnParams>
+			</heroRespawnParams>
 			<scriptFileName>/GameLogic/Scripts/Trening.lua</scriptFileName>
 		</AdvMapSettings>
 	</mapSettings>
