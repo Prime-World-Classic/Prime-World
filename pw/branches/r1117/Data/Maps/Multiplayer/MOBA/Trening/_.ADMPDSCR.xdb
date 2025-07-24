@@ -28,6 +28,17 @@
 							</resources>
 						</DictionaryPreloadingResources>
 					</dictionary>
+					<heroRespawnParams href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" id="5CF165F0-594A-4EFC-A426-316B15C8227B">
+						<HeroRespawnParams>
+							<heroBaseRespawnTime>0</heroBaseRespawnTime>
+							<heroMinRespawnTime>5</heroMinRespawnTime>
+							<heroRespawnDelayMultiplier>0</heroRespawnDelayMultiplier>
+							<overtimeRespawnParams>
+								<overtime>25</overtime>
+								<respawnDelayForOvertime>0</respawnDelayForOvertime>
+							</overtimeRespawnParams>
+						</HeroRespawnParams>
+					</heroRespawnParams>
 				</AdvMapSettings>
 			</mapSettings>
 			<objects>
