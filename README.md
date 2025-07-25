@@ -33,6 +33,43 @@
 
 Публичная конфигурация - ShippingSingleExe. Тестовая конфигурация (с читами) - ReleaseSingleExe. Возможны проблемы с компиляцией некоторых конфигураций/проектов на разных этапах жизни репозитория.
 
+### Пример файла server_ip.h
+В репозитории не версионируется файл server_ip.h. Его необходимо будет доложить в папку `pw\branches\r1117\Srv\PW_Game`. Ниже пример его содержимого:
+```
+#pragma once
+
+#define SESSION_TOKEN "Tester00Tester00Tester00Tester00"
+#define API_KEY "APIKEY00APIKEY00APIKEY00APIKEY00APIKEY00"
+
+// Main server IP
+#define SERVER_IP_W L"123.123.123.123"
+#define SERVER_IP "123.123.123.123"
+
+// Proxy server IP
+#define SERVER_PROXY_IP_W L"123.123.123.123"
+#define SERVER_PROXY_IP "123.123.123.123"
+
+// Radmin server IP
+#define MIRROR_SERVER_IP_W L"123.123.123.123"
+#define MIRROR_SERVER_IP "123.123.123.123"
+
+#define SERVER_PORT "27300"
+#define LOGIN_PORT "27301"
+
+#define SERVER_CLUSTER_PORT_FRONT 27310
+#define SERVER_CLUSTER_PORT_BACK 27340
+
+#define SYNCHRONIZER_PORT 27302
+
+
+extern int usedServer;
+static const char* SERVER_IP_ARRAY[] = {SERVER_IP, MIRROR_SERVER_IP, SERVER_PROXY_IP};
+static const wchar_t* SERVER_IP_W_ARRAY[] = {SERVER_IP_W, MIRROR_SERVER_IP_W, SERVER_PROXY_IP_W};
+```
+
+
+
+
 ## Запуск клиента с читами в режиме локальной игры
 Необходимо клонировать ветку main и объединить папку Bin с основными данными игры.
 
