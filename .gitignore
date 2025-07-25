@@ -73,7 +73,6 @@ Client-Synchronizer-Server/pythonProject/api_key.txt
 pw/branches/r1117/Src/UniServerApp/UniServerApp.dir
 pw/branches/r1117/Src/UniServerApp/Release/UniServerApp.lib
 pw/branches/r1117/Src/UniServerApp/Release/UniServerApp.exp
-pw/branches/r1117/Vendor/wsdlpull/win32/vs2008
 pw/branches/r1117/Src/UniServerApp/*.dll
 pw/branches/r1117/Src/UniServerApp/*.exe
 pw/branches/r1117/Src/UniServerApp/*.pdb
