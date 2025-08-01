@@ -127,9 +127,9 @@
 					<UnitConstant>
 						<name>Add_StrOrInt</name>
 						<var>
-							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ6NkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAFBBAACAPw==</compiledString>
+							<compiledString>FQkAAAACAAAAGAAAADUAAABCdWZmTXVsdABVi+yD7AxR2ejZHCRR2QVWAAAA2Rwki0UQixCLTRCLQmz/0ItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d+P/Q3E342V302UX0i+VdwwAAUEEAAIA/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(13, 1)</sString>
+							<sString>refineScale(13, 1)*cBuffMult</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -153,6 +153,7 @@
 				</Item>
 				<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/constants_Redset9_4_Haste_Percent" />
 				<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/constants_Redset9_4_SummonCooldown" />
+				<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/constants_Redset9_4_BuffMult" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -218,9 +219,9 @@
 				<caption>Add_Strength</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB0DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)</sString>
+					<sString>(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)&amp;&amp;false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -248,9 +249,9 @@
 				<caption>Add_Intellect</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/DPAg338AA+UwF6L5V3D</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB1DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>!(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)</sString>
+					<sString>!(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)&amp;&amp;false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -338,6 +339,145 @@
 				</talents>
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G710_StrOrInt_SummonBuff.TALENT" id="085F800C-E6C4-49D6-B6C9-D7C077603A8F">
+			<AuraApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Level4/G710_StrOrInt_SummonBuff.TALENT" id="F68EB634-AEA0-47B2-9B26-2D61080C6414">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>152</behaviorFlags>
+							<caption>Strength+</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgjABAAD/0ItNDIsRi00Mi4I0AQAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+								<returnType>bool</returnType>
+								<sString>rStrength&gt;=rIntellect</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJPckludABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+									<returnType>float</returnType>
+									<sString>cAdd_StrOrInt</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Strength</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level4/G710_StrOrInt_SummonBuff.TALENT" id="58A87118-D89E-428B-8C7C-C614BC1B67BB">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>152</behaviorFlags>
+							<caption>Intellect+</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgjABAAD/0ItNDIsRi00Mi4I0AQAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+								<returnType>bool</returnType>
+								<sString>rStrength&lt;rIntellect</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJPckludABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+									<returnType>float</returnType>
+									<sString>cAdd_StrOrInt</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Intellect</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Aura StrOrInt</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<range>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
+					<returnType>float</returnType>
+					<sString>1000.0f</sString>
+				</range>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<targets>268435460</targets>
+				<targetSelector href="/Items/Talents/Level4/G710_StrOrInt_SummonBuff.TALENT" id="838728E8-399C-48CB-A876-04F01B9B74CC">
+					<SummonEnumerator>
+						<flags>0</flags>
+						<mode>Normal</mode>
+						<summonTypes>3</summonTypes>
+					</SummonEnumerator>
+				</targetSelector>
+				<type>None</type>
+			</AuraApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G710</persistentId>
