@@ -66,9 +66,9 @@
 					<UnitConstant>
 						<name>Add_Int</name>
 						<var>
-							<compiledString>FQkAAAADAAAAEgAAABwAAAA5AAAAQnVmZk11bHQAVYvsg+wMUdkFXgAAANkcJFHZBVoAAADZHCSLRRCLEItNEItCbP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcTfjZXfTZRfSL5V3DAABwQc3MjD8=</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAcEHNzIw/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(15, 1.1)*cBuffMult</sString>
+							<sString>refineScale(15, 1.1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -76,9 +76,9 @@
 					<UnitConstant>
 						<name>Add_DexSpd</name>
 						<var>
-							<compiledString>FQkAAAADAAAAEgAAABwAAAA5AAAAQnVmZk11bHQAVYvsg+wMUdkFXgAAANkcJFHZBVoAAADZHCSLRRCLEItNEItCbP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcTfjZXfTZRfSL5V3DAABAQWZmZj8=</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQEFmZmY/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(12, 0.9)*cBuffMult</sString>
+							<sString>refineScale(12, 0.9)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -92,7 +92,6 @@
 				<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/constants_Redset9_4_Add_SummonBuff" />
 				<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/constants_Redset9_4_Add_SummonBuff_TT" />
 				<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/constants_Redset9_4_SummonCooldown" />
-				<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/constants_Redset9_4_BuffMult" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -140,9 +139,9 @@
 				<caption>Add_Int</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+					<compiledString></compiledString>
 					<returnType>bool</returnType>
-					<sString>false</sString>
+					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -170,9 +169,9 @@
 				<caption>Add_Dex</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB1DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/DPAg338AA+UwF6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>!(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)&amp;&amp;false</sString>
+					<sString>!(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -200,9 +199,9 @@
 				<caption>Add_AtSpd</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB0DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)&amp;&amp;false</sString>
+					<sString>(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -256,192 +255,6 @@
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/Redset9_4_SummonBuff.APLR" />
 		<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/Redset9_4_SummonBuff2.APLR" />
-		<Item href="/Items/Talents/Level6/G713_Int_DexOrAtSpd.TALENT" id="74F64CEF-5084-4770-8F97-F42F04F93799">
-			<AuraApplicator>
-				<applicators>
-					<Item href="/Items/Talents/Level6/G713_Int_DexOrAtSpd.TALENT" id="6C8D749E-0198-4339-8C43-4C89C0C4F157">
-						<StatModApplicator>
-							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>152</behaviorFlags>
-							<caption>Dexterity+</caption>
-							<constraint>None</constraint>
-							<dontUpdate>false</dontUpdate>
-							<effect>
-								<Item href="" />
-								<Item href="" />
-							</effect>
-							<enabled>
-								<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgjgBAAD/0ItNDIsRi00Mi0Ic3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
-								<returnType>bool</returnType>
-								<sString>rDexterity&gt;=rAttackSpeed</sString>
-							</enabled>
-							<formulaName></formulaName>
-							<lifeTime>
-								<compiledString></compiledString>
-								<returnType>float</returnType>
-								<sString>-1.0</sString>
-							</lifeTime>
-							<LoggingEvent>-1</LoggingEvent>
-							<modifier>
-								<addValue>
-									<compiledString>FQsAAAABAAAAFwAAAEFkZF9EZXhTcGQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-									<returnType>float</returnType>
-									<sString>cAdd_DexSpd</sString>
-								</addValue>
-								<multValue>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>1.0f</sString>
-								</multValue>
-								<stat>Dexterity</stat>
-								<topModifier>false</topModifier>
-								<variable></variable>
-							</modifier>
-							<providerName></providerName>
-							<startCondition>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</startCondition>
-							<statModName></statModName>
-						</StatModApplicator>
-					</Item>
-					<Item href="/Items/Talents/Level6/G713_Int_DexOrAtSpd.TALENT" id="222848D1-F83D-4710-B380-89F483022D4F">
-						<StatModApplicator>
-							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>152</behaviorFlags>
-							<caption>AttackSpeed+</caption>
-							<constraint>None</constraint>
-							<dontUpdate>false</dontUpdate>
-							<effect>
-								<Item href="" />
-								<Item href="" />
-							</effect>
-							<enabled>
-								<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgjgBAAD/0ItNDIsRi00Mi0Ic3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
-								<returnType>bool</returnType>
-								<sString>rDexterity&lt;rAttackSpeed</sString>
-							</enabled>
-							<formulaName></formulaName>
-							<lifeTime>
-								<compiledString></compiledString>
-								<returnType>float</returnType>
-								<sString>-1.0</sString>
-							</lifeTime>
-							<LoggingEvent>-1</LoggingEvent>
-							<modifier>
-								<addValue>
-									<compiledString>FQsAAAABAAAAFwAAAEFkZF9EZXhTcGQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-									<returnType>float</returnType>
-									<sString>cAdd_DexSpd</sString>
-								</addValue>
-								<multValue>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>1.0f</sString>
-								</multValue>
-								<stat>AttackSpeed</stat>
-								<topModifier>false</topModifier>
-								<variable></variable>
-							</modifier>
-							<providerName></providerName>
-							<startCondition>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</startCondition>
-							<statModName></statModName>
-						</StatModApplicator>
-					</Item>
-					<Item href="/Items/Talents/Level6/G713_Int_DexOrAtSpd.TALENT" id="5ACF9E01-FE02-4AA4-A394-7067E142AEC0">
-						<StatModApplicator>
-							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>152</behaviorFlags>
-							<caption>Intellect+</caption>
-							<constraint>None</constraint>
-							<dontUpdate>false</dontUpdate>
-							<effect>
-								<Item href="" />
-								<Item href="" />
-							</effect>
-							<enabled>
-								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</enabled>
-							<formulaName></formulaName>
-							<lifeTime>
-								<compiledString></compiledString>
-								<returnType>float</returnType>
-								<sString>-1.0</sString>
-							</lifeTime>
-							<LoggingEvent>-1</LoggingEvent>
-							<modifier>
-								<addValue>
-									<compiledString>FQgAAAABAAAAFAAAAEFkZF9JbnQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-									<returnType>float</returnType>
-									<sString>cAdd_Int</sString>
-								</addValue>
-								<multValue>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>1.0f</sString>
-								</multValue>
-								<stat>Intellect</stat>
-								<topModifier>false</topModifier>
-								<variable></variable>
-							</modifier>
-							<providerName></providerName>
-							<startCondition>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</startCondition>
-							<statModName></statModName>
-						</StatModApplicator>
-					</Item>
-				</applicators>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>152</behaviorFlags>
-				<caption>Aura DexOrAtts and Int</caption>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<providerName></providerName>
-				<range>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
-					<returnType>float</returnType>
-					<sString>1000.0f</sString>
-				</range>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<targets>268435460</targets>
-				<targetSelector href="/Items/Talents/Level6/G713_Int_DexOrAtSpd.TALENT" id="B05D897B-1B3D-4036-A7BA-BD258FA7AC78">
-					<SummonEnumerator>
-						<flags>0</flags>
-						<mode>Normal</mode>
-						<summonTypes>3</summonTypes>
-					</SummonEnumerator>
-				</targetSelector>
-				<type>None</type>
-			</AuraApplicator>
-		</Item>
 	</passiveApplicators>
 	<persistentId>G713</persistentId>
 	<prerequisiteTalents />
