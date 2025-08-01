@@ -65,9 +65,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQkAAAADAAAAEgAAABwAAAA5AAAAQnVmZk11bHQAVYvsg+wMUdkFXgAAANkcJFHZBVoAAADZHCSLRRCLEItNEItCbP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcTfjZXfTZRfSL5V3DAACYQTMzsz8=</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAmEEzM7M/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(19.0, 1.4)*cBuffMult</sString>
+							<sString>refineScale(19.0, 1.4)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -81,7 +81,6 @@
 				<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/constants_Redset9_4_Add_SummonBuff" />
 				<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/constants_Redset9_4_Add_SummonBuff_TT" />
 				<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/constants_Redset9_4_SummonCooldown" />
-				<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/constants_Redset9_4_BuffMult" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -129,9 +128,9 @@
 				<caption>Add_Dex</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB1DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/DPAg338AA+UwF6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>!(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)&amp;&amp;false</sString>
+					<sString>!(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -159,9 +158,9 @@
 				<caption>Add_AtSpd</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wYVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IN9/AB0DTPAdAnHRegBAAAA6wfHRegAAAAAikXoXovlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)&amp;&amp;false</sString>
+					<sString>(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -215,145 +214,6 @@
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/Redset9_4_SummonBuff.APLR" />
 		<Item href="/Items/Talents/TalentKits/Redset9_4_Summon/Redset9_4_SummonBuff2.APLR" />
-		<Item href="/Items/Talents/Level5/G711_SpdOrDex_SummonBuff.TALENT" id="18C4E19C-0548-4B79-B40F-1B02AA6928EA">
-			<AuraApplicator>
-				<applicators>
-					<Item href="/Items/Talents/Level5/G711_SpdOrDex_SummonBuff.TALENT" id="E46CD55D-CEFB-428A-973D-8F3FD740162C">
-						<StatModApplicator>
-							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>152</behaviorFlags>
-							<caption>Dexterity+</caption>
-							<constraint>None</constraint>
-							<dontUpdate>false</dontUpdate>
-							<effect>
-								<Item href="" />
-								<Item href="" />
-							</effect>
-							<enabled>
-								<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgjgBAAD/0ItNDIsRi00Mi0Ic3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
-								<returnType>bool</returnType>
-								<sString>rDexterity&gt;=rAttackSpeed</sString>
-							</enabled>
-							<formulaName></formulaName>
-							<lifeTime>
-								<compiledString></compiledString>
-								<returnType>float</returnType>
-								<sString>-1.0</sString>
-							</lifeTime>
-							<LoggingEvent>-1</LoggingEvent>
-							<modifier>
-								<addValue>
-									<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-									<returnType>float</returnType>
-									<sString>cAdd_Stat</sString>
-								</addValue>
-								<multValue>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>1.0f</sString>
-								</multValue>
-								<stat>Dexterity</stat>
-								<topModifier>false</topModifier>
-								<variable></variable>
-							</modifier>
-							<providerName></providerName>
-							<startCondition>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</startCondition>
-							<statModName></statModName>
-						</StatModApplicator>
-					</Item>
-					<Item href="/Items/Talents/Level5/G711_SpdOrDex_SummonBuff.TALENT" id="734A5E58-F603-4867-B2EA-DDE2CDC7DFD3">
-						<StatModApplicator>
-							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>152</behaviorFlags>
-							<caption>AttackSpeed+</caption>
-							<constraint>None</constraint>
-							<dontUpdate>false</dontUpdate>
-							<effect>
-								<Item href="" />
-								<Item href="" />
-							</effect>
-							<enabled>
-								<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgjgBAAD/0ItNDIsRi00Mi0Ic3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
-								<returnType>bool</returnType>
-								<sString>rDexterity&lt;rAttackSpeed</sString>
-							</enabled>
-							<formulaName></formulaName>
-							<lifeTime>
-								<compiledString></compiledString>
-								<returnType>float</returnType>
-								<sString>-1.0</sString>
-							</lifeTime>
-							<LoggingEvent>-1</LoggingEvent>
-							<modifier>
-								<addValue>
-									<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-									<returnType>float</returnType>
-									<sString>cAdd_Stat</sString>
-								</addValue>
-								<multValue>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>1.0f</sString>
-								</multValue>
-								<stat>AttackSpeed</stat>
-								<topModifier>false</topModifier>
-								<variable></variable>
-							</modifier>
-							<providerName></providerName>
-							<startCondition>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</startCondition>
-							<statModName></statModName>
-						</StatModApplicator>
-					</Item>
-				</applicators>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>152</behaviorFlags>
-				<caption>Aura DexOrAtts</caption>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<providerName></providerName>
-				<range>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
-					<returnType>float</returnType>
-					<sString>1000.0f</sString>
-				</range>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<targets>268435460</targets>
-				<targetSelector href="/Items/Talents/Level5/G711_SpdOrDex_SummonBuff.TALENT" id="C758FF61-807C-4EC0-8EDE-B6BCD57E047E">
-					<SummonEnumerator>
-						<flags>0</flags>
-						<mode>Normal</mode>
-						<summonTypes>3</summonTypes>
-					</SummonEnumerator>
-				</targetSelector>
-				<type>None</type>
-			</AuraApplicator>
-		</Item>
 	</passiveApplicators>
 	<persistentId>G711</persistentId>
 	<prerequisiteTalents />
