@@ -391,7 +391,7 @@ void Set( const Image *pCursorImage )
 
   if( pCursorImage )
   {
-    g_currentSize.Set( pCursorImage->GetWidth(), pCursorImage->GetHeight() );
+    g_currentSize.Set( pCursorImage->GetWidth(), pCursorImage->GetHeight());
     g_currentHotspot = pCursorImage->GetHotSpot();
   }
   else
@@ -495,7 +495,7 @@ void Update( DWORD time )
 	{
 		if ( g_useDefaultCursor )
 		{
-			NMainFrame::SetCursor( LoadCursor( NULL, IDC_ARROW ) );
+			NMainFrame::SetCursor( LoadCursor( NULL, IDC_CROSS ) );
 			g_cursorSW.SetRenderable( false );
 			return;
 		}
@@ -627,7 +627,7 @@ static HCURSOR LoadPrecompiledCursor( const string& fileName )
   pIStream = NULL;
 
   // load cursor from the temporary file
-  HCURSOR hCursor = reinterpret_cast<HCURSOR>(::LoadImage(NULL, tempName.c_str(), IMAGE_CURSOR, 0, 0, LR_LOADFROMFILE));
+  HCURSOR hCursor = reinterpret_cast<HCURSOR>(::LoadImage(NULL, tempName.c_str(), IMAGE_CURSOR, 512, 512, LR_LOADFROMFILE));
   DWORD lastError = ::GetLastError();
   NI_VERIFY(hCursor, NStr::StrFmt( "Cannot load precompiled cursor: \"%s\"\n"
     "LoadImage() failed! (0x%08x): %s", fileName.c_str(), lastError, FormatLastLastErrorMessage( lastError ) ), return 0);

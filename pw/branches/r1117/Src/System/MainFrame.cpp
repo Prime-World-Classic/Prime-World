@@ -296,7 +296,7 @@ static bool CreateWnd( LPCSTR pszApp, LPCSTR pszWnd, unsigned dwWidth, unsigned 
 	// eliminate cursor once for this widow
 	//::SetCursor( hCursor );
 
-	hCursor = LoadCursor( NULL, IDC_ARROW );
+	hCursor = LoadCursor( NULL, IDC_CROSS );
 
   ni_detail::SetNewHandler(hWnd);
   SetWnd(hWnd);

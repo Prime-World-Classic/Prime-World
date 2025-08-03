@@ -207,7 +207,7 @@ bool CSplashScreen::Create( const string &_szImageFileName, bool bTopMost )
 	wcex.cbWndExtra			= 0;
 	wcex.hInstance			= ::GetModuleHandle( 0 );
 	wcex.hIcon					= 0;
-	wcex.hCursor				= ::LoadCursor( 0, IDC_ARROW );
+	wcex.hCursor				= ::LoadCursor( 0, IDC_CROSS );
 	wcex.hbrBackground	= 0; //(HBRUSH)( COLOR_WINDOW + 1 );
 	wcex.lpszMenuName		= 0;
 	wcex.lpszClassName	= pszSplashScreenWindowClass;

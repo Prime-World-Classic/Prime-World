@@ -139,7 +139,7 @@ namespace
 
         windowClass.cbSize = sizeof(windowClass);
         windowClass.hInstance = instance;
-        windowClass.hCursor = ::LoadCursor(NULL, IDC_ARROW);
+        windowClass.hCursor = ::LoadCursor(NULL, IDC_CROSS);
         windowClass.lpszClassName = _splashWindowClassName;
         windowClass.lpfnWndProc = ::DefWindowProc;
 

@@ -7,6 +7,7 @@
 
 SteamAchievementProvider::SteamAchievementProvider()
 {
+	
 }
 
 SteamAchievementProvider::~SteamAchievementProvider()
