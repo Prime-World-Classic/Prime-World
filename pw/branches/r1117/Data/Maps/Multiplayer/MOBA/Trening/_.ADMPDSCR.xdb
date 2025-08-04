@@ -7676,6 +7676,24 @@
 					<scriptGroupName></scriptGroupName>
 					<scriptName></scriptName>
 				</Item>
+				<Item>
+					<gameObject href="/Terrain/Trees/_02.TREE" />
+					<lockMap>true</lockMap>
+					<offset>
+						<rotationX>0</rotationX>
+						<rotationY>0</rotationY>
+						<rotationZ>108.5421</rotationZ>
+						<scaleX>1</scaleX>
+						<scaleY>1</scaleY>
+						<scaleZ>1</scaleZ>
+						<translateX>141.3701</translateX>
+						<translateY>365.8961</translateY>
+						<translateZ>0</translateZ>
+					</offset>
+					<player>None</player>
+					<scriptGroupName></scriptGroupName>
+					<scriptName></scriptName>
+				</Item>
 			</objects>
 		</AdvMap>
 	</map>

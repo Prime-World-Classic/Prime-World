@@ -43,7 +43,6 @@
 	<BackLink DBID="/Test/Talents/PinkGirl/Elite_IntDex.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="4" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_OrangeSet1.ROLLCONT" Count="1" />
-	<BackLink DBID="/Items/Talents/WitchDoctor.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

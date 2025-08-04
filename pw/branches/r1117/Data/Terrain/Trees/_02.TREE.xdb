@@ -2,7 +2,7 @@
 <TreeObject>
 	<BackLink DBID="/Maps/Multiplayer/CTE/_.ADMP" Count="1385" />
 	<BackLink DBID="/Maps/Multiplayer/MidOnly/_.ADMP" Count="310" />
-	<BackLink DBID="/Maps/Multiplayer/MOBA/_.ADMP" Count="696" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/_.ADMP" Count="697" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Mod2/_.ADMP" Count="533" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Mod9/_.ADMP" Count="532" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/NightMap/_.ADMP" Count="533" />
@@ -14,6 +14,7 @@
 	<BackLink DBID="/Maps/Test/PlaneMap/_.ADMP" Count="1" />
 	<BackLink DBID="/Maps/Tutorial/_.ADMP" Count="351" />
 	<BackLink DBID="/Maps/Multiplayer/MidOnly/Aram/_.ADMP" Count="310" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" Count="1" />
 	<collision>
 		<x1>-1.7</x1>
 		<x2>1.7</x2>
