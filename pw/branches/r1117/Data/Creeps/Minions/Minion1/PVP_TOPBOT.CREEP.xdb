@@ -215,9 +215,9 @@
 						<sString>0</sString>
 					</increment>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB4Qg==</compiledString>
 						<returnType>float</returnType>
-						<sString>32</sString>
+						<sString>32+30</sString>
 					</value>
 				</Item>
 				<Item skip="1" />
@@ -254,9 +254,9 @@
 					<levelUpgrades />
 					<statId>TeamNaftaForPresence</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 						<returnType>float</returnType>
-						<sString>30</sString>
+						<sString>30-30</sString>
 					</value>
 				</Item>
 			</stats>

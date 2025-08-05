@@ -95,9 +95,9 @@
 			<levelUpgrades />
 			<statId>TeamNaftaForPresence</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 				<returnType>float</returnType>
-				<sString>50</sString>
+				<sString>50-50</sString>
 			</value>
 		</Item>
 		<Item>
@@ -111,9 +111,9 @@
 			<levelUpgrades />
 			<statId>NaftaForKill</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAsQg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC6Qg==</compiledString>
 				<returnType>float</returnType>
-				<sString>43</sString>
+				<sString>43+50</sString>
 			</value>
 		</Item>
 		<Item>
