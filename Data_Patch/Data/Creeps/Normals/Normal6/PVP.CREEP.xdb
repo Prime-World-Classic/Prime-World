@@ -1,102 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<AdvMapCreep parent="/Creeps/Minions/Minion3/_Parent.CREEP">
-	<BackLink DBID="/Maps/Multiplayer/MOBA/Spawners/Neutral_Elite_1.NCSPN" Count="1" />
+<AdvMapCreep parent="/Creeps/Normals/Normal6/_Parent.CREEP">
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Spawners/Neutral_3.NCSPN" Count="1" />
 	<abilities>
 		<Item skip="1" />
+		<Item href="/Creeps/Abilities/EvadeGUI.ABLT" />
 		<Item href="/Maps/Multiplayer/MOBA/Spawners/NeutralMark.ABLT" />
-		<Item href="/Glyphs/GlyphSpawnerAbility.ABLT" />
-		<Item href="/Creeps/Minions/Minion3/PVP_Elite.CREEP" id="485406D4-8B5D-42A8-B7F6-95B0C4C3BAB8">
-			<Ability>
-				<activeCustomTrigger>true</activeCustomTrigger>
-				<allowChase>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</allowChase>
-				<alternativeTargets />
-				<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
-				<aoeHeight>0</aoeHeight>
-				<aoeMaterial href="" />
-				<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
-				<aoeSize>
-					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-					<returnType>float</returnType>
-					<sString>0.0f</sString>
-				</aoeSize>
-				<aoeType>None</aoeType>
-				<applicators />
-				<autoTargetSelector href="" />
-				<caption> - Статус древний</caption>
-				<castAllowRange>
-					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-					<returnType>float</returnType>
-					<sString>0.0f</sString>
-				</castAllowRange>
-				<castLimitations />
-				<commonDescription textref="" />
-				<compiledDescriptionA textref="" />
-				<compiledDescriptionB textref="" />
-				<conditionFormulas />
-				<constants href="" />
-				<cooldownTime>
-					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-					<returnType>float</returnType>
-					<sString>0.0f</sString>
-				</cooldownTime>
-				<cooldownTimeSecondState>
-					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-					<returnType>float</returnType>
-					<sString>0.0f</sString>
-				</cooldownTimeSecondState>
-				<description textref="" />
-				<dispatch href="" />
-				<flags>1</flags>
-				<image href="" />
-				<imageSecondState href="" />
-				<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
-				<manaCost>
-					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-					<returnType>float</returnType>
-					<sString>0.0f</sString>
-				</manaCost>
-				<marker></marker>
-				<microAI href="" />
-				<minUseRangeCorrection>0</minUseRangeCorrection>
-				<name textref="" />
-				<node></node>
-				<passiveApplicators>
-					<Item href="/Heroes/DefaultStatus/status_Ancient.APLR" />
-				</passiveApplicators>
-				<requireLineOfSight>true</requireLineOfSight>
-				<shortDescription textref="" />
-				<targetType>136258047</targetType>
-				<type>Passive</type>
-				<useRange>
-					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-					<returnType>float</returnType>
-					<sString>0.0f</sString>
-				</useRange>
-				<useRangeMaterial href="" />
-				<warFogRemoveRadius>0</warFogRemoveRadius>
-				<warFogRemoveTime>0</warFogRemoveTime>
-			</Ability>
-		</Item>
+		<Item skip="1" />
 		<Item skip="1" />
 	</abilities>
-	<attackAbility href="/Creeps/Minions/Minion3/PVP_Elite.CREEP" id="76686DAF-268D-465D-B246-9DCC3CF6FE4D">
-		<BaseAttack parent="/Creeps/Minions/Minion3/AttackAbility.ATCK">
-			<constants href="" />
-			<useRange>
-				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-				<returnType>float</returnType>
-				<sString>0</sString>
-			</useRange>
+	<attackAbility href="/Creeps/Normals/Normal6/PVP.CREEP" id="A9BA552E-CB9B-455A-AC17-AB41C29076C5">
+		<BaseAttack parent="/Creeps/Normals/Normal6/AttackAbility.ATCK">
+			<constants href="/Creeps/Normals/Normal6/PVP.CREEP" id="E2900942-7366-4CD2-9F59-A58F84775437">
+				<UnitConstantsContainer>
+					<vars>
+						<Item href="/Creeps/Normals/Normal6/PVP.CREEP" id="EBD21C0F-88D5-47CE-9EB4-D22DFCF92BF6">
+							<UnitConstant>
+								<name>Liferegen</name>
+								<var>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>0.0f</sString>
+								</var>
+							</UnitConstant>
+						</Item>
+					</vars>
+				</UnitConstantsContainer>
+			</constants>
+			<flags>5</flags>
+			<passiveApplicators>
+				<Item href="/Heroes/DefaultStatus/status_Ancient.APLR" />
+			</passiveApplicators>
 		</BaseAttack>
 	</attackAbility>
-	<description textref="/Creeps/Minions/Minion3/PVP_Elite.CREEP_description.txt" />
-	<image href="/UI/Styles/Icons/Pets/Dragon.ITEX" />
-	<sceneObject href="/Creeps/Minions/Minion3/_Elite.SOBJ" />
-	<stats href="/Creeps/Minions/Minion3/PVP_Elite.CREEP" id="FCFBE69E-281F-4AC5-AEEC-F562D4F0546E">
+	<stats href="/Creeps/Normals/Normal6/PVP.CREEP" id="A92CEBB5-3323-4F4C-ADCC-4B6C669E25C5">
 		<StatsContainer>
 			<stats>
 				<Item>
@@ -109,19 +45,19 @@
 					</increment>
 					<levelUpgrades>
 						<Item>
-							<increment>88</increment>
+							<increment>60</increment>
 							<level>0</level>
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>15</level>
+							<level>10</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Life</statId>
 					<value>
-						<compiledString>FRQAAAADAAAAIQAAADQAAAA6AAAATmV1dHJhbENyZWVwX01vZF9IUABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDVAAAADcDUgAAADZXfzZRfyL5V3DZmZmZmZm5j8AAAAAAAB5QA==</compiledString>
+						<compiledString>FRQAAAACAAAAIQAAADQAAABOZXV0cmFsQ3JlZXBfTW9kX0hQAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNQgAAANld/NlF/IvlXcMAAAAAAMBsQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>400 * cNeutralCreep_Mod_HP * 0.7</sString>
+						<sString>230 * cNeutralCreep_Mod_HP</sString>
 					</value>
 				</Item>
 				<Item>
@@ -139,7 +75,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>15</level>
+							<level>20</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Energy</statId>
@@ -159,19 +95,19 @@
 					</increment>
 					<levelUpgrades>
 						<Item>
-							<increment>3.6</increment>
+							<increment>1.2</increment>
 							<level>0</level>
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>15</level>
+							<level>10</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Strength</statId>
 					<value>
-						<compiledString>FRUAAAACAAAAIgAAADUAAABOZXV0cmFsQ3JlZXBfTW9kX0F0awBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDUMAAADZXfzZRfyL5V3DAAAAAAAANkA=</compiledString>
+						<compiledString>FRUAAAACAAAAIgAAADUAAABOZXV0cmFsQ3JlZXBfTW9kX0F0awBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDUMAAADZXfzZRfyL5V3DAAAAAAAAKEA=</compiledString>
 						<returnType>float</returnType>
-						<sString>22 * cNeutralCreep_Mod_Atk</sString>
+						<sString>12 * cNeutralCreep_Mod_Atk</sString>
 					</value>
 				</Item>
 				<Item>
@@ -205,7 +141,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>15</level>
+							<level>10</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Will</statId>
@@ -230,7 +166,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>15</level>
+							<level>10</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Stamina</statId>
@@ -251,9 +187,9 @@
 					<levelUpgrades />
 					<statId>AttackSpeed</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>60</sString>
+						<sString>50</sString>
 					</value>
 				</Item>
 				<Item>
@@ -299,9 +235,9 @@
 					<levelUpgrades />
 					<statId>NaftaForKill</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABpQw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>128+105</sString>
+						<sString>54+21</sString>
 					</value>
 				</Item>
 				<Item>
@@ -335,7 +271,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>15</level>
+							<level>10</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Level</statId>
@@ -358,7 +294,7 @@
 					<value>
 						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 						<returnType>float</returnType>
-						<sString>105-105</sString>
+						<sString>21-21</sString>
 					</value>
 				</Item>
 			</stats>
