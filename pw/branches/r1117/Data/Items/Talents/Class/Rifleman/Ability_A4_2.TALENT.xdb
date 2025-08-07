@@ -6,6 +6,7 @@
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A4_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A4u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Rifleman_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Rifleman.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

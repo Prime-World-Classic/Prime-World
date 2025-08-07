@@ -163,9 +163,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmaGQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>4</sString>
+						<sString>4.2f</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>

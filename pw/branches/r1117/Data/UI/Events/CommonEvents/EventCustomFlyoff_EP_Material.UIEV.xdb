@@ -8,6 +8,7 @@
 	<BackLink DBID="/Items/Talents/Class/IronKnight/status_A3_AoEDmg.APLR" Count="1" />
 	<BackLink DBID="/UI/Events/CommonEvents/UI_Message_Crit_Material.APLR" Count="1" />
 	<BackLink DBID="/UI/Events/CommonEvents/UI_Message_Damage_Material.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G492_DMG.TALENT" Count="2" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventCustomFlyoff_EP_Material.UIEV" id="96C3AFF1-581D-40DE-AE24-7F7F72A7B0D6">
