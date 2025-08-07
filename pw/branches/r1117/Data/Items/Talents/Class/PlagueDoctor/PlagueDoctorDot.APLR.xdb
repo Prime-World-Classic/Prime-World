@@ -88,9 +88,9 @@
 					<sString>true</sString>
 				</startCondition>
 				<startOffset>
-					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
 					<returnType>float</returnType>
-					<sString>1.0f</sString>
+					<sString>0.2f</sString>
 				</startOffset>
 				<targetSelector href="" />
 			</SpellPeriodicallyApplicator>
