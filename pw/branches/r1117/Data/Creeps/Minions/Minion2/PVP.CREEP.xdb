@@ -162,9 +162,9 @@
 					</increment>
 					<statId>NaftaForKill</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQQ==</compiledString>
+						<compiledString>FREAAAADAAAAHgAAADEAAAA3AAAASXZlbnROYWZ0YU9ubHlNZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBWEAAADcHVkAAADf4PbERHsJx0X8BgAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAAAAAAAAAAAAACBA</compiledString>
 						<returnType>float</returnType>
-						<sString>8+6</sString>
+						<sString>8+cIventNaftaOnlyMe ? 6 : 0</sString>
 					</value>
 				</Item>
 				<Item>
@@ -208,9 +208,9 @@
 					<levelUpgrades />
 					<statId>TeamNaftaForPresence</statId>
 					<value>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString>FREAAAADAAAAHgAAADEAAAA3AAAASXZlbnROYWZ0YU9ubHlNZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcLWEAAADcHVkAAADf4PbERHsJx0X8BgAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAAAAAAAAAAAAABhA</compiledString>
 						<returnType>float</returnType>
-						<sString>6-6</sString>
+						<sString>6-cIventNaftaOnlyMe ? 6 : 0</sString>
 					</value>
 				</Item>
 			</stats>

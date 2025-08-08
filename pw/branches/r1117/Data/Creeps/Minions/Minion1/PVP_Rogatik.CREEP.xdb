@@ -222,9 +222,9 @@
 						<sString>0</sString>
 					</increment>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAwQg==</compiledString>
+						<compiledString>FREAAAADAAAAHgAAADEAAAA3AAAASXZlbnROYWZ0YU9ubHlNZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBWEAAADcHVkAAADf4PbERHsJx0X8FAAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAAAAAAAAAAAAADhA</compiledString>
 						<returnType>float</returnType>
-						<sString>24+20</sString>
+						<sString>24+cIventNaftaOnlyMe ? 20 : 0</sString>
 					</value>
 				</Item>
 				<Item skip="1" />
@@ -261,9 +261,9 @@
 					<levelUpgrades />
 					<statId>TeamNaftaForPresence</statId>
 					<value>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString>FREAAAADAAAAHgAAADEAAAA3AAAASXZlbnROYWZ0YU9ubHlNZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcLWEAAADcHVkAAADf4PbERHsJx0X8FAAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAAAAAAAAAAAAADRA</compiledString>
 						<returnType>float</returnType>
-						<sString>20-20</sString>
+						<sString>20-cIventNaftaOnlyMe ? 20 : 0</sString>
 					</value>
 				</Item>
 			</stats>

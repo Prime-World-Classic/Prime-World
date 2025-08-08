@@ -3107,6 +3107,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/GameLogic/AILogic.AILP" id="815521E4-6C88-4432-B191-31E917773709">
+					<UnitConstant>
+						<name>IventNaftaOnlyMe</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</globalConstants>
