@@ -112,9 +112,9 @@
 					<caption>Add_Evade</caption>
 					<customApplyType>None</customApplyType>
 					<enabled>
-						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2IAAAA3+D2xEF6L2gAAAAAi00IixGLTQiLgogBAAD/0NwdgAAAAN/g9sREeg0zyXQJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQAAAAAAAABRA</compiledString>
+						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2EAAAA3+D2xEF6K2gAAAAAi00IixGLTQiLgogBAAD/0NwdfAAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAFEA=</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseRange&lt;=5 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 3&amp;&amp;false</sString>
+						<sString>sBaseRange&lt;=5 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 3</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -161,9 +161,9 @@
 					<caption>Add_Range</caption>
 					<customApplyType>None</customApplyType>
 					<enabled>
-						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2IAAAA3+D2xEF1L2gAAAAAi00IixGLTQiLgogBAAD/0NwdgAAAAN/g9sREeg0zyXQJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQAAAAAAAABRA</compiledString>
+						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2EAAAA3+D2xEF1K2gAAAAAi00IixGLTQiLgogBAAD/0NwdfAAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAFEA=</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseRange&gt;5 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 3&amp;&amp;false</sString>
+						<sString>sBaseRange&gt;5 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 3</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -184,171 +184,6 @@
 					</modifier>
 					<providerName></providerName>
 				</PermanentStatModApplicator>
-			</applicator>
-			<continueCondition>
-				<compiledString></compiledString>
-				<returnType>bool</returnType>
-				<sString>0</sString>
-			</continueCondition>
-			<continueEvents>2</continueEvents>
-			<delay>
-				<compiledString></compiledString>
-				<returnType>float</returnType>
-				<sString>-1.0</sString>
-			</delay>
-			<stopCondition>
-				<compiledString></compiledString>
-				<returnType>bool</returnType>
-				<sString>0</sString>
-			</stopCondition>
-			<stopEvents>0</stopEvents>
-		</Item>
-		<Item>
-			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="AB3C3D63-F5E1-46E3-A514-028D3BF2377A">
-				<StatusApplicator>
-					<applicators>
-						<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="25922567-1EC3-4664-B196-77F59B09EC46">
-							<StatModApplicator>
-								<applyTarget>ApplicatorTarget</applyTarget>
-								<behaviorFlags>0</behaviorFlags>
-								<caption>Add_Evade</caption>
-								<constraint>None</constraint>
-								<dontUpdate>false</dontUpdate>
-								<effect>
-									<Item href="" />
-									<Item href="" />
-								</effect>
-								<enabled>
-									<compiledString>FSIAAAADAAAANQAAAEEAAABXAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCItCFP/Q3B2BAAAA3+D2xEF6K2gAAAAAi00IixGLTQiLgogBAAD/0NwdeQAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAIEA=</compiledString>
-									<returnType>bool</returnType>
-									<sString>sRange&lt;=8 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter &gt;= 3</sString>
-								</enabled>
-								<formulaName></formulaName>
-								<lifeTime>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>-1.0</sString>
-								</lifeTime>
-								<LoggingEvent>-1</LoggingEvent>
-								<modifier>
-									<addValue>
-										<compiledString>FQ0AAAABAAAAGQAAAEV2YWRlX0NoYW5jZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-										<returnType>float</returnType>
-										<sString>cEvade_Chance</sString>
-									</addValue>
-									<multValue>
-										<compiledString></compiledString>
-										<returnType>float</returnType>
-										<sString>1.0f</sString>
-									</multValue>
-									<stat>Evasion</stat>
-									<topModifier>false</topModifier>
-									<variable></variable>
-								</modifier>
-								<providerName></providerName>
-								<startCondition>
-									<compiledString></compiledString>
-									<returnType>bool</returnType>
-									<sString>true</sString>
-								</startCondition>
-								<statModName></statModName>
-							</StatModApplicator>
-						</Item>
-						<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="E3C55F90-0521-409F-86FD-731FCE264B54">
-							<StatModApplicator>
-								<applyTarget>ApplicatorTarget</applyTarget>
-								<behaviorFlags>0</behaviorFlags>
-								<caption>Add_Range</caption>
-								<constraint>None</constraint>
-								<dontUpdate>false</dontUpdate>
-								<effect>
-									<Item href="" />
-									<Item href="" />
-								</effect>
-								<enabled>
-									<compiledString>FSIAAAADAAAANQAAAEEAAABXAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCItCFP/Q3B2BAAAA3+D2xEF1K2gAAAAAi00IixGLTQiLgogBAAD/0NwdeQAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAIEA=</compiledString>
-									<returnType>bool</returnType>
-									<sString>sRange&gt;8 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter &gt;= 3</sString>
-								</enabled>
-								<formulaName></formulaName>
-								<lifeTime>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>-1.0</sString>
-								</lifeTime>
-								<LoggingEvent>-1</LoggingEvent>
-								<modifier>
-									<addValue>
-										<compiledString>FRMAAAABAAAAHwAAAFJlZHNldDdfMl9BZGRSYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-										<returnType>float</returnType>
-										<sString>cRedset7_2_AddRange</sString>
-									</addValue>
-									<multValue>
-										<compiledString></compiledString>
-										<returnType>float</returnType>
-										<sString>1.0f</sString>
-									</multValue>
-									<stat>Range</stat>
-									<topModifier>false</topModifier>
-									<variable></variable>
-								</modifier>
-								<providerName></providerName>
-								<startCondition>
-									<compiledString></compiledString>
-									<returnType>bool</returnType>
-									<sString>true</sString>
-								</startCondition>
-								<statModName></statModName>
-							</StatModApplicator>
-						</Item>
-					</applicators>
-					<applyTarget>ApplicatorTarget</applyTarget>
-					<behaviorFlags>0</behaviorFlags>
-					<caption>Тех статус EvadeOrRange</caption>
-					<customCounter>
-						<compiledString></compiledString>
-						<returnType>int</returnType>
-						<sString>0</sString>
-					</customCounter>
-					<customProgress>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>-1.0</sString>
-					</customProgress>
-					<description textref="" />
-					<dispellPriority>Medium</dispellPriority>
-					<effect>
-						<Item href="" />
-						<Item href="" />
-					</effect>
-					<enabled>
-						<compiledString></compiledString>
-						<returnType>bool</returnType>
-						<sString>true</sString>
-					</enabled>
-					<flags>0</flags>
-					<formulaName></formulaName>
-					<image href="" />
-					<lifeTime>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>-1.0</sString>
-					</lifeTime>
-					<LoggingEvent>-1</LoggingEvent>
-					<name textref="" />
-					<power>0</power>
-					<providerName></providerName>
-					<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
-					<stackCount>0</stackCount>
-					<startCondition>
-						<compiledString></compiledString>
-						<returnType>bool</returnType>
-						<sString>true</sString>
-					</startCondition>
-					<statusPosition>0</statusPosition>
-					<stopBehaviour>StopByTime</stopBehaviour>
-					<unstackableWith href="" />
-				</StatusApplicator>
 			</applicator>
 			<continueCondition>
 				<compiledString></compiledString>

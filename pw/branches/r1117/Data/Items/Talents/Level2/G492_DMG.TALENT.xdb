@@ -469,7 +469,7 @@
 																		<LoggingEvent>-1</LoggingEvent>
 																		<message textref="/Items/Talents/Level2/G492_DMG.TALENT_afbf3a73b9234a59829dd7b6247dabf1_message.txt" />
 																		<providerName></providerName>
-																		<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff_EP_Material.UIEV" />
+																		<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff_EP.UIEV" />
 																		<value>
 																			<compiledString>FSgAAAACAAAATwAAAGEAAABkYW1hZ2VEZWFsZWQAAAAARzQ5NERhbWFnZTpkYW1hZ2VEZWFsZWQAVYvsg+wUi0UQixCLTRCLQkj/0IlF/ItNEIsRi00Qi0JI/9CJRfhoEAAAAItN+IsRi034i0JU/9BoAAAAAItN/IsRi038i0JU3V3w/9DcRfDZXezZReyL5V3D</compiledString>
 																			<returnType>float</returnType>
@@ -1102,7 +1102,7 @@
 																		<LoggingEvent>-1</LoggingEvent>
 																		<message textref="/Items/Talents/Level2/G492_DMG.TALENT_eeb561e2b26546cdadccd27ec68cc41a_message.txt" />
 																		<providerName></providerName>
-																		<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff_EP_Material.UIEV" />
+																		<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff_EP.UIEV" />
 																		<value>
 																			<compiledString>FSgAAAACAAAATwAAAGEAAABkYW1hZ2VEZWFsZWQAAAAARzQ5NERhbWFnZTpkYW1hZ2VEZWFsZWQAVYvsg+wUi0UQixCLTRCLQkj/0IlF/ItNEIsRi00Qi0JI/9CJRfhoEAAAAItN+IsRi034i0JU/9BoAAAAAItN/IsRi038i0JU3V3w/9DcRfDZXezZReyL5V3D</compiledString>
 																			<returnType>float</returnType>

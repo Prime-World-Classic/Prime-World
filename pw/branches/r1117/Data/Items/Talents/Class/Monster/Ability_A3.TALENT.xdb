@@ -348,9 +348,9 @@
 					<UnitConstant>
 						<name>DexterityBuff</name>
 						<var>
-							<compiledString>FRIAAAADAAAAHQAAACcAAABzAAAATW9uc3Rlcl9BM0NvdW50ZXIAVYvsg+wMagBR2QWbAAAA2RwkUdkFlwAAANkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOhCAAAAg8QE2RwkagCLTRCLEYtNEItCYP/QaAAAAACLTQiLEYtNCIuCiAEAAN1d+P/Q3E342V302UX0i+Vdw2ZmZj8AANhAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FRIAAAADAAAAHQAAACcAAABzAAAATW9uc3Rlcl9BM0NvdW50ZXIAVYvsg+wMagFR2QWbAAAA2RwkUdkFlwAAANkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOhCAAAAg8QE2RwkagGLTRCLEYtNEItCYP/QaAAAAACLTQiLEYtNCIuCiAEAAN1d+P/Q3E342V302UX0i+Vdw2ZmZj8AANhAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale( max( sStrength, sIntellect ), 0.9f, 6.75f, false)*sender.vMonster_A3Counter
+							<sString>damageScale( max( sStrength, sIntellect ), 0.9f, 6.75f)*sender.vMonster_A3Counter
 </sString>
 						</var>
 					</UnitConstant>
@@ -359,9 +359,9 @@
 					<UnitConstant>
 						<name>TT_DexterityBuff</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAItNEIsRi00Qi0Jg/9Bdw2ZmZj8AANhAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9Bdw2ZmZj8AANhAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale( max( sStrength, sIntellect ), 0.9f, 6.75f, false)</sString>
+							<sString>damageScale( max( sStrength, sIntellect ), 0.9f, 6.75f)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

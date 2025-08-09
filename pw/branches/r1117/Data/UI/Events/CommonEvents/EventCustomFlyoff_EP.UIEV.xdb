@@ -5,6 +5,7 @@
 	<BackLink DBID="/Heroes/Wendigo/Flyoff.APLR" Count="1" />
 	<BackLink DBID="/Heroes/Werewolf/Flyoff.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Marine/A2_Damages.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G492_DMG.TALENT" Count="2" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventCustomFlyoff_EP.UIEV" id="17F7EE97-AEC8-41CD-BC34-40FD88246626">
