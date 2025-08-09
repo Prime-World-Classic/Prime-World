@@ -5,17 +5,14 @@
 	<BackLink DBID="/Items/RerollShop/TalentsList_Pirate" Count="1" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_Rar6_Set10_kit2" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_2_Pirate/Redset7_2_Pirate.TALKIT" Count="1" />
-	<BackLink DBID="/Items/Talents/TalentList_Mighty/Artist_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Archeress_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Chronicle_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Gunslinger_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Hunter_Mighty.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/TalentList_Mighty/Manawyrm_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Mowgli_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Night_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Plane_A_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Rifleman_Mighty.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/TalentList_Mighty/Trickster_Mighty.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/TalentList_Mighty/WraithKing_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="3" />
 	<BackLink DBID="/Social/Lootboxes/LB_Pirate_Red6_Set7_2" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/LB_Pirate_Red7_Set7_2" Count="1" />
@@ -28,7 +25,10 @@
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_GoodList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season9_CollectionList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_7_2_Pirates.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/WitchDoctor.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Artist.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/MagicGirl.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Demonolog.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Hunter.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -51,39 +51,39 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>G688: Абордажный задор</caption>
+	<caption>G687: Мощь морского чёрта</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations />
-	<commonDescription textref="/Items/Talents/Level4/G688_AtSpd.TALENT_commonDescription.txt" />
+	<commonDescription textref="/Items/Talents/Level3/G687_Str.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
 	<conditionFormulas>
-		<Item href="/Items/Talents/Level4/G688_AtSpd.TALENT" id="753E8E5D-B016-4966-926B-16356FFE1525">
+		<Item href="/Items/Talents/Level3/G687_Str.TALENT" id="34E262E2-2C25-4B8B-90DD-D6ACBEBDDC66">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FQ4AAAACAAAAEwAAACkAAABHNjg4X1N0ck9ySW50AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABHNjg3X1N0ck9ySW50AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG688_StrOrInt==1</sString>
+					<sString>sender.vG687_StrOrInt==1</sString>
 				</condition>
 				<name>StrOrInt</name>
 			</ConditionFormula>
 		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
-	<constants href="/Items/Talents/Level4/G688_AtSpd.TALENT" id="FC8027F7-4167-4A18-B19A-583CCE77FBDD">
+	<constants href="/Items/Talents/Level3/G687_Str.TALENT" id="ABD10C55-B9D6-4CFA-B2E8-636C4558F6E9">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level4/G688_AtSpd.TALENT" id="9AE0BCE5-D3A4-4574-8F9E-54D12DD70553">
+				<Item href="/Items/Talents/Level3/G687_Str.TALENT" id="F8A63530-8083-4BEE-93E4-139F4DCB6A85">
 					<UnitConstant>
-						<name>Add_AtSpd</name>
+						<name>Add_Str</name>
 						<var>
-							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ6NkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAFBBAACAPw==</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAIEHNzEw/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(13, 1)</sString>
+							<sString>refineScale(10, 0.8)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -108,12 +108,12 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</cooldownTimeSecondState>
-	<description textref="/Items/Talents/Level4/G688_AtSpd.TALENT_description.txt" />
+	<description textref="/Items/Talents/Level3/G687_Str.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
 	<flags>1</flags>
 	<forceBonus>0</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/_688.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/_687.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -126,16 +126,16 @@
 	</manaCost>
 	<marker></marker>
 	<microAI href="" />
-	<minLevel>3</minLevel>
+	<minLevel>2</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>-1</naftaCost>
-	<name textref="/Items/Talents/Level4/G688_AtSpd.TALENT_name.txt" />
+	<name textref="/Items/Talents/Level3/G687_Str.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level4/G688_AtSpd.TALENT" id="E2E52C0C-0E80-4B2E-8AEC-07BED57CEBE8">
+		<Item href="/Items/Talents/Level3/G687_Str.TALENT" id="98991A96-CCC6-4D2E-9F80-457E817C628F">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_AtSpd</caption>
+				<caption>Add_Str</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
@@ -146,16 +146,16 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQoAAAABAAAAFgAAAEFkZF9BdFNwZABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<compiledString>FQgAAAABAAAAFAAAAEFkZF9TdHIAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_AtSpd</sString>
+						<sString>cAdd_Str</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>AttackSpeed</stat>
+					<stat>Strength</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
@@ -166,7 +166,7 @@
 		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" />
 		<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/status_Redset7_2_EvadeOrRange.APLR" />
 	</passiveApplicators>
-	<persistentId>G688</persistentId>
+	<persistentId>G687</persistentId>
 	<prerequisiteTalents />
 	<rarity>outstanding</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
