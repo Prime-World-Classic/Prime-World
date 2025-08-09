@@ -7,6 +7,7 @@
 	<BackLink DBID="/Test/Talents/TestSet11.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Items/Talents/Assassin.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Healer.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -69,9 +70,9 @@
 					<UnitConstant>
 						<name>Add_Nafta</name>
 						<var>
-							<compiledString>FREAAAADAAAAHgAAADEAAAA3AAAASXZlbnROYWZ0YU9ubHlNZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDWEAAADcHVkAAADf4PbERHsJx0X8AgAAAOsHx0X8AQAAANtF/IvlXcMAAAAAAAAAAAAAAAAAQFVA</compiledString>
+							<compiledString>FREAAAADAAAAIAAAADMAAABTAAAASXZlbnROYWZ0YU9ubHlNZQBVi+yD7AiLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdaQAAAN/g9sREegnHRfwCAAAA6wfHRfwBAAAA20X83A1hAAAA2V342UX4i+VdwwAAAAAAQFVAAAAAAAAA8D8=</compiledString>
 							<returnType>float</returnType>
-							<sString>85.0f * cIventNaftaOnlyMe ? 2 : 1</sString>
+							<sString>85.0f * (cIventNaftaOnlyMe == 1 ? 2 : 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -381,9 +381,9 @@
 						<sString>0</sString>
 					</increment>
 					<value>
-						<compiledString>FSkAAAAEAAAAOAAAAEsAAABYAAAAcQAAAE5ldXRyYWxDcmVlcF9Nb2RfUHJpbWUAAEl2ZW50TmFmdGFPbmx5TWUAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDZsAAACLRQxQi00IUWgYAAAAi1UQiwKLTRCLUFDdXfj/0txF+NwdkwAAAN/g9sREewnHRfQwAAAA6wfHRfQAAAAA20X0i+VdwwAAAAAAAAAAAAAAAAAAS0A=</compiledString>
+						<compiledString>FSkAAAAEAAAAOAAAAEsAAABvAAAAggAAAE5ldXRyYWxDcmVlcF9Nb2RfUHJpbWUAAEl2ZW50TmFmdGFPbmx5TWUAVYvsg+wIi0UMUItNCFFoGAAAAItVEIsCi00Qi1BQ/9LcHZsAAADf4PbERHoJx0X8MAAAAOsHx0X8AAAAAItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A2TAAAA2kX82V342UX4i+VdwwAAAAAAAEtAAAAAAAAA8D8=</compiledString>
 						<returnType>float</returnType>
-						<sString>54 * cNeutralCreep_Mod_Prime + cIventNaftaOnlyMe ? 48 : 0</sString>
+						<sString>54 * cNeutralCreep_Mod_Prime + (cIventNaftaOnlyMe == 1 ? 48 : 0)</sString>
 					</value>
 				</Item>
 				<Item skip="1" />
@@ -415,9 +415,9 @@
 					<levelUpgrades />
 					<statId>TeamNaftaForPresence</statId>
 					<value>
-						<compiledString>FREAAAADAAAAHgAAADEAAAA3AAAASXZlbnROYWZ0YU9ubHlNZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcLWEAAADcHVkAAADf4PbERHsJx0X8MAAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAAAAAAAAAAAAAEhA</compiledString>
+						<compiledString>FREAAAACAAAAIAAAADMAAABJdmVudE5hZnRhT25seU1lAFWL7IPsCItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B1gAAAA3+D2xER6CcdF/DAAAADrB8dF/AAAAAC4MAAAACtF/IlF+NtF+IvlXcMAAAAAAADwPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>48-cIventNaftaOnlyMe ? 48 : 0</sString>
+						<sString>48-(cIventNaftaOnlyMe == 1 ? 48 : 0)</sString>
 					</value>
 				</Item>
 			</stats>

@@ -477,9 +477,9 @@
 					<levelUpgrades />
 					<statId>NaftaForKill</statId>
 					<value>
-						<compiledString>FREAAAADAAAAHgAAADEAAAA3AAAASXZlbnROYWZ0YU9ubHlNZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBWEAAADcHVkAAADf4PbERHsJx0X8fQAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAAAAAAAAAAAAwGJA</compiledString>
+						<compiledString>FREAAAACAAAAIAAAADMAAABJdmVudE5hZnRhT25seU1lAFWL7IPsCItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B1gAAAA3+D2xER6CcdF/H0AAADrB8dF/AAAAACLRfwFlgAAAIlF+NtF+IvlXcMAAAAAAADwPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>150+cIventNaftaOnlyMe ? 125 : 0</sString>
+						<sString>150+(cIventNaftaOnlyMe == 1 ? 125 : 0)</sString>
 					</value>
 				</Item>
 				<Item>
@@ -534,9 +534,9 @@
 					<levelUpgrades />
 					<statId>TeamNaftaForPresence</statId>
 					<value>
-						<compiledString>FREAAAADAAAAHgAAADEAAAA3AAAASXZlbnROYWZ0YU9ubHlNZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcLWEAAADcHVkAAADf4PbERHsJx0X8fQAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAAAAAAAAAAAAQF9A</compiledString>
+						<compiledString>FREAAAACAAAAIAAAADMAAABJdmVudE5hZnRhT25seU1lAFWL7IPsCItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B1gAAAA3+D2xER6CcdF/H0AAADrB8dF/AAAAAC4fQAAACtF/IlF+NtF+IvlXcMAAAAAAADwPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>125-cIventNaftaOnlyMe ? 125 : 0</sString>
+						<sString>125-(cIventNaftaOnlyMe == 1 ? 125 : 0)</sString>
 					</value>
 				</Item>
 			</stats>
