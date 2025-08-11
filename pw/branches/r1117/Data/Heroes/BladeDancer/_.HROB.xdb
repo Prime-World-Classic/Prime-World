@@ -832,7 +832,7 @@
 																					<startSpell href="" />
 																					<stopSpell href="" />
 																					<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
-																					<takeOffTime>0.01</takeOffTime>
+																					<takeOffTime>0</takeOffTime>
 																					<targetSelector href="/Heroes/BladeDancer/_.HROB" id="2CF855A0-1AF3-4198-9DBA-FA8D69C66D92">
 																						<SelectApplicatorTarget>
 																							<applicatorIndex>0</applicatorIndex>
