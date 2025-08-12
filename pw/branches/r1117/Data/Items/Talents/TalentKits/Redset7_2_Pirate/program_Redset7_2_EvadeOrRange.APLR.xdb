@@ -8,7 +8,7 @@
 	<BackLink DBID="/Items/Talents/Level5/G691_Will.TALENT" Count="1" />
 	<applicators>
 		<Item>
-			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="A15F11DE-E94C-4882-AE64-7A8FA77DA4CE">
+			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrRange.APLR" id="A15F11DE-E94C-4882-AE64-7A8FA77DA4CE">
 				<PermanentStatModApplicator>
 					<applyTarget>ApplicatorTarget</applyTarget>
 					<caption>Add_EvadeOrRange_Redset7_2Counter</caption>
@@ -57,7 +57,7 @@
 			<stopEvents>0</stopEvents>
 		</Item>
 		<Item>
-			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="377E2812-71E5-4734-88C3-4EC3ADB6A8E5">
+			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrRange.APLR" id="377E2812-71E5-4734-88C3-4EC3ADB6A8E5">
 				<PermanentStatModApplicator>
 					<applyTarget>ApplicatorTarget</applyTarget>
 					<caption>EvadeOrRange</caption>
@@ -106,15 +106,15 @@
 			<stopEvents>0</stopEvents>
 		</Item>
 		<Item>
-			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="6E2A6BDD-5FEF-4BAF-8C7C-D7783397B37A">
+			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrRange.APLR" id="6E2A6BDD-5FEF-4BAF-8C7C-D7783397B37A">
 				<PermanentStatModApplicator>
 					<applyTarget>ApplicatorTarget</applyTarget>
 					<caption>Add_Evade</caption>
 					<customApplyType>None</customApplyType>
 					<enabled>
-						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2IAAAA3+D2xEF6L2gAAAAAi00IixGLTQiLgogBAAD/0NwdgAAAAN/g9sREeg0zyXQJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQAAAAAAAABRA</compiledString>
+						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2EAAAA3+D2xEF6K2gAAAAAi00IixGLTQiLgogBAAD/0NwdfAAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAFEA=</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseRange&lt;=5 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 3&amp;&amp;false</sString>
+						<sString>sBaseRange&lt;=5 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 3</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -155,15 +155,15 @@
 			<stopEvents>0</stopEvents>
 		</Item>
 		<Item>
-			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="21EE206C-04BD-4018-838E-ADF530A934F6">
+			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrRange.APLR" id="21EE206C-04BD-4018-838E-ADF530A934F6">
 				<PermanentStatModApplicator>
 					<applyTarget>ApplicatorTarget</applyTarget>
 					<caption>Add_Range</caption>
 					<customApplyType>None</customApplyType>
 					<enabled>
-						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2IAAAA3+D2xEF1L2gAAAAAi00IixGLTQiLgogBAAD/0NwdgAAAAN/g9sREeg0zyXQJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQAAAAAAAABRA</compiledString>
+						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2EAAAA3+D2xEF1K2gAAAAAi00IixGLTQiLgogBAAD/0NwdfAAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAFEA=</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseRange&gt;5 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 3&amp;&amp;false</sString>
+						<sString>sBaseRange&gt;5 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 3</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -205,16 +205,16 @@
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>184</behaviorFlags>
+	<behaviorFlags>0</behaviorFlags>
 	<caption>Redset7_2_EvadeOrRange</caption>
 	<effect>
 		<Item href="" />
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FSIAAAACAAAAJwAAAD0AAABBZGRfRXZhZGVPclJhbmdlX1JlZHNldDdfMUNvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdXwAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+		<compiledString>FSIAAAACAAAAJwAAAD0AAABBZGRfRXZhZGVPclJhbmdlX1JlZHNldDdfMkNvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdXwAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
 		<returnType>bool</returnType>
-		<sString>sender.vAdd_EvadeOrRange_Redset7_1Counter &lt; 3</sString>
+		<sString>sender.vAdd_EvadeOrRange_Redset7_2Counter &lt; 3</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<lifeTime>

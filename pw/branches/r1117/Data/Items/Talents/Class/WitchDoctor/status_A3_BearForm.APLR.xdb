@@ -396,6 +396,53 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/WitchDoctor/status_A3_BearForm.APLR" id="CB796A71-EEBA-47A6-AEED-5A090E0E786E">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Выдаем уклонение, если собран сет Пирата</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FSIAAAACAAAAJwAAAD0AAABBZGRfRXZhZGVPclJhbmdlX1JlZHNldDdfMkNvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdXwAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAABA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAdd_EvadeOrRange_Redset7_2Counter &gt; 2</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ0AAAABAAAAGQAAAEV2YWRlX0NoYW5jZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cEvade_Chance</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Evasion</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/WitchDoctor/status_A3_BearForm.APLR" id="535C5D23-5677-4885-9D37-B74EC62BD562">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
