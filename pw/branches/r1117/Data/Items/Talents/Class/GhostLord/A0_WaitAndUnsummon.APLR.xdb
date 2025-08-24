@@ -44,7 +44,7 @@
 				<returnType>bool</returnType>
 				<sString>0</sString>
 			</continueCondition>
-			<continueEvents>2</continueEvents>
+			<continueEvents>1</continueEvents>
 			<delay>
 				<compiledString></compiledString>
 				<returnType>float</returnType>
@@ -52,6 +52,47 @@
 			</delay>
 			<stopCondition>
 				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</stopCondition>
+			<stopEvents>0</stopEvents>
+		</Item>
+		<Item>
+			<applicator href="/Items/Talents/Class/GhostLord/A0_WaitAndUnsummon.APLR" id="40D7E8CA-3F04-4D66-92C9-57A564C31F41">
+				<HealApplicator>
+					<amount>
+						<compiledString>FRgAAAABAAAAJAAAAEE1X0dhaW5NYW5hX0ZvclVuc3VtbW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cA5_GainMana_ForUnsummon</sString>
+					</amount>
+					<applyTarget>AbilityOwner</applyTarget>
+					<caption>Даем энергию</caption>
+					<enabled>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</enabled>
+					<formulaName></formulaName>
+					<healTarget>Energy</healTarget>
+					<ignoreHealingMods>false</ignoreHealingMods>
+					<LoggingEvent>-1</LoggingEvent>
+					<providerName></providerName>
+					<uiEvent href="/UI/Events/CommonEvents/EventEnergy.UIEV" />
+				</HealApplicator>
+			</applicator>
+			<continueCondition>
+				<compiledString></compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</continueCondition>
+			<continueEvents>2</continueEvents>
+			<delay>
+				<compiledString></compiledString>
+				<returnType>float</returnType>
+				<sString>-1.0</sString>
+			</delay>
+			<stopCondition>
+				<compiledString></compiledString>
 				<returnType>bool</returnType>
 				<sString>0</sString>
 			</stopCondition>

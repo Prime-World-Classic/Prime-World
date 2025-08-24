@@ -6772,7 +6772,7 @@
 			</simpleTransactions>
 			<speed>
 				<coeffs />
-				<value>1</value>
+				<value>1.5</value>
 			</speed>
 			<startPar>
 				<coeffs />

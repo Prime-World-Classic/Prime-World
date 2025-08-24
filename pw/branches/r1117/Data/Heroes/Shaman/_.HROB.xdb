@@ -1111,9 +1111,9 @@
 					<levelUpgrades />
 					<statId>Life</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABhRA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
 						<returnType>float</returnType>
-						<sString>900</sString>
+						<sString>1000</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1136,9 +1136,9 @@
 					<calcIncrement>0.7</calcIncrement>
 					<calcValue>59</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.6</sString>
+						<sString>0.7</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>
@@ -1152,9 +1152,9 @@
 					<calcIncrement>0.7</calcIncrement>
 					<calcValue>59</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.6</sString>
+						<sString>0.7</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Intellect</statId>
@@ -1184,9 +1184,9 @@
 					<calcIncrement>0.4</calcIncrement>
 					<calcValue>55</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmbmPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.45</sString>
+						<sString>0.6</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>AttackSpeed</statId>
@@ -1207,9 +1207,9 @@
 					<levelUpgrades />
 					<statId>Stamina</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABcQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>55</sString>
+						<sString>60</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1223,9 +1223,9 @@
 					<levelUpgrades />
 					<statId>Will</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAsQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>43</sString>
+						<sString>60</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1239,9 +1239,9 @@
 					<levelUpgrades />
 					<statId>LifeRegenerationAbsolute</statId>
 					<value>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>0</sString>
+						<sString>3</sString>
 					</value>
 				</Item>
 				<Item>

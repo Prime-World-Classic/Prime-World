@@ -125,7 +125,7 @@
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/spell_A3_MarkDamage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/A4_2_SpellSwitch.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/ArrowDispatch.DSCH" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/ArrowDispatch10.DSCH" Count="1" />
@@ -149,7 +149,7 @@
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/appl_A0_EnemySpell.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability3.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Naga/A2u2Damage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Night/A2uDamage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Night/Ability2.TALENT" Count="1" />

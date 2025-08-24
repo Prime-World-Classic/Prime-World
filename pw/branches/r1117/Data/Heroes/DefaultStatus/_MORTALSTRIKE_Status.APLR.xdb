@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Mage/Ability3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G350_AoE.TALENT" Count="1" />

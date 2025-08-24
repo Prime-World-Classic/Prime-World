@@ -2,7 +2,7 @@
 <BasicEffectStandalone>
 	<BackLink DBID="/Effects/Shots/Arrow/_Purple.EFFT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/A4_2_SpellSwitch.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="3" />
 	<component href="/Effects/Shots/Arrow/_PurpleTRS.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

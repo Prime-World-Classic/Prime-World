@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Ent.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Ent.TALENTSET" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Ent/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ent/Ability_A4_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ent/Ability_A4u.TALENT" Count="1" />
@@ -373,9 +373,9 @@
 					<UnitConstant>
 						<name>A4_Range</name>
 						<var>
-							<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9TaG9ydABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAAAEA=</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Short</sString>
+							<sString>cRange_Short+2</sString>
 						</var>
 					</UnitConstant>
 				</Item>

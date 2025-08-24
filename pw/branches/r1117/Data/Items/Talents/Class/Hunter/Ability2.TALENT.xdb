@@ -22,7 +22,7 @@
 		<sString>true</sString>
 	</allowChase>
 	<alternativeTargets />
-	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeDisplayOnMinimap>true</aoeDisplayOnMinimap>
 	<aoeHeight>0</aoeHeight>
 	<aoeMaterial href="" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
@@ -123,9 +123,9 @@
 						<flags>0</flags>
 						<mode>SendOnce</mode>
 						<range>
-							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FQkAAAABAAAAFQAAAEE0X1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_ExLong</sString>
+							<sString>cA4_Range</sString>
 						</range>
 						<targetFilter>268435459</targetFilter>
 						<targetSelector href="" />
@@ -250,6 +250,16 @@
 							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABgQQAAhEI=</compiledString>
 							<returnType>float</returnType>
 							<sString>damageScale(sIntellect, 14, 66)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Hunter/Ability2.TALENT" id="5EF91F7F-93F7-479F-8E13-D20BCA2E120F">
+					<UnitConstant>
+						<name>A4_Range</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvsUVaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QK/D33hv2g+axg8ZkiXX820X8XovlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>(sTerrainType != sFctn) ? 21 : 100</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -381,9 +391,9 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+		<compiledString>FQkAAAABAAAAFQAAAEE0X1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_ExLong</sString>
+		<sString>cA4_Range</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

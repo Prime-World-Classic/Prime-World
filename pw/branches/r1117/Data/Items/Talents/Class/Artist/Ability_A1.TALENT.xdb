@@ -5172,9 +5172,9 @@
 					<UnitConstant>
 						<name>A1_PercentRangePerKraska</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>10.0f</sString>
+							<sString>7.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -5265,9 +5265,9 @@
 					<UnitConstant>
 						<name>A1_DamageBase</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAABQwCAc0Q=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADoQgAAW0Q=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sStrength,129 , 974 )</sString>
+							<sString>damageScale( sStrength,116 , 876 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>

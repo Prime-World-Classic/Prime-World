@@ -554,9 +554,9 @@
 					<UnitConstant>
 						<name>Damage</name>
 						<var>
-							<compiledString>FTgAAAAFAAAAPwAAAFgAAACOAAAArgAAANIAAABEYW1hZ2VCYXNlAABVbmljb3JuX0ExdQBVbmljb3JuX0ExdQBVbmljb3JuX0ExdQBBMXVNdWx0AFWL7IPsHGgMAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoJAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWgwAAAAi1X0iwKLTfSLUFD/0tld8OsF2ejZXfCLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0lHZRfDZHCRR2ejZHCSLRQyLEItNDItCVN1d6P/QD7bIhckPlMIPtsJQ6BQAAACDxAzcTejZXeTZReSL5V3DAACAP1WL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
+							<compiledString>FS8AAAAEAAAANgAAAE8AAACNAAAArgAAAFVuaWNvcm5fQTF1AFVuaWNvcm5fQTF1AERhbWFnZUJhc2UAAERhbWFnZUJhc2UAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0IYtVDFKLRQhQaBgAAACLTRCLEYtNEItCUP/Q3MDdXfDrHYtNDFGLVQhSaCQAAACLRRCLEItNEItCUP/Q3V3w3UXw2V3s2UXsi+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>cDamageBase * s( !rIsHero, 1.0f, stalconst("Unicorn_A1u","A1uMult", 1.0f) )</sString>
+							<sString>tal("Unicorn_A1u")?cDamageBase*2 : cDamageBase</sString>
 						</var>
 					</UnitConstant>
 				</Item>

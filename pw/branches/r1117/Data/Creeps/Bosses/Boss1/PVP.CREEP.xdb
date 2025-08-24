@@ -372,11 +372,11 @@
 	<attackAbility href="/Creeps/Bosses/Boss1/AttackAbility.ATCK" />
 	<deathParameters href="/Creeps/Bosses/Boss1/PVP.CREEP" id="8504CFB7-CC78-43D7-8155-815EDCEE79C1">
 		<UnitDeathParameters parent="/Creeps/Bosses/Boss1/_.UNDP">
-			<deathTime>0</deathTime>
-			<fallOffset>0</fallOffset>
-			<fallSpeed>0</fallSpeed>
+			<deathTime>3</deathTime>
+			<fallOffset>1.5</fallOffset>
+			<fallSpeed>2</fallSpeed>
 			<observeOffset>0</observeOffset>
-			<unsummonTime>0</unsummonTime>
+			<unsummonTime>0.5</unsummonTime>
 		</UnitDeathParameters>
 	</deathParameters>
 	<size>5</size>

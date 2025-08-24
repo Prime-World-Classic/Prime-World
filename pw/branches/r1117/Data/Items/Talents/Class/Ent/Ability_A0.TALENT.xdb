@@ -184,7 +184,7 @@
 				<targets>270475775</targets>
 				<targetSelector href="/Items/Talents/Class/Ent/Ability_A0.TALENT" id="8FF6FC18-3227-4CE3-9FC2-7EE529FE59AB">
 					<HeroEnumerator>
-						<flags>1</flags>
+						<flags>0</flags>
 						<mode>Normal</mode>
 						<targetFilter>270475775</targetFilter>
 					</HeroEnumerator>

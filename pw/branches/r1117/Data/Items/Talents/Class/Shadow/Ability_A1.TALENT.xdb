@@ -820,9 +820,9 @@
 					<UnitConstant>
 						<name>ChannelTime</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>1.0f</sString>
+							<sString>0.5</sString>
 						</var>
 					</UnitConstant>
 				</Item>

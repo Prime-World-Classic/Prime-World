@@ -390,9 +390,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAICxQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>355</sString>
+		<sString>300</sString>
 	</manaCost>
 	<marker>doCast4</marker>
 	<microAI href="/Items/Talents/Class/GhostLord/Ability_A4.TALENT" id="3E0C54D1-F77D-4E9C-8CB0-CB626267F89B">

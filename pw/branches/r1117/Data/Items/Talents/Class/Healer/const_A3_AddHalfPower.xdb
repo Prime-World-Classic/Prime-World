@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="1" />
 	<name>A3AddHalfPower</name>
 	<var>
-		<compiledString>FQsAAAABAAAAFwAAAEEzQWRkUG93ZXIAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQsAAAACAAAAGAAAACsAAABBM0FkZFBvd2VyAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNOQAAANld/NlF/IvlXcMAAAAAAADgPw==</compiledString>
 		<returnType>float</returnType>
-		<sString>cA3AddPower </sString>
+		<sString>cA3AddPower * 0.5</sString>
 	</var>
 </UnitConstant>

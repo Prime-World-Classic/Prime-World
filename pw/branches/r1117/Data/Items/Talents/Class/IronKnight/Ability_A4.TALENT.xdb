@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/IronKnight.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/IronKnight.TALENTSET" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A4_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A4u.TALENT" Count="1" />
@@ -118,7 +118,7 @@
 				</targetSelector>
 			</SpellApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="3B493E2E-2423-4EDE-AB9E-712F33055E68">
+		<Item href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="092D9457-2778-4DCE-A437-FC3DD0FACA1E">
 			<SpellApplicator>
 				<applyTarget>CastMasterPosition</applyTarget>
 				<caption>Отправляем цепь вверх вправо</caption>
@@ -132,12 +132,176 @@
 				<providerName></providerName>
 				<spell href="/Items/Talents/Class/IronKnight/A4_ChainSpell.SPLL" />
 				<spellTarget>ApplicatorTarget</spellTarget>
-				<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="6021B585-0284-4DFC-AABD-443CEBD56FA0">
-					<PointTargetSelector parent="/Items/Talents/Class/IronKnight/A4_chain_targetSelector.TGSL">
+				<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="5FA0B4CE-BD26-4EA1-8FF0-D04F82F1DEED">
+					<PointTargetSelector>
+						<checkMinRange>true</checkMinRange>
+						<mode>OffsetFromOwner</mode>
 						<offset>
 							<x>12</x>
 							<y>7</y>
 						</offset>
+						<paralleledTarget>false</paralleledTarget>
+						<range>
+							<compiledString>FQwAAAABAAAAGAAAAEE0X1VzZVJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>cA4_UseRange</sString>
+						</range>
+						<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="DB91125F-9DB5-44AD-817A-0876F177DA39">
+							<SelectApplicatorTarget>
+								<applicatorIndex>0</applicatorIndex>
+								<applicatorName></applicatorName>
+								<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+								<selectTarget>CastMasterPosition</selectTarget>
+							</SelectApplicatorTarget>
+						</targetSelector>
+						<traceMode>0</traceMode>
+					</PointTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="3B493E2E-2423-4EDE-AB9E-712F33055E68">
+			<SpellApplicator>
+				<applyTarget>CastMasterPosition</applyTarget>
+				<caption>Отправляем цепь вверх влево между (-7 7)</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/IronKnight/A4_ChainSpell.SPLL" />
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="6021B585-0284-4DFC-AABD-443CEBD56FA0">
+					<PointTargetSelector parent="/Items/Talents/Class/IronKnight/A4_chain_targetSelector.TGSL">
+						<offset>
+							<x>-7</x>
+							<y>7</y>
+						</offset>
+					</PointTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="92AC3B9D-7F5F-4968-9FF9-4498AC888437">
+			<SpellApplicator>
+				<applyTarget>CastMasterPosition</applyTarget>
+				<caption>Отправляем цепь вверх вправо между (7 7)</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/IronKnight/A4_ChainSpell.SPLL" />
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="C1C7D08A-A680-43B3-B4AB-EFEF2949E996">
+					<PointTargetSelector>
+						<checkMinRange>true</checkMinRange>
+						<mode>OffsetFromOwner</mode>
+						<offset>
+							<x>7</x>
+							<y>7</y>
+						</offset>
+						<paralleledTarget>false</paralleledTarget>
+						<range>
+							<compiledString>FQwAAAABAAAAGAAAAEE0X1VzZVJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>cA4_UseRange</sString>
+						</range>
+						<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="7E179AB7-39E9-44DD-8780-C42B3AD10DE6">
+							<SelectApplicatorTarget>
+								<applicatorIndex>0</applicatorIndex>
+								<applicatorName></applicatorName>
+								<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+								<selectTarget>CastMasterPosition</selectTarget>
+							</SelectApplicatorTarget>
+						</targetSelector>
+						<traceMode>0</traceMode>
+					</PointTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="C4559ECC-AC6E-45C6-8B35-C216F356B712">
+			<SpellApplicator>
+				<applyTarget>CastMasterPosition</applyTarget>
+				<caption>Отправляем цепь вверх вправо между (2 7)</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/IronKnight/A4_ChainSpell.SPLL" />
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="178DED4F-E2A9-496E-9049-81EFDC728B4F">
+					<PointTargetSelector>
+						<checkMinRange>true</checkMinRange>
+						<mode>OffsetFromOwner</mode>
+						<offset>
+							<x>2</x>
+							<y>7</y>
+						</offset>
+						<paralleledTarget>false</paralleledTarget>
+						<range>
+							<compiledString>FQwAAAABAAAAGAAAAEE0X1VzZVJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>cA4_UseRange</sString>
+						</range>
+						<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="EF7AE965-3A31-483B-8E91-DF021284C2B4">
+							<SelectApplicatorTarget>
+								<applicatorIndex>0</applicatorIndex>
+								<applicatorName></applicatorName>
+								<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+								<selectTarget>CastMasterPosition</selectTarget>
+							</SelectApplicatorTarget>
+						</targetSelector>
+						<traceMode>0</traceMode>
+					</PointTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="5C183AD1-17A6-4D08-A985-49A66B9BAB6A">
+			<SpellApplicator>
+				<applyTarget>CastMasterPosition</applyTarget>
+				<caption>Отправляем цепь вверх вправо между (-2 7)</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/IronKnight/A4_ChainSpell.SPLL" />
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="1BEED51F-A61E-4791-BA17-08F67E736C4D">
+					<PointTargetSelector>
+						<checkMinRange>true</checkMinRange>
+						<mode>OffsetFromOwner</mode>
+						<offset>
+							<x>-2</x>
+							<y>7</y>
+						</offset>
+						<paralleledTarget>false</paralleledTarget>
+						<range>
+							<compiledString>FQwAAAABAAAAGAAAAEE0X1VzZVJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>cA4_UseRange</sString>
+						</range>
+						<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="71911332-50E0-4F8F-8BC7-28A751AE378E">
+							<SelectApplicatorTarget>
+								<applicatorIndex>0</applicatorIndex>
+								<applicatorName></applicatorName>
+								<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+								<selectTarget>CastMasterPosition</selectTarget>
+							</SelectApplicatorTarget>
+						</targetSelector>
+						<traceMode>0</traceMode>
 					</PointTargetSelector>
 				</targetSelector>
 			</SpellApplicator>
@@ -199,9 +363,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCDP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACAQgAA50M=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCDP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACmQgAAFkQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScaleCustomLife(sMaxLife, 64, 462)</sString>
+							<sString>damageScaleCustomLife(sMaxLife, 83, 600)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -209,9 +373,9 @@
 					<UnitConstant>
 						<name>A4_DamagePerSec</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACwQQAAJEM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAMQgAAekM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 22, 164)</sString>
+							<sString>damageScale(sStrength, 35, 250)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
-	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability3.TALENT" Count="2" />
 	<component href="/Effects/Shots/Spear/_MagicTRS.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

@@ -65,6 +65,16 @@
 				<Item href="/Items/Talents/Class/Angel/const_A5u_RangeBuff" />
 				<Item href="/Items/Talents/Class/Angel/const_A5u_CooldownDecrease" />
 				<Item href="/Items/Talents/Class/Angel/const_A5u_TTCDDecrease" />
+				<Item href="/Items/Talents/Class/Angel/Ability_A5u.TALENT" id="1B755D4B-4447-4073-A0D0-07F32EDCF517">
+					<UnitConstant>
+						<name>A5_GhostDuration</name>
+						<var>
+							<compiledString>FRYAAAACAAAAHQAAADYAAABBbmdlbF9BNXUAAABBbmdlbF9BNXUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPhA4PBA4lN9NtF9IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Angel_A5u")? 6 : 3</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

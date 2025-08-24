@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Healer/CharityPowerSpell.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Healer/AreaHeal.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Healer/status_A3_CharityPowerHalf.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/AreaHeal.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Healer/status_A3_CharityPower.APLR" Count="1" />
 	<applicators>
-		<Item href="/Items/Talents/Class/Healer/status_A3_CharityPower.APLR" id="95C42817-7D4C-4435-884B-B333E1B79FB5">
+		<Item href="/Items/Talents/Class/Healer/status_A3_CharityPowerHalf.APLR" id="41D7B35E-3C2A-471A-8D45-E8F985817852">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>144</behaviorFlags>
@@ -30,9 +28,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FS8AAAAEAAAANgAAAE8AAACFAAAApQAAAEhlYWxlcl9BMwAAAEhlYWxlcl9BMwAAAEhlYWxlcl9BMwAAAEEzQWRkUG93ZXIAVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2gYAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaCQAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8NlF8IvlXcMAAAAA</compiledString>
+						<compiledString>FTMAAAAEAAAAOgAAAFMAAACJAAAAqQAAAEhlYWxlcl9BMwAAAEhlYWxlcl9BMwAAAEhlYWxlcl9BMwAAAEEzQWRkSGFsZlBvd2VyAFWL7IPsEGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoGAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWgkAAAAi1X0iwKLTfSLUFD/0tld8OsF2e7ZXfDZRfCL5V3DAAAAAA==</compiledString>
 						<returnType>float</returnType>
-						<sString>talconst("Healer_A3","A3AddPower")</sString>
+						<sString>talconst("Healer_A3","A3AddHalfPower")</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -52,7 +50,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Healer/status_A3_CharityPower.APLR" id="01FA167C-221B-4E4B-8BBF-4E88815F9DE7">
+		<Item href="/Items/Talents/Class/Healer/status_A3_CharityPowerHalf.APLR" id="F4286FA6-A82E-4BA4-8412-C7F23AB8F906">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>144</behaviorFlags>
@@ -77,9 +75,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FS8AAAAEAAAANgAAAE8AAACFAAAApQAAAEhlYWxlcl9BMwAAAEhlYWxlcl9BMwAAAEhlYWxlcl9BMwAAAEEzQWRkUG93ZXIAVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2gYAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaCQAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8NlF8IvlXcMAAAAA</compiledString>
+						<compiledString>FTMAAAAEAAAAOgAAAFMAAACJAAAAqQAAAEhlYWxlcl9BMwAAAEhlYWxlcl9BMwAAAEhlYWxlcl9BMwAAAEEzQWRkSGFsZlBvd2VyAFWL7IPsEGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoGAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWgkAAAAi1X0iwKLTfSLUFD/0tld8OsF2e7ZXfDZRfCL5V3DAAAAAA==</compiledString>
 						<returnType>float</returnType>
-						<sString>talconst("Healer_A3","A3AddPower")</sString>
+						<sString>talconst("Healer_A3","A3AddHalfPower")</sString>
 					</addValue>
 					<multValue>
 						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
@@ -113,7 +111,7 @@
 		<returnType>float</returnType>
 		<sString>-1.0</sString>
 	</customProgress>
-	<description textref="/Items/Talents/Class/Healer/status_A3_CharityPower.APLR_description.txt" />
+	<description textref="/Items/Talents/Class/Healer/status_A3_CharityPowerHalf.APLR_description.txt" />
 	<dispellPriority>Low</dispellPriority>
 	<effect>
 		<Item href="/Effects/Buffs/Increase/_Strength.EFFT" />
@@ -122,10 +120,10 @@
 	<enabled>
 		<compiledString>FRYAAAACAAAAHQAAADYAAABIZWFsZXJfQTMAAABIZWFsZXJfQTMAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0EYtVCDtVDHQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 		<returnType>bool</returnType>
-		<sString>tal("Healer_A3") &amp;&amp; pFirst != pSecond</sString>
+		<sString>tal("Healer_A3") &amp;&amp; (pFirst != pSecond)  </sString>
 	</enabled>
 	<flags>0</flags>
-	<formulaName>CharityPower</formulaName>
+	<formulaName></formulaName>
 	<image href="/UI/Styles/Icons/Heroes/Healer/A3.ITEX" />
 	<lifeTime>
 		<compiledString>FS8AAAAEAAAANgAAAE8AAACFAAAApQAAAEhlYWxlcl9BMwAAAEhlYWxlcl9BMwAAAEhlYWxlcl9BMwAAAEEzRHVyYXRpb24AVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2gYAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaCQAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8NlF8IvlXcMAAAAA</compiledString>
@@ -133,23 +131,23 @@
 		<sString>talconst("Healer_A3","A3Duration")</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
-	<name textref="/Items/Talents/Class/Healer/status_A3_CharityPower.APLR_name.txt" />
+	<name textref="/Items/Talents/Class/Healer/status_A3_CharityPowerHalf.APLR_name.txt" />
 	<power>0</power>
 	<providerName></providerName>
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
 	<stackCount>0</stackCount>
 	<startCondition>
-		<compiledString></compiledString>
+		<compiledString>FQ0AAAABAAAAFwAAAENoYXJpdHlQb3dlcgBVi+xqAYtFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9AzyTlFEA+UwYrBXcM=</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>pMisc == receiver.applCharityPower(UNIT)</sString>
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>
-	<unstackableWith href="/Items/Talents/Class/Healer/status_A3_CharityPower.APLR" id="B5A58E7D-D47C-4D65-9F45-BF01E272C4F9">
+	<unstackableWith href="/Items/Talents/Class/Healer/status_A3_CharityPowerHalf.APLR" id="D7BDC5C6-3AAC-417E-93A1-58CC78B1E9C8">
 		<ApplicatorsList>
 			<applicatorLists />
 			<applicators>
-				<Item href="/Items/Talents/Class/Healer/status_A3_CharityPowerHalf.APLR" />
+				<Item href="/Items/Talents/Class/Healer/status_A3_CharityPower.APLR" />
 			</applicators>
 		</ApplicatorsList>
 	</unstackableWith>

@@ -147,9 +147,9 @@
 					<UnitConstant>
 						<name>ChannelTime</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>1.6f</sString>
+							<sString>1.2f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

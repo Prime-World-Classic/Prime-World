@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Healer/CharityDefenceSpell.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Healer/AreaHeal.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Healer/status_A2_CharityDefenceHalf.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/AreaHeal.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Healer/status_A2_CharityDefence.APLR" Count="1" />
 	<applicators>
-		<Item href="/Items/Talents/Class/Healer/status_A2_CharityDefence.APLR" id="A00C966C-D31C-4BC8-9797-3ED5FBAF4B32">
+		<Item href="/Items/Talents/Class/Healer/status_A2_CharityDefenceHalf.APLR" id="7024F9B3-1A5B-49B4-9496-08D5D1DC9140">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>144</behaviorFlags>
@@ -30,9 +28,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FTEAAAAEAAAAOAAAAFEAAACHAAAApwAAAEhlYWxlcl9BMgAAAEhlYWxlcl9BMgAAAEhlYWxlcl9BMgAAAEEyQWRkRGVmZW5jZQBVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aBgAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoJAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3w2UXwi+VdwwAAAAA=</compiledString>
+						<compiledString>FTUAAAAEAAAAPAAAAFUAAACLAAAAqwAAAEhlYWxlcl9BMgAAAEhlYWxlcl9BMgAAAEhlYWxlcl9BMgAAAEEyQWRkSGFsZkRlZmVuY2UAVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2gYAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaCQAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8NlF8IvlXcMAAAAA</compiledString>
 						<returnType>float</returnType>
-						<sString>talconst("Healer_A2","A2AddDefence")</sString>
+						<sString>talconst("Healer_A2","A2AddHalfDefence")</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -52,7 +50,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Healer/status_A2_CharityDefence.APLR" id="3AC75963-D494-4E14-ACE6-F4CB0B182D20">
+		<Item href="/Items/Talents/Class/Healer/status_A2_CharityDefenceHalf.APLR" id="BD2D6E8C-57E4-421D-B1E9-F8484755BCD0">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>144</behaviorFlags>
@@ -77,9 +75,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FTEAAAAEAAAAOAAAAFEAAACHAAAApwAAAEhlYWxlcl9BMgAAAEhlYWxlcl9BMgAAAEhlYWxlcl9BMgAAAEEyQWRkRGVmZW5jZQBVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aBgAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoJAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3w2UXwi+VdwwAAAAA=</compiledString>
+						<compiledString>FTUAAAAEAAAAPAAAAFUAAACLAAAAqwAAAEhlYWxlcl9BMgAAAEhlYWxlcl9BMgAAAEhlYWxlcl9BMgAAAEEyQWRkSGFsZkRlZmVuY2UAVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2gYAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaCQAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8NlF8IvlXcMAAAAA</compiledString>
 						<returnType>float</returnType>
-						<sString>talconst("Healer_A2","A2AddDefence")</sString>
+						<sString>talconst("Healer_A2","A2AddHalfDefence")</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -113,7 +111,7 @@
 		<returnType>float</returnType>
 		<sString>-1.0</sString>
 	</customProgress>
-	<description textref="/Items/Talents/Class/Healer/status_A2_CharityDefence.APLR_description.txt" />
+	<description textref="/Items/Talents/Class/Healer/status_A2_CharityDefenceHalf.APLR_description.txt" />
 	<dispellPriority>Low</dispellPriority>
 	<effect>
 		<Item href="/Effects/Buffs/Increase/_Defence.EFFT" />
@@ -122,10 +120,10 @@
 	<enabled>
 		<compiledString>FRYAAAACAAAAHQAAADYAAABIZWFsZXJfQTIAAABIZWFsZXJfQTIAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0EYtVCDtVDHQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 		<returnType>bool</returnType>
-		<sString>tal("Healer_A2") &amp;&amp; pFirst != pSecond</sString>
+		<sString>tal("Healer_A2") &amp;&amp; ( pFirst != pSecond )</sString>
 	</enabled>
 	<flags>0</flags>
-	<formulaName>CharityDefence</formulaName>
+	<formulaName></formulaName>
 	<image href="/UI/Styles/Icons/Heroes/Healer/A2.ITEX" />
 	<lifeTime>
 		<compiledString>FS8AAAAEAAAANgAAAE8AAACFAAAApQAAAEhlYWxlcl9BMgAAAEhlYWxlcl9BMgAAAEhlYWxlcl9BMgAAAEEyRHVyYXRpb24AVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2gYAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaCQAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8NlF8IvlXcMAAAAA</compiledString>
@@ -133,23 +131,23 @@
 		<sString>talconst("Healer_A2","A2Duration")</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
-	<name textref="/Items/Talents/Class/Healer/status_A2_CharityDefence.APLR_name.txt" />
+	<name textref="/Items/Talents/Class/Healer/status_A2_CharityDefenceHalf.APLR_name.txt" />
 	<power>0</power>
 	<providerName></providerName>
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
 	<stackCount>0</stackCount>
 	<startCondition>
-		<compiledString></compiledString>
+		<compiledString>FQ8AAAABAAAAGQAAAENoYXJpdHlEZWZlbmNlAFWL7GoBi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DPJOUUQD5TBisFdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>pMisc == receiver.applCharityDefence(UNIT)</sString>
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>
-	<unstackableWith href="/Items/Talents/Class/Healer/status_A2_CharityDefence.APLR" id="E2D4B16A-F88D-480A-9DC0-46FBCFD6BE2D">
+	<unstackableWith href="/Items/Talents/Class/Healer/status_A2_CharityDefenceHalf.APLR" id="7E096074-496C-4750-9D93-F068427B0F50">
 		<ApplicatorsList>
 			<applicatorLists />
 			<applicators>
-				<Item href="/Items/Talents/Class/Healer/status_A2_CharityDefenceHalf.APLR" />
+				<Item href="/Items/Talents/Class/Healer/status_A2_CharityDefence.APLR" />
 			</applicators>
 		</ApplicatorsList>
 	</unstackableWith>

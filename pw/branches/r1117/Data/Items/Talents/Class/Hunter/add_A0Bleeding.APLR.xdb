@@ -2,7 +2,8 @@
 <StatModApplicator>
 	<BackLink DBID="/Heroes/Hunter/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/A4_2_SpellSwitch.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="5" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>145</behaviorFlags>
 	<caption>Стеки по "порченной крови"</caption>

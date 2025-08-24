@@ -146,9 +146,9 @@
 					<UnitConstant>
 						<name>Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACYQQAAC0M=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAC4QQAAJkM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 19, 139)</sString>
+							<sString>damageScale(sIntellect, 23, 166)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

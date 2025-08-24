@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Spell>
-	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" Count="5" />
+	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" Count="9" />
 	<applicators>
 		<Item href="/Items/Talents/Class/IronKnight/A4_ChainSpell.SPLL" id="B8D0E02D-B2B8-4820-980A-253CC3B5D9F1">
 			<WaitForSpellApplicator>

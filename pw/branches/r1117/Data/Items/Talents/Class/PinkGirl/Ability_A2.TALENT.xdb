@@ -1647,9 +1647,9 @@
 					<UnitConstant>
 						<name>A2_Range</name>
 						<var>
-							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFOQAAANld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Long</sString>
+							<sString>cRange_Long+2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1657,9 +1657,9 @@
 					<UnitConstant>
 						<name>A2_Width</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>2</sString>
+							<sString>3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1795,9 +1795,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>15</sString>
+		<sString>12</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

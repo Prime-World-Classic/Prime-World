@@ -2,6 +2,7 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/CharityDefenceSpell.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/AreaHeal.APLR" Count="2" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Healer/MarkerStatus_Def.APLR" id="8005D8EC-937B-4CCC-A7DB-FF9E7E3CB9E6">
 			<MarkerApplicator>

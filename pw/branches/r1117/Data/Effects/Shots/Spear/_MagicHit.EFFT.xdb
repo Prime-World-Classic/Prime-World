@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Faceless/A1Dagger.DSCH" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="6" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/A4_2_SpellSwitch.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability3.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Shadow/spell_A1_arrow.SPLL" Count="1" />
 	<attachFlags>0</attachFlags>
 	<attachType>Body</attachType>

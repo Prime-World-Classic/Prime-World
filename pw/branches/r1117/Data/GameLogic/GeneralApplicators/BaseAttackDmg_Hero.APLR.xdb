@@ -18,7 +18,7 @@
 	<BackLink DBID="/Heroes/Firefox/_.HROB" Count="2" />
 	<BackLink DBID="/Heroes/Fluffy/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Freeze/_.HROB" Count="1" />
-	<BackLink DBID="/Heroes/Healer/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Healer/_.HROB" Count="3" />
 	<BackLink DBID="/Heroes/IronKnight/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Mage/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/MagicGirl/_.ATCK" Count="1" />
@@ -50,7 +50,6 @@
 	<BackLink DBID="/Summons/Tiger/_Parent.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Turret/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Wolf/PvE_Coop1.CREEP" Count="2" />
-	<BackLink DBID="/Items/Talents/Class/Prince/status_A4_1_curse.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A1.TALENT" Count="3" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<cancelInvisibility>false</cancelInvisibility>

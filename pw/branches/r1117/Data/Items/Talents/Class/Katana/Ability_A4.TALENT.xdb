@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Katana.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Katana.TALENTSET" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A4_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A4u.TALENT" Count="1" />
@@ -664,9 +664,9 @@
 													<LoggingEvent>-1</LoggingEvent>
 													<modifier>
 														<addValue>
-															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 															<returnType>float</returnType>
-															<sString>10.0f</sString>
+															<sString>15.0f</sString>
 														</addValue>
 														<multValue>
 															<compiledString></compiledString>
@@ -1210,9 +1210,9 @@
 					<UnitConstant>
 						<name>A4_Damage_Total</name>
 						<var>
-							<compiledString>FSQAAAAIAAAAKwAAAEQAAAB+AAAAiAAAAL4AAADIAAAA9QAAAA4BAABLYXRhbmFfQTR1AABLYXRhbmFfQTR1AABTbG93UGVyY2VudABVi+yD7BxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRAagFR2QU9AQAA2RwkUdkFOQEAANkcJGoAi1UIiwKLTQiLkDQBAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9DdXfDrY2oBUdkFPQEAANkcJFHZBTkBAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/QaBgAAACLTQiLEYtNCIuCiAEAAN1d6P/Q3DUxAQAA2ejewdxN6N1d8N1F8Nld5NlF5IvlXcMAAAAAAADwPwAAAAAAAFlAAADQQgDAQUQ=</compiledString>
+							<compiledString>FSQAAAAIAAAAKwAAAEQAAAB+AAAAiAAAALUAAADOAAAA4wAAAO0AAABLYXRhbmFfQTR1AABLYXRhbmFfQTR1AABTbG93UGVyY2VudABVi+yD7BxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRlagFR2QU9AQAA2RwkUdkFOQEAANkcJGoAi1UIiwKLTQiLkDQBAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9BoGAAAAItNCIsRi00Ii4KIAQAA3V3w/9DcNTEBAADZ6N7B3E3w3V3o6z5qAVHZBT0BAADZHCRR2QU5AQAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0N1d6N1F6Nld5NlF5IvlXcMAAAAAAADwPwAAAAAAAFlAAADQQgDAQUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Katana_A4u")?(damageScale( sIntellect,104, 775)) :(damageScale( sIntellect,104, 775)*(1+sender.vSlowPercent/100) )</sString>
+							<sString>tal("Katana_A4u")?(damageScale( sIntellect,104, 775)*(1+sender.vSlowPercent/100) ) :(damageScale( sIntellect,104, 775)) </sString>
 						</var>
 					</UnitConstant>
 				</Item>

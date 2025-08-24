@@ -551,7 +551,7 @@
 								<returnType>float</returnType>
 								<sString>cA4_RocketRange</sString>
 							</range>
-							<targetFilter>672923711</targetFilter>
+							<targetFilter>538705983</targetFilter>
 							<targetSelector href="/Items/Talents/Class/Gunner/appl_A4_SendRocket.APLR" id="FCA13D7E-72AF-4C8A-A579-90CA7E62F478">
 								<SelectApplicatorTarget>
 									<applicatorIndex>0</applicatorIndex>

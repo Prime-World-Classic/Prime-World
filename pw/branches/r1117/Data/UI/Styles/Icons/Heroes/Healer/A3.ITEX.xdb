@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Healer/status_A3_CharityPower.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/status_A3_CharityPowerSelf.APLR" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_HealingWithVisual.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/status_A3_CharityPowerHalf.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

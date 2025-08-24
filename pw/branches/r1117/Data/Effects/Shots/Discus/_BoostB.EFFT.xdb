@@ -3,6 +3,7 @@
 	<BackLink DBID="/Effects/Shots/Discus/_BoostB.EFFT" Count="9" />
 	<BackLink DBID="/Items/Talents/Class/Night/Ability2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Night/Discus.DSCH" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability3.TALENT" Count="1" />
 	<component href="/Effects/Shots/Discus/_BoostB.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

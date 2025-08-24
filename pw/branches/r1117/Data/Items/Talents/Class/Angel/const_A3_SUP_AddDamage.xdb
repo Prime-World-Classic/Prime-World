@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A3.TALENT" Count="1" />
 	<name>A3_SUP_AddDamage</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>30</sString>
+		<sString>20</sString>
 	</var>
 </UnitConstant>

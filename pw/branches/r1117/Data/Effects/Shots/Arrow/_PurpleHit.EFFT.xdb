@@ -2,7 +2,7 @@
 <BasicEffectStandalone>
 	<BackLink DBID="/Creeps/Normals/Normal6/HarpoonProgram.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/A4_2_SpellSwitch.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Shadow/spell_A1_arrow.SPLL" Count="1" />
 	<component href="/Effects/Shots/Arrow/_PurpleHit.PRXY" />
 	<deathType>Anim</deathType>

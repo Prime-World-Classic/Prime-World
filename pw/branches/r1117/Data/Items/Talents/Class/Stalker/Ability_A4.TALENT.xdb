@@ -43,6 +43,7 @@
 						<applicators>
 							<Item href="/Heroes/DefaultStatus/_DISARM.APLR" />
 							<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
+							<Item href="/Heroes/DefaultStatus/_SILENCE_Status.APLR" />
 							<Item href="/Items/Talents/Class/Stalker/Ability_A4.TALENT" id="56ED6E3E-D62F-45BA-9D71-A18886FB4CF0">
 								<SpellSwitchApplicator>
 									<activeSpellIndex>
@@ -232,6 +233,16 @@
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Stalker/Ability_A4.TALENT" id="2819BBF3-5189-4E4B-8B71-04DFE2E61848">
+					<UnitConstant>
+						<name>Silence_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -687,7 +687,15 @@
 			<aoeType>None</aoeType>
 			<applicators>
 				<Item href="/Effects/Shots/HitsApplicators/EnergyPurple.APLR" />
-				<Item href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero.APLR" />
+				<Item href="/Heroes/Healer/_.HROB" id="AF90A75B-33BC-40CE-9CBB-A6FAD77AD809">
+					<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero.APLR">
+						<damage>
+							<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9CFwHRgi00MixGLTQyLQlD/0IP4AXROi00IixGLTQiLggQBAAD/0FHZHCTohgAAAIPEBFCLTQiLEYtNCIuCAAEAAP/QUdkcJOhpAAAAg8QEUItNEIsRi00Qi0Jc/9DR4IlF/OtKi00IixGLTQiLggQBAAD/0FHZHCToOAAAAIPEBFCLTQiLEYtNCIuCAAEAAP/QUdkcJOgbAAAAg8QEUItNEIsRi00Qi0Jc/9CJRfzbRfyL5V3DuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>(rUnitKind ==0 || rUnitKind ==1)? random ( f2l(sDamageMin), f2l(sDamageMax)) : (random ( f2l(sDamageMin), f2l(sDamageMax)))*2</sString>
+						</damage>
+					</DamageApplicator>
+				</Item>
 			</applicators>
 			<autoTargetSelector href="" />
 			<caption></caption>
@@ -710,7 +718,7 @@
 								<var>
 									<compiledString>FQAAAAAEAAAAGAAAAB4AAABHAAAATQAAAFWL7IPsDItFCIsQi00Ii4I0AQAA/9DcDYsAAADcDYMAAADZXfzZRfxR2Rwk6GIAAACDxARQi00IixGLTQiLgjQBAAD/0NwNiwAAANwNewAAANld+NlF+FHZHCToMwAAAIPEBFCLTRCLEYtNEItCXP/QiUX020X0i+Vdw83MzMzMzOw/mpmZmZmZ8T8AAAAAAADgP7gBAAAAD6L3wgAAAAR0B/MPLEQkBMPpAAAAAFWL7IPsDNlFCNl9/A+3RfwNAAwAAIlF+Nlt+Ntd9Nlt/ItF9IvlXcM=</compiledString>
 									<returnType>float</returnType>
-									<sString>random ( f2l(sIntellect*0.5*0.9), f2l(sIntellect*0.5*1.1))</sString>
+									<sString>random ( f2l(sIntellect*0.5*0.9), f2l(sIntellect*0.5*1.1)) </sString>
 								</var>
 							</UnitConstant>
 						</Item>

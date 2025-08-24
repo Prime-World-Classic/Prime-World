@@ -270,18 +270,6 @@
 	<name textref="/Items/Talents/Class/Healer/Ability5.TALENT_name.txt" />
 	<node>ability5</node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Class/Healer/Ability5.TALENT" id="FFA65FE4-B5C0-4E36-97F7-73367B887B38">
-			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
-				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii0JM/9CL8ItNCIsRi00Ii4KQAQAA/9AzyTvwD5XBisFeXcM=</compiledString>
-					<returnType>bool</returnType>
-					<sString>sTerrainType != sFctn</sString>
-				</enabled>
-				<talents>
-					<Item href="/Items/Talents/Class/Healer/Ability5.TALENT" />
-				</talents>
-			</FlagsApplicator>
-		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/trigger_G766_RefreshAndNotify.APLR" />
 	</passiveApplicators>
 	<persistentId>Healer_A5</persistentId>
@@ -295,9 +283,9 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsUVaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QK/D33hv2g+aqg8ZkiXX820X8XovlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>100</sString>
+		<sString>(sTerrainType != sFctn) ? 14 : 100</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

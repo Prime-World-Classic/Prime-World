@@ -22,6 +22,7 @@
 			<Spell>
 				<applicators>
 					<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />
+					<Item href="/Items/Talents/Class/Hunter/appl_A3_HealPeriod.APLR" />
 				</applicators>
 				<dispatch href="" />
 			</Spell>
@@ -30,6 +31,7 @@
 			<Spell>
 				<applicators>
 					<Item href="/Heroes/DefaultStatus/_QUICKNESS_status.APLR" />
+					<Item href="/Items/Talents/Class/Hunter/appl_A3_HealPeriod.APLR" />
 				</applicators>
 				<dispatch href="" />
 			</Spell>

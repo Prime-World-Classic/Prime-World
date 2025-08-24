@@ -332,9 +332,9 @@
 					<UnitConstant>
 						<name>A4_2_Width</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpnZPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcwMQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>1.7f</sString>
+							<sString>2.2f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -429,9 +429,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>90</sString>
+		<sString>70</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

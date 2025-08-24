@@ -288,9 +288,9 @@
 					<UnitConstant>
 						<name>A5_GhostDuration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+							<compiledString>FRYAAAACAAAAHQAAADYAAABBbmdlbF9BNXUAAABBbmdlbF9BNXUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPhA4PBA4lN9NtF9IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>7</sString>
+							<sString>tal("Angel_A5u")? 6 : 3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -331,9 +331,9 @@
 					<UnitConstant>
 						<name>AngelDamageDecrease</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<compiledString>FRYAAAACAAAAHQAAADYAAABBbmdlbF9BNXUAAABBbmdlbF9BNXUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPhGYPBGYlN9NtF9IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>50</sString>
+							<sString>tal("Angel_A5u")? 50 : 25</sString>
 						</var>
 					</UnitConstant>
 				</Item>

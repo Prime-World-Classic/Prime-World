@@ -3,6 +3,7 @@
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/status_A2_CharityDefence.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/status_A2_CharityDefenceSelf.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/status_A2_CharityDefenceHalf.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>
