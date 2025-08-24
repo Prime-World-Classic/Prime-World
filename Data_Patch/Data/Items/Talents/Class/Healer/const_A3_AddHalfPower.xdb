@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="1" />
+	<name>A3AddHalfPower</name>
+	<var>
+		<compiledString>FQsAAAACAAAAGAAAACsAAABBM0FkZFBvd2VyAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNOQAAANld/NlF/IvlXcMAAAAAAADgPw==</compiledString>
+		<returnType>float</returnType>
+		<sString>cA3AddPower * 0.5</sString>
+	</var>
+</UnitConstant>

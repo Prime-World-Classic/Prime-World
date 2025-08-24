@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability4_2.TALENT" Count="1" />
+	<name>A2AddHalfDefence</name>
+	<var>
+		<compiledString>FQ0AAAACAAAAGgAAAC0AAABBMkFkZERlZmVuY2UAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A07AAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
+		<returnType>float</returnType>
+		<sString>cA2AddDefence *0.5</sString>
+	</var>
+</UnitConstant>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SpellApplicator>
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="6" />
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<caption>спелл взрыва с уроном и статусами </caption>
+	<enabled>
+		<compiledString>FRcAAAACAAAAHgAAADcAAABIdW50ZXJfQTF1AABIdW50ZXJfQTF1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+		<returnType>bool</returnType>
+		<sString>tal("Hunter_A1u")</sString>
+	</enabled>
+	<formulaName></formulaName>
+	<LoggingEvent>-1</LoggingEvent>
+	<providerName></providerName>
+	<spell href="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" id="84238F98-705F-4FAE-8203-00ED4D1B47A7">
+		<Spell>
+			<applicators>
+				<Item href="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" id="A1290B28-1562-4268-BEFD-EB83CC331B33">
+					<DamageApplicator>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<cancelInvisibility>false</cancelInvisibility>
+						<caption>урон</caption>
+						<damage>
+							<compiledString>FQ4AAAABAAAAGgAAAEExX1VwZ19EYW1hZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>cA1_Upg_Damage</sString>
+						</damage>
+						<damageMode>4</damageMode>
+						<damageType>Energy</damageType>
+						<enabled>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<LoggingEvent>-1</LoggingEvent>
+						<providerName></providerName>
+						<timeLimiter>-1</timeLimiter>
+						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+					</DamageApplicator>
+				</Item>
+				<Item href="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" id="88AAC938-9CE9-4A93-82B5-5718C54D8B6F">
+					<VariableProxyApplicator>
+						<applicators>
+							<Item>
+								<applicator href="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" id="E40ACA66-2566-47EC-B883-EA7F7F89CCBC">
+									<SpellApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>запустить статус</caption>
+										<enabled>
+											<compiledString>FQ0AAAAEAAAAVQAAAHUAAACLAAAAnQAAAElzQ2xvbmUAV2FyZABVi+yD7AiLRQyLEItNDItCUP/QM8mD+BEPlcGJTfzbRfxR2RwkUdnu2RwkagGLVQyLAotNDItQWP/SD7bAUOiJAAAAg8QM3B3NAAAA3+D2xER7X4tNCIsRi00Ii0JU/9APtsiFyXUiaAAAAACLVQiLAotNCIuQiAEAAP/S3B3NAAAA3+D2xER7KWoAi0UQUGgIAAAAi00MixGLTQyLgpwBAAD/0DtFEHUJx0X4AQAAAOsHx0X4AAAAAIpF+IvlXcMAAAAAAAAAAAAAAABVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+											<returnType>bool</returnType>
+											<sString>ut_bldg( false, rUnitKind != 17 ) &amp;&amp; (sIsHero || sender.vIsClone != 0) &amp;&amp; receiver.applWard(GLOBAL) == pMisc; //&amp;&amp; mObjectParent-&gt;GetVariable("isCritical") == 1.0 )</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName>Hunter_A0</providerName>
+										<spell href="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" id="F7BB9DA2-1CFE-4597-AC5A-209B7A4CC490">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/Hunter/add_A0Bleeding.APLR" />
+													<Item href="/Items/Talents/Class/Hunter/status_A0_bleeding.APLR" />
+												</applicators>
+												<dispatch href="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" id="1A638E1A-A8DC-47A5-8A3C-259E34CB36C5">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellTarget>ApplicatorTarget</spellTarget>
+										<targetSelector href="" />
+									</SpellApplicator>
+								</applicator>
+								<variableNames />
+							</Item>
+						</applicators>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<caption>урон и статус</caption>
+						<enabled>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<LoggingEvent>-1</LoggingEvent>
+						<providerName></providerName>
+					</VariableProxyApplicator>
+				</Item>
+			</applicators>
+			<dispatch href="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" id="EBB19949-A56A-4798-ACEF-C660953DD75C">
+				<DispatchImmediate>
+					<alwaysApply>false</alwaysApply>
+					<applyEffect>
+						<Item href="" />
+						<Item href="" />
+					</applyEffect>
+					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+					<applyEffectOrientation>Default</applyEffectOrientation>
+					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+					<dieAfterApply>true</dieAfterApply>
+					<dispatchEffect>
+						<Item href="" />
+						<Item href="" />
+					</dispatchEffect>
+					<flags>1</flags>
+					<instantApply>false</instantApply>
+				</DispatchImmediate>
+			</dispatch>
+		</Spell>
+	</spell>
+	<spellTarget>ApplicatorTarget</spellTarget>
+	<targetSelector href="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" id="3F26E905-2DEF-4EB7-A393-E5423367B4CD">
+		<AreaTargetSelector>
+			<absolutePosition>
+				<x>0</x>
+				<y>0</y>
+			</absolutePosition>
+			<flags>1</flags>
+			<mode>Normal</mode>
+			<range>
+				<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9TaG9ydABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcJToAAADZXfzZRfyL5V3DAAAAAAAACEA=</compiledString>
+				<returnType>float</returnType>
+				<sString>cRange_Short - 3</sString>
+			</range>
+			<targetFilter>538771519</targetFilter>
+			<targetSelector href="" />
+		</AreaTargetSelector>
+	</targetSelector>
+</SpellApplicator>
