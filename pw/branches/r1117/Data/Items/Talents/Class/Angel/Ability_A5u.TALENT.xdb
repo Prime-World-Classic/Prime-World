@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="2" />
+	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Angel_Mighty.TALENTSET" Count="1" />

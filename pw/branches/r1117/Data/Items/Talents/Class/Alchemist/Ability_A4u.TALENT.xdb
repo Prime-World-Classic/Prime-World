@@ -9,7 +9,7 @@
 	<BackLink DBID="/Test/Talents/Alchemist/Epic_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4u_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -65,9 +65,9 @@
 					<UnitConstant>
 						<name>A4_CD_Reduction</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>40</sString>
+							<sString>20</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -78,9 +78,9 @@
 								<Item href="" />
 							</effect>
 							<enabled>
-								<compiledString></compiledString>
+								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 								<returnType>bool</returnType>
-								<sString>true</sString>
+								<sString>false</sString>
 							</enabled>
 							<formulaName></formulaName>
 							<lifeTime>
@@ -231,9 +231,9 @@
 							</processor>
 							<providerName></providerName>
 							<startCondition>
-								<compiledString></compiledString>
+								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 								<returnType>bool</returnType>
-								<sString>true</sString>
+								<sString>false</sString>
 							</startCondition>
 							<useAbilityCooldown>false</useAbilityCooldown>
 							<useAbilityOwnerMana>false</useAbilityOwnerMana>

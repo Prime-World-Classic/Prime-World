@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A4_2u.TALENT" Count="1" />
 	<name>Cat_HitPoints</name>
 	<var>
-		<compiledString>FR8AAAACAAAAJgAAAD8AAABQaW5rR2lybF9BNF8ydQAAUGlua0dpcmxfQTRfMnUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPhBIPBBIlN9NtF9IvlXcM=</compiledString>
+		<compiledString>FR8AAAACAAAAJgAAAD8AAABQaW5rR2lybF9BNF8ydQAAUGlua0dpcmxfQTRfMnUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPhAIPBCIlN9NtF9IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>tal("PinkGirl_A4_2u") ? 8 : 4</sString>
+		<sString>tal("PinkGirl_A4_2u") ? 8 : 8</sString>
 	</var>
 </UnitConstant>

@@ -593,9 +593,9 @@
 					<UnitConstant>
 						<name>A2_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAUQgAAjEM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABAQgAAtkM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale ( sIntellect, 37, 280)</sString>
+							<sString>damageScale ( sIntellect, 48, 364)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

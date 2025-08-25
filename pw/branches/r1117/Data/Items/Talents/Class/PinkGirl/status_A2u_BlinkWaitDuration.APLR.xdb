@@ -7,7 +7,7 @@
 				<applyTarget>AbilityTarget</applyTarget>
 				<caption>ForbidUseA2 = 1 for distance</caption>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>

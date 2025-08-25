@@ -563,9 +563,9 @@
 					<UnitConstant>
 						<name>A4_CD</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
 							<returnType>float</returnType>
-							<sString>120</sString>
+							<sString>90</sString>
 						</var>
 					</UnitConstant>
 				</Item>

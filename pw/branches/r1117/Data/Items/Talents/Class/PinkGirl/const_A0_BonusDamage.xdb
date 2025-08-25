@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A0.TALENT" Count="1" />
 	<name>A0_BonusDamage</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>3</sString>
+		<sString>2</sString>
 	</var>
 </UnitConstant>

@@ -379,7 +379,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>13.2</speed>
+														<speed>12.84</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -545,7 +545,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>14.4</speed>
+														<speed>13.68</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -711,7 +711,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>15.6</speed>
+														<speed>14.52</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -877,7 +877,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>16.8</speed>
+														<speed>15.36</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -1043,7 +1043,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>18</speed>
+														<speed>16.2</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -1209,7 +1209,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>19.2</speed>
+														<speed>17.04</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -1548,7 +1548,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>13.2</speed>
+														<speed>12.84</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -1714,7 +1714,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>14.4</speed>
+														<speed>13.68</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -1880,7 +1880,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>15.6</speed>
+														<speed>14.52</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -2046,7 +2046,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>16.8</speed>
+														<speed>15.36</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -2212,7 +2212,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>18</speed>
+														<speed>16.2</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -2378,7 +2378,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>19.2</speed>
+														<speed>17.52</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -2785,7 +2785,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>13.2</speed>
+														<speed>12.84</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -2974,7 +2974,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>14.4</speed>
+														<speed>13.68</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -3163,7 +3163,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>15.6</speed>
+														<speed>14.52</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -3352,7 +3352,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>16.8</speed>
+														<speed>15.36</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -3541,7 +3541,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>18</speed>
+														<speed>16.2</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -3730,7 +3730,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>19.2</speed>
+														<speed>17.04</speed>
 														<suspendTime>0.5</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -4115,7 +4115,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>13.2</speed>
+														<speed>12.84</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -4304,7 +4304,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>14.4</speed>
+														<speed>13.68</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -4493,7 +4493,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>15.6</speed>
+														<speed>14.52</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -4682,7 +4682,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>16.8</speed>
+														<speed>15.36</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -4871,7 +4871,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>18</speed>
+														<speed>16.2</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>
@@ -5060,7 +5060,7 @@
 																</SpellPeriodicallyApplicator>
 															</Item>
 														</persistentApplicators>
-														<speed>19.2</speed>
+														<speed>17.04</speed>
 														<suspendTime>1</suspendTime>
 														<toLocator>Body</toLocator>
 													</DispatchLinear>

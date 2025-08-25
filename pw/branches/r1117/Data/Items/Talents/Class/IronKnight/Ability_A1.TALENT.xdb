@@ -289,9 +289,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>100</sString>
+		<sString>60</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/IronKnight/Ability_A1.TALENT" id="7B1BBEED-A00F-4205-B323-FEA8F02EC3D0">

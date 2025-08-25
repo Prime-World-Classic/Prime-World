@@ -974,9 +974,9 @@
 					<UnitConstant>
 						<name>A1_Radius</name>
 						<var>
-							<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9NZWxlZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcJToAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
+							<compiledString>FUAAAAAHAAAARwAAAGAAAACeAAAAsQAAALcAAADJAAAA3AAAAFBsYWd1ZURvY3Rvcl9BMV9TVVAAUGxhZ3VlRG9jdG9yX0ExX1NVUABSYW5nZV9NZWxlZQBSYW5nZV9NZWxlZQBVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQri1UMUotFCFBoKAAAAItNEIsRi00Qi0JQ/9DcJfgAAADcDfAAAADdXfDrI4tNDFGLVQhSaDQAAACLRRCLEItNEItCUP/Q3CX4AAAA3V3w3UXw2V3s2UXsi+VdwwAAAAAAAPg/AAAAAAAA4D8=</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Melee - 0.5</sString>
+							<sString>tal("PlagueDoctor_A1_SUP")? (cRange_Melee - 0.5)*1.5 : (cRange_Melee - 0.5)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

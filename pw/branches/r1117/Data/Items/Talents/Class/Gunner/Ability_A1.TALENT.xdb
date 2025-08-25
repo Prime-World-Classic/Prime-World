@@ -313,9 +313,9 @@
 					<UnitConstant>
 						<name>Damage</name>
 						<var>
-							<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAALgAAADCAAAAR3VubmVyX0ExX1NVUAAAAEd1bm5lcl9BMV9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0QGoBUdkFBAEAANkcJFHZBQABAADZHCRqAItVCIsCi00Ii5A0AQAA/9JR2RwkagGLRRCLEItNEItCYP/Q2V306z5qAVHZBfwAAADZHCRR2QX4AAAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0Nld9NlF9IvlXcMAAJZCAMAMRAAApkIAABtE</compiledString>
+							<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAALgAAADCAAAAR3VubmVyX0ExX1NVUAAAAEd1bm5lcl9BMV9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0QGoBUdkFBAEAANkcJFHZBQABAADZHCRqAItVCIsCi00Ii5A0AQAA/9JR2RwkagGLRRCLEItNEItCYP/Q2V306z5qAVHZBfwAAADZHCRR2QX4AAAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0Nld9NlF9IvlXcMAAKxCAMAhRAAAyEIAADpE</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Gunner_A1_SUP") ? damageScale( sIntellect,83, 620 ) : damageScale( sIntellect,75, 563 )</sString>
+							<sString>tal("Gunner_A1_SUP") ? damageScale( sIntellect,100, 744 ) : damageScale( sIntellect,86, 647 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -323,9 +323,9 @@
 					<UnitConstant>
 						<name>Range</name>
 						<var>
-							<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9NZWRpdW0AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAAPA/</compiledString>
+							<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9NZWRpdW0AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAAABA</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Medium + 1</sString>
+							<sString>cRange_Medium + 2</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -298,9 +298,9 @@
 										<cancelInvisibility>true</cancelInvisibility>
 										<caption>Урон</caption>
 										<damage>
-											<compiledString>FUMAAAAFAAAASgAAAGMAAAChAAAAwAAAANoAAABaZWFsb3RfQTFfU1VQAAAAWmVhbG90X0ExX1NVUAAAAEExX0RhbWFnZQAAAEExX0RhbWFnZQAAAEExX1RhcmdldHMAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0H4tVDFKLRQhQaCAAAACLTRCLEYtNEItCUP/Q3V3w6z2LTQxRi1UIUmgsAAAAi0UQixCLTRCLQlD/0ItNDFGLVQhSaDgAAACLRRCLEItNEItCUN1d6P/Q3H3o3V3w3UXw2V3k2UXki+Vdww==</compiledString>
+											<compiledString>FTYAAAAFAAAAPQAAAFYAAACUAAAApwAAALkAAABaZWFsb3RfQTFfU1VQAAAAWmVhbG90X0ExX1NVUAAAAEExX0RhbWFnZQAAAEExX0RhbWFnZQBVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQli1UMUotFCFBoIAAAAItNEIsRi00Qi0JQ/9DcDdoAAADdXfDrHYtNDFGLVQhSaCwAAACLRRCLEItNEItCUP/Q3V3w3UXw2V3s2UXsi+VdwzMzMzMzM/M/</compiledString>
 											<returnType>float</returnType>
-											<sString>tal("Zealot_A1_SUP") ? cA1_Damage : cA1_Damage/cA1_Targets</sString>
+											<sString>tal("Zealot_A1_SUP") ? cA1_Damage*1.2 : cA1_Damage</sString>
 										</damage>
 										<damageMode>0</damageMode>
 										<damageType>Material</damageType>

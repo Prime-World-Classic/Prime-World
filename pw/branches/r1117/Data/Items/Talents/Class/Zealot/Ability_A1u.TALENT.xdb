@@ -53,6 +53,7 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Zealot/const_A1u_Silence_Duration" />
+				<Item href="/Items/Talents/Class/Zealot/const_A1_SUP_Slow_Percentage" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

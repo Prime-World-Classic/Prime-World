@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A4u_DeathSpectre.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A4.TALENT" Count="4" />
 	<applicators>
 		<Item href="/Items/Talents/Class/GhostLord/status_A4u_DamageBuff.APLR" id="DCF90E2D-1437-42BA-A86C-52B9810F8A0D">
 			<AbilityUpgradeApplicator>
@@ -96,9 +96,9 @@
 	<formulaName>StatusBuffAttack</formulaName>
 	<image href="/UI/Styles/Icons/Heroes/GhostLord/A4_2.ITEX" />
 	<lifeTime>
-		<compiledString>FQ0AAAABAAAAGQAAAEE0dV9EdXJhdGlvbgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
 		<returnType>float</returnType>
-		<sString>cA4u_Duration</sString>
+		<sString>-1</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
 	<name textref="/Items/Talents/Class/GhostLord/status_A4u_DamageBuff.APLR_name.txt" />

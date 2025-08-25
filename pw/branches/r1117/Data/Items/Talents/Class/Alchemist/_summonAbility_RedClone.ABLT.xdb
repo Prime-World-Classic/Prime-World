@@ -329,9 +329,9 @@
 								<caption>- Ансаммон Клона</caption>
 								<dontGiveRewards>true</dontGiveRewards>
 								<enabled>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 									<returnType>bool</returnType>
-									<sString>true</sString>
+									<sString>false</sString>
 								</enabled>
 								<flag>Unsummon</flag>
 								<formulaName></formulaName>

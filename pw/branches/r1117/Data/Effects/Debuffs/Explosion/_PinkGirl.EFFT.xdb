@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
 	<BackLink DBID="/Effects/Debuffs/Explosion/_PinkGirl.EFFT" Count="1" />
-	<BackLink DBID="/Summons/JackInTheBox/_.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/JackInTheBox/_.SUMMONED" Count="3" />
 	<component href="/Effects/Debuffs/Explosion/_PinkGirlTRS.PRXY" />
 	<deathType>Anim</deathType>
 	<enableCondition href="" />

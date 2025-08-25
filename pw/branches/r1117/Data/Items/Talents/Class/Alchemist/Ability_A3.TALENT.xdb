@@ -956,9 +956,9 @@
 					<UnitConstant>
 						<name>A3_ChannelingDurationPer10m</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
 							<returnType>float</returnType>
-							<sString>0.4</sString>
+							<sString>0.3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -976,9 +976,9 @@
 					<UnitConstant>
 						<name>A3_ChannelingDurationMax</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>5</sString>
+							<sString>3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -998,9 +998,9 @@
 					<UnitConstant>
 						<name>A3_CD_PenaltyBase</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>10</sString>
+							<sString>5</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -3,6 +3,7 @@
 	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A2_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Zealot_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/Items/Talents/Zealot.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -55,6 +56,16 @@
 			<vars>
 				<Item href="/Items/Talents/Class/Zealot/const_A1u_Silence_Duration" />
 				<Item href="/Items/Talents/Class/Zealot/const_A1_SUP_Slow_Percentage" />
+				<Item href="/Items/Talents/Class/Zealot/Ability_A1_SUP.TALENT" id="20A2D7BC-85BE-4B16-B207-DD5F535B5CAD">
+					<UnitConstant>
+						<name>A1_SUP_Slow_PercentageTT</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>25</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

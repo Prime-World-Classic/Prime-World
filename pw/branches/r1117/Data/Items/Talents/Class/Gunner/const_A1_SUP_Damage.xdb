@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Gunner/Ability_A1.TALENT" Count="1" />
 	<name>A1_SUP_Damage</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>10.0f</sString>
+		<sString>15.0f</sString>
 	</var>
 </UnitConstant>

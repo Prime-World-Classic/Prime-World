@@ -359,14 +359,14 @@
 							<playAck>false</playAck>
 							<processor href="/Summons/JackInTheBox/_.SUMMONED" id="33575FF4-1109-4385-9EC0-3E20A75A06CA">
 								<EventProcessorOnDeath>
-									<applyTarget>ApplicatorTarget</applyTarget>
+									<applyTarget>AbilityOwner</applyTarget>
 									<castSpellDelay>
 										<compiledString></compiledString>
 										<returnType>float</returnType>
 										<sString>0.0f</sString>
 									</castSpellDelay>
 									<checkSender>0</checkSender>
-									<objectFilter>1342177280</objectFilter>
+									<objectFilter>2040319</objectFilter>
 									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
 									<spell href="/Summons/JackInTheBox/_.SUMMONED" id="0E604757-CB74-4B78-8382-191516D8730E">
 										<Spell>
@@ -526,6 +526,193 @@
 							<useAbilityOwnerMana>false</useAbilityOwnerMana>
 						</TriggerApplicator>
 					</Item>
+					<Item href="/Summons/JackInTheBox/_.SUMMONED" id="098B4BA1-3516-41A8-BFF6-73BE483A9D78">
+						<SpellPeriodicallyApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption></caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<period>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+								<returnType>float</returnType>
+								<sString>5</sString>
+							</period>
+							<providerName></providerName>
+							<scaleMode>ScaleIsCount</scaleMode>
+							<spell href="/Summons/JackInTheBox/_.SUMMONED" id="3B389D51-023B-4E5C-914B-CFFC77BD8B3B">
+								<Spell>
+									<applicators>
+										<Item href="/Summons/JackInTheBox/_.SUMMONED" id="8E7DD448-CE10-4D58-BB8E-26289309D79E">
+											<SpellApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<caption>Спелл с уроном</caption>
+												<enabled>
+													<compiledString>FRYAAAACAAAAIwAAADYAAABEYW1hZ2VfU3RhcnRDb25kaXRpb24AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B1SAAAA3+D2xER7BsZF/wHrBMZF/wCKRf+L5V3DAAAAAAAAAAA=</compiledString>
+													<returnType>bool</returnType>
+													<sString>cDamage_StartCondition</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<spell href="/Summons/JackInTheBox/_.SUMMONED" id="4EE1A2B0-4F64-4510-8B66-62D9DD6DC4EB">
+													<Spell>
+														<applicators>
+															<Item href="/Summons/JackInTheBox/_.SUMMONED" id="8F644700-60E3-4A8A-AE3E-6C47B3C83644">
+																<DamageApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<cancelInvisibility>true</cancelInvisibility>
+																	<caption>Аое урон</caption>
+																	<damage>
+																		<compiledString>FQcAAAABAAAAEwAAAERhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cDamage</sString>
+																	</damage>
+																	<damageMode>4</damageMode>
+																	<damageType>Energy</damageType>
+																	<enabled>
+																		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																	<timeLimiter>-1</timeLimiter>
+																	<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+																</DamageApplicator>
+															</Item>
+														</applicators>
+														<dispatch href="/Summons/JackInTheBox/_.SUMMONED" id="E9ADDA80-43C2-431A-8845-185019598183">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>0</flags>
+																<instantApply>false</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</spell>
+												<spellTarget>ApplicatorTarget</spellTarget>
+												<targetSelector href="/Summons/JackInTheBox/_.SUMMONED" id="BBB70494-A127-4A94-8E45-05C631587880">
+													<AreaTargetSelector>
+														<absolutePosition>
+															<x>0</x>
+															<y>0</y>
+														</absolutePosition>
+														<flags>0</flags>
+														<mode>Normal</mode>
+														<range>
+															<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+															<returnType>float</returnType>
+															<sString>cRange_Short</sString>
+														</range>
+														<targetFilter>538771519</targetFilter>
+														<targetSelector href="/Summons/JackInTheBox/_.SUMMONED" id="CB2405E1-540B-41D4-BC53-A832D04E02C5">
+															<SelectApplicatorTarget>
+																<applicatorIndex>0</applicatorIndex>
+																<applicatorName></applicatorName>
+																<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																<selectTarget>ApplicatorTarget</selectTarget>
+															</SelectApplicatorTarget>
+														</targetSelector>
+													</AreaTargetSelector>
+												</targetSelector>
+											</SpellApplicator>
+										</Item>
+										<Item href="/Summons/JackInTheBox/_.SUMMONED" id="07AE222B-1731-4293-AB92-ED8E206D11AD">
+											<FlagsApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<behaviorFlags>248</behaviorFlags>
+												<caption>Не смотрим на взрыв</caption>
+												<consumables />
+												<effect>
+													<Item href="/Effects/Debuffs/Explosion/_PinkGirl.EFFT" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<flag>0</flag>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+													<returnType>float</returnType>
+													<sString>2</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<talents />
+												<useListAs>ListAsRule</useListAs>
+											</FlagsApplicator>
+										</Item>
+									</applicators>
+									<dispatch href="/Summons/JackInTheBox/_.SUMMONED" id="69D92226-7A0E-4E3A-9E9E-75102DEAB7C0">
+										<DispatchImmediate>
+											<alwaysApply>false</alwaysApply>
+											<applyEffect>
+												<Item href="" />
+												<Item href="" />
+											</applyEffect>
+											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+											<applyEffectOrientation>Default</applyEffectOrientation>
+											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+											<dieAfterApply>true</dieAfterApply>
+											<dispatchEffect>
+												<Item href="" />
+												<Item href="" />
+											</dispatchEffect>
+											<flags>0</flags>
+											<instantApply>false</instantApply>
+										</DispatchImmediate>
+									</dispatch>
+								</Spell>
+							</spell>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<startOffset>
+								<compiledString>FT8AAAAFAAAAbgAAAJoAAADjAAAAAwEAACMBAABQaW5rR2lybF9BNF8yAAAAUGlua0dpcmxfQTRfMgAAAFBpbmtHaXJsX0E0XzIAAABUYXVudF9EdXJhdGlvbgBVi+yD7CCLRQiLEItNCIuCfAEAAP/QO0UIdGmLTQiLEYtNCIuCfAEAAP/QiUX8aAAAAACLTfyLEYtN/IuCqAEAAP/QhcB0PYtNCIsRi00Ii4J8AQAA/9CJRfhoEAAAAItN+IsRi034i4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdEqLVQiLAotNCIuQfAEAAP/SiUXsaCAAAACLReyLEItN7IuCqAEAAP/QiUXoi00MUYtVCFJoMAAAAItF6IsQi03oi0JQ/9DZXeTrBdnu2V3k2UXk3CUxAQAA2V3g2UXgi+Vdw5qZmZmZmck/AAAAAA==</compiledString>
+								<returnType>float</returnType>
+								<sString>mastertalconst("PinkGirl_A4_2", "Taunt_Duration")-0.2</sString>
+							</startOffset>
+							<targetSelector href="" />
+						</SpellPeriodicallyApplicator>
+					</Item>
 				</passiveApplicators>
 				<requireLineOfSight>false</requireLineOfSight>
 				<shortDescription textref="" />
@@ -554,7 +741,8 @@
 	<creepSkins />
 	<deathParameters href="/Summons/JackInTheBox/_.SUMMONED" id="8BAB39F3-4D25-4858-B183-528CC5926732">
 		<UnitDeathParameters parent="/GameLogic/Summon.UNDP">
-			<unsummonTime>1</unsummonTime>
+			<fallOffset>1</fallOffset>
+			<unsummonTime>0.5</unsummonTime>
 		</UnitDeathParameters>
 	</deathParameters>
 	<description textref="/Summons/JackInTheBox/_.SUMMONED_description.txt" />
