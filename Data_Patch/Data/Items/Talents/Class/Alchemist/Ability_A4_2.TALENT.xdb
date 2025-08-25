@@ -1,23 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Creeps/Bosses/Boss1/PvE_Coop1.CREEP" Count="2" />
-	<BackLink DBID="/Creeps/Bosses/Boss1/PvE_Coop1_DoTSummon.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="2" />
-	<BackLink DBID="/Items/Talents/Class/Alchemist/_summon_Circle.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" Count="3" />
-	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" Count="3" />
-	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4u.TALENT" Count="2" />
-	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4u_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level5/G353_AoE.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Alchemist_Alternative.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4u_2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/MOBA/NewYear/_.ADMP" Count="1" />
-	<BackLink DBID="/Test/Talents/Alchemist/Duel_Int.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Alchemist/Duel_Str.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Alchemist/Elite_Int.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Alchemist/Elite_Str.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Alchemist/Epic_Int.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Alchemist/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Alchemist/Epic_Str_ult2.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Alchemist_Mighty.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -37,7 +28,7 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="D57CD894-E6C3-4ADA-8362-308B2C6A36C9">
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="0A75DE75-BA7B-4A71-9284-ED5F0654A38F">
 			<StatModApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
@@ -84,7 +75,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="3CF682E0-6D07-4AB9-A854-512CE4DB560D">
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="8E53C979-14C3-4889-9A19-8B883B2809D2">
 			<SpellSwitchApplicator>
 				<activeSpellIndex>
 					<compiledString>FQAAAAAAAAAAVYvsM8Bdww==</compiledString>
@@ -103,15 +94,15 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<spells>
-					<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="640A2F2B-6C2F-4183-8D68-36E932E67F99">
+					<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="3BCB35D2-1E26-4BE5-9C43-C9F8EB18263F">
 						<Spell>
 							<applicators>
-								<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="18F91CBE-5680-46A9-868D-51F42817F526">
+								<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="2ACA815E-C0BB-4A41-88E7-00081BDC9916">
 									<SpellSwitchApplicator>
 										<activeSpellIndex>
-											<compiledString>FQAAAAAAAAAAVYvsM8Bdww==</compiledString>
+											<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
 											<returnType>int</returnType>
-											<sString>0</sString>
+											<sString>1</sString>
 										</activeSpellIndex>
 										<applyTarget>AbilityOwner</applyTarget>
 										<caption>Ульт - Выбор программ в зависимости от вида Клона</caption>
@@ -125,7 +116,7 @@
 										<LoggingEvent>-1</LoggingEvent>
 										<providerName></providerName>
 										<spells>
-											<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="50E7E7D6-B21C-4C72-88FA-75377B08F1FF">
+											<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="C417E84C-0FA9-400C-A4E6-69F20982A0F7">
 												<Spell>
 													<applicators>
 														<Item href="/Items/Talents/Class/Alchemist/programm_A4_IntClone.APLR" />
@@ -133,7 +124,7 @@
 													<dispatch href="" />
 												</Spell>
 											</Item>
-											<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="6A0B2657-3F3A-4127-A243-7668D4C014E5">
+											<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="750B8C15-3F73-4C80-9989-6284747C5621">
 												<Spell>
 													<applicators>
 														<Item href="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" />
@@ -148,10 +139,10 @@
 							<dispatch href="" />
 						</Spell>
 					</Item>
-					<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="EB93D4A3-A4C5-4CA1-9973-2F47FA928D23">
+					<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="D1D85B4C-CF23-4808-815B-AA5B5583C855">
 						<Spell>
 							<applicators>
-								<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="C5728D51-CAFE-4964-9CA7-783AFBDC6170">
+								<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="FC65706D-7233-4087-895C-1939F17CB338">
 									<StatModApplicator>
 										<applyTarget>AbilityOwner</applyTarget>
 										<behaviorFlags>0</behaviorFlags>
@@ -198,7 +189,7 @@
 										<statModName></statModName>
 									</StatModApplicator>
 								</Item>
-								<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="9CB30FBD-55DC-4142-A03F-0B3282F60BA2">
+								<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="9B422A92-932C-425C-B67A-490475AB3892">
 									<StatModApplicator>
 										<applyTarget>AbilityOwner</applyTarget>
 										<behaviorFlags>0</behaviorFlags>
@@ -245,7 +236,7 @@
 										<statModName></statModName>
 									</StatModApplicator>
 								</Item>
-								<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="48853522-53B6-49A5-9073-DEED637B4953">
+								<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="DC40EC65-B847-4815-AE1F-E50054E7543B">
 									<SummonApplicator parent="/Items/Talents/Class/Alchemist/_summon_Clone.APLR">
 										<applicators>
 											<Item skip="1" />
@@ -267,7 +258,7 @@
 											<Item skip="1" />
 											<Item skip="1" />
 											<Item skip="1" />
-											<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="6CEEB13C-3988-4591-B045-64F9E7B99EEC">
+											<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="7FF75AE4-7A90-4721-8BE1-0B708DE5C7EE">
 												<AddApplicatorDuration>
 													<applicators>
 														<Item href="/Items/Talents/Class/Alchemist/status_A0_ClonAlive.APLR" />
@@ -291,7 +282,7 @@
 													<providerName></providerName>
 												</AddApplicatorDuration>
 											</Item>
-											<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="5FE7FB4F-09D9-4D3F-9A73-2BDF7942B2EA">
+											<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="AEA4A72F-FA58-4E8C-8F15-1E02175EB275">
 												<DamageApplicator>
 													<applyTarget>ApplicatorTarget</applyTarget>
 													<cancelInvisibility>false</cancelInvisibility>
@@ -315,7 +306,7 @@
 													<uiEvent href="" />
 												</DamageApplicator>
 											</Item>
-											<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="9BC828A9-EB22-4D19-8C8E-7EEE9AED246C">
+											<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="89052711-E68A-4F5B-B161-8E2BB38D35D5">
 												<AddApplicatorDuration>
 													<applicators>
 														<Item href="/Items/Talents/Class/Alchemist/status_A0_ClonAliveOnHero.APLR" />
@@ -345,7 +336,7 @@
 											<returnType>bool</returnType>
 											<sString>true</sString>
 										</enabled>
-										<placeSelector href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="E53F5EF4-0F3E-4AE8-BD87-EF39D688740B">
+										<placeSelector href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="94C1773B-6CCF-4129-A308-DB732574B7D1">
 											<ConvertTargetToLand>
 												<aggregateMode>First</aggregateMode>
 												<targetSelector href="/Items/Talents/Class/Alchemist/CloneTargetSelector.TGSL" />
@@ -358,7 +349,7 @@
 										</summonedUnitIndex>
 									</SummonApplicator>
 								</Item>
-								<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="D2B7843F-6DAC-4DE6-A5B4-7CDD5B74A596">
+								<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="0D9AB93E-D13F-4266-92D2-A91CCC96C2DE">
 									<RefreshCooldownApplicator>
 										<allowCdIncrease>false</allowCdIncrease>
 										<applyTarget>AbilityOwner</applyTarget>
@@ -385,7 +376,7 @@
 										<useListAs>ListAsRule</useListAs>
 									</RefreshCooldownApplicator>
 								</Item>
-								<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="5D5D6960-F5C9-49EE-9A4C-AC40ECCA2CE9">
+								<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="30579DC8-59E7-4D60-8C75-D64C0FBF7159">
 									<HealApplicator>
 										<amount>
 											<compiledString>FREAAAABAAAAHQAAAEE0X0Nsb25lS2lsbE1hbmEAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
@@ -418,14 +409,14 @@
 	<askId>4</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>А4. Мощь ртути</caption>
+	<caption>А4_2. Мощь серы</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="0E66D295-C6B3-4C60-80D5-D9ABF38A1847">
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="00C78918-93EA-48A6-AFA2-D8B99D7ADFCC">
 			<ConditionCastLimitation>
 				<condition>
 					<compiledString>FQ8AAAACAAAAOwAAAFEAAABBbGNoZW1pc3RDbG9uZQBVi+xRVotFCIsQi00Ii4KQAQAA/9CL8ItNDIsRi00Mi4KQAQAA/9A78HVAaAAAAACLTQyLEYtNDIuCiAEAAP/Q3B2JAAAA3+D2xAF1FYtNDIsRi00Mi4J8AQAA/9A7RQh0CcdF/AAAAADrB8dF/AEAAACKRfxei+VdwwAAAAAAAPA/</compiledString>
@@ -435,7 +426,7 @@
 				<uiEvent href="/UI/Events/ErrorMessages/CastError_NoValidCurrentTarget.UIEV" />
 			</ConditionCastLimitation>
 		</Item>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="689F3CDA-F416-40B8-A3E5-FC15698C9668">
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="63C93CA9-32B0-4B31-9ADD-ED71C74F7E92">
 			<ConditionCastLimitation>
 				<condition>
 					<compiledString>FR8AAAAEAAAAJQAAADsAAABtAAAAgwAAAEEwX0Nsb25lQ29sb3IAAABJbW11bmUyQ29udHJvbABVi+xRVmgAAAAAi0UIixCLTQiLgogBAAD/0NwdrgAAAN/g9sREelGLTQiLEYtNCIuCkAEAAP/Qi/CLTQyLEYtNDIuCkAEAAP/QO/B0K2gQAAAAi00MixGLTQyLgogBAAD/0NwdpgAAAN/g9sREewnHRfwAAAAA6wfHRfwBAAAAikX8XovlXcMAAAAAAAAAAAAAAAAAAPA/</compiledString>
@@ -445,32 +436,32 @@
 				<uiEvent href="/UI/Events/ErrorMessages/CastError_Immune2Ctrl.UIEV" />
 			</ConditionCastLimitation>
 		</Item>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="896B7A19-E90E-4F76-A4C7-16A7835A99E7">
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="512263D1-6BC4-48F2-8469-959A8917AB30">
 			<ConditionCastLimitation>
 				<condition>
-					<compiledString>FSAAAAACAAAAJQAAAD4AAABBbGNoZW1pc3RfQTRfMgAAQWxjaGVtaXN0X0E0dV8yAFWL7FFoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHUiaBAAAACLTQiLEYtNCIuCqAEAAP/QhcB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3D</compiledString>
+					<compiledString>FR4AAAACAAAAIwAAADwAAABBbGNoZW1pc3RfQTQAAAAAQWxjaGVtaXN0X0E0dQBVi+xRaAAAAACLRQiLEItNCIuCqAEAAP/QhcB1ImgQAAAAi00IixGLTQiLgqgBAAD/0IXAdQnHRfwBAAAA6wfHRfwAAAAAikX8i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>!sender.GetTalent( "Alchemist_A4_2" ) &amp;&amp; !sender.GetTalent( "Alchemist_A4u_2" )</sString>
+					<sString>!sender.GetTalent( "Alchemist_A4" ) &amp;&amp; !sender.GetTalent( "Alchemist_A4u" )</sString>
 				</condition>
 				<uiEvent href="" />
 			</ConditionCastLimitation>
 		</Item>
 	</castLimitations>
-	<commonDescription textref="/Items/Talents/Class/Alchemist/Ability_A4.TALENT_commonDescription.txt" />
+	<commonDescription textref="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
 	<conditionFormulas>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="FAE4B6FC-AEAA-4384-9E38-CD3717B7A57D">
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="370F3431-96B5-4A7D-9E38-84AF7C203383">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FR4AAAACAAAAJQAAAD4AAABBbGNoZW1pc3RfQTR1AAAAQWxjaGVtaXN0X0E0dQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABBbGNoZW1pc3RfQTR1XzIAQWxjaGVtaXN0X0E0dV8yAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Alchemist_A4u") == false</sString>
+					<sString>tal("Alchemist_A4u_2") == false</sString>
 				</condition>
-				<name>Alchemist_A4u</name>
+				<name>Alchemist_A4u_2</name>
 			</ConditionFormula>
 		</Item>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="BE89D92A-F809-45A5-9334-D754EDF5FC3F">
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="276A7522-8C4E-4E25-9875-DBBBBFA9669F">
 			<ConditionFormula>
 				<condition>
 					<compiledString>FQ4AAAACAAAAEwAAACkAAABBMF9DbG9uZUFsaXZlAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
@@ -480,7 +471,7 @@
 				<name>EnoughClones</name>
 			</ConditionFormula>
 		</Item>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="0342A6DA-3450-4104-AE49-6CC348B8F35E">
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="AA87D951-61CF-4AE6-8486-97DEBA90B370">
 			<ConditionFormula>
 				<condition>
 					<compiledString>FRIAAAACAAAAFwAAAC0AAABDbG9uZUlzRmFyRmFyQXdheQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1PAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
@@ -492,13 +483,13 @@
 		</Item>
 	</conditionFormulas>
 	<conflictingTalents>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" />
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4u_2.TALENT" />
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" />
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4u.TALENT" />
 	</conflictingTalents>
-	<constants href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="061DC1F9-476B-4AE4-991D-B254DD4EC5EA">
+	<constants href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="A9F5B9B4-92E3-4EB2-A703-C37D3CD3E833">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="4AA2E863-12EA-4CDD-BFCD-775F258258E6">
+				<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="300F6D05-AB12-4A4C-AAC1-5818DFF3D919">
 					<UnitConstant>
 						<name>A4_Range</name>
 						<var>
@@ -508,27 +499,27 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="4D642EA6-6370-4C1D-B621-B3F08E658590">
+				<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="E8BACA03-2C49-4B39-A94D-015ED089634F">
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAICMQwCQA0U=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAICTQwAgCkU=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sStrength, 281 , 2105)</sString>
+							<sString>damageScale( sStrength, 295 , 2210)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="A95ED55D-23F6-44FA-9D0E-AA71428BA95C">
+				<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="1A3086EE-A8F7-401C-81C8-0E9041307FBB">
 					<UnitConstant>
 						<name>Stun_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<compiledString>FTsAAAAFAAAASgAAAGQAAACMAAAApQAAAM0AAABBNF9TdHVuRHVyYXRpb25NYXgAAEE0X1N0dW5EdXJhdGlvbk1pbgAAQTRfU3R1bkR1cmF0aW9uTWluAFWL7IPsKItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoFAAAAItVEIsCi00Qi1BQ3V34/9LcbfiLRQyLEItNDIsC3V3w/9DcDfoAAACLTQyLEYtNDItCDN1d6P/Q3H3o3CXyAAAA2V3k2UXkUdkcJFHZ7tkcJOhEAAAAg8QI3E3wi00MUYtVCFJoKAAAAItFEIsQi00Qi0JQ3V3c/9DcRdzZXdjZRdiL5V3DAAAAAAAAAAAAAPA/AAAAAAAAAEBVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>3</sString>
+							<sString>(cA4_StunDurationMax - cA4_StunDurationMin) * max(0, 2*rLife/rMaxLife - 1 ) + cA4_StunDurationMin</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="B2FA2242-B0B4-4B97-A73A-0D024599AB16">
+				<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="EA7AEAEF-C507-4DA6-8B88-1025E03638A8">
 					<UnitConstant>
 						<name>A4_StunDurationMin</name>
 						<var>
@@ -538,7 +529,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="D3481E68-5608-4186-B909-3052E219C8AF">
+				<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="7803C353-639F-46CE-9CA1-4356A2896267">
 					<UnitConstant>
 						<name>A4_StunDurationMax</name>
 						<var>
@@ -548,7 +539,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="A905493E-865C-4FEA-B5D7-451F48361179">
+				<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="D71A469A-6C3E-4AD7-AC79-DBE89414AC24">
 					<UnitConstant>
 						<name>A4_CloneKillCD</name>
 						<var>
@@ -558,7 +549,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="AC67B6EA-9F08-4B11-AD57-03E347286FE3">
+				<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="804BB817-6113-4E65-BBF6-193CC01A1680">
 					<UnitConstant>
 						<name>A4_CloneKillMana</name>
 						<var>
@@ -568,7 +559,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="461752AE-611B-4A0B-9081-6ED6E56597E1">
+				<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="2FFAF210-BFE9-42C6-AE75-DED7181854FF">
 					<UnitConstant>
 						<name>A4_CD</name>
 						<var>
@@ -578,9 +569,19 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="FDFF9BFD-F397-4E46-8153-1F523DA79402">
+				<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="6FED2D80-B9FD-41C2-82C5-BA86AE81FC94">
 					<UnitConstant>
-						<name>Buff_Duration</name>
+						<name>Haste_AtkSpdAmount</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAAAAQQAAaEI=</compiledString>
+							<returnType>float</returnType>
+							<sString>abilityScale( sIntellect, 8 , 58)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="D287C568-0D4D-4A3E-AE5F-92D39A66D89A">
+					<UnitConstant>
+						<name>Haste_Duration</name>
 						<var>
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
 							<returnType>float</returnType>
@@ -598,7 +599,7 @@
 				<Item href="/Items/Talents/Class/Alchemist/const_MasterStatConnected_AttackSpeed" />
 				<Item href="/Items/Talents/Class/Alchemist/const_MasterStatConnected_Stamina" />
 				<Item href="/Items/Talents/Class/Alchemist/const_MasterStatConnected_Will" />
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="572C2F9D-E6A1-4AEE-9746-935A984D8C5B">
+				<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="9C687533-91AA-4322-AD22-D2E58649750F">
 					<UnitConstant>
 						<name>UltimateConstant</name>
 						<var>
@@ -608,27 +609,6 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="971F93CD-38A8-4E3F-957E-2FFC38B53835">
-					<UnitConstant>
-						<name>A4_Stun_MinLifePercent</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>20.0f</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="F0A3A93C-009D-4348-8696-CFA1C29A6928">
-					<UnitConstant>
-						<name>A4_Stun_MaxLifePercent</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
-							<returnType>float</returnType>
-							<sString>80.0f</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Alchemist/const_A4_BonusDamage" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -646,9 +626,9 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</cooldownTimeSecondState>
-	<description textref="/Items/Talents/Class/Alchemist/Ability_A4.TALENT_description.txt" />
+	<description textref="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT_description.txt" />
 	<devPoints>1</devPoints>
-	<dispatch href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="B477D9A9-9D07-4B1B-8F34-21C3FC6E1960">
+	<dispatch href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="D9E9A395-6365-47E5-B43E-D645D371FEEC">
 		<DispatchImmediate>
 			<alwaysApply>true</alwaysApply>
 			<applyEffect>
@@ -669,7 +649,7 @@
 	</dispatch>
 	<flags>19</flags>
 	<forceBonus>13</forceBonus>
-	<image href="/UI/Styles/Icons/Heroes/Alchemist/A4.ITEX" />
+	<image href="/UI/Styles/Icons/Heroes/Alchemist/A4_2.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -681,7 +661,7 @@
 		<sString>cA4_CloneKillMana</sString>
 	</manaCost>
 	<marker></marker>
-	<microAI href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="5981092A-358A-461B-89C9-A3A8A90D2680">
+	<microAI href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="0FF6C098-9540-4CEB-8252-F3131ED39A77">
 		<TargetSelectorMicroAI>
 			<castWhenIdle>false</castWhenIdle>
 			<condition>
@@ -689,10 +669,10 @@
 				<returnType>bool</returnType>
 				<sString>true ;  //sender.vA0_Clone_Alive &gt; 0</sString>
 			</condition>
-			<targetSelector href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="3AB49003-0298-48FE-889B-5A25224316C7">
+			<targetSelector href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="A92E8C20-EE10-4744-9434-A869687515C8">
 				<FirstTargetSelector>
 					<nearestTarget>false</nearestTarget>
-					<targetSelector href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="BD6117E7-CF02-4E13-9115-CEF8405047AA">
+					<targetSelector href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="1E25C8CE-30B6-47B7-9C5F-06D466494195">
 						<AreaTargetSelector>
 							<absolutePosition>
 								<x>0</x>
@@ -716,10 +696,10 @@
 	<minLevel>2</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>540</naftaCost>
-	<name textref="/Items/Talents/Class/Alchemist/Ability_A4.TALENT_name.txt" />
+	<name textref="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="1286ADB2-15F8-4868-89B8-57AF375053B2">
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="D457DA71-BD3E-4BFE-A22C-61FFCB8CFE46">
 			<FlagsApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
@@ -749,12 +729,12 @@
 					<sString>true</sString>
 				</startCondition>
 				<talents>
-					<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" />
+					<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" />
 				</talents>
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="66EE6B3F-81A8-42A3-A868-DCF891885C12">
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="E4B7F115-128E-4BC4-9CAB-943D76FED8F0">
 			<StatModApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
 				<behaviorFlags>136</behaviorFlags>
@@ -801,7 +781,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="6766F7A4-8FCC-4C6E-97EF-1CB5D6775F38">
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="B8FB2B23-5924-4AE0-AE55-53A33BEE6F38">
 			<TriggerApplicator>
 				<actionsCount>
 					<compiledString></compiledString>
@@ -828,7 +808,7 @@
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<playAck>false</playAck>
-				<processor href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="1F76ED53-59C5-4100-A940-A16B29DBCF40">
+				<processor href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="29B60436-8797-4756-BA30-FEB40F8F7F47">
 					<EventProcessorCondition>
 						<applyTarget>AbilityOwner</applyTarget>
 						<condition>
@@ -838,10 +818,10 @@
 						</condition>
 						<events>2097152</events>
 						<onlyParent>true</onlyParent>
-						<spell href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="4285D8FF-1EB3-41BB-A827-0A82216E8D21">
+						<spell href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="5ABC169C-61E0-404B-AA70-B2C7BCF04BB4">
 							<Spell>
 								<applicators>
-									<Item href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="FCF98CCC-E5EC-45C5-B270-FFEA20A11D51">
+									<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="887601C5-FFA3-427C-9B55-5A515B77BA73">
 										<ProgramApplicator>
 											<applicators>
 												<Item>
@@ -865,7 +845,7 @@
 													<stopEvents>0</stopEvents>
 												</Item>
 												<Item>
-													<applicator href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="E5E4FB33-5632-4A7C-8181-AAD1EA8266C2">
+													<applicator href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="AA07C96D-CC5E-4CED-B096-5E1C14371739">
 														<RefreshCooldownApplicator>
 															<allowCdIncrease>false</allowCdIncrease>
 															<applyTarget>AbilityOwner</applyTarget>
@@ -939,7 +919,7 @@
 										</ProgramApplicator>
 									</Item>
 								</applicators>
-								<dispatch href="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" id="1A582B0F-B529-4E6A-AFE9-5D9EB52FCAE0">
+								<dispatch href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="131B3FB6-6014-4A73-ACEB-524A677CB2B2">
 									<DispatchImmediate>
 										<alwaysApply>true</alwaysApply>
 										<applyEffect>
@@ -973,11 +953,11 @@
 			</TriggerApplicator>
 		</Item>
 	</passiveApplicators>
-	<persistentId>Alchemist_A4</persistentId>
+	<persistentId>Alchemist_A4_2</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>
 	<requireLineOfSight>false</requireLineOfSight>
-	<shortDescription textref="/Items/Talents/Class/Alchemist/Ability_A4.TALENT_shortDescription.txt" />
+	<shortDescription textref="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
 	<targetType>672923651</targetType>

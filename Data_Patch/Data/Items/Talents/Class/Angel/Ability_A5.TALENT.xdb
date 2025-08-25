@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
-	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -231,9 +231,9 @@
 				<formulaName></formulaName>
 				<image href="/UI/Styles/Icons/Heroes/Angel/A5.ITEX" />
 				<lifeTime>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+					<compiledString>FREAAAABAAAAHQAAAEE1X0dob3N0RHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 					<returnType>float</returnType>
-					<sString>7</sString>
+					<sString>cA5_GhostDuration</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<name textref="/Items/Talents/Class/Angel/Ability_A5.TALENT_2df97108e684490196461c39966117d3_name.txt" />

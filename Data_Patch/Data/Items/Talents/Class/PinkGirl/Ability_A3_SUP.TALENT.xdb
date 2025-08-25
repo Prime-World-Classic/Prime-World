@@ -1,16 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
+	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A0_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/PinkGirl_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="3" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2u.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/TalentList_Mighty/Angel_Mighty.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Duel_Int.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Elite_Int.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Elite_StrAsp.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Elite_StrDex.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Epic_Int.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/PinkGirl.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -33,7 +26,7 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>А5у.</caption>
+	<caption>А3_SUP. Сахарное буйство</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
@@ -44,34 +37,40 @@
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
 	<conditionFormulas>
-		<Item href="/Items/Talents/Class/Angel/Ability_A5u.TALENT" id="D1FB7960-81FC-4DF8-9718-3F1F5F0412AE">
+		<Item href="/Items/Talents/Class/PinkGirl/Ability_A3_SUP.TALENT" id="47749121-F034-496C-867B-20BC338DDE75">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FRUAAAACAAAAHAAAADUAAABBbmdlbF9BNQAAAABBbmdlbF9BNQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+					<compiledString>FRgAAAACAAAAHwAAADgAAABQaW5rR2lybF9BMwBQaW5rR2lybF9BMwBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Angel_A5") == false</sString>
+					<sString>tal("PinkGirl_A3") == false</sString>
 				</condition>
-				<name>Angel_A5</name>
+				<name>PinkGirl_A3</name>
 			</ConditionFormula>
 		</Item>
 	</conditionFormulas>
 	<conflictingTalents>
-		<Item href="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" />
-		<Item href="/Items/Talents/Class/Angel/Ability_A5_2u.TALENT" />
+		<Item href="/Items/Talents/Class/PinkGirl/Ability_A0_SUP.TALENT" />
 	</conflictingTalents>
-	<constants href="/Items/Talents/Class/Angel/Ability_A5u.TALENT" id="04BF7173-8990-4887-AB13-2A4E9EA432EA">
+	<constants href="/Items/Talents/Class/PinkGirl/Ability_A3_SUP.TALENT" id="80D2EEF7-DA31-4C08-9D40-152CD488100E">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Class/Angel/const_A5u_RangeBuff" />
-				<Item href="/Items/Talents/Class/Angel/const_A5u_CooldownDecrease" />
-				<Item href="/Items/Talents/Class/Angel/const_A5u_TTCDDecrease" />
-				<Item href="/Items/Talents/Class/Angel/Ability_A5u.TALENT" id="1B755D4B-4447-4073-A0D0-07F32EDCF517">
+				<Item href="/Items/Talents/Class/PinkGirl/Ability_A3_SUP.TALENT" id="BF9DEFD9-45AF-45F2-BE49-95E9005E44D4">
 					<UnitConstant>
-						<name>A5_GhostDuration</name>
+						<name>A3_BonusDefence</name>
 						<var>
-							<compiledString>FRYAAAACAAAAHQAAADYAAABBbmdlbF9BNXUAAABBbmdlbF9BNXUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPhA4PBA4lN9NtF9IvlXcM=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Angel_A5u")? 6 : 3</sString>
+							<sString>10</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/PinkGirl/Ability_A3_SUP.TALENT" id="2EC8B6A5-5B23-4817-A302-605D98EAD6DE">
+					<UnitConstant>
+						<name>A3_BonusCdReduction</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>5</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -92,12 +91,12 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</cooldownTimeSecondState>
-	<description textref="/Items/Talents/Class/Angel/Ability_A5u.TALENT_description.txt" />
+	<description textref="/Items/Talents/Class/PinkGirl/Ability_A3_SUP.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
 	<flags>1</flags>
-	<forceBonus>16</forceBonus>
-	<image href="/UI/Styles/Icons/Heroes/Angel/A5.ITEX" />
+	<forceBonus>0</forceBonus>
+	<image href="/UI/Styles/Icons/Heroes/PinkGirl/A3_SUP.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -110,15 +109,15 @@
 	</manaCost>
 	<marker></marker>
 	<microAI href="" />
-	<minLevel>3</minLevel>
+	<minLevel>4</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
-	<naftaCost>560</naftaCost>
-	<name textref="/Items/Talents/Class/Angel/Ability_A5u.TALENT_name.txt" />
+	<naftaCost>800</naftaCost>
+	<name textref="/Items/Talents/Class/PinkGirl/Ability_A3_SUP.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators />
-	<persistentId>Angel_A5u</persistentId>
+	<persistentId>PinkGirl_A3_SUP</persistentId>
 	<prerequisiteTalents>
-		<Item href="/Items/Talents/Class/Angel/Ability_A5.TALENT" />
+		<Item href="/Items/Talents/Class/PinkGirl/Ability_A3.TALENT" />
 	</prerequisiteTalents>
 	<rarity>Class</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
@@ -127,7 +126,7 @@
 	<talentStats />
 	<targetType>136258047</targetType>
 	<type>Passive</type>
-	<upgradeLevel>1</upgradeLevel>
+	<upgradeLevel>0</upgradeLevel>
 	<useRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>

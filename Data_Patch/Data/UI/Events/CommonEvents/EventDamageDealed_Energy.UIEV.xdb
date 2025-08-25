@@ -264,7 +264,7 @@
 	<BackLink DBID="/Maps/Test/PlaneMap/spawners/Test_Neutral.NCSPN" Count="1" />
 	<BackLink DBID="/Maps/Tutorial/Talents/Tutorial_ThunderGodA2.TALENT" Count="2" />
 	<BackLink DBID="/Summons/Bear/_.SUMMONED" Count="1" />
-	<BackLink DBID="/Summons/JackInTheBox/_.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/JackInTheBox/_.SUMMONED" Count="3" />
 	<BackLink DBID="/Summons/Rat/RatAutoatack.APLR" Count="1" />
 	<BackLink DBID="/Summons/Whisper/DamagingLink.SPLL" Count="1" />
 	<BackLink DBID="/Summons/Whisper/PvE_Coop1Explosion.APLR" Count="1" />

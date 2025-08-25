@@ -822,7 +822,7 @@
 						<var>
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>0.5</sString>
+							<sString>0.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

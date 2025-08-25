@@ -1,16 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
+	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A2_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentList_Mighty/Zealot_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="3" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2u.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/TalentList_Mighty/Angel_Mighty.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Duel_Int.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Elite_Int.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Elite_StrAsp.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Elite_StrDex.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Epic_Int.TALENTSET" Count="1" />
-	<BackLink DBID="/Test/Talents/Angel/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Zealot.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -33,7 +26,7 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>А5у.</caption>
+	<caption>А1_SUP. Смирение</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
@@ -44,34 +37,32 @@
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
 	<conditionFormulas>
-		<Item href="/Items/Talents/Class/Angel/Ability_A5u.TALENT" id="D1FB7960-81FC-4DF8-9718-3F1F5F0412AE">
+		<Item href="/Items/Talents/Class/Zealot/Ability_A1_SUP.TALENT" id="E4070B35-A0C4-444B-904C-12F152C8422A">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FRUAAAACAAAAHAAAADUAAABBbmdlbF9BNQAAAABBbmdlbF9BNQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+					<compiledString>FRYAAAACAAAAHQAAADYAAABaZWFsb3RfQTEAAABaZWFsb3RfQTEAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Angel_A5") == false</sString>
+					<sString>tal("Zealot_A1") == false</sString>
 				</condition>
-				<name>Angel_A5</name>
+				<name>Zealot_A1</name>
 			</ConditionFormula>
 		</Item>
 	</conditionFormulas>
 	<conflictingTalents>
-		<Item href="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" />
-		<Item href="/Items/Talents/Class/Angel/Ability_A5_2u.TALENT" />
+		<Item href="/Items/Talents/Class/Zealot/Ability_A2_SUP.TALENT" />
 	</conflictingTalents>
-	<constants href="/Items/Talents/Class/Angel/Ability_A5u.TALENT" id="04BF7173-8990-4887-AB13-2A4E9EA432EA">
+	<constants href="/Items/Talents/Class/Zealot/Ability_A1_SUP.TALENT" id="14A435C1-EB0A-4CFE-BE03-B922239284DF">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Class/Angel/const_A5u_RangeBuff" />
-				<Item href="/Items/Talents/Class/Angel/const_A5u_CooldownDecrease" />
-				<Item href="/Items/Talents/Class/Angel/const_A5u_TTCDDecrease" />
-				<Item href="/Items/Talents/Class/Angel/Ability_A5u.TALENT" id="1B755D4B-4447-4073-A0D0-07F32EDCF517">
+				<Item href="/Items/Talents/Class/Zealot/const_A1u_Silence_Duration" />
+				<Item href="/Items/Talents/Class/Zealot/const_A1_SUP_Slow_Percentage" />
+				<Item href="/Items/Talents/Class/Zealot/Ability_A1_SUP.TALENT" id="20A2D7BC-85BE-4B16-B207-DD5F535B5CAD">
 					<UnitConstant>
-						<name>A5_GhostDuration</name>
+						<name>A1_SUP_Slow_PercentageTT</name>
 						<var>
-							<compiledString>FRYAAAACAAAAHQAAADYAAABBbmdlbF9BNXUAAABBbmdlbF9BNXUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPhA4PBA4lN9NtF9IvlXcM=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Angel_A5u")? 6 : 3</sString>
+							<sString>25</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -92,12 +83,12 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</cooldownTimeSecondState>
-	<description textref="/Items/Talents/Class/Angel/Ability_A5u.TALENT_description.txt" />
+	<description textref="/Items/Talents/Class/Zealot/Ability_A1_SUP.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
 	<flags>1</flags>
-	<forceBonus>16</forceBonus>
-	<image href="/UI/Styles/Icons/Heroes/Angel/A5.ITEX" />
+	<forceBonus>0</forceBonus>
+	<image href="/UI/Styles/Icons/Heroes/Zealot/A1_SUP.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -110,24 +101,24 @@
 	</manaCost>
 	<marker></marker>
 	<microAI href="" />
-	<minLevel>3</minLevel>
+	<minLevel>4</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
-	<naftaCost>560</naftaCost>
-	<name textref="/Items/Talents/Class/Angel/Ability_A5u.TALENT_name.txt" />
+	<naftaCost>800</naftaCost>
+	<name textref="/Items/Talents/Class/Zealot/Ability_A1_SUP.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators />
-	<persistentId>Angel_A5u</persistentId>
+	<persistentId>Zealot_A1_SUP</persistentId>
 	<prerequisiteTalents>
-		<Item href="/Items/Talents/Class/Angel/Ability_A5.TALENT" />
+		<Item href="/Items/Talents/Class/Zealot/Ability_A1.TALENT" />
 	</prerequisiteTalents>
 	<rarity>Class</rarity>
-	<requireLineOfSight>true</requireLineOfSight>
+	<requireLineOfSight>false</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
 	<targetType>136258047</targetType>
 	<type>Passive</type>
-	<upgradeLevel>1</upgradeLevel>
+	<upgradeLevel>0</upgradeLevel>
 	<useRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>

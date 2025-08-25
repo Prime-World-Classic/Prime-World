@@ -205,6 +205,46 @@
 			</SpellApplicator>
 		</Item>
 		<Item href="/Items/Talents/Class/GhostLord/status_A4u_DeathSpectre.APLR" />
+		<Item href="/Items/Talents/Class/GhostLord/Ability_A4.TALENT" id="45B39B6E-7B58-4ED5-A4D3-051FC634EBC1">
+			<AuraApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Class/GhostLord/status_A4u_DamageBuff.APLR" />
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>2</behaviorFlags>
+				<caption>Аура увеличения урона</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FTMAAAAEAAAAOgAAAFMAAACJAAAAnwAAAEdob3N0TG9yZF9BNHUAAABHaG9zdExvcmRfQTR1AAAAR2hvc3RfQXR0YWNrRW5hYmxlAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdCtoIAAAAItVCIsCi00Ii5CIAQAA/9LcHcEAAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("GhostLord_A4u") &amp;&amp; sender.vGhost_AttackEnable ==1</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+					<returnType>float</returnType>
+					<sString>-1</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<range>
+					<compiledString>FQsAAAABAAAAFwAAAEJ1ZmZfUmFuZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+					<returnType>float</returnType>
+					<sString>cBuff_Range</sString>
+				</range>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<targets>1342177283</targets>
+				<targetSelector href="" />
+				<type>Ally</type>
+			</AuraApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/GhostLord/A4_SetNewA1Duration.APLR" />
 		<Item href="/Items/Talents/Class/GhostLord/Ability_A4.TALENT" id="284A886B-0E47-42F7-8517-A14F369440BC">
 			<RefreshCooldownApplicator>

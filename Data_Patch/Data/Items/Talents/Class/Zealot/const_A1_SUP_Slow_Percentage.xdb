@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A1_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A1u.TALENT" Count="1" />
+	<name>A1_SUP_Slow_Percentage</name>
+	<var>
+		<compiledString>FR4AAAACAAAAJQAAAD4AAABaZWFsb3RfQTFfU1VQAAAAWmVhbG90X0ExX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Tfv32RvJg+EZg8EZiU3020X0i+Vdww==</compiledString>
+		<returnType>float</returnType>
+		<sString>tal("Zealot_A1_SUP")? 50 : 25</sString>
+	</var>
+</UnitConstant>
