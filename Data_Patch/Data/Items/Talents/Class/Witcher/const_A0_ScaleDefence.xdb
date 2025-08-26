@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/witcher/Ability1.TALENT" Count="1" />
+	<name>A0_ScaleDefence</name>
+	<var>
+		<compiledString>FQAAAAABAAAACAAAAFWL7GoAUdkFXwAAANkcJFHZ6NkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOgfAAAAg8QE2RwkagCLTRCLEYtNEItCYP/QXcMAAIA/ZmbGQFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+		<returnType>float</returnType>
+		<sString>abilityScale (max(sStrength,sIntellect), 1, 6.2, false)</sString>
+	</var>
+</UnitConstant>
