@@ -221,9 +221,9 @@
 					<UnitConstant>
 						<name>A3_ScaleHeal</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAQQQAAhkI=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABQQQAAvkI=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 9, 67)</sString>
+							<sString>damageScale(sIntellect, 13, 95)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

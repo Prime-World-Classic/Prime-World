@@ -91,9 +91,9 @@
 										<flag>86246277</flag>
 										<formulaName>CloneIsCasting</formulaName>
 										<lifeTime>
-											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 											<returnType>float</returnType>
-											<sString>10</sString>
+											<sString>1</sString>
 										</lifeTime>
 										<LoggingEvent>-1</LoggingEvent>
 										<providerName></providerName>
