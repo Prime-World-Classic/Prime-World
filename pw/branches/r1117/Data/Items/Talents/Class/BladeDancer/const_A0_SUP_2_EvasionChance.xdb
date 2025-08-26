@@ -8,8 +8,8 @@
 	<BackLink DBID="/Items/Talents/Class/BladeDancer/Ability_A4.TALENT" Count="1" />
 	<name>A0_SUP_2_EvasionChance</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>5.0f</sString>
+		<sString>8.0f</sString>
 	</var>
 </UnitConstant>

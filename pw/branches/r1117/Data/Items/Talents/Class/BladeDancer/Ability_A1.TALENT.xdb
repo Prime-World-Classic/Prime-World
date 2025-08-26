@@ -142,9 +142,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+		<compiledString>FVUAAAAEAAAAXAAAAHUAAACrAAAAxAAAAEJsYWRlRGFuY2VyX0EwX1NVUAAAQmxhZGVEYW5jZXJfQTBfU1VQAABCbGFkZURhbmNlcl9BMF9TVVBfMgAAAABCbGFkZURhbmNlcl9BMF9TVVBfMgBVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXVYaCgAAACLVQiLAotNCIuQqAEAAP/ShcB0KmhAAAAAi0UIixCLTQiLgqgBAAD/0IlF9ItN9IsRi030i0IE/9CIRfPrBMZF8wAPtk3zhcl1CcdF7AYAAADrB8dF7AUAAADbReyL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>6</sString>
+		<sString>(tal("BladeDancer_A0_SUP") || tal("BladeDancer_A0_SUP_2") )? 5: 6</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

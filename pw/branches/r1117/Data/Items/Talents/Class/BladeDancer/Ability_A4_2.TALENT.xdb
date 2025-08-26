@@ -428,9 +428,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6Qw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>250</sString>
+		<sString>200</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/BladeDancer/Ability_A4_2.TALENT" id="AA5FA207-CDAF-40C3-9901-E2987211D8E4">

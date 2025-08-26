@@ -110,9 +110,9 @@
 					<UnitConstant>
 						<name>A0_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>7.0f</sString>
+							<sString>8.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

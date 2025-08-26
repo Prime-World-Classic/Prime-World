@@ -793,9 +793,9 @@
 					<UnitConstant>
 						<name>A4_BaseDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADIQQAAO0M=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQgAAAkQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 25, 187)</sString>
+							<sString>damageScale(sStrength, 80, 520)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -803,9 +803,9 @@
 					<UnitConstant>
 						<name>A4_StackDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAAQQAAcEI=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABwQQAAqkI=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 8, 60)</sString>
+							<sString>damageScale(sStrength, 15, 85)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -856,9 +856,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>300</sString>
+		<sString>200</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/Witcher/Ability_A4.TALENT" id="382807F3-3B55-4A59-9E99-28D9ED071026">

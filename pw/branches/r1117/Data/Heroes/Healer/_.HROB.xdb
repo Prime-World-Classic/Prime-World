@@ -690,9 +690,9 @@
 				<Item href="/Heroes/Healer/_.HROB" id="AF90A75B-33BC-40CE-9CBB-A6FAD77AD809">
 					<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero.APLR">
 						<damage>
-							<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9CFwHRgi00MixGLTQyLQlD/0IP4AXROi00IixGLTQiLggQBAAD/0FHZHCTohgAAAIPEBFCLTQiLEYtNCIuCAAEAAP/QUdkcJOhpAAAAg8QEUItNEIsRi00Qi0Jc/9DR4IlF/OtKi00IixGLTQiLggQBAAD/0FHZHCToOAAAAIPEBFCLTQiLEYtNCIuCAAEAAP/QUdkcJOgbAAAAg8QEUItNEIsRi00Qi0Jc/9CJRfzbRfyL5V3DuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9CD+AMPhK4AAACLTQyLEYtNDItCUP/Qg/gED4SYAAAAi00MixGLTQyLQlD/0IP4BQ+EggAAAItNDIsRi00Mi0JQ/9CD+BJ0cItNDIsRi00Mi0JQ/9CD+BN0XotNDIsRi00Mi0JQ/9CD+BR0TItNCIsRi00Ii4IEAQAA/9BR2Rwk6IYAAACDxARQi00IixGLTQiLggABAAD/0FHZHCToaQAAAIPEBFCLTRCLEYtNEItCXP/QiUX860yLTQiLEYtNCIuCBAEAAP/QUdkcJOg6AAAAg8QEUItNCIsRi00Ii4IAAQAA/9BR2Rwk6B0AAACDxARQi00QixGLTRCLQlz/0NHgiUX820X8i+Vdw7gBAAAAD6L3wgAAAAR0B/MPLEQkBMPpAAAAAFWL7IPsDNlFCNl9/A+3RfwNAAwAAIlF+Nlt+Ntd9Nlt/ItF9IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>(rUnitKind ==0 || rUnitKind ==1)? random ( f2l(sDamageMin), f2l(sDamageMax)) : (random ( f2l(sDamageMin), f2l(sDamageMax)))*2</sString>
+							<sString>(rUnitKind ==3 || rUnitKind ==4 ||rUnitKind ==5 || rUnitKind == 18 || rUnitKind== 19|| rUnitKind== 20)? random ( f2l(sDamageMin), f2l(sDamageMax))*2 : (random ( f2l(sDamageMin), f2l(sDamageMax)))</sString>
 						</damage>
 					</DamageApplicator>
 				</Item>

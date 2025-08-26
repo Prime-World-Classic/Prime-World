@@ -64,9 +64,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FTMAAAAHAAIAQgAAAFwAAABxAAAAjQAAAMkAAADZAAAA+AAAAEQBAAB3AQAAQWRkX1N0YXRfQmFzZQAAAEFkZF9BbGx5X1N0YXQAAABTb21lRnJpZW5kc0NvdW50ZXIAVYvsg+wUi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgQAAAAi1UQiwKLTRCLUFDdXfj/0mggAAAAi0UIixCLTQiLgogBAADdXfD/0NxN8Nw1tgAAANno3sHcTfjZXezZRexR2Rwk6BcAAACDxASL5V3DAAAAAAAA8D8AAAAAAABZQFWL7IPsCNlFCNwdGgEAAN/g9sQBdR/ZRQjcBRIBAADZXfzZRfxR2Rwk6GkAAACDxATrHesb2UUI3CUSAQAA2V342UX4UdkcJOgXAAAAg8QEi+VdwwAAAAAAAOA/AAAAAAAAAABVi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCTosv7//4PECNld/NlF/IvlXcNVi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCToef7//4PECNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FWUAAAAKAAIAdAAAAI4AAACjAAAAvwAAANMAAADoAAAABAEAAEABAABQAQAAbwEAALsBAADuAQAAQWRkX1N0YXRfQmFzZQAAAEFkZF9BbGx5X1N0YXQAAABTb21lRnJpZW5kc0NvdW50ZXIAAEFkZF9BbGx5X1N0YXRfQ3JlZXBzAAAAAFNvbWVGcmllbmRzQ291bnRlckNyZWVwcwBVi+yD7CSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaBAAAACLVRCLAotNEItQUN1d+P/SaCAAAACLRQiLEItNCIuCiAEAAN1d8P/Q3E3w3DUtAQAA2ejewdxN+ItNDFGLVQhSaDQAAACLRRCLEItNEItCUN1d6P/QaEwAAACLTQiLEYtNCIuCiAEAAN1d4P/Q3E3g3DUtAQAA2ejewdxN6Nld3NlF3FHZHCToFwAAAIPEBIvlXcMAAAAAAADwPwAAAAAAAFlAVYvsg+wI2UUI3B2RAQAA3+D2xAF1H9lFCNwFiQEAANld/NlF/FHZHCToaQAAAIPEBOsd6xvZRQjcJYkBAADZXfjZRfhR2Rwk6BcAAACDxASL5V3DAAAAAAAA4D8AAAAAAAAAAFWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOg7/v//g8QI2V382UX8i+Vdw1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOgC/v//g8QI2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>round(cAdd_Stat_Base * (1+cAdd_Ally_Stat * sender.vSomeFriendsCounter / 100))</sString>
+							<sString>round(cAdd_Stat_Base * (1+cAdd_Ally_Stat * sender.vSomeFriendsCounter / 100)*(1+cAdd_Ally_Stat_Creeps * sender.vSomeFriendsCounterCreeps / 100))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -74,9 +74,9 @@
 					<UnitConstant>
 						<name>Add_Stamina</name>
 						<var>
-							<compiledString>FTsAAAAHAAIASgAAAGQAAAB5AAAAlQAAANEAAADhAAAAAAEAAEwBAAB/AQAAQWRkX1N0YW1pbmFfQmFzZQAAAABBZGRfQWxseV9TdGFtaW5hAAAAAFNvbWVGcmllbmRzQ291bnRlcgBVi+yD7BSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaBQAAACLVRCLAotNEItQUN1d+P/SaCgAAACLRQiLEItNCIuCiAEAAN1d8P/Q3E3w3DW+AAAA2ejewdxN+Nld7NlF7FHZHCToFwAAAIPEBIvlXcMAAAAAAADwPwAAAAAAAFlAVYvsg+wI2UUI3B0iAQAA3+D2xAF1H9lFCNwFGgEAANld/NlF/FHZHCToaQAAAIPEBOsd6xvZRQjcJRoBAADZXfjZRfhR2Rwk6BcAAACDxASL5V3DAAAAAAAA4D8AAAAAAAAAAFWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOiq/v//g8QI2V382UX8i+Vdw1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhx/v//g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FW0AAAAKAAIAfAAAAJYAAACrAAAAxwAAANsAAADwAAAADAEAAEgBAABYAQAAdwEAAMMBAAD2AQAAQWRkX1N0YW1pbmFfQmFzZQAAAABBZGRfQWxseV9TdGFtaW5hAAAAAFNvbWVGcmllbmRzQ291bnRlcgAAQWRkX0FsbHlfU3RhbWluYV9DcmVlcHMAU29tZUZyaWVuZHNDb3VudGVyQ3JlZXBzAFWL7IPsJItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoFAAAAItVEIsCi00Qi1BQ3V34/9JoKAAAAItFCIsQi00Ii4KIAQAA3V3w/9DcTfDcNTUBAADZ6N7B3E34i00MUYtVCFJoPAAAAItFEIsQi00Qi0JQ3V3o/9BoVAAAAItNCIsRi00Ii4KIAQAA3V3g/9DcTeDcNTUBAADZ6N7B3E3o2V3c2UXcUdkcJOgXAAAAg8QEi+VdwwAAAAAAAPA/AAAAAAAAWUBVi+yD7AjZRQjcHZkBAADf4PbEAXUf2UUI3AWRAQAA2V382UX8UdkcJOhpAAAAg8QE6x3rG9lFCNwlkQEAANld+NlF+FHZHCToFwAAAIPEBIvlXcMAAAAAAADgPwAAAAAAAAAAVYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6DP+//+DxAjZXfzZRfyL5V3DVYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6Pr9//+DxAjZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>round(cAdd_Stamina_Base *(1 + cAdd_Ally_Stamina * sender.vSomeFriendsCounter / 100))</sString>
+							<sString>round(cAdd_Stamina_Base *(1 + cAdd_Ally_Stamina * sender.vSomeFriendsCounter / 100)*(1 + cAdd_Ally_Stamina_Creeps * sender.vSomeFriendsCounterCreeps / 100))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -127,6 +127,26 @@
 							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 							<returnType>float</returnType>
 							<sString>cRange_ExLong</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Mowgli/Ability2.TALENT" id="0559972F-1F53-4351-B860-29165A3523EF">
+					<UnitConstant>
+						<name>Add_Ally_Stat_Creeps</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Mowgli/Ability2.TALENT" id="67A4C76A-62AF-45E5-BEDC-C7B51BD506CE">
+					<UnitConstant>
+						<name>Add_Ally_Stamina_Creeps</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -246,11 +266,76 @@
 				</targetSelector>
 			</TargetsCounterApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Mowgli/Ability2.TALENT" id="5D44F365-5A0B-4BFC-BA8B-173FD5C873D3">
+			<TargetsCounterApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Считаем друзей крипов</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName>FriendsCountCreeps</formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<targetSelector href="/Items/Talents/Class/Mowgli/Ability2.TALENT" id="B25A0E72-7388-40D3-AE89-FD6FF48356A8">
+					<ListOfTargetSelectors>
+						<flags>0</flags>
+						<mode>Normal</mode>
+						<targetSelectors>
+							<Item href="/Items/Talents/Class/Mowgli/Ability2.TALENT" id="96CCE2FA-6635-4B88-BB5B-46D021AC31A6">
+								<ConditionTargetSelector>
+									<condition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</condition>
+									<flags>0</flags>
+									<mode>Normal</mode>
+									<targetSelector href="/Items/Talents/Class/Mowgli/Ability2.TALENT" id="FA7BC210-FF5B-4A4F-A6B3-E6A408801070">
+										<AreaTargetSelector>
+											<absolutePosition>
+												<x>0</x>
+												<y>0</y>
+											</absolutePosition>
+											<flags>0</flags>
+											<mode>Normal</mode>
+											<range>
+												<compiledString>FQgAAAABAAAAFAAAAFJhbmdlQTIAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+												<returnType>float</returnType>
+												<sString>cRangeA2</sString>
+											</range>
+											<targetFilter>268435480</targetFilter>
+											<targetSelector href="" />
+										</AreaTargetSelector>
+									</targetSelector>
+								</ConditionTargetSelector>
+							</Item>
+						</targetSelectors>
+					</ListOfTargetSelectors>
+				</targetSelector>
+			</TargetsCounterApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/Mowgli/Ability2.TALENT" id="684C669B-1B4F-4175-B117-1DB2E456171A">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
-				<caption></caption>
+				<caption>волки и герои переменная счетчика</caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
 				<effect>
@@ -283,6 +368,53 @@
 					<stat>Life</stat>
 					<topModifier>false</topModifier>
 					<variable>SomeFriendsCounter</variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Mowgli/Ability2.TALENT" id="06F564AB-6E2C-418B-B147-5165A0BF6505">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>крипы переменная счетчика</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FSEAAAACAAAALAAAAEQAAABGcmllbmRzQ291bnRDcmVlcHMAAHRhcmdldHNDb3VudABVi+xRagGLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QiUX8aBQAAACLTfyLEYtN/ItCVP/Qi+Vdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>sender.FindApplicator( "FriendsCountCreeps", pMisc, UNIT )-&gt;GetVariable( "targetsCount" )</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>SomeFriendsCounterCreeps</variable>
 				</modifier>
 				<providerName></providerName>
 				<startCondition>
