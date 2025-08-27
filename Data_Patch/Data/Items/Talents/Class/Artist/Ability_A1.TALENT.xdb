@@ -5265,9 +5265,9 @@
 					<UnitConstant>
 						<name>A1_DamageBase</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADoQgAAW0Q=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADSQgCAR0Q=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sStrength,116 , 876 )</sString>
+							<sString>damageScale( sStrength,105 , 798 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>

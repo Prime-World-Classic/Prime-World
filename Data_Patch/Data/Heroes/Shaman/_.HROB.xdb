@@ -691,9 +691,9 @@
 						<caption>Отключаем стан</caption>
 						<customApplyType>None</customApplyType>
 						<enabled>
-							<compiledString>FR4AAAACAAAAJQAAAD4AAABTaGFtYW5fQTJfU1VQAAAAU2hhbWFuX0EyX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 							<returnType>bool</returnType>
-							<sString>tal("Shaman_A2_SUP")</sString>
+							<sString>true</sString>
 						</enabled>
 						<formulaName></formulaName>
 						<LoggingEvent>-1</LoggingEvent>
