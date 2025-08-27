@@ -204,6 +204,28 @@
 											<spell href="/Items/Talents/Class/Archeress/Ability_A1.TALENT" id="C8F892F2-220A-40AA-BA2D-F63DDC9E90EC">
 												<Spell>
 													<applicators>
+														<Item href="/Items/Talents/Class/Archeress/Ability_A1.TALENT" id="4AE2FA35-A57D-4777-BFCB-A7855250E51F">
+															<HealApplicator>
+																<amount>
+																	<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLQjj/0F3D</compiledString>
+																	<returnType>float</returnType>
+																	<sString>sLifeDrain</sString>
+																</amount>
+																<applyTarget>AbilityOwner</applyTarget>
+																<caption>лечение</caption>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName>Heal</formulaName>
+																<healTarget>Health</healTarget>
+																<ignoreHealingMods>false</ignoreHealingMods>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+															</HealApplicator>
+														</Item>
 														<Item href="/Items/Talents/Class/Archeress/Ability_A1.TALENT" id="E3C232DD-B208-4402-88F6-42065D105B26">
 															<DamageApplicator parent="/Items/Talents/Class/Archeress/PhysDamage.APLR">
 																<damage>
@@ -221,7 +243,7 @@
 																	<returnType>float</returnType>
 																	<sString>cEnergyDamage * nt(cTerrainMultiplier, 1)</sString>
 																</damage>
-																<damageMode>9</damageMode>
+																<damageMode>8</damageMode>
 																<enabled>
 																	<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 																	<returnType>bool</returnType>
