@@ -191,9 +191,9 @@
 					<UnitConstant>
 						<name>MasterStatConnected_Life</name>
 						<var>
-							<compiledString>FQwAAAADAAAAFwAAACEAAAB1AAAAQmlnV29sZkJ1ZmYAVYvsg+wMagFR2QWaAAAA2RwkUdkFlgAAANkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOhHAAAAg8QE2RwkagCLTRCLEYtNEItCYP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcTfjZXfTZRfSL5V3DAADoQgCAWURVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<compiledString>FQwAAAADAAAAFwAAACEAAAB1AAAAQmlnV29sZkJ1ZmYAVYvsg+wMagFR2QWaAAAA2RwkUdkFlgAAANkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOhHAAAAg8QE2RwkagCLTRCLEYtNEItCYP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcTfjZXfTZRfSL5V3DAAAuQwAgo0RVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale( max( sStrength, sIntellect ), 116, 870 ) * cBigWolfBuff</sString>
+							<sString>abilityScale( max( sStrength, sIntellect ), 174, 1305 ) * cBigWolfBuff</sString>
 						</var>
 					</UnitConstant>
 				</Item>
