@@ -221,7 +221,7 @@
 																	<returnType>float</returnType>
 																	<sString>cEnergyDamage * nt(cTerrainMultiplier, 1)</sString>
 																</damage>
-																<damageMode>8</damageMode>
+																<damageMode>9</damageMode>
 																<enabled>
 																	<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 																	<returnType>bool</returnType>
@@ -667,9 +667,9 @@
 					<UnitConstant>
 						<name>MaterialDamageBase</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACMQgAAekM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DzcycQgAAjEM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 70, 250)</sString>
+							<sString>damageScale(sIntellect, 78.4, 280)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -677,9 +677,9 @@
 					<UnitConstant>
 						<name>EnergyDamageBase</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACMQgAAekM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DzcycQgAAjEM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 70, 250)</sString>
+							<sString>damageScale(sIntellect, 78.4, 280)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

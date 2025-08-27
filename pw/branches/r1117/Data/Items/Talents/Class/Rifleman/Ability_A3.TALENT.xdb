@@ -225,9 +225,9 @@
 					<UnitConstant>
 						<name>A3_Range</name>
 						<var>
-							<compiledString>FRQAAAACAAAAIQAAADQAAABBNF8ydV9BM19Cb251c1JhbmdlAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFQgAAANld/NlF/IvlXcMAAAAAAAAcQA==</compiledString>
+							<compiledString>FRQAAAACAAAAIQAAADQAAABBNF8ydV9BM19Cb251c1JhbmdlAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFQgAAANld/NlF/IvlXcMAAAAAAAAoQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>7 +  cA4_2u_A3_BonusRange</sString>
+							<sString>12 +  cA4_2u_A3_BonusRange</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -317,9 +317,9 @@
 					<UnitConstant>
 						<name>A3_CD</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC4QQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>25</sString>
+							<sString>23</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -543,9 +543,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAHQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
 		<returnType>float</returnType>
-		<sString>135</sString>
+		<sString>90</sString>
 	</manaCost>
 	<marker>doCast3</marker>
 	<microAI href="" />

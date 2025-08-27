@@ -813,9 +813,9 @@
 					<UnitConstant>
 						<name>EnergyDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABEQgCAtUM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABoQgCA2UM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 49, 363)</sString>
+							<sString>damageScale( sIntellect, 58, 435)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -823,9 +823,9 @@
 					<UnitConstant>
 						<name>MaterialDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABEQgCAtUM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABoQgCA2UM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sStrength, 49, 363)</sString>
+							<sString>damageScale( sStrength, 58, 435)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -5,8 +5,8 @@
 	<BackLink DBID="/Heroes/Shaman/_.HROB" Count="1" />
 	<name>Stun_Duration</name>
 	<var>
-		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+		<compiledString>FR4AAAADAAAAJQAAAD4AAAB1AAAAU2hhbWFuX0EyX1NVUAAAAFNoYW1hbl9BMl9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0C9kFjgAAANld9OsF2ejZXfTZRfSL5V3DAACAP2Zmpj8=</compiledString>
 		<returnType>float</returnType>
-		<sString>1.0f</sString>
+		<sString>tal("Shaman_A2_SUP")? 1.3f :1.0f</sString>
 	</var>
 </UnitConstant>

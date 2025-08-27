@@ -55,6 +55,26 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Shaman/const_A2_SUP_Stun_Duration" />
+				<Item href="/Items/Talents/Class/Shaman/Ability_A2_SUP.TALENT" id="2CC53DF8-0C6C-402C-A985-6525DB624A2E">
+					<UnitConstant>
+						<name>Stun_Duration_Bonus</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+							<returnType>float</returnType>
+							<sString>0.3f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Shaman/Ability_A2_SUP.TALENT" id="768FA33E-E82C-4449-ACC4-F3C64CA5AB5D">
+					<UnitConstant>
+						<name>Range_Bonus</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

@@ -811,9 +811,9 @@
 														<Item href="" />
 													</effect>
 													<enabled>
-														<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgkABAAD/0ItNCIsRi00Ii4JEAQAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+														<compiledString>FSYAAAACAAAALQAAAEYAAABSYXRjYXRjaGVyX0EyX1NVUAAAAFJhdGNhdGNoZXJfQTJfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDaLVQiLAotNCIuQQAEAAP/Si0UIixCLTQiLgkQBAADdXfD/0Nxd8N/g9sRBegnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
 														<returnType>bool</returnType>
-														<sString>sStamina&gt;=sWill</sString>
+														<sString>tal("Ratcatcher_A2_SUP") &amp;&amp; sStamina&gt;=sWill</sString>
 													</enabled>
 													<formulaName></formulaName>
 													<lifeTime>
@@ -858,9 +858,9 @@
 														<Item href="" />
 													</effect>
 													<enabled>
-														<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgkABAAD/0ItNCIsRi00Ii4JEAQAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+														<compiledString>FSYAAAACAAAALQAAAEYAAABSYXRjYXRjaGVyX0EyX1NVUAAAAFJhdGNhdGNoZXJfQTJfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDaLVQiLAotNCIuQQAEAAP/Si0UIixCLTQiLgkQBAADdXfD/0Nxd8N/g9sRBdQnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
 														<returnType>bool</returnType>
-														<sString>sStamina&lt;sWill</sString>
+														<sString>tal("Ratcatcher_A2_SUP") &amp;&amp; sStamina&lt;sWill</sString>
 													</enabled>
 													<formulaName></formulaName>
 													<lifeTime>

@@ -239,6 +239,16 @@
 				<name>Archeress_A2_SUP</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Archeress/Ability_A2.TALENT" id="7BC7CCB6-C716-4A4F-A04B-244A1A0589B4">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsAAAAD/0ItNCIsRi00Ii4KMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseDexterity&gt;=sBaseAttackSpeed</sString>
+				</condition>
+				<name>ArchDexterity</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Archeress/Ability_A2.TALENT" id="164B23B0-41B2-4C43-843F-FB861C4A3DAD">

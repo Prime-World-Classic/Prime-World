@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A3u.TALENT" Count="1" />
 	<name>A3yCD_Reduction</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>9</sString>
+		<sString>10</sString>
 	</var>
 </UnitConstant>
