@@ -704,7 +704,7 @@ std::string WebLauncherPostRequest::CreateDebugSession()
   Json::Value players;
   
   Json::Value player;
-  player["id"] = Json::Value (1);
+  player["id"] = Json::Value (131);
   player["nickname"] = Json::Value ("Rekongstor");
   player["muteChat"] = Json::Value (false);
   player["hero"] = Json::Value (29);
@@ -733,9 +733,15 @@ std::string WebLauncherPostRequest::CreateDebugSession()
   player["rating"] = rating;
   player["build"] = build;
   player["bar"] = bar;
+
+  Json::Value player2 = player;
+  player2["id"] = Json::Value (123456789);
+  player2["nickname"] = Json::Value ("RekongstorRekongstor");
+  player2["team"] = Json::Value (1);
   
-  players.resize(1);
+  players.resize(2);
   players[0] = player;
+  players[1] = player2;
 
   Json::Value data;
   data["sessionToken"] = Json::Value (SESSION_TOKEN);
