@@ -117,8 +117,6 @@
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Frogenglut/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Frogenglut/Ability4_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/GhostLord/A2_Ally.SPLL" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/GhostLord/A2_Enemy.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunner/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunner/Ability_A2.TALENT" Count="1" />
@@ -127,7 +125,7 @@
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/spell_A3_MarkDamage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/A4_2_SpellSwitch.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/ArrowDispatch.DSCH" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/ArrowDispatch10.DSCH" Count="1" />
@@ -136,7 +134,7 @@
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A4.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Katana/status_A0_SUP_Burn.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Katana/status_A0_SUP_Burn_UP.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Mage/A1Spell.SPLL" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Mage/A4_SummonDemon.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Mage/status_A4_2_DemonForm.APLR" Count="2" />
@@ -151,7 +149,7 @@
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/appl_A0_EnemySpell.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability3.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Naga/A2u2Damage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Night/A2uDamage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Night/Ability2.TALENT" Count="1" />
@@ -183,7 +181,7 @@
 	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/SnowQueen/status_A3_IceShiverAlly.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/SnowQueen/status_A3_IceShiverEnemy.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/_A0_SUP_Strike.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability2.TALENT" Count="14" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability3.TALENT" Count="1" />
@@ -266,7 +264,7 @@
 	<BackLink DBID="/Maps/Test/PlaneMap/spawners/Test_Neutral.NCSPN" Count="1" />
 	<BackLink DBID="/Maps/Tutorial/Talents/Tutorial_ThunderGodA2.TALENT" Count="2" />
 	<BackLink DBID="/Summons/Bear/_.SUMMONED" Count="1" />
-	<BackLink DBID="/Summons/JackInTheBox/_.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/JackInTheBox/_.SUMMONED" Count="3" />
 	<BackLink DBID="/Summons/Rat/RatAutoatack.APLR" Count="1" />
 	<BackLink DBID="/Summons/Whisper/DamagingLink.SPLL" Count="1" />
 	<BackLink DBID="/Summons/Whisper/PvE_Coop1Explosion.APLR" Count="1" />
@@ -279,6 +277,7 @@
 	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/RiverA.TOWR" Count="2" />
 	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateA.TOWR" Count="2" />
 	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateB.TOWR" Count="2" />
+	<BackLink DBID="/Items/Talents/Level3/G101_LifeReg-Str.TALENT" Count="1" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" id="FCDDC7F1-12E2-4611-8C2F-927182843C56">

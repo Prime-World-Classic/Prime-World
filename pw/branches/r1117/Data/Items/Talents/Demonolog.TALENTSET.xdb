@@ -152,7 +152,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G498_Blink.TALENT" />
+					<talent href="/Items/Talents/Level4/G710_StrOrInt_SummonBuff.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -208,7 +208,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G574_StatViaHighestStat.TALENT" />
+					<talent href="/Items/Talents/Level6/G712_Str_DexOrAtSpd.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -220,7 +220,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G618_Str.TALENT" />
+					<talent href="/Items/Talents/Level6/G713_Int_DexOrAtSpd.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>

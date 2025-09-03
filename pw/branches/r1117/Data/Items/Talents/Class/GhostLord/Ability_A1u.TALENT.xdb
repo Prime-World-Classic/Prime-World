@@ -64,6 +64,26 @@
 				<Item href="/Items/Talents/Class/GhostLord/const_A1u_IncHealingPerTick" />
 				<Item href="/Items/Talents/Class/GhostLord/const_A1_Duration" />
 				<Item href="/Items/Talents/Class/GhostLord/const_A1_Period" />
+				<Item href="/Items/Talents/Class/GhostLord/Ability_A1u.TALENT" id="C8321F26-CA42-4336-ABCE-47EA1E1AF0FE">
+					<UnitConstant>
+						<name>Haste_Percent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>20</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/GhostLord/Ability_A1u.TALENT" id="8C46E42D-8278-4FDB-AF88-F97AE1D1699D">
+					<UnitConstant>
+						<name>Haste_Percent_Self</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

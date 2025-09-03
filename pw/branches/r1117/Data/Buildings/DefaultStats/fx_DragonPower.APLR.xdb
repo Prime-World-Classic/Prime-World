@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FlagsApplicator>
-	<BackLink DBID="/Creeps/Bosses/Boss1/aura_NearDragon.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Mains/aura_NearDragon.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Mains/Dragon/aura_NearDragon_1.APLR" Count="2" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>216</behaviorFlags>
 	<caption>FX_DragonPower</caption>

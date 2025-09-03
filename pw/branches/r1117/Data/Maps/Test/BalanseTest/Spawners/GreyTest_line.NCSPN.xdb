@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AdvMapNeutralCreepSpawner>
 	<BackLink DBID="/Maps/Test/BalanseTest/_.ADMP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" Count="3" />
 	<baseLevel>0</baseLevel>
 	<collision>
 		<x1>0</x1>
@@ -114,6 +115,7 @@
 									<warFogRemoveTime>0</warFogRemoveTime>
 								</BaseAttack>
 							</attackAbility>
+							<creepType>NeutralNormal</creepType>
 							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="E3021F1D-5E01-410F-AD1D-597D61597CD9">
 								<StatsContainer>
 									<stats>
@@ -128,9 +130,9 @@
 											<levelUpgrades />
 											<statId>Life</statId>
 											<value>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAECcRg==</compiledString>
 												<returnType>float</returnType>
-												<sString>10000</sString>
+												<sString>20000</sString>
 											</value>
 										</Item>
 										<Item>
@@ -147,6 +149,38 @@
 												<compiledString></compiledString>
 												<returnType>float</returnType>
 												<sString>0.0f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Stamina</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D7FELQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>34.83f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Will</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D7FELQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>34.83f</sString>
 											</value>
 										</Item>
 									</stats>
@@ -318,7 +352,7 @@
 							</selectionAoe>
 							<size>2</size>
 							<sizeDynamic>1</sizeDynamic>
-							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="B718CF64-7659-48B6-A8E5-917CE6BF6327">
+							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="F47C54AD-25A8-45C7-BE4D-E1FD451C11F9">
 								<StatsContainer>
 									<stats>
 										<Item>
@@ -332,9 +366,9 @@
 											<levelUpgrades />
 											<statId>Life</statId>
 											<value>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAECcRg==</compiledString>
 												<returnType>float</returnType>
-												<sString>10000</sString>
+												<sString>20000</sString>
 											</value>
 										</Item>
 										<Item>
@@ -351,6 +385,38 @@
 												<compiledString></compiledString>
 												<returnType>float</returnType>
 												<sString>0.0f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Stamina</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxYQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>54.2f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Will</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxYQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>54.2f</sString>
 											</value>
 										</Item>
 									</stats>
@@ -523,7 +589,7 @@
 							</selectionAoe>
 							<size>2</size>
 							<sizeDynamic>1</sizeDynamic>
-							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="2CF963DC-7C63-4D76-8E11-48DB415D3445">
+							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="3211B35C-1233-404B-A857-7A4F103E01A9">
 								<StatsContainer>
 									<stats>
 										<Item>
@@ -537,9 +603,9 @@
 											<levelUpgrades />
 											<statId>Life</statId>
 											<value>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAECcRg==</compiledString>
 												<returnType>float</returnType>
-												<sString>10000</sString>
+												<sString>20000</sString>
 											</value>
 										</Item>
 										<Item>
@@ -556,6 +622,38 @@
 												<compiledString></compiledString>
 												<returnType>float</returnType>
 												<sString>0.0f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Stamina</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D1yOTQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>73.57f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Will</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D1yOTQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>73.57f</sString>
 											</value>
 										</Item>
 									</stats>
@@ -728,7 +826,7 @@
 							</selectionAoe>
 							<size>2</size>
 							<sizeDynamic>1</sizeDynamic>
-							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="D5D6E67E-7E1C-45E2-8405-09C41C8B43B1">
+							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="E2CB3894-2B86-4BC0-8785-45E30EE87323">
 								<StatsContainer>
 									<stats>
 										<Item>
@@ -742,9 +840,9 @@
 											<levelUpgrades />
 											<statId>Life</statId>
 											<value>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAECcRg==</compiledString>
 												<returnType>float</returnType>
-												<sString>10000</sString>
+												<sString>20000</sString>
 											</value>
 										</Item>
 										<Item>
@@ -761,6 +859,38 @@
 												<compiledString></compiledString>
 												<returnType>float</returnType>
 												<sString>0.0f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Stamina</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DCte5Qg==</compiledString>
+												<returnType>float</returnType>
+												<sString>92.92f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Will</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DCte5Qg==</compiledString>
+												<returnType>float</returnType>
+												<sString>92.92f</sString>
 											</value>
 										</Item>
 									</stats>
@@ -933,7 +1063,7 @@
 							</selectionAoe>
 							<size>2</size>
 							<sizeDynamic>1</sizeDynamic>
-							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="33108947-D81F-4C70-A61C-9CA508C313FA">
+							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="43BE5EFF-253B-4100-A8D5-EC0F5A32981D">
 								<StatsContainer>
 									<stats>
 										<Item>
@@ -947,9 +1077,9 @@
 											<levelUpgrades />
 											<statId>Life</statId>
 											<value>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAECcRg==</compiledString>
 												<returnType>float</returnType>
-												<sString>10000</sString>
+												<sString>20000</sString>
 											</value>
 										</Item>
 										<Item>
@@ -966,6 +1096,38 @@
 												<compiledString></compiledString>
 												<returnType>float</returnType>
 												<sString>0.0f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Stamina</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DXI/gQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>112.28f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Will</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DXI/gQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>112.28f</sString>
 											</value>
 										</Item>
 									</stats>
@@ -1138,7 +1300,7 @@
 							</selectionAoe>
 							<size>2</size>
 							<sizeDynamic>1</sizeDynamic>
-							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="88665FBA-98B9-45AD-A7BA-DF4A8C20B755">
+							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="4E9A9F85-4329-4E47-9D9D-6EF9DE23B273">
 								<StatsContainer>
 									<stats>
 										<Item>
@@ -1152,9 +1314,9 @@
 											<levelUpgrades />
 											<statId>Life</statId>
 											<value>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAECcRg==</compiledString>
 												<returnType>float</returnType>
-												<sString>10000</sString>
+												<sString>20000</sString>
 											</value>
 										</Item>
 										<Item>
@@ -1171,6 +1333,38 @@
 												<compiledString></compiledString>
 												<returnType>float</returnType>
 												<sString>0.0f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Stamina</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D16MDQw==</compiledString>
+												<returnType>float</returnType>
+												<sString>131.64f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Will</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D16MDQw==</compiledString>
+												<returnType>float</returnType>
+												<sString>131.64f</sString>
 											</value>
 										</Item>
 									</stats>
@@ -1343,7 +1537,7 @@
 							</selectionAoe>
 							<size>2</size>
 							<sizeDynamic>1</sizeDynamic>
-							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="55AD55F6-4841-4C25-880F-39CB6C1FCF04">
+							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="6E357964-E7EE-4E24-9886-F4B39EA89CA2">
 								<StatsContainer>
 									<stats>
 										<Item>
@@ -1357,9 +1551,9 @@
 											<levelUpgrades />
 											<statId>Life</statId>
 											<value>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAECcRg==</compiledString>
 												<returnType>float</returnType>
-												<sString>10000</sString>
+												<sString>20000</sString>
 											</value>
 										</Item>
 										<Item>
@@ -1376,6 +1570,38 @@
 												<compiledString></compiledString>
 												<returnType>float</returnType>
 												<sString>0.0f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Stamina</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3Dcf0WQw==</compiledString>
+												<returnType>float</returnType>
+												<sString>150.99f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Will</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3Dcf0WQw==</compiledString>
+												<returnType>float</returnType>
+												<sString>150.99f</sString>
 											</value>
 										</Item>
 									</stats>
@@ -1548,7 +1774,7 @@
 							</selectionAoe>
 							<size>2</size>
 							<sizeDynamic>1</sizeDynamic>
-							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="E1611034-BD76-484B-8278-F3348BC86C00">
+							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="AD9925EB-DD20-49FB-8D3F-6E4530A076DB">
 								<StatsContainer>
 									<stats>
 										<Item>
@@ -1562,9 +1788,9 @@
 											<levelUpgrades />
 											<statId>Life</statId>
 											<value>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAECcRg==</compiledString>
 												<returnType>float</returnType>
-												<sString>10000</sString>
+												<sString>20000</sString>
 											</value>
 										</Item>
 										<Item>
@@ -1581,6 +1807,38 @@
 												<compiledString></compiledString>
 												<returnType>float</returnType>
 												<sString>0.0f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Stamina</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmlkqQw==</compiledString>
+												<returnType>float</returnType>
+												<sString>170.35f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Will</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmlkqQw==</compiledString>
+												<returnType>float</returnType>
+												<sString>170.35f</sString>
 											</value>
 										</Item>
 									</stats>
@@ -1753,7 +2011,7 @@
 							</selectionAoe>
 							<size>2</size>
 							<sizeDynamic>1</sizeDynamic>
-							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="553A5ADF-420C-48F0-9B25-4C8DF2E7F217">
+							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="AF75C06A-0516-4F10-8E6F-D9929979D435">
 								<StatsContainer>
 									<stats>
 										<Item>
@@ -1767,9 +2025,9 @@
 											<levelUpgrades />
 											<statId>Life</statId>
 											<value>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAECcRg==</compiledString>
 												<returnType>float</returnType>
-												<sString>10000</sString>
+												<sString>20000</sString>
 											</value>
 										</Item>
 										<Item>
@@ -1786,6 +2044,38 @@
 												<compiledString></compiledString>
 												<returnType>float</returnType>
 												<sString>0.0f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Stamina</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DUrg9Qw==</compiledString>
+												<returnType>float</returnType>
+												<sString>189.72f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Will</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DUrg9Qw==</compiledString>
+												<returnType>float</returnType>
+												<sString>189.72f</sString>
 											</value>
 										</Item>
 									</stats>
@@ -1958,7 +2248,7 @@
 							</selectionAoe>
 							<size>2</size>
 							<sizeDynamic>1</sizeDynamic>
-							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="0535C39A-043D-4C39-B158-83BBA613F623">
+							<stats href="/Maps/Test/BalanseTest/Spawners/GreyTest_line.NCSPN" id="8BA78509-1C0A-4D53-B20B-6DB4DDA9940A">
 								<StatsContainer>
 									<stats>
 										<Item>
@@ -1972,9 +2262,9 @@
 											<levelUpgrades />
 											<statId>Life</statId>
 											<value>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAECcRg==</compiledString>
 												<returnType>float</returnType>
-												<sString>10000</sString>
+												<sString>20000</sString>
 											</value>
 										</Item>
 										<Item>
@@ -1991,6 +2281,38 @@
 												<compiledString></compiledString>
 												<returnType>float</returnType>
 												<sString>0.0f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Stamina</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D7BFRQw==</compiledString>
+												<returnType>float</returnType>
+												<sString>209.07f</sString>
+											</value>
+										</Item>
+										<Item>
+											<calcIncrement>0</calcIncrement>
+											<calcValue>0</calcValue>
+											<increment>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</increment>
+											<levelUpgrades />
+											<statId>Will</statId>
+											<value>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D7BFRQw==</compiledString>
+												<returnType>float</returnType>
+												<sString>209.07f</sString>
 											</value>
 										</Item>
 									</stats>

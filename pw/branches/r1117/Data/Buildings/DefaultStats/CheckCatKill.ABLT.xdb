@@ -73,6 +73,16 @@
 				<name>HeroHasMana</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="85C954BA-10C6-410E-9450-5FF1490EF4C8">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9CFwHQbi00MixGLTQyLQlD/0IP4AXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>(rUnitKind == 0 || rUnitKind == 1 )</sString>
+				</condition>
+				<name>DragonHero</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<constants href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="CF69D470-B054-455A-ACA4-8D7E9DE3C5E4">
 		<UnitConstantsContainer>
@@ -187,6 +197,10 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Maps/Multiplayer/MOBA/Mains/Dragon/const_creepBuffDamage" />
+				<Item href="/Maps/Multiplayer/MOBA/Mains/Dragon/const_creepBuffHP" />
+				<Item href="/Maps/Multiplayer/MOBA/Mains/Dragon/const_heroBuffDamage" />
+				<Item href="/Maps/Multiplayer/MOBA/Mains/Dragon/const_heroBuffRegen" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -825,6 +839,310 @@
 					<sString>0.0f</sString>
 				</startOffset>
 				<targetSelector href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="E6FBF57C-13EF-495A-9536-DBBB1BD212B7">
+					<HeroEnumerator>
+						<flags>2</flags>
+						<mode>Normal</mode>
+						<targetFilter>268435459</targetFilter>
+					</HeroEnumerator>
+				</targetSelector>
+			</SpellPeriodicallyApplicator>
+		</Item>
+		<Item href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="13AAA77C-185B-4CC2-9DA6-6F38E5B144B0">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Раздаем всем героям Gorynich</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRkAAAACAAAAHgAAADQAAABIZXJvZXNHb3JpbnljaEJ1ZmZzQ2hlY2sAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdVgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vHeroesGorinychBuffsCheck == 0</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="A03A8455-8225-4742-850E-64E26281285B">
+					<Spell>
+						<applicators>
+							<Item href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="9C6DEFC1-DF76-4863-A1C5-38125F726870">
+								<StatusApplicator>
+									<applicators>
+										<Item href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="4806A7BB-5A31-49E3-932D-E6DCC3469678">
+											<TriggerApplicator>
+												<actionsCount>
+													<compiledString></compiledString>
+													<returnType>int</returnType>
+													<sString>0</sString>
+												</actionsCount>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<behaviorFlags>216</behaviorFlags>
+												<caption>триггер на смерть дракона</caption>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<playAck>false</playAck>
+												<processor href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="D033CEC0-4305-42A4-B0F3-C65877BD4848">
+													<EventProcessorUnitDieNearMe>
+														<applyTarget>ApplicatorSelectedTarget</applyTarget>
+														<checkSender>0</checkSender>
+														<killerFlags>11</killerFlags>
+														<range>
+															<compiledString>FRQAAAABAAAAIAAAAFJhbmdlX0NoZWNrRGVhdGhDYXQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+															<returnType>float</returnType>
+															<sString>cRange_CheckDeathCat</sString>
+														</range>
+														<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+														<spell href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="4B21A677-4655-4EDF-9BA8-6816A3C87795">
+															<Spell>
+																<applicators>
+																	<Item href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="CE2D4278-4EDF-48D7-BB75-56463627E271">
+																		<SpellApplicator>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<caption>Рассылаем спелл в гз</caption>
+																			<enabled>
+																				<compiledString>FQkAAAABAAAAEwAAAEdvcnluaWNoAFWL7GoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>receiver.applGorynich(GLOBAL) !=  pMisc </sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<providerName></providerName>
+																			<spell href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="4EE6D626-123F-4EE7-9E87-5151249582D5">
+																				<Spell>
+																					<applicators>
+																						<Item href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="12C1D5AD-8453-4CA2-8657-16CE41A86378">
+																							<PermanentStatModApplicator>
+																								<applyTarget>ApplicatorTarget</applyTarget>
+																								<caption>Переменная на всех героев</caption>
+																								<customApplyType>None</customApplyType>
+																								<enabled>
+																									<compiledString></compiledString>
+																									<returnType>bool</returnType>
+																									<sString>true</sString>
+																								</enabled>
+																								<formulaName></formulaName>
+																								<LoggingEvent>-1</LoggingEvent>
+																								<modifier>
+																									<addValue>
+																										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																										<returnType>float</returnType>
+																										<sString>1</sString>
+																									</addValue>
+																									<multValue>
+																										<compiledString></compiledString>
+																										<returnType>float</returnType>
+																										<sString>1.0f</sString>
+																									</multValue>
+																									<stat>Life</stat>
+																									<topModifier>false</topModifier>
+																									<variable>Dragon_Kill</variable>
+																								</modifier>
+																								<providerName></providerName>
+																							</PermanentStatModApplicator>
+																						</Item>
+																						<Item href="/Maps/Multiplayer/MOBA/Mains/Dragon/status_AuraDragonPower.APLR" />
+																					</applicators>
+																					<dispatch href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="3CF00F04-70C2-47CA-AAC5-7E7AB3DE1F27">
+																						<DispatchImmediate>
+																							<alwaysApply>false</alwaysApply>
+																							<applyEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</applyEffect>
+																							<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																							<applyEffectOrientation>Default</applyEffectOrientation>
+																							<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																							<dieAfterApply>true</dieAfterApply>
+																							<dispatchEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</dispatchEffect>
+																							<flags>0</flags>
+																							<instantApply>false</instantApply>
+																						</DispatchImmediate>
+																					</dispatch>
+																				</Spell>
+																			</spell>
+																			<spellTarget>ApplicatorTarget</spellTarget>
+																			<targetSelector href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="D7894B43-BEF7-41EE-B9A2-943F1D53944A">
+																				<MainBuildingTargetSelector />
+																			</targetSelector>
+																		</SpellApplicator>
+																	</Item>
+																</applicators>
+																<dispatch href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="BF3F3182-67A0-448E-9D1E-08FA897A0138">
+																	<DispatchImmediate>
+																		<alwaysApply>false</alwaysApply>
+																		<applyEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</applyEffect>
+																		<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																		<applyEffectOrientation>Default</applyEffectOrientation>
+																		<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																		<dieAfterApply>true</dieAfterApply>
+																		<dispatchEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</dispatchEffect>
+																		<flags>0</flags>
+																		<instantApply>false</instantApply>
+																	</DispatchImmediate>
+																</dispatch>
+															</Spell>
+														</spell>
+														<targets>571211776</targets>
+													</EventProcessorUnitDieNearMe>
+												</processor>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<useAbilityCooldown>false</useAbilityCooldown>
+												<useAbilityOwnerMana>true</useAbilityOwnerMana>
+											</TriggerApplicator>
+										</Item>
+										<Item href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="F3A05E3F-A3B7-45CE-AF1D-7E91EC7961AC">
+											<PermanentStatModApplicator>
+												<applyTarget>AbilityOwner</applyTarget>
+												<caption>Отправляем, что героев нашли</caption>
+												<customApplyType>None</customApplyType>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>Life</stat>
+													<topModifier>false</topModifier>
+													<variable>HeroesGorinychBuffsCheck</variable>
+												</modifier>
+												<providerName></providerName>
+											</PermanentStatModApplicator>
+										</Item>
+									</applicators>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>Проверка, герой убил Gorinych</caption>
+									<customCounter>
+										<compiledString></compiledString>
+										<returnType>int</returnType>
+										<sString>0</sString>
+									</customCounter>
+									<customProgress>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</customProgress>
+									<description textref="" />
+									<dispellPriority>NonDispellable</dispellPriority>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<flags>64</flags>
+									<formulaName></formulaName>
+									<image href="" />
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<name textref="" />
+									<power>0</power>
+									<providerName></providerName>
+									<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+									<stackCount>0</stackCount>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statusPosition>0</statusPosition>
+									<stopBehaviour>StopByTime</stopBehaviour>
+									<unstackableWith href="" />
+								</StatusApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="62DB1231-676A-4944-B1A1-9FA5B6BEA035">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</startOffset>
+				<targetSelector href="/Buildings/DefaultStats/CheckCatKill.ABLT" id="9138A8A5-B066-43D1-ADBF-963A7FD5CC75">
 					<HeroEnumerator>
 						<flags>2</flags>
 						<mode>Normal</mode>

@@ -104,9 +104,9 @@
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>5</refineRate>
+					<refineRate>9</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G686_Int.TALENT" />
+					<talent href="/Items/Talents/Level3/G101_LifeReg-Str.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>

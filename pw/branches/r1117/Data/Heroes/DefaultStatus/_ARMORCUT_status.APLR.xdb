@@ -27,8 +27,9 @@
 	<BackLink DBID="/Items/Talents/Level5/G172_ProcStamina_Will.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/RedSet2_6_AAMod/spell_G503_AAMod.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_10_Buthcer/appl_Execution.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability4_3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G101_LifeReg-Str.TALENT" Count="2" />
+	<BackLink DBID="/Heroes/Hunter/_.HROB" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_ARMORCUT_status.APLR" id="C89F28A7-8619-4690-B11D-0C1D8A0DAE6B">
 			<StatModApplicator>

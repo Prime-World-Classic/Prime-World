@@ -92,6 +92,7 @@ bool CommandRebind( const char * name, const vector<wstring> & _paramsSet, const
   {
     if (factor == 1.0f)
     {
+      commandEx.push_back('+');
       commandEx.push_back('1');
     }
     else if (factor == -1.0f)

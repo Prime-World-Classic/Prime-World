@@ -73,9 +73,9 @@
 					<UnitConstant>
 						<name>A4_BuffBombTalentPercent</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACCQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>65</sString>
+							<sString>80</sString>
 						</var>
 					</UnitConstant>
 				</Item>

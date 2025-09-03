@@ -7,8 +7,8 @@
 	<BackLink DBID="/Heroes/SnowQueen/_.HROB" Count="1" />
 	<name>A0_ManaBurn_TT</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
 		<returnType>float</returnType>
-		<sString>2.5</sString>
+		<sString>1.5</sString>
 	</var>
 </UnitConstant>

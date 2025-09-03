@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Katana/status_A0_SUP_Burn.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Katana/status_A0_SUP_Burn_UP.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Katana/status_A0_SUP_Burn_Base.APLR" Count="1" />
 	<applicators />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>144</behaviorFlags>

@@ -62,9 +62,9 @@
 					<UnitConstant>
 						<name>Bonus_Stamina</name>
 						<var>
-							<compiledString>FQAAAAACAAAACQAAABMAAABVi+xRagBR2QVuAAAA2RwkUdkFagAAANkcJGoAi0UIixCLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOgpAAAAg8QE2RwkagCLTRCLEYtNEItCYP/Q3MDZXfzZRfyL5V3DCtejPpqZGUBVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<compiledString>FQAAAAACAAAACQAAABMAAABVi+xRagBR2QVPAAAA2RwkUdkFSwAAANkcJGoAi0UIixCLTQiLgjABAAD/0FHZHCRqAItNEIsRi00Qi0Jg/9DcwNld/NlF/IvlXcMK16M+mpkZQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale( max(sIntellect,sStrength), 0.32, 2.4, false )*2</sString>
+							<sString>abilityScale(sStrength, 0.32, 2.4, false )*2</sString>
 						</var>
 					</UnitConstant>
 				</Item>

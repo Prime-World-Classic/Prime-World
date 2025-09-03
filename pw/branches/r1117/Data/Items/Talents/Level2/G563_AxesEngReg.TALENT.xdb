@@ -75,9 +75,9 @@
 					<UnitConstant>
 						<name>Add_Intellect</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQECamZk+</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw2ZmJkDNzMw+</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(3, 0.3)</sString>
+							<sString>refineScale(2.6, 0.4)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

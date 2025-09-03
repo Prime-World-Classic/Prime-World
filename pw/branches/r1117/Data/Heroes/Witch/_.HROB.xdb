@@ -1328,16 +1328,16 @@
 					<calcIncrement>0.85</calcIncrement>
 					<calcValue>56</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.4</sString>
+						<sString>0.6</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Intellect</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABoQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>58</sString>
+						<sString>56</sString>
 					</value>
 				</Item>
 				<Item>

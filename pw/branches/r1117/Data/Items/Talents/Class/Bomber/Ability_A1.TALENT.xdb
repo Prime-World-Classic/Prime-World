@@ -95,9 +95,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>10.0f</sString>
+		<sString>9.0f</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

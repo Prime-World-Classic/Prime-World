@@ -14,11 +14,11 @@
 									<sString>cA1_DamagePerTick</sString>
 								</damage>
 								<damageMode>4</damageMode>
-								<damageType>Energy</damageType>
+								<damageType>Pure</damageType>
 								<enabled>
 									<compiledString></compiledString>
 								</enabled>
-								<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+								<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
 							</DamageApplicator>
 						</applicator>
 						<variableNames>

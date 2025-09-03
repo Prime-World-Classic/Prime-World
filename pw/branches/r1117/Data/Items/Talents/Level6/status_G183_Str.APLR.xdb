@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Level6/G183_Aura-Str.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G183_Aura-Str.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level6/status_G183_StrSelf.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset10_1_AuraSet/ProgrammAuraBuffSet.APLR" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Level6/status_G183_Str.APLR" id="D9A27368-4215-4E2D-ABC6-33A044C38FF8">
 			<StatModApplicator>

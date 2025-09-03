@@ -590,9 +590,9 @@
 					<UnitConstant>
 						<name>A1_LifeCost</name>
 						<var>
-							<compiledString>FRsAAAACAAAATgAAAHIAAABBMF9UZXJyYWluTGlmZUNvc3RNb2RpZmllcgBVi+yD7AhWi0UIixCLTQiLQkz/0Ivwi00IixGLTQiLgpABAAD/0DvwdR+LTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfzZ6N7h3A2BAAAA2V342UX4XovlXcMAAAAAAABOQAAAAAAAAPA/AAAAAA==</compiledString>
+							<compiledString>FRsAAAACAAAATgAAAHIAAABBMF9UZXJyYWluTGlmZUNvc3RNb2RpZmllcgBVi+yD7AhWi0UIixCLTQiLQkz/0Ivwi00IixGLTQiLgpABAAD/0DvwdR+LTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfzZ6N7h3A2BAAAA2V342UX4XovlXcMAAAAAAIBGQAAAAAAAAPA/AAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>60 * (1-nt( cA0_TerrainLifeCostModifier, 0 ))</sString>
+							<sString>45 * (1-nt( cA0_TerrainLifeCostModifier, 0 ))</sString>
 						</var>
 					</UnitConstant>
 				</Item>

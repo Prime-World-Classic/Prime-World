@@ -60,6 +60,16 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Ratcatcher/const_A1u_BonusDamage" />
+				<Item href="/Items/Talents/Class/Ratcatcher/Ability1_3_Upg.TALENT" id="7668E304-6AAA-4401-AF90-884EA353660F">
+					<UnitConstant>
+						<name>MortalStrike_Amount</name>
+						<var>
+							<compiledString>FQAAAAADAAAABgAAABIAAAAcAAAAVYvsUdkFXgAAANkcJGoBUdkFWgAAANkcJFHZBVYAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/QUdkcJOgRAAAAg8QIXcMAAKBBAABAQgAAlkJVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>min(damageScale(sStrength, 20, 48),75)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

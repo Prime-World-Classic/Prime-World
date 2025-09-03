@@ -2,7 +2,6 @@
 <UITexture>
 	<BackLink DBID="/Creeps/Bosses/Boss1/summon_SpawnWalkedDragon.APLR" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/NewYear/_.ADMP" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/MOBA/Spawners/NeutralBoss.NCSPN" Count="1" />
 	<BackLink DBID="/UI/Textures_default/FrameTest.MTRL" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>

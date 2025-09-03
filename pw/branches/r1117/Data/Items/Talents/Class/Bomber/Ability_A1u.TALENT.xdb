@@ -290,7 +290,7 @@
 					</HealApplicator>
 				</Item>
 			</persistentApplicators>
-			<speed>20</speed>
+			<speed>25</speed>
 			<suspendTime>0</suspendTime>
 			<toLocator></toLocator>
 		</DispatchLinear>

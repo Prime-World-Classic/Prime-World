@@ -2,7 +2,55 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Level6/G183_Aura-Str.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/status_G183_Str.APLR" Count="1" />
-	<applicators />
+	<applicators>
+		<Item href="/Items/Talents/Level6/status_G183_StrSelf.APLR" id="1186E2D8-C254-4E8A-889E-496B8C61FB57">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>+Силы</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJlbmd0aABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Strength</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+	</applicators>
 	<applyTarget>AbilityOwner</applyTarget>
 	<behaviorFlags>136</behaviorFlags>
 	<caption>--- Статус "Боевой штурм"</caption>
@@ -23,9 +71,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>false</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>

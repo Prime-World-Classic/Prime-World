@@ -2169,126 +2169,134 @@
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_80_captionText.txt" />
-			<id>Price</id>
+			<id>TTKitAuraSet</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_81_captionText.txt" />
-			<id>TalentQuestName</id>
+			<id>TTKitGodsPotential</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_82_captionText.txt" />
-			<id>TalentName</id>
+			<id>Price</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_83_captionText.txt" />
-			<id>TTKitRedSet71CommonDescription</id>
+			<id>TalentQuestName</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_84_captionText.txt" />
-			<id>TTCastLimitLackArsenal</id>
+			<id>TalentName</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_85_captionText.txt" />
-			<id>NicknamePrivacyStatement</id>
+			<id>TTKitRedSet71CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_86_captionText.txt" />
-			<id>TTKitRedSet81CommonDescription</id>
+			<id>TTCastLimitLackArsenal</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_87_captionText.txt" />
-			<id>TTKitRedSet82CommonDescription</id>
+			<id>NicknamePrivacyStatement</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_88_captionText.txt" />
-			<id>TTKitRedSet83CommonDescription</id>
+			<id>TTKitRedSet81CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_89_captionText.txt" />
-			<id>TTKitRedSet84CommonDescription</id>
+			<id>TTKitRedSet82CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_90_captionText.txt" />
-			<id>TTKitRedSet85CommonDescription</id>
+			<id>TTKitRedSet83CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_91_captionText.txt" />
-			<id>TTKitRedSet86CommonDescription</id>
+			<id>TTKitRedSet84CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_92_captionText.txt" />
-			<id>TTKitRedSet72CommonDescription</id>
+			<id>TTKitRedSet85CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_93_captionText.txt" />
-			<id>TTKitRedSet73CommonDescription</id>
+			<id>TTKitRedSet86CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_94_captionText.txt" />
-			<id>TTKitRedSet74CommonDescription</id>
+			<id>TTKitRedSet72CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_95_captionText.txt" />
-			<id>TTKitRedSet91CommonDescription</id>
+			<id>TTKitRedSet73CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_96_captionText.txt" />
-			<id>TTKitRedSet92CommonDescription</id>
+			<id>TTKitRedSet74CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_97_captionText.txt" />
-			<id>TTKitRedSet93CommonDescription</id>
+			<id>TTKitRedSet91CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_98_captionText.txt" />
-			<id>TTKitRedSet94CommonDescription</id>
+			<id>TTKitRedSet92CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_99_captionText.txt" />
-			<id>TTKitRedSet95CommonDescription</id>
+			<id>TTKitRedSet93CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_100_captionText.txt" />
-			<id>TTKitRedSet96CommonDescription</id>
+			<id>TTKitRedSet94CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_101_captionText.txt" />
-			<id>TTKitRedSet75CommonDescription</id>
+			<id>TTKitRedSet95CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_102_captionText.txt" />
-			<id>TTKitRedSet76CommonDescription</id>
+			<id>TTKitRedSet96CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_103_captionText.txt" />
-			<id>TTKitRedSet77CommonDescription</id>
+			<id>TTKitRedSet75CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_104_captionText.txt" />
-			<id>TTKitRedSet78CommonDescription</id>
+			<id>TTKitRedSet76CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_105_captionText.txt" />
-			<id>TTKitRedSet79CommonDescription</id>
+			<id>TTKitRedSet77CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_106_captionText.txt" />
-			<id>TTPrimeGenerators</id>
+			<id>TTKitRedSet78CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_107_captionText.txt" />
-			<id>TTMidasCommonDescription</id>
+			<id>TTKitRedSet79CommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_108_captionText.txt" />
-			<id>TTCastLimitAlreadyHasThisEffectTALENT</id>
+			<id>TTPrimeGenerators</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_109_captionText.txt" />
-			<id>TTKitRedSet712CommonDescription</id>
+			<id>TTMidasCommonDescription</id>
 		</Item>
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_110_captionText.txt" />
+			<id>TTCastLimitAlreadyHasThisEffectTALENT</id>
+		</Item>
+		<Item>
+			<captionText textref="/UI/UIRoot_substitutes_111_captionText.txt" />
+			<id>TTKitRedSet712CommonDescription</id>
+		</Item>
+		<Item>
+			<captionText textref="/UI/UIRoot_substitutes_112_captionText.txt" />
 			<id>TTCastLimitLackBombs</id>
 		</Item>
 	</substitutes>

@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Mage/Ability3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G350_AoE.TALENT" Count="1" />
@@ -9,6 +8,8 @@
 	<BackLink DBID="/Items/Talents/Level4/G157_Dmg_LifeRegStop.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset1_2_Dot/status_G460_MortalStrike.APLR" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/ARAM/Mains/AbilityToReduceCD.ABLT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability1.TALENT" Count="4" />
+	<BackLink DBID="/Items/Talents/Class/Ratcatcher/status_RatDisease.APLR" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_MORTALSTRIKE_Status.APLR" id="807806F7-2DE3-47E1-8179-5D3CD9DF1C99">
 			<UIMessageApplicator>

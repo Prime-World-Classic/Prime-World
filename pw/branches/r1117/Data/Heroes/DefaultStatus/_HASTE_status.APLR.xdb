@@ -55,6 +55,8 @@
 	<BackLink DBID="/Items/Talents/Level5/program_G661HeroOff_Self.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset9_4_Summon/status_Redset9_4_SummonBuff.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A1_SpectralLashAlly.APLR" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" Count="7" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" id="7CC84B56-9A1A-44F5-B216-FF4A42B55A9F">
 			<StatModApplicator>

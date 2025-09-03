@@ -71,9 +71,9 @@
 					<UnitConstant>
 						<name>Channeling_Time</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>6</sString>
+							<sString>4</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -7,6 +7,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<BackLink DBID="/Test/Talents/Bomber/Test.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A2.TALENT" Count="3" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -448,7 +449,7 @@
 									</Item>
 									<Item href="/Items/Talents/Class/Bomber/status_A2_Enemy.APLR" />
 								</persistentApplicators>
-								<speed>40</speed>
+								<speed>60</speed>
 								<suspendTime>0</suspendTime>
 								<toLocator>Body</toLocator>
 							</DispatchLinear>
@@ -458,6 +459,33 @@
 				<spellTarget>ApplicatorTarget</spellTarget>
 				<targetSelector href="" />
 			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Bomber/Ability_A2.TALENT" id="E4C1E906-C88D-4232-B47F-0863D2CD8767">
+			<RefreshCooldownApplicator>
+				<allowCdIncrease>true</allowCdIncrease>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Увеличиваем КД</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgjQBAAD/0ItNCIsRi00Ii4IwAQAA3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sIntellect&gt;sStrength</sString>
+				</enabled>
+				<flags>128</flags>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<reduceByPercent>false</reduceByPercent>
+				<reductionAmount>
+					<compiledString>FR0AAAAGAAEAJAAAADoAAACGAAAAjAAAAKQAAACvAAAA0wEAAFRhbGVudHNDZE11bAAAAABUYWxlbnRzQ2RNdWwAVYvsg+wkaBAAAACLRQiLEItNCIuCiAEAAP/Q3B0EAQAA3+D2xEF1BsZF7wHrBMZF7wBR2e7ZHCSNTfhRi1UQiwKLTRCLUFj/0lCNRfBQi00IixGLTQiLgowBAAD/0FDo1AAAAIPECNw1+AAAANwl8AAAANld6NlF6FHZHCTobQAAAIPECNwN6AAAAFHZ6NkcJGgAAAAAi00IixGLTQiLgogBAADdXeD/0FHZHCQPtk3vUehgAAAAg8QM3E3g2V3c2UXci+VdwwAAgD8AAAAAAADwvwAAAGBmZiJAAAAAAAAABEAAAAAAAAAAAAAAAABVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3DVYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3DVYvsg+wUi0UI2UAEi00M2GEE2V302UX0UdkcJItVCNkCi0UM2CDZXfDZRfBR2RwkjU346FcAAADZRfjYTfjZRfzYTfzewdld7NlF7FHZHCToBwAAAIPEBIvlXcNVi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCToBf7//4PECNld/NlF/IvlXcNVi+xRiU38i0X82UUI2RiLTfzZRQzZWQSLRfyL5V3CCAA=</compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0f * max((d(sPos, pMisc-&gt;GetTargetPos()) /2.5f) - 23/2.5f ,0.0f) * s( sender.vTalentsCdMul &gt; 0, sender.vTalentsCdMul, 1.0f) </sString>
+				</reductionAmount>
+				<refreshThis>false</refreshThis>
+				<talents>
+					<Item href="/Items/Talents/Class/Bomber/Ability_A2.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</RefreshCooldownApplicator>
 		</Item>
 	</applicators>
 	<askId>2</askId>
@@ -493,9 +521,9 @@
 					<UnitConstant>
 						<name>A2_Damage</name>
 						<var>
-							<compiledString>FQAAAAAEAAAAOAAAAEIAAAB4AAAAggAAAFWL7IPsDItFCIsQi00Ii4K4AAAA/9CLTQiLEYtNCIuCvAAAAN1d+P/Q3F343+D2xEF6QGoBUdkFxAAAANkcJFHZBcAAAADZHCRqAItNCIsRi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2V306z5qAVHZBbwAAADZHCRR2QW4AAAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0Nld9NlF9IvlXcMAALRCAMAoRAAAfEIAAOxD</compiledString>
+							<compiledString>FQAAAAAFAAAAOAAAAEIAAAB4AAAAggAAALAAAABVi+yD7BSLRQiLEItNCIuCuAAAAP/Qi00IixGLTQiLgrwAAADdXfj/0Nxd+N/g9sRBekBqAVHZBdgAAADZHCRR2QXUAAAA2RwkagCLTQiLEYtNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0N1d8OtEagFR2QXQAAAA2RwkUdkFzAAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DcDcQAAADdXfDdRfDZXezZReyL5V3DzczMzMzM7D8AALRCAMAoRAAAfEIAAOxD</compiledString>
 							<returnType>float</returnType>
-							<sString>(sBaseStrength&gt;=sBaseIntellect)? damageScale(sStrength, 63, 472) : damageScale(sIntellect, 90, 675)</sString>
+							<sString>(sBaseStrength&gt;=sBaseIntellect)? damageScale(sStrength, 63, 472) : (damageScale(sIntellect, 90, 675)*0.9)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -555,9 +583,9 @@
 					<UnitConstant>
 						<name>RangeIntOreStr</name>
 						<var>
-							<compiledString>FQ0AAAADAAAARQAAAE8AAACOAAAAUmFuZ2VfRXhMb25nAFWL7IPsEItFCIsQi00Ii4I0AQAA/9CLTQiLEYtNCIuCMAEAAN1d+P/Q3F343+D2xAV6QGoBUdkFtAAAANkcJFHZBbAAAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2V306wXZ7tld9ItNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Q2EX02V3w2UXwi+VdwwAAAAAAAKBAAADIQQ==</compiledString>
+							<compiledString>FQ0AAAACAAAAQgAAAFQAAABSYW5nZV9FeExvbmcAVYvsg+wMi0UIixCLTQiLgjQBAAD/0ItNCIsRi00Ii4IwAQAA3V34/9DcXfjf4PbEBXoL2QVvAAAA2V306x2LTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0Nld9NlF9IvlXcMAAMhC</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_ExLong + (sIntellect&gt;sStrength ? damageScale(sIntellect,5,25) : 0)</sString>
+							<sString>(sIntellect&gt;sStrength ? 100 : cRange_ExLong)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

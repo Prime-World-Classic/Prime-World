@@ -6,6 +6,25 @@
 	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" Count="2" />
 	<applicators>
 		<Item href="/Items/Talents/Class/GhostLord/status_A1_SpectralLashEnemySelf.APLR" />
+		<Item href="/Items/Talents/Class/GhostLord/status_A1_SpectralLashAlly.APLR" id="11B9D517-38E3-4CB9-A11F-C677ED16E5AA">
+			<StatusApplicator parent="/Heroes/DefaultStatus/_HASTE_status.APLR">
+				<enabled>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABHaG9zdExvcmRfQTF1AAAAR2hvc3RMb3JkX0ExdQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("GhostLord_A1u") </sString>
+				</enabled>
+				<lifeTime>
+					<compiledString>FQwAAAABAAAAGAAAAEExX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>cA1_Duration</sString>
+				</lifeTime>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+			</StatusApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>1</behaviorFlags>

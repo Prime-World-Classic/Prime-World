@@ -4,7 +4,6 @@
 	<BackLink DBID="/GameLogic/GeneralApplicators/DispellWEffects.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/programm_A4_IntClone.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/programm_A4_StrClone.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fairy/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/A4AutoSpell.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability4.TALENT" Count="1" />

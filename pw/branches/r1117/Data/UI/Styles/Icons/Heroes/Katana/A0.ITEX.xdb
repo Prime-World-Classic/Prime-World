@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A0.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Katana/status_A0_SUP_Burn.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Katana/status_A0_SUP_Burn_UP.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Katana/status_A0_SUP_Burn_Base.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

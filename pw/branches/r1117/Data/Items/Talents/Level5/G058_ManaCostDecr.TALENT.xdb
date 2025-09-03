@@ -49,9 +49,9 @@
 					<UnitConstant>
 						<name>CostDecrease_Percent</name>
 						<var>
-							<compiledString>FQAAAAACAAEABgAAABAAAABcAAAAVYvsUdkFNgAAANkcJFHZBTIAAADZHCSLRRCLEItNEItCbP/QUdkcJOgNAAAAg8QEXcMAAPBBAAAgQFWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOiU////g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAABAAEADAAAAFgAAABVi+xR2e7ZHCRR2QUuAAAA2Rwki0UQixCLTRCLQmz/0FHZHCToDQAAAIPEBF3DAABcQgAAAABVi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCTomP///4PECNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(30, 2.5))</sString>
+							<sString>floor(refineScale(55, 0))</sString>
 						</var>
 					</UnitConstant>
 				</Item>

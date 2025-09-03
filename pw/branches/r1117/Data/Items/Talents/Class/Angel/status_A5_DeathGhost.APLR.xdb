@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/CancelAllEnemyDispatches.APLR" />
 		<Item href="/Items/Talents/Class/Angel/status_A5_DeathGhost.APLR" id="B8D0B2EC-D5EB-4D57-82CB-F5ABD2A4B9D3">

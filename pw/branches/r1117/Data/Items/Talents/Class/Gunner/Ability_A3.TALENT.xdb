@@ -223,7 +223,7 @@
 													<maxRise>0</maxRise>
 													<minRise>0</minRise>
 													<persistentApplicators />
-													<speed>24</speed>
+													<speed>30</speed>
 													<suspendTime>0</suspendTime>
 													<toLocator></toLocator>
 												</DispatchLinear>

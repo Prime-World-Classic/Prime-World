@@ -6,7 +6,6 @@
 	<BackLink DBID="/Creeps/Normals/Normal3/PvE_Coop1_Poisoner.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/Normals/Normal3/PvE_Coop1_shrinker.CREEP" Count="1" />
 	<BackLink DBID="/GameLogic/GeneralApplicators/ThrowUp.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Frogenglut/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" Count="1" />
@@ -21,7 +20,6 @@
 	<BackLink DBID="/Items/Talents/Level6/G317_K_Life_AttackSpeed.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Maps/Tutorial/Talents/Tutorial_ThunderGod.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A4_3.TALENT" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>144</behaviorFlags>
 	<caption>-- Standart Interrupt</caption>

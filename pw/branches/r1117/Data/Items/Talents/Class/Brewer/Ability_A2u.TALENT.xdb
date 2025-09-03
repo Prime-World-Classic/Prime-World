@@ -4,7 +4,7 @@
 	<BackLink DBID="/Items/Talents/Brewer.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Brewer_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/appl_A3u_CDReduction.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Brewer_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Brewer/Brewer.TALENTSET" Count="1" />
@@ -105,6 +105,8 @@
 				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTAddStaOrWill" />
 				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDec_StrOrInt" />
 				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTStaOrWill" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDec_Stamina" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_Dec_Stamina" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

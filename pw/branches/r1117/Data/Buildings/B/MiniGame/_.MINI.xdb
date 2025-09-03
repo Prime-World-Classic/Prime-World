@@ -12,7 +12,317 @@
 	<BackLink DBID="/Maps/Test/Test5x5/_.ADMP" Count="1" />
 	<abilities>
 		<Item href="" />
-		<Item href="" />
+		<Item href="/Buildings/B/MiniGame/_.MINI" id="7D04144A-DB69-4500-961C-A03491628084">
+			<Ability>
+				<activeCustomTrigger>true</activeCustomTrigger>
+				<allowChase>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</allowChase>
+				<alternativeTargets />
+				<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+				<aoeHeight>0</aoeHeight>
+				<aoeMaterial href="" />
+				<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+				<aoeSize>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</aoeSize>
+				<aoeType>None</aoeType>
+				<applicators />
+				<autoTargetSelector href="" />
+				<caption></caption>
+				<castAllowRange>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</castAllowRange>
+				<castLimitations />
+				<commonDescription textref="" />
+				<compiledDescriptionA textref="" />
+				<compiledDescriptionB textref="" />
+				<conditionFormulas />
+				<constants href="" />
+				<cooldownTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</cooldownTime>
+				<cooldownTimeSecondState>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</cooldownTimeSecondState>
+				<description textref="" />
+				<dispatch href="" />
+				<flags>1</flags>
+				<image href="" />
+				<imageSecondState href="" />
+				<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+				<manaCost>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</manaCost>
+				<marker></marker>
+				<microAI href="" />
+				<minUseRangeCorrection>0</minUseRangeCorrection>
+				<name textref="" />
+				<node></node>
+				<passiveApplicators>
+					<Item href="/Buildings/B/MiniGame/_.MINI" id="0F503B16-0466-4FBF-BEAB-3E7941F32BFA">
+						<TargetsCounterApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>считалка врагов рядом с зумой</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName>ZumaCounter</formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<targetSelector href="/Buildings/B/MiniGame/_.MINI" id="0F146C26-6EBC-4E69-99B6-926AD5ABE610">
+								<AreaTargetSelector>
+									<absolutePosition>
+										<x>0</x>
+										<y>0</y>
+									</absolutePosition>
+									<flags>0</flags>
+									<mode>Normal</mode>
+									<range>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>30</sString>
+									</range>
+									<targetFilter>536870915</targetFilter>
+									<targetSelector href="" />
+								</AreaTargetSelector>
+							</targetSelector>
+						</TargetsCounterApplicator>
+					</Item>
+					<Item href="/Buildings/B/MiniGame/_.MINI" id="23B554C3-C090-49AB-8F64-C874081D2D0F">
+						<StatusApplicator>
+							<applicators />
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>Статус "Враг рядом"</caption>
+							<customCounter>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</customCounter>
+							<customProgress>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</customProgress>
+							<description textref="/Buildings/B/MiniGame/_.MINI_23b554c3c09049ab8f64c874081d2d0f_description.txt" />
+							<dispellPriority>Medium</dispellPriority>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FRkAAAADAAAAJgAAAD4AAABRAAAAWnVtYUNvdW50ZXIAdGFyZ2V0c0NvdW50AFWL7IPsCGoBi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0IlF/GgMAAAAi038ixGLTfyLQlT/0NwdcwAAAN/g9sRBdQnHRfgBAAAA6wfHRfgAAAAAikX4i+VdwwAAAAAAAAAA</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.FindApplicator("ZumaCounter", pMisc, UNIT)-&gt;GetVariable("targetsCount") &gt; 0 </sString>
+							</enabled>
+							<flags>0</flags>
+							<formulaName>ZumaZuma</formulaName>
+							<image href="/UI/Styles/Icons/Buildings/MiniGameB.ITEX" />
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<name textref="/Buildings/B/MiniGame/_.MINI_23b554c3c09049ab8f64c874081d2d0f_name.txt" />
+							<power>0</power>
+							<providerName></providerName>
+							<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+							<stackCount>0</stackCount>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statusPosition>0</statusPosition>
+							<stopBehaviour>StopByTime</stopBehaviour>
+							<unstackableWith href="" />
+						</StatusApplicator>
+					</Item>
+					<Item href="/Buildings/B/MiniGame/_.MINI" id="1CAF8BE9-F65D-49C3-BDF5-600CB9E5F490">
+						<SpellPeriodicallyApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>1</behaviorFlags>
+							<caption></caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<period>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+								<returnType>float</returnType>
+								<sString>0.5</sString>
+							</period>
+							<providerName></providerName>
+							<scaleMode>ScaleIsCount</scaleMode>
+							<spell href="/Buildings/B/MiniGame/_.MINI" id="9128FA52-6A30-43EA-8324-23CA90F14F32">
+								<Spell>
+									<applicators>
+										<Item href="/Buildings/B/MiniGame/_.MINI" id="D563EB73-165A-443E-8AC8-4F2C782AD233">
+											<SpellApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<caption>спелл в гз</caption>
+												<enabled>
+													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<spell href="/Buildings/B/MiniGame/_.MINI" id="68225053-8EE4-48D9-B79D-896ECCDF78FC">
+													<Spell>
+														<applicators>
+															<Item href="/Buildings/B/MiniGame/_.MINI" id="50551F84-DFDC-4437-9C00-DAA40C24BDEF">
+																<PermanentStatModApplicator>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption>сколько времени не подскажете</caption>
+																	<customApplyType>None</customApplyType>
+																	<enabled>
+																		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<modifier>
+																		<addValue>
+																			<compiledString>FRUAAAACAAAAGgAAAC8AAABUYXJnZXQAAEdhbWVEdXJhdGlvbgBVi+xRaAAAAACLRRCLEItNEItCTP/QiUX8aAgAAACLTfyLEYtN/IuCiAEAAP/Qi+Vdww==</compiledString>
+																			<returnType>float</returnType>
+																			<sString>$ApplTarget-&gt;GetVariable("GameDuration")</sString>
+																		</addValue>
+																		<multValue>
+																			<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																			<returnType>float</returnType>
+																			<sString>0.0f</sString>
+																		</multValue>
+																		<stat>Life</stat>
+																		<topModifier>false</topModifier>
+																		<variable>GameDurationZuma</variable>
+																	</modifier>
+																	<providerName></providerName>
+																</PermanentStatModApplicator>
+															</Item>
+														</applicators>
+														<dispatch href="/Buildings/B/MiniGame/_.MINI" id="8F1E522C-8EF2-44D2-B46F-F5A3B704493B">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>0</flags>
+																<instantApply>true</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</spell>
+												<spellTarget>ApplicatorTarget</spellTarget>
+												<targetSelector href="/Buildings/B/MiniGame/_.MINI" id="DEC2C88A-4230-47C2-A78F-B3EB287A51B1">
+													<MainBuildingTargetSelector />
+												</targetSelector>
+											</SpellApplicator>
+										</Item>
+									</applicators>
+									<dispatch href="/Buildings/B/MiniGame/_.MINI" id="560DB469-6A86-412C-9AFE-3819F0D5A7A2">
+										<DispatchImmediate>
+											<alwaysApply>false</alwaysApply>
+											<applyEffect>
+												<Item href="" />
+												<Item href="" />
+											</applyEffect>
+											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+											<applyEffectOrientation>Default</applyEffectOrientation>
+											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+											<dieAfterApply>true</dieAfterApply>
+											<dispatchEffect>
+												<Item href="" />
+												<Item href="" />
+											</dispatchEffect>
+											<flags>0</flags>
+											<instantApply>false</instantApply>
+										</DispatchImmediate>
+									</dispatch>
+								</Spell>
+							</spell>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<startOffset>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</startOffset>
+							<targetSelector href="" />
+						</SpellPeriodicallyApplicator>
+					</Item>
+				</passiveApplicators>
+				<requireLineOfSight>true</requireLineOfSight>
+				<shortDescription textref="" />
+				<targetType>136258047</targetType>
+				<type>Passive</type>
+				<useRange>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</useRange>
+				<useRangeMaterial href="" />
+				<warFogRemoveRadius>0</warFogRemoveRadius>
+				<warFogRemoveTime>0</warFogRemoveTime>
+			</Ability>
+		</Item>
 		<Item href="" />
 		<Item href="" />
 		<Item href="" />
@@ -33,7 +343,156 @@
 	<faction>Burn</faction>
 	<heightObject>false</heightObject>
 	<image href="/UI/Styles/Icons/Buildings/MiniGameB.ITEX" />
-	<interaction href="" />
+	<interaction href="/Buildings/B/MiniGame/_.MINI" id="AA462128-9344-433E-819F-327741104FE0">
+		<Interaction>
+			<allowedFactions>8</allowedFactions>
+			<externalAbility href="/Buildings/B/MiniGame/_.MINI" id="9C49E7A1-4CD6-4673-A2E4-A2B8F743064D">
+				<Ability>
+					<activeCustomTrigger>true</activeCustomTrigger>
+					<allowChase>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</allowChase>
+					<alternativeTargets />
+					<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+					<aoeHeight>0</aoeHeight>
+					<aoeMaterial href="" />
+					<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+					<aoeSize>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</aoeSize>
+					<aoeType>None</aoeType>
+					<applicators />
+					<autoTargetSelector href="" />
+					<caption></caption>
+					<castAllowRange>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</castAllowRange>
+					<castLimitations>
+						<Item href="/Buildings/B/MiniGame/_.MINI" id="D9BF3EE1-D6F1-4486-90FB-4B6A637D4ED3">
+							<ConditionCastLimitation>
+								<condition>
+									<compiledString>FRkAAAADAAAAJgAAAD4AAABRAAAAWnVtYUNvdW50ZXIAdGFyZ2V0c0NvdW50AFWL7IPsCGoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0IlF/GgMAAAAi038ixGLTfyLQlT/0NwdcwAAAN/g9sQFegnHRfgBAAAA6wfHRfgAAAAAikX4i+VdwwAAAAAAAPA/</compiledString>
+									<returnType>bool</returnType>
+									<sString>receiver.FindApplicator("ZumaCounter", pMisc, GLOBAL)-&gt;GetVariable("targetsCount") &lt; 1</sString>
+								</condition>
+								<uiEvent href="/Buildings/B/MiniGame/_.MINI" id="0C7028CE-D7FD-42D8-8B36-381CF6B452CE">
+									<UIEvent>
+										<signRecipients>ALL_PLAYERS</signRecipients>
+										<UISigns>
+											<Item href="/Buildings/B/MiniGame/_.MINI" id="E341B4DD-2AFA-495B-8A10-5DAE86FB1AAB">
+												<UISignMessageToStatusLine>
+													<messages>
+														<Item textref="/Buildings/B/MiniGame/_.MINI_e341b4dd2afa495b8a105dae86fb1aab_messages_0.txt" />
+														<Item textref="" />
+														<Item textref="" />
+													</messages>
+													<signRecipients>PLAYER_ONLY</signRecipients>
+												</UISignMessageToStatusLine>
+											</Item>
+										</UISigns>
+									</UIEvent>
+								</uiEvent>
+							</ConditionCastLimitation>
+						</Item>
+						<Item href="/Buildings/B/MiniGame/_.MINI" id="8D2AFB07-2D96-4187-8F9C-A2C88C7336D2">
+							<ConditionCastLimitation>
+								<condition>
+									<compiledString>FREAAAACAAAAFgAAACwAAABHYW1lRHVyYXRpb25adW1hAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHU4AAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAABOQA==</compiledString>
+									<returnType>bool</returnType>
+									<sString>receiver.vGameDurationZuma &gt;60</sString>
+								</condition>
+								<uiEvent href="/Buildings/B/MiniGame/_.MINI" id="9A77A5F4-411E-4B77-9EA8-5CDD358ECA3E">
+									<UIEvent>
+										<signRecipients>ALL_PLAYERS</signRecipients>
+										<UISigns>
+											<Item href="/Buildings/B/MiniGame/_.MINI" id="1F3A89B1-F677-481D-8447-62F5C66E73B1">
+												<UISignMessageToStatusLine>
+													<messages>
+														<Item textref="/Buildings/B/MiniGame/_.MINI_1f3a89b1f677481d844762f5c66e73b1_messages_0.txt" />
+														<Item textref="" />
+														<Item textref="" />
+													</messages>
+													<signRecipients>PLAYER_ONLY</signRecipients>
+												</UISignMessageToStatusLine>
+											</Item>
+										</UISigns>
+									</UIEvent>
+								</uiEvent>
+							</ConditionCastLimitation>
+						</Item>
+					</castLimitations>
+					<commonDescription textref="" />
+					<compiledDescriptionA textref="" />
+					<compiledDescriptionB textref="" />
+					<conditionFormulas />
+					<constants href="" />
+					<cooldownTime>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</cooldownTime>
+					<cooldownTimeSecondState>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</cooldownTimeSecondState>
+					<description textref="" />
+					<dispatch href="/Buildings/B/MiniGame/_.MINI" id="B788BF7B-04C7-490D-A654-2635DF9CE3C6">
+						<DispatchImmediate>
+							<alwaysApply>false</alwaysApply>
+							<applyEffect>
+								<Item href="" />
+								<Item href="" />
+							</applyEffect>
+							<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+							<applyEffectOrientation>Default</applyEffectOrientation>
+							<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+							<dieAfterApply>true</dieAfterApply>
+							<dispatchEffect>
+								<Item href="" />
+								<Item href="" />
+							</dispatchEffect>
+							<flags>0</flags>
+							<instantApply>false</instantApply>
+						</DispatchImmediate>
+					</dispatch>
+					<flags>1</flags>
+					<image href="" />
+					<imageSecondState href="" />
+					<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+					<manaCost>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</manaCost>
+					<marker></marker>
+					<microAI href="" />
+					<minUseRangeCorrection>0</minUseRangeCorrection>
+					<name textref="" />
+					<node></node>
+					<passiveApplicators />
+					<requireLineOfSight>true</requireLineOfSight>
+					<shortDescription textref="" />
+					<targetType>136258047</targetType>
+					<type>Passive</type>
+					<useRange>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</useRange>
+					<useRangeMaterial href="" />
+					<warFogRemoveRadius>0</warFogRemoveRadius>
+					<warFogRemoveTime>0</warFogRemoveTime>
+				</Ability>
+			</externalAbility>
+		</Interaction>
+	</interaction>
 	<isDecoration>false</isDecoration>
 	<levelUpInterval>0</levelUpInterval>
 	<lockMask>

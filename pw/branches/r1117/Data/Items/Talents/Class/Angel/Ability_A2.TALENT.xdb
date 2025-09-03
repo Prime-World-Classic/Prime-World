@@ -5,7 +5,6 @@
 	<BackLink DBID="/Items/Talents/Angel_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A2u.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/status_A5_DeathGhost.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Angel_Mighty.TALENTSET" Count="1" />
@@ -15,6 +14,8 @@
 	<BackLink DBID="/Test/Talents/Angel/Elite_StrDex.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Angel/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Angel/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="3" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -117,9 +118,9 @@
 								<flag>1024</flag>
 								<formulaName></formulaName>
 								<lifeTime>
-									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
 									<returnType>float</returnType>
-									<sString>1</sString>
+									<sString>0.1</sString>
 								</lifeTime>
 								<LoggingEvent>-1</LoggingEvent>
 								<providerName></providerName>
@@ -425,16 +426,6 @@
 				<Item href="/Items/Talents/Class/Angel/const_A2uExpBuffWill" />
 				<Item href="/Items/Talents/Class/Angel/const_A2u_ExpTerDef" />
 				<Item href="/Items/Talents/Class/Angel/const_A5u_RangeBuff" />
-				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="743F8A8C-CA71-4CB6-9BB4-F4F5FC0C48A2">
-					<UnitConstant>
-						<name>A2_CoolDown</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>10</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="18D4BA4E-AA90-4EE7-8BDC-FC52CA855DE9">
 					<UnitConstant>
 						<name>A2u_TECH_CooldownControl</name>
@@ -442,6 +433,58 @@
 							<compiledString>FQAAAAAAAAAAVYvsg+wMi0UQixCLTRCLQjz/0ItNEIsRi00Qi0Ic3V34/9DcTfjZXfTZRfSL5V3D</compiledString>
 							<returnType>float</returnType>
 							<sString>mCooldown*mPreparedness</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/const_A2u_LifeRegAbs" />
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="51A7298B-F614-4CE1-A939-7B94C255158F">
+					<UnitConstant>
+						<name>A2_HealPeriod</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="43338F91-41E7-4CED-979E-A0F66215E626">
+					<UnitConstant>
+						<name>A2_HealAmount</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAdQQAAk0I=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 9.8125, 73.5)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/const_A2u_Damage" />
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="8A7BE060-2FD8-4886-873A-9A5700D4C496">
+					<UnitConstant>
+						<name>A2_HealTime</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="84EC4DB8-1D0A-4C99-9804-63A9C1C849E9">
+					<UnitConstant>
+						<name>A2_CDFromIntellect</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>10</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="B5F18D68-06CF-4644-B5DA-0EDA6415A412">
+					<UnitConstant>
+						<name>A2_CDFromStrength</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>15</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -453,9 +496,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQwAAAABAAAAGAAAAEEyX0Nvb2xEb3duAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FScAAAACAAAAYwAAAIIAAABBMl9DREZyb21TdHJlbmd0aAAAAEEyX0NERnJvbUludGVsbGVjdABVi+yD7AyLRQiLEItNCIuCNAEAAP/Qi00IixGLTQiLgjABAADdXfj/0Nxd+N/g9sQBdR+LTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0Nld9Osdi00MUYtVCFJoFAAAAItFEIsQi00Qi0JQ/9DZXfTZRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>cA2_CoolDown</sString>
+		<sString>sIntellect&lt;=sStrength ? cA2_CDFromStrength : cA2_CDFromIntellect</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

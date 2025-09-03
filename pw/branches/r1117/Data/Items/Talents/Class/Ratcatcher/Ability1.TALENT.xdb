@@ -6,7 +6,7 @@
 	<BackLink DBID="/Items/Talents/Ratcatcher_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability1_3_Upg.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability1_SUP.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Ratcatcher_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Ratcatcher/Duel.TALENTSET" Count="1" />
@@ -67,9 +67,9 @@
 								</dispatchEffect>
 								<flags>0</flags>
 								<lifeTime>
-									<compiledString></compiledString>
+									<compiledString>FQwAAAABAAAAGAAAAEExX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 									<returnType>float</returnType>
-									<sString>-1.0</sString>
+									<sString>cA1_Duration</sString>
 								</lifeTime>
 								<persistentApplicators>
 									<Item href="/Items/Talents/Class/Ratcatcher/Ability1.TALENT" id="9F07B9B9-369C-4429-97F3-0579A212FB34">
@@ -167,6 +167,73 @@
 												</ConditionTargetSelector>
 											</targetSelector>
 										</SpellPeriodicallyApplicator>
+									</Item>
+									<Item href="/Items/Talents/Class/Ratcatcher/Ability1.TALENT" id="7DD6D0BD-1E48-4F52-97AC-AB1DFBA78853">
+										<AuraApplicator>
+											<applicators>
+												<Item href="/Heroes/DefaultStatus/_MORTALSTRIKE_Status.APLR" />
+											</applicators>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<behaviorFlags>0</behaviorFlags>
+											<caption></caption>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<range>
+												<compiledString>FQgAAAABAAAAFAAAAEExUmFuZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+												<returnType>float</returnType>
+												<sString>cA1Range</sString>
+											</range>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<targets>10428927</targets>
+											<targetSelector href="/Items/Talents/Class/Ratcatcher/Ability1.TALENT" id="93299C68-6082-46DD-80FC-BA64F993B5C5">
+												<ConditionTargetSelector>
+													<condition>
+														<compiledString>FQUAAAABAAAADwAAAFdhcmQAVYvsagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlMGKwV3D</compiledString>
+														<returnType>bool</returnType>
+														<sString>receiver.applWard(GLOBAL) == pMisc</sString>
+													</condition>
+													<flags>0</flags>
+													<mode>Normal</mode>
+													<targetSelector href="/Items/Talents/Class/Ratcatcher/Ability1.TALENT" id="144AAC69-616A-40EC-97FE-DCC2AA6D7A0A">
+														<AreaTargetSelector>
+															<absolutePosition>
+																<x>0</x>
+																<y>0</y>
+															</absolutePosition>
+															<flags>0</flags>
+															<mode>Normal</mode>
+															<range>
+																<compiledString>FQgAAAABAAAAFAAAAEExUmFuZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																<returnType>float</returnType>
+																<sString>cA1Range</sString>
+															</range>
+															<targetFilter>538771519</targetFilter>
+															<targetSelector href="" />
+														</AreaTargetSelector>
+													</targetSelector>
+												</ConditionTargetSelector>
+											</targetSelector>
+											<type>None</type>
+										</AuraApplicator>
 									</Item>
 								</persistentApplicators>
 							</DispatchByTime>
@@ -357,6 +424,36 @@
 							<compiledString>FVIAAAAFAAAAWQAAAHIAAACwAAAAygAAAO8AAABSYXRjYXRjaGVyX0ExX1NVUAAAAFJhdGNhdGNoZXJfQTFfU1VQAAAAQTFfRGFtYWdlAAAAQTFfU1VQX0JvbnVzRGFtYWdlAABBMV9EYW1hZ2UAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0P4tVDFKLRQhQaCgAAACLTRCLEYtNEItCUP/Qi00MUYtVCFJoNAAAAItFEIsQi00Qi0JQ3V3w/9DcRfDdXejrHYtNDFGLVQhSaEgAAACLRRCLEItNEItCUP/Q3V3o3UXo2V3k2UXki+Vdww==</compiledString>
 							<returnType>float</returnType>
 							<sString>tal("Ratcatcher_A1_SUP") ? (cA1_Damage + cA1_SUP_BonusDamage) : cA1_Damage</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Ratcatcher/Ability1.TALENT" id="ED4701F5-9532-4D72-867A-9D01F3C56F85">
+					<UnitConstant>
+						<name>MortalStrike_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+							<returnType>float</returnType>
+							<sString>-1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Ratcatcher/Ability1.TALENT" id="B86FC83D-ED44-46C9-A0C4-663782B6FBA1">
+					<UnitConstant>
+						<name>MortalStrike_StartCondition</name>
+						<var>
+							<compiledString>FSgAAAACAAAALwAAAEgAAABSYXRjYXRjaGVyX0ExXzNfVXBnAFJhdGNhdGNoZXJfQTFfM19VcGcAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37iU3020X0i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Ratcatcher_A1_3_Upg")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Ratcatcher/Ability1.TALENT" id="FE0391D0-B36B-4C64-A536-3C8E93A79CFD">
+					<UnitConstant>
+						<name>MortalStrike_Amount</name>
+						<var>
+							<compiledString>FQAAAAADAAAABgAAABIAAAAcAAAAVYvsUdkFXgAAANkcJGoBUdkFWgAAANkcJFHZBVYAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/QUdkcJOgRAAAAg8QIXcMAAKBBAABAQgAAlkJVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>min(damageScale(sStrength, 20, 48),75)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

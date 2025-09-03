@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AdvMapSettings>
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Mod4/_.ADMPDSCR" Count="1" />
-	<battleStartDelay>60</battleStartDelay>
+	<battleStartDelay>0</battleStartDelay>
 	<creepAnnounceList href="" />
 	<creepLevelCap>-1</creepLevelCap>
 	<customBattleStartAnnouncement>

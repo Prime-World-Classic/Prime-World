@@ -11,7 +11,7 @@
 	<BackLink DBID="/Items/Talents/Angel_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Archeress.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Archeress_Alternative.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Artist.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Artist.TALENTSET" Count="2" />
 	<BackLink DBID="/Items/Talents/Artist_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Assassin.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Assassin_Alternative.TALENTSET" Count="1" />
@@ -207,6 +207,7 @@
 	<BackLink DBID="/Test/Talents/Warlord/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witcher/Elite_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witcher/Elite_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -236,7 +237,7 @@
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations />
-	<commonDescription textref="" />
+	<commonDescription textref="/Items/Talents/Level6/G213_StatViaHighestStat.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
 	<conditionFormulas>
@@ -280,6 +281,46 @@
 				<name>MaxWill</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Level6/G213_StatViaHighestStat.TALENT" id="012DCAA0-B9CF-455A-9011-352C6E680818">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength&gt;=sBaseIntellect</sString>
+				</condition>
+				<name>KitStrOrInt2</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level6/G213_StatViaHighestStat.TALENT" id="F8E47126-454B-442D-8E27-F280D25B43E3">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength&gt;=sBaseIntellect</sString>
+				</condition>
+				<name>KitStrOrInt3</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level6/G213_StatViaHighestStat.TALENT" id="27F5EC59-31E9-4FEF-8531-6E82BA6D0BBD">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRkAAAACAAAAHgAAADQAAABHb2RzUG90ZW50aWFsU2V0X0NvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdVgAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAABA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vGodsPotentialSet_Counter&gt;=2</sString>
+				</condition>
+				<name>Bonus2Active</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level6/G213_StatViaHighestStat.TALENT" id="391DD2E7-9F03-4825-9029-24808DD47F2B">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRkAAAACAAAAHgAAADQAAABHb2RzUG90ZW50aWFsU2V0X0NvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdVgAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vGodsPotentialSet_Counter&gt;=3</sString>
+				</condition>
+				<name>Bonus3Active</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level6/G213_StatViaHighestStat.TALENT" id="46DBA085-33E3-4C4A-BB15-50F76EF245DE">
@@ -289,12 +330,14 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAEABgAAABAAAABcAAAAVYvsUdkFNgAAANkcJFHZBTIAAADZHCSLRRCLEItNEItCbP/QUdkcJOgNAAAAg8QEXcMAAKhBAADAP1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOiU////g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAmEEAAABA</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(21, 1.5))</sString>
+							<sString>refineScale(19, 2)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/TalentKits/Redset10_2_GodsPotential/const_KitStrOrInt2" />
+				<Item href="/Items/Talents/TalentKits/Redset10_2_GodsPotential/const_KitStrOrInt3" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -486,6 +529,7 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset10_2_GodsPotential/KitGodsPotentialAppls.APLR" />
 	</passiveApplicators>
 	<persistentId>G213</persistentId>
 	<prerequisiteTalents />

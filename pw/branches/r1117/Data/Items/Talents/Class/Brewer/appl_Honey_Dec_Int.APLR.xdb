@@ -13,9 +13,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FR4AAAACAAAAUgAAAGsAAABCcmV3ZXJfQTBfU1VQAAAAQnJld2VyX0EwX1NVUABVi+yD7BSLRQyLEItNDIuCuAAAAP/Qi00MixGLTQyLgrwAAADdXfj/0Nxd+N/g9sRBdFhoAAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXUJx0XsAAAAAOsHx0XsAQAAAIpF7IvlXcM=</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgrgAAAD/0ItNDIsRi00Mi4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 		<returnType>bool</returnType>
-		<sString>rBaseStrength&lt;rBaseIntellect || tal("Brewer_A0_SUP")</sString>
+		<sString>rBaseStrength&lt;rBaseIntellect </sString>
 	</enabled>
 	<formulaName></formulaName>
 	<lifeTime>

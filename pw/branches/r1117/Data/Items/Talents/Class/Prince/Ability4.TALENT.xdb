@@ -438,9 +438,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>false</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>300</sString>
+		<sString>200</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/Prince/Ability4.TALENT" id="666AC50B-FDE8-4D62-8A11-FB4AEDD37E22">

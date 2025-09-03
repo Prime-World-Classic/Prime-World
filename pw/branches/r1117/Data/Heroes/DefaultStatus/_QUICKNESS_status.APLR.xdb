@@ -6,6 +6,7 @@
 	<BackLink DBID="/Items/Talents/Class/Warlord/Ability2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/A2_ShieldProgramm.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A1_SpectralLashAlly.APLR" Count="3" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_QUICKNESS_status.APLR" id="11310200-40E7-48FA-9257-60F28EF1CF6E">
 			<StatModApplicator>

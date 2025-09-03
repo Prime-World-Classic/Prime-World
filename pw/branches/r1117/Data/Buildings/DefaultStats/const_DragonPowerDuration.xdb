@@ -4,8 +4,8 @@
 	<BackLink DBID="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" Count="1" />
 	<name>DragonPowerDuration</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>-1</sString>
+		<sString>120</sString>
 	</var>
 </UnitConstant>

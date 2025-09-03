@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
 	<BackLink DBID="/Items/Talents/Level3/G100_Int_LifeReg.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/status_100_EnergyReg.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/status_100_ERegSelf.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

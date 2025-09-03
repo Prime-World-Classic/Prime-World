@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Buildings/A/MiniGame/_.MINI" Count="1" />
+	<BackLink DBID="/Buildings/A/MiniGame/_.MINI" Count="2" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

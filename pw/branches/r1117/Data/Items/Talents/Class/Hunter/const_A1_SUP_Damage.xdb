@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Hunter/Ability_A1_SUP.TALENT" Count="1" />
 	<name>A1_Upg_Damage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAoQgCAnEM=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACEQgAA+kM=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale( sIntellect, 42, 313 )</sString>
+		<sString>damageScale( sIntellect, 66, 500 )</sString>
 	</var>
 </UnitConstant>

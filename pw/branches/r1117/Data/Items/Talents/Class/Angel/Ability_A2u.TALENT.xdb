@@ -60,6 +60,8 @@
 			<vars>
 				<Item href="/Items/Talents/Class/Angel/const_A2u_ExplosionMod" />
 				<Item href="/Items/Talents/Class/Angel/const_A2uExpBuffDuration" />
+				<Item href="/Items/Talents/Class/Angel/const_A2u_LifeRegAbs" />
+				<Item href="/Items/Talents/Class/Angel/const_A2u_Damage" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

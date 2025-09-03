@@ -27,9 +27,9 @@
 				<applyTarget>AbilityTarget</applyTarget>
 				<caption>Дать прайма</caption>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii0JM/9CL8ItNCIsRi00Ii4KQAQAA/9AzyTvwD5TBisFeXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sTerrainType == sFctn</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<isFromImpulseBuff>false</isFromImpulseBuff>
@@ -41,6 +41,83 @@
 				</nafta>
 				<providerName></providerName>
 			</AddNaftaApplicator>
+		</Item>
+		<Item href="/Items/Temp/Test-Nafta2000.ARCT" id="DD9D1608-9AE4-40D8-874F-B3A7611EB384">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>дать прайм всем остальным</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii0JM/9CL8ItNCIsRi00Ii4KQAQAA/9AzyTvwD5XBisFeXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sTerrainType != sFctn</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Temp/Test-Nafta2000.ARCT" id="67E3BFE3-E476-4EB8-974E-0F049364CA2B">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Temp/Test-Nafta2000.ARCT" id="3542076F-8037-47A5-920F-E82248EE5B24">
+								<AddNaftaApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>Дать прайма</caption>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<isFromImpulseBuff>false</isFromImpulseBuff>
+									<LoggingEvent>-1</LoggingEvent>
+									<nafta>
+										<compiledString>FQwAAAABAAAAGAAAAE5hZnRhQW1vdW50AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+										<returnType>float</returnType>
+										<sString>cNaftaAmount</sString>
+									</nafta>
+									<providerName></providerName>
+								</AddNaftaApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Temp/Test-Nafta2000.ARCT" id="4F275D11-38FD-4E82-B39E-6CD3C9810F14">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Temp/Test-Nafta2000.ARCT" id="316DC5A7-59B3-4BF4-8B4F-1713551D21C3">
+					<AreaTargetSelector>
+						<absolutePosition>
+							<x>0</x>
+							<y>0</y>
+						</absolutePosition>
+						<flags>0</flags>
+						<mode>Normal</mode>
+						<range>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
+							<returnType>float</returnType>
+							<sString>1000</sString>
+						</range>
+						<targetFilter>805306371</targetFilter>
+						<targetSelector href="" />
+					</AreaTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
 		</Item>
 	</applicators>
 	<autoTargetSelector href="" />

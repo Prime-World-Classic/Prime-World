@@ -17,7 +17,6 @@
 	<BackLink DBID="/Items/Talents/Level5/status_G294HeroOff.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/status_G661HeroOff_Red.APLR" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/NewYear/_.ADMP" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/MOBA/Spawners/NeutralBoss.NCSPN" Count="1" />
 	<BackLink DBID="/Summons/Dispenser/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Ivy/Ivy.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Shroom/Shroom.SUMMONED" Count="1" />

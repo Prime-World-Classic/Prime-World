@@ -66,7 +66,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G628_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level2/G567_CasterBase.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -140,7 +140,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G336_StrAspd_TelBlock.TALENT" />
+					<talent href="/Items/Talents/Level4/G155_Aura-Will.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -152,7 +152,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G536_AOE_maxLife.TALENT" />
+					<talent href="/Items/Talents/Level4/G156_Aura-Stamina.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -208,25 +208,25 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G728_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level6/G183_Aura-Str.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G530_Life_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level6/G184_Aura-Int.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G541_Aura_Int.TALENT" />
+					<talent href="/Items/Talents/Level6/G210_Aura_Dexterity.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G543_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level6/G222_Aura_AttackSpeed.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>

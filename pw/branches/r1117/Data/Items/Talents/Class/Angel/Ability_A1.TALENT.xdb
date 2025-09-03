@@ -5,9 +5,8 @@
 	<BackLink DBID="/Items/Talents/Angel_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A1_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A1u.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/status_A5_DeathGhost.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Angel_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Angel/Duel_Int.TALENTSET" Count="1" />
@@ -16,6 +15,7 @@
 	<BackLink DBID="/Test/Talents/Angel/Elite_StrDex.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Angel/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Angel/Epic_Str.TALENTSET" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -620,9 +620,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FQwAAAADAAAAFwAAACEAAABWAAAAQTFfRHVyYXRpb24AVYvsg+wMagFR2QV7AAAA2RwkUdkFdwAAANkcJGoAi0UIixCLTQiLgjABAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0Nx9+Nld9NlF9IvlXcMAAEBCAAC0Qw==</compiledString>
+							<compiledString>FTgAAAAJAAAAPwAAAFgAAACSAAAAnAAAANEAAADqAAAA+AAAAAIBAAA3AQAAQW5nZWxfQTFfU1VQAAAAAEFuZ2VsX0ExX1NVUAAAAABBMV9EdXJhdGlvbgBBMV9EdXJhdGlvbgBVi+yD7CRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRmagFR2QVqAQAA2RwkUdkFZgEAANkcJGoAi1UIiwKLTQiLkDABAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9CLTQxRi1UIUmggAAAAi0UQixCLTRCLQlDdXfD/0Nx98NwNXgEAAN1d6OteagFR2QVqAQAA2RwkUdkFZgEAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9CLTQxRi1UIUmgsAAAAi0UQixCLTRCLQlDdXeD/0Nx94N1d6N1F6Nld3NlF3IvlXcOamZmZmZnxPwAAQEIAALRD</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 48, 360) / cA1_Duration</sString>
+							<sString>tal("Angel_A1_SUP") ? (damageScale(sStrength, 48, 360) / cA1_Duration )*1.1 : damageScale(sStrength, 48, 360) / cA1_Duration</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -630,9 +630,9 @@
 					<UnitConstant>
 						<name>A1_Heal</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABAQgAAtEM=</compiledString>
+							<compiledString>FR0AAAAHAAAAJAAAAD0AAAB3AAAAgQAAAK8AAAC9AAAAxwAAAEFuZ2VsX0ExX1NVUAAAAABBbmdlbF9BMV9TVVAAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0RmoBUdkFDwEAANkcJFHZBQsBAADZHCRqAItVCIsCi00Ii5A0AQAA/9JR2RwkagGLRRCLEItNEItCYP/Q3A0DAQAA3V3w6z5qAVHZBQ8BAADZHCRR2QULAQAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0N1d8N1F8Nld7NlF7IvlXcOamZmZmZnxPwAAQEIAALRD</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 48, 360)</sString>
+							<sString>tal("Angel_A1_SUP") ? damageScale(sIntellect, 48, 360)*1.1 : damageScale(sIntellect, 48, 360)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

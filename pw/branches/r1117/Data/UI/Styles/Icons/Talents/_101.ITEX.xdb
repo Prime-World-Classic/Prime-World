@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Items/Talents/Level3/G101_LifeReg-Str.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G101_LifeReg-Str.TALENT" Count="2" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

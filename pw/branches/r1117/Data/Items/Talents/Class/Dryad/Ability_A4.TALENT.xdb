@@ -7,7 +7,7 @@
 	<BackLink DBID="/Items/Talents/Class/Dryad/Ability_A4_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Dryad/Ability_A4u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Dryad/status_A3_Tree.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Dryad_Mighty.TALENTSET" Count="1" />
 	<activationConditions />
@@ -29,6 +29,39 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
+		<Item href="/Items/Talents/Class/Dryad/Ability_A4.TALENT" id="72A96560-7EFB-4328-9675-A4BA372B4D20">
+			<FlagsApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>144</behaviorFlags>
+				<caption>FX для взрыва</caption>
+				<consumables />
+				<effect>
+					<Item href="/Effects/Debuffs/Explosion/_Spore.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flag>0</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/Dryad/Ability_A4.TALENT" id="5B8D2C39-BC51-440D-A23B-45F6ABD087DE">
 			<DamageApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
@@ -74,39 +107,6 @@
 				<providerName></providerName>
 				<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
 			</HealApplicator>
-		</Item>
-		<Item href="/Items/Talents/Class/Dryad/Ability_A4.TALENT" id="72A96560-7EFB-4328-9675-A4BA372B4D20">
-			<FlagsApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>144</behaviorFlags>
-				<caption>FX для взрыва</caption>
-				<consumables />
-				<effect>
-					<Item href="/Effects/Debuffs/Explosion/_Spore.EFFT" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<flag>0</flag>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<providerName></providerName>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<talents />
-				<useListAs>ListAsRule</useListAs>
-			</FlagsApplicator>
 		</Item>
 		<Item href="/Items/Talents/Class/Dryad/Ability_A4.TALENT" id="7980EC16-AB0E-4EBB-9CB5-A73ADFD33572">
 			<HealApplicator>

@@ -9,6 +9,9 @@
 	<BackLink DBID="/Test/Talents/Unicorn/Duel.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Unicorn/Elite_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Unicorn/Elite_Will.TALENTSET" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/Items/Talents/Healer.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -38,10 +41,191 @@
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations />
-	<commonDescription textref="" />
+	<commonDescription textref="/Items/Talents/Level4/G155_Aura-Will.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="AD341994-8993-4F5C-969D-3C426C40F6E8">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength&gt;=sBaseIntellect</sString>
+				</condition>
+				<name>StrOrInt</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="99382A51-3B16-4F26-8978-5883D6928030">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsAAAAD/0ItNCIsRi00Ii4KMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseDexterity&gt;=sBaseAttackSpeed</sString>
+				</condition>
+				<name>DexOrAts</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="3208F81D-56E6-450C-AD97-92F67E9302D5">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStamina&gt;=sBaseWill</sString>
+				</condition>
+				<name>StaOrWill</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="D3F6D8ED-57D9-4C96-80C5-E0CF8142C3E0">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgrgAAAD/0ItNDIsRi00Mi4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>rBaseStrength&gt;=rBaseIntellect</sString>
+				</condition>
+				<name>StrOrIntAlly</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="930114B6-5D67-4F8F-97A9-7B0733EEA055">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgsAAAAD/0ItNDIsRi00Mi4KMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>rBaseDexterity&gt;=rBaseAttackSpeed</sString>
+				</condition>
+				<name>DexOrAtsAlly</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="9BF42072-9F29-416D-935B-50BBE8C8ED54">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>rBaseStamina&gt;=rBaseWill</sString>
+				</condition>
+				<name>StaOrWillAlly</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="9A0678E5-3076-4AD7-9F9B-94B64ECDF702">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSMAAAAEAAAAKAAAAD4AAABKAAAAYAAAAEF1cmFCdWZmU2V0X0NvdW50ZXIAU3RyT3JJbnRFbmFibGUAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdigAAAN/g9sQBdCtoFAAAAItNCIsRi00Ii4KIAQAA/9DcHYIAAADf4PbEQXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAAAAAAAAAAAAAABA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAuraBuffSet_Counter&gt;=2 || sender.vStrOrIntEnable&gt;0</sString>
+				</condition>
+				<name>StrOrIntEnable</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="3E9E651B-D39F-4B23-B662-1781AE31D66C">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSMAAAAEAAAAKAAAAD4AAABKAAAAYAAAAEF1cmFCdWZmU2V0X0NvdW50ZXIARGV4T3JBdHNFbmFibGUAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdigAAAN/g9sQBdCtoFAAAAItNCIsRi00Ii4KIAQAA/9DcHYIAAADf4PbEQXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAAAAAAAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAuraBuffSet_Counter&gt;=3 || sender.vDexOrAtsEnable&gt;0</sString>
+				</condition>
+				<name>DexOrAtsEnable</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="EEFA6B98-C229-4242-A260-E383BF1FF46F">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSQAAAAEAAAAKQAAAD8AAABLAAAAYQAAAEF1cmFCdWZmU2V0X0NvdW50ZXIAU3RhT3JXaWxsRW5hYmxlAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHYsAAADf4PbEAXQraBQAAACLTQiLEYtNCIuCiAEAAP/Q3B2DAAAA3+D2xEF0CcdF/AAAAADrB8dF/AEAAACKRfyL5V3DAAAAAAAAAAAAAAAAAAAQQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAuraBuffSet_Counter&gt;=4 || sender.vStaOrWillEnable&gt;0</sString>
+				</condition>
+				<name>StaOrWillEnable</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="35BB4637-DA9C-4D5C-AB79-04B20C5F9708">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSkAAAAEAAAALgAAAEQAAABQAAAAZgAAAEF1cmFCdWZmU2V0X0NvdW50ZXIARGFtYWdlRGVjcmVhc2VFbmFibGUAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdkAAAAN/g9sQBdCtoFAAAAItNCIsRi00Ii4KIAQAA/9DcHYgAAADf4PbEQXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAAAAAAAAAAAAABhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAuraBuffSet_Counter&gt;=6 || sender.vDamageDecreaseEnable&gt;0</sString>
+				</condition>
+				<name>DamageDecreaseEnable</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="7EFDF263-B631-46C7-AC2E-9D13A4A5A71A">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ8AAAACAAAAFAAAACoAAABTdHJPckludEVuYWJsZQBVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>receiver.vStrOrIntEnable&gt;0</sString>
+				</condition>
+				<name>StrOrIntEnableAlly</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="CCABF9D6-E5BC-4052-AD0A-ED07674E43B6">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ8AAAACAAAAFAAAACoAAABEZXhPckF0c0VuYWJsZQBVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>receiver.vDexOrAtsEnable&gt;0</sString>
+				</condition>
+				<name>DexOrAtsEnableAlly</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="3716AAC6-476C-41B9-B8E1-0A8A33572E16">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRAAAAACAAAAFQAAACsAAABTdGFPcldpbGxFbmFibGUAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdTQAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+					<returnType>bool</returnType>
+					<sString>receiver.vStaOrWillEnable&gt;0</sString>
+				</condition>
+				<name>StaOrWillEnableAlly</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="4E0A7A8B-6A1B-480F-B6A0-422750A5AE19">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRUAAAACAAAAGgAAADAAAABEYW1hZ2VEZWNyZWFzZUVuYWJsZQBVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1SAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>receiver.vDamageDecreaseEnable&gt;0</sString>
+				</condition>
+				<name>DamageDecreaseEnableAlly</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="8E9DDBFF-4621-4704-8C25-A9A5DA5D5B2E">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRQAAAACAAAAGQAAAC8AAABBdXJhQnVmZlNldF9Db3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAuraBuffSet_Counter&gt;=2</sString>
+				</condition>
+				<name>Bonus2Active</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="4A9CC55A-601B-40EB-84BB-E6AF5CD17953">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRQAAAACAAAAGQAAAC8AAABBdXJhQnVmZlNldF9Db3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAuraBuffSet_Counter&gt;=3</sString>
+				</condition>
+				<name>Bonus3Active</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="E4DFBE85-D78F-4D51-8260-757BC092E949">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRQAAAACAAAAGQAAAC8AAABBdXJhQnVmZlNldF9Db3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAQQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAuraBuffSet_Counter&gt;=4</sString>
+				</condition>
+				<name>Bonus4Active</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="A9827F18-3774-47C7-BEA7-A7A2FCF8E50E">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRQAAAACAAAAGQAAAC8AAABBdXJhQnVmZlNldF9Db3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAYQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAuraBuffSet_Counter&gt;=6</sString>
+				</condition>
+				<name>Bonus6Active</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="9E580075-8A4A-421E-B54E-EA8EEF304D52">
 		<UnitConstantsContainer>
@@ -50,9 +234,9 @@
 					<UnitConstant>
 						<name>Add_Will</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA8EAAAAA/</compiledString>
+							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ6NkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAOBAAACAPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(7.5, 0.5)</sString>
+							<sString>refineScale(7, 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -66,6 +250,10 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/TalentKits/Redset10_1_AuraSet/const_AuraStrOrInt" />
+				<Item href="/Items/Talents/TalentKits/Redset10_1_AuraSet/const_AuraDexOrAts" />
+				<Item href="/Items/Talents/TalentKits/Redset10_1_AuraSet/const_AuraStaOrWill" />
+				<Item href="/Items/Talents/TalentKits/Redset10_1_AuraSet/const_AuraDamageDexterity" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -142,71 +330,239 @@
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>
-				<targets>335544335</targets>
+				<targets>1409286159</targets>
 				<targetSelector href="" />
 				<type>Ally</type>
 			</AuraApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level4/status_G155_WillSelf.APLR" />
-		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="6A60E2DF-7D37-4CB8-AF0A-C4EE366919CF">
-			<PermanentStatModApplicator>
-				<applyTarget>AbilityOwner</applyTarget>
-				<caption>+Will</caption>
-				<customApplyType>None</customApplyType>
+		<Item href="/Items/Talents/TalentKits/Redset10_1_AuraSet/AuraBuffSet_Counter.APLR" />
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="4C042B67-DACB-4140-A75B-17FA279A0023">
+			<AuraApplicator>
+				<applicators>
+					<Item href="/Items/Talents/TalentKits/Redset10_1_AuraSet/status_AuraBuffSet.APLR" />
+					<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="11F684D5-6D8F-4028-9DED-F27C35495DBB">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>Союзник получает StrOrInt</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FRQAAAACAAAAGQAAAC8AAABBdXJhQnVmZlNldF9Db3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAQA==</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.vAuraBuffSet_Counter&gt;=2</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<returnType>float</returnType>
+									<sString>1</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Life</stat>
+								<topModifier>false</topModifier>
+								<variable>StrOrIntEnable</variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="0A652083-B520-495D-AC0A-C54004D16374">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>Союзник получает DexOrAts</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FRQAAAACAAAAGQAAAC8AAABBdXJhQnVmZlNldF9Db3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.vAuraBuffSet_Counter&gt;=3</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<returnType>float</returnType>
+									<sString>1</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Life</stat>
+								<topModifier>false</topModifier>
+								<variable>DexOrAtsEnable</variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="338CDCBE-23D5-4EBB-B89D-E41611C29839">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>Союзник получает StaOrWill</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FRQAAAACAAAAGQAAAC8AAABBdXJhQnVmZlNldF9Db3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAQQA==</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.vAuraBuffSet_Counter&gt;=4</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<returnType>float</returnType>
+									<sString>1</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Life</stat>
+								<topModifier>false</topModifier>
+								<variable>StaOrWillEnable</variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="6CB17C43-315A-45BA-A778-EC312DCE5929">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>Союзник получает DamageDecrease</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FRQAAAACAAAAGQAAAC8AAABBdXJhQnVmZlNldF9Db3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAYQA==</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.vAuraBuffSet_Counter&gt;=6</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<returnType>float</returnType>
+									<sString>1</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Life</stat>
+								<topModifier>false</topModifier>
+								<variable>DamageDecreaseEnable</variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>-- Аура (Сет)</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
+					<compiledString>FRQAAAACAAAAGQAAAC8AAABBdXJhQnVmZlNldF9Db3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAuraBuffSet_Counter&gt;=2</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<range>
+					<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+					<returnType>float</returnType>
+					<sString>cRange_Long</sString>
+				</range>
+				<startCondition>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9XaWxsAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Will</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Will</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="EFAB0689-0E4B-4681-83DD-B6C97B3DB40D">
-			<PermanentStatModApplicator>
-				<applyTarget>AbilityOwner</applyTarget>
-				<caption>Счетчик аур</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable>Status_155</variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
+				</startCondition>
+				<targets>1409286159</targets>
+				<targetSelector href="" />
+				<type>Ally</type>
+			</AuraApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G155</persistentId>

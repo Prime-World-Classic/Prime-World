@@ -6,7 +6,7 @@
 	<BackLink DBID="/Items/Talents/Brewer.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Brewer_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A0_SUP.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Brewer_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Brewer/Brewer.TALENTSET" Count="1" />
 	<activationConditions />
@@ -100,6 +100,18 @@
 				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDec_StrOrInt" />
 				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDPS" />
 				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTStaOrWill" />
+				<Item href="/Items/Talents/Class/Brewer/Ability_A0.TALENT" id="97441E9E-4602-4B8C-9575-4EE1B24204E6">
+					<UnitConstant>
+						<name>AddLifeFriends</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAYQgCAjkM=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 38, 285)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_Dec_Stamina" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDec_Stamina" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
