@@ -24,6 +24,8 @@
 #include "PFBaseSpawner.h"
 REGISTER_WORLD_OBJECT_NM(PFStatistics, NWorld)
 
+extern nstl::vector<std::pair<int, int>> playersKills;
+
 namespace
 {
 
@@ -249,7 +251,7 @@ void CustomEventNameMap::SetVictim(const NWorld::PFBaseUnit* victim)
 //=================================================================================================================================
 void CustomEventNameMap::SetAssistants(const vector<NWorld::PFBaseHero*>& eventAssistants)
 { 
-  //криворукие писатели nstl не могли даже написать assign нормальный!!!
+  //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ nstl пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ assign пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!!!
   m_eventAssistants.clear();
   vector<NWorld::PFBaseHero*>::const_iterator iter;
   for(iter = eventAssistants.begin(); iter != eventAssistants.end(); ++iter )
@@ -437,6 +439,8 @@ void PFStatistics::AddKill(CPtr<PFBaseUnit> pVictim, CPtr<PFBaseHero> pKiller)
   if ( pVictim->IsTrueHero() )
   {
     PFBaseHero *pHeroVictim = static_cast<PFBaseHero *>(pVictim.GetPtr());
+
+    playersKills.push_back(std::make_pair<int, int>(pKiller->GetPlayer()->GetUserID(), pHeroVictim->GetPlayer()->GetUserID()));
 
     StatisticsStuff::UpdateArray_(killerStatistics.heroKillTime.begin(), killerStatistics.heroKillTime.size(), curTime);
     // store kill to array

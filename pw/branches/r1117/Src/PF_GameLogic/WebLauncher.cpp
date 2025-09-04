@@ -40,6 +40,8 @@ int g_playersCount;
 std::map<nstl::wstring, WebLauncherPostRequest::WebUserData> g_usersData;
 map<int, WebLauncherPostRequest::PlayerInfoByUserId> userIdToNicknameMap;
 
+nstl::vector<std::pair<int, int>> playersKills;
+
 
 std::string GetFormattedJson(Json::Value value);
 
@@ -708,7 +710,7 @@ std::string WebLauncherPostRequest::CreateDebugSession()
   player["nickname"] = Json::Value ("Rekongstor");
   player["muteChat"] = Json::Value (false);
   player["hero"] = Json::Value (29);
-  player["team"] = Json::Value (2);
+  player["team"] = Json::Value (1);
   player["party"] = Json::Value (0);
   player["skin"] = Json::Value (1);
 
@@ -737,7 +739,7 @@ std::string WebLauncherPostRequest::CreateDebugSession()
   Json::Value player2 = player;
   player2["id"] = Json::Value (123456789);
   player2["nickname"] = Json::Value ("RekongstorRekongstor");
-  player2["team"] = Json::Value (1);
+  player2["team"] = Json::Value (2);
   
   players.resize(2);
   players[0] = player;
@@ -746,6 +748,7 @@ std::string WebLauncherPostRequest::CreateDebugSession()
   Json::Value data;
   data["sessionToken"] = Json::Value (SESSION_TOKEN);
   data["players"] = players;
+  data["mapId"] = Json::Value("Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR.xdb");
 
   Json::Value result;
   result["body"] = data;

@@ -55,6 +55,8 @@
 
 extern string g_sessionToken;
 
+extern nstl::vector<std::pair<int, int>> playersKills;
+
 static bool s_threaded_loading = true;
 REGISTER_VAR( "threaded_loading", s_threaded_loading, STORAGE_NONE );
 
@@ -810,6 +812,15 @@ static void SendFinishGameRequest(const StatisticService::RPC::SessionClientResu
     playersInfo.append(playerInfo);
   }
   data["playersInfo"] = playersInfo;
+
+  Json::Value playersKillsJson(Json::arrayValue);
+  for (int killId = 0; killId < playersKills.size(); ++killId) {
+    Json::Value killerAndVictim(Json::objectValue);
+    killerAndVictim["killer"] = playersKills[killId].first;
+    killerAndVictim["victim"] = playersKills[killId].second;
+    playersKillsJson.append(killerAndVictim);
+  }
+  data["playerKills"] = playersKillsJson;
 
   Json::Value sessionResultsJson = Json::objectValue;
   sessionResultsJson["data"] = data;
