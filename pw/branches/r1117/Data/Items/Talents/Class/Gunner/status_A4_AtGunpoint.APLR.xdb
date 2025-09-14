@@ -18,7 +18,7 @@
 					<StatusApplicator>
 						<applicators />
 						<applyTarget>ApplicatorTarget</applyTarget>
-						<behaviorFlags>145</behaviorFlags>
+						<behaviorFlags>149</behaviorFlags>
 						<caption>статус</caption>
 						<customCounter>
 							<compiledString></compiledString>
@@ -41,7 +41,7 @@
 							<returnType>bool</returnType>
 							<sString>true</sString>
 						</enabled>
-						<flags>2</flags>
+						<flags>0</flags>
 						<formulaName>Status_AtGunpoint</formulaName>
 						<image href="" />
 						<lifeTime>
