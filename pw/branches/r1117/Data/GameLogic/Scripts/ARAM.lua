@@ -77,9 +77,6 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	end
 	
 	local dbid = "Zombie"
-	if heroIsKilled then
-		return -- dbid = "SuperZombie"
-	end
 	
 	local faction = LuaGetUnitFactionById( killerId )
 	if faction == 1 then
@@ -88,14 +85,31 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 		dbid = dbid .. "B"
 	end
 
-	AddTriggerTop( SpawnZombie, victimId, dbid, faction )
+	AddTriggerTop( SpawnZombie, victimId, dbid, faction, heroIsKilled)
+	
 end
 
-function SpawnZombie( victimId, dbid, faction )
-	WaitState( ZombieSpawnDelay )
-	LuaCreateZombieById( victimId, dbid, faction )
-	WaitState( ZombieSpawnDelay )
-	LuaCreateZombieById( victimId, dbid, faction )
-	WaitState( ZombieSpawnDelay )
-	LuaCreateZombieById( victimId, dbid, faction )
+function SpawnZombie( victimId, dbid, faction, heroIsKilled )
+
+	if heroIsKilled then
+	
+		if faction == 1 then
+			faction = 2
+		else
+			faction = 1
+		end
+	
+		LuaCreateZombieById( victimId, "Ghost", faction )
+	
+	else
+	
+		WaitState( ZombieSpawnDelay )
+		LuaCreateZombieById( victimId, dbid, faction )
+		WaitState( ZombieSpawnDelay )
+		LuaCreateZombieById( victimId, dbid, faction )
+		WaitState( ZombieSpawnDelay )
+		LuaCreateZombieById( victimId, dbid, faction )
+	
+	end
+	
 end

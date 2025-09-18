@@ -25,16 +25,12 @@
 					<resource href="/Creeps/Normals/Normal11/PvP_A.CREEP" />
 				</Item>
 				<Item>
-					<key>SuperZombieA</key>
-					<resource href="/Creeps/Normals/Normal10/PvP_A.CREEP" />
+					<key>Ghost</key>
+					<resource href="/Creeps/Normals/Normal8/PvE_Coop1.CREEP" />
 				</Item>
 				<Item>
 					<key>ZombieB</key>
 					<resource href="/Creeps/Normals/Normal11/PvP_B.CREEP" />
-				</Item>
-				<Item>
-					<key>SuperZombieB</key>
-					<resource href="/Creeps/Normals/Normal10/PvP_B.CREEP" />
 				</Item>
 				<Item>
 					<key>MainBuildingBuff</key>
