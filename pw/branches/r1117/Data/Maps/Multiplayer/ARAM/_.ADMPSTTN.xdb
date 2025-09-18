@@ -123,7 +123,7 @@
 		<teamNaftaForPresence>-1</teamNaftaForPresence>
 	</primeSettings>
 	<questsCollection href="" />
-	<scriptFileName>/GameLogic/Scripts/PvPMod2.lua</scriptFileName>
+	<scriptFileName>/GameLogic/Scripts/ARAM.lua</scriptFileName>
 	<showAllHeroes>true</showAllHeroes>
 	<towersVulnerabilityDelay>0</towersVulnerabilityDelay>
 	<trainingForceCoeff>1</trainingForceCoeff>
