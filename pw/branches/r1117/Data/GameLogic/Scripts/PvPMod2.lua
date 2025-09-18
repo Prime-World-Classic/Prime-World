@@ -3,17 +3,17 @@ include ("GameLogic/Scripts/StatesManager.lua")
 include ("GameLogic/Scripts/Common.lua")
 include ("GameLogic/Scripts/Consts.lua")
 
-ZombieSpawnDelay = 1
+ZombieSpawnDelay = 3
 KilledHeroProc = 100
-KilledBySummonProc = 50
+KilledBySummonProc = 0
 KilledByMeleeAAProc = 100
-KilledByRangedAAProc = 70
-KilledByAbilityProc = 30
+KilledByRangedAAProc = 100
+KilledByAbilityProc = 0
 
 function Init( reconnecting )
 	if not reconnecting then
-		LuaApplyPassiveAbility ("MainBuildingA", "MainBuildingBuff") -- раздаем статус своим зданиям
-		LuaApplyPassiveAbility ("MainBuildingB", "MainBuildingBuff")
+		-- LuaApplyPassiveAbility ("MainA", "MainBuildingBuff") -- раздаем статус своим зданиям
+		-- LuaApplyPassiveAbility ("MainB", "MainBuildingBuff")
 	end
 end
 
@@ -76,11 +76,9 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 		return
 	end
 	
-	local dbid
+	local dbid = "Zombie"
 	if heroIsKilled then
-		dbid = "SuperZombie"
-	else
-		dbid = "Zombie"
+		return -- dbid = "SuperZombie"
 	end
 	
 	local faction = LuaGetUnitFactionById( killerId )
@@ -94,6 +92,10 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 end
 
 function SpawnZombie( victimId, dbid, faction )
+	WaitState( ZombieSpawnDelay )
+	LuaCreateZombieById( victimId, dbid, faction )
+	WaitState( ZombieSpawnDelay )
+	LuaCreateZombieById( victimId, dbid, faction )
 	WaitState( ZombieSpawnDelay )
 	LuaCreateZombieById( victimId, dbid, faction )
 end
