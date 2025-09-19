@@ -320,9 +320,9 @@
 					<UnitConstant>
 						<name>A2_LifeDrain</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DKVxvQM3M4EE=</compiledString>
+							<compiledString>FQAAAAAFAAAALwAAADkAAABnAAAAdQAAAH8AAABVi+yD7AxWi0UIixCLTQiLQkz/0Ivwi00IixGLTQiLgpABAAD/0DvwdUZqAFHZBcgAAADZHCRR2QXEAAAA2RwkagCLTQiLEYtNCIuCMAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0NwNvAAAAN1d+Os+agBR2QXIAAAA2RwkUdkFxAAAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCRqAItNEIsRi00Qi0Jg/9DdXfjdRfjZXfTZRfRei+VdwwAAAAAAAPg/mpmJQM3MAEI=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale(sStrength, 3.74, 28.1, false)</sString>
+							<sString>sTerrainType == sFctn ? (abilityScale(sStrength, 4.3, 32.2, false)*1.5 ) : abilityScale(sStrength, 4.3, 32.2, false)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
