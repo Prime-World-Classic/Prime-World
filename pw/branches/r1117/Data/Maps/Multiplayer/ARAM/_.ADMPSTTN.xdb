@@ -40,6 +40,14 @@
 					<key>SuperInventor</key>
 					<resource href="/Creeps/A/SuperHeavy/InventorSummon.CREEP" />
 				</Item>
+				<Item>
+					<key>CompanionA</key>
+					<resource href="/Creeps/Normals/Normal11/PvP_CompanionA.CREEP" />
+				</Item>
+				<Item>
+					<key>CompanionB</key>
+					<resource href="/Creeps/Normals/Normal11/PvP_CompanionB.CREEP" />
+				</Item>
 			</resources>
 		</DictionaryPreloadingResources>
 	</dictionary>
