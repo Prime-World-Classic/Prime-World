@@ -7,8 +7,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G454_AttackSpeed_Life.TALENT" Count="1" />
 	<name>HealAmount</name>
 	<var>
-		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNDU1AAAAAEc0NTUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiD6QFryUGBwYQDAACJTfTbRfSL5V3D</compiledString>
+		<compiledString>FQwAAAACAAAAKAAAAD4AAABIZWFsUGVyY2VudABVi+yD7AyLRQyLEItNDItCDP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcDU8AAADcTfjZXfTZRfSL5V3DexSuR+F6hD8=</compiledString>
 		<returnType>float</returnType>
-		<sString>900 + 65 * ( getTalentRefineRate("G455", 1) - 1 )</sString>
+		<sString>rMaxLife * (cHealPercent * 0.01)</sString>
 	</var>
 </UnitConstant>

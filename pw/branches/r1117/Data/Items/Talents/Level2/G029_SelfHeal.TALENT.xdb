@@ -211,13 +211,13 @@
 	<constants href="/Items/Talents/Level2/G029_SelfHeal.TALENT" id="8126A1FA-F70E-42A7-A791-0CEC3EF64358">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level2/G029_SelfHeal.TALENT" id="9F830F80-1D6B-438E-8758-91EE36955216">
+				<Item href="/Items/Talents/Level2/G029_SelfHeal.TALENT" id="6163CB0D-6BD2-49B3-9925-D1960CE3D99A">
 					<UnitConstant>
 						<name>HealAmount</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAekMAAHBB</compiledString>
+							<compiledString>FQAAAAACAAAAHgAAACQAAABVi+yD7AiLRQiLEItNCIuCYAEAAP/QiUX820X83A06AAAA3AUyAAAA2V342UX4i+VdwwAAAAAAwHJAMzMzMzMzJkA=</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(250, 15)</sString>
+							<sString>300 + 11.1*sNaftaLevel</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -229,9 +229,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>80</sString>
+		<sString>70</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

@@ -15,6 +15,8 @@
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_GoodList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season9_GoodList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Test/Talents/RedSet1.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander_Alternative.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -88,6 +90,16 @@
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/const_HealAmount" />
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/const_G455_Cooldown" />
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/const_Blind_Duration" />
+				<Item href="/Items/Talents/Level2/G451_Str_int_Life.TALENT" id="C32F484F-77FD-4BC6-8D6C-A72E18FE84F5">
+					<UnitConstant>
+						<name>HealPercent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

@@ -17,6 +17,7 @@
 	<BackLink DBID="/Test/Talents/Naga/Elite_Will.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Unicorn/Elite_Will.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witch/Elite_PvE.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -88,6 +89,16 @@
 				<Item href="/Items/Talents/TalentKits/Vampiric1_Resurrection/const_Cooldown" />
 				<Item href="/Items/Talents/TalentKits/Vampiric1_Resurrection/const_HealAmount" />
 				<Item href="/Items/Talents/TalentKits/Vampiric1_Resurrection/const_WaitTime" />
+				<Item href="/Items/Talents/Level4/G307_Dex_maxStaWill.TALENT" id="77FEE8B9-E312-4DB2-AD5E-306FD5DD9ACE">
+					<UnitConstant>
+						<name>HealPercent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
