@@ -29,6 +29,8 @@
 	<BackLink DBID="/Social/Lootboxes/LB_G454_8" Count="1" />
 	<BackLink DBID="/Items/Talents/Assassin.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Archeress.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander_Alternative.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -102,6 +104,16 @@
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/const_PolyDuration" />
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/Dec_MoveSpeed" />
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/const_Blind_Duration" />
+				<Item href="/Items/Talents/Level6/G454_AttackSpeed_Life.TALENT" id="0A6D78EC-99CF-41DC-94CF-F816F245ABC8">
+					<UnitConstant>
+						<name>HealPercent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

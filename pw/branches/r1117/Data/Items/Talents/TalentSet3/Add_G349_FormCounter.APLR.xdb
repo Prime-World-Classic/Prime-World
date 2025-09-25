@@ -25,7 +25,7 @@
 			<returnType>float</returnType>
 			<sString>1.0f</sString>
 		</multValue>
-		<stat>Life</stat>
+		<stat>AttackSpeed</stat>
 		<topModifier>false</topModifier>
 		<variable>G349_FormCounter</variable>
 	</modifier>

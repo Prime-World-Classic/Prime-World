@@ -113,6 +113,8 @@
 	<BackLink DBID="/Social/Lootboxes/LB_G455_7" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_GoodList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/LB_G455_8" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander_Alternative.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -213,6 +215,16 @@
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 							<returnType>float</returnType>
 							<sString>50</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" id="D4226610-741B-40C7-BBA1-A3FFE2D06C32">
+					<UnitConstant>
+						<name>HealPercent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
