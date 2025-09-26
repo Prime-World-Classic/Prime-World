@@ -652,7 +652,7 @@ START_LUA2CPP_FUNCTION_ARG1( LuaHeroGetPosition, const char* )
 
   CVec3 position(-1,-1,-1);
   // This function works only if the hero is visible for us or if we are in a single player game
-  if (pHero->IsVisibleForFaction(pHeroLocal->GetFaction()) || pAIContainer->GetWorld()->IsAllScriptFunctionsEnabled() )
+  //if (pHero->IsVisibleForFaction(pHeroLocal->GetFaction()) || pAIContainer->GetWorld()->IsAllScriptFunctionsEnabled() )
   {
     position =  pHero->GetPosition();
   }
@@ -686,7 +686,7 @@ START_LUA2CPP_FUNCTION_ARG1( LuaUnitGetPosition, const char* )
 
   CVec3 position(-1,-1,-1);
   // This function works only if the hero is visible for us or if we are in a single player game
-  if (pUnit->IsVisibleForFaction(pHeroLocal->GetFaction()) || pAIContainer->GetWorld()->IsAllScriptFunctionsEnabled() )
+  //if (pUnit->IsVisibleForFaction(pHeroLocal->GetFaction()) || pAIContainer->GetWorld()->IsAllScriptFunctionsEnabled() )
   {
     position =  pUnit->GetPosition();
   }
@@ -721,7 +721,7 @@ START_LUA2CPP_FUNCTION_ARG1( LuaUnitGetHealth, const char* )
   float health = -1.0f;
   float maxHealth = -1.0f;
   // This function works only if the hero is visible for us or if we are in a single player game
-  if (pUnit->IsVisibleForFaction(pHeroLocal->GetFaction()) || pAIContainer->GetWorld()->IsAllScriptFunctionsEnabled() )
+  //if (pUnit->IsVisibleForFaction(pHeroLocal->GetFaction()) || pAIContainer->GetWorld()->IsAllScriptFunctionsEnabled() )
   {
     health = pUnit->GetHealth();
     maxHealth = pUnit->GetMaxHealth();
