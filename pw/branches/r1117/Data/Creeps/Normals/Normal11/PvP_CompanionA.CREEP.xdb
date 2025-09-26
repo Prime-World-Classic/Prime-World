@@ -5,7 +5,7 @@
 	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMPSTTN" Count="2" />
 	<abilities>
 		<Item skip="1" />
-		<Item href="/Creeps/Normals/Normal11/LifeTimeZombie.ABLT" />
+		<Item href="" />
 		<Item skip="1" />
 		<Item skip="1" />
 		<Item skip="1" />
