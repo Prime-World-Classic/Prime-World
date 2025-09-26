@@ -32,15 +32,11 @@ function initCompanion()
 			
 			COMPANION_DATA[heroId] = { id = body .. heroId, attack = "", recovery = false, target = heroId, distance = 0, body = body, status = "", alive = false, targetX = 0, targetY = 0, notAction = 0, limitNotAction = LuaRandom( 15, 30 ), home = { x = x, y = y } }
 			
-			--StartTrigger( spawnCompanion, heroId )
+			StartTrigger( spawnCompanion, heroId )
 			
 		end
 		
 	end
-	
-	StartTrigger( spawnCompanion, "00" )
-	
-	StartTrigger( spawnCompanion, "10" )
 	
 end
 
@@ -259,7 +255,7 @@ function Init( reconnecting )
 		-- LuaApplyPassiveAbility ("MainB", "MainBuildingBuff")
 	end
 	
-	initCompanion()
+	-- initCompanion()
 	
 end
 
