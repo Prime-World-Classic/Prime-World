@@ -261,7 +261,6 @@
 	<BackLink DBID="/Items/Talents/Level4/G044_Life-Silence.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G051_Root_Target.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G060_Aura-StrWill.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level4/G096_Flower.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G150_Aura-IntStm.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G151_Dmg_Slow.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT" Count="1" />
