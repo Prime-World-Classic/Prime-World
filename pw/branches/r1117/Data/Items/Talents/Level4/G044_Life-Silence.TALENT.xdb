@@ -7,7 +7,6 @@
 	<BackLink DBID="/Items/RerollShop/TalentsList_Rar4" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G547_SilenceDamageBase.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Banshee.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -66,13 +65,34 @@
 	<commonDescription textref="/Items/Talents/Level4/G044_Life-Silence.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level4/G044_Life-Silence.TALENT" id="144EF093-94FF-4BFC-9D22-DCE338BAA193">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABHMDQ0X1NwZE9yRGV4AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG044_SpdOrDex == 1</sString>
+				</condition>
+				<name>SpdOrDex</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents>
 		<Item href="/Items/Talents/Level3/G547_SilenceDamageBase.TALENT" />
 	</conflictingTalents>
 	<constants href="/Items/Talents/Level4/G044_Life-Silence.TALENT" id="3A1834D6-EADC-422D-94C1-4BE2FB353CB5">
 		<UnitConstantsContainer>
 			<vars>
+				<Item href="/Items/Talents/Level4/G044_Life-Silence.TALENT" id="3D0D9B46-8A24-459A-AE89-3DC4EE138A5B">
+					<UnitConstant>
+						<name>AddStat</name>
+						<var>
+							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ6NkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAABAAACAPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>refineScale(2,1)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 				<Item href="/Items/Talents/Level4/G044_Life-Silence.TALENT" id="11DFEF8E-5884-4368-A595-15059623C1AD">
 					<UnitConstant>
 						<name>Damage</name>
@@ -206,7 +226,98 @@
 	<naftaCost>-1</naftaCost>
 	<name textref="/Items/Talents/Level4/G044_Life-Silence.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Level4/G044_Life-Silence.TALENT" id="51E287C6-5415-445D-A164-DEEC7763551D">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>SpdOrDex</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>G769_SpdOrDex</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G044_Life-Silence.TALENT" id="09BA50CB-3C74-42EE-82CA-814E10FCEA9D">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>AttackSpeed</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQgAAAABAAAAFAAAAEFkZFN0YXQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cAddStat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>AttackSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G044_Life-Silence.TALENT" id="62C8DE41-433E-4876-8950-F80C8789F071">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Dexterity</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoEi0UIixCLTQiLgiwBAAD/0A+28GoRi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqBItVCIsCi00Ii5AsAQAA/9IPtvBqEYtFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkIwAAAD/0otFCIsQi00Ii4LAAAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/DPAg338AA+UwF6L5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>!(pFirst-&gt;IsRecommended(4) &gt; pFirst-&gt;IsRecommended(17) ? 1 : pFirst-&gt;IsRecommended(4) &lt; pFirst-&gt;IsRecommended(17) ? 0 : sBaseAttackSpeed&gt;=sBaseDexterity)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQgAAAABAAAAFAAAAEFkZFN0YXQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cAddStat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Dexterity</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>G044</persistentId>
 	<prerequisiteTalents />
 	<rarity>magnificent</rarity>

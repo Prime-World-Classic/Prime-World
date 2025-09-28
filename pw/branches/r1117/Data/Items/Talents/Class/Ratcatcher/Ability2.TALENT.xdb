@@ -1164,9 +1164,9 @@
 					<UnitConstant>
 						<name>A4_2_ForCreepDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAAMQAAADsAAABVi+yD7AiLRQiLEItNCIuCfAEAAP/QiUX8i00IixGLTQiLgnwBAAD/0IlF+GoBUdkFjgAAANkcJFHZBYoAAADZHCRqAItN/IsRi038i4I0AQAA/9BR2Rwki034ixGLTfiLgjABAAD/0FHZHCToIQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0IvlXcMzMzNBAACoQlWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FQAAAAACAAAAMQAAADsAAABVi+yD7AiLRQiLEItNCIuCfAEAAP/QiUX8i00IixGLTQiLgnwBAAD/0IlF+GoBUdkFjgAAANkcJFHZBYoAAADZHCRqAItN/IsRi038i4I0AQAA/9BR2Rwki034ixGLTfiLgjABAAD/0FHZHCToIQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0IvlXcMAAIBBAADwQlWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(max(sender.master.Strength, sender.master.Intellect), 11.2, 84)</sString>
+							<sString>damageScale(max(sender.master.Strength, sender.master.Intellect), 16, 120)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -7,6 +7,7 @@
 	<BackLink DBID="/Items/Talents/Level5/G771_Str_CDR.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G772_Int_CDR.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/G773_StrOrInt_Dex.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G044_Life-Silence.TALENT" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<caption>FormCounter</caption>
 	<customApplyType>None</customApplyType>
