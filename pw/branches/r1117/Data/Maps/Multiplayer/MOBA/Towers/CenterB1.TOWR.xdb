@@ -9,6 +9,7 @@
 	<BackLink DBID="/Maps/Multiplayer/PFmap/_.ADMP" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/PFmap/Mod2/_.ADMP" Count="1" />
 	<BackLink DBID="/Maps/Tutorial/_.ADMP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/Tournament/_.ADMP" Count="1" />
 	<attackAbility href="/Buildings/DefaultStats/ability_BTier1_AttackAbility.ATCK" />
 	<baseRotation>270</baseRotation>
 	<deathParameters href="/GameLogic/Tower.UNDP" />

@@ -40231,7 +40231,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/MOBA/Towers/CenterA2.TOWR" />
+			<gameObject href="/Maps/Multiplayer/MOBA/Towers/CenterA1.TOWR" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -40249,7 +40249,7 @@
 			<scriptName>TowerA2_m2</scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/MOBA/Towers/CenterB2.TOWR" />
+			<gameObject href="/Maps/Multiplayer/MOBA/Towers/CenterB1.TOWR" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
