@@ -40231,7 +40231,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/MOBA/Towers/CenterA2.TOWR" />
+			<gameObject href="/Maps/Multiplayer/MOBA/Towers/CenterA1.TOWR" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -40249,7 +40249,7 @@
 			<scriptName>TowerA2_m2</scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/MOBA/Towers/CenterB2.TOWR" />
+			<gameObject href="/Maps/Multiplayer/MOBA/Towers/CenterB1.TOWR" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -50913,24 +50913,6 @@
 				<translateX>96.82844</translateX>
 				<translateY>217.7173</translateY>
 				<translateZ>-13.24095</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Maps/Multiplayer/Tournament/cameraB1.CSPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>197.5707</translateX>
-				<translateY>134.3707</translateY>
-				<translateZ>0.8610437</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>

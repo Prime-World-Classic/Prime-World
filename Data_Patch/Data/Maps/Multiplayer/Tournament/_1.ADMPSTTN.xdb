@@ -7,6 +7,6 @@
 	<enableAnnouncements>true</enableAnnouncements>
 	<hintsCollection href="" />
 	<questsCollection href="" />
-	<scriptFileName></scriptFileName>
+	<scriptFileName>/GameLogic/Scripts/Tournament.lua</scriptFileName>
 	<useCustomBattleStartAnnouncement>false</useCustomBattleStartAnnouncement>
 </AdvMapSettings>
