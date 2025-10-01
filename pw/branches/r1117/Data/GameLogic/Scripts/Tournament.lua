@@ -37,32 +37,18 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 			
 			FINISH = true
 			
-			AddTriggerTop( FinishTournament, faction )
+			if faction == 1 then 
+	
+				LuaKillUnit("MainB")
+		
+			else 
+		
+				LuaKillUnit("MainA")
+		
+			end
 		
 		end
 		
 	end
 	
-end
-
-function FinishTournament( faction )
-	
-	WaitState( 0.2 )
-	
-	LuaSetTimeScale(0.2)
-	
-	WaitState( 1 )
-	
-	LuaSetTimeScale(1)
-	
-	if faction == 1 then 
-	
-		LuaKillUnit("MainB")
-		
-	else 
-		
-		LuaKillUnit("MainA")
-		
-	end
-
 end
