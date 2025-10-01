@@ -38,5 +38,6 @@
 		<Item href="/Maps/Multiplayer/MOBA/NightMap/_.ADMPDSCR" />
 		<Item href="/Maps/Multiplayer/MOBA/Trening/_.ADMPDSCR" />
 		<Item href="/Maps/Multiplayer/ARAM/_.ADMPDSCR" />
+		<Item href="/Maps/Multiplayer/Tournament/_1.ADMPDSCR" />
 	</maps>
 </MapList>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AdvMapDescription>
 	<BackLink DBID="/Maps/_.MAPLST" Count="1" />
-	<BackLink DBID="/Tech/Default/_.MAPLST" Count="1" />
+	<BackLink DBID="/Tech/Default/_.MAPLST" Count="2" />
 	<acceptNeeded>false</acceptNeeded>
 	<AvailableForLeavers>false</AvailableForLeavers>
 	<botsUseSkins>false</botsUseSkins>
