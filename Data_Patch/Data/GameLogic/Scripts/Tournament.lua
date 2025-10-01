@@ -3,6 +3,8 @@ include ("GameLogic/Scripts/StatesManager.lua")
 include ("GameLogic/Scripts/Common.lua")
 include ("GameLogic/Scripts/Consts.lua")
 
+FINISH = false
+
 function Init( reconnecting )
 
 	
@@ -10,6 +12,12 @@ function Init( reconnecting )
 end
 
 function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
+
+	if FINISH then 
+		
+		return
+	
+	end
 	
 	if killerId == -1 then
 	
@@ -23,23 +31,38 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 		
 		local faction = LuaGetUnitFaction( heroNameId )
 		
-		local kills = LuaHeroGetKillsTotal(heroNameId)
+		local kills = LuaStatisticsGetTotalNumHeroKills(heroNameId)
 		
 		if kills > 1 then 
-		
-			if faction == 1 then 
-		
-				LuaKillUnit("MainB")
 			
+			FINISH = true
 			
-			else 
-		
-				LuaKillUnit("MainA")
-		
-			end
+			AddTriggerTop( FinishTournament, faction )
 		
 		end
 		
 	end
 	
+end
+
+function FinishTournament( faction )
+	
+	WaitState( 0.2 )
+	
+	LuaSetTimeScale(0.2)
+	
+	WaitState( 1 )
+	
+	LuaSetTimeScale(1)
+	
+	if faction == 1 then 
+	
+		LuaKillUnit("MainB")
+		
+	else 
+		
+		LuaKillUnit("MainA")
+		
+	end
+
 end
