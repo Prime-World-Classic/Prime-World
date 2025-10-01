@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G452_AttackSpeed_Life.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G451_Str_int_Life.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G453_Dex_StaOrWill.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G454_AttackSpeed_Life.TALENT" Count="1" />
+	<name>HealAmount</name>
+	<var>
+		<compiledString>FQwAAAACAAAAKAAAAD4AAABIZWFsUGVyY2VudABVi+yD7AyLRQyLEItNDItCDP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcDU8AAADcTfjZXfTZRfSL5V3DexSuR+F6hD8=</compiledString>
+		<returnType>float</returnType>
+		<sString>rMaxLife * (cHealPercent * 0.01)</sString>
+	</var>
+</UnitConstant>
