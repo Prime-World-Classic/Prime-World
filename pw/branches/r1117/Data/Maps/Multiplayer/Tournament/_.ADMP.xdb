@@ -50919,24 +50919,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/Tournament/cameraB1.CSPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>197.5707</translateX>
-				<translateY>134.3707</translateY>
-				<translateZ>0.8610437</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Effects/Environment/Rays/_.SMPL" />
 			<lockMap>true</lockMap>
 			<offset>
