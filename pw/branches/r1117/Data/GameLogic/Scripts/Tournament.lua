@@ -45,8 +45,8 @@ function GetScore()
 	local B = 0
 
 	for team = 0, 1 do
-	local hero = 0
-		--for hero = 0, 1 do
+	
+		for hero = 0, 1 do
 		
 			local heroNameId = tostring( team ) .. tostring( hero )
 			
@@ -66,7 +66,7 @@ function GetScore()
 				
 			end
 		
-		--end
+		end
 	
 	end
 	
