@@ -146,7 +146,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>1</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G485_Int.TALENT" />
+					<talent href="/Items/Talents/Level4/G283_Dexterity.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>

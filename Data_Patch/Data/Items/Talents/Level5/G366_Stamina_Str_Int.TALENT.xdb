@@ -32,6 +32,7 @@
 	<BackLink DBID="/Items/Talents/Gunslinger.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Gunslinger_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Inventor.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Inventor_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/IronKnight.TALENTSET" Count="1" />

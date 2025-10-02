@@ -28,8 +28,6 @@
 	<BackLink DBID="/Test/Talents/Mowgli/Epic_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Naga/Epic_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Naga/Epic_Will.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Highlander_Alternative.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -92,16 +90,6 @@
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/const_PolyDuration" />
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/Dec_MoveSpeed" />
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/const_Blind_Duration" />
-				<Item href="/Items/Talents/Level4/G452_AttackSpeed_Life.TALENT" id="13306D3E-A29E-4248-8E18-43CE6FAD9D8E">
-					<UnitConstant>
-						<name>HealPercent</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>30.0f</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

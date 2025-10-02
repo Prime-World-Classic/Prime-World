@@ -140,7 +140,7 @@
 													<sString>cA4_2_ForCreepDamage</sString>
 												</damage>
 												<damageMode>0</damageMode>
-												<damageType>Material</damageType>
+												<damageType>Pure</damageType>
 												<enabled>
 													<compiledString>FT4AAAAEAAAAbQAAAJkAAAD7AAAAJwEAAFJhdGNhdGNoZXJfQTRfMgBSYXRjYXRjaGVyX0E0XzIAUmF0Y2F0Y2hlcl9BNAAAAFJhdGNhdGNoZXJfQTQAVYvsg+wki0UIixCLTQiLgnwBAAD/0DtFCHRpi00IixGLTQiLgnwBAAD/0IlF/GgAAAAAi038ixGLTfyLgqgBAAD/0IXAdD2LTQiLEYtNCIuCfAEAAP/QiUX4aBAAAACLTfiLEYtN+IuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyQ+EkwAAAItVCIsCi00Ii5B8AQAA/9I7RQh0aYtFCIsQi00Ii4J8AQAA/9CJRexoIAAAAItN7IsRi03si4KoAQAA/9CFwHQ9i00IixGLTQiLgnwBAAD/0IlF6GgwAAAAi03oixGLTeiLgqgBAAD/0IlF5ItN5IsRi03ki0IE/9CIRePrBMZF4wAPtk3jhcl1CcdF3AEAAADrB8dF3AAAAACKRdyL5V3D</compiledString>
 													<returnType>bool</returnType>
@@ -150,7 +150,7 @@
 												<LoggingEvent>-1</LoggingEvent>
 												<providerName></providerName>
 												<timeLimiter>-1</timeLimiter>
-												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
 											</DamageApplicator>
 										</Item>
 									</applicators>

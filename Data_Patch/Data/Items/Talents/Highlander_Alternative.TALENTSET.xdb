@@ -78,7 +78,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>1</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G451_Str_int_Life.TALENT" />
+					<talent href="/Items/Talents/Level2/G297_maxStrInt.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -158,7 +158,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>1</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G452_AttackSpeed_Life.TALENT" />
+					<talent href="/Items/Talents/Level4/G337_IntAspd.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -192,13 +192,13 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>1</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G186_AInt_Vamp.TALENT" />
+					<talent href="/Items/Talents/Level5/G445_Aspd_inc_DrainLife.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>1</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G453_Dex_StaOrWill.TALENT" />
+					<talent href="/Items/Talents/Level5/G366_Stamina_Str_Int.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -232,13 +232,13 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>1</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G454_AttackSpeed_Life.TALENT" />
+					<talent href="/Items/Talents/Level6/G375_Str_Stamina_Will.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>1</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level6/G324_StrAspd.TALENT" />
 				</Item>
 			</talents>
 		</Item>

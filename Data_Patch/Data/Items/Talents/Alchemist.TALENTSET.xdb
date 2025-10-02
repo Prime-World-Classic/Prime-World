@@ -26,7 +26,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G015_Life_LifeRegen.TALENT" />
+					<talent href="/Items/Talents/Level1/G610_1_Life.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -64,21 +64,21 @@
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>7</refineRate>
+					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G354_Life.TALENT" />
-				</Item>
-				<Item>
-					<aIPriority>0</aIPriority>
-					<refineRate>7</refineRate>
-					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G349_SelfHeal.TALENT" />
+					<talent href="/Items/Talents/Level2/G738_StrOrInt.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G297_maxStrInt.TALENT" />
+					<talent href="/Items/Talents/Level2/G544_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>5</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level2/G526_Shield.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -110,15 +110,15 @@
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>7</refineRate>
+					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G289_GuildLifeReg_MoveSpeed.TALENT" />
+					<talent href="/Items/Talents/Level3/G575_EnergyReg_MoveSpeed.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G301_Life_AttackSpeed.TALENT" />
+					<talent href="/Items/Talents/Level3/G547_SilenceDamageBase.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -146,19 +146,19 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G485_Int.TALENT" />
-				</Item>
-				<Item>
-					<aIPriority>0</aIPriority>
-					<refineRate>7</refineRate>
-					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G649_BlindStrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level4/G689_Dex.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G307_Dex_maxStaWill.TALENT" />
+					<talent href="/Items/Talents/Level4/G632_Dex.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>5</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level4/G649_BlindStrOrInt.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -238,7 +238,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G317_K_Life_AttackSpeed.TALENT" />
+					<talent href="/Items/Talents/Level6/G653_Dex.TALENT" />
 				</Item>
 			</talents>
 		</Item>

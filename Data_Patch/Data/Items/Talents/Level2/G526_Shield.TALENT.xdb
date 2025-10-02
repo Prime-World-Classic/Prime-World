@@ -288,9 +288,9 @@
 					<UnitConstant>
 						<name>G526_DamageAbsorb</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAlkMAAMhB</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAlkMAAKBB</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(300, 25)</sString>
+							<sString>refineScale(300, 20)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

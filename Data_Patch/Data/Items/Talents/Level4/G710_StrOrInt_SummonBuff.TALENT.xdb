@@ -16,8 +16,6 @@
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_MediocreList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Items/Talents/Demonolog.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Ratcatcher.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -147,9 +145,9 @@
 					<UnitConstant>
 						<name>Haste_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>10.0f</sString>
+							<sString>5.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -12,7 +12,6 @@
 	<BackLink DBID="/Test/Talents/TestSet12.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet14.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_ClanOrange" Count="1" />
-	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -76,9 +75,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ6NkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAIBAAACAPw==</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAIEHNzEw/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(4, 1)</sString>
+							<sString>refineScale(10, 0.8)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -116,9 +115,9 @@
 					<UnitConstant>
 						<name>Haste_Percent</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>15</sString>
+							<sString>20</sString>
 						</var>
 					</UnitConstant>
 				</Item>

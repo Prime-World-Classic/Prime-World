@@ -4,7 +4,6 @@
 	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet4.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
-	<BackLink DBID="/Items/Talents/Highlander_Alternative.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

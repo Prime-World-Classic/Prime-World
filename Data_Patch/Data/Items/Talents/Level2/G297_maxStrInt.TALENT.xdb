@@ -3,7 +3,7 @@
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_Rar5_Set1" Count="1" />
-	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="2" />
+	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Alchemist_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Angel_Alternative.TALENTSET" Count="1" />
@@ -58,6 +58,7 @@
 	<BackLink DBID="/Items/Talents/Healer.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Healer_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Highlander_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Hunter.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Hunter_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Inventor.TALENTSET" Count="1" />
@@ -250,16 +251,6 @@
 				<Item href="/Items/Talents/TalentKits/Vampiric1_Resurrection/const_Cooldown" />
 				<Item href="/Items/Talents/TalentKits/Vampiric1_Resurrection/const_HealAmount" />
 				<Item href="/Items/Talents/TalentKits/Vampiric1_Resurrection/const_WaitTime" />
-				<Item href="/Items/Talents/Level2/G297_maxStrInt.TALENT" id="59099FAE-ADD5-4B68-9D6C-81DE5CE0327F">
-					<UnitConstant>
-						<name>HealPercent</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>30.0f</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
