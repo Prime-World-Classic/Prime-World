@@ -21,8 +21,6 @@
 	<BackLink DBID="/Social/Lootboxes/LB_G453_7" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_GoodList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/LB_G453_8" Count="1" />
-	<BackLink DBID="/Items/Talents/Highlander_Alternative.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -96,16 +94,6 @@
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/const_PolyDuration" />
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/Dec_MoveSpeed" />
 				<Item href="/Items/Talents/TalentKits/Redset1_2_Resurrection/const_Blind_Duration" />
-				<Item href="/Items/Talents/Level5/G453_Dex_StaOrWill.TALENT" id="C19FF146-7501-4560-BA7A-EA68AAC5D4D9">
-					<UnitConstant>
-						<name>HealPercent</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>30.0f</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

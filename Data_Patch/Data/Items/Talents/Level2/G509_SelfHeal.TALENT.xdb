@@ -11,7 +11,6 @@
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Plane_B_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Rifleman_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="1" />
-	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -213,9 +212,9 @@
 					<UnitConstant>
 						<name>HealAmount</name>
 						<var>
-							<compiledString>FQAAAAACAAAAHgAAACQAAABVi+yD7AiLRQiLEItNCIuCYAEAAP/QiUX820X83A06AAAA3AUyAAAA2V342UX4i+VdwwAAAAAAwHJAMzMzMzMzJkA=</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAekMAAHBB</compiledString>
 							<returnType>float</returnType>
-							<sString>300 + 11.1*sNaftaLevel</sString>
+							<sString>refineScale(250, 15)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

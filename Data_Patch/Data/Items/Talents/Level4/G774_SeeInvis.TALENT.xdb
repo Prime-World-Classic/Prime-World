@@ -5,7 +5,6 @@
 	<BackLink DBID="/Social/TalentsCollection" Count="8" />
 	<BackLink DBID="/Social/Quests/TalentQuests/_Settings" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Banshee.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

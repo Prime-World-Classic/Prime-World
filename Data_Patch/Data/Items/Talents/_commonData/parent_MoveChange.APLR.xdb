@@ -23,7 +23,6 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/trigger_G679_NotReady.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G777_MoveSpeed_Super.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G784_MoveSpeed_afterRess.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level4/G044_Life-Silence.TALENT" Count="1" />
 	<applyTarget>AbilityOwner</applyTarget>
 	<caption>Add_MoveSpeed</caption>
 	<customApplyType>None</customApplyType>

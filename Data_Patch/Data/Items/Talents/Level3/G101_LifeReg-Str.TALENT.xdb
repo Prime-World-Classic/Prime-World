@@ -89,9 +89,9 @@
 					<UnitConstant>
 						<name>DamagePerStack</name>
 						<var>
-							<compiledString>FQAAAAACAAAAHgAAACQAAABVi+yD7AiLRQiLEItNCIuCYAEAAP/QiUX820X83A06AAAA3AUyAAAA2V342UX4i+VdwwAAAAAAACRApHA9CtejAEA=</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsUYtFCIsQi00Ii4JgAQAA/9CDwAqJRfzbRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>10 + 2.08*sNaftaLevel</sString>
+							<sString>10 + 1*sNaftaLevel</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -99,9 +99,9 @@
 					<UnitConstant>
 						<name>MaxStacks</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>8</sString>
+							<sString>12</sString>
 						</var>
 					</UnitConstant>
 				</Item>

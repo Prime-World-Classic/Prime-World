@@ -317,7 +317,6 @@
 	<BackLink DBID="/Items/Talents/Level3/G101_LifeReg-Str.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Summon_Well.APLR" Count="1" />
 	<BackLink DBID="/Heroes/Hunter/_.HROB" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Ratcatcher/status_A2_Slave_of_flute.APLR" Count="1" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" id="056252F1-C640-4D83-8686-0E833A2DD99E">

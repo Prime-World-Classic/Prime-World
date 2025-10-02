@@ -8,8 +8,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G654_StaOrWill.TALENT" Count="1" />
 	<name>BlindCooldown</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>180</sString>
+		<sString>240</sString>
 	</var>
 </UnitConstant>

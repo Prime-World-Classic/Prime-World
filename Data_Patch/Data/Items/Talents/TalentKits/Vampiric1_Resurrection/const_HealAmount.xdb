@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G317_K_Life_AttackSpeed.TALENT" Count="1" />
 	<name>HealAmount</name>
 	<var>
-		<compiledString>FQwAAAACAAAAKAAAAD4AAABIZWFsUGVyY2VudABVi+yD7AyLRQyLEItNDItCDP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcDU8AAADcTfjZXfTZRfSL5V3DexSuR+F6hD8=</compiledString>
+		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMzE3AAAAAEczMTcAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiD6QFryTKBwe4CAACJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>rMaxLife * (cHealPercent * 0.01)</sString>
+		<sString>750 + 50 * ( getTalentRefineRate("G317", 1) - 1 )</sString>
 	</var>
 </UnitConstant>
