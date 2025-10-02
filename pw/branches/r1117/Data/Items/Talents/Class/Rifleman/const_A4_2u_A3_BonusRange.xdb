@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A4_2u.TALENT" Count="1" />
 	<name>A4_2u_A3_BonusRange</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmYGQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>5</sString>
+		<sString>8.4</sString>
 	</var>
 </UnitConstant>

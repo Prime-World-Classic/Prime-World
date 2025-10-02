@@ -78,7 +78,7 @@
 												<checkLineOfSight>true</checkLineOfSight>
 												<nativeTerrainOnly>false</nativeTerrainOnly>
 												<passabilityCheckMode>7</passabilityCheckMode>
-												<radius>7</radius>
+												<radius>12</radius>
 												<targetSelector href="/Items/Talents/Class/Rifleman/Ability_A3.TALENT" id="38ABDFD1-C102-4CFB-8345-BAA261E7CDB6">
 													<SelectApplicatorTarget>
 														<applicatorIndex>0</applicatorIndex>
@@ -143,7 +143,7 @@
 												<checkLineOfSight>true</checkLineOfSight>
 												<nativeTerrainOnly>false</nativeTerrainOnly>
 												<passabilityCheckMode>7</passabilityCheckMode>
-												<radius>12</radius>
+												<radius>20.4</radius>
 												<targetSelector href="/Items/Talents/Class/Rifleman/Ability_A3.TALENT" id="6C44A7C7-4EB5-4CF9-9607-38B23A6FD115">
 													<SelectApplicatorTarget>
 														<applicatorIndex>0</applicatorIndex>
