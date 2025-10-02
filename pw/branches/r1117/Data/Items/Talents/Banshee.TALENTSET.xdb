@@ -32,7 +32,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G723_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level1/G737_Int.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>3</aIPriority>
@@ -150,15 +150,15 @@
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>9</refineRate>
+					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G096_Flower.TALENT" />
+					<talent href="/Items/Talents/Level4/G044_Life-Silence.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G774_SeeInvis.TALENT" />
+					<talent href="/Items/Talents/Level4/G452_AttackSpeed_Life.TALENT" />
 				</Item>
 			</talents>
 		</Item>
