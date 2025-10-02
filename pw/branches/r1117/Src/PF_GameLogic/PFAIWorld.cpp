@@ -758,7 +758,9 @@ void PFAIWorld::GetKiller(CPtr<PFBaseUnit> const &pVictim, CPtr<PFBaseUnit> &pKi
     const float HERO_BASE_RATING = 1100.f;
     const float HERO_ASSIST_RATING = 1500.f;
     static bool isAram = GetWorld()->GetMapDescription()->GetDBID().GetFileName() == "Maps/Multiplayer/ARAM/_.ADMPDSCR.xdb";
-    float LASTHIT_ASSIST_TIME = isAram ? 0.f : 0.4f;
+    static bool isDuel = GetWorld()->GetMapDescription()->GetDBID().GetFileName() == "Maps/Multiplayer/Tournament/_1.ADMPDSCR.xdb";
+    bool complexCondition = isAram || isDuel;
+    float LASTHIT_ASSIST_TIME = complexCondition ? 0.f : 0.4f;
 
     const float timeInterval = victimIsBuilding ? GetAIParameters().killTimeIntervals.buildingKillInterval : GetAIParameters().killTimeIntervals.creepKillInterval;
 
@@ -767,7 +769,7 @@ void PFAIWorld::GetKiller(CPtr<PFBaseUnit> const &pVictim, CPtr<PFBaseUnit> &pKi
     if (IsValid(finder.pHero))   
     {
       bool appyKillerLasthit = true;
-      if (finder.pHero->IsTrueHero() && !isAram) {
+      if (finder.pHero->IsTrueHero() && !complexCondition) {
         const float passedTimeForLasthit = GetWorld()->GetTimeElapsed() - finder.pDamageApplicator->GetMarkerTime();
         CPtr<PFBaseHero> pKillerHero = static_cast<PFBaseHero*>(finder.pHero.GetPtr());
         float creepExtraTimeAssist = min(1.f, max(0.f, (HERO_ASSIST_RATING - pKillerHero->GetRaiting()) / (HERO_ASSIST_RATING - HERO_BASE_RATING))) * LASTHIT_ASSIST_TIME;
