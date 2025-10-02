@@ -6,7 +6,7 @@
 	<dictionary href="" />
 	<enableAnnouncements>true</enableAnnouncements>
 	<hintsCollection href="" />
-	<questsCollection href="" />
+	<questsCollection href="/Dialog/SessionTutorial/Tournament/Quest" />
 	<scriptFileName>/GameLogic/Scripts/Tournament.lua</scriptFileName>
 	<useCustomBattleStartAnnouncement>false</useCustomBattleStartAnnouncement>
 </AdvMapSettings>
