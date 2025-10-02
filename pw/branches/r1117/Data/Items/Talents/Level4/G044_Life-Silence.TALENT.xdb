@@ -7,7 +7,6 @@
 	<BackLink DBID="/Items/RerollShop/TalentsList_Rar4" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G547_SilenceDamageBase.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Banshee.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -139,7 +138,7 @@
 			<maxRise>0</maxRise>
 			<minRise>0</minRise>
 			<persistentApplicators />
-			<speed>25</speed>
+			<speed>12</speed>
 			<suspendTime>0</suspendTime>
 			<toLocator>Body</toLocator>
 		</DispatchLinear>

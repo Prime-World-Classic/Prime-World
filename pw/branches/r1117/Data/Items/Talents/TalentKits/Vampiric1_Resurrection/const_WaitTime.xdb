@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level3/G301_Life_AttackSpeed.TALENT" Count="1" />
 	<name>WaitTime</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>2</sString>
+		<sString>3</sString>
 	</var>
 </UnitConstant>

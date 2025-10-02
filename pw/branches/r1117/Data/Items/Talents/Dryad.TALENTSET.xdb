@@ -32,7 +32,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G537_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level1/G399_AntiCreepProc_NT.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>3</aIPriority>
@@ -152,7 +152,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G536_AOE_maxLife.TALENT" />
+					<talent href="/Items/Talents/Level4/G782_StrInt.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
