@@ -7,7 +7,6 @@
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
 	<BackLink DBID="/Social/Quests/TalentQuests/_Settings" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet5.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Banshee.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -1131,9 +1130,9 @@
 					<UnitConstant>
 						<name>Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>2</sString>
+							<sString>3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1191,9 +1190,9 @@
 					<UnitConstant>
 						<name>TECH_BaseMoveSpeed</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>100</sString>
+							<sString>25</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1201,9 +1200,9 @@
 					<UnitConstant>
 						<name>TECH_MoveSpeedCap</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAWQw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADmQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>150</sString>
+							<sString>115</sString>
 						</var>
 					</UnitConstant>
 				</Item>
