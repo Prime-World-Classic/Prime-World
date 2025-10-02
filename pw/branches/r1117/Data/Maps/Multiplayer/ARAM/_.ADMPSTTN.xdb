@@ -21,8 +21,32 @@
 		<DictionaryPreloadingResources>
 			<resources>
 				<Item>
+					<key>ZombieA</key>
+					<resource href="/Creeps/Normals/Normal11/PvP_A.CREEP" />
+				</Item>
+				<Item>
+					<key>Ghost</key>
+					<resource href="/Creeps/Normals/Normal8/PvE_Coop1.CREEP" />
+				</Item>
+				<Item>
+					<key>ZombieB</key>
+					<resource href="/Creeps/Normals/Normal11/PvP_B.CREEP" />
+				</Item>
+				<Item>
+					<key>MainBuildingBuff</key>
+					<resource href="/Maps/Multiplayer/MOBA/Mod2/AbilityZombie.ABLT" />
+				</Item>
+				<Item>
 					<key>SuperInventor</key>
 					<resource href="/Creeps/A/SuperHeavy/InventorSummon.CREEP" />
+				</Item>
+				<Item>
+					<key>CompanionA</key>
+					<resource href="/Creeps/Normals/Normal11/PvP_CompanionA.CREEP" />
+				</Item>
+				<Item>
+					<key>CompanionB</key>
+					<resource href="/Creeps/Normals/Normal11/PvP_CompanionB.CREEP" />
 				</Item>
 			</resources>
 		</DictionaryPreloadingResources>
@@ -103,7 +127,7 @@
 		<teamNaftaForPresence>-1</teamNaftaForPresence>
 	</primeSettings>
 	<questsCollection href="" />
-	<scriptFileName>/GameLogic/Scripts/Moba.lua</scriptFileName>
+	<scriptFileName>/GameLogic/Scripts/ARAM.lua</scriptFileName>
 	<showAllHeroes>true</showAllHeroes>
 	<towersVulnerabilityDelay>0</towersVulnerabilityDelay>
 	<trainingForceCoeff>1</trainingForceCoeff>

@@ -194,6 +194,7 @@ public:
   void SetTimeScale(float scale) { timeScale = scale; }
 
   const NDb::AdvMapDescription *GetMapDescription() { return advMapDescription; }
+  const NDb::AdvMapDescription *GetMapDescription() const { return advMapDescription; }
   TileMap           *GetTileMap() const { return pTileMap; }
   PFAIWorld         *GetAIWorld() const { return pAIWorld; }
   PFStatistics      *GetStatistics() { return pStatistics; }
