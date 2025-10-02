@@ -4,14 +4,13 @@ include ("GameLogic/Scripts/Common.lua")
 include ("GameLogic/Scripts/Consts.lua")
 
 IS_FINAL = false
+SHOW_QUEST = false
 LIMIT_SCORE = 150
 PRICE_HERO = 50
 
 function Init()
 	
-	LuaMessageToChat("Tournament for Prime World Classic by ifst 1.0.0")
-	
-	InitQuest()
+	AddTriggerTop( DelayInit )
 	
 end
 
@@ -50,7 +49,7 @@ function GetScore()
 		for hero = 0, 1 do
 		
 			local heroNameId = tostring( team ) .. tostring( hero )
-		
+			
 			local TotalNumHeroKills = LuaStatisticsGetTotalNumHeroKills( heroNameId )
 			
 			local KillsTotal = LuaHeroGetKillsTotal( heroNameId )
@@ -99,15 +98,47 @@ function CheckFinalB( score )
 	
 end
 
+function DelayInit()
+
+	WaitState( 5 )
+	
+	LuaMessageToChat("Tournament for Prime World: Classic by ifst v1.0.0")
+	
+	WaitState( 15 )
+
+	AddStateEnd( InitQuest )
+
+end
+
 function InitQuest()
 
 	LuaAddSessionQuest( "Q_A" )
 	
 	LuaAddSessionQuest( "Q_B" )
+	
+	SHOW_QUEST = true
 
 end
 
 function UpdateQuest( A, B )
+
+	if not SHOW_QUEST then 
+	
+		return
+	
+	end
+
+	if A > LIMIT_SCORE then
+		
+		A = LIMIT_SCORE
+		
+	end
+	
+	if B > LIMIT_SCORE then
+		
+		B = LIMIT_SCORE
+		
+	end
 	
 	LuaUpdateSessionQuest( "Q_A", A )
 	
