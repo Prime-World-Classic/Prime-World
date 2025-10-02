@@ -255,7 +255,7 @@ function Init( reconnecting )
 		-- LuaApplyPassiveAbility ("MainB", "MainBuildingBuff")
 	end
 	
-	initCompanion()
+	-- initCompanion()
 	
 end
 
