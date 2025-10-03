@@ -116,9 +116,9 @@
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>5</refineRate>
+					<refineRate>9</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G301_Life_AttackSpeed.TALENT" />
+					<talent href="/Items/Talents/Level3/G042_TrigHealonCast.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -156,9 +156,9 @@
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>5</refineRate>
+					<refineRate>7</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G307_Dex_maxStaWill.TALENT" />
+					<talent href="/Items/Talents/Level4/G339_IntDex_Slow.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -236,9 +236,9 @@
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>5</refineRate>
+					<refineRate>9</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G317_K_Life_AttackSpeed.TALENT" />
+					<talent href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" />
 				</Item>
 			</talents>
 		</Item>

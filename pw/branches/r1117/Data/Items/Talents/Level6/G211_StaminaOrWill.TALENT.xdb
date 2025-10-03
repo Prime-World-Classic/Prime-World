@@ -67,9 +67,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAmEEzM7M/</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAgEEAAABA</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(19, 1.4)</sString>
+							<sString>refineScale(16, 2)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -17,6 +17,7 @@
 	<BackLink DBID="/Test/Talents/TestSet15.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Mage/Elite_PvE.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witch/Elite_PvE.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -333,9 +334,9 @@
 	<constants href="/Items/Talents/Level4/G339_IntDex_Slow.TALENT" id="D9E79989-D25F-4E03-B86C-F0DF373835C3">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level4/G339_IntDex_Slow.TALENT" id="2AEF41A3-2E23-4492-9609-2D0FC2CD4613">
+				<Item href="/Items/Talents/Level4/G339_IntDex_Slow.TALENT" id="305D4C03-2CBA-4D48-9A8F-28267A3825CC">
 					<UnitConstant>
-						<name>Add_Intellect</name>
+						<name>Add_Stat</name>
 						<var>
 							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwzMzs0DNzMw+</compiledString>
 							<returnType>float</returnType>
@@ -559,6 +560,36 @@
 						<sString>1.0f</sString>
 					</multValue>
 					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G339_IntDex_Slow.TALENT" id="59A382B6-0B87-49C9-B0E3-2FCA369EF7D4">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Strength</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUVmoPi0UIixCLTQiLgiwBAAD/0A+28GoQi00IixGLTQiLgiwBAAD/0A+2yDvxfgzHRfwBAAAA6YAAAABqD4tVCIsCi00Ii5AsAQAA/9IPtvBqEItFCIsQi00Ii4IsAQAA/9APtsg78X0Jx0X4AAAAAOtDi1UIiwKLTQiLkLgAAAD/0otFCIsQi00Ii4K8AAAA3V3w/9DcXfDf4PbEQXoJx0XsAQAAAOsHx0XsAAAAAItN7IlN+ItV+IlV/IpF/F6L5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>(pFirst-&gt;IsRecommended(15) &gt; pFirst-&gt;IsRecommended(16) ? 1 : pFirst-&gt;IsRecommended(15) &lt; pFirst-&gt;IsRecommended(16) ? 0 : sBaseStrength&gt;=sBaseIntellect)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

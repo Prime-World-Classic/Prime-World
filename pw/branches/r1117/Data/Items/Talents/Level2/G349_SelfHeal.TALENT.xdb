@@ -7,6 +7,7 @@
 	<BackLink DBID="/Items/RerollShop/TalentsList_Rar5_Set3" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_OrangeSet3.ROLLCONT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
