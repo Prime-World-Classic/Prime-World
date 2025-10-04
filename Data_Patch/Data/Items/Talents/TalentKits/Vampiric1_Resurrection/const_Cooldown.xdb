@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level3/G301_Life_AttackSpeed.TALENT" Count="1" />
 	<name>G317_Cooldown</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
 		<returnType>float</returnType>
-		<sString>240</sString>
+		<sString>180</sString>
 	</var>
 </UnitConstant>

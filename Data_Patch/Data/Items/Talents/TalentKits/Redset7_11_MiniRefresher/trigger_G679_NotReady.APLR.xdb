@@ -2,6 +2,7 @@
 <TriggerApplicator>
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/trigger_G679_Ready.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G769_Move_AtSpdOrDex.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G044_Life-Silence.TALENT" Count="1" />
 	<actionsCount>
 		<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
 		<returnType>int</returnType>

@@ -156,9 +156,9 @@
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>5</refineRate>
+					<refineRate>9</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G452_AttackSpeed_Life.TALENT" />
+					<talent href="/Items/Talents/Level4/G096_Flower.TALENT" />
 				</Item>
 			</talents>
 		</Item>

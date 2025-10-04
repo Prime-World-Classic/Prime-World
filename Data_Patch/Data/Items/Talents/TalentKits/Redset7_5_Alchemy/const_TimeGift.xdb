@@ -9,8 +9,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G728_StrOrInt.TALENT" Count="1" />
 	<name>TimeGift</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>180</sString>
+		<sString>240</sString>
 	</var>
 </UnitConstant>

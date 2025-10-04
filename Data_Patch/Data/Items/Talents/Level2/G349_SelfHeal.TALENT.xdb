@@ -7,6 +7,8 @@
 	<BackLink DBID="/Items/RerollShop/TalentsList_Rar5_Set3" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_OrangeSet3.ROLLCONT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -139,9 +141,9 @@
 					<UnitConstant>
 						<name>G349_TalentCD</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>180</sString>
+							<sString>120</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -233,9 +235,9 @@
 					<UnitConstant>
 						<name>BaseHeal</name>
 						<var>
-							<compiledString>FQAAAAACAAEABgAAABAAAABcAAAAVYvsUdkFNgAAANkcJFHZBTIAAADZHCSLRRCLEItNEItCbP/QUdkcJOgNAAAAg8QEXcMAAHpDAACMQVWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOiU////g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAACAAEABgAAABAAAABcAAAAVYvsUdkFNgAAANkcJFHZBTIAAADZHCSLRRCLEItNEItCbP/QUdkcJOgNAAAAg8QEXcMAgJNDAACMQVWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOiU////g8QI2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(250, 17.5))</sString>
+							<sString>floor(refineScale(295, 17.5))</sString>
 						</var>
 					</UnitConstant>
 				</Item>

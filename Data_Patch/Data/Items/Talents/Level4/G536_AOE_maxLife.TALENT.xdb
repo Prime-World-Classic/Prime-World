@@ -15,6 +15,7 @@
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Ratcatcher_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_NY2020_MediocreList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season13_MediocreList.ROLLCONT" Count="1" />
+	<BackLink DBID="/Items/Talents/Dryad.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -373,9 +374,9 @@
 					<UnitConstant>
 						<name>Duration</name>
 						<var>
-							<compiledString>FScAAAAEAAAALgAAAEQAAAB8AAAAnAAAAEc1MzdfQWN0aXZlAEc1MzdfQWRkX2hlYWx0aF9Gb3JfQ3JlZXBzAFWL7IPsCGgAAAAAi0UIixCLTQiLgogBAAD/0NwdtgAAAN/g9sRBdUOLTQyLEYtNDItCUP/Qg/gDdBKLTQyLEYtNDItCUP/Qg/gEdR+LTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0Nld/OsF2ejZXfzZRfzcDaoAAADZXfjZRfiL5V3DAAAAAAAANEAAAIA/AAAAAAAAAAA=</compiledString>
+							<compiledString>FScAAAAEAAAALgAAAEQAAAB8AAAAnAAAAEc1MzdfQWN0aXZlAEc1MzdfQWRkX2hlYWx0aF9Gb3JfQ3JlZXBzAFWL7IPsCGgAAAAAi0UIixCLTQiLgogBAAD/0NwdtgAAAN/g9sRBdUOLTQyLEYtNDItCUP/Qg/gDdBKLTQyLEYtNDItCUP/Qg/gEdR+LTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0Nld/OsF2ejZXfzZRfzcDaoAAADZXfjZRfiL5V3DAAAAAAAALkAAAIA/AAAAAAAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>20 * (sender.vG537_Active &gt; 0 &amp;&amp; (rUnitKind == 3 || rUnitKind == 4) ? cG537_Add_health_For_Creeps : 1)</sString>
+							<sString>15 * (sender.vG537_Active &gt; 0 &amp;&amp; (rUnitKind == 3 || rUnitKind == 4) ? cG537_Add_health_For_Creeps : 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
