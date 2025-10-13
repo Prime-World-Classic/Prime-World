@@ -46,9 +46,9 @@ function GetScore()
 
 	for team = 0, 1 do
 	
-		for hero = 0, 1 do
+		--for hero = 0, 1 do
 		
-			local heroNameId = tostring( team ) .. tostring( hero )
+			local heroNameId = tostring( team ) .. tostring( 0 )
 			
 			local TotalNumHeroKills = LuaStatisticsGetTotalNumHeroKills( heroNameId )
 			
@@ -66,7 +66,7 @@ function GetScore()
 				
 			end
 		
-		end
+		--end
 	
 	end
 	
