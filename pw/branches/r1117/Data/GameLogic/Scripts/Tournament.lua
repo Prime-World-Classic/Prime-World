@@ -3,6 +3,7 @@ include ("GameLogic/Scripts/StatesManager.lua")
 include ("GameLogic/Scripts/Common.lua")
 include ("GameLogic/Scripts/Consts.lua")
 
+IS_START = false
 IS_FINAL = false
 SHOW_QUEST = false
 LIMIT_SCORE = 150
@@ -21,6 +22,14 @@ function OnUnitDie()
 	if IS_FINAL then 
 		
 		return
+	
+	end
+	
+	if not IS_START then
+	
+		IS_START = true
+		
+		ShowUI()
 	
 	end
 	
@@ -88,7 +97,7 @@ function CheckFinalA( score )
 	
 		IS_FINAL = true
 		
-		LuaKillUnit("MainB")
+		LuaKillUnit( "MainB" )
 		
 	end
 	
@@ -100,7 +109,7 @@ function CheckFinalB( score )
 		
 		IS_FINAL = true
 		
-		LuaKillUnit("MainA")
+		LuaKillUnit( "MainA" )
 		
 	end
 	
@@ -118,10 +127,6 @@ function DelayInit()
 	
 	WaitState( 2 )
 	
-	ShowUI()
-	
-	WaitState( 2 )
-	
 	ShowHint( "target" )
 	
 	WaitState( 3 )
@@ -136,7 +141,7 @@ function DelayInit()
 	
 	HideHint()
 	
-	WaitState( 3 )
+	WaitState( 5 )
 	
 	AddStateEnd( InitQuest )
 
@@ -184,7 +189,7 @@ function ShowHint( hintId )
 	
 end
 
-function HideHint( hintId )
+function HideHint()
 
 	LuaSetHintLine( "", "None" )
 	
@@ -203,7 +208,6 @@ end
 function ShowUI()
 	
 	LuaShowUIBlock( "PlayerHeroBlock", true )
-	LuaShowUIBlock( "ChatBlock", true )
 	LuaShowUIBlock( "MiniMapBlock", true )
 	LuaShowUIBlock( "ActionBarBlock", true )
 	LuaShowUIBlock( "MoneyBlock", true )
