@@ -10,6 +10,8 @@ PRICE_HERO = 50
 
 function Init()
 	
+	HideUI()
+	
 	AddTriggerTop( DelayInit )
 	
 end
@@ -46,27 +48,33 @@ function GetScore()
 
 	for team = 0, 1 do
 	
-		--for hero = 0, 1 do
-		
-			local heroNameId = tostring( team ) .. tostring( 0 )
+		for hero = 0, 1 do
 			
-			local TotalNumHeroKills = LuaStatisticsGetTotalNumHeroKills( heroNameId )
+			local heroNameId = tostring( team ) .. tostring( hero )
 			
-			local KillsTotal = LuaHeroGetKillsTotal( heroNameId )
+			local dead, found = LuaUnitIsDead(heroNameId)
 			
-			local UnitFaction = LuaGetUnitFaction( heroNameId )
+			if found then
+				
+				local TotalNumHeroKills = LuaStatisticsGetTotalNumHeroKills( heroNameId )
+				
+				local KillsTotal = LuaHeroGetKillsTotal( heroNameId )
+				
+				local UnitFaction = LuaGetUnitFaction( heroNameId )
+				
+				if UnitFaction == 1 then 
+					
+					A = ( A + ( TotalNumHeroKills * PRICE_HERO ) + KillsTotal )
+					
+				else
+					
+					B = ( B + ( TotalNumHeroKills * PRICE_HERO ) + KillsTotal )
+					
+				end
 			
-			if UnitFaction == 1 then 
-				
-				A = ( A + ( TotalNumHeroKills * PRICE_HERO ) + KillsTotal )
-				
-			else
-				
-				B = ( B + ( TotalNumHeroKills * PRICE_HERO ) + KillsTotal )
-				
 			end
 		
-		--end
+		end
 	
 	end
 	
@@ -99,13 +107,37 @@ function CheckFinalB( score )
 end
 
 function DelayInit()
-
-	WaitState( 5 )
 	
-	LuaMessageToChat("Tournament for Prime World: Classic by ifst v1.0.0")
+	WaitState( 2 )
 	
-	WaitState( 15 )
-
+	ShowHint( "welcome" )
+	
+	WaitState( 3 )
+	
+	HideHint()
+	
+	WaitState( 2 )
+	
+	ShowUI()
+	
+	WaitState( 2 )
+	
+	ShowHint( "target" )
+	
+	WaitState( 3 )
+	
+	HideHint()
+	
+	WaitState( 2 )
+	
+	ShowHint( "pricelist" )
+	
+	WaitState( 3 )
+	
+	HideHint()
+	
+	WaitState( 3 )
+	
 	AddStateEnd( InitQuest )
 
 end
@@ -143,5 +175,37 @@ function UpdateQuest( A, B )
 	LuaUpdateSessionQuest( "Q_A", A )
 	
 	LuaUpdateSessionQuest( "Q_B", B )
+	
+end
+
+function ShowHint( hintId )
+	
+	LuaSetHintLine( hintId, "LeftClick" )
+	
+end
+
+function HideHint( hintId )
+
+	LuaSetHintLine( "", "None" )
+	
+end
+
+function HideUI()
+	
+	LuaShowUIBlock( "PlayerHeroBlock", false )
+	LuaShowUIBlock( "ChatBlock", false )
+	LuaShowUIBlock( "MiniMapBlock", false )
+	LuaShowUIBlock( "ActionBarBlock", false )
+	LuaShowUIBlock( "MoneyBlock", false )
+
+end
+
+function ShowUI()
+	
+	LuaShowUIBlock( "PlayerHeroBlock", true )
+	LuaShowUIBlock( "ChatBlock", true )
+	LuaShowUIBlock( "MiniMapBlock", true )
+	LuaShowUIBlock( "ActionBarBlock", true )
+	LuaShowUIBlock( "MoneyBlock", true )
 	
 end
