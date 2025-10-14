@@ -97,7 +97,7 @@ function CheckFinalA( score )
 	
 		IS_FINAL = true
 		
-		LuaKillUnit( "MainB" )
+		AddTriggerTop( Final, "A" )
 		
 	end
 	
@@ -109,7 +109,7 @@ function CheckFinalB( score )
 		
 		IS_FINAL = true
 		
-		LuaKillUnit( "MainA" )
+		AddTriggerTop( Final, "B" )
 		
 	end
 	
@@ -183,6 +183,32 @@ function UpdateQuest( A, B )
 	
 end
 
+function Final( win )
+	
+	WaitState( 0.5 )
+	
+	HideUI()
+
+	LuaSetPause( true )
+	
+	WaitState( 3 )
+	
+	LuaSetPause( false )
+	
+	WaitState( 3 )
+	
+	if win == "A" then 
+		
+		LuaKillUnit( "MainB" )
+		
+	else 
+		
+		LuaKillUnit( "MainA" )
+		
+	end
+	
+end
+
 function ShowHint( hintId )
 	
 	LuaSetHintLine( hintId, "LeftClick" )
@@ -197,19 +223,27 @@ end
 
 function HideUI()
 	
+	LuaShowUIBlock( "TalentsSetBlock", false )
 	LuaShowUIBlock( "PlayerHeroBlock", false )
-	LuaShowUIBlock( "ChatBlock", false )
 	LuaShowUIBlock( "MiniMapBlock", false )
 	LuaShowUIBlock( "ActionBarBlock", false )
 	LuaShowUIBlock( "MoneyBlock", false )
-
+	LuaShowUIBlock( "ActionBarEscBtn", false )
+	LuaShowUIBlock( "ActionBarTalentBtn", false )
+	LuaShowUIBlock( "SelectionBlock", false )
+	LuaShowUIBlock( "ImpulseTalent", false )
+	
 end
 
 function ShowUI()
-	
+
+	LuaShowUIBlock( "TalentsSetBlock", true )
 	LuaShowUIBlock( "PlayerHeroBlock", true )
 	LuaShowUIBlock( "MiniMapBlock", true )
 	LuaShowUIBlock( "ActionBarBlock", true )
 	LuaShowUIBlock( "MoneyBlock", true )
+	LuaShowUIBlock( "ActionBarEscBtn", true )
+	LuaShowUIBlock( "ActionBarTalentBtn", true )
+	LuaShowUIBlock( "ImpulseTalent", true )
 	
 end
