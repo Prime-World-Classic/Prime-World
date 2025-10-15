@@ -131,23 +131,6 @@ function InitAttackersPresets( reconnecting )
 	local k=0
 	local index
 	SetGlobalVar("enemyHeroLevel", 1)
-	for i = 1, #enemyHeroes do 
-		if #indexes == 0 then
-			LuaDebugTrace("[InitAttackersPresets] indexes is empty. Refill")
-			for i=1, #heroesNames do indexes[i] = i end 
-			PrintArray( indexes )
-		end
-		k = LuaRandom(1, #indexes)
-		index = indexes[k]
-		LuaDebugTrace("[InitAttackersPresets] k = "..k..", hero is "..heroesNames[index])
-		LuaSetCreepFaction( enemyHeroes[i], factionEnemy )
-		LuaHeroReplace( enemyHeroes[i], heroesNames[index] )
-		enemyStats[i] = heroesStats[index]
-		--LuaLoadTalantSet( enemyHeroes[i], heroesTalents[index] )	
-		UnicHeroStats( enemyHeroes[i], heroesStats[index] )		
-		table.remove( indexes, k )
-		PrintArray( indexes )
-	end
 	-- for i = 1,heroesCount do 
 		-- LuaSetCreepFaction( enemyHeroes[i], factionEnemy )
 		-- LuaHeroReplace( enemyHeroes[i], preset.heroReplaces.heroes[i] )
@@ -163,9 +146,6 @@ function ReturnHeroWaveParams( waveNumber )
 	local wave = preset[ math.min( waveNumber, #preset ) ]
 
 	local heroes = {}
-	for i = 1, #wave.heroes do
-		table.insert( heroes, enemyHeroes[ wave.heroes[i] ] )
-	end
 	
 	return heroes, wave.support, wave.supportGroups
 end

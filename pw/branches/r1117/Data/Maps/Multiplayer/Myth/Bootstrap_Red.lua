@@ -40,23 +40,4 @@ ENEMY_HERO_STATS_BONUS = { stats = {StatLife, StatStrength, StatIntellect, StatS
  
  LuaDebugTrace("Difficulty is RED")
  
- --include ("Maps/PvE/Series/Coop1/script.lua")
- 
-function Init()
-
-	for team = 0, 1 do
-	
-		for hero = 0, 4 do
-		
-			local heroNameId = tostring( team ) .. tostring( hero )
-			
-			LuaSetCreepFaction( heroNameId, 1 )
-		
-		end
-	
-	end
-
-
-end
-
- 
+ include ("Maps/Multiplayer/Myth/script.lua")
