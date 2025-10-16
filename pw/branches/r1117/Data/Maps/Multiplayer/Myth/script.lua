@@ -100,14 +100,15 @@ leaders = 0
 -- Правда? Привет от ifst
 
 function Init( reconnecting )
+	
+	FACTION_MAIN = Family()
+	
 	-- Здесь инициализируем переменные и настройки карты
 	PvECommonInit( reconnecting )
 	SpawnersInit( reconnecting )
 	FlagsInit( reconnecting )
 	
 	FillCreepStatsArray() -- заполняем массив STATS_BUDGET_BY_LEVEL из CreepStats.lua 
-	
-	FACTION_MAIN = Family()
 	
 	if FACTION_MAIN == FACTION_DOCT then --если играем за доктов
 		factionPlayer = FACTION_DOCT -- наша фракция - докты
@@ -187,7 +188,7 @@ end
 
 function Family()
 	
-	local faction = 1
+	local faction = LuaRandom( 1, 2 )
 	
 	for team = 0, 1 do
 	
@@ -195,11 +196,13 @@ function Family()
 			
 			local heroNameId = tostring( team ) .. tostring( hero )
 			
-			local dead, found = LuaUnitIsDead(heroNameId)
+			local dead, found = LuaUnitIsDead( heroNameId )
 			
 			if found then
 				
 				LuaSetCreepFaction( heroNameId, faction )
+				
+				LuaSetCreepWarfogFaction( heroNameId, faction  )
 				
 			end
 			
