@@ -250,12 +250,27 @@ end
 
 function Init( reconnecting )
 
+	LuaShowUIBlock( "PlayerHeroBlock", false )
+	
+	LuaShowUIBlock( "MiniMapBlock", false )
+
 	if not reconnecting then
 		-- LuaApplyPassiveAbility ("MainA", "MainBuildingBuff") -- раздаем статус своим зданиям
 		-- LuaApplyPassiveAbility ("MainB", "MainBuildingBuff")
+		
+		SpawnDragon()
+		
 	end
 	
 	-- initCompanion()
+	
+end
+
+function SpawnDragon()
+	
+	LuaCreateCreep( "BossA", "Dragon", 118, 152, 1, 0 )
+	
+	LuaCreateCreep( "BossB", "Dragon", 141, 152, 2, 0 )
 	
 end
 
@@ -343,9 +358,7 @@ function SpawnZombie( victimId, dbid, faction, heroIsKilled )
 		LuaCreateZombieById( victimId, "Ghost", faction )
 	
 	else
-	
-		WaitState( ZombieSpawnDelay )
-		LuaCreateZombieById( victimId, dbid, faction )
+		
 		WaitState( ZombieSpawnDelay )
 		LuaCreateZombieById( victimId, dbid, faction )
 		WaitState( ZombieSpawnDelay )
