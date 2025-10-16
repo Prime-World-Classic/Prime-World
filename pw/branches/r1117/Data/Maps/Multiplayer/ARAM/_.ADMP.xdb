@@ -48641,7 +48641,7 @@
 			<range>10</range>
 		</Item>
 	</pointLights>
-	<postEffect href="" />
+	<postEffect href="/Maps/Multiplayer/ARAM/PostEffect.PFXP" />
 	<scriptAreas>
 		<Item>
 			<name>HealTemple</name>
