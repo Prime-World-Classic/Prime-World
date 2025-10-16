@@ -394,8 +394,8 @@ function IvaSetup()
 	LuaPlaceAttachedEffect( "healEffect", "centerAreaHeal", ivaCreep ) 
 	-- Запрещаем Иве атаковать, быть интерактивной, двигаться и быть управляемой игроком
 	SetUnitsFlagList( {ivaCreep}, {ForbidAutoAttack, ForbidInteract, ForbidPlayerControl, ForbidAttack, ForbidMove}, true )	
-	LuaSetUnitStat( ivaCreep, StatLife, 4000 ) -- Выставляем Иве 4000 здоровья
-	LuaSetUnitStat( ivaCreep, StatLifeRegeneration, 2 ) -- Делаем лайфреген 2%
+	LuaSetUnitStat( ivaCreep, StatLife, 8000 ) -- Выставляем Иве 4000 здоровья
+	LuaSetUnitStat( ivaCreep, StatLifeRegeneration, 4 ) -- Делаем лайфреген 2%
 	AddTriggerEnd( IvaMustSurvive, ivaCreep ) -- Запускаем проверку условия поражения. Если Ива погибла - мы проиграли
 end
 
@@ -675,31 +675,31 @@ end
 logicMod = GetGlobalVar("logicMod")
 -- WAVE_CREATURES_COUNT Сколько всего может быть в данной волне крипов. 
 -- Т.е. в первой волне 25, во второй 35, в третьей и четвертой по 40. В последующих столько же, сколько в последнем значении. То есть 40.
-WAVE_CREATURES_COUNT = { 25, 35, 40, 40 } 
+WAVE_CREATURES_COUNT = { 25, 35, 45, 55 } 
 
 -- WAVE_SPAWN_INTERVALS Интервал в секундах между спавнами групп крипов на одном направлении. 
 -- Т.е. в первой волне 12, во второй 11, в третьей и четвертой по 10. В последующих столько же, сколько в последнем значении. То есть 10.
-WAVE_SPAWN_INTERVALS = WAVE_SPAWN_INTERVALS or { 12, 11, 10, 10 }
+WAVE_SPAWN_INTERVALS = WAVE_SPAWN_INTERVALS or { 25, 20, 15, 10 }
 
 -- WAVE_SPAWN_INTERVALS_MAIN_DIR Интервал в секундах между спавнами групп крипов на ГЛАВНОМ направлении. На главном направлении крипы ходят чаще
 -- Т.е. в первой волне 9, во второй 9, в третьей и четвертой по 7. В последующих столько же, сколько в последнем значении. То есть 7.
-WAVE_SPAWN_INTERVALS_MAIN_DIR = WAVE_SPAWN_INTERVALS_MAIN_DIR or { 9, 8, 7, 7 }
+WAVE_SPAWN_INTERVALS_MAIN_DIR = WAVE_SPAWN_INTERVALS_MAIN_DIR or { 10, 8, 6, 4 }
 
 -- WAVE_MAX_CREATURES_ON_DIRECTION Максимальное количество крипов разрешенное на данном направлении. Остальные крипы не будут спавнится
 -- пока количество крипов на данном направлении не станет меньше, чем соответствующее значение.
 -- Т.е. в первой волне на одном направлении может быть не более 6-ти крипов. Пока их не станет меньше, другие не наспавнятся
-WAVE_MAX_CREATURES_ON_DIRECTION = { 6, 12, 13, 13 }
+WAVE_MAX_CREATURES_ON_DIRECTION = { 12, 18, 24, 30 }
 
 -- WAVE_MAX_CREATURES_ON_DIRECTION_NEW_CREEP Максимальное количество крипов разрешенное на данном направлении, если нароллилась группа крипов, которой раньше не было
 -- Т.е. если нароллился новый крип, то на линии при этом может быть не более 1-го крипа.
-WAVE_MAX_CREATURES_ON_DIRECTION_NEW_CREEP = { 1, 1, 1, 1 } -- сколько крипов должно остаться на линии, когда пускаем новых крипов
+WAVE_MAX_CREATURES_ON_DIRECTION_NEW_CREEP = { 3, 3, 3, 3 } -- сколько крипов должно остаться на линии, когда пускаем новых крипов
 
 -- WAVE_MAX_CREATURES_TOTAL Сколько ВСЕГО может быть крипов на карте в данный момент времени.
 -- Т.е. на первой не больше 35, на второй не больше 40 и т.д. Новые крипы не спавнятся, пока количество крипов на карте больше, чем указано в массиве
-WAVE_MAX_CREATURES_TOTAL = { 35, 40, 35, 32, 30, 25 }
+WAVE_MAX_CREATURES_TOTAL = { 70, 80, 70, 64, 60, 50 }
 
-WAVE_MAIN_DIRECTION_COUNT_MUL = 1.5 --насколько увеличивать долю крипов на главном направлении
-WAVE_CREATURES_DISP = 3 -- стд отклонение количества крипов в волне от рассчитанной доли. Грубо говоря, плюс-минус 3 крипа.
+WAVE_MAIN_DIRECTION_COUNT_MUL = 2 --насколько увеличивать долю крипов на главном направлении
+WAVE_CREATURES_DISP = 6 -- стд отклонение количества крипов в волне от рассчитанной доли. Грубо говоря, плюс-минус 3 крипа.
 
 GREEN_DIFFICULTY = GREEN_DIFFICULTY or false -- зеленая сложность?
 RED_DIFFICULTY = RED_DIFFICULTY or false
