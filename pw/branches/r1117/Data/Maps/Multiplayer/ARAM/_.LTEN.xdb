@@ -4,9 +4,9 @@
 	<BackLink DBID="/Maps/Multiplayer/ARAM/_N.LTEN" Count="1" />
 	<AmbientColor>
 		<A>1</A>
-		<B>0.2196078</B>
-		<G>0.1137255</G>
-		<R>0.1137255</R>
+		<B>0.2745098</B>
+		<G>0.1411765</G>
+		<R>0.1411765</R>
 	</AmbientColor>
 	<biasSlope>4</biasSlope>
 	<depthBias>0.001</depthBias>
@@ -32,7 +32,7 @@
 		<R>0.3</R>
 	</Light2DiffuseColor>
 	<Light2Direction>
-		<Pitch>25</Pitch>
+		<Pitch>15</Pitch>
 		<Yaw>0</Yaw>
 	</Light2Direction>
 	<lightingCubeMap href="" />
