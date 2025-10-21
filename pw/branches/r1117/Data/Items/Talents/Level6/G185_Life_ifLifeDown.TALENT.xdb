@@ -42,7 +42,18 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="C461ACD0-DE1E-4163-AF95-D93BB65E65AA">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABHMTg1X1N0ck9ySW50AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG185_StrOrInt==1</sString>
+				</condition>
+				<name>StrOrInt</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents>
 		<Item href="/Items/Talents/Level2/G349_SelfHeal.TALENT" />
 	</conflictingTalents>
@@ -262,7 +273,7 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="4FBAFADE-5904-427A-8062-50293BD75B42">
+		<Item href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="1CA44244-37B0-4039-B80A-28759E010C42">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<caption>StrOrInt</caption>
@@ -287,7 +298,7 @@
 					</multValue>
 					<stat>Life</stat>
 					<topModifier>false</topModifier>
-					<variable>G724_StrOrInt</variable>
+					<variable>G782_StaOrWill</variable>
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>

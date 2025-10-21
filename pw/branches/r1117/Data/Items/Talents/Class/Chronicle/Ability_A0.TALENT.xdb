@@ -127,9 +127,9 @@
 					<UnitConstant>
 						<name>A0_LifeReg</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvsUYtFCIsQi00Ii4JgAQAA/9CJRfzbRfyL5V3D</compiledString>
+							<compiledString>FQAAAAABAAAAHgAAAFWL7IPsCItFCIsQi00Ii4JgAQAA/9CJRfzbRfzcDSwAAADZXfjZRfiL5V3DZmZmZmZm5j8=</compiledString>
 							<returnType>float</returnType>
-							<sString>sNaftaLevel</sString>
+							<sString>0.7*sNaftaLevel</sString>
 						</var>
 					</UnitConstant>
 				</Item>

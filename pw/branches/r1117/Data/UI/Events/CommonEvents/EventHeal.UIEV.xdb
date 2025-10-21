@@ -119,7 +119,7 @@
 	<BackLink DBID="/Items/Talents/Level1/G321_HealForHeroKill.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level1/G415_A_DmgHealAfter.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level1/G482_SelfHeal.TALENT" Count="3" />
-	<BackLink DBID="/Items/Talents/Level1/G576_HealForHeroKill.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Level1/G576_HealForHeroKill.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Level1/status_G010_AddLife.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level1/status_G397_AddLife.APLR" Count="3" />
 	<BackLink DBID="/Items/Talents/Level2/G029_SelfHeal.TALENT" Count="2" />
