@@ -3,6 +3,7 @@ include ("GameLogic/Scripts/StatesManager.lua")
 include ("GameLogic/Scripts/Common.lua")
 include ("GameLogic/Scripts/Consts.lua")
 
+ZOMBIE_MODE = false
 ZombieSpawnDelay = 3
 KilledHeroProc = 100
 KilledBySummonProc = 0
@@ -275,6 +276,13 @@ function SpawnDragon()
 end
 
 function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
+	
+	if not ZOMBIE_MODE then 
+	
+		return
+	
+	end
+
 	if killerId == -1 then
 		return
 	end
@@ -340,7 +348,7 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	else
 		dbid = dbid .. "B"
 	end
-
+	
 	AddTriggerTop( SpawnZombie, victimId, dbid, faction, heroIsKilled)
 	
 end
