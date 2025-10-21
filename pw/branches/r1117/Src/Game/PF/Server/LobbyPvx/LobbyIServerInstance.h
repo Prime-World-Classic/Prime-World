@@ -34,6 +34,7 @@ public:
   REMOTE virtual EOperationResult::Enum JoinSocialGame() = 0;
 
   REMOTE virtual EOperationResult::Enum ConnectToWebLobby(const string & token) = 0;
+  REMOTE virtual EOperationResult::Enum SpectateWebLobby(const string & token) = 0;
 };
 
 }; //namespace lobby

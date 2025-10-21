@@ -429,6 +429,20 @@ lobby::EOperationResult::Enum ServerNode::TryCreateWebSession(const char* token)
 
   game->playersUserData = usersDataMap;
 
+  Json::Value spectatorsData = parsedValue.get("spectators", Json::Value());
+  if (!spectatorsData.empty() && spectatorsData.isArray()) {
+    int i = 0;
+    Json::Value spectatorToken = spectatorsData[i];
+    while (!spectatorToken.empty()) {
+      if (spectatorToken.isString()) {
+        game->spectatorTokens.push_back(spectatorToken.asString().c_str());
+      }
+
+      ++i;
+      Json::Value spectatorToken = spectatorsData[i];
+    } 
+  }
+
   for (WebUsersDataMap::iterator it = usersDataMap.begin(); it != usersDataMap.end(); ++it) {
     std::wstring nickname = it->first;
 

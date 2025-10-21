@@ -88,6 +88,7 @@ public:
   const char* GetSessionToken() { return sessionToken.c_str(); }
 
   WebUsersDataMap                 playersUserData;
+  nstl::vector<nstl::string> spectatorTokens;
 
 private:
   const TGameId                   id;

@@ -338,5 +338,30 @@ lobby::EOperationResult::Enum ServerConnection::ConnectToWebLobby(const nstl::st
   int gameId = game->Id();
   return ReconnectToCustomGame(gameId, 0, "");
 }
+lobby::EOperationResult::Enum ServerConnection::SpectateWebLobby(const nstl::string & token)
+{
+  if (token.length() < 64) {
+    return EOperationResult::RestrictedAccess;
+  }
+
+  map<nstl::string, StrongMT<CustomGame>>::iterator it;
+  nstl::string sessionToken = nstl::string(token.c_str(), 32);
+  nstl::string playerToken = nstl::string(token.c_str() + 32);
+  it = g_games.find(sessionToken);
+
+  if (it == g_games.end()) {
+    return EOperationResult::InternalError;
+  }
+  StrongMT<CustomGame>& game = it->second;
+
+  int gameId = game->Id();
+  
+  for (int i = 0; i < game->spectatorTokens.size(); ++i) {
+    if (game->spectatorTokens[i] == playerToken) {
+      return game->SpectateCustomGame( this );
+    }
+  }
+  return EOperationResult::RestrictedAccess;
+}
 
 } //namespace lobby

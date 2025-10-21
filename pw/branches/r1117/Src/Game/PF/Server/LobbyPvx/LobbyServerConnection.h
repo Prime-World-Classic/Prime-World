@@ -60,6 +60,7 @@ protected:
   virtual void SetReady( /*EGameMemberReadiness::Enum*/ int readiness );
   virtual EOperationResult::Enum JoinSocialGame();
   virtual EOperationResult::Enum ConnectToWebLobby(const nstl::string & token);
+  virtual EOperationResult::Enum SpectateWebLobby(const nstl::string & token);
   virtual void SetDeveloperParty( int party );
 
 private:
