@@ -9,10 +9,11 @@
 	<BackLink DBID="/Test/Talents/TST_SummonBoss.TALENT" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Achievements/DragonSlayer.ACHIEV" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Achievements/Legend.ACHIEV" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMPSTTN" Count="2" />
 	<abilities>
 		<Item skip="1" />
 		<Item href="/Creeps/Bosses/Boss1/A1.ABLT" />
-		<Item href="/Creeps/Bosses/Boss1/PVP.CREEP" id="6F5A1F95-73D9-46A5-B96A-6A1B9CF9A146">
+		<Item href="/Creeps/Bosses/Boss1/PVP_ARAM.CREEP" id="6F5A1F95-73D9-46A5-B96A-6A1B9CF9A146">
 			<Ability>
 				<activeCustomTrigger>true</activeCustomTrigger>
 				<allowChase>
@@ -72,7 +73,7 @@
 				<name textref="" />
 				<node></node>
 				<passiveApplicators>
-					<Item href="/Creeps/Bosses/Boss1/PVP.CREEP" id="80D72048-CE61-4144-BCA7-7B082C7CDFE9">
+					<Item href="/Creeps/Bosses/Boss1/PVP_ARAM.CREEP" id="80D72048-CE61-4144-BCA7-7B082C7CDFE9">
 						<LockTilesApplicator>
 							<applyTarget>ApplicatorTarget</applyTarget>
 							<behaviorFlags>1</behaviorFlags>
@@ -212,7 +213,7 @@
 				<warFogRemoveTime>0</warFogRemoveTime>
 			</Ability>
 		</Item>
-		<Item href="/Creeps/Bosses/Boss1/PVP.CREEP" id="69D05A5F-67AC-4918-AFE8-4043E20DB4EE">
+		<Item href="/Creeps/Bosses/Boss1/PVP_ARAM.CREEP" id="69D05A5F-67AC-4918-AFE8-4043E20DB4EE">
 			<Ability>
 				<activeCustomTrigger>true</activeCustomTrigger>
 				<allowChase>
@@ -272,7 +273,7 @@
 				<name textref="" />
 				<node></node>
 				<passiveApplicators>
-					<Item href="/Creeps/Bosses/Boss1/PVP.CREEP" id="8612E8D3-A02B-4E04-8C05-1EB4E4811983">
+					<Item href="/Creeps/Bosses/Boss1/PVP_ARAM.CREEP" id="8612E8D3-A02B-4E04-8C05-1EB4E4811983">
 						<StatModApplicator>
 							<applyTarget>ApplicatorTarget</applyTarget>
 							<behaviorFlags>0</behaviorFlags>
@@ -319,7 +320,7 @@
 							<statModName></statModName>
 						</StatModApplicator>
 					</Item>
-					<Item href="/Creeps/Bosses/Boss1/PVP.CREEP" id="2EA4B410-474D-4ECB-B802-659EDB45C16F">
+					<Item href="/Creeps/Bosses/Boss1/PVP_ARAM.CREEP" id="2EA4B410-474D-4ECB-B802-659EDB45C16F">
 						<FlagsApplicator>
 							<applyTarget>ApplicatorTarget</applyTarget>
 							<behaviorFlags>0</behaviorFlags>
@@ -369,8 +370,9 @@
 		</Item>
 		<Item href="" />
 	</abilities>
-	<attackAbility href="/Creeps/Bosses/Boss1/AttackAbility.ATCK" />
-	<deathParameters href="/Creeps/Bosses/Boss1/PVP.CREEP" id="8504CFB7-CC78-43D7-8155-815EDCEE79C1">
+	<attackAbility href="/Creeps/Bosses/Boss1/AttackAbility_Walked.ATCK" />
+	<creepType>FactionalChampion</creepType>
+	<deathParameters href="/Creeps/Bosses/Boss1/PVP_ARAM.CREEP" id="8504CFB7-CC78-43D7-8155-815EDCEE79C1">
 		<UnitDeathParameters parent="/Creeps/Bosses/Boss1/_.UNDP">
 			<deathTime>3</deathTime>
 			<fallOffset>1.5</fallOffset>
@@ -380,5 +382,6 @@
 		</UnitDeathParameters>
 	</deathParameters>
 	<size>5</size>
-	<stats href="/Creeps/DefaultStats/PvP/Neutral_Boss.STCN" />
+	<stats href="/Creeps/Bosses/Boss1/Neutral_Boss_Walked.STCN" />
+	<targetingParams href="/Creeps/Bosses/Boss1/trgtParams_PVP_Walked.UNTP" />
 </AdvMapCreep>
