@@ -595,6 +595,17 @@ void ClientBase::JoinWebGame(const string & token)
 
 }
 
+
+void ClientBase::SpectateWebGame(const string & token)
+{
+  NI_VERIFY( status == EClientStatus::Connected, "", return );
+  NI_VERIFY( serverInst, "", return );
+
+  serverInst->SpectateWebLobby( token, this, &ClientBase::OnOperatioResult );
+  lastLobbyOperationResult = EOperationResult::InProgress;
+
+}
+
 void ClientBase::ReconnectGame( int gameId, int team, const string& heroId )
 {
   NI_VERIFY( status == EClientStatus::Connected, "", return );

@@ -124,7 +124,7 @@ def api():
                 }
                 return jsonify(response)
 
-            webSessions[data['sessionToken']] = {'players': {}, 'lock': threading.Lock(), 'timestamp': dt.now(), 'gameName': '', 'gameStarted': False, 'gameFinished': False, 'gameCreated': False }
+            webSessions[data['sessionToken']] = {'players': {}, 'spectators': {}, 'lock': threading.Lock(), 'timestamp': dt.now(), 'gameName': '', 'gameStarted': False, 'gameFinished': False, 'gameCreated': False, 'playerInfoSend': False }
 
             mapId = 'Maps/Multiplayer/MOBA/_.ADMPDSCR.xdb';
             if 'mapId' in data:
@@ -142,6 +142,17 @@ def api():
                 #player['nickname'] = translit(player['nickname'], 'ru', reversed=True).replace("'", "")
                 m = hashlib.sha256((str(player['id']) + data['sessionToken'] + api_key).encode('utf-8'))
                 webSessions[data['sessionToken']]['players'][m.hexdigest()] = player
+                logger.info(m.hexdigest())
+                
+            for spectator in data['spectators']:
+                if 'id' not in spectator:
+                    response = {
+                        'error': 'Invalid spectator detected (no id) in session ' + data['sessionToken']
+                    }
+                    return jsonify(response)
+                
+                m = hashlib.sha256((str(spectator['id']) + data['sessionToken'] + api_key).encode('utf-8'))
+                webSessions[data['sessionToken']]['spectators'][m.hexdigest()] = spectator
                 logger.info(m.hexdigest())
 
             response = {
@@ -214,7 +225,22 @@ def api():
                 response = {
                     'error': 'Session token was not found in active sessions'
                 }
+                rotKillerData = {"sessionToken":sessionToken,"win":0,"afk":[]}
+                sendSessionFinishData(rotKillerData)
+                logger.info('Response!!!      ' + str(json.dumps(response)))
                 return jsonify(response)
+               
+            if playerKey in webSessions[sessionToken]['spectators']:
+                response = {
+                    'error': '',
+                    'method': 'connect',
+                    'playerInfo': webSessions[sessionToken]['spectators'][playerKey],
+                    'usersData': list(webSessions[sessionToken]['players'].values()),
+                    'mapId': webSessions[sessionToken]['mapId']
+                }
+                logger.info('Response!!!      ' + str(json.dumps(response)))
+                return jsonify(response)
+                
 
             if playerKey not in webSessions[sessionToken]['players']:
                 response = {
@@ -234,7 +260,7 @@ def api():
                         method = 'reconnect'
                     else:
                         method = 'connect'
-                        tryRotten = False # True
+                        tryRotten = True
                      
                 # Test rotten sessions
                 if tryRotten:
@@ -294,7 +320,7 @@ def api():
             
             if sessionToken not in webSessions:
                 # synchronizer restarted, just send results
-                webSessions[sessionToken] = {'players': {}, 'lock': threading.Lock(), 'timestamp': dt.now(), 'gameName': '', 'gameStarted': False, 'gameFinished': True, 'gameCreated': False }
+                webSessions[sessionToken] = {'players': {}, 'lock': threading.Lock(), 'timestamp': dt.now(), 'gameName': '', 'gameStarted': False, 'gameFinished': True, 'gameCreated': False, 'playerInfoSend': True }
                 with webSessions[sessionToken]['lock']:
                     sendSessionFinishData(data)
                     response = {
@@ -319,11 +345,33 @@ def api():
                     return jsonify(response)
                     
         if method == 'notifyGameFinishLegacy':
-            sendSessionPlayersData(data)
-            response = {
-                'error': '',
-            }
-            return jsonify(response)
+            if 'sessionToken' not in data:
+                response = {
+                    'error': 'Invalid request',
+                }
+                return jsonify(response)
+            sessionToken = data['sessionToken']
+            
+            if sessionToken not in webSessions:
+                response = {
+                    'error': 'Invalid request',
+                }
+                return jsonify(response)
+                
+            with webSessions[sessionToken]['lock']:
+                if webSessions[sessionToken]['playerInfoSend']:
+                    response = {
+                        'error': '',
+                    }
+                    return jsonify(response)
+                else:
+                    webSessions[sessionToken]['playerInfoSend'] = True
+                    sendSessionPlayersData(data)
+                    response = {
+                        'error': '',
+                    }
+                    return jsonify(response)
+            
 
         # Get game name if is in connection process
         if method == 'getGameNameForConnection':

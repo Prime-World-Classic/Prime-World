@@ -358,7 +358,7 @@ lobby::EOperationResult::Enum ServerConnection::SpectateWebLobby(const nstl::str
   
   for (int i = 0; i < game->spectatorTokens.size(); ++i) {
     if (game->spectatorTokens[i] == playerToken) {
-      return game->SpectateCustomGame( this );
+      return SpectateCustomGame(gameId);
     }
   }
   return EOperationResult::RestrictedAccess;

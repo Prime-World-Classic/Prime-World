@@ -121,6 +121,7 @@ public:
   void CreateGame( const char * mapId, int maxPlayers, int maxPlayersPerTeam, int autostartPlayers = -1 );
   void JoinGame( int gameId );
   void JoinWebGame( const string & token );
+  void SpectateWebGame( const string & token );
   void ReconnectGame( int gameId, int team, const string& heroId );
   void SpectateGame( int gameId );
   void ChangeCustomGameSettings( ETeam::Enum team, ETeam::Enum faction, const string & heroId );

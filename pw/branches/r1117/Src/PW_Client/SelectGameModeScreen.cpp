@@ -18,6 +18,7 @@ extern int g_playersCount;
 extern std::string g_protocolToken;
 extern bool g_localGameRun;
 extern string g_mapId;
+extern bool g_spectatorStatus;
 
 static string s_reconnect_hero = "rockman";
 static int s_reconnect_team = 1;
@@ -144,7 +145,11 @@ void SelectGameModeScreen::Step( bool bAppActive )
   lobby::EOperationResult::Enum joinResult = locked->LastLobbyOperationResult();
   if (g_sessionStatus == WebLauncherPostRequest::RegisterInSessionRequest_WebJoinRetry) {
     if (joinResult == lobby::EOperationResult::InternalError) {
-      locked->JoinWebGame(g_protocolToken.c_str());
+      if (g_spectatorStatus){
+        locked->SpectateWebGame(g_protocolToken.c_str());
+      } else {
+        locked->JoinWebGame(g_protocolToken.c_str());
+      }
       joinResult = lobby::EOperationResult::InProgress;
     }
     if (joinResult == lobby::EOperationResult::Ok) {
@@ -153,11 +158,19 @@ void SelectGameModeScreen::Step( bool bAppActive )
   }
   if (g_sessionStatus == WebLauncherPostRequest::RegisterInSessionRequest_WebJoin) {
     if (joinResult == lobby::EOperationResult::InternalError) {
-      locked->JoinWebGame(g_protocolToken.c_str());
+      if (g_spectatorStatus){
+        locked->SpectateWebGame(g_protocolToken.c_str());
+      } else {
+        locked->JoinWebGame(g_protocolToken.c_str());
+      }
       joinResult = lobby::EOperationResult::InProgress;
     }
     if (joinResult == lobby::EOperationResult::Ok) {
-      locked->JoinWebGame(g_protocolToken.c_str());
+      if (g_spectatorStatus){
+        locked->SpectateWebGame(g_protocolToken.c_str());
+      } else {
+        locked->JoinWebGame(g_protocolToken.c_str());
+      }
       g_sessionStatus = WebLauncherPostRequest::RegisterInSessionRequest_WebJoinRetry;
     }
   }

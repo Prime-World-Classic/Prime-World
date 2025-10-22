@@ -10,7 +10,7 @@ static std::set<std::string> allResourcesIDs;
 extern string g_sessionToken;
 extern string g_playerToken;
 extern string g_sessionName;
-extern WebLauncherPostRequest::RegisterSessionRequest g_sessionStatus;
+extern bool g_spectatorStatus;
 extern int g_playerTeamId;
 extern int g_playerHeroId;
 extern int g_playerPartyId;
@@ -24,6 +24,7 @@ string g_mapId;
 
 string g_sessionName;
 WebLauncherPostRequest::RegisterSessionRequest g_sessionStatus;
+bool g_spectatorStatus = false;
 WebLauncherPostRequest::WebLoginResponse g_webLoginResponse;
 int g_playerHeroId;
 int g_playerPartyId;

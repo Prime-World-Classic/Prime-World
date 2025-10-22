@@ -30,6 +30,7 @@ _interface IGameContextUiInterface : public IBaseInterfaceMT
   virtual void          CreateGame( const char * mapId, int maxPlayers ) = 0;
   virtual void          JoinGame( int gameId ) = 0;
   virtual void          JoinWebGame( const string & token ) = 0;
+  virtual void          SpectateWebGame( const string & token ) = 0;
   virtual void          Reconnect( int gameId, int team, const string & heroId ) = 0;
   virtual void          Spectate( int gameId ) = 0;
 

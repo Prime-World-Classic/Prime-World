@@ -689,6 +689,12 @@ void GameContext::JoinWebGame(const string & token)
   lobbyClient->JoinWebGame(token);
 }
 
+void GameContext::SpectateWebGame(const string & token)
+{
+  NI_VERIFY( lobbyClient, "", return );
+  lobbyClient->SpectateWebGame(token);
+}
+
 void GameContext::Reconnect( int gameId, int team, const string & heroId )
 {
   NI_VERIFY( lobbyClient, "", return );

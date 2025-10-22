@@ -96,6 +96,7 @@ protected:
   virtual void          CreateGame( const char * mapId, int maxPlayers );
   virtual void          JoinGame( int gameId );
   virtual void          JoinWebGame( const string & token );
+  virtual void          SpectateWebGame( const string & token );
   virtual void          Reconnect( int gameId, int team, const string & heroId );
   virtual void          Spectate( int gameId );
   virtual void          ChangeCustomGameSettings( lobby::ETeam::Enum team, lobby::ETeam::Enum faction, const string & heroId );

@@ -722,6 +722,7 @@ extern string g_playerToken;
 
 extern string g_sessionName;
 extern WebLauncherPostRequest::RegisterSessionRequest g_sessionStatus;
+extern bool g_spectatorStatus;
 extern WebLauncherPostRequest::WebLoginResponse g_webLoginResponse;
 extern int g_playerTeamId;
 extern int g_playerHeroId;
@@ -1280,7 +1281,10 @@ int __stdcall PseudoWinMain( HINSTANCE hInstance, HWND hWnd, LPTSTR lpCmdLine, S
     }
 
     WebLauncherPostRequest::WebLoginResponse response;
-    if (protocolMethod == "runGame" || protocolMethod == "reconnect") {
+    if (protocolMethod == "runGame" || protocolMethod == "reconnect" || protocolMethod == "spectate") {
+      if (protocolMethod == "spectate") {
+        g_spectatorStatus = true;
+      }
       //WebLauncherPostRequest cprequest;
       //cprequest.CreateDebugSession();
       WebLauncherPostRequest rprequest;
