@@ -49,6 +49,7 @@ public:
         { "lobby::IServerInstance::SetDeveloperParty", 1, false, rpc::GetMethodCode(&lobby::IServerInstance::SetDeveloperParty) },
         { "lobby::IServerInstance::JoinSocialGame", 0, false, rpc::GetMethodCode(&lobby::IServerInstance::JoinSocialGame) },
         { "lobby::IServerInstance::ConnectToWebLobby", 1, false, rpc::GetMethodCode(&lobby::IServerInstance::ConnectToWebLobby) },
+        { "lobby::IServerInstance::SpectateWebLobby", 1, false, rpc::GetMethodCode(&lobby::IServerInstance::SpectateWebLobby) },
     };
     if (call.id >= sizeof(methods)/sizeof(rpc::MethodInfo) || call.id < 0)
     {
@@ -77,8 +78,8 @@ public:
 
   bool vcall( byte method_id, rpc::MethodCall& call, rpc::MethodCallStack& stack );
   virtual void* _Get( uint classId ) { return (classId == rpc::_GetId("lobby::IServerInstance", rpc::GeneratedType) ) ? localObject : 0; }
-  virtual uint GetClassCrc() const { return 0xa3d7b3d; }
-  static uint GetClassCrcStatic() { return 0xa3d7b3d; }
+  virtual uint GetClassCrc() const { return 0xefd32bde; }
+  static uint GetClassCrcStatic() { return 0xefd32bde; }
 
   virtual int GetMemberIndex( const void* ) { return -1; }
 

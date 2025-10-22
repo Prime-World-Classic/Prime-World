@@ -15,7 +15,7 @@ class RIServerInstance : public rpc::IRemoteEntity, public BaseObjectMT
 {
   NI_DECLARE_REFCOUNT_CLASS_2(RIServerInstance, rpc::IRemoteEntity, BaseObjectMT);
 public:
-  RPC_INFO("lobby::IServerInstance", 0xa3d7b3d);
+  RPC_INFO("lobby::IServerInstance", 0xefd32bde);
   
   RIServerInstance() : handler(0) {}
   RIServerInstance( rpc::EntityHandler* _handler, rpc::IRemoteEntity* _parent )
@@ -215,6 +215,32 @@ public:
   }
   
 
+  template <typename T>
+  rpc::ECallResult::Enum SpectateWebLobby( const string & token, T* object, void (T::*func)(EOperationResult::Enum result) )
+  {           
+    rpc::Transaction* transaction = handler->Call( 11, token );
+    if (transaction)
+    {
+      transaction->RegisterAsyncCall( transaction->GetInfo(), new rpc::FunctorNoContext<T, EOperationResult::Enum>(object, func) );
+      return handler->Go(transaction);
+    }
+    return rpc::ECallResult::NoTransaction;
+  }
+  
+
+  template <typename T, typename C>
+  rpc::ECallResult::Enum SpectateWebLobby( const string & token, T* object, void (T::*func)(EOperationResult::Enum result, C context, rpc::CallStatus status), const C& context, float timeout=0.f)
+  {           
+    rpc::Transaction* transaction = handler->Call( 11, token );
+    if (transaction)
+    {
+      transaction->RegisterAsyncCall( transaction->GetInfo(), new rpc::FunctorContext<T, EOperationResult::Enum, C>(object, func, context), timeout );
+      return handler->Go(transaction);
+    }
+    return rpc::ECallResult::NoTransaction;
+  }
+  
+
 
 
   bool Update(rpc::IUpdateCallback* callback=0)
@@ -243,7 +269,7 @@ public:
   virtual void SetParent(rpc::IRemoteEntity* _parent) { parent = _parent; }
   virtual rpc::Status GetStatus() { return handler->GetStatus(); }
 
-  static uint GetClassCrcStatic() { return 0xa3d7b3d; }
+  static uint GetClassCrcStatic() { return 0xefd32bde; }
 protected:
   friend class rpc::Gate;
 
