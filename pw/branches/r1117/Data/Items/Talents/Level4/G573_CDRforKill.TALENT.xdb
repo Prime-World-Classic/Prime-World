@@ -68,9 +68,9 @@
 					<UnitConstant>
 						<name>G573_RefreshCDPercent</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>100</sString>
+							<sString>12</sString>
 						</var>
 					</UnitConstant>
 				</Item>
