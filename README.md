@@ -22,6 +22,7 @@
 - copy_data_patch.bat - копирует файлы, перечисленные в коммите из `pw\branches\r1117\Data` в `Data_Patch\Data`. Использование `copy_data_patch.bat ea03238`
 - setup_update_repos.bat - инициализирует репозитории обновлений - **content** и **PWCGitUpdates** (тестовые **-test** и публичные версии), с указанием дополнительных remote зеркал
 - update.sh - скрипт обновления для Linux - Lutris версии
+- autogen_server.bat - скрипт генерации автоген C++ кода для сервера. Укажите путь до директории Python 2.7. Для полноценной компиляции сервера требуется ещё доработать компоненты и настроить Cmake генерацию
 
 ## Компиляция клиента и сервера
 Основной солюшен: `pw\branches\r1117\Src\PF.sln`. Открывается в Visual Studio 2008 Professional SP1. Актуальные и проверенные конфигурации: ShippingSingleExe - публичная версия, ReleaseSingleExe - тестовая версия с читами. На данный момент компилируются:
@@ -137,22 +138,17 @@ static const wchar_t* SERVER_IP_W_ARRAY[] = {SERVER_IP_W, MIRROR_SERVER_IP_W, SE
 * Сообщество в Telegram: https://t.me/primeworldclassic
 * Сообщество Discord: https://discord.gg/S3yrbFGT86
 * Страница Steam: https://store.steampowered.com/app/3684820/Prime_World_Classic/
-* Сайт с веб-версией замка: https://playpw.fun/
+* Сайт с веб-версией замка: https://castle-pw.26rus-game.ru/
 * Сайт со служебной информацией: https://pw.26rus-game.ru/
   
 ## Prime World: Nova
-* Активный сервер Prime World, сообщество ВК насчитывает 10000+ подписчиков
+* Активный сервер Prime World, сообщество ВК насчитывает 2000+ (10000 до угона) подписчиков
 ### Ссылки
 * Страница ВК: https://vk.com/pw_nova
 * Сообщество в Telegram: https://t.me/PW_Nova
 * Сообщество Discord: https://discord.gg/F5UCRsD7QJ
 * Сайт: https://playnova.ru
-
-# Другие известные серверы
-## Prime World: Reborn
-* На данный момент неизвестно, функционирует ли сервер.
-### Ссылки
-* Страница ВК: https://vk.com/pw.reborn
+* Страница Steam: https://store.steampowered.com/app/3782390/Prime_World_Nova/
 
 ## Prime World: Legends
 * Находится в стадии открытого бета-тестирования.
