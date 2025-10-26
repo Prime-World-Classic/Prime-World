@@ -73,7 +73,7 @@
 			</overtimeRespawnParams>
 		</HeroRespawnParams>
 	</heroRespawnParams>
-	<hintsCollection href="" />
+	<hintsCollection href="/Maps/Multiplayer/ARAM/Hint" />
 	<maxRequiredHeroForce>10000</maxRequiredHeroForce>
 	<minRequiredHeroForce>0</minRequiredHeroForce>
 	<overrideBotsSettings href="/Maps/Multiplayer/ARAM/_.BOTS" />
