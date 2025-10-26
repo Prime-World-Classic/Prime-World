@@ -254,6 +254,8 @@ function Init( reconnecting )
 	LuaShowUIBlock( "PlayerHeroBlock", false )
 	
 	LuaShowUIBlock( "MiniMapBlock", false )
+	
+	AddTriggerTop( welcome )
 
 	if not reconnecting then
 		-- LuaApplyPassiveAbility ("MainA", "MainBuildingBuff") -- раздаем статус своим зданиям
@@ -264,6 +266,18 @@ function Init( reconnecting )
 	end
 	
 	-- initCompanion()
+	
+end
+
+function welcome()
+
+	WaitState( 15 )
+	
+	LuaSetHintLine( "welcome", "LeftClick" )
+	
+	WaitState( 15 )
+	
+	LuaSetHintLine( "", "None" )
 	
 end
 
