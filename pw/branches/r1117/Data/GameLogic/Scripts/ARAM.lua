@@ -259,7 +259,7 @@ function Init( reconnecting )
 		-- LuaApplyPassiveAbility ("MainA", "MainBuildingBuff") -- раздаем статус своим зданиям
 		-- LuaApplyPassiveAbility ("MainB", "MainBuildingBuff")
 		
-		SpawnDragon()
+		-- SpawnDragon()
 		
 	end
 	
