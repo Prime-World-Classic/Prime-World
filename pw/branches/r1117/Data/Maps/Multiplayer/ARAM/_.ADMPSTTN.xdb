@@ -48,6 +48,10 @@
 					<key>CompanionB</key>
 					<resource href="/Creeps/Normals/Normal11/PvP_CompanionB.CREEP" />
 				</Item>
+				<Item>
+					<key>Dragon</key>
+					<resource href="/Creeps/Bosses/Boss1/PVP_ARAM.CREEP" />
+				</Item>
 			</resources>
 		</DictionaryPreloadingResources>
 	</dictionary>

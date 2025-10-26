@@ -3,6 +3,7 @@ include ("GameLogic/Scripts/StatesManager.lua")
 include ("GameLogic/Scripts/Common.lua")
 include ("GameLogic/Scripts/Consts.lua")
 
+ZOMBIE_MODE = false
 ZombieSpawnDelay = 3
 KilledHeroProc = 100
 KilledBySummonProc = 0
@@ -250,16 +251,38 @@ end
 
 function Init( reconnecting )
 
+	LuaShowUIBlock( "PlayerHeroBlock", false )
+	
+	LuaShowUIBlock( "MiniMapBlock", false )
+
 	if not reconnecting then
 		-- LuaApplyPassiveAbility ("MainA", "MainBuildingBuff") -- раздаем статус своим зданиям
 		-- LuaApplyPassiveAbility ("MainB", "MainBuildingBuff")
+		
+		-- SpawnDragon()
+		
 	end
 	
 	-- initCompanion()
 	
 end
 
+function SpawnDragon()
+	
+	LuaCreateCreep( "BossA", "Dragon", 118, 152, 1, 0 )
+	
+	LuaCreateCreep( "BossB", "Dragon", 141, 152, 2, 0 )
+	
+end
+
 function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
+	
+	if not ZOMBIE_MODE then 
+	
+		return
+	
+	end
+
 	if killerId == -1 then
 		return
 	end
@@ -325,7 +348,7 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	else
 		dbid = dbid .. "B"
 	end
-
+	
 	AddTriggerTop( SpawnZombie, victimId, dbid, faction, heroIsKilled)
 	
 end
@@ -343,9 +366,7 @@ function SpawnZombie( victimId, dbid, faction, heroIsKilled )
 		LuaCreateZombieById( victimId, "Ghost", faction )
 	
 	else
-	
-		WaitState( ZombieSpawnDelay )
-		LuaCreateZombieById( victimId, dbid, faction )
+		
 		WaitState( ZombieSpawnDelay )
 		LuaCreateZombieById( victimId, dbid, faction )
 		WaitState( ZombieSpawnDelay )
