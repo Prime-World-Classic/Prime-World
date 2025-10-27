@@ -6,6 +6,7 @@ include ("GameLogic/Scripts/Consts.lua")
 ZOMBIE_MODE = false
 QUEST_MODE = true
 PRICE_HERO = 50
+PRICE_CREEP = 5
 LIMIT_SCORE = 1000
 SHOW_QUEST = false
 SPAWN_DRAGON_A = false
@@ -321,11 +322,11 @@ function GetScore()
 				
 				if UnitFaction == 1 then 
 					
-					A = ( A + ( TotalNumHeroKills * PRICE_HERO ) + KillsTotal )
+					A = ( A + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
 					
 				else
 					
-					B = ( B + ( TotalNumHeroKills * PRICE_HERO ) + KillsTotal )
+					B = ( B + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
 					
 				end
 			
