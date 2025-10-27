@@ -406,7 +406,7 @@ function SpawnDragon( victimId )
 	
 	if getUnitFactionById == 1 then 
 	
-		faction = getUnitFactionById
+		faction = 2
 	
 	end
 	
