@@ -279,6 +279,8 @@ function DelayInit()
 
 	WaitState( 15 )
 	
+	LuaPlaceAttachedEffect("WithLoveIfstLocalId","WithLoveIfst","local")
+	
 	LuaSetHintLine( "welcome", "LeftClick" )
 	
 	WaitState( 15 )
@@ -357,7 +359,7 @@ function CheckQuest( victimId )
 	
 	local A, B = GetScore()
 
-	if A > LIMIT_SCORE then
+	if A >= LIMIT_SCORE then
 		
 		A = LIMIT_SCORE
 		
@@ -371,7 +373,7 @@ function CheckQuest( victimId )
 		
 	end
 	
-	if B > LIMIT_SCORE then
+	if B >= LIMIT_SCORE then
 		
 		B = LIMIT_SCORE
 		
@@ -397,9 +399,15 @@ function SpawnDragon( victimId )
 	
 	--LuaCreateCreep( "BossB", "Dragon", 141, 152, 2, 0 )
 	
-	local faction = LuaGetUnitFactionById( victimId )
+	local getUnitFactionById = LuaGetUnitFactionById( victimId )
 	
-	WaitState( 5 )
+	local faction = 1
+	
+	if getUnitFactionById == 1 then 
+	
+		faction = getUnitFactionById
+	
+	end
 	
 	LuaCreateZombieById( victimId, "Dragon", faction )
 	

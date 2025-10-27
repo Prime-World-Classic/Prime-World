@@ -6,13 +6,13 @@
 		<Item>
 			<counter>1000</counter>
 			<id>Q_A</id>
-			<primary>false</primary>
+			<primary>true</primary>
 			<text textref="/Maps/Multiplayer/ARAM/Quest_quests_0_text.txt" />
 		</Item>
 		<Item>
 			<counter>1000</counter>
 			<id>Q_B</id>
-			<primary>false</primary>
+			<primary>true</primary>
 			<text textref="/Maps/Multiplayer/ARAM/Quest_quests_1_text.txt" />
 		</Item>
 	</quests>
