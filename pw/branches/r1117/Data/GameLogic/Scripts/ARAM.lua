@@ -4,6 +4,13 @@ include ("GameLogic/Scripts/Common.lua")
 include ("GameLogic/Scripts/Consts.lua")
 
 ZOMBIE_MODE = false
+QUEST_MODE = true
+PRICE_HERO = 50
+LIMIT_SCORE = 1000
+SHOW_QUEST = false
+SPAWN_DRAGON_A = false
+SPAWN_DRAGON_B = false
+
 ZombieSpawnDelay = 3
 KilledHeroProc = 100
 KilledBySummonProc = 0
@@ -255,13 +262,12 @@ function Init( reconnecting )
 	
 	-- LuaShowUIBlock( "MiniMapBlock", false )
 	
-	AddTriggerTop( welcome )
+	AddTriggerTop( DelayInit )
 
 	if not reconnecting then
+		
 		-- LuaApplyPassiveAbility ("MainA", "MainBuildingBuff") -- раздаем статус своим зданиям
 		-- LuaApplyPassiveAbility ("MainB", "MainBuildingBuff")
-		
-		-- SpawnDragon()
 		
 	end
 	
@@ -269,7 +275,7 @@ function Init( reconnecting )
 	
 end
 
-function welcome()
+function DelayInit()
 
 	WaitState( 15 )
 	
@@ -279,17 +285,133 @@ function welcome()
 	
 	LuaSetHintLine( "", "None" )
 	
+	if QUEST_MODE then 
+	
+		WaitState( 3 )
+	
+		AddStateEnd( InitQuest )
+	
+	end
+	
 end
 
-function SpawnDragon()
+function GetScore()
+
+	local A = 0
 	
-	LuaCreateCreep( "BossA", "Dragon", 118, 152, 1, 0 )
+	local B = 0
+
+	for team = 0, 1 do
 	
-	LuaCreateCreep( "BossB", "Dragon", 141, 152, 2, 0 )
+		for hero = 0, 4 do
+			
+			local heroNameId = tostring( team ) .. tostring( hero )
+			
+			local dead, found = LuaUnitIsDead(heroNameId)
+			
+			if found then
+				
+				local TotalNumHeroKills = LuaStatisticsGetTotalNumHeroKills( heroNameId )
+				
+				local KillsTotal = LuaHeroGetKillsTotal( heroNameId )
+				
+				local UnitFaction = LuaGetUnitFaction( heroNameId )
+				
+				if UnitFaction == 1 then 
+					
+					A = ( A + ( TotalNumHeroKills * PRICE_HERO ) + KillsTotal )
+					
+				else
+					
+					B = ( B + ( TotalNumHeroKills * PRICE_HERO ) + KillsTotal )
+					
+				end
+			
+			end
+		
+		end
+	
+	end
+	
+	return A, B
+	
+end
+
+function InitQuest()
+
+	LuaAddSessionQuest( "Q_A" )
+	
+	LuaAddSessionQuest( "Q_B" )
+	
+	SHOW_QUEST = true
+
+end
+
+function CheckQuest( victimId )
+	
+	if not SHOW_QUEST then 
+	
+		return
+	
+	end
+	
+	local A, B = GetScore()
+
+	if A > LIMIT_SCORE then
+		
+		A = LIMIT_SCORE
+		
+		if not SPAWN_DRAGON_A then 
+		
+			SPAWN_DRAGON_A = true
+			
+			AddTriggerTop( SpawnDragon, victimId )
+		
+		end
+		
+	end
+	
+	if B > LIMIT_SCORE then
+		
+		B = LIMIT_SCORE
+		
+		if not SPAWN_DRAGON_B then 
+		
+			SPAWN_DRAGON_B = true
+			
+			AddTriggerTop( SpawnDragon, victimId )
+		
+		end
+		
+	end
+	
+	LuaUpdateSessionQuest( "Q_A", A )
+	
+	LuaUpdateSessionQuest( "Q_B", B )
+	
+end
+
+function SpawnDragon( victimId )
+	
+	--LuaCreateCreep( "BossA", "Dragon", 118, 152, 1, 0 )
+	
+	--LuaCreateCreep( "BossB", "Dragon", 141, 152, 2, 0 )
+	
+	local faction = LuaGetUnitFactionById( victimId )
+	
+	WaitState( 5 )
+	
+	LuaCreateZombieById( victimId, "Dragon", faction )
 	
 end
 
 function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
+	
+	if QUEST_MODE then 
+	
+		CheckQuest( victimId )
+	
+	end
 	
 	if not ZOMBIE_MODE then 
 	
