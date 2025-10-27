@@ -56,6 +56,10 @@
 					<key>WithLoveIfst</key>
 					<resource href="/Effects/Buffs/Assist/_.EFFT" />
 				</Item>
+				<Item>
+					<key>PointReceived</key>
+					<resource href="/Effects/Buffs/Sacrifice/_.EFFT" />
+				</Item>
 			</resources>
 		</DictionaryPreloadingResources>
 	</dictionary>

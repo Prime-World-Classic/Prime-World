@@ -413,9 +413,37 @@ function SpawnDragon( victimId )
 	
 end
 
+function PointReceived( victimId, killerId )
+
+	if LuaGetUnitTypeById( killerId ) == UnitTypeHeroMale and not LuaHeroIsCloneById( killerId ) then 
+	
+		local killerName = LuaGetUnitObjectNameById( killerId )
+	
+		local victimName = LuaGetUnitObjectNameById( victimId )
+		
+		local effectId = "PointReceived_" .. victimName;
+		
+		LuaPlaceAttachedEffect( effectId, "PointReceived", killerName )
+		
+		WaitState( 2 )
+		
+		LuaRemoveStandaloneEffect( effectId )
+		
+	end
+
+end
+
 function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	
+	if killerId == -1 then
+	
+		return
+		
+	end
+	
 	if QUEST_MODE then 
+		
+		AddTriggerTop( PointReceived, victimId, killerId )
 	
 		CheckQuest( victimId )
 	
@@ -425,10 +453,6 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	
 		return
 	
-	end
-
-	if killerId == -1 then
-		return
 	end
 	
 	if LuaGetUnitVariableById( victimId, "InventorSpecial" ) ~= 0 then
