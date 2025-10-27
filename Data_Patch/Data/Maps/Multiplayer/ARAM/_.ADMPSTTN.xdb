@@ -130,7 +130,7 @@
 		<startPrimePerTeam>2100</startPrimePerTeam>
 		<teamNaftaForPresence>-1</teamNaftaForPresence>
 	</primeSettings>
-	<questsCollection href="" />
+	<questsCollection href="/Maps/Multiplayer/ARAM/Quest" />
 	<scriptFileName>/GameLogic/Scripts/ARAM.lua</scriptFileName>
 	<showAllHeroes>true</showAllHeroes>
 	<towersVulnerabilityDelay>0</towersVulnerabilityDelay>
