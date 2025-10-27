@@ -251,9 +251,9 @@ end
 
 function Init( reconnecting )
 
-	LuaShowUIBlock( "PlayerHeroBlock", false )
+	-- LuaShowUIBlock( "PlayerHeroBlock", false )
 	
-	LuaShowUIBlock( "MiniMapBlock", false )
+	-- LuaShowUIBlock( "MiniMapBlock", false )
 	
 	AddTriggerTop( welcome )
 
