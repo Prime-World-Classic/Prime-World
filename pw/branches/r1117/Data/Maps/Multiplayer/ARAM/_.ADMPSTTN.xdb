@@ -50,7 +50,7 @@
 				</Item>
 				<Item>
 					<key>Dragon</key>
-					<resource href="/Creeps/Bosses/Boss1/PVP_ARAM.CREEP" />
+					<resource href="/Creeps/Bosses/Boss1/PVP_Walked.CREEP" />
 				</Item>
 				<Item>
 					<key>WithLoveIfst</key>
