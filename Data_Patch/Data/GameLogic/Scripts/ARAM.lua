@@ -279,6 +279,8 @@ function DelayInit()
 
 	WaitState( 15 )
 	
+	LuaPlaceAttachedEffect("WithLoveIfstLocalId","WithLoveIfst","local")
+	
 	LuaSetHintLine( "welcome", "LeftClick" )
 	
 	WaitState( 15 )
@@ -357,7 +359,7 @@ function CheckQuest( victimId )
 	
 	local A, B = GetScore()
 
-	if A > LIMIT_SCORE then
+	if A >= LIMIT_SCORE then
 		
 		A = LIMIT_SCORE
 		
@@ -371,7 +373,7 @@ function CheckQuest( victimId )
 		
 	end
 	
-	if B > LIMIT_SCORE then
+	if B >= LIMIT_SCORE then
 		
 		B = LIMIT_SCORE
 		
@@ -397,17 +399,51 @@ function SpawnDragon( victimId )
 	
 	--LuaCreateCreep( "BossB", "Dragon", 141, 152, 2, 0 )
 	
-	local faction = LuaGetUnitFactionById( victimId )
+	local getUnitFactionById = LuaGetUnitFactionById( victimId )
 	
-	WaitState( 5 )
+	local faction = 1
+	
+	if getUnitFactionById == 1 then 
+	
+		faction = getUnitFactionById
+	
+	end
 	
 	LuaCreateZombieById( victimId, "Dragon", faction )
 	
 end
 
+function PointReceived( victimId, killerId )
+
+	if LuaGetUnitTypeById( killerId ) == UnitTypeHeroMale and not LuaHeroIsCloneById( killerId ) then 
+	
+		local killerName = LuaGetUnitObjectNameById( killerId )
+	
+		local victimName = LuaGetUnitObjectNameById( victimId )
+		
+		local effectId = "PointReceived_" .. victimName;
+		
+		LuaPlaceAttachedEffect( effectId, "PointReceived", killerName )
+		
+		WaitState( 2 )
+		
+		LuaRemoveStandaloneEffect( effectId )
+		
+	end
+
+end
+
 function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	
+	if killerId == -1 then
+	
+		return
+		
+	end
+	
 	if QUEST_MODE then 
+		
+		AddTriggerTop( PointReceived, victimId, killerId )
 	
 		CheckQuest( victimId )
 	
@@ -417,10 +453,6 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	
 		return
 	
-	end
-
-	if killerId == -1 then
-		return
 	end
 	
 	if LuaGetUnitVariableById( victimId, "InventorSpecial" ) ~= 0 then
