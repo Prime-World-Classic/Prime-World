@@ -7,13 +7,13 @@ ZOMBIE_MODE = false
 QUEST_MODE = true
 PRICE_HERO = 50
 PRICE_CREEP = 5
-LIMIT_SCORE = 10
-MAX_PLAYER_TEAM = 1
+LIMIT_SCORE = 1000
+MAX_PLAYER_TEAM = 5
 SHOW_QUEST = false
 SPAWN_DRAGON_TOTAL_A = 1
 SPAWN_DRAGON_TOTAL_B = 1
-QUEST_HEAL_BUILDING_A = { status = false, repair = { "TowerA1_m2", "TowerA2_m2", "BarracksA_m2", "MainA" }, blocked = false }
-QUEST_HEAL_BUILDING_B = { status = false, repair = { "TowerB1_m2", "TowerB2_m2", "BarracksB_m2", "MainB" }, blocked = false }
+QUEST_HEAL_BUILDING_A = { status = false, repair = { "TowerA1_m2", "TowerA2_m2" }, blocked = false } -- "BarracksA_m2", "MainA"
+QUEST_HEAL_BUILDING_B = { status = false, repair = { "TowerB1_m2", "TowerB2_m2" }, blocked = false } -- "BarracksB_m2", "MainB"
 
 ZombieSpawnDelay = 3
 KilledHeroProc = 100
