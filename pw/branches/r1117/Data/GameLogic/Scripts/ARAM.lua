@@ -8,6 +8,7 @@ QUEST_MODE = true
 PRICE_HERO = 50
 PRICE_CREEP = 5
 LIMIT_SCORE = 1000
+MAX_PLAYER_TEAM = 5
 SHOW_QUEST = false
 SPAWN_DRAGON_TOTAL_A = 1
 SPAWN_DRAGON_TOTAL_B = 1
@@ -416,13 +417,25 @@ function CheckQuest( victimId )
 	
 	LuaUpdateSessionQuest( "Q_B", CountB )
 	
+	if DeadA == MAX_PLAYER_TEAM then
+	
+		AddTriggerTop( HealTower, 2 )
+		
+	end
+	
+	if DeadB == MAX_PLAYER_TEAM then
+	
+		AddTriggerTop( HealTower, 1 )
+		
+	end
+	
+	LuaUpdateSessionQuest( "Q_A2", DeadB )
+	
+	LuaUpdateSessionQuest( "Q_B2", DeadA )
+	
 end
 
 function SpawnDragon( victimId )
-	
-	--LuaCreateCreep( "BossA", "Dragon", 118, 152, 1, 0 )
-	
-	--LuaCreateCreep( "BossB", "Dragon", 141, 152, 2, 0 )
 	
 	local getUnitFactionById = LuaGetUnitFactionById( victimId )
 	
@@ -455,6 +468,12 @@ function PointReceived( victimId, killerId )
 		LuaRemoveStandaloneEffect( effectId )
 		
 	end
+
+end
+
+function HealTower( faction )
+
+	
 
 end
 
