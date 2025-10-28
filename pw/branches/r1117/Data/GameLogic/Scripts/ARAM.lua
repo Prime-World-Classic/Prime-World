@@ -397,13 +397,13 @@ function CheckQuest( victimId )
 	
 	if CountA >= LIMIT_SCORE then
 		
-		CountA = ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A ) - CountA
+		CountA = ( CountA + LIMIT_SCORE ) - ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A )
 	
 	end
 	
 	if CountB >= LIMIT_SCORE then
 		
-		CountB = ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_B ) - CountB
+		CountB = ( CountB + LIMIT_SCORE ) - ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_B )
 	
 	end
 	
