@@ -300,9 +300,13 @@ end
 
 function GetScore()
 
-	local A = 0
+	local CountA = 0
 	
-	local B = 0
+	local CountB = 0
+	
+	local DeadA = 0
+	
+	local DeadB = 0
 
 	for team = 0, 1 do
 	
@@ -322,11 +326,23 @@ function GetScore()
 				
 				if UnitFaction == 1 then 
 					
-					A = ( A + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
+					CountA = ( CountA + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
+					
+					if dead then 
+					
+						DeadA = ( DeadA + 1 )
+						
+					end
 					
 				else
 					
-					B = ( B + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
+					CountB = ( CountB + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
+					
+					if dead then 
+					
+						DeadB = ( DeadB + 1 )
+						
+					end
 					
 				end
 			
@@ -336,7 +352,7 @@ function GetScore()
 	
 	end
 	
-	return A, B
+	return CountA, CountB, DeadA, DeadB
 	
 end
 
@@ -345,6 +361,10 @@ function InitQuest()
 	LuaAddSessionQuest( "Q_A" )
 	
 	LuaAddSessionQuest( "Q_B" )
+	
+	LuaAddSessionQuest( "Q_A2" )
+	
+	LuaAddSessionQuest( "Q_B2" )
 	
 	SHOW_QUEST = true
 
@@ -358,9 +378,9 @@ function CheckQuest( victimId )
 	
 	end
 	
-	local A, B = GetScore()
+	local CountA, CountB, DeadA, DeadB = GetScore()
 
-	if A >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A ) then
+	if CountA >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A ) then
 		
 		SPAWN_DRAGON_TOTAL_A = SPAWN_DRAGON_TOTAL_A + 1
 		
@@ -368,7 +388,7 @@ function CheckQuest( victimId )
 		
 	end
 	
-	if B >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_B ) then
+	if CountB >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_B ) then
 		
 		SPAWN_DRAGON_TOTAL_B = SPAWN_DRAGON_TOTAL_B + 1;
 		
@@ -376,25 +396,25 @@ function CheckQuest( victimId )
 		
 	end
 	
-	A = ( A // SPAWN_DRAGON_TOTAL_A )
+	CountA = ( CountA // SPAWN_DRAGON_TOTAL_A )
 	
-	B = ( B // SPAWN_DRAGON_TOTAL_B )
+	CountB = ( CountB // SPAWN_DRAGON_TOTAL_B )
 	
-	if A > LIMIT_SCORE then
+	if CountA > LIMIT_SCORE then
 		
-		A = LIMIT_SCORE
+		CountA = LIMIT_SCORE
 	
 	end
 	
-	if B > LIMIT_SCORE then
+	if CountB > LIMIT_SCORE then
 		
-		B = LIMIT_SCORE
+		CountB = LIMIT_SCORE
 	
 	end
 	
-	LuaUpdateSessionQuest( "Q_A", A )
+	LuaUpdateSessionQuest( "Q_A", CountA )
 	
-	LuaUpdateSessionQuest( "Q_B", B )
+	LuaUpdateSessionQuest( "Q_B", CountB )
 	
 end
 
