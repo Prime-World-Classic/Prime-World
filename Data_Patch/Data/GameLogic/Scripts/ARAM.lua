@@ -8,9 +8,12 @@ QUEST_MODE = true
 PRICE_HERO = 50
 PRICE_CREEP = 5
 LIMIT_SCORE = 1000
+MAX_PLAYER_TEAM = 5
 SHOW_QUEST = false
-SPAWN_DRAGON_A = false
-SPAWN_DRAGON_B = false
+SPAWN_DRAGON_TOTAL_A = 1
+SPAWN_DRAGON_TOTAL_B = 1
+QUEST_HEAL_TOWER_A = false
+QUEST_HEAL_TOWER_B = false
 
 ZombieSpawnDelay = 3
 KilledHeroProc = 100
@@ -300,9 +303,13 @@ end
 
 function GetScore()
 
-	local A = 0
+	local CountA = 0
 	
-	local B = 0
+	local CountB = 0
+	
+	local DeadA = 0
+	
+	local DeadB = 0
 
 	for team = 0, 1 do
 	
@@ -322,11 +329,23 @@ function GetScore()
 				
 				if UnitFaction == 1 then 
 					
-					A = ( A + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
+					CountA = ( CountA + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
+					
+					if dead then 
+					
+						DeadA = ( DeadA + 1 )
+						
+					end
 					
 				else
 					
-					B = ( B + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
+					CountB = ( CountB + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
+					
+					if dead then 
+					
+						DeadB = ( DeadB + 1 )
+						
+					end
 					
 				end
 			
@@ -336,7 +355,7 @@ function GetScore()
 	
 	end
 	
-	return A, B
+	return CountA, CountB, DeadA, DeadB
 	
 end
 
@@ -358,47 +377,99 @@ function CheckQuest( victimId )
 	
 	end
 	
-	local A, B = GetScore()
+	local CountA, CountB, DeadA, DeadB = GetScore()
 
-	if A >= LIMIT_SCORE then
+	if CountA >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A ) then
 		
-		A = LIMIT_SCORE
+		SPAWN_DRAGON_TOTAL_A = SPAWN_DRAGON_TOTAL_A + 1
 		
-		if not SPAWN_DRAGON_A then 
+		AddTriggerTop( SpawnDragon, victimId )
 		
-			SPAWN_DRAGON_A = true
+	end
+	
+	if CountB >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_B ) then
+		
+		SPAWN_DRAGON_TOTAL_B = SPAWN_DRAGON_TOTAL_B + 1;
+		
+		AddTriggerTop( SpawnDragon, victimId )
+		
+	end
+	
+	CountA = ( CountA // SPAWN_DRAGON_TOTAL_A )
+	
+	CountB = ( CountB // SPAWN_DRAGON_TOTAL_B )
+	
+	if CountA > LIMIT_SCORE then
+		
+		CountA = LIMIT_SCORE
+	
+	end
+	
+	if CountB > LIMIT_SCORE then
+		
+		CountB = LIMIT_SCORE
+	
+	end
+	
+	LuaUpdateSessionQuest( "Q_A", CountA )
+	
+	LuaUpdateSessionQuest( "Q_B", CountB )
+	
+	if not QUEST_HEAL_TOWER_A and not DeadB then
+	
+		QUEST_HEAL_TOWER_A = true
+		
+		LuaAddSessionQuest( "Q_A2" )
+	
+	end
+	
+	if not QUEST_HEAL_TOWER_B and not DeadA then
+	
+		QUEST_HEAL_TOWER_B = true
+		
+		LuaAddSessionQuest( "Q_B2" )
+	
+	end
+	
+	if QUEST_HEAL_TOWER_A then
+		
+		if DeadB == MAX_PLAYER_TEAM then
 			
-			AddTriggerTop( SpawnDragon, victimId )
-		
+			AddTriggerTop( HealTower, 1 )
+			
+			QUEST_HEAL_TOWER_A = false
+			
+			LuaRemoveSessionQuest( "Q_A2" )
+			
+		else
+			
+			LuaUpdateSessionQuest( "Q_A2", DeadB )
+			
 		end
 		
 	end
 	
-	if B >= LIMIT_SCORE then
+	if QUEST_HEAL_TOWER_B then
 		
-		B = LIMIT_SCORE
+		if DeadA == MAX_PLAYER_TEAM then
 		
-		if not SPAWN_DRAGON_B then 
-		
-			SPAWN_DRAGON_B = true
+			AddTriggerTop( HealTower, 2 )
 			
-			AddTriggerTop( SpawnDragon, victimId )
-		
+			QUEST_HEAL_TOWER_B = false
+			
+			LuaRemoveSessionQuest( "Q_B2" )
+			
+		else
+			
+			LuaUpdateSessionQuest( "Q_B2", DeadA )
+			
 		end
 		
 	end
-	
-	LuaUpdateSessionQuest( "Q_A", A )
-	
-	LuaUpdateSessionQuest( "Q_B", B )
 	
 end
 
 function SpawnDragon( victimId )
-	
-	--LuaCreateCreep( "BossA", "Dragon", 118, 152, 1, 0 )
-	
-	--LuaCreateCreep( "BossB", "Dragon", 141, 152, 2, 0 )
 	
 	local getUnitFactionById = LuaGetUnitFactionById( victimId )
 	
@@ -431,6 +502,12 @@ function PointReceived( victimId, killerId )
 		LuaRemoveStandaloneEffect( effectId )
 		
 	end
+
+end
+
+function HealTower( faction )
+
+	
 
 end
 

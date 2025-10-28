@@ -15,5 +15,17 @@
 			<primary>true</primary>
 			<text textref="/Maps/Multiplayer/ARAM/Quest_quests_1_text.txt" />
 		</Item>
+		<Item>
+			<counter>5</counter>
+			<id>Q_A2</id>
+			<primary>false</primary>
+			<text textref="/Maps/Multiplayer/ARAM/Quest_quests_2_text.txt" />
+		</Item>
+		<Item>
+			<counter>5</counter>
+			<id>Q_B2</id>
+			<primary>false</primary>
+			<text textref="/Maps/Multiplayer/ARAM/Quest_quests_3_text.txt" />
+		</Item>
 	</quests>
 </SessionQuestsCollection>
