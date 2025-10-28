@@ -60,6 +60,10 @@
 					<key>PointReceived</key>
 					<resource href="/Effects/Buffs/Sacrifice/_.EFFT" />
 				</Item>
+				<Item>
+					<key>HealBuilding</key>
+					<resource href="/Effects/Buffs/Repair/_In.EFFT" />
+				</Item>
 			</resources>
 		</DictionaryPreloadingResources>
 	</dictionary>

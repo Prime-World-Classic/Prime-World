@@ -7,13 +7,13 @@ ZOMBIE_MODE = false
 QUEST_MODE = true
 PRICE_HERO = 50
 PRICE_CREEP = 5
-LIMIT_SCORE = 1000
-MAX_PLAYER_TEAM = 5
+LIMIT_SCORE = 10
+MAX_PLAYER_TEAM = 1
 SHOW_QUEST = false
 SPAWN_DRAGON_TOTAL_A = 1
 SPAWN_DRAGON_TOTAL_B = 1
-QUEST_HEAL_TOWER_A = false
-QUEST_HEAL_TOWER_B = false
+QUEST_HEAL_BUILDING_A = { status = false, repair = { "TowerA1_m2", "TowerA2_m2", "BarracksA_m2", "MainA" }, blocked = false }
+QUEST_HEAL_BUILDING_B = { status = false, repair = { "TowerB1_m2", "TowerB2_m2", "BarracksB_m2", "MainB" }, blocked = false }
 
 ZombieSpawnDelay = 3
 KilledHeroProc = 100
@@ -378,7 +378,7 @@ function CheckQuest( victimId )
 	end
 	
 	local CountA, CountB, DeadA, DeadB = GetScore()
-
+	
 	if CountA >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A ) then
 		
 		SPAWN_DRAGON_TOTAL_A = SPAWN_DRAGON_TOTAL_A + 1
@@ -395,19 +395,15 @@ function CheckQuest( victimId )
 		
 	end
 	
-	CountA = ( CountA // SPAWN_DRAGON_TOTAL_A )
-	
-	CountB = ( CountB // SPAWN_DRAGON_TOTAL_B )
-	
-	if CountA > LIMIT_SCORE then
+	if CountA >= LIMIT_SCORE then
 		
-		CountA = LIMIT_SCORE
+		CountA = ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A ) - CountA
 	
 	end
 	
-	if CountB > LIMIT_SCORE then
+	if CountB >= LIMIT_SCORE then
 		
-		CountB = LIMIT_SCORE
+		CountB = ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_B ) - CountB
 	
 	end
 	
@@ -415,29 +411,29 @@ function CheckQuest( victimId )
 	
 	LuaUpdateSessionQuest( "Q_B", CountB )
 	
-	if not QUEST_HEAL_TOWER_A and not DeadB then
+	if not QUEST_HEAL_BUILDING_A.blocked and not QUEST_HEAL_BUILDING_A.status and DeadB == 0 then
 	
-		QUEST_HEAL_TOWER_A = true
+		QUEST_HEAL_BUILDING_A.status = true
 		
 		LuaAddSessionQuest( "Q_A2" )
 	
 	end
 	
-	if not QUEST_HEAL_TOWER_B and not DeadA then
+	if not QUEST_HEAL_BUILDING_B.blocked and not QUEST_HEAL_BUILDING_B.status and DeadA == 0 then
 	
-		QUEST_HEAL_TOWER_B = true
+		QUEST_HEAL_BUILDING_B.status = true
 		
 		LuaAddSessionQuest( "Q_B2" )
 	
 	end
 	
-	if QUEST_HEAL_TOWER_A then
+	if QUEST_HEAL_BUILDING_A.status then
 		
 		if DeadB == MAX_PLAYER_TEAM then
 			
-			AddTriggerTop( HealTower, 1 )
+			AddTriggerTop( HealBuilding, QUEST_HEAL_BUILDING_A )
 			
-			QUEST_HEAL_TOWER_A = false
+			QUEST_HEAL_BUILDING_A.status = false
 			
 			LuaRemoveSessionQuest( "Q_A2" )
 			
@@ -449,13 +445,13 @@ function CheckQuest( victimId )
 		
 	end
 	
-	if QUEST_HEAL_TOWER_B then
+	if QUEST_HEAL_BUILDING_B.status then
 		
 		if DeadA == MAX_PLAYER_TEAM then
 		
-			AddTriggerTop( HealTower, 2 )
+			AddTriggerTop( HealBuilding, QUEST_HEAL_BUILDING_B )
 			
-			QUEST_HEAL_TOWER_B = false
+			QUEST_HEAL_BUILDING_B.status = false
 			
 			LuaRemoveSessionQuest( "Q_B2" )
 			
@@ -505,9 +501,47 @@ function PointReceived( victimId, killerId )
 
 end
 
-function HealTower( faction )
-
+function HealBuilding( QuestHealBuildingObject )
 	
+	for index, building in ipairs( QuestHealBuildingObject.repair ) do
+	
+		local dead, found = LuaUnitIsDead( building )
+		
+		if found then 
+		
+			local health, total = LuaUnitGetHealth( building )
+			
+			local increase = health + ( total / 4 )
+			
+			if increase > total then 
+				
+				increase = total
+				
+			end
+			-- LuaSetUnitHealth( building, total / 4 ) -- для видео демо сценка
+			LuaSetUnitHealth( building, increase )
+			
+			AddTriggerTop( HealBuildingEffect, building )
+			
+			return
+		
+		end
+	
+	end
+	
+	QuestHealBuildingObject.blocked = true
+
+end
+
+function HealBuildingEffect( buildingId )
+
+	local effectId = "HealBuilding_" .. buildingId;
+
+	LuaPlaceAttachedEffect( effectId, "HealBuilding", buildingId )
+	
+	WaitState( 3 )
+	
+	LuaRemoveStandaloneEffect( effectId )
 
 end
 
@@ -524,7 +558,9 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 		AddTriggerTop( PointReceived, victimId, killerId )
 	
 		CheckQuest( victimId )
-	
+		
+		-- HealBuilding( QUEST_HEAL_BUILDING_B ) -- для теста
+		
 	end
 	
 	if not ZOMBIE_MODE then 
