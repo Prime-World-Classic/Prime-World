@@ -12,6 +12,8 @@ MAX_PLAYER_TEAM = 5
 SHOW_QUEST = false
 SPAWN_DRAGON_TOTAL_A = 1
 SPAWN_DRAGON_TOTAL_B = 1
+QUEST_HEAL_TOWER_A = false
+QUEST_HEAL_TOWER_B = false
 
 ZombieSpawnDelay = 3
 KilledHeroProc = 100
@@ -363,10 +365,6 @@ function InitQuest()
 	
 	LuaAddSessionQuest( "Q_B" )
 	
-	LuaAddSessionQuest( "Q_A2" )
-	
-	LuaAddSessionQuest( "Q_B2" )
-	
 	SHOW_QUEST = true
 
 end
@@ -417,21 +415,57 @@ function CheckQuest( victimId )
 	
 	LuaUpdateSessionQuest( "Q_B", CountB )
 	
-	if DeadA == MAX_PLAYER_TEAM then
+	if not QUEST_HEAL_TOWER_A and not DeadB then
 	
-		AddTriggerTop( HealTower, 2 )
+		QUEST_HEAL_TOWER_A = true
+		
+		LuaAddSessionQuest( "Q_A2" )
+	
+	end
+	
+	if not QUEST_HEAL_TOWER_B and not DeadA then
+	
+		QUEST_HEAL_TOWER_B = true
+		
+		LuaAddSessionQuest( "Q_B2" )
+	
+	end
+	
+	if QUEST_HEAL_TOWER_A then
+		
+		if DeadB == MAX_PLAYER_TEAM then
+			
+			AddTriggerTop( HealTower, 1 )
+			
+			QUEST_HEAL_TOWER_A = false
+			
+			LuaRemoveSessionQuest( "Q_A2" )
+			
+		else
+			
+			LuaUpdateSessionQuest( "Q_A2", DeadB )
+			
+		end
 		
 	end
 	
-	if DeadB == MAX_PLAYER_TEAM then
-	
-		AddTriggerTop( HealTower, 1 )
+	if QUEST_HEAL_TOWER_B then
+		
+		if DeadA == MAX_PLAYER_TEAM then
+		
+			AddTriggerTop( HealTower, 2 )
+			
+			QUEST_HEAL_TOWER_B = false
+			
+			LuaRemoveSessionQuest( "Q_B2" )
+			
+		else
+			
+			LuaUpdateSessionQuest( "Q_B2", DeadA )
+			
+		end
 		
 	end
-	
-	LuaUpdateSessionQuest( "Q_A2", DeadB )
-	
-	LuaUpdateSessionQuest( "Q_B2", DeadA )
 	
 end
 
