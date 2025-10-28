@@ -9,8 +9,8 @@ PRICE_HERO = 50
 PRICE_CREEP = 5
 LIMIT_SCORE = 1500
 SHOW_QUEST = false
-SPAWN_DRAGON_A = false
-SPAWN_DRAGON_B = false
+SPAWN_DRAGON_TOTAL_A = 1
+SPAWN_DRAGON_TOTAL_B = 1
 
 ZombieSpawnDelay = 3
 KilledHeroProc = 100
@@ -360,32 +360,36 @@ function CheckQuest( victimId )
 	
 	local A, B = GetScore()
 
-	if A >= LIMIT_SCORE then
+	if A >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A ) then
 		
-		A = LIMIT_SCORE
+		SPAWN_DRAGON_TOTAL_A = SPAWN_DRAGON_TOTAL_A + 1
 		
-		if not SPAWN_DRAGON_A then 
-		
-			SPAWN_DRAGON_A = true
-			
-			AddTriggerTop( SpawnDragon, victimId )
-		
-		end
+		AddTriggerTop( SpawnDragon, victimId )
 		
 	end
 	
-	if B >= LIMIT_SCORE then
+	if B >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_B ) then
+		
+		SPAWN_DRAGON_TOTAL_B = SPAWN_DRAGON_TOTAL_B + 1;
+		
+		AddTriggerTop( SpawnDragon, victimId )
+		
+	end
+	
+	A = ( A // SPAWN_DRAGON_TOTAL_A )
+	
+	B = ( B // SPAWN_DRAGON_TOTAL_B )
+	
+	if A > LIMIT_SCORE then
+		
+		A = LIMIT_SCORE
+	
+	end
+	
+	if B > LIMIT_SCORE then
 		
 		B = LIMIT_SCORE
-		
-		if not SPAWN_DRAGON_B then 
-		
-			SPAWN_DRAGON_B = true
-			
-			AddTriggerTop( SpawnDragon, victimId )
-		
-		end
-		
+	
 	end
 	
 	LuaUpdateSessionQuest( "Q_A", A )
