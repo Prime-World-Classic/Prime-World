@@ -498,7 +498,9 @@ public:
 		if ( !StartChunk( idChunk, nChunkNumber, CHUNK_MEMORYSTREAM ) )
 			return;
 		int nSize = pStr->GetSize();
-		if (nSize < 1 || nSize > 1024 * 1024 * 100) {
+		if (nSize < 0 || nSize > 1024 * 1024 * 10) {
+      //int* ptr = reinterpret_cast<int*>(0xdeadbeef);
+      //*ptr = 0;
 			return;
 		}
 		
