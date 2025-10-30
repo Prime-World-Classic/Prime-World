@@ -497,7 +497,8 @@ public:
 	{
 		if ( !StartChunk( idChunk, nChunkNumber, CHUNK_MEMORYSTREAM ) )
 			return;
-		int nSize = pStr->GetSize();
+		int nSize = std::min(1024 * 1024 * 100, pStr->GetSize());
+		
 		Add( 1, &nSize );
 		if ( !StartChunk( 2, 1, CHUNK_MEMORYSTREAM_DATA ) )
 		{
