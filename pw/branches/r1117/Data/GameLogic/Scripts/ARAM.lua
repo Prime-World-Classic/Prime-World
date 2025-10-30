@@ -7,11 +7,9 @@ ZOMBIE_MODE = false
 QUEST_MODE = true
 PRICE_HERO = 50
 PRICE_CREEP = 5
-LIMIT_SCORE = 1000
+LIMIT_SCORE = 100
 MAX_PLAYER_TEAM = 5
-SHOW_QUEST = false
-SPAWN_DRAGON_TOTAL_A = 1
-SPAWN_DRAGON_TOTAL_B = 1
+
 QUEST_HEAL_BUILDING_A = { status = false, repair = { "TowerA1_m2", "TowerA2_m2" }, blocked = false } -- "BarracksA_m2", "MainA"
 QUEST_HEAL_BUILDING_B = { status = false, repair = { "TowerB1_m2", "TowerB2_m2" }, blocked = false } -- "BarracksB_m2", "MainB"
 
@@ -23,6 +21,453 @@ KilledByRangedAAProc = 100
 KilledByAbilityProc = 0
 
 COMPANION_DATA = {}
+
+function Init( reconnecting )
+
+	-- LuaShowUIBlock( "PlayerHeroBlock", false )
+	
+	-- LuaShowUIBlock( "MiniMapBlock", false )
+	
+	AddTriggerTop( DelayInit )
+
+	if not reconnecting then
+		
+		local QUEST_DRAGON = {}
+		
+		QUEST_DRAGON[1] = { name = "Q_A", state = 0, total = 1, spawn = { x = 43, y = 130 } }
+		
+		QUEST_DRAGON[2] = { name = "Q_B", state = 0, total = 1, spawn = { x = 214, y = 125 } }
+		
+		SetGlobalVar( "QUEST_DRAGON", QUEST_DRAGON )
+		
+	end
+	
+	-- initCompanion()
+	
+end
+
+function DelayInit()
+
+	WaitState( 15 )
+	
+	LuaPlaceAttachedEffect("WithLoveIfstLocalId","WithLoveIfst","local")
+	
+	LuaSetHintLine( "welcome", "LeftClick" )
+	
+	WaitState( 15 )
+	
+	LuaSetHintLine( "", "None" )
+	
+	if QUEST_MODE then 
+	
+		WaitState( 3 )
+		
+		StartTrigger( QuestDragon )
+	
+	end
+	
+end
+
+function QuestDragon()
+	
+	for faction, data in ipairs( GetGlobalVar( "QUEST_DRAGON" ) ) do 
+		
+		if data.state == 0 then 
+			
+			LuaAddSessionQuest( data.name )
+			
+			data.state = 1
+		
+		elseif data.state == 1 then 
+			
+			local Score = GetScore()
+			
+			if Score[faction].total >= LIMIT_SCORE then
+				
+				Score[faction].total = ( Score[faction].total + LIMIT_SCORE ) - ( LIMIT_SCORE * data.total )
+				
+			end
+			
+			LuaUpdateSessionQuest( data.name, Score[faction].total )
+			
+			if Score[faction].total >= ( LIMIT_SCORE * data.total ) then
+				
+				Spawn( "Dragon", data.spawn.x, data.spawn.y, faction )
+				
+				WaitState( 1 )
+				
+				data.state = 2
+				
+				data.total = data.total + 1;
+				
+				LuaRemoveSessionQuest( data.name )
+				
+			end
+			
+		end
+	
+	end
+
+end
+
+function Spawn( unit, x, y, faction )
+	
+	local name = unit .. "_" .. faction
+
+	LuaCreateCreep( name, unit, x, y, faction, faction )
+	
+	LuaSetCreepWarfogFaction( name, faction )
+	
+	local objectId = LuaGetObjectId( name )
+	
+	LuaCreateZombieById( objectId, unit, faction )
+	
+	LuaKillUnit( name )
+	
+end
+
+function GetScore()
+
+	local score = {}
+
+	for team = 0, 1 do
+	
+		for hero = 0, 4 do
+			
+			local heroNameId = tostring( team ) .. tostring( hero )
+			
+			local dead, found = LuaUnitIsDead(heroNameId)
+			
+			if found then
+				
+				local TotalNumHeroKills = LuaStatisticsGetTotalNumHeroKills( heroNameId )
+				
+				local KillsTotal = LuaHeroGetKillsTotal( heroNameId )
+				
+				local UnitFaction = LuaGetUnitFaction( heroNameId )
+				
+				if not score[UnitFaction] then 
+					
+					score[UnitFaction] = { total = 0, dead = 0 }
+				
+				end
+				
+				if UnitFaction == 1 then 
+					
+					score[UnitFaction].total = ( score[UnitFaction].total + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
+					
+					if dead then 
+					
+						score[UnitFaction].dead = ( score[UnitFaction].dead + 1 )
+						
+					end
+					
+				else
+					
+					score[UnitFaction].total = ( score[UnitFaction].total + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
+					
+					if dead then 
+					
+						score[UnitFaction].dead = ( score[UnitFaction].dead + 1 )
+						
+					end
+					
+				end
+			
+			end
+		
+		end
+	
+	end
+	
+	return score
+	
+end
+
+function CheckQuest( victimId )
+	
+	if not SHOW_QUEST then 
+	
+		return
+	
+	end
+	
+	local CountA, CountB, DeadA, DeadB = GetScore()
+	
+	if CountA >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A ) then
+		
+		SPAWN_DRAGON_TOTAL_A = SPAWN_DRAGON_TOTAL_A + 1
+		
+		AddTriggerTop( SpawnDragon, victimId )
+		
+	end
+	
+	if CountB >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_B ) then
+		
+		SPAWN_DRAGON_TOTAL_B = SPAWN_DRAGON_TOTAL_B + 1;
+		
+		AddTriggerTop( SpawnDragon, victimId )
+		
+	end
+	
+	if CountA >= LIMIT_SCORE then
+		
+		CountA = ( CountA + LIMIT_SCORE ) - ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A )
+	
+	end
+	
+	if CountB >= LIMIT_SCORE then
+		
+		CountB = ( CountB + LIMIT_SCORE ) - ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_B )
+	
+	end
+	
+	LuaUpdateSessionQuest( "Q_A", CountA )
+	
+	LuaUpdateSessionQuest( "Q_B", CountB )
+	
+	if not QUEST_HEAL_BUILDING_A.blocked and not QUEST_HEAL_BUILDING_A.status and DeadB == 0 then
+	
+		QUEST_HEAL_BUILDING_A.status = true
+		
+		LuaAddSessionQuest( "Q_A2" )
+	
+	end
+	
+	if not QUEST_HEAL_BUILDING_B.blocked and not QUEST_HEAL_BUILDING_B.status and DeadA == 0 then
+	
+		QUEST_HEAL_BUILDING_B.status = true
+		
+		LuaAddSessionQuest( "Q_B2" )
+	
+	end
+	
+	if QUEST_HEAL_BUILDING_A.status then
+		
+		if DeadB == MAX_PLAYER_TEAM then
+			
+			AddTriggerTop( HealBuilding, QUEST_HEAL_BUILDING_A )
+			
+			QUEST_HEAL_BUILDING_A.status = false
+			
+			LuaRemoveSessionQuest( "Q_A2" )
+			
+		else
+			
+			LuaUpdateSessionQuest( "Q_A2", DeadB )
+			
+		end
+		
+	end
+	
+	if QUEST_HEAL_BUILDING_B.status then
+		
+		if DeadA == MAX_PLAYER_TEAM then
+		
+			AddTriggerTop( HealBuilding, QUEST_HEAL_BUILDING_B )
+			
+			QUEST_HEAL_BUILDING_B.status = false
+			
+			LuaRemoveSessionQuest( "Q_B2" )
+			
+		else
+			
+			LuaUpdateSessionQuest( "Q_B2", DeadA )
+			
+		end
+		
+	end
+	
+end
+
+function PointReceived( victimId, killerId )
+
+	if LuaGetUnitTypeById( killerId ) == UnitTypeHeroMale and not LuaHeroIsCloneById( killerId ) then 
+	
+		local killerName = LuaGetUnitObjectNameById( killerId )
+	
+		local victimName = LuaGetUnitObjectNameById( victimId )
+		
+		local effectId = "PointReceived_" .. victimName;
+		
+		LuaPlaceAttachedEffect( effectId, "PointReceived", killerName )
+		
+		WaitState( 2 )
+		
+		LuaRemoveStandaloneEffect( effectId )
+		
+	end
+
+end
+
+function HealBuilding( QuestHealBuildingObject )
+	
+	for index, building in ipairs( QuestHealBuildingObject.repair ) do
+	
+		local dead, found = LuaUnitIsDead( building )
+		
+		if found then 
+		
+			local health, total = LuaUnitGetHealth( building )
+			
+			local increase = health + ( total / 4 )
+			
+			if increase > total then 
+				
+				increase = total
+				
+			end
+			-- LuaSetUnitHealth( building, total / 4 ) -- для видео демо сценка
+			LuaSetUnitHealth( building, increase )
+			
+			AddTriggerTop( HealBuildingEffect, building )
+			
+			return
+		
+		end
+	
+	end
+	
+	QuestHealBuildingObject.blocked = true
+
+end
+
+function HealBuildingEffect( buildingId )
+
+	local effectId = "HealBuilding_" .. buildingId;
+
+	LuaPlaceAttachedEffect( effectId, "HealBuilding", buildingId )
+	
+	WaitState( 3 )
+	
+	LuaRemoveStandaloneEffect( effectId )
+
+end
+
+function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
+	
+	if LuaGetUnitTypeById( victimId ) == 20 then
+		
+		local faction = LuaGetUnitFactionById( victimId )
+		
+		local QUEST_DRAGON = GetGlobalVar( "QUEST_DRAGON" )
+		
+		if QUEST_DRAGON[faction].state == 2 then 
+			
+			QUEST_DRAGON[faction].state = 0
+		
+		end
+		
+	end
+	
+	if killerId == -1 then
+	
+		return
+		
+	end
+	
+	if QUEST_MODE then 
+		
+		AddTriggerTop( PointReceived, victimId, killerId )
+		
+		-- HealBuilding( QUEST_HEAL_BUILDING_B ) -- для теста
+		
+	end
+	
+	if not ZOMBIE_MODE then 
+	
+		return
+	
+	end
+	
+	if LuaGetUnitVariableById( victimId, "InventorSpecial" ) ~= 0 then
+		local dbid = "SuperInventor"
+		local faction = LuaGetUnitFactionById( killerId )
+		LuaCreateZombieById( victimId, dbid, faction )
+		return
+	end
+
+	local victimType = LuaGetUnitTypeById( victimId )
+	local killerType = LuaGetUnitTypeById( killerId )
+	
+	if killerType ~= UnitTypeHeroMale or LuaHeroIsCloneById( killerId ) then
+		return
+	end
+		
+	local heroIsKilled = victimType == UnitTypeHeroMale and not LuaHeroIsCloneById( victimId )
+	
+	if victimType ~= UnitTypeCreep and victimType ~= UnitTypeSiegeCreep and not heroIsKilled then
+		return
+	end
+	
+	if LuaGetUnitVariableById( victimId, "ImZombie" ) ~= 0 then
+		return
+	end
+	
+	local lastHitterType = LuaGetUnitTypeById( lastHitterId )
+	
+	local killedBySummon = lastHitterType == UnitTypeSummon or lastHitterType == UnitTypeDummyUnit
+	local killedByAutoAttack = deathParamsInfo.isAutoAttack
+	local killedByMelee = deathParamsInfo.isMelee
+	
+	local check = false
+	local roll = LuaRandom( 0, 100 )
+	if heroIsKilled then -- если был убит герой (как угодно)
+		LuaDebugTrace( "Killed hero" )
+		check = roll < KilledHeroProc
+	elseif killedBySummon then -- если был убит крип суммоном
+		LuaDebugTrace( "Killed by summon" )
+		check = roll < KilledBySummonProc
+	elseif killedByMelee then -- если  был убит крип милишной автоатакой героя
+		LuaDebugTrace( "Killed by melee" )
+		check = roll < KilledByMeleeAAProc
+	elseif killedByAutoAttack then -- если был убит крип ренджовой автоатакой героя
+		LuaDebugTrace( "Killed by ranged" )
+		check = roll < KilledByRangedAAProc
+	else -- если был убит крип абилкой героя
+		LuaDebugTrace( "Killed by ability" )
+		check = roll < KilledByAbilityProc
+	end
+	
+	if not check then
+		return
+	end
+	
+	local dbid = "Zombie"
+	
+	local faction = LuaGetUnitFactionById( killerId )
+	if faction == 1 then
+		dbid = dbid .. "A"
+	else
+		dbid = dbid .. "B"
+	end
+	
+	AddTriggerTop( SpawnZombie, victimId, dbid, faction, heroIsKilled)
+	
+end
+
+function SpawnZombie( victimId, dbid, faction, heroIsKilled )
+
+	if heroIsKilled then
+	
+		if faction == 1 then
+			faction = 2
+		else
+			faction = 1
+		end
+	
+		LuaCreateZombieById( victimId, "Ghost", faction )
+	
+	else
+		
+		WaitState( ZombieSpawnDelay )
+		LuaCreateZombieById( victimId, dbid, faction )
+		WaitState( ZombieSpawnDelay )
+		LuaCreateZombieById( victimId, dbid, faction )
+	
+	end
+	
+end
 
 function initCompanion()
 
@@ -258,402 +703,4 @@ function randomPosition( x, y, range )
 	
 	return x, y
 
-end
-
-function Init( reconnecting )
-
-	-- LuaShowUIBlock( "PlayerHeroBlock", false )
-	
-	-- LuaShowUIBlock( "MiniMapBlock", false )
-	
-	AddTriggerTop( DelayInit )
-
-	if not reconnecting then
-		
-		-- LuaApplyPassiveAbility ("MainA", "MainBuildingBuff") -- раздаем статус своим зданиям
-		-- LuaApplyPassiveAbility ("MainB", "MainBuildingBuff")
-		
-	end
-	
-	-- initCompanion()
-	
-end
-
-function DelayInit()
-
-	WaitState( 15 )
-	
-	LuaPlaceAttachedEffect("WithLoveIfstLocalId","WithLoveIfst","local")
-	
-	LuaSetHintLine( "welcome", "LeftClick" )
-	
-	WaitState( 15 )
-	
-	LuaSetHintLine( "", "None" )
-	
-	if QUEST_MODE then 
-	
-		WaitState( 3 )
-	
-		AddStateEnd( InitQuest )
-	
-	end
-	
-end
-
-function GetScore()
-
-	local CountA = 0
-	
-	local CountB = 0
-	
-	local DeadA = 0
-	
-	local DeadB = 0
-
-	for team = 0, 1 do
-	
-		for hero = 0, 4 do
-			
-			local heroNameId = tostring( team ) .. tostring( hero )
-			
-			local dead, found = LuaUnitIsDead(heroNameId)
-			
-			if found then
-				
-				local TotalNumHeroKills = LuaStatisticsGetTotalNumHeroKills( heroNameId )
-				
-				local KillsTotal = LuaHeroGetKillsTotal( heroNameId )
-				
-				local UnitFaction = LuaGetUnitFaction( heroNameId )
-				
-				if UnitFaction == 1 then 
-					
-					CountA = ( CountA + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
-					
-					if dead then 
-					
-						DeadA = ( DeadA + 1 )
-						
-					end
-					
-				else
-					
-					CountB = ( CountB + ( TotalNumHeroKills * PRICE_HERO ) + ( KillsTotal * PRICE_CREEP ) )
-					
-					if dead then 
-					
-						DeadB = ( DeadB + 1 )
-						
-					end
-					
-				end
-			
-			end
-		
-		end
-	
-	end
-	
-	return CountA, CountB, DeadA, DeadB
-	
-end
-
-function InitQuest()
-
-	LuaAddSessionQuest( "Q_A" )
-	
-	LuaAddSessionQuest( "Q_B" )
-	
-	SHOW_QUEST = true
-
-end
-
-function CheckQuest( victimId )
-	
-	if not SHOW_QUEST then 
-	
-		return
-	
-	end
-	
-	local CountA, CountB, DeadA, DeadB = GetScore()
-	
-	if CountA >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A ) then
-		
-		SPAWN_DRAGON_TOTAL_A = SPAWN_DRAGON_TOTAL_A + 1
-		
-		AddTriggerTop( SpawnDragon, victimId )
-		
-	end
-	
-	if CountB >= ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_B ) then
-		
-		SPAWN_DRAGON_TOTAL_B = SPAWN_DRAGON_TOTAL_B + 1;
-		
-		AddTriggerTop( SpawnDragon, victimId )
-		
-	end
-	
-	if CountA >= LIMIT_SCORE then
-		
-		CountA = ( CountA + LIMIT_SCORE ) - ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_A )
-	
-	end
-	
-	if CountB >= LIMIT_SCORE then
-		
-		CountB = ( CountB + LIMIT_SCORE ) - ( LIMIT_SCORE * SPAWN_DRAGON_TOTAL_B )
-	
-	end
-	
-	LuaUpdateSessionQuest( "Q_A", CountA )
-	
-	LuaUpdateSessionQuest( "Q_B", CountB )
-	
-	if not QUEST_HEAL_BUILDING_A.blocked and not QUEST_HEAL_BUILDING_A.status and DeadB == 0 then
-	
-		QUEST_HEAL_BUILDING_A.status = true
-		
-		LuaAddSessionQuest( "Q_A2" )
-	
-	end
-	
-	if not QUEST_HEAL_BUILDING_B.blocked and not QUEST_HEAL_BUILDING_B.status and DeadA == 0 then
-	
-		QUEST_HEAL_BUILDING_B.status = true
-		
-		LuaAddSessionQuest( "Q_B2" )
-	
-	end
-	
-	if QUEST_HEAL_BUILDING_A.status then
-		
-		if DeadB == MAX_PLAYER_TEAM then
-			
-			AddTriggerTop( HealBuilding, QUEST_HEAL_BUILDING_A )
-			
-			QUEST_HEAL_BUILDING_A.status = false
-			
-			LuaRemoveSessionQuest( "Q_A2" )
-			
-		else
-			
-			LuaUpdateSessionQuest( "Q_A2", DeadB )
-			
-		end
-		
-	end
-	
-	if QUEST_HEAL_BUILDING_B.status then
-		
-		if DeadA == MAX_PLAYER_TEAM then
-		
-			AddTriggerTop( HealBuilding, QUEST_HEAL_BUILDING_B )
-			
-			QUEST_HEAL_BUILDING_B.status = false
-			
-			LuaRemoveSessionQuest( "Q_B2" )
-			
-		else
-			
-			LuaUpdateSessionQuest( "Q_B2", DeadA )
-			
-		end
-		
-	end
-	
-end
-
-function SpawnDragon( victimId )
-	
-	local getUnitFactionById = LuaGetUnitFactionById( victimId )
-	
-	local faction = 1
-	
-	if getUnitFactionById == 1 then 
-	
-		faction = 2
-	
-	end
-	
-	LuaCreateZombieById( victimId, "Dragon", faction )
-	
-end
-
-function PointReceived( victimId, killerId )
-
-	if LuaGetUnitTypeById( killerId ) == UnitTypeHeroMale and not LuaHeroIsCloneById( killerId ) then 
-	
-		local killerName = LuaGetUnitObjectNameById( killerId )
-	
-		local victimName = LuaGetUnitObjectNameById( victimId )
-		
-		local effectId = "PointReceived_" .. victimName;
-		
-		LuaPlaceAttachedEffect( effectId, "PointReceived", killerName )
-		
-		WaitState( 2 )
-		
-		LuaRemoveStandaloneEffect( effectId )
-		
-	end
-
-end
-
-function HealBuilding( QuestHealBuildingObject )
-	
-	for index, building in ipairs( QuestHealBuildingObject.repair ) do
-	
-		local dead, found = LuaUnitIsDead( building )
-		
-		if found then 
-		
-			local health, total = LuaUnitGetHealth( building )
-			
-			local increase = health + ( total / 4 )
-			
-			if increase > total then 
-				
-				increase = total
-				
-			end
-			-- LuaSetUnitHealth( building, total / 4 ) -- для видео демо сценка
-			LuaSetUnitHealth( building, increase )
-			
-			AddTriggerTop( HealBuildingEffect, building )
-			
-			return
-		
-		end
-	
-	end
-	
-	QuestHealBuildingObject.blocked = true
-
-end
-
-function HealBuildingEffect( buildingId )
-
-	local effectId = "HealBuilding_" .. buildingId;
-
-	LuaPlaceAttachedEffect( effectId, "HealBuilding", buildingId )
-	
-	WaitState( 3 )
-	
-	LuaRemoveStandaloneEffect( effectId )
-
-end
-
-function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
-	
-	if killerId == -1 then
-	
-		return
-		
-	end
-	
-	if QUEST_MODE then 
-		
-		AddTriggerTop( PointReceived, victimId, killerId )
-	
-		CheckQuest( victimId )
-		
-		-- HealBuilding( QUEST_HEAL_BUILDING_B ) -- для теста
-		
-	end
-	
-	if not ZOMBIE_MODE then 
-	
-		return
-	
-	end
-	
-	if LuaGetUnitVariableById( victimId, "InventorSpecial" ) ~= 0 then
-		local dbid = "SuperInventor"
-		local faction = LuaGetUnitFactionById( killerId )
-		LuaCreateZombieById( victimId, dbid, faction )
-		return
-	end
-
-	local victimType = LuaGetUnitTypeById( victimId )
-	local killerType = LuaGetUnitTypeById( killerId )
-	
-	if killerType ~= UnitTypeHeroMale or LuaHeroIsCloneById( killerId ) then
-		return
-	end
-		
-	local heroIsKilled = victimType == UnitTypeHeroMale and not LuaHeroIsCloneById( victimId )
-	
-	if victimType ~= UnitTypeCreep and victimType ~= UnitTypeSiegeCreep and not heroIsKilled then
-		return
-	end
-	
-	if LuaGetUnitVariableById( victimId, "ImZombie" ) ~= 0 then
-		return
-	end
-	
-	local lastHitterType = LuaGetUnitTypeById( lastHitterId )
-	
-	local killedBySummon = lastHitterType == UnitTypeSummon or lastHitterType == UnitTypeDummyUnit
-	local killedByAutoAttack = deathParamsInfo.isAutoAttack
-	local killedByMelee = deathParamsInfo.isMelee
-	
-	local check = false
-	local roll = LuaRandom( 0, 100 )
-	if heroIsKilled then -- если был убит герой (как угодно)
-		LuaDebugTrace( "Killed hero" )
-		check = roll < KilledHeroProc
-	elseif killedBySummon then -- если был убит крип суммоном
-		LuaDebugTrace( "Killed by summon" )
-		check = roll < KilledBySummonProc
-	elseif killedByMelee then -- если  был убит крип милишной автоатакой героя
-		LuaDebugTrace( "Killed by melee" )
-		check = roll < KilledByMeleeAAProc
-	elseif killedByAutoAttack then -- если был убит крип ренджовой автоатакой героя
-		LuaDebugTrace( "Killed by ranged" )
-		check = roll < KilledByRangedAAProc
-	else -- если был убит крип абилкой героя
-		LuaDebugTrace( "Killed by ability" )
-		check = roll < KilledByAbilityProc
-	end
-	
-	if not check then
-		return
-	end
-	
-	local dbid = "Zombie"
-	
-	local faction = LuaGetUnitFactionById( killerId )
-	if faction == 1 then
-		dbid = dbid .. "A"
-	else
-		dbid = dbid .. "B"
-	end
-	
-	AddTriggerTop( SpawnZombie, victimId, dbid, faction, heroIsKilled)
-	
-end
-
-function SpawnZombie( victimId, dbid, faction, heroIsKilled )
-
-	if heroIsKilled then
-	
-		if faction == 1 then
-			faction = 2
-		else
-			faction = 1
-		end
-	
-		LuaCreateZombieById( victimId, "Ghost", faction )
-	
-	else
-		
-		WaitState( ZombieSpawnDelay )
-		LuaCreateZombieById( victimId, dbid, faction )
-		WaitState( ZombieSpawnDelay )
-		LuaCreateZombieById( victimId, dbid, faction )
-	
-	end
-	
 end
