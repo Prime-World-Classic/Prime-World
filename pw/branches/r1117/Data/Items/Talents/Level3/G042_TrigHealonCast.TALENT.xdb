@@ -105,9 +105,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ7tkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAKBAAAAAAA==</compiledString>
+							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ7tkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAOBAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(5, 0)</sString>
+							<sString>refineScale(7, 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

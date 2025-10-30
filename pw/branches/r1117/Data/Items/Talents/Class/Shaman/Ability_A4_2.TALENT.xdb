@@ -764,9 +764,9 @@
 	<budget>-1</budget>
 	<caption>A4_2. Жуткий зов</caption>
 	<castAllowRange>
-		<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9FeExvbmcAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAADRA</compiledString>
+		<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9FeExvbmcAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAAPA/</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_ExLong+20</sString>
+		<sString>cRange_ExLong+1</sString>
 	</castAllowRange>
 	<castLimitations>
 		<Item href="/Items/Talents/Class/Shaman/Ability_A4_2.TALENT" id="2681C3D1-69C5-40D4-A908-E02CB67DDCE8">
@@ -816,9 +816,9 @@
 					<UnitConstant>
 						<name>A4_2_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>3.0f</sString>
+							<sString>2.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -963,9 +963,9 @@
 	<type>Channelling</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFOQAAANld/NlF/IvlXcMAAAAAAADwPw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Long + 1</sString>
+		<sString>10</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

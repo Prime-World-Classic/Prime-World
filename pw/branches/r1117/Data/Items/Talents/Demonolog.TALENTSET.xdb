@@ -206,6 +206,18 @@
 			<talents>
 				<Item>
 					<aIPriority>0</aIPriority>
+					<refineRate>8</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level6/G210_Aura_Dexterity.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>5</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level6/G222_Aura_AttackSpeed.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
 					<talent href="/Items/Talents/Level6/G712_Str_DexOrAtSpd.TALENT" />
@@ -214,31 +226,19 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G741_DexOrAtSpd.TALENT" />
+					<talent href="/Items/Talents/Level6/G183_Aura-Str.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G713_Int_DexOrAtSpd.TALENT" />
+					<talent href="/Items/Talents/Level6/G540_Aura_Str.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G652_AtSpd.TALENT" />
-				</Item>
-				<Item>
-					<aIPriority>0</aIPriority>
-					<refineRate>5</refineRate>
-					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G454_AttackSpeed_Life.TALENT" />
-				</Item>
-				<Item>
-					<aIPriority>0</aIPriority>
-					<refineRate>5</refineRate>
-					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level6/G431_Str_inc_Aspd_Dex.TALENT" />
 				</Item>
 			</talents>
 		</Item>
