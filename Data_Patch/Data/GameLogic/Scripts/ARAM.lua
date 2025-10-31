@@ -118,8 +118,6 @@ function Spawn( unit, x, y, faction )
 
 	LuaCreateCreep( name, unit, x, y, faction, faction )
 	
-	-- LuaSetCreepWarfogFaction( name, faction )
-	
 	local objectId = LuaGetObjectId( name )
 	
 	LuaCreateZombieById( objectId, unit, faction )
@@ -348,7 +346,7 @@ end
 
 function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	
-	if LuaGetUnitTypeById( victimId ) == 18 then
+	if LuaGetUnitTypeById( victimId ) == 3 and LuaGetUnitObjectNameById( victimId ) == "" then
 		
 		local faction = LuaGetUnitFactionById( victimId )
 		
