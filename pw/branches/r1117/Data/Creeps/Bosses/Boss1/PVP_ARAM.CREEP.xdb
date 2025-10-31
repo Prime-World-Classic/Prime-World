@@ -16,11 +16,11 @@
 		<Item skip="1" />
 	</abilities>
 	<attackAbility href="/Creeps/Bosses/Boss1/AttackAbility_Walked.ATCK" />
-	<creepType>NeutralChampion</creepType>
+	<creepType>FactionalNormal</creepType>
 	<lockMask>
 		<tileSize>1</tileSize>
 	</lockMask>
-	<minimapIcon>NeutralsBoss</minimapIcon>
+	<minimapIcon>Default</minimapIcon>
 	<normalLevelling>0.7</normalLevelling>
 	<pathFindingSteps>10</pathFindingSteps>
 	<sceneObject href="/Creeps/Bosses/Boss1/_Walked.SOBJ" />
