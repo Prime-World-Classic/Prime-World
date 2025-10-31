@@ -34,9 +34,9 @@ function Init( reconnecting )
 		
 		local QUEST_DRAGON = {}
 		
-		QUEST_DRAGON[1] = { name = "Q_A", state = 0, total = 1, spawn = { x = 43, y = 130 } }
+		QUEST_DRAGON[1] = { name = "Q_A", state = 0, start = 0, spawn = { x = 43, y = 130 } }
 		
-		QUEST_DRAGON[2] = { name = "Q_B", state = 0, total = 1, spawn = { x = 214, y = 125 } }
+		QUEST_DRAGON[2] = { name = "Q_B", state = 0, start = 0, spawn = { x = 214, y = 125 } }
 		
 		SetGlobalVar( "QUEST_DRAGON", QUEST_DRAGON )
 		
@@ -69,6 +69,8 @@ function DelayInit()
 end
 
 function QuestDragon()
+
+	local Score = GetScore()
 	
 	for faction, data in ipairs( GetGlobalVar( "QUEST_DRAGON" ) ) do 
 		
@@ -76,29 +78,29 @@ function QuestDragon()
 			
 			LuaAddSessionQuest( data.name )
 			
+			data.start = Score[faction].total
+			
 			data.state = 1
 		
 		elseif data.state == 1 then 
+		
+			local total = ( Score[faction].total - data.start )
 			
-			local Score = GetScore()
-			
-			if Score[faction].total >= LIMIT_SCORE then
+			if total > LIMIT_SCORE then
 				
-				Score[faction].total = ( Score[faction].total + LIMIT_SCORE ) - ( LIMIT_SCORE * data.total )
+				total = LIMIT_SCORE
 				
 			end
 			
-			LuaUpdateSessionQuest( data.name, Score[faction].total )
+			LuaUpdateSessionQuest( data.name, total )
 			
-			if Score[faction].total >= ( LIMIT_SCORE * data.total ) then
+			if total == LIMIT_SCORE then
 				
 				Spawn( "Dragon", data.spawn.x, data.spawn.y, faction )
 				
 				WaitState( 1 )
 				
 				data.state = 2
-				
-				data.total = data.total + 1;
 				
 				LuaRemoveSessionQuest( data.name )
 				
@@ -116,7 +118,7 @@ function Spawn( unit, x, y, faction )
 
 	LuaCreateCreep( name, unit, x, y, faction, faction )
 	
-	LuaSetCreepWarfogFaction( name, faction )
+	-- LuaSetCreepWarfogFaction( name, faction )
 	
 	local objectId = LuaGetObjectId( name )
 	
@@ -346,7 +348,7 @@ end
 
 function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	
-	if LuaGetUnitTypeById( victimId ) == 20 then
+	if LuaGetUnitTypeById( victimId ) == 18 then
 		
 		local faction = LuaGetUnitFactionById( victimId )
 		
