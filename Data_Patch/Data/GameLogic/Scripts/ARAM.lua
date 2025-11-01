@@ -4,18 +4,19 @@ include ("GameLogic/Scripts/Common.lua")
 include ("GameLogic/Scripts/Consts.lua")
 
 ZOMBIE_MODE = false
-QUEST_MODE = true
-PRICE_HERO = 50
-PRICE_CREEP = 5
-LIMIT_SCORE = 100
-MAX_PLAYER_TEAM = 5
-
 ZombieSpawnDelay = 3
 KilledHeroProc = 100
 KilledBySummonProc = 0
 KilledByMeleeAAProc = 100
 KilledByRangedAAProc = 100
 KilledByAbilityProc = 0
+-- by ifst
+QUEST_MODE = true
+PRICE_HERO = 50 -- 50
+PRICE_CREEP = 5 -- 5
+LIMIT_SCORE = 100 -- 1000
+MAX_PLAYER_TEAM = 1 -- 5
+LOCAL_FACTION = 0
 
 COMPANION_DATA = {}
 
@@ -43,15 +44,27 @@ function Init( reconnecting )
 		
 	end
 	
+	LOCAL_FACTION = LuaGetUnitFaction( "local" )
+	
 end
 
 function DelayInit()
 
 	WaitState( 15 )
 	
-	LuaPlaceAttachedEffect("WithLoveIfstLocalId","WithLoveIfst","local")
+	LuaPlaceAttachedEffect( "WithLoveIfstLocalId", "WithLoveIfst", "local" )
 	
 	LuaSetHintLine( "welcome", "LeftClick" )
+	
+	if LOCAL_FACTION == 1 then 
+		
+		PlaySound( 2 )
+	
+	else 
+		
+		PlaySound( 3 )
+		
+	end
 	
 	WaitState( 15 )
 	
@@ -59,9 +72,13 @@ function DelayInit()
 	
 	if QUEST_MODE then 
 	
-		WaitState( 3 )
+		WaitState( 7 )
 		
 		StartTrigger( QuestDragon )
+		
+		PlaySound( 1 )
+		
+		WaitState( 5 )
 		
 		StartTrigger( QuestTower )
 	
@@ -104,6 +121,8 @@ function QuestDragon()
 				data.state = 2
 				
 				LuaRemoveSessionQuest( data.name )
+				
+				PlaySound( 4 )
 				
 			end
 			
@@ -161,6 +180,12 @@ function QuestTower()
 			
 			HealTower( data )
 			
+			if LOCAL_FACTION == faction then 
+				
+				PlaySound( 5 )
+				
+			end
+			
 		end
 	
 	end
@@ -209,6 +234,12 @@ function HealTowerEffect( TowerName )
 	
 	LuaRemoveStandaloneEffect( effectId )
 
+end
+
+function PlaySound( id )
+
+	LuaStartDialog ( "Sound_" .. id )
+	
 end
 
 function GetScore()

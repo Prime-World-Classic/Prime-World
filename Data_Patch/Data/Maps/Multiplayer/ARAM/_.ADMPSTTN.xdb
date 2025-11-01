@@ -16,7 +16,7 @@
 		<imageBurn href="" />
 		<imageFreeze href="" />
 	</customBattleStartAnnouncement>
-	<dialogsCollection href="" />
+	<dialogsCollection href="/Maps/Multiplayer/ARAM/Dialog" />
 	<dictionary href="/Maps/Multiplayer/ARAM/_.ADMPSTTN" id="4ACB1624-7DFC-4237-A12D-170EE84C5D41">
 		<DictionaryPreloadingResources>
 			<resources>
