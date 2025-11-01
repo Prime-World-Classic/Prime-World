@@ -180,6 +180,12 @@ function QuestTower()
 			
 			HealTower( data )
 			
+			if LOCAL_FACTION == faction then 
+				
+				PlaySound( 5 )
+				
+			end
+			
 		end
 	
 	end
