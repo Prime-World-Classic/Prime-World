@@ -64,6 +64,10 @@
 					<key>HealBuilding</key>
 					<resource href="/Effects/Buffs/Repair/_In.EFFT" />
 				</Item>
+				<Item>
+					<key>AddLife</key>
+					<resource href="/Maps/Multiplayer/ARAM/Add_Life.APLR" />
+				</Item>
 			</resources>
 		</DictionaryPreloadingResources>
 	</dictionary>
