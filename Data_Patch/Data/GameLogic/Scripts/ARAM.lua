@@ -198,7 +198,7 @@ function HealTower( data )
 	
 		local dead, found = LuaUnitIsDead( tower )
 		
-		if found then 
+		if found and not dead then 
 		
 			local health, total = LuaUnitGetHealth( tower )
 			
