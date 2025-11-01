@@ -199,18 +199,20 @@ function HealTower( data )
 		local dead, found = LuaUnitIsDead( tower )
 		
 		if found and not dead then 
-		
-			local health, total = LuaUnitGetHealth( tower )
 			
-			local increase = health + ( total / 4 )
+			--local health, total = LuaUnitGetHealth( tower )
 			
-			if increase > total then 
+			--local increase = health + ( total / 4 )
+			
+			--if increase > total then 
 				
-				increase = total
+				--increase = total
 				
-			end
+			--end
 			
-			LuaSetUnitHealth( tower, increase )
+			--LuaSetUnitHealth( tower, increase )
+			
+			LuaUnitApplyApplicator( tower, "AddLife" )
 			
 			AddTriggerTop( HealTowerEffect, tower )
 			
