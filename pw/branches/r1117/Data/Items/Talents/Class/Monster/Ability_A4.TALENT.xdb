@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/Monster.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4_2u.TALENT" Count="1" />
@@ -865,9 +864,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACSQgBACEQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAqQwBAREQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 73, 545)</sString>
+							<sString>damageScale(sIntellect, 170, 785)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

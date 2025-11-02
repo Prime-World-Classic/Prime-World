@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4u.TALENT" Count="1" />
 	<BackLink DBID="/Test/Talents/Monster/Epic_Int_Ult2.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Monster.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

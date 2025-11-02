@@ -52,9 +52,9 @@
 					<UnitConstant>
 						<name>A0_CdReduction</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>3</sString>
+							<sString>5</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -62,9 +62,9 @@
 					<UnitConstant>
 						<name>A0_HeroCdReduction</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABQQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>7</sString>
+							<sString>13</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -1295,7 +1295,7 @@
 					</Item>
 				</applicators>
 				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>152</behaviorFlags>
+				<behaviorFlags>184</behaviorFlags>
 				<caption>Программа</caption>
 				<effect>
 					<Item href="" />

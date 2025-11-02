@@ -8,6 +8,7 @@
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Test/Talents/Monster/Epic_Int_Ult2.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Monster.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -436,9 +437,9 @@
 					<UnitConstant>
 						<name>A4_2UseRange</name>
 						<var>
-							<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9NZWRpdW0AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAAABA</compiledString>
+							<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9NZWRpdW0AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAABhA</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Medium+2</sString>
+							<sString>cRange_Medium+6</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -456,9 +457,9 @@
 					<UnitConstant>
 						<name>A4_2_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAMQwBAg0Q=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAMQwDAwUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 140, 1050)</sString>
+							<sString>damageScale(sIntellect, 140, 1550)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

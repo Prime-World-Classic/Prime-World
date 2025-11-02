@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A3.TALENT" Count="1" />
 	<applicators>
@@ -43,41 +43,6 @@
 				</startCondition>
 				<talents />
 				<useListAs>ListAsRule</useListAs>
-			</FlagsApplicator>
-		</Item>
-		<Item href="/Items/Talents/Class/MagicGirl/status_A3_FlyMode.APLR" id="4A180407-C2AC-45A0-AF38-4FE9B44B5716">
-			<FlagsApplicator>
-				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>flags</caption>
-				<consumables />
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<flag>67110908</flag>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<providerName></providerName>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<talents>
-					<Item href="/Items/Talents/Class/MagicGirl/Ability_A3.TALENT" />
-				</talents>
-				<useListAs>ListAsException</useListAs>
 			</FlagsApplicator>
 		</Item>
 		<Item href="/Heroes/DefaultStatus/CancelAllEnemyDispatches.APLR" />
