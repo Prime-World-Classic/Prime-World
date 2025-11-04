@@ -1399,9 +1399,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACwQgAAJUQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACwQgCAT0Q=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 88, 660)</sString>
+							<sString>damageScale(sIntellect, 88, 830)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1512,7 +1512,7 @@
 								<returnType>float</returnType>
 								<sString>cA4_Range</sString>
 							</range>
-							<targetFilter>679477251</targetFilter>
+							<targetFilter>954008063</targetFilter>
 							<targetSelector href="" />
 						</AreaTargetSelector>
 					</targetSelector>

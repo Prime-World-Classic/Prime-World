@@ -8,8 +8,8 @@
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A4.TALENT" Count="1" />
 	<name>Haste_Percent</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>60</sString>
+		<sString>70</sString>
 	</var>
 </UnitConstant>

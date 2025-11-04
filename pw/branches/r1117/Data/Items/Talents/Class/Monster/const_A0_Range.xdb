@@ -7,8 +7,8 @@
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" Count="1" />
 	<name>A0_Range</name>
 	<var>
-		<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX01lbGVlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9NZWxlZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAA8D8=</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Melee</sString>
+		<sString>cRange_Melee+1</sString>
 	</var>
 </UnitConstant>

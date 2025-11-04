@@ -284,9 +284,9 @@
 					<UnitConstant>
 						<name>A4_2_CreepDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAWRACAO0U=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAD6QwBAHEU=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 600, 3000)</sString>
+							<sString>damageScale(sStrength, 500, 2500)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -294,9 +294,9 @@
 					<UnitConstant>
 						<name>A4_2_HeroDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAWRACAO0U=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAD6QwBAHEU=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sStrength, 600 , 3000)</sString>
+							<sString>damageScale( sStrength, 500 , 2500)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -334,9 +334,9 @@
 					<UnitConstant>
 						<name>A4_2_MoveSpeed</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>200</sString>
+							<sString>120</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -378,9 +378,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADcQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>100</sString>
+		<sString>110</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

@@ -3,7 +3,6 @@
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A1_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/MagicGirl_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/Items/Talents/MagicGirl.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

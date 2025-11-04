@@ -574,9 +574,9 @@
 									<flags>0</flags>
 									<mode>Normal</mode>
 									<range>
-										<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+										<compiledString>FRcAAAAEAAAASgAAAF0AAABvAAAAggAAAFJhbmdlX0xvbmcAAFJhbmdlX0xvbmcAVYvsg+wMVotFCIsQi00Ii0JM/9CL8ItNCIsRi00Ii4KQAQAA/9A78HUli00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DcBZ8AAADdXfjrI4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q3AWXAAAA3V343UX42V302UX0XovlXcMAAAAAAAAUQAAAAAAAAChA</compiledString>
 										<returnType>float</returnType>
-										<sString>cRange_Long</sString>
+										<sString>nt( cRange_Long + 12, cRange_Long + 5 )</sString>
 									</range>
 									<targetFilter>679477255</targetFilter>
 									<targetSelector href="" />
@@ -605,9 +605,9 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FRcAAAAEAAAASgAAAF0AAABvAAAAggAAAFJhbmdlX0xvbmcAAFJhbmdlX0xvbmcAVYvsg+wMVotFCIsQi00Ii0JM/9CL8ItNCIsRi00Ii4KQAQAA/9A78HUli00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DcBZ8AAADdXfjrI4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q3AWXAAAA3V343UX42V302UX0XovlXcMAAAAAAAAUQAAAAAAAAChA</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Long</sString>
+		<sString>nt( cRange_Long + 12, cRange_Long + 5 )</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />
