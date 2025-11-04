@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Heroes/Monster/_.HROB" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" Count="1" />
+	<name>A0_Range</name>
+	<var>
+		<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9NZWxlZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAA8D8=</compiledString>
+		<returnType>float</returnType>
+		<sString>cRange_Melee+1</sString>
+	</var>
+</UnitConstant>
