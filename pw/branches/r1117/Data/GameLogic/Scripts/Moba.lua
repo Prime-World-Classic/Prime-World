@@ -3,7 +3,7 @@ include ("GameLogic/Scripts/StatesManager.lua")
 include ("GameLogic/Scripts/Common.lua")
 include ("GameLogic/Scripts/Consts.lua")
 
-VISUAL_LAST_HIT = false
+VISUAL_LAST_HIT = true
 
 function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	
@@ -39,15 +39,19 @@ function PointReceived( victimId, killerId )
 
 	if LuaGetLocalHero() == LuaGetUnitObjectNameById( killerId ) then 
 	
-		local objectName = LuaGetUnitObjectNameById( victimId )
+		local victim = LuaGetUnitObjectNameById( victimId )
 		
-		local effectId = "PointReceivedEffectId"
+		if victim ~= "" then 
 		
-		LuaPlaceAttachedEffect( effectId, "PointReceived", objectName )
-		
-		WaitState( 2 )
-		
-		LuaRemoveStandaloneEffect( effectId )
+			local effectId = "PointReceivedEffectId_" .. victim
+			
+			LuaPlaceAttachedEffect( effectId, "PointReceived", victim )
+			
+			WaitState( 3 )
+			
+			LuaRemoveStandaloneEffect( effectId )
+			
+		end
 		
 	end
 
