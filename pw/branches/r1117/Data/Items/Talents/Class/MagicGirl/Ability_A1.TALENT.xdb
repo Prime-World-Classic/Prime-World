@@ -333,9 +333,9 @@
 					<UnitConstant>
 						<name>A1_BaseDamage</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvsg+wYi0UIixCLTQiLgjQBAAD/0ItNCIsRi00Ii4IwAQAA3V34/9DcXfjf4PbEQXoJx0X0SwAAAOsHx0X0MAIAAItNCIsRi00Ii4IwAQAA/9CLTQiLEYtNCIuCNAEAAN1d7P/Q3F3s3+D2xAV6CcdF6EsAAADrB8dF6IYBAABqAdtF9FHZHCTbRehR2RwkagCLTQiLEYtNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6BkAAACDxATZHCRqAYtNEIsRi00Qi0Jg/9CL5V3DVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAAEAAAAOAAAAEIAAACXAAAAoQAAAFWL7IPsDItFCIsQi00Ii4I0AQAA/9CLTQiLEYtNCIuCMAEAAN1d+P/Q3F343+D2xEF6X2oBUdkF/gAAANkcJFHZBfoAAADZHCRqAItNCIsRi00Ii4IwAQAA/9BR2Rwki00IixGLTQiLgjQBAAD/0FHZHCToigAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld9OtdagFR2QX2AAAA2RwkUdkF+gAAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOgrAAAAg8QE2RwkagGLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAAw0MAAJZCAIATRFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( max(sIntellect, sStrength), (sStrength &gt; sIntellect) ? 75 : 390, (sIntellect &gt;= sStrength) ? 75 : 560)</sString>
+							<sString>sIntellect &gt;= sStrength ? damageScale(max( sIntellect,sStrength),75, 590): damageScale(max( sIntellect,sStrength),75, 390)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
