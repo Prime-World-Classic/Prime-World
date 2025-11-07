@@ -15,8 +15,8 @@
 	<BackLink DBID="/Maps/PvE/Series/Episode1/buildings/Shop.SHOP" Count="1" />
 	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
 	<BackLink DBID="/Maps/Test/DesignArtTest/Buildings/_N.SHOP" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/ARAM/Shops/_B.SHOP" Count="6" />
-	<BackLink DBID="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" Count="4" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Shops/_B.SHOP" Count="7" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Shops/_A.SHOP" Count="5" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
@@ -35,7 +35,7 @@
 	</aoeSize>
 	<aoeType>Disk</aoeType>
 	<applicators>
-		<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="C5203138-F624-47D2-8E8B-D585056CDFFE">
+		<Item href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="C5203138-F624-47D2-8E8B-D585056CDFFE">
 			<SummonApplicator>
 				<applicators>
 					<Item href="/Items/Consumables/status_Eye.APLR" />
@@ -59,14 +59,14 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<openWarFog>true</openWarFog>
 				<placeMode>ByTargetSelector</placeMode>
-				<placeSelector href="/Items/Consumables/EyeOfSeeing.ARCT" id="CB1163C7-C3F3-4D4E-A9AF-B828D1B4D4D9">
+				<placeSelector href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="CB1163C7-C3F3-4D4E-A9AF-B828D1B4D4D9">
 					<UnitPlaceCorrector>
 						<checkByRangeToRequester>false</checkByRangeToRequester>
 						<checkLineOfSight>false</checkLineOfSight>
 						<nativeTerrainOnly>false</nativeTerrainOnly>
 						<passabilityCheckMode>0</passabilityCheckMode>
 						<radius>0</radius>
-						<targetSelector href="/Items/Consumables/EyeOfSeeing.ARCT" id="D8776183-F444-4CBA-A90E-368CA13436FC">
+						<targetSelector href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="D8776183-F444-4CBA-A90E-368CA13436FC">
 							<SelectApplicatorTarget>
 								<applicatorIndex>0</applicatorIndex>
 								<applicatorName></applicatorName>
@@ -127,16 +127,16 @@
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations>
-		<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="181FBD25-1AED-4C37-A7BF-F585F8B5CD37">
+		<Item href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="181FBD25-1AED-4C37-A7BF-F585F8B5CD37">
 			<TargetCastLimitation>
-				<targetSelector href="/Items/Consumables/EyeOfSeeing.ARCT" id="A4B7047C-601E-402D-AE53-842EBA256CC6">
+				<targetSelector href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="A4B7047C-601E-402D-AE53-842EBA256CC6">
 					<UnitPlaceCorrector>
 						<checkByRangeToRequester>false</checkByRangeToRequester>
 						<checkLineOfSight>false</checkLineOfSight>
 						<nativeTerrainOnly>false</nativeTerrainOnly>
 						<passabilityCheckMode>0</passabilityCheckMode>
 						<radius>0</radius>
-						<targetSelector href="/Items/Consumables/EyeOfSeeing.ARCT" id="174673F2-5B39-4F9D-89B5-9201A049EE1F">
+						<targetSelector href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="174673F2-5B39-4F9D-89B5-9201A049EE1F">
 							<ConvertTargetToLand>
 								<aggregateMode>First</aggregateMode>
 								<targetSelector href="" />
@@ -148,11 +148,11 @@
 			</TargetCastLimitation>
 		</Item>
 	</castLimitations>
-	<commonDescription textref="/Items/Consumables/EyeOfSeeing.ARCT_commonDescription.txt" />
+	<commonDescription textref="/Items/Consumables/EyeOfSeeing_ARAM.ARCT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
 	<conditionFormulas>
-		<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="442E2D9C-2EE4-4E25-9969-8CF6779BD225">
+		<Item href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="442E2D9C-2EE4-4E25-9969-8CF6779BD225">
 			<ConditionFormula>
 				<condition>
 					<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNzI0AAAAAEc3MjQAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
@@ -163,10 +163,10 @@
 			</ConditionFormula>
 		</Item>
 	</conditionFormulas>
-	<constants href="/Items/Consumables/EyeOfSeeing.ARCT" id="18688AA9-4B1C-4DCA-A10F-DEFA5CB40539">
+	<constants href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="18688AA9-4B1C-4DCA-A10F-DEFA5CB40539">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="72FBA4F2-5695-41B5-8883-B48C9FA04063">
+				<Item href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="72FBA4F2-5695-41B5-8883-B48C9FA04063">
 					<UnitConstant>
 						<name>Duration</name>
 						<var>
@@ -176,7 +176,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="88CE257A-FA93-40FA-8EEF-E823B61EBDC8">
+				<Item href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="88CE257A-FA93-40FA-8EEF-E823B61EBDC8">
 					<UnitConstant>
 						<name>DurationMinutes</name>
 						<var>
@@ -186,7 +186,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="CC14327B-69AD-4079-BD7F-680D8124B11B">
+				<Item href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="CC14327B-69AD-4079-BD7F-680D8124B11B">
 					<UnitConstant>
 						<name>Invisibility_Duration</name>
 						<var>
@@ -196,7 +196,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="FA514BD4-796F-4904-B08A-9710DC527F54">
+				<Item href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="FA514BD4-796F-4904-B08A-9710DC527F54">
 					<UnitConstant>
 						<name>Invisibility_FadeIn</name>
 						<var>
@@ -206,7 +206,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="4E61C68B-4B50-49B1-8340-2F919390CA9C">
+				<Item href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="4E61C68B-4B50-49B1-8340-2F919390CA9C">
 					<UnitConstant>
 						<name>TrueSight_Duration</name>
 						<var>
@@ -216,7 +216,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="3F8C3FC1-7B58-47DD-8A16-2F7EE237F93B">
+				<Item href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="3F8C3FC1-7B58-47DD-8A16-2F7EE237F93B">
 					<UnitConstant>
 						<name>VisRange</name>
 						<var>
@@ -239,8 +239,8 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</cooldownTimeSecondState>
-	<description textref="/Items/Consumables/EyeOfSeeing.ARCT_description.txt" />
-	<dispatch href="/Items/Consumables/EyeOfSeeing.ARCT" id="8B5B5837-209D-485E-8BE3-71F74225FB3F">
+	<description textref="/Items/Consumables/EyeOfSeeing_ARAM.ARCT_description.txt" />
+	<dispatch href="/Items/Consumables/EyeOfSeeing_ARAM.ARCT" id="8B5B5837-209D-485E-8BE3-71F74225FB3F">
 		<DispatchImmediate>
 			<alwaysApply>false</alwaysApply>
 			<applyEffect>
@@ -274,13 +274,13 @@
 	<maxQuantity>10</maxQuantity>
 	<microAI href="" />
 	<minUseRangeCorrection>0</minUseRangeCorrection>
-	<naftaCost>150</naftaCost>
-	<name textref="/Items/Consumables/EyeOfSeeing.ARCT_name.txt" />
+	<naftaCost>600</naftaCost>
+	<name textref="/Items/Consumables/EyeOfSeeing_ARAM.ARCT_name.txt" />
 	<node></node>
 	<passiveApplicators />
 	<persistentId></persistentId>
 	<requireLineOfSight>false</requireLineOfSight>
-	<shortDescription textref="/Items/Consumables/EyeOfSeeing.ARCT_shortDescription.txt" />
+	<shortDescription textref="/Items/Consumables/EyeOfSeeing_ARAM.ARCT_shortDescription.txt" />
 	<targetType>16777216</targetType>
 	<type>Active</type>
 	<useRange>
