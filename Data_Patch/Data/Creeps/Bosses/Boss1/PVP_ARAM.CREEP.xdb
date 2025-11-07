@@ -20,7 +20,7 @@
 	<lockMask>
 		<tileSize>1</tileSize>
 	</lockMask>
-	<minimapIcon>Default</minimapIcon>
+	<minimapIcon>NeutralsBoss</minimapIcon>
 	<normalLevelling>0.7</normalLevelling>
 	<pathFindingSteps>10</pathFindingSteps>
 	<sceneObject href="/Creeps/Bosses/Boss1/_Walked.SOBJ" />
