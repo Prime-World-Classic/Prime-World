@@ -39,10 +39,6 @@
 					<key>Dragon</key>
 					<resource href="/Creeps/Bosses/Boss1/PVP_Walked.CREEP" />
 				</Item>
-				<Item>
-					<key>PointReceived</key>
-					<resource href="/Effects/Buffs/Runes/_FlashRed.EFFT" />
-				</Item>
 			</resources>
 		</DictionaryPreloadingResources>
 	</dictionary>
