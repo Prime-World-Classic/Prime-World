@@ -21,11 +21,11 @@
 	</bakedLighting>
 	<cameraSettings href="/Maps/Multiplayer/ARAM/Camera/aram" />
 	<dayNightSettings>
-		<dayDuration>7200</dayDuration>
+		<dayDuration>1</dayDuration>
 		<hideDayNightWidget>true</hideDayNightWidget>
 		<initialState>Night</initialState>
 		<initialStateFraction>0</initialStateFraction>
-		<nightDuration>600</nightDuration>
+		<nightDuration>7200</nightDuration>
 		<nightSpecularReduction>0.4</nightSpecularReduction>
 		<transitionDuration>0.5</transitionDuration>
 		<transitionThreshold>0.75</transitionThreshold>
