@@ -89,7 +89,8 @@ LoadingScreenLogic::LoadingScreenLogic( NGameX::LoadingStatusHandler * statusHan
 isShowTeamForce(true),partyFlag(true),tamburFlag(true) 
 {
 
-  levelToExp = NDb::SessionRoot::GetRoot()->logicRoot->aiLogic->levelToExperienceTable; 
+levelToExp = NDb::SessionRoot::GetRoot()->logicRoot->aiLogic->levelToExperienceTable; 
+
 }
 
 
@@ -478,7 +479,7 @@ void LoadingScreenLogic::SetHeroInfo( int userId, const HeroInfo & heroInfo, con
     return;
 
   if ( _clientSettings.showHeroLevel )
-    flashInterface->SetHeroLevel(userId, GetHeroLevel(heroInfo.exp, levelToExp->Levels));
+    flashInterface->SetHeroLevel(userId, heroInfo.exp);
 
   if ( _clientSettings.showHeroForce )
     flashInterface->SetHeroForce(userId, heroInfo.force);

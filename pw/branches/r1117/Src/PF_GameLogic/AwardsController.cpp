@@ -314,8 +314,15 @@ void AwardsController::AwardUser( const nstl::vector<AwardData> & _awards )
 	for(int i = 0; i<filteredAwards.size(); i++)
 		awards.push_back(filteredAwards[i]);
 
-  if (dbLogic.levelToExperienceTable)
-    flashInterface->SetHeroExperience(experience, earnedExp, dbLogic.levelToExperienceTable->Levels);
+  static nstl::vector<int> levelsUpdated;
+  if (dbLogic.levelToExperienceTable) {
+    if (levelsUpdated.empty()) {
+      for (int i = 0; i < 10000; ++i) {
+        levelsUpdated.push_back(i);
+      }
+    }
+    flashInterface->SetHeroExperience(experience, earnedExp, levelsUpdated);
+  }
 
   struct AwardComparator
   { 

@@ -515,6 +515,7 @@ std::string GetSkinByHeroPersistentId(const std::string& heroPersistentId, int s
   skinMap[63].push_back("banshee_S1");
   skinMap[64].push_back("shaman");
   skinMap[65].push_back("bomber");
+  skinMap[65].push_back("Bomber_S1");
 
 
   std::vector<std::string>& skins = skinMap[heroId];
@@ -650,6 +651,7 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
     Json::Value rating = curPlayer.get("rating", Json::Value());
     resData.currentRating = rating.get("current", Json::Value()).asFloat();
     resData.victoryRating = rating.get("victory", Json::Value()).asFloat();
+    resData.heroRating = rating.get("hero", Json::Value(1100)).asInt();
     resData.lossRating = rating.get("loss", Json::Value()).asFloat();
     resData.heroSkinID = curPlayer.get("skin", Json::Value()).asInt();
     resData.userId = curPlayer.get("id", Json::Value()).asInt();
@@ -709,15 +711,16 @@ std::string WebLauncherPostRequest::CreateDebugSession()
   player["id"] = Json::Value (131);
   player["nickname"] = Json::Value ("Rekongstor");
   player["muteChat"] = Json::Value (false);
-  player["hero"] = Json::Value (29);
+  player["hero"] = Json::Value (65);
   player["team"] = Json::Value (1);
   player["party"] = Json::Value (0);
-  player["skin"] = Json::Value (1);
+  player["skin"] = Json::Value (2);
 
   Json::Value rating;
   rating["current"] = Json::Value (2001.01234567);
   rating["victory"] = Json::Value (2021.987654321);
   rating["loss"] = Json::Value (1995.456789123123456);
+  rating["hero"] = Json::Value (1995);
 
   Json::Value build;
   build.resize(36);

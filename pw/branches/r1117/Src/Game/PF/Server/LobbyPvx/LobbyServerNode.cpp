@@ -252,6 +252,7 @@ static WebUsersDataMap GetUsersData(Json::Value usersData) {
     Json::Value rating = curPlayer.get("rating", Json::Value());
     resData.currentRating = rating.get("current", Json::Value()).asFloat();
     resData.victoryRating = rating.get("victory", Json::Value()).asFloat();
+    resData.heroRating = rating.get("hero", Json::Value(1100)).asInt();
     resData.lossRating = rating.get("loss", Json::Value()).asFloat();
     resData.heroSkinID = curPlayer.get("skin", Json::Value()).asInt();
     resData.userId = curPlayer.get("id", Json::Value()).asInt();

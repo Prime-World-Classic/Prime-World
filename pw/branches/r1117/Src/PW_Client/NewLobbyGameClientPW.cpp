@@ -576,7 +576,7 @@ void GameClientPW::OnPlayerInfoLoaded()
       WebLauncherPostRequest::WebUserData userData = g_usersData[playerStartInfo.nickname.c_str() + 1];
       float force = NWorld::Force::CalculateForce(playerStartInfo.playerInfo, playerStartInfo.usePlayerInfoTalentSet, resourceCollection, MapDescription()->Description);
 
-      info.exp = playerStartInfo.playerInfo.heroExp;
+      info.exp = userData.heroRating;
       info.force = force;
 
       info.raiting = (int)( userData.currentRating );

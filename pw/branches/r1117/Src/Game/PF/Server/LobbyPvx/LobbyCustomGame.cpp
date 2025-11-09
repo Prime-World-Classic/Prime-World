@@ -505,6 +505,7 @@ static const char* heroes [] = {
 static void FillPlayerInfo(NCore::PlayerInfo& playerInfo, const WebLauncherPostRequest::WebUserData& userData) 
 {
   playerInfo.heroRating = userData.currentRating;
+  playerInfo.heroExp = userData.heroRating;
   playerInfo.ratingDeltaPrediction.onVictory = userData.victoryRating - userData.currentRating;
   playerInfo.ratingDeltaPrediction.onDefeat = userData.lossRating - userData.currentRating;
   int heroId = std::min(std::max((size_t)(userData.heroId - 1), 0u), _countof(heroes) - 1u);

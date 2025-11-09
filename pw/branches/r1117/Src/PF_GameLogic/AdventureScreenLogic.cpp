@@ -506,6 +506,7 @@ void AdventureScreenLogic::SetHero(NWorld::PFBaseHero const *pHero)
     heroRating = 1100;
     if (userIdToNicknameMap.find(pHero->GetPlayerId()) != userIdToNicknameMap.end()) {
       heroRating = (int)g_usersData[userIdToNicknameMap[pHero->GetPlayerId()].nickname].currentRating; //playerData.GetHeroRating();
+      heroExp = (int)g_usersData[userIdToNicknameMap[pHero->GetPlayerId()].nickname].heroRating; 
     }
   }
 

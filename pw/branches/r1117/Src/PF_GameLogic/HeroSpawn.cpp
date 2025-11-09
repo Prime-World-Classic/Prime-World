@@ -528,9 +528,10 @@ namespace NWorld
 
         userIdToNicknameMap[players[it->playerId].userID] = pInfo;
  
-         heroSpawnDesc.playerInfo.heroRating = (int)userData.currentRating;
+         heroSpawnDesc.playerInfo.heroExp = (int)userData.currentRating;
          heroSpawnDesc.playerInfo.ratingDeltaPrediction.onVictory = userData.victoryRating - userData.currentRating;
          heroSpawnDesc.playerInfo.ratingDeltaPrediction.onDefeat = userData.lossRating - userData.currentRating;
+         heroSpawnDesc.playerInfo.heroLevel = userData.heroRating;
          std::vector<WebLauncherPostRequest::TalentWebData>& talentSet = userData.talents;
    			
  			  if(talentSet.empty()) {
