@@ -64,6 +64,11 @@ public:
     int userId;
   };
 
+  struct PlayerMetaInfo {
+    int leagueIdx;
+    nstl::string flagId;
+  };
+
   enum RegisterSessionRequest {
     RegisterInSessionRequest_Create,
     RegisterInSessionRequest_Wait,
@@ -200,6 +205,7 @@ static bool CheckPlayerInfo(const Json::Value& playerInfo)
 
 extern std::map<nstl::wstring, WebLauncherPostRequest::WebUserData> g_usersData;
 extern map<int, WebLauncherPostRequest::PlayerInfoByUserId> userIdToNicknameMap;
+extern map<int, WebLauncherPostRequest::PlayerMetaInfo> userIdToMetaMap;
 
 std::string GetSkinByHeroPersistentId(const std::string& heroPersistentId, int skinId);
 std::string WideCharToMultiByteString(const wchar_t* wideCharString);
