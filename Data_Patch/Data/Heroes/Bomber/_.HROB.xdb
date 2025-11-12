@@ -952,7 +952,7 @@
 										<caption>sound</caption>
 										<desc>
 											<eventName>move</eventName>
-											<groupName>Heroes/Bomber/Asks</groupName>
+											<groupName>Heroes/Bomber_S1/Asks</groupName>
 											<projectName>PF</projectName>
 										</desc>
 										<groupFlags>0</groupFlags>
@@ -967,7 +967,7 @@
 										<caption>sound</caption>
 										<desc>
 											<eventName>ability_1</eventName>
-											<groupName>Heroes/Bomber/Asks</groupName>
+											<groupName>Heroes/Bomber_S1/Asks</groupName>
 											<projectName>PF</projectName>
 										</desc>
 										<groupFlags>0</groupFlags>
@@ -982,7 +982,7 @@
 										<caption>sound</caption>
 										<desc>
 											<eventName>ability_2</eventName>
-											<groupName>Heroes/Bomber/Asks</groupName>
+											<groupName>Heroes/Bomber_S1/Asks</groupName>
 											<projectName>PF</projectName>
 										</desc>
 										<groupFlags>0</groupFlags>
@@ -997,7 +997,7 @@
 										<caption>sound</caption>
 										<desc>
 											<eventName>ability_3</eventName>
-											<groupName>Heroes/Bomber/Asks</groupName>
+											<groupName>Heroes/Bomber_S1/Asks</groupName>
 											<projectName>PF</projectName>
 										</desc>
 										<groupFlags>0</groupFlags>
@@ -1012,7 +1012,7 @@
 										<caption>sound</caption>
 										<desc>
 											<eventName>ability_ult</eventName>
-											<groupName>Heroes/Bomber/Asks</groupName>
+											<groupName>Heroes/Bomber_S1/Asks</groupName>
 											<projectName>PF</projectName>
 										</desc>
 										<groupFlags>0</groupFlags>
@@ -1027,7 +1027,7 @@
 										<caption>sound</caption>
 										<desc>
 											<eventName>attack</eventName>
-											<groupName>Heroes/Bomber/Asks</groupName>
+											<groupName>Heroes/Bomber_S1/Asks</groupName>
 											<projectName>PF</projectName>
 										</desc>
 										<groupFlags>0</groupFlags>
@@ -1042,7 +1042,7 @@
 										<caption>sound</caption>
 										<desc>
 											<eventName>death</eventName>
-											<groupName>Heroes/Bomber/Asks</groupName>
+											<groupName>Heroes/Bomber_S1/Asks</groupName>
 											<projectName>PF</projectName>
 										</desc>
 										<groupFlags>0</groupFlags>
@@ -1057,7 +1057,7 @@
 										<caption>sound</caption>
 										<desc>
 											<eventName>revive</eventName>
-											<groupName>Heroes/Bomber/Asks</groupName>
+											<groupName>Heroes/Bomber_S1/Asks</groupName>
 											<projectName>PF</projectName>
 										</desc>
 										<groupFlags>0</groupFlags>
@@ -1072,7 +1072,7 @@
 										<caption>sound</caption>
 										<desc>
 											<eventName>kill</eventName>
-											<groupName>Heroes/Bomber/Asks</groupName>
+											<groupName>Heroes/Bomber_S1/Asks</groupName>
 											<projectName>PF</projectName>
 										</desc>
 										<groupFlags>0</groupFlags>
@@ -1087,7 +1087,7 @@
 										<caption>sound</caption>
 										<desc>
 											<eventName>idle</eventName>
-											<groupName>Heroes/Bomber/Asks</groupName>
+											<groupName>Heroes/Bomber_S1/Asks</groupName>
 											<projectName>PF</projectName>
 										</desc>
 										<groupFlags>0</groupFlags>
