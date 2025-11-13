@@ -25,6 +25,7 @@
 #include "PF_GameLogic/HeroSpawn.h"
 #include "PF_GameLogic/PFHero.h"
 #include "PF_GameLogic/AdventureScreen.h"
+#include "PF_GameLogic/WebLauncher.h"
 
 
 namespace 
@@ -355,14 +356,17 @@ void LoadingScreenLogic::AddPlayer( int userId, const NCore::PlayerStartInfo& in
     string flagIcon;
     wstring flagTooltip;
 
+    const nstl::string& flagId = (userIdToMetaMap.find(userId) == userIdToMetaMap.end()) 
+      ? info.playerInfo.flagId
+      : userIdToMetaMap[userId].flagId;
 
-    if(!info.playerInfo.flagId.empty())
+    if(!flagId.empty())
     {
       bool founded = false;
 
       for (vector<NDb::CountryFlag>::const_iterator it = uiData->countryFlags.begin(); it != uiData->countryFlags.end(); ++it )
       {
-        if (it->id == info.playerInfo.flagId )
+        if (it->id == flagId )
         {
           flagIcon = it->icon->textureFileName;
           flagTooltip = it->tooltip.GetText();
@@ -373,7 +377,7 @@ void LoadingScreenLogic::AddPlayer( int userId, const NCore::PlayerStartInfo& in
       {
         for (vector<NDb::Ptr<NDb::CustomFlag>>::const_iterator it = uiData->customFlags.begin(); it != uiData->customFlags.end(); ++it )
         {
-          if ((*it)->id == info.playerInfo.flagId )
+          if ((*it)->id == flagId )
           {
             flagIcon = (*it)->icon->textureFileName;
             flagTooltip = (*it)->tooltip.GetText();
@@ -385,7 +389,7 @@ void LoadingScreenLogic::AddPlayer( int userId, const NCore::PlayerStartInfo& in
       {
         for (vector<NDb::Ptr<NDb::CustomFlag>>::const_iterator it = uiData->adminFlags.begin(); it != uiData->adminFlags.end(); ++it )
         {
-          if ((*it)->id == info.playerInfo.flagId )
+          if ((*it)->id == flagId )
           {
             flagIcon = (*it)->icon->textureFileName;
             flagTooltip = (*it)->tooltip.GetText();

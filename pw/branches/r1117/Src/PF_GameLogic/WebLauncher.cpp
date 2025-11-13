@@ -515,6 +515,7 @@ std::string GetSkinByHeroPersistentId(const std::string& heroPersistentId, int s
   skinMap[63].push_back("banshee_S1");
   skinMap[64].push_back("shaman");
   skinMap[65].push_back("bomber");
+  skinMap[65].push_back("Bomber_S1");
 
 
   std::vector<std::string>& skins = skinMap[heroId];
@@ -687,6 +688,12 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
     }
 
     g_usersData[wideCharString.c_str()] = resData;
+    PlayerMetaInfo playerMetaInfo;
+    playerMetaInfo.leagueIdx = curPlayer.get("leagueIdx", Json::Value(0)).asInt();
+    playerMetaInfo.flagId = curPlayer.get("flagId", Json::Value("")).asString().c_str();
+
+    userIdToMetaMap[userId.asInt()] = playerMetaInfo;
+
 
     g_playersCount++;
     curPlayer = usersData[g_playersCount];
@@ -709,10 +716,10 @@ std::string WebLauncherPostRequest::CreateDebugSession()
   player["id"] = Json::Value (131);
   player["nickname"] = Json::Value ("Rekongstor");
   player["muteChat"] = Json::Value (false);
-  player["hero"] = Json::Value (29);
+  player["hero"] = Json::Value (65);
   player["team"] = Json::Value (1);
   player["party"] = Json::Value (0);
-  player["skin"] = Json::Value (1);
+  player["skin"] = Json::Value (2);
 
   Json::Value rating;
   rating["current"] = Json::Value (2001.01234567);
@@ -740,6 +747,8 @@ std::string WebLauncherPostRequest::CreateDebugSession()
   player2["id"] = Json::Value (123456789);
   player2["nickname"] = Json::Value ("RekongstorRekongstor");
   player2["team"] = Json::Value (2);
+  player2["leagueIdx"] = Json::Value(7);
+  player2["flagId"] = Json::Value("guide");
   
   players.resize(2);
   players[0] = player;

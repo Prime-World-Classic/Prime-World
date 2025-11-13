@@ -10,7 +10,9 @@
 #include "Server/LobbyPvx/CommonTypes.h"
 #include "PF_GameLogic/HeroSpawn.h"
 #include "LoadingScreenLogic.h"
+#include "PF_GameLogic/WebLauncher.h"
 
+map<int, WebLauncherPostRequest::PlayerMetaInfo> userIdToMetaMap;
 
 namespace Game
 {
@@ -71,7 +73,11 @@ void LoadingHeroes::AddUser( int userId, const wstring & playerName,
 
   if( showAllHeros || userId == ourUserId )
   {
-    LoadingHero * hero = new LoadingHero(flashInterface, userId, playerName, iconPath, faction, isMale, classIcon, heroInfo.partyId, flagIcon, flagTooltip, heroInfo.isAnimatedAvatar, heroInfo.leagueIndex);
+    int leagueIdx = 0;
+    if (userIdToMetaMap.find(userId) != userIdToMetaMap.end()){
+      leagueIdx = userIdToMetaMap[userId].leagueIdx;
+    }
+    LoadingHero * hero = new LoadingHero(flashInterface, userId, playerName, iconPath, faction, isMale, classIcon, heroInfo.partyId, flagIcon, flagTooltip, heroInfo.isAnimatedAvatar, leagueIdx);
     loadingHeroes[userId] = hero;
   }
 
