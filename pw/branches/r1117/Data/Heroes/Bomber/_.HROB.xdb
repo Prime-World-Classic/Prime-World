@@ -1216,10 +1216,10 @@
 						</asks>
 					</AskSoundsRef>
 				</askListSecondState>
-				<botRoll>false</botRoll>
+				<botRoll>true</botRoll>
 				<cost>500</cost>
 				<deathParameters href="" />
-				<gender>Male</gender>
+				<gender>Female</gender>
 				<heroImageA href="/UI/Styles/Icons/Heroes/Bomber/Face_S1.ITEX" />
 				<heroImageB href="/UI/Styles/Icons/Heroes/Bomber/Face_S1.ITEX" />
 				<heroName textref="/Heroes/Bomber/_.HROB_5fa6f5ae652b47dabccae2c7f46f213e_heroName.txt" />
