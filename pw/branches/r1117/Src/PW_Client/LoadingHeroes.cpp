@@ -37,7 +37,7 @@ LoadingHeroes::LoadingHeroes( LoadingFlashInterface * _flashInterface, NDb::Ptr<
 
 void LoadingHeroes::AddUser( int userId, const wstring & playerName, 
                             bool isMale, NCore::ETeam::Enum team, NCore::ETeam::Enum manoeuvresTeam,
-                            const HeroInfo& heroInfo, string & flagIcon, wstring & flagTooltip)
+                            const HeroInfo& heroInfo, string & flagIcon, wstring & flagTooltip, const string& skinId, int leagueIdx)
 {
   if (loadingHeroes.find(userId) != loadingHeroes.end())
     return;
@@ -56,7 +56,7 @@ void LoadingHeroes::AddUser( int userId, const wstring & playerName,
     NCore::ETeam::Enum imageTeam = (manoeuvresTeam != NCore::ETeam::None) ? (manoeuvresTeam) : (team);
     NDb::EFaction faction = ConvertToFaction(imageTeam);
 
-    const NDb::Texture* avatarImage = NWorld::PFBaseHero::GetUiAvatarImage( hero, faction, heroInfo.skinId );
+    const NDb::Texture* avatarImage = NWorld::PFBaseHero::GetUiAvatarImage( hero, faction, skinId );
     iconPath =  (avatarImage) ? avatarImage->textureFileName.c_str() : "";
 
     if ( imageTeam == NCore::ETeam::Team1 )
@@ -73,10 +73,6 @@ void LoadingHeroes::AddUser( int userId, const wstring & playerName,
 
   if( showAllHeros || userId == ourUserId )
   {
-    int leagueIdx = 0;
-    if (userIdToMetaMap.find(userId) != userIdToMetaMap.end()){
-      leagueIdx = userIdToMetaMap[userId].leagueIdx;
-    }
     LoadingHero * hero = new LoadingHero(flashInterface, userId, playerName, iconPath, faction, isMale, classIcon, heroInfo.partyId, flagIcon, flagTooltip, heroInfo.isAnimatedAvatar, leagueIdx);
     loadingHeroes[userId] = hero;
   }

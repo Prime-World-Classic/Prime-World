@@ -330,7 +330,7 @@ void LoadingScreenLogic::AddPlayer( int userId, const NCore::PlayerStartInfo& in
     }
 
 
-    loadingHeroes->AddUser(userId , botNickname, isMale, info.teamID, info.originalTeamID, heroInfo, flagIcon, flagTooltip);
+    loadingHeroes->AddUser(userId , botNickname, isMale, info.teamID, info.originalTeamID, heroInfo, flagIcon, flagTooltip, heroInfo.skinId, heroInfo.leagueIndex);
     recalcTeamForce(heroInfo);
     loadingHeroes->AddBot(userId);
     flashInterface->SetHeroLevel(userId, 1);
@@ -356,9 +356,26 @@ void LoadingScreenLogic::AddPlayer( int userId, const NCore::PlayerStartInfo& in
     string flagIcon;
     wstring flagTooltip;
 
-    const nstl::string& flagId = (userIdToMetaMap.find(userId) == userIdToMetaMap.end()) 
+    int webUserId = userId;
+    nstl::wstring nick = info.nickname.c_str() + 1;
+    nstl::string skinId = info.playerInfo.heroSkin;
+    if (g_usersData.find(nick) != g_usersData.end()) {
+      WebLauncherPostRequest::WebUserData& userData = g_usersData[nick];
+      NDb::Ptr<NDb::Hero> hero = NWorld::FindHero( m_heroDb, NULL, heroInfo.heroId );
+
+      int heroSkinId = userData.heroSkinID;
+      if(heroSkinId > 0){
+        skinId = GetSkinByHeroPersistentId(hero->persistentId.c_str(), heroSkinId - 1).c_str();
+      }
+      webUserId = userData.userId;
+    }
+
+    const nstl::string& flagId = (userIdToMetaMap.find(webUserId) == userIdToMetaMap.end()) 
       ? info.playerInfo.flagId
-      : userIdToMetaMap[userId].flagId;
+      : userIdToMetaMap[webUserId].flagId;
+    int leagueIdx = (userIdToMetaMap.find(webUserId) == userIdToMetaMap.end()) 
+      ? heroInfo.leagueIndex
+      : userIdToMetaMap[webUserId].leagueIdx;;
 
     if(!flagId.empty())
     {
@@ -408,7 +425,7 @@ void LoadingScreenLogic::AddPlayer( int userId, const NCore::PlayerStartInfo& in
       (isTutorial && info.nickname.empty());
 
     const wstring& name = useHeroName ? GetHeroNameByPlayerInfo(info, advMapDescription) : info.nickname;
-    loadingHeroes->AddUser(info.userID, name, isMale, info.teamID, info.originalTeamID, heroInfo, flagIcon, flagTooltip );
+    loadingHeroes->AddUser(info.userID, name, isMale, info.teamID, info.originalTeamID, heroInfo, flagIcon, flagTooltip, skinId, leagueIdx);
     recalcTeamForce(heroInfo);
   }
 }
