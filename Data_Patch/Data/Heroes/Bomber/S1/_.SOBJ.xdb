@@ -1444,7 +1444,7 @@
 										<emissive>0</emissive>
 										<EmissivePinValue>EmissiveOff</EmissivePinValue>
 										<ignoreRenderState>false</ignoreRenderState>
-										<lightingIntencity>1</lightingIntencity>
+										<lightingIntencity>0.8</lightingIntencity>
 										<LightingPinValue>LightingSH</LightingPinValue>
 										<NormalMap>
 											<samplerState>
@@ -1482,7 +1482,7 @@
 										</ReflectionMap>
 										<reflectivity>1</reflectivity>
 										<ReflectivityPinValue>ReflectivityOff</ReflectivityPinValue>
-										<renderFlags>2</renderFlags>
+										<renderFlags>7</renderFlags>
 										<renderState>
 											<alphaTest>On</alphaTest>
 											<alphaTestRef>127</alphaTestRef>
@@ -1512,7 +1512,7 @@
 											</samplerState>
 											<texture href="" />
 										</SpecularMap>
-										<specularPower>0</specularPower>
+										<specularPower>5</specularPower>
 										<SubPriority>0</SubPriority>
 									</BasicMaterial>
 								</Item>
