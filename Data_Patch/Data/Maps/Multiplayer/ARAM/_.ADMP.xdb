@@ -8712,12 +8712,12 @@
 			<offset>
 				<rotationX>-0.04828143</rotationX>
 				<rotationY>-0.1810773</rotationY>
-				<rotationZ>129.3394</rotationZ>
+				<rotationZ>130</rotationZ>
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>19.09932</translateX>
-				<translateY>96.8838</translateY>
+				<translateX>21.95385</translateX>
+				<translateY>100.2871</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
