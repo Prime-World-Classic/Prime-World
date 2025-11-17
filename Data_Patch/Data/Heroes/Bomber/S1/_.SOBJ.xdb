@@ -1498,9 +1498,9 @@
 											</Add>
 											<Multiplier>
 												<A>1</A>
-												<B>1</B>
-												<G>1</G>
-												<R>1</R>
+												<B>0.3</B>
+												<G>0.3</G>
+												<R>0.3</R>
 											</Multiplier>
 											<samplerState>
 												<addressU>Wrap</addressU>
