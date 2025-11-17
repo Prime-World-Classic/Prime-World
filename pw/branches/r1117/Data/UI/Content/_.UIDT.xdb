@@ -1600,6 +1600,7 @@
 		<Item href="/UI/Content/CustomFlags/fox1" />
 		<Item href="/UI/Content/CustomFlags/season15" />
 		<Item href="/UI/Content/CustomFlags/season16" />
+		<Item href="/UI/Content/CustomFlags/tester" />
 	</customFlags>
 	<dialogsSettings>
 		<defaultPhraseDuration>10</defaultPhraseDuration>
