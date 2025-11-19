@@ -403,10 +403,11 @@ void ChatUiController::SetPlayerIdMapper(IPlayerIdMapper* pim)
 
 int AsyncMessagesFilter::FilterMessage(const gamechat::ChatMessage& msg)
 {
-  int id = CensorFilter::FilterAsync(msg.message.c_str());
+  /*int id = CensorFilter::FilterAsync(msg.message.c_str());
   toFilterIdxOrder.push_back(id);
   toFilter.insert( make_pair(id, FilteredMessageData(msg)) );
-  return id;
+  return id;*/
+	return 0;
 }
 
 void AsyncMessagesFilter::ProcessMessages()

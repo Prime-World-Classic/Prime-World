@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="AllMyLibs"
+	>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalDependencies="JsonCpp.lib dbghelp.lib libcurl.lib d3dx9.lib psapi.lib rpcrt4.lib fmodex_vc.lib zdll.lib fmod_event.lib fmod_event_net.lib Tamarin.lib dinput8.lib dxguid.lib WinMM.Lib GlU32.Lib OpenGL32.Lib jpeglib.lib freetype244MT.lib d3d9.lib WbemUuid.Lib dxerr.lib CrashRpt.lib PF_GameLogic.lib"
+		AdditionalLibraryDirectories="&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\CrashRpt\lib&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\freetype\lib&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\jpeglib\lib&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\OpenGL\lib&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\DirectX\Lib\x86&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\Tamarin\lib\Release&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\fmod\fmoddesignerapi\api\lib&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\zlib\lib&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\fmod\api\lib&quot;;&quot;C:\Program Files\Microsoft SDKs\Windows\v6.0A\Lib&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\libcurl\lib\Release&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\CrashRpt\thirdparty\dbghelp\lib&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Src\_Release&quot;;&quot;C:\Users\aigiz\OneDrive\Documents\GitHub\Prime-World\pw\branches\r1117\Vendor\JsonCpp\lib\Release&quot;"
+	/>
+</VisualStudioPropertySheet>

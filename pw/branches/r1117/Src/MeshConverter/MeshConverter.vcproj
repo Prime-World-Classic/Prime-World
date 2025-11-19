@@ -21,6 +21,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -107,6 +108,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -160,9 +162,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="zdll.lib dxguid.lib d3d9.lib d3dx9.lib dxerr.lib"
+				AdditionalDependencies="zdll.lib dxguid.lib d3d9.lib d3dx9.lib dxerr.lib dbghelp.lib rpcrt4.lib CrashRpt.lib psapi.lib"
 				OutputFile="$(OutDir)\$(ProjectName).dll"
-				AdditionalLibraryDirectories="../../vendor\zlib\lib;../../vendor\DirectX\Lib\x86"
+				AdditionalLibraryDirectories="&quot;C:\Program Files\Microsoft SDKs\Windows\v6.0A\Lib&quot;;../../vendor\CrashRpt\lib;../../vendor\zlib\lib;../../vendor\DirectX\Lib\x86"
 				ModuleDefinitionFile="$(IntDir)\$(ProjectName).def"
 				GenerateDebugInformation="true"
 				SubSystem="0"
@@ -198,6 +200,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -289,6 +292,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -377,6 +381,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>

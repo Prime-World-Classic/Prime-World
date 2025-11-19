@@ -20,6 +20,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -109,6 +110,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="4"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -136,7 +138,7 @@
 				FavorSizeOrSpeed="1"
 				WholeProgramOptimization="false"
 				AdditionalIncludeDirectories="../..;../../vendor\zlib\include;../../vendor\DirectX\Include;../../vendor\fmod\api\inc;../../vendor\fmod\fmoddesignerapi\api\inc;../;../Server;../Game/PF;../../vendor/libcurl/include;..\Server\Chat;..\..\Vendor\boost;..\..\Vendor\JsonCpp\include"
-				PreprocessorDefinitions="WIN32;_WINDOWS;DLL;NDEBUG;_DO_ASSERT;;CURL_STATICLIB"
+				PreprocessorDefinitions="WIN32;_WINDOWS;DLL;NDEBUG;_DO_ASSERT;CURL_STATICLIB"
 				ExceptionHandling="0"
 				BasicRuntimeChecks="0"
 				SmallerTypeCheck="false"
@@ -162,6 +164,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
+				IgnoreDefaultLibraryNames="PF_GameLogic.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -185,6 +188,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -277,6 +281,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="4"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -352,6 +357,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="4"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>

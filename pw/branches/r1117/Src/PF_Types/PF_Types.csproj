@@ -140,7 +140,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>"$(ProjectDir)..\..\vendor\BuildUtils\DBCodeGen.cmd" "$(SolutionPath)" "$(TargetName)" "$(ProjectDir)..\..\Data\$(TargetName).md5" PW_Client PF_Editor</PostBuildEvent>
+    <PostBuildEvent>REM "$(ProjectDir)..\..\vendor\BuildUtils\DBCodeGen.cmd" "$(SolutionPath)" "$(TargetName)" "$(ProjectDir)..\..\Data\$(TargetName).md5" PW_Client PF_Editor</PostBuildEvent>
     <PreBuildEvent>
     </PreBuildEvent>
   </PropertyGroup>

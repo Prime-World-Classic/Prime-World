@@ -21,6 +21,7 @@
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
+			InheritedPropertySheets="..\..\..\Src\Client\AllMyLibs.vsprops"
 			CharacterSet="1"
 			>
 			<Tool
@@ -93,6 +94,7 @@
 			OutputDirectory="D:\Projects\Prime-World\pw\branches\r1117\Tools\FilePileCompiler"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
+			InheritedPropertySheets="..\..\..\Src\Client\AllMyLibs.vsprops"
 			CharacterSet="2"
 			WholeProgramOptimization="1"
 			>

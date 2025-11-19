@@ -21,6 +21,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="1"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -105,6 +106,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="1"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -194,6 +196,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="1"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -283,6 +286,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="1"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -369,6 +373,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="1"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>

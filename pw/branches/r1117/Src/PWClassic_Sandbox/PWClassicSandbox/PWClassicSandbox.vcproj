@@ -21,6 +21,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="1"
+			InheritedPropertySheets="..\..\Client\AllMyLibs.vsprops"
 			CharacterSet="1"
 			>
 			<Tool
@@ -92,6 +93,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
+			InheritedPropertySheets="..\..\Client\AllMyLibs.vsprops"
 			CharacterSet="1"
 			WholeProgramOptimization="1"
 			>

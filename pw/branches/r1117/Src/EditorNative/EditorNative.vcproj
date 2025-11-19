@@ -21,6 +21,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			ManagedExtensions="1"
 			WholeProgramOptimization="0"
@@ -108,6 +109,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			ManagedExtensions="1"
 			WholeProgramOptimization="0"
@@ -165,6 +167,7 @@
 				AdditionalDependencies="nvtt.lib"
 				OutputFile="$(OutDir)\$(ProjectName).dll"
 				AdditionalLibraryDirectories="&quot;$(ProjectDir)/../../vendor/nvidia-texture-tools/lib&quot;"
+				IgnoreDefaultLibraryNames="libcmt.lib"
 				GenerateDebugInformation="true"
 				SubSystem="0"
 				LargeAddressAware="2"
@@ -200,6 +203,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			ManagedExtensions="1"
 			WholeProgramOptimization="0"
@@ -292,6 +296,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="4"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			ManagedExtensions="1"
 			WholeProgramOptimization="0"
@@ -368,6 +373,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="4"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			ManagedExtensions="1"
 			WholeProgramOptimization="0"
@@ -463,6 +469,11 @@
 		<ProjectReference
 			ReferencedProjectIdentifier="{CB33BF48-712E-4EAB-8436-E64DC30CBCD7}"
 			RelativePathToProject=".\Types.DBTypes\Types.DBTypes.csproj"
+		/>
+		<AssemblyReference
+			RelativePath="..\_Release\ScintillaNET.dll"
+			AssemblyName="ScintillaNET, Version=2.5.2.0, PublicKeyToken=948d6c9751444115, processorArchitecture=MSIL"
+			MinFrameworkVersion="131072"
 		/>
 	</References>
 	<Files>

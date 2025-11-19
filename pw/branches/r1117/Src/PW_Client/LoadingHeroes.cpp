@@ -12,7 +12,7 @@
 #include "LoadingScreenLogic.h"
 #include "PF_GameLogic/WebLauncher.h"
 
-map<int, WebLauncherPostRequest::PlayerMetaInfo> userIdToMetaMap;
+//map<int, WebLauncherPostRequest::PlayerMetaInfo> userIdToMetaMap;
 
 namespace Game
 {
@@ -45,7 +45,7 @@ void LoadingHeroes::AddUser( int userId, const wstring & playerName,
   char * iconPath = "";
 	char * classIcon = "";
 
-  // Пытаемся ипользовать heroId из PlayerInfo. http://SITE
+  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ heroId пїЅпїЅ PlayerInfo. http://SITE
   
   //int newHeroId = heroInfo.heroId != 0 ? heroInfo.heroId : Crc32Checksum().AddString(heroId).Get();
   NDb::Ptr<NDb::Hero> hero = NWorld::FindHero( heroDb, advMapDescription,  heroInfo.heroId);

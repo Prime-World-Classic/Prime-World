@@ -21,6 +21,7 @@
 			OutputDirectory="$(ProjectDir)..\..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -100,6 +101,7 @@
 			OutputDirectory="$(ProjectDir)..\..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -145,7 +147,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="dbghelp.lib rpcrt4.lib shlwapi.lib"
 				LinkIncremental="1"
+				AdditionalLibraryDirectories="C:\Program Files\Microsoft SDKs\Windows\v6.0A\Lib"
 				ModuleDefinitionFile="$(IntDir)\$(ProjectName).def"
 				GenerateDebugInformation="true"
 				SubSystem="0"
@@ -181,6 +185,7 @@
 			OutputDirectory="$(ProjectDir)..\..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="4"
+			InheritedPropertySheets="..\..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -247,6 +252,7 @@
 			OutputDirectory="$(ProjectDir)..\..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -328,6 +334,7 @@
 			OutputDirectory="$(ProjectDir)..\..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="4"
+			InheritedPropertySheets="..\..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>

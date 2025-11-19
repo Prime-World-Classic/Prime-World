@@ -21,6 +21,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="4"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -97,6 +98,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -185,6 +187,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="2"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -277,6 +280,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="4"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -352,6 +356,7 @@
 			OutputDirectory="$(ProjectDir)..\_$(ConfigurationName)"
 			IntermediateDirectory="$(ProjectDir)..\_$(ConfigurationName)\$(ProjectName)"
 			ConfigurationType="4"
+			InheritedPropertySheets="..\Client\AllMyLibs.vsprops"
 			CharacterSet="0"
 			WholeProgramOptimization="0"
 			>
@@ -2319,34 +2324,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\BSResources.rc"
-				>
-				<FileConfiguration
-					Name="ShippingSingleExe|Win32"
-					ExcludedFromBuild="true"
-					>
-					<Tool
-						Name="VCResourceCompilerTool"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="ReleaseSingleExe|Win32"
-					ExcludedFromBuild="true"
-					>
-					<Tool
-						Name="VCResourceCompilerTool"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="SpectatorShippingSingleExe|Win32"
-					ExcludedFromBuild="true"
-					>
-					<Tool
-						Name="VCResourceCompilerTool"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
 				RelativePath=".\BSUtil.cpp"
 				>
 			</File>
@@ -3267,7 +3244,23 @@
 			</File>
 		</Filter>
 		<File
+			RelativePath=".\InlineProfiler3\error.ico"
+			>
+		</File>
+		<File
+			RelativePath=".\InlineProfiler3\exclamation.ico"
+			>
+		</File>
+		<File
 			RelativePath=".\foundation.refs"
+			>
+		</File>
+		<File
+			RelativePath=".\InlineProfiler3\icon_err.ico"
+			>
+		</File>
+		<File
+			RelativePath=".\InlineProfiler3\icon_exc.ico"
 			>
 		</File>
 		<File
@@ -3279,7 +3272,19 @@
 			>
 		</File>
 		<File
+			RelativePath=".\InlineProfiler3\nival.bmp"
+			>
+		</File>
+		<File
 			RelativePath=".\Reminder.h"
+			>
+		</File>
+		<File
+			RelativePath="..\resource.h"
+			>
+		</File>
+		<File
+			RelativePath=".\resource.h"
 			>
 		</File>
 		<File
@@ -3293,34 +3298,6 @@
 		<File
 			RelativePath=".\Singleton4DLL.h"
 			>
-		</File>
-		<File
-			RelativePath="..\Version.rc"
-			>
-			<FileConfiguration
-				Name="ShippingSingleExe|Win32"
-				ExcludedFromBuild="true"
-				>
-				<Tool
-					Name="VCResourceCompilerTool"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="ReleaseSingleExe|Win32"
-				ExcludedFromBuild="true"
-				>
-				<Tool
-					Name="VCResourceCompilerTool"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="SpectatorShippingSingleExe|Win32"
-				ExcludedFromBuild="true"
-				>
-				<Tool
-					Name="VCResourceCompilerTool"
-				/>
-			</FileConfiguration>
 		</File>
 	</Files>
 	<Globals>
