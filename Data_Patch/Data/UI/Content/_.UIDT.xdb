@@ -1600,7 +1600,13 @@
 		<Item href="/UI/Content/CustomFlags/fox1" />
 		<Item href="/UI/Content/CustomFlags/season15" />
 		<Item href="/UI/Content/CustomFlags/season16" />
-		<Item href="/UI/Content/CustomFlags/tester" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/tester" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/bublik" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/father_christmas" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/fir" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/oblochko" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/snow" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/snowman" />
 	</customFlags>
 	<dialogsSettings>
 		<defaultPhraseDuration>10</defaultPhraseDuration>
