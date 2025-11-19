@@ -11,8 +11,8 @@
 	<shapeAlphaThreshold>0</shapeAlphaThreshold>
 	<shapeFileName>/UI/Styles/Icons/Flags/Custom/PWClassic/fir.shp</shapeFileName>
 	<size>
-		<height>240</height>
-		<width>240</width>
+		<height>60</height>
+		<width>60</width>
 	</size>
 	<srcFileName crc="0">/UI/Styles/Icons/Flags/Custom/fir.png</srcFileName>
 	<startMipLevel>0</startMipLevel>
