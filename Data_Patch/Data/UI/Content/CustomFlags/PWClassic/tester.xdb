@@ -4,7 +4,7 @@
 	<bigIcon href="/UI/Styles/Icons/Flags/Custom/testerA.ITEX" />
 	<icon href="/UI/Styles/Icons/Flags/Custom/tester.ITEX" />
 	<id>tester</id>
-	<name textref="/UI/Content/CustomFlags/tester_name.txt" />
+	<name textref="/UI/Content/CustomFlags/PWClassic/tester_name.txt" />
 	<Price>1</Price>
-	<tooltip textref="/UI/Content/CustomFlags/tester_tooltip.txt" />
+	<tooltip textref="/UI/Content/CustomFlags/PWClassic/tester_tooltip.txt" />
 </CustomFlag>
