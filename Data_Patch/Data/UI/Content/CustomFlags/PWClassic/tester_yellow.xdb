@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CustomFlag>
 	<BackLink DBID="/UI/Content/_.UIDT" Count="2" />
-	<bigIcon href="" />
+	<bigIcon href="/UI/Styles/Icons/Flags/Custom/PWClassic/tester_yellow.ITEX" />
 	<icon href="/UI/Styles/Icons/Flags/Custom/PWClassic/tester_yellow.ITEX" />
 	<id>tester</id>
 	<name textref="/UI/Content/CustomFlags/PWClassic/tester_yellow_name.txt" />
