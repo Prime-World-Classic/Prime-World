@@ -10,8 +10,8 @@
 	<shapeAlphaThreshold>0</shapeAlphaThreshold>
 	<shapeFileName>/UI/Styles/Icons/Flags/Custom/PWClassic/tester_yellow.shp</shapeFileName>
 	<size>
-		<height>260</height>
-		<width>260</width>
+		<height>65</height>
+		<width>65</width>
 	</size>
 	<srcFileName crc="0">/UI/Styles/Icons/Flags/Custom/PWClassic/tester_yellow.png</srcFileName>
 	<startMipLevel>0</startMipLevel>
