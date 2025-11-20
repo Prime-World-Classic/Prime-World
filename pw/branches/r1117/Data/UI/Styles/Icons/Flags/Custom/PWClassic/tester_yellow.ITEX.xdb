@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/UI/Content/CustomFlags/PWClassic/tester" Count="1" />
 	<BackLink DBID="/UI/Content/CustomFlags/PWClassic/tester_yellow" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
