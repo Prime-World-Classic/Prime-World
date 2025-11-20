@@ -5,6 +5,6 @@
 	<icon href="/UI/Styles/Icons/Flags/Custom/PWClassic/oblochko.ITEX" />
 	<id>oblochko</id>
 	<name textref="/UI/Content/CustomFlags/PWClassic/oblochko_name.txt" />
-	<Price>0</Price>
+	<Price>1</Price>
 	<tooltip textref="/UI/Content/CustomFlags/PWClassic/oblochko_tooltip.txt" />
 </CustomFlag>
