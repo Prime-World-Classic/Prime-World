@@ -1607,6 +1607,7 @@
 		<Item href="/UI/Content/CustomFlags/PWClassic/oblochko" />
 		<Item href="/UI/Content/CustomFlags/PWClassic/snow" />
 		<Item href="/UI/Content/CustomFlags/PWClassic/snowman" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/tester_yellow" />
 	</customFlags>
 	<dialogsSettings>
 		<defaultPhraseDuration>10</defaultPhraseDuration>
