@@ -42,6 +42,30 @@
 								</DamageApplicator>
 							</Item>
 							<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
+							<Item href="/Items/Talents/Class/MagicGirl/spell_A1_InstantDmg.SPLL" id="15094882-0D8A-4811-97EF-009FF25D86BF">
+								<DamageApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<cancelInvisibility>true</cancelInvisibility>
+									<caption>урон ночь</caption>
+									<damage>
+										<compiledString>FRAAAAABAAAAHAAAAEExdV9EYW1hZ2VOaWdodABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+										<returnType>float</returnType>
+										<sString>cA1u_DamageNight</sString>
+									</damage>
+									<damageMode>4</damageMode>
+									<damageType>Energy</damageType>
+									<enabled>
+										<compiledString>FR4AAAACAAAAJQAAAD4AAABNYWdpY0dpcmxfQTF1AAAATWFnaWNHaXJsX0ExdQBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuLVQyNBIqFwHQgi00QixGLTRCLgpAAAAD/0A+2yIXJdAnHRfQBAAAA6wfHRfQAAAAAikX0i+Vdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>tal("MagicGirl_A1u")+pSecond != 0 &amp;&amp; mIsNight</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<timeLimiter>-1</timeLimiter>
+									<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+								</DamageApplicator>
+							</Item>
 						</applicators>
 						<dispatch href="/Items/Talents/Class/MagicGirl/spell_A1_InstantDmg.SPLL" id="4143FE1F-75E8-4698-BF9A-E8256F6168DC">
 							<DispatchImmediate>

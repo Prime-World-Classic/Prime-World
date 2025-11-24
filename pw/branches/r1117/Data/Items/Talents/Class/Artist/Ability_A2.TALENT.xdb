@@ -634,6 +634,26 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Artist/const_A4_BounceEffect" />
 				<Item href="/Items/Talents/Class/Artist/const_A2_SUP_CDReduce" />
+				<Item href="/Items/Talents/Class/Artist/Ability_A2.TALENT" id="016F7C15-C96A-47D9-A2C2-20F3E87A5E2B">
+					<UnitConstant>
+						<name>A2_TotalHeal_SUP</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQQAASEM=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale( sIntellect, 20, 200 )</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Artist/Ability_A2.TALENT" id="F8B5FBFE-1A0A-403D-81FB-096DF110F145">
+					<UnitConstant>
+						<name>A2_Heal_SUP</name>
+						<var>
+							<compiledString>FUQAAAAEAAAAUwAAAG0AAACNAAAArQAAAEEyX1RvdGFsSGVhbF9TVVAAAAAAQTJfRHVyYXRpb24AQTJfUGVyaW9kAAAAQTRfQm91bmNlRWZmZWN0TW9kaWZpZXIAVYvsg+wci0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgUAAAAi1UQiwKLTRCLUFDdXfj/0tx9+ItFDFCLTQhRaCAAAACLVRCLAotNEItQUN1d8P/S3E3wi0UMUItNCFFoLAAAAItVEIsCi00Qi1BQ3V3o/9LcTejZXeTZReSL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>cA2_TotalHeal_SUP / cA2_Duration * cA2_Period * cA4_BounceEffectModifier</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

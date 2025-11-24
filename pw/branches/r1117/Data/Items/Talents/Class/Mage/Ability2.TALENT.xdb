@@ -1302,9 +1302,9 @@
 					<UnitConstant>
 						<name>ChannelTimeBase</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>1</sString>
+							<sString>0.9</sString>
 						</var>
 					</UnitConstant>
 				</Item>
