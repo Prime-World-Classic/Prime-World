@@ -36,29 +36,13 @@
 							<Item href="/Items/Talents/Class/Artist/status_A2_heal.APLR" id="8184CEE5-34E0-4C64-962F-3271BD106AA4">
 								<HealApplicator parent="/GameLogic/GeneralApplicators/Heal.APLR">
 									<amount>
-										<compiledString>FQgAAAABAAAAFAAAAEEyX0hlYWwAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+										<compiledString>FTQAAAAEAAAAOwAAAFQAAACSAAAAtgAAAEEyX0hlYWwAQXJ0aXN0X0EyX1NVUAAAAEFydGlzdF9BMl9TVVAAAABBMl9IZWFsX1NVUABVi+yD7BBoCAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQfi1UMUotFCFBoKAAAAItNEIsRi00Qi0JQ/9DZXfTrBdnu2V30i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DYRfTZXfDZRfCL5V3DAAAAAA==</compiledString>
 										<returnType>float</returnType>
-										<sString>cA2_Heal</sString>
+										<sString>cA2_Heal + (tal("Artist_A2_SUP") ? cA2_Heal_SUP : 0)</sString>
 									</amount>
 									<enabled>
 										<compiledString></compiledString>
 									</enabled>
-								</HealApplicator>
-							</Item>
-							<Item href="/Items/Talents/Class/Artist/status_A2_heal.APLR" id="E8A8F108-F074-40F6-AB33-57F90C5F36AB">
-								<HealApplicator parent="/GameLogic/GeneralApplicators/Heal.APLR">
-									<amount>
-										<compiledString>FQwAAAABAAAAGAAAAEEyX0hlYWxfU1VQAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-										<returnType>float</returnType>
-										<sString>cA2_Heal_SUP</sString>
-									</amount>
-									<caption>heal1</caption>
-									<enabled>
-										<compiledString>FR4AAAACAAAAJQAAAD4AAABBcnRpc3RfQTJfU1VQAAAAQXJ0aXN0X0EyX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
-										<returnType>bool</returnType>
-										<sString>tal("Artist_A2_SUP")</sString>
-									</enabled>
-									<healTarget>Health</healTarget>
 								</HealApplicator>
 							</Item>
 						</applicators>
