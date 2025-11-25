@@ -89,7 +89,7 @@
 	<description textref="/Items/Talents/Class/Rockman/Ability1Upg.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>9</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/Rockman/A1.ITEX" />
 	<imageSecondState href="" />
@@ -110,17 +110,28 @@
 	<name textref="/Items/Talents/Class/Rockman/Ability1Upg.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Class/Rockman/Ability1Upg.TALENT" id="DF7F2490-6F39-48BF-963C-BBF025019FAE">
-			<PermanentStatModApplicator>
+		<Item href="/Items/Talents/Class/Rockman/Ability1Upg.TALENT" id="5AAB318F-8994-4A68-9B97-EA9BDBC899F3">
+			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
 				<caption>Add_LifeRegAbs</caption>
-				<customApplyType>None</customApplyType>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
@@ -138,7 +149,13 @@
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>Rockman_A1_Upg</persistentId>

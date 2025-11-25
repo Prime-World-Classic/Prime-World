@@ -496,9 +496,9 @@
 					<UnitConstant>
 						<name>A2_TotalHeal</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAB8QgCA7UM=</compiledString>
+							<compiledString>FTEAAAAFAAAAOAAAAFEAAACPAAAArwAAALkAAABBcnRpc3RfQTJfU1VQAAAAQXJ0aXN0X0EyX1NVUAAAAEEyX1RvdGFsSGVhbF9TVVAAVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0H4tVDFKLRQhQaCAAAACLTRCLEYtNEItCUP/Q2V306wXZ7tld9GoBUdkF9gAAANkcJFHZBfIAAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2EX02V3w2UXwi+VdwwAAfEIAgO1DAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 63, 475 )</sString>
+							<sString>damageScale( sIntellect, 63, 475 ) + (tal("Artist_A2_SUP") ? cA2_TotalHeal_SUP : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
