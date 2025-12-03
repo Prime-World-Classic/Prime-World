@@ -1608,6 +1608,11 @@
 		<Item href="/UI/Content/CustomFlags/PWClassic/snow" />
 		<Item href="/UI/Content/CustomFlags/PWClassic/snowman" />
 		<Item href="/UI/Content/CustomFlags/PWClassic/tester_yellow" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/golden_dragon" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/clown" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/Mimimi" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/New_Years_skull" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/oak" />
 	</customFlags>
 	<dialogsSettings>
 		<defaultPhraseDuration>10</defaultPhraseDuration>
