@@ -154,9 +154,11 @@ function CheckDeadCaptain( victimId )
 		
 		if data.hero ~= "" and victim == data.hero then
 			
-			data.hero = ""
-			
 			data.state = false
+			
+			LuaRemoveStandaloneEffect( "CaptainStatus_" .. data.hero )
+			
+			data.hero = ""
 		
 		end
 	

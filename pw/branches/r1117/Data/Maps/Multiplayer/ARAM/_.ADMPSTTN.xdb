@@ -74,7 +74,7 @@
 				</Item>
 				<Item>
 					<key>CaptainGlyph</key>
-					<resource href="/Glyphs/Egg.GLPH" />
+					<resource href="/Glyphs/Captain.GLPH" />
 				</Item>
 				<Item>
 					<key>DeadEffect</key>

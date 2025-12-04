@@ -3,6 +3,7 @@
 	<BackLink DBID="/Glyphs/EggCreate.APLR" Count="1" />
 	<BackLink DBID="/Glyphs/EggCreate.TALENT" Count="1" />
 	<BackLink DBID="/Glyphs/EggTriggerDragon.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMPSTTN" Count="2" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
@@ -20,9 +21,7 @@
 		<sString>0.0f</sString>
 	</aoeSize>
 	<aoeType>None</aoeType>
-	<applicators>
-		<Item href="/Glyphs/UIEggEvent.APLR" />
-	</applicators>
+	<applicators />
 	<autoTargetSelector href="" />
 	<caption></caption>
 	<castAllowRange>
@@ -41,40 +40,9 @@
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
 	<conditionFormulas />
-	<constants href="/Glyphs/Egg.GLPH" id="CFE6AC2A-84C5-4246-A403-B268E5DE33DF">
+	<constants href="/Glyphs/Captain.GLPH" id="CFE6AC2A-84C5-4246-A403-B268E5DE33DF">
 		<UnitConstantsContainer>
-			<vars>
-				<Item href="/Glyphs/Egg.GLPH" id="AE7DBA7F-A472-40DF-8374-304C8A0A7A63">
-					<UnitConstant>
-						<name>ForbidInvis_Duration</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
-							<returnType>float</returnType>
-							<sString>-1</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Glyphs/Egg.GLPH" id="253E90DF-57F9-4E93-B7BB-766F38FFD0E2">
-					<UnitConstant>
-						<name>TECH_ForbidInvis_Condition</name>
-						<var>
-							<compiledString>FRIAAAACAAAAFwAAAC0AAABDVEVfU3RvcEVnZ1N0YXR1cwBVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1PAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
-							<returnType>float</returnType>
-							<sString>receiver.vCTE_StopEggStatus == 0</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Glyphs/Egg.GLPH" id="66FA6940-0417-4DA5-A3CC-58D12709F8F6">
-					<UnitConstant>
-						<name>SetMoveSpeed</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
-							<returnType>float</returnType>
-							<sString>40</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-			</vars>
+			<vars />
 		</UnitConstantsContainer>
 	</constants>
 	<cooldownTime>
@@ -87,8 +55,8 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</cooldownTimeSecondState>
-	<description textref="/Glyphs/Egg.GLPH_description.txt" />
-	<dispatch href="/Glyphs/Egg.GLPH" id="9C1F8A10-4C65-4BB3-89BF-95A342399EF5">
+	<description textref="/Glyphs/Captain.GLPH_description.txt" />
+	<dispatch href="/Glyphs/Captain.GLPH" id="9C1F8A10-4C65-4BB3-89BF-95A342399EF5">
 		<DispatchImmediate>
 			<alwaysApply>false</alwaysApply>
 			<applyEffect>
@@ -120,14 +88,14 @@
 	</manaCost>
 	<marker></marker>
 	<microAI href="" />
-	<minimapIcon>Egg</minimapIcon>
+	<minimapIcon>None</minimapIcon>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>0</naftaCost>
-	<name textref="/Glyphs/Egg.GLPH_name.txt" />
+	<name textref="/Glyphs/Captain.GLPH_name.txt" />
 	<node></node>
-	<openWarFogRadius>5</openWarFogRadius>
+	<openWarFogRadius>0</openWarFogRadius>
 	<passiveApplicators>
-		<Item href="/Glyphs/Egg.GLPH" id="EE5DB768-9155-4035-86D4-29BEDF2BE76F">
+		<Item href="/Glyphs/Captain.GLPH" id="EE5DB768-9155-4035-86D4-29BEDF2BE76F">
 			<SpellApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
 				<caption></caption>
@@ -139,10 +107,10 @@
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
-				<spell href="/Glyphs/Egg.GLPH" id="31C2CD0C-4677-4574-A4B5-62B016DD3FAD">
+				<spell href="/Glyphs/Captain.GLPH" id="31C2CD0C-4677-4574-A4B5-62B016DD3FAD">
 					<Spell>
 						<applicators />
-						<dispatch href="/Glyphs/Egg.GLPH" id="B86166B2-0D53-45F3-9FA0-789F9EFA7E2B">
+						<dispatch href="/Glyphs/Captain.GLPH" id="B86166B2-0D53-45F3-9FA0-789F9EFA7E2B">
 							<DispatchImmediate>
 								<alwaysApply>false</alwaysApply>
 								<applyEffect>
@@ -170,7 +138,7 @@
 	</passiveApplicators>
 	<pickupAbility href="/Maps/Multiplayer/CTE/EggChannel.ABLT" />
 	<requireLineOfSight>false</requireLineOfSight>
-	<shortDescription textref="/Glyphs/Egg.GLPH_shortDescription.txt" />
+	<shortDescription textref="" />
 	<targetType>7</targetType>
 	<type>Passive</type>
 	<useRange>
