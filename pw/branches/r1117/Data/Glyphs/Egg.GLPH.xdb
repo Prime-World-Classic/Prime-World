@@ -3,6 +3,7 @@
 	<BackLink DBID="/Glyphs/EggCreate.APLR" Count="1" />
 	<BackLink DBID="/Glyphs/EggCreate.TALENT" Count="1" />
 	<BackLink DBID="/Glyphs/EggTriggerDragon.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMPSTTN" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
