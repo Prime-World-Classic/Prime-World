@@ -19,7 +19,7 @@
 		<back href="/UI/Styles/LoadingBack/ARAM.ITEX" />
 		<logo href="" />
 	</loadingBackgroundImages>
-	<map href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" />
+	<map href="/Maps/Multiplayer/ARAM/_.ADMP" />
 	<mapSettings href="/Maps/Multiplayer/ARAM/_.ADMPSTTN" />
 	<mapType>PvP</mapType>
 	<mapWithBots href="" />
