@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PFTerrainTypeInfo>
 	<BackLink DBID="/Maps/Multiplayer/ARAM/_.TERN" Count="9" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM_SNOW/_.TERN" Count="8" />
 	<eType>Plains</eType>
 	<pDBMaterial href="/Terrain/Tiles/Snow2.TRTI" id="04119291-F0CF-42B8-812E-4B0D331C9061">
 		<TerrainMaterial>
