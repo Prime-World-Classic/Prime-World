@@ -393,6 +393,16 @@ function PointReceived( victimId, killerId )
 	
 		local victimName = LuaGetUnitObjectNameById( victimId )
 		
+		if LuaGetUnitTypeById( victimId ) == UnitTypeHeroMale then 
+			
+			LuaUnitApplyApplicator( killerName, "AddLife50" )
+			
+		else
+			
+			LuaUnitApplyApplicator( killerName, "AddLife10" )
+			
+		end
+		
 		local effectId = "PointReceived_" .. victimName;
 		
 		LuaPlaceAttachedEffect( effectId, "PointReceived", killerName )

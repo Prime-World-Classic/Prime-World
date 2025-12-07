@@ -58,7 +58,7 @@
 				</Item>
 				<Item>
 					<key>PointReceived</key>
-					<resource href="/Effects/Buffs/Sacrifice/_.EFFT" />
+					<resource href="/Effects/Buffs/Regen/_Gender.EFFT" />
 				</Item>
 				<Item>
 					<key>HealBuilding</key>
@@ -79,6 +79,14 @@
 				<Item>
 					<key>DeadEffect</key>
 					<resource href="/Effects/General/Firework/_Small.EFFT" />
+				</Item>
+				<Item>
+					<key>AddLife10</key>
+					<resource href="/Maps/Multiplayer/ARAM/Add_Life_10.APLR" />
+				</Item>
+				<Item>
+					<key>AddLife50</key>
+					<resource href="/Maps/Multiplayer/ARAM/Add_Life_50.APLR" />
 				</Item>
 			</resources>
 		</DictionaryPreloadingResources>
