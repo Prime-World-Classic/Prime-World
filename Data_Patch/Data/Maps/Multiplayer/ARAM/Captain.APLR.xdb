@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramApplicator>
-	<BackLink DBID="/Maps/Multiplayer/ARAM_SNOW/_.ADMPSTTN" Count="1" />
+	<BackLink DBID="/Glyphs/Captain.GLPH" Count="1" />
 	<applicators>
 		<Item>
 			<applicator href="/Maps/Multiplayer/ARAM/Captain.APLR" id="CA4868E7-FCB8-44B3-95CA-69A3A9E11B6D">

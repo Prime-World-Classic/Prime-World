@@ -21,7 +21,9 @@
 		<sString>0.0f</sString>
 	</aoeSize>
 	<aoeType>None</aoeType>
-	<applicators />
+	<applicators>
+		<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" />
+	</applicators>
 	<autoTargetSelector href="" />
 	<caption></caption>
 	<castAllowRange>
