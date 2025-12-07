@@ -159,6 +159,9 @@
 	<BackLink DBID="/Items/Talents/Class/Angel/status_A2_AuraBuff.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/appl_A3_HealPeriod.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Archeress/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Add_Life.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Add_Life_10.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/Add_Life_50.APLR" Count="1" />
 	<signRecipients>ALL_PLAYERS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventHeal.UIEV" id="878B438C-C615-4D95-A3F9-437FB33C2559">

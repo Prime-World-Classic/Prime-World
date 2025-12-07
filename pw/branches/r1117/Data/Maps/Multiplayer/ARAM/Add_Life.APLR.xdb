@@ -4,7 +4,7 @@
 	<amount>
 		<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQyLEItNDItCDP/Q3A0hAAAA2V382UX8i+VdwwAAAAAAANA/</compiledString>
 		<returnType>float</returnType>
-		<sString>rMaxLife*0.25</sString>
+		<sString>rMaxLife*0.25f</sString>
 	</amount>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<caption></caption>
@@ -18,5 +18,5 @@
 	<ignoreHealingMods>false</ignoreHealingMods>
 	<LoggingEvent>-1</LoggingEvent>
 	<providerName></providerName>
-	<uiEvent href="" />
+	<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
 </HealApplicator>
