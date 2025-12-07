@@ -136,7 +136,7 @@ function EventPickupGlyph( hero, glyph )
 		
 		if glyph == data.name and faction == LuaGetUnitFaction( hero ) then 
 		
-			LuaUnitApplyApplicator( hero, "CaptainAPL" )
+			--LuaUnitApplyApplicator( hero, "CaptainAPL" )
 			
 			LuaPlaceAttachedEffect( "CaptainStatus_" .. hero, "CaptainStatus", hero )
 			
@@ -156,7 +156,7 @@ function CheckDeadCaptain( victimId )
 		
 		if data.hero ~= "" and victim == data.hero then
 		
-			LuaHeroRemoveApplicator( victim, "CaptainAPL" )
+			--LuaHeroRemoveApplicator( victim, "CaptainAPL" )
 			
 			data.state = false
 			
