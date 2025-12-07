@@ -95,6 +95,26 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Maps/Multiplayer/ARAM_SNOW/Mains/AbilityToReduceCD.ABLT" id="82D44E3D-12DC-4FCB-913A-D034B42EBD5B">
+					<UnitConstant>
+						<name>HealPerKillCreep</name>
+						<var>
+							<compiledString>FRQAAAADAAAAIQAAADQAAAA+AAAATW9ydGFsU3RyaWtlX0Ftb3VudABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDVwAAADZ6N7h3A1MAAAA2V382UX8i+VdwwAAAAAAACRAAAAAAAAA8D8AAABA4XqEPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>10 * (1 - 0.01f * cMortalStrike_Amount)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Maps/Multiplayer/ARAM_SNOW/Mains/AbilityToReduceCD.ABLT" id="A40DBD46-EAF6-4C9A-8D23-E22105E5D17B">
+					<UnitConstant>
+						<name>HealPerKillHero</name>
+						<var>
+							<compiledString>FRQAAAADAAAAIQAAADQAAAA+AAAATW9ydGFsU3RyaWtlX0Ftb3VudABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDVwAAADZ6N7h3A1MAAAA2V382UX8i+VdwwAAAAAAAElAAAAAAAAA8D8AAABA4XqEPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>50 * (1 - 0.01f * cMortalStrike_Amount)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -131,6 +151,7 @@
 					<Item href="/Maps/Multiplayer/ARAM_SNOW/Mains/AbilityToReduceCD.ABLT" id="385C4B5E-2B79-4DB6-A96C-2543DE996229">
 						<StatusApplicator parent="/Heroes/DefaultStatus/_MORTALSTRIKE_Status.APLR">
 							<behaviorFlags>248</behaviorFlags>
+							<description textref="/Maps/Multiplayer/ARAM_SNOW/Mains/AbilityToReduceCD.ABLT_385c4b5e2b794db6a96c2543de996229_description.txt" />
 							<dispellPriority>NonDispellable</dispellPriority>
 							<effect>
 								<Item href="" />
