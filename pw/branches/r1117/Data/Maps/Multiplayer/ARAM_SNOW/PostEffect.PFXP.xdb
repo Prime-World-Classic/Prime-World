@@ -7,14 +7,14 @@
 			<Color>
 				<A>255</A>
 				<B>255</B>
-				<G>155</G>
-				<R>155</R>
+				<G>245</G>
+				<R>235</R>
 			</Color>
 			<ColorCastCoef>0.2</ColorCastCoef>
 			<Gamma>
 				<x>-0.15</x>
-				<y>-0.1</y>
-				<z>0.2</z>
+				<y>0.3</y>
+				<z>0.3</z>
 			</Gamma>
 			<InMax>
 				<x>255</x>
@@ -42,15 +42,15 @@
 		<Item>
 			<Color>
 				<A>255</A>
-				<B>88</B>
+				<B>255</B>
 				<G>245</G>
-				<R>255</R>
+				<R>235</R>
 			</Color>
 			<ColorCastCoef>0.2</ColorCastCoef>
 			<Gamma>
-				<x>-0.021</x>
-				<y>-0.011</y>
-				<z>-0.1</z>
+				<x>-0.06</x>
+				<y>0.06</y>
+				<z>0.03</z>
 			</Gamma>
 			<InMax>
 				<x>210</x>
@@ -79,13 +79,13 @@
 			<Color>
 				<A>255</A>
 				<B>255</B>
-				<G>205</G>
-				<R>200</R>
+				<G>245</G>
+				<R>235</R>
 			</Color>
 			<ColorCastCoef>0.2</ColorCastCoef>
 			<Gamma>
 				<x>-0.06</x>
-				<y>0</y>
+				<y>0.03</y>
 				<z>0.06</z>
 			</Gamma>
 			<InMax>
