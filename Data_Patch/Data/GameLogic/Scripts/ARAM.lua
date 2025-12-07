@@ -133,26 +133,30 @@ end
 function EventPickupGlyph( hero, glyph )
 	
 	for faction, data in ipairs( GetGlobalVar( "CAPTAIN_GLYPH" ) ) do 
-	
+		
 		if glyph == data.name and faction == LuaGetUnitFaction( hero ) then 
+		
+			LuaUnitApplyApplicator( hero, "CaptainAPL" )
 			
 			LuaPlaceAttachedEffect( "CaptainStatus_" .. hero, "CaptainStatus", hero )
 			
 			data.hero = hero
 			
 		end
-	
+		
 	end
-
+	
 end
 
 function CheckDeadCaptain( victimId )
-
+	
 	local victim = LuaGetUnitObjectNameById( victimId )
 	
 	for faction, data in ipairs( GetGlobalVar( "CAPTAIN_GLYPH" ) ) do 
 		
 		if data.hero ~= "" and victim == data.hero then
+		
+			LuaHeroRemoveApplicator( victim, "CaptainAPL" )
 			
 			data.state = false
 			
