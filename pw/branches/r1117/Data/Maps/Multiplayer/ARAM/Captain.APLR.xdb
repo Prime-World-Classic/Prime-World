@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramApplicator>
+	<BackLink DBID="/Maps/Multiplayer/ARAM_SNOW/_.ADMPSTTN" Count="1" />
 	<applicators>
 		<Item>
-			<applicator href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="CA4868E7-FCB8-44B3-95CA-69A3A9E11B6D">
+			<applicator href="/Maps/Multiplayer/ARAM/Captain.APLR" id="CA4868E7-FCB8-44B3-95CA-69A3A9E11B6D">
 				<StatusApplicator>
 					<applicators>
-						<Item href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="D9A17D3E-9FB2-4E51-9F34-4BF30D865A78">
+						<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" id="D9A17D3E-9FB2-4E51-9F34-4BF30D865A78">
 							<StatModApplicator>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<behaviorFlags>144</behaviorFlags>
@@ -13,7 +14,7 @@
 								<constraint>None</constraint>
 								<dontUpdate>false</dontUpdate>
 								<effect>
-									<Item href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="95BB4F0E-0231-41A1-A95E-B8B87F5424ED">
+									<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" id="95BB4F0E-0231-41A1-A95E-B8B87F5424ED">
 										<EffectList>
 											<deathType>Manual</deathType>
 											<effects>
@@ -62,7 +63,7 @@
 								<statModName>Haste_Percent</statModName>
 							</StatModApplicator>
 						</Item>
-						<Item href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="935CC8E4-408C-478F-8395-7446A47FA547">
+						<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" id="935CC8E4-408C-478F-8395-7446A47FA547">
 							<UIMessageApplicator>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<caption> - FlyOff Message</caption>
@@ -73,7 +74,7 @@
 								</enabled>
 								<formulaName></formulaName>
 								<LoggingEvent>-1</LoggingEvent>
-								<message textref="/Maps/Multiplayer/ARAM/captain_Program.APLR_935cc8e4408c478f83957446a47fa547_message.txt" />
+								<message textref="/Maps/Multiplayer/ARAM/Captain.APLR_935cc8e4408c478f83957446a47fa547_message.txt" />
 								<providerName></providerName>
 								<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff.UIEV" />
 								<value>
@@ -97,7 +98,7 @@
 						<returnType>float</returnType>
 						<sString>-1.0</sString>
 					</customProgress>
-					<description textref="/Maps/Multiplayer/ARAM/captain_Program.APLR_ca4868e7fcb844b395ca69a3a9e11b6d_description.txt" />
+					<description textref="/Maps/Multiplayer/ARAM/Captain.APLR_ca4868e7fcb844b395ca69a3a9e11b6d_description.txt" />
 					<dispellPriority>NonDispellable</dispellPriority>
 					<effect>
 						<Item href="/Effects/Buffs/SpeedingUp/_Move.EFFT" />
@@ -117,7 +118,7 @@
 						<sString>-1</sString>
 					</lifeTime>
 					<LoggingEvent>-1</LoggingEvent>
-					<name textref="/Maps/Multiplayer/ARAM/captain_Program.APLR_ca4868e7fcb844b395ca69a3a9e11b6d_name.txt" />
+					<name textref="/Maps/Multiplayer/ARAM/Captain.APLR_ca4868e7fcb844b395ca69a3a9e11b6d_name.txt" />
 					<power>10</power>
 					<providerName></providerName>
 					<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
@@ -151,10 +152,10 @@
 			<stopEvents>0</stopEvents>
 		</Item>
 		<Item>
-			<applicator href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="CF507108-7F47-4E3E-BC9C-BF46CC838AD7">
+			<applicator href="/Maps/Multiplayer/ARAM/Captain.APLR" id="CF507108-7F47-4E3E-BC9C-BF46CC838AD7">
 				<StatusApplicator>
 					<applicators>
-						<Item href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="1397F34E-153C-46FA-8ADE-EA4D5BDD3619">
+						<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" id="1397F34E-153C-46FA-8ADE-EA4D5BDD3619">
 							<StatModApplicator>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<behaviorFlags>144</behaviorFlags>
@@ -201,7 +202,7 @@
 								<statModName></statModName>
 							</StatModApplicator>
 						</Item>
-						<Item href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="292824F6-C4DB-4D79-BF1B-382C0337769A">
+						<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" id="292824F6-C4DB-4D79-BF1B-382C0337769A">
 							<StatModApplicator>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<behaviorFlags>144</behaviorFlags>
@@ -248,7 +249,7 @@
 								<statModName></statModName>
 							</StatModApplicator>
 						</Item>
-						<Item href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="38F27A81-3BA1-447D-8B1E-23283B86EDD5">
+						<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" id="38F27A81-3BA1-447D-8B1E-23283B86EDD5">
 							<StatModApplicator>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<behaviorFlags>144</behaviorFlags>
@@ -295,7 +296,7 @@
 								<statModName></statModName>
 							</StatModApplicator>
 						</Item>
-						<Item href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="F0255746-1CB4-47CE-B219-2279486522F4">
+						<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" id="F0255746-1CB4-47CE-B219-2279486522F4">
 							<StatModApplicator>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<behaviorFlags>144</behaviorFlags>
@@ -342,7 +343,7 @@
 								<statModName></statModName>
 							</StatModApplicator>
 						</Item>
-						<Item href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="EEC10C47-32B9-4337-BDA9-71A30F031E69">
+						<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" id="EEC10C47-32B9-4337-BDA9-71A30F031E69">
 							<StatModApplicator>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<behaviorFlags>144</behaviorFlags>
@@ -389,7 +390,7 @@
 								<statModName></statModName>
 							</StatModApplicator>
 						</Item>
-						<Item href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="205179F3-5241-4482-AF97-A9F0ACCE9B86">
+						<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" id="205179F3-5241-4482-AF97-A9F0ACCE9B86">
 							<StatModApplicator>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<behaviorFlags>144</behaviorFlags>
@@ -436,7 +437,7 @@
 								<statModName></statModName>
 							</StatModApplicator>
 						</Item>
-						<Item href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="F10F0AF0-9B04-405A-B3CF-1DFBBCE383EB">
+						<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" id="F10F0AF0-9B04-405A-B3CF-1DFBBCE383EB">
 							<StatModApplicator>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<behaviorFlags>144</behaviorFlags>
@@ -483,7 +484,7 @@
 								<statModName></statModName>
 							</StatModApplicator>
 						</Item>
-						<Item href="/Maps/Multiplayer/ARAM/captain_Program.APLR" id="A4BADC75-0D12-4AC8-8FB9-633A74710A6B">
+						<Item href="/Maps/Multiplayer/ARAM/Captain.APLR" id="A4BADC75-0D12-4AC8-8FB9-633A74710A6B">
 							<StatModApplicator>
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<behaviorFlags>144</behaviorFlags>
@@ -544,7 +545,7 @@
 						<returnType>float</returnType>
 						<sString>-1.0</sString>
 					</customProgress>
-					<description textref="/Maps/Multiplayer/ARAM/captain_Program.APLR_cf5071087f474e3ebc9cbf46cc838ad7_description.txt" />
+					<description textref="/Maps/Multiplayer/ARAM/Captain.APLR_cf5071087f474e3ebc9cbf46cc838ad7_description.txt" />
 					<dispellPriority>NonDispellable</dispellPriority>
 					<effect>
 						<Item href="" />
@@ -564,7 +565,7 @@
 						<sString>-1.0</sString>
 					</lifeTime>
 					<LoggingEvent>-1</LoggingEvent>
-					<name textref="/Maps/Multiplayer/ARAM/captain_Program.APLR_cf5071087f474e3ebc9cbf46cc838ad7_name.txt" />
+					<name textref="/Maps/Multiplayer/ARAM/Captain.APLR_cf5071087f474e3ebc9cbf46cc838ad7_name.txt" />
 					<power>10</power>
 					<providerName></providerName>
 					<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
