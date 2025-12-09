@@ -8474,24 +8474,6 @@
 			<gameObject href="/Terrain/Bushes/_3.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
-				<rotationX>8.940848</rotationX>
-				<rotationY>-23.07598</rotationY>
-				<rotationZ>38.6872</rotationZ>
-				<scaleX>0.8645185</scaleX>
-				<scaleY>0.8645185</scaleY>
-				<scaleZ>0.8645185</scaleZ>
-				<translateX>32.73756</translateX>
-				<translateY>160.4747</translateY>
-				<translateZ>0.2373497</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Bushes/_3.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
 				<rotationX>0</rotationX>
 				<rotationY>0</rotationY>
 				<rotationZ>4074.294</rotationZ>
@@ -16486,9 +16468,9 @@
 				<scaleX>0.5198953</scaleX>
 				<scaleY>0.5198953</scaleY>
 				<scaleZ>0.5198953</scaleZ>
-				<translateX>24.40884</translateX>
-				<translateY>110.9469</translateY>
-				<translateZ>0.2069559</translateZ>
+				<translateX>24.54565</translateX>
+				<translateY>113.645</translateY>
+				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -16540,9 +16522,9 @@
 				<scaleX>0.5198953</scaleX>
 				<scaleY>0.5198953</scaleY>
 				<scaleZ>0.5198953</scaleZ>
-				<translateX>26.70931</translateX>
-				<translateY>104.7095</translateY>
-				<translateZ>0.0950799</translateZ>
+				<translateX>24.62335</translateX>
+				<translateY>108.5257</translateY>
+				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -19363,7 +19345,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/Sakura3.SMPL" />
+			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -19561,42 +19543,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>81.09257</rotationZ>
-				<scaleX>0.763377</scaleX>
-				<scaleY>0.763377</scaleY>
-				<scaleZ>0.763377</scaleZ>
-				<translateX>229.0304</translateX>
-				<translateY>95.93667</translateY>
-				<translateZ>0.09505296</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>28.86238</rotationZ>
-				<scaleX>0.7009822</scaleX>
-				<scaleY>0.7009822</scaleY>
-				<scaleZ>0.7009822</scaleZ>
-				<translateX>229.3925</translateX>
-				<translateY>96.59103</translateY>
-				<translateZ>0.01849771</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Bushes/_2.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -19609,24 +19555,6 @@
 				<translateX>241.0521</translateX>
 				<translateY>96.73147</translateY>
 				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>28.86238</rotationZ>
-				<scaleX>0.7009822</scaleX>
-				<scaleY>0.7009822</scaleY>
-				<scaleZ>0.4687144</scaleZ>
-				<translateX>230.4929</translateX>
-				<translateY>96.77125</translateY>
-				<translateZ>-0.1367068</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -19806,24 +19734,6 @@
 				<scaleZ>0.9515898</scaleZ>
 				<translateX>243.9568</translateX>
 				<translateY>112.9779</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Bushes/_3.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>46.802</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>244.3111</translateX>
-				<translateY>122.7159</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -20065,24 +19975,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Bushes/_4.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>4.960736</rotationZ>
-				<scaleX>0.8390875</scaleX>
-				<scaleY>0.8390875</scaleY>
-				<scaleZ>0.8390875</scaleZ>
-				<translateX>246.7402</translateX>
-				<translateY>122.8147</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Stones/Flat02.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -20101,7 +19993,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/Sakura1.SMPL" />
+			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -20113,168 +20005,6 @@
 				<translateX>231.0983</translateX>
 				<translateY>96.51617</translateY>
 				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Lilies9B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>90.14803</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>239.3273</translateX>
-				<translateY>113.7256</translateY>
-				<translateZ>0.5755308</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>159.7025</rotationZ>
-				<scaleX>1.369231</scaleX>
-				<scaleY>1.369231</scaleY>
-				<scaleZ>1.369231</scaleZ>
-				<translateX>240.1553</translateX>
-				<translateY>112.2618</translateY>
-				<translateZ>-0.04999709</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>159.7923</rotationZ>
-				<scaleX>0.9619287</scaleX>
-				<scaleY>0.9619287</scaleY>
-				<scaleZ>0.9619287</scaleZ>
-				<translateX>214.5836</translateX>
-				<translateY>108.1006</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-130.6333</rotationZ>
-				<scaleX>1.195104</scaleX>
-				<scaleY>1.195104</scaleY>
-				<scaleZ>1.195104</scaleZ>
-				<translateX>241.5104</translateX>
-				<translateY>119.2326</translateY>
-				<translateZ>0.7335703</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>172.4946</rotationZ>
-				<scaleX>1.369231</scaleX>
-				<scaleY>1.369231</scaleY>
-				<scaleZ>1.369231</scaleZ>
-				<translateX>236.9786</translateX>
-				<translateY>105.8923</translateY>
-				<translateZ>0.2955494</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>159.7025</rotationZ>
-				<scaleX>1.369231</scaleX>
-				<scaleY>1.369231</scaleY>
-				<scaleZ>1.369231</scaleZ>
-				<translateX>240.2698</translateX>
-				<translateY>123.3592</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>550.9675</rotationZ>
-				<scaleX>1.369231</scaleX>
-				<scaleY>1.369231</scaleY>
-				<scaleZ>1.369231</scaleZ>
-				<translateX>234.3758</translateX>
-				<translateY>153.6035</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-157.7554</rotationZ>
-				<scaleX>0.9552732</scaleX>
-				<scaleY>0.9552732</scaleY>
-				<scaleZ>0.9552732</scaleZ>
-				<translateX>235.3459</translateX>
-				<translateY>106.0787</translateY>
-				<translateZ>0.2002978</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>226.8458</rotationZ>
-				<scaleX>1.275169</scaleX>
-				<scaleY>1.275169</scaleY>
-				<scaleZ>1.275169</scaleZ>
-				<translateX>247.5547</translateX>
-				<translateY>113.3539</translateY>
-				<translateZ>0.3987978</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -20821,7 +20551,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/Sakura3.SMPL" />
+			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -21055,7 +20785,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/Sakura3.SMPL" />
+			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -21235,24 +20965,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Bushes/_2.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-113.5484</rotationZ>
-				<scaleX>0.9005368</scaleX>
-				<scaleY>0.9005368</scaleY>
-				<scaleZ>0.9005368</scaleZ>
-				<translateX>201.6968</translateX>
-				<translateY>163.5137</translateY>
-				<translateZ>0.08818078</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Bushes/_1.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -21325,7 +21037,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/Sakura3.SMPL" />
+			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -21336,24 +21048,6 @@
 				<scaleZ>1.075803</scaleZ>
 				<translateX>223.8246</translateX>
 				<translateY>160.563</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Bushes/_4.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>95.66538</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>209.8929</translateX>
-				<translateY>161.1256</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -21427,24 +21121,6 @@
 				<translateX>214.539</translateX>
 				<translateY>163.9462</translateY>
 				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Bushes/_3.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>142.4667</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>210.917</translateX>
-				<translateY>164.0063</translateY>
-				<translateZ>-0.2260914</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -21582,24 +21258,6 @@
 			<offset>
 				<rotationX>0</rotationX>
 				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>207.2349</translateX>
-				<translateY>162.3953</translateY>
-				<translateZ>-0.1585135</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Bushes/_2.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
 				<rotationZ>95.66538</rotationZ>
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
@@ -21685,7 +21343,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/Sakura1.SMPL" />
+			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -22531,24 +22189,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Bushes/_3.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>540.9228</rotationZ>
-				<scaleX>0.7972481</scaleX>
-				<scaleY>0.7972481</scaleY>
-				<scaleZ>0.7972481</scaleZ>
-				<translateX>240.9476</translateX>
-				<translateY>142.1492</translateY>
-				<translateZ>0.23068</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Bushes/_2.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -22590,48 +22230,12 @@
 			<offset>
 				<rotationX>0</rotationX>
 				<rotationY>0</rotationY>
-				<rotationZ>516.5715</rotationZ>
-				<scaleX>1.083668</scaleX>
-				<scaleY>1.083668</scaleY>
-				<scaleZ>1.083668</scaleZ>
-				<translateX>239.5164</translateX>
-				<translateY>154.0194</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Bushes/_3.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
 				<rotationZ>597.2389</rotationZ>
 				<scaleX>0.8344455</scaleX>
 				<scaleY>0.8344455</scaleY>
 				<scaleZ>0.8344455</scaleZ>
 				<translateX>242.3857</translateX>
 				<translateY>150.7383</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Bushes/_3.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>622.9155</rotationZ>
-				<scaleX>0.7427944</scaleX>
-				<scaleY>0.7427944</scaleY>
-				<scaleZ>0.7427944</scaleZ>
-				<translateX>237.7787</translateX>
-				<translateY>152.8115</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -22693,7 +22297,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/Sakura3.SMPL" />
+			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27147,7 +26751,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27165,7 +26769,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27183,7 +26787,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27201,7 +26805,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27219,7 +26823,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27237,7 +26841,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27255,7 +26859,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27273,7 +26877,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27291,7 +26895,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27309,7 +26913,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27327,7 +26931,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27345,7 +26949,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -27363,7 +26967,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -30243,24 +29847,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Bushes/_4.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>93.11238</rotationZ>
-				<scaleX>0.8335214</scaleX>
-				<scaleY>0.8335214</scaleY>
-				<scaleZ>0.8335214</scaleZ>
-				<translateX>33.38328</translateX>
-				<translateY>161.8188</translateY>
-				<translateZ>0.6462183</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/BaseA/Bottom3.SMPL" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -30585,24 +30171,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Water/Lilies6B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>79.53094</rotationZ>
-				<scaleX>1.264003</scaleX>
-				<scaleY>1.264003</scaleY>
-				<scaleZ>1.264003</scaleZ>
-				<translateX>245.3456</translateX>
-				<translateY>120.9216</translateY>
-				<translateZ>0.1897299</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Bushes/_1.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -30633,24 +30201,6 @@
 				<translateX>238.5634</translateX>
 				<translateY>121.42</translateY>
 				<translateZ>0.0828464</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Bushes/_5.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>4.516548</rotationX>
-				<rotationY>2.553075</rotationY>
-				<rotationZ>0.1006965</rotationZ>
-				<scaleX>0.9668081</scaleX>
-				<scaleY>0.9668081</scaleY>
-				<scaleZ>0.9668081</scaleZ>
-				<translateX>207.6064</translateX>
-				<translateY>160.1997</translateY>
-				<translateZ>-0.008653164</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -30765,7 +30315,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -31161,24 +30711,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Bushes/_5.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>-1.431581</rotationX>
-				<rotationY>-7.128005</rotationY>
-				<rotationZ>71.94482</rotationZ>
-				<scaleX>1.141919</scaleX>
-				<scaleY>1.141919</scaleY>
-				<scaleZ>1.141919</scaleZ>
-				<translateX>49.19451</translateX>
-				<translateY>161.2409</translateY>
-				<translateZ>0.06550288</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Bushes/_2.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -31377,24 +30909,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Bushes/_8CTE.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>224.5654</rotationZ>
-				<scaleX>0.7994671</scaleX>
-				<scaleY>0.7994671</scaleY>
-				<scaleZ>0.7994671</scaleZ>
-				<translateX>56.66377</translateX>
-				<translateY>158.2217</translateY>
-				<translateZ>-0.5078745</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Effects/Environment/Insect/Butterfly1.SMPL" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -31485,7 +30999,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/Sakura1.SMPL" />
+			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -33417,8 +32931,8 @@
 				<scaleY>4.876123</scaleY>
 				<scaleZ>1</scaleZ>
 				<translateX>128.0325</translateX>
-				<translateY>57.81016</translateY>
-				<translateZ>-0.5164583</translateZ>
+				<translateY>54.86619</translateY>
+				<translateZ>-0.4058865</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -33509,24 +33023,6 @@
 				<translateX>248.1447</translateX>
 				<translateY>136.9918</translateY>
 				<translateZ>0.0006771088</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>245.875</translateX>
-				<translateY>132.9419</translateY>
-				<translateZ>0.04416704</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -35039,24 +34535,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Tech/UnLock.OBST" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>-2.33078</rotationX>
-				<rotationY>0.8265795</rotationY>
-				<rotationZ>41.80924</rotationZ>
-				<scaleX>0.4988111</scaleX>
-				<scaleY>0.3964892</scaleY>
-				<scaleZ>0.3293042</scaleZ>
-				<translateX>197.8755</translateX>
-				<translateY>139.5023</translateY>
-				<translateZ>0.1405656</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Tech/Lock.OBST" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -35111,7 +34589,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/Sakura1.SMPL" />
+			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -35339,60 +34817,6 @@
 				<translateX>233.6289</translateX>
 				<translateY>96.54589</translateY>
 				<translateZ>0.716475</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes2.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>234.9317</translateX>
-				<translateY>147.3191</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>225.029</translateX>
-				<translateY>155.9385</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Water/Canes3B.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>233.8814</translateX>
-				<translateY>145.8008</translateY>
-				<translateZ>-0.07819128</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -36089,7 +35513,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -36107,7 +35531,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -36651,7 +36075,7 @@
 								<y>120.6446</y>
 							</location>
 							<opacity>0</opacity>
-							<width>1.987935</width>
+							<width>2.477391</width>
 						</Item>
 						<Item>
 							<location>
@@ -36659,7 +36083,7 @@
 								<y>122.2421</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.646148</width>
+							<width>2.135604</width>
 						</Item>
 						<Item>
 							<location>
@@ -36667,79 +36091,79 @@
 								<y>135.7704</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.43918</width>
+							<width>1.928636</width>
 						</Item>
 						<Item>
 							<location>
-								<x>66.21472</x>
-								<y>142.1794</y>
+								<x>66.60236</x>
+								<y>140.7713</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.717274</width>
+							<width>1.685273</width>
 						</Item>
 						<Item>
 							<location>
-								<x>74.95531</x>
-								<y>143.1667</y>
+								<x>77.40112</x>
+								<y>142.3924</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.372711</width>
+							<width>1.792875</width>
 						</Item>
 						<Item>
 							<location>
-								<x>85.84428</x>
-								<y>146.0676</y>
+								<x>86.23884</x>
+								<y>144.8141</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.240078</width>
+							<width>1.351898</width>
 						</Item>
 						<Item>
 							<location>
-								<x>102.0412</x>
-								<y>147.5614</y>
+								<x>103.2917</x>
+								<y>145.3511</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.204708</width>
+							<width>1.689613</width>
 						</Item>
 						<Item>
 							<location>
-								<x>116.0054</x>
-								<y>143.4473</y>
+								<x>115.7332</x>
+								<y>141.9403</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.455712</width>
+							<width>2.332429</width>
 						</Item>
 						<Item>
 							<location>
-								<x>123.9752</x>
-								<y>147.3116</y>
+								<x>125.196</x>
+								<y>145.6069</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.5267</width>
+							<width>3.016156</width>
 						</Item>
 						<Item>
 							<location>
-								<x>137.4608</x>
-								<y>145.5618</y>
+								<x>137.501</x>
+								<y>143.5808</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.606731</width>
+							<width>1.201771</width>
 						</Item>
 						<Item>
 							<location>
-								<x>145.5757</x>
-								<y>144.6261</y>
+								<x>144.3899</x>
+								<y>142.9222</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.686762</width>
+							<width>1.932944</width>
 						</Item>
 						<Item>
 							<location>
-								<x>155.8705</x>
-								<y>146.1992</y>
+								<x>155.1811</x>
+								<y>142.565</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.86312</width>
+							<width>1.788271</width>
 						</Item>
 						<Item>
 							<location>
@@ -36747,7 +36171,7 @@
 								<y>144.9692</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.05622</width>
+							<width>1.571697</width>
 						</Item>
 						<Item>
 							<location>
@@ -36755,47 +36179,47 @@
 								<y>143.8515</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.93807</width>
+							<width>1.502948</width>
 						</Item>
 						<Item>
 							<location>
-								<x>183.8405</x>
-								<y>147.5766</y>
+								<x>183.4433</x>
+								<y>145.1037</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.414007</width>
+							<width>1.682966</width>
 						</Item>
 						<Item>
 							<location>
-								<x>193.0961</x>
-								<y>144.6038</y>
+								<x>191.945</x>
+								<y>145.535</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.293134</width>
+							<width>3.372509</width>
 						</Item>
 						<Item>
 							<location>
-								<x>195.3803</x>
-								<y>126.1767</y>
+								<x>193.5345</x>
+								<y>126.109</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.50258</width>
+							<width>1.514634</width>
 						</Item>
 						<Item>
 							<location>
-								<x>195.3608</x>
-								<y>112.1902</y>
+								<x>192.111</x>
+								<y>113.9341</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.497881</width>
+							<width>1.067711</width>
 						</Item>
 						<Item>
 							<location>
-								<x>188.1661</x>
-								<y>102.1726</y>
+								<x>185.6772</x>
+								<y>107.4391</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.980011</width>
+							<width>2.100707</width>
 						</Item>
 						<Item>
 							<location>
@@ -36803,15 +36227,15 @@
 								<y>108.9102</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.253062</width>
+							<width>2.742518</width>
 						</Item>
 						<Item>
 							<location>
-								<x>164.7325</x>
-								<y>106.894</y>
+								<x>164.7395</x>
+								<y>109.0935</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.862578</width>
+							<width>2.383086</width>
 						</Item>
 						<Item>
 							<location>
@@ -36819,47 +36243,47 @@
 								<y>106.8498</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.173181</width>
+							<width>2.662637</width>
 						</Item>
 						<Item>
 							<location>
-								<x>147.4699</x>
-								<y>105.6814</y>
+								<x>147.6933</x>
+								<y>106.6373</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.018012</width>
+							<width>3.507468</width>
 						</Item>
 						<Item>
 							<location>
-								<x>140.6407</x>
-								<y>106.1837</y>
-							</location>
-							<opacity>1</opacity>
-							<width>2.883291</width>
-						</Item>
-						<Item>
-							<location>
-								<x>132.6666</x>
-								<y>103.6627</y>
-							</location>
-							<opacity>1</opacity>
-							<width>4.703799</width>
-						</Item>
-						<Item>
-							<location>
-								<x>123.2254</x>
+								<x>140.07</x>
 								<y>105.9225</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.905247</width>
+							<width>2.833293</width>
 						</Item>
 						<Item>
 							<location>
-								<x>114.0947</x>
-								<y>106.3928</y>
+								<x>132.5296</x>
+								<y>107.0745</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.40999</width>
+							<width>2.499166</width>
+						</Item>
+						<Item>
+							<location>
+								<x>122.2445</x>
+								<y>107.5997</y>
+							</location>
+							<opacity>1</opacity>
+							<width>3.808178</width>
+						</Item>
+						<Item>
+							<location>
+								<x>113.8962</x>
+								<y>107.4221</y>
+							</location>
+							<opacity>1</opacity>
+							<width>2.691525</width>
 						</Item>
 						<Item>
 							<location>
@@ -36867,23 +36291,23 @@
 								<y>106.7644</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.91623</width>
+							<width>3.405686</width>
 						</Item>
 						<Item>
 							<location>
-								<x>94.309</x>
-								<y>107.3793</y>
+								<x>91.8136</x>
+								<y>109.8779</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.543803</width>
+							<width>3.033259</width>
 						</Item>
 						<Item>
 							<location>
-								<x>86.17545</x>
-								<y>107.3369</y>
+								<x>85.94094</x>
+								<y>109.2531</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.060233</width>
+							<width>3.549689</width>
 						</Item>
 						<Item>
 							<location>
@@ -36891,7 +36315,7 @@
 								<y>109.6511</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.713834</width>
+							<width>3.20329</width>
 						</Item>
 						<Item>
 							<location>
@@ -36899,15 +36323,15 @@
 								<y>109.9647</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.867877</width>
+							<width>2.357333</width>
 						</Item>
 						<Item>
 							<location>
-								<x>66.92725</x>
-								<y>111.7771</y>
+								<x>67.69592</x>
+								<y>112.0926</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.888526</width>
+							<width>2.457508</width>
 						</Item>
 						<Item>
 							<location>
@@ -36915,7 +36339,7 @@
 								<y>123.2211</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.599861</width>
+							<width>2.089317</width>
 						</Item>
 						<Item>
 							<location>
@@ -36923,7 +36347,7 @@
 								<y>127.1973</y>
 							</location>
 							<opacity>0</opacity>
-							<width>1.99501</width>
+							<width>1.381971</width>
 						</Item>
 					</points>
 					<properties>
@@ -38401,7 +37825,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -38419,7 +37843,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -38683,7 +38107,7 @@
 								<y>124.409</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.231749</width>
+							<width>2.742406</width>
 						</Item>
 						<Item>
 							<location>
@@ -38691,7 +38115,7 @@
 								<y>124.9388</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.056285</width>
+							<width>2.937324</width>
 						</Item>
 						<Item>
 							<location>
@@ -38771,32 +38195,32 @@
 						</Item>
 						<Item>
 							<location>
-								<x>124.2391</x>
-								<y>128.0786</y>
+								<x>123.6434</x>
+								<y>130.2055</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.504739</width>
+							<width>1.135736</width>
 						</Item>
 						<Item>
 							<location>
-								<x>125.4393</x>
-								<y>136.6573</y>
+								<x>121.4158</x>
+								<y>136.7413</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.319856</width>
+							<width>4.91038</width>
 						</Item>
 						<Item>
 							<location>
-								<x>136.6283</x>
-								<y>135.9395</y>
+								<x>137.2702</x>
+								<y>138.0035</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.287043</width>
+							<width>3.022548</width>
 						</Item>
 						<Item>
 							<location>
-								<x>134.7608</x>
-								<y>130.4696</y>
+								<x>139.3462</x>
+								<y>131.3153</y>
 							</location>
 							<opacity>1</opacity>
 							<width>0.5145605</width>
@@ -38807,7 +38231,7 @@
 								<y>126.7129</y>
 							</location>
 							<opacity>0</opacity>
-							<width>2.632539</width>
+							<width>5.251114</width>
 						</Item>
 					</points>
 					<properties>
@@ -38836,8 +38260,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>77.95807</translateX>
-				<translateY>124.6821</translateY>
+				<translateX>77.40851</translateX>
+				<translateY>124.3707</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -38881,7 +38305,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -38899,7 +38323,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -38917,7 +38341,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -38935,7 +38359,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -39781,7 +39205,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -39799,7 +39223,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -40267,7 +39691,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/Sakura3.SMPL" />
+			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -40339,7 +39763,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -41203,7 +40627,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -41221,7 +40645,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -42157,7 +41581,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -42175,7 +41599,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -42787,51 +42211,51 @@
 					<points>
 						<Item>
 							<location>
-								<x>133.183</x>
-								<y>119.7262</y>
+								<x>135.6184</x>
+								<y>120.6061</y>
 							</location>
 							<opacity>0</opacity>
-							<width>1.144184</width>
+							<width>2.891871</width>
 						</Item>
 						<Item>
 							<location>
-								<x>136.2809</x>
-								<y>115.8628</y>
+								<x>136.5471</x>
+								<y>116.5538</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.375744</width>
+							<width>3.098186</width>
 						</Item>
 						<Item>
 							<location>
-								<x>134.3588</x>
-								<y>110.5849</y>
+								<x>133.7386</x>
+								<y>111.8936</y>
 							</location>
 							<opacity>1</opacity>
-							<width>0.4797868</width>
+							<width>3.841347</width>
 						</Item>
 						<Item>
 							<location>
-								<x>127.664</x>
-								<y>112.7126</y>
+								<x>126.4202</x>
+								<y>111.5524</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.861138</width>
+							<width>4.715306</width>
 						</Item>
 						<Item>
 							<location>
-								<x>121.8248</x>
-								<y>114.9017</y>
+								<x>119.5792</x>
+								<y>114.2695</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.68576</width>
+							<width>3.394036</width>
 						</Item>
 						<Item>
 							<location>
-								<x>127.054</x>
-								<y>123.42</y>
+								<x>123.8943</x>
+								<y>123.0042</y>
 							</location>
 							<opacity>0</opacity>
-							<width>3.218766</width>
+							<width>0.6332504</width>
 						</Item>
 					</points>
 					<properties>
@@ -43337,7 +42761,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -43611,7 +43035,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -43647,7 +43071,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -43665,7 +43089,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_01.TREE" />
+			<gameObject href="/Terrain/Trees/_02Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -43831,60 +43255,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>123.5051</translateX>
-				<translateY>148.2591</translateY>
-				<translateZ>1.507644</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>122.3954</translateX>
-				<translateY>146.5407</translateY>
-				<translateZ>0.7780347</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>123.0645</translateX>
-				<translateY>147.1</translateY>
-				<translateZ>0.6350199</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/BaseB/Bottom3.SMPL" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -43921,7 +43291,7 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/Sakura3.SMPL" />
+			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>0</rotationX>
@@ -44173,420 +43543,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>115.3155</translateX>
-				<translateY>146.0051</translateY>
-				<translateZ>0.6350199</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>110.8756</translateX>
-				<translateY>148.557</translateY>
-				<translateZ>0.6350199</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>100.3449</translateX>
-				<translateY>150.1997</translateY>
-				<translateZ>0.6350199</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>90.87274</translateX>
-				<translateY>150.8705</translateY>
-				<translateZ>0.6350199</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>82.07504</translateX>
-				<translateY>148.5987</translateY>
-				<translateZ>0.6350199</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.5915899</scaleX>
-				<scaleY>0.5915899</scaleY>
-				<scaleZ>1.159605</scaleZ>
-				<translateX>159.9036</translateX>
-				<translateY>146.4906</translateY>
-				<translateZ>0.4296371</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>165.2892</translateX>
-				<translateY>146.5596</translateY>
-				<translateZ>0.8561667</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>182.7425</translateX>
-				<translateY>147.4439</translateY>
-				<translateZ>0.6516933</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>73.30128</translateX>
-				<translateY>106.528</translateY>
-				<translateZ>0.6350199</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>81.70879</translateX>
-				<translateY>106.7014</translateY>
-				<translateZ>0.6350199</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.5546733</scaleX>
-				<scaleY>0.5546733</scaleY>
-				<scaleZ>0.5546733</scaleZ>
-				<translateX>97.04009</translateX>
-				<translateY>103.943</translateY>
-				<translateZ>0.1797235</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.5199406</scaleX>
-				<scaleY>0.5199406</scaleY>
-				<scaleZ>0.5199406</scaleZ>
-				<translateX>118.7344</translateX>
-				<translateY>103.5292</translateY>
-				<translateZ>4.112149</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>118.3794</translateX>
-				<translateY>103.8102</translateY>
-				<translateZ>4.189073</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>136.1694</translateX>
-				<translateY>102.5333</translateY>
-				<translateZ>2.13136</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>147.8605</translateX>
-				<translateY>102.9991</translateY>
-				<translateZ>0.8119314</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>163.2991</translateX>
-				<translateY>104.7094</translateY>
-				<translateZ>0.9916904</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.5398859</scaleX>
-				<scaleY>0.5398859</scaleY>
-				<scaleZ>0.5398859</scaleZ>
-				<translateX>156.1352</translateX>
-				<translateY>105.2155</translateY>
-				<translateZ>0.647539</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>188.8721</translateX>
-				<translateY>106.312</translateY>
-				<translateZ>0.3271065</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>180.7319</translateX>
-				<translateY>104.2871</translateY>
-				<translateZ>0.6350199</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.5369508</scaleX>
-				<scaleY>0.5369508</scaleY>
-				<scaleZ>0.5369508</scaleZ>
-				<translateX>94.65607</translateX>
-				<translateY>146.8707</translateY>
-				<translateZ>0.4404378</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>73.03845</translateX>
-				<translateY>145.1192</translateY>
-				<translateZ>0.1834722</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.319264</scaleX>
-				<scaleY>0.319264</scaleY>
-				<scaleZ>0.319264</scaleZ>
-				<translateX>173.8921</translateX>
-				<translateY>144.9336</translateY>
-				<translateZ>1.071934</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Events/Halloween/Candle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>0.3944695</scaleX>
-				<scaleY>0.3944695</scaleY>
-				<scaleZ>0.7853083</scaleZ>
-				<translateX>131.9187</translateX>
-				<translateY>102.4518</translateY>
-				<translateZ>2.481665</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Events/NewYear/_.SMPL" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -44611,9 +43567,9 @@
 				<rotationX>0</rotationX>
 				<rotationY>0</rotationY>
 				<rotationZ>0</rotationZ>
-				<scaleX>1.580637</scaleX>
-				<scaleY>1.580637</scaleY>
-				<scaleZ>1.580637</scaleZ>
+				<scaleX>0.242402</scaleX>
+				<scaleY>0.242402</scaleY>
+				<scaleZ>0.242402</scaleZ>
 				<translateX>131.2878</translateX>
 				<translateY>142.1495</translateY>
 				<translateZ>0.04567304</translateZ>
@@ -45270,26 +44226,513 @@
 			<scriptGroupName></scriptGroupName>
 			<scriptName></scriptName>
 		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snowman.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>-43.48765</rotationZ>
+				<scaleX>1.4</scaleX>
+				<scaleY>1.4</scaleY>
+				<scaleZ>1.4</scaleZ>
+				<translateX>27.16294</translateX>
+				<translateY>120.8499</translateY>
+				<translateZ>-0.5688903</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snowman.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>-3.906841</rotationX>
+				<rotationY>-3.697841</rotationY>
+				<rotationZ>8.772058</rotationZ>
+				<scaleX>1.4</scaleX>
+				<scaleY>1.4</scaleY>
+				<scaleZ>1.4</scaleZ>
+				<translateX>209.8313</translateX>
+				<translateY>143.6376</translateY>
+				<translateZ>-0.5925138</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snowman.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>-3.906843</rotationX>
+				<rotationY>-3.697842</rotationY>
+				<rotationZ>-43.02984</rotationZ>
+				<scaleX>2.481939</scaleX>
+				<scaleY>2.481939</scaleY>
+				<scaleZ>2.481939</scaleZ>
+				<translateX>121.445</translateX>
+				<translateY>143.3084</translateY>
+				<translateZ>-1.240265</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snowman.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>-3.906843</rotationX>
+				<rotationY>-3.697841</rotationY>
+				<rotationZ>-98.90561</rotationZ>
+				<scaleX>2.481939</scaleX>
+				<scaleY>2.481939</scaleY>
+				<scaleZ>2.481939</scaleZ>
+				<translateX>138.2725</translateX>
+				<translateY>140.737</translateY>
+				<translateZ>-2.004835</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>34.47416</translateX>
+				<translateY>95.53662</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>69.47003</translateX>
+				<translateY>100.3258</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>78.37228</translateX>
+				<translateY>118.3927</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>34.31386</translateX>
+				<translateY>164.3837</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>20.77517</translateX>
+				<translateY>152.3375</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>57.6573</translateX>
+				<translateY>168.7994</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>235.8936</translateX>
+				<translateY>165.6931</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>247.0676</translateX>
+				<translateY>139.7779</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>241.312</translateX>
+				<translateY>125.2414</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>240.2352</translateX>
+				<translateY>112.0705</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>220.545</translateX>
+				<translateY>95.5284</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>180.2825</translateX>
+				<translateY>90.94564</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>201.3607</translateX>
+				<translateY>127.9632</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>131.9558</translateX>
+				<translateY>141.4244</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>116.192</translateX>
+				<translateY>138.7217</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>50.24793</translateX>
+				<translateY>109.7448</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>111.9267</translateX>
+				<translateY>124.558</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_Snow.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1</scaleX>
+				<scaleY>1</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>118.4883</translateX>
+				<translateY>157.0136</translateY>
+				<translateZ>0</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_FXTree.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>-90</rotationZ>
+				<scaleX>0.5388554</scaleX>
+				<scaleY>0.5388554</scaleY>
+				<scaleZ>0.5388554</scaleZ>
+				<translateX>121.1912</translateX>
+				<translateY>143.9341</translateY>
+				<translateZ>0.007159829</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_FXTree.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>-90</rotationZ>
+				<scaleX>0.4931043</scaleX>
+				<scaleY>0.4931043</scaleY>
+				<scaleZ>0.4931043</scaleZ>
+				<translateX>138.649</translateX>
+				<translateY>141.2241</translateY>
+				<translateZ>0.08536625</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_FXTree.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>-90</rotationZ>
+				<scaleX>0.3479879</scaleX>
+				<scaleY>0.3479879</scaleY>
+				<scaleZ>0.3479879</scaleZ>
+				<translateX>26.97366</translateX>
+				<translateY>121.1003</translateY>
+				<translateZ>0.007159829</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_FXTree.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>0.3307381</scaleX>
+				<scaleY>0.3307381</scaleY>
+				<scaleZ>0.3307381</scaleZ>
+				<translateX>209.4852</translateX>
+				<translateY>143.7575</translateY>
+				<translateZ>-0.008128643</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Tech/Lock.OBST" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>0.7637817</scaleX>
+				<scaleY>0.6951345</scaleY>
+				<scaleZ>0.1533572</scaleZ>
+				<translateX>131.3351</translateX>
+				<translateY>142.3269</translateY>
+				<translateZ>1.345901</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/Events/NewYear/_FXTree.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>0</rotationX>
+				<rotationY>0</rotationY>
+				<rotationZ>0</rotationZ>
+				<scaleX>1.630915</scaleX>
+				<scaleY>1.630915</scaleY>
+				<scaleZ>1.630915</scaleZ>
+				<translateX>131.195</translateX>
+				<translateY>142.1293</translateY>
+				<translateZ>-0.09103832</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
 	</objects>
 	<ObjectsLayerFileName>/Maps/Multiplayer/ARAM_SNOW/_.objectheight</ObjectsLayerFileName>
 	<pointLights>
-		<Item>
-			<attenuation>Normal</attenuation>
-			<diffuse>
-				<A>1</A>
-				<B>0.6078432</B>
-				<G>0.8431373</G>
-				<R>1</R>
-			</diffuse>
-			<diffuseIntensity>0.5</diffuseIntensity>
-			<flags>1</flags>
-			<location>
-				<x>57.77401</x>
-				<y>102.7434</y>
-				<z>12.66489</z>
-			</location>
-			<range>15</range>
-		</Item>
 		<Item>
 			<attenuation>Linear</attenuation>
 			<diffuse>
@@ -45298,14 +44741,14 @@
 				<G>0.2</G>
 				<R>0.1</R>
 			</diffuse>
-			<diffuseIntensity>15</diffuseIntensity>
+			<diffuseIntensity>5</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>34.21017</x>
 				<y>111.6603</y>
-				<z>15.04031</z>
+				<z>14.89201</z>
 			</location>
-			<range>15</range>
+			<range>10</range>
 		</Item>
 		<Item>
 			<attenuation>Linear</attenuation>
@@ -45332,12 +44775,12 @@
 				<G>0.24</G>
 				<R>0.23</R>
 			</diffuse>
-			<diffuseIntensity>2.5</diffuseIntensity>
+			<diffuseIntensity>2</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>79.09067</x>
 				<y>135.7544</y>
-				<z>6.652638</z>
+				<z>12.96226</z>
 			</location>
 			<range>15</range>
 		</Item>
@@ -45349,12 +44792,12 @@
 				<G>0.25</G>
 				<R>0.25</R>
 			</diffuse>
-			<diffuseIntensity>3</diffuseIntensity>
+			<diffuseIntensity>2</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>98.89593</x>
 				<y>125.8651</y>
-				<z>12.49542</z>
+				<z>14.64732</z>
 			</location>
 			<range>15</range>
 		</Item>
@@ -45366,12 +44809,12 @@
 				<G>0.25</G>
 				<R>0.25</R>
 			</diffuse>
-			<diffuseIntensity>3</diffuseIntensity>
+			<diffuseIntensity>2</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>160.0922</x>
 				<y>124.8259</y>
-				<z>13.36747</z>
+				<z>14.56329</z>
 			</location>
 			<range>15</range>
 		</Item>
@@ -45388,7 +44831,7 @@
 			<location>
 				<x>226.8713</x>
 				<y>147.0202</y>
-				<z>16.14889</z>
+				<z>16.88682</z>
 			</location>
 			<range>15</range>
 		</Item>
@@ -45405,24 +44848,7 @@
 			<location>
 				<x>199.7791</x>
 				<y>120.7323</y>
-				<z>11.15333</z>
-			</location>
-			<range>10</range>
-		</Item>
-		<Item>
-			<attenuation>Linear</attenuation>
-			<diffuse>
-				<A>1</A>
-				<B>0.4</B>
-				<G>0.2</G>
-				<R>0.1</R>
-			</diffuse>
-			<diffuseIntensity>5</diffuseIntensity>
-			<flags>3</flags>
-			<location>
-				<x>89.07516</x>
-				<y>145.9821</y>
-				<z>10.42753</z>
+				<z>12.54506</z>
 			</location>
 			<range>10</range>
 		</Item>
@@ -45434,12 +44860,12 @@
 				<G>0.24</G>
 				<R>0.23</R>
 			</diffuse>
-			<diffuseIntensity>2.5</diffuseIntensity>
+			<diffuseIntensity>2</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>86.27089</x>
 				<y>113.2716</y>
-				<z>6.652638</z>
+				<z>13.67472</z>
 			</location>
 			<range>15</range>
 		</Item>
@@ -45454,9 +44880,9 @@
 			<diffuseIntensity>2</diffuseIntensity>
 			<flags>3</flags>
 			<location>
-				<x>116.4537</x>
-				<y>138.833</y>
-				<z>3.66715</z>
+				<x>114.5468</x>
+				<y>138.7996</y>
+				<z>11.30011</z>
 			</location>
 			<range>15</range>
 		</Item>
@@ -45468,29 +44894,12 @@
 				<G>0.24</G>
 				<R>0.23</R>
 			</diffuse>
-			<diffuseIntensity>2.5</diffuseIntensity>
+			<diffuseIntensity>2</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>114.1087</x>
 				<y>115.9695</y>
-				<z>8.163982</z>
-			</location>
-			<range>15</range>
-		</Item>
-		<Item>
-			<attenuation>Linear</attenuation>
-			<diffuse>
-				<A>1</A>
-				<B>0.21</B>
-				<G>0.15</G>
-				<R>0.15</R>
-			</diffuse>
-			<diffuseIntensity>2.5</diffuseIntensity>
-			<flags>3</flags>
-			<location>
-				<x>129.7964</x>
-				<y>124.9352</y>
-				<z>6.652638</z>
+				<z>13.25111</z>
 			</location>
 			<range>15</range>
 		</Item>
@@ -45502,12 +44911,12 @@
 				<G>0.24</G>
 				<R>0.23</R>
 			</diffuse>
-			<diffuseIntensity>2.5</diffuseIntensity>
+			<diffuseIntensity>2</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>142.5025</x>
 				<y>112.5664</y>
-				<z>6.652638</z>
+				<z>13.60956</z>
 			</location>
 			<range>15</range>
 		</Item>
@@ -45519,12 +44928,12 @@
 				<G>0.24</G>
 				<R>0.23</R>
 			</diffuse>
-			<diffuseIntensity>3</diffuseIntensity>
+			<diffuseIntensity>2</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>175.9201</x>
 				<y>134.1036</y>
-				<z>6.652638</z>
+				<z>12.02726</z>
 			</location>
 			<range>15</range>
 		</Item>
@@ -45536,12 +44945,12 @@
 				<G>0.24</G>
 				<R>0.23</R>
 			</diffuse>
-			<diffuseIntensity>2.5</diffuseIntensity>
+			<diffuseIntensity>2</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>141.2641</x>
 				<y>135.9071</y>
-				<z>10.30265</z>
+				<z>16.00617</z>
 			</location>
 			<range>15</range>
 		</Item>
@@ -45553,12 +44962,12 @@
 				<G>0.24</G>
 				<R>0.23</R>
 			</diffuse>
-			<diffuseIntensity>2.5</diffuseIntensity>
+			<diffuseIntensity>2</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>184.2365</x>
 				<y>115.354</y>
-				<z>6.652638</z>
+				<z>12.8329</z>
 			</location>
 			<range>15</range>
 		</Item>
@@ -45570,12 +44979,12 @@
 				<G>0.3</G>
 				<R>0.3</R>
 			</diffuse>
-			<diffuseIntensity>5</diffuseIntensity>
+			<diffuseIntensity>2</diffuseIntensity>
 			<flags>3</flags>
 			<location>
-				<x>40.5532</x>
-				<y>135.4695</y>
-				<z>11.77484</z>
+				<x>43.67181</x>
+				<y>135.5405</y>
+				<z>10.90605</z>
 			</location>
 			<range>10</range>
 		</Item>
@@ -45587,12 +44996,12 @@
 				<G>0.3</G>
 				<R>0.3</R>
 			</diffuse>
-			<diffuseIntensity>5</diffuseIntensity>
+			<diffuseIntensity>3</diffuseIntensity>
 			<flags>3</flags>
 			<location>
 				<x>23.73228</x>
 				<y>138.1238</y>
-				<z>11.77484</z>
+				<z>11.6985</z>
 			</location>
 			<range>10</range>
 		</Item>
@@ -45607,9 +45016,9 @@
 			<diffuseIntensity>5</diffuseIntensity>
 			<flags>3</flags>
 			<location>
-				<x>48.73067</x>
-				<y>115.9417</y>
-				<z>11.77484</z>
+				<x>47.2218</x>
+				<y>118.8681</y>
+				<z>12.93527</z>
 			</location>
 			<range>10</range>
 		</Item>
@@ -45626,7 +45035,7 @@
 			<location>
 				<x>215.2012</x>
 				<y>125.4909</y>
-				<z>11.03446</z>
+				<z>12.00683</z>
 			</location>
 			<range>10</range>
 		</Item>
@@ -45643,7 +45052,7 @@
 			<location>
 				<x>18.77782</x>
 				<y>114.4679</y>
-				<z>11.52545</z>
+				<z>12.70693</z>
 			</location>
 			<range>10</range>
 		</Item>
@@ -45658,9 +45067,9 @@
 			<diffuseIntensity>5</diffuseIntensity>
 			<flags>3</flags>
 			<location>
-				<x>47.56708</x>
+				<x>49.73006</x>
 				<y>153.5877</y>
-				<z>11.77484</z>
+				<z>12.12805</z>
 			</location>
 			<range>10</range>
 		</Item>
@@ -45677,7 +45086,7 @@
 			<location>
 				<x>31.8306</x>
 				<y>158.1765</y>
-				<z>11.77484</z>
+				<z>13.02012</z>
 			</location>
 			<range>10</range>
 		</Item>
@@ -45692,9 +45101,9 @@
 			<diffuseIntensity>5</diffuseIntensity>
 			<flags>3</flags>
 			<location>
-				<x>220.9755</x>
-				<y>134.8904</y>
-				<z>11.06162</z>
+				<x>221.9628</x>
+				<y>133.7935</y>
+				<z>12.08875</z>
 			</location>
 			<range>10</range>
 		</Item>
@@ -45711,7 +45120,7 @@
 			<location>
 				<x>200.4052</x>
 				<y>137.0779</y>
-				<z>11.32261</z>
+				<z>12.82103</z>
 			</location>
 			<range>10</range>
 		</Item>
@@ -45728,7 +45137,7 @@
 			<location>
 				<x>215.948</x>
 				<y>114.6435</y>
-				<z>10.88118</z>
+				<z>11.9771</z>
 			</location>
 			<range>10</range>
 		</Item>
