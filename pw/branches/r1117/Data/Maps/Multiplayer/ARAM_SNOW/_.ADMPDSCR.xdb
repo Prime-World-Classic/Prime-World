@@ -16,7 +16,7 @@
 	<heroesOverride href="" />
 	<image href="/UI/Styles/Icons/Maps/MidOnly.ITEX" />
 	<loadingBackgroundImages>
-		<back href="/UI/Styles/LoadingBack/ARAM.ITEX" />
+		<back href="/UI/Styles/LoadingBack/ARAM_SNOW.ITEX" />
 		<logo href="" />
 	</loadingBackgroundImages>
 	<map href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" />
