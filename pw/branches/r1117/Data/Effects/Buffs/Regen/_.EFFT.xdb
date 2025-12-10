@@ -18,7 +18,6 @@
 	<BackLink DBID="/Items/Talents/Level2/G623_SelfHeal.TALENT" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/CTE/CTE_LifeRestorer.GLPH" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Moba_LifeRestorer.GLPH" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/ARAM_SNOW/_.ADMPSTTN" Count="1" />
 	<attachFlags>1</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/Buffs/Regen/_TRS.PRXY" />
