@@ -58,7 +58,7 @@
 				</Item>
 				<Item>
 					<key>PointReceived</key>
-					<resource href="/Effects/Buffs/Regen/_.EFFT" />
+					<resource href="/Effects/Buffs/Regen/_Gender.EFFT" />
 				</Item>
 				<Item>
 					<key>HealBuilding</key>
