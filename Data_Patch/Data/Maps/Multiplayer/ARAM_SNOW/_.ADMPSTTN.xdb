@@ -21,34 +21,6 @@
 		<DictionaryPreloadingResources>
 			<resources>
 				<Item>
-					<key>ZombieA</key>
-					<resource href="/Creeps/Normals/Normal11/PvP_A.CREEP" />
-				</Item>
-				<Item>
-					<key>Ghost</key>
-					<resource href="/Creeps/Normals/Normal8/PvE_Coop1.CREEP" />
-				</Item>
-				<Item>
-					<key>ZombieB</key>
-					<resource href="/Creeps/Normals/Normal11/PvP_B.CREEP" />
-				</Item>
-				<Item>
-					<key>MainBuildingBuff</key>
-					<resource href="/Maps/Multiplayer/MOBA/Mod2/AbilityZombie.ABLT" />
-				</Item>
-				<Item>
-					<key>SuperInventor</key>
-					<resource href="/Creeps/A/SuperHeavy/InventorSummon.CREEP" />
-				</Item>
-				<Item>
-					<key>CompanionA</key>
-					<resource href="/Creeps/Normals/Normal11/PvP_CompanionA.CREEP" />
-				</Item>
-				<Item>
-					<key>CompanionB</key>
-					<resource href="/Creeps/Normals/Normal11/PvP_CompanionB.CREEP" />
-				</Item>
-				<Item>
 					<key>Dragon</key>
 					<resource href="/Creeps/Bosses/Boss1/PVP_ARAM.CREEP" />
 				</Item>
@@ -112,7 +84,7 @@
 	<hintsCollection href="/Maps/Multiplayer/ARAM_SNOW/Hint" />
 	<maxRequiredHeroForce>10000</maxRequiredHeroForce>
 	<minRequiredHeroForce>0</minRequiredHeroForce>
-	<overrideBotsSettings href="/Maps/Multiplayer/ARAM_SNOW/_.BOTS" />
+	<overrideBotsSettings href="/Maps/Multiplayer/ARAM/_.BOTS" />
 	<overrideGlyphSettings href="/Maps/Multiplayer/ARAM_SNOW/_.ADMPSTTN" id="56EB6385-1CD7-44A7-997A-082848E9DBB5">
 		<GlyphManagerParams>
 			<glyphs href="/Maps/Multiplayer/ARAM_SNOW/_.ADMPSTTN" id="588EA9F2-D619-4E75-B4AF-7779DDE526FD">

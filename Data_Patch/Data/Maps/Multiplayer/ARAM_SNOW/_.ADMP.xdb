@@ -14,7 +14,7 @@
 		<dynObjLightingGridResX>5</dynObjLightingGridResX>
 		<dynObjLightingGridResY>5</dynObjLightingGridResY>
 		<renderedEnvironmentEffect>0.5</renderedEnvironmentEffect>
-		<renderedEnvironmentRange>10</renderedEnvironmentRange>
+		<renderedEnvironmentRange>1</renderedEnvironmentRange>
 		<vertexColorsFileName>/Maps/Multiplayer/ARAM_SNOW/_.vtxcolor</vertexColorsFileName>
 	</bakedLighting>
 	<cameraSettings href="/Maps/Multiplayer/ARAM_SNOW/Camera/aram" />
@@ -146,8 +146,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>40.01286</translateX>
-				<translateY>112.3221</translateY>
+				<translateX>38.88496</translateX>
+				<translateY>111.2651</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -164,8 +164,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>37.71637</translateX>
-				<translateY>106.2751</translateY>
+				<translateX>36.59416</translateX>
+				<translateY>106.3297</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -182,8 +182,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>224.8211</translateX>
-				<translateY>151.9922</translateY>
+				<translateX>223.2077</translateX>
+				<translateY>151.6514</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -200,8 +200,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>222.3196</translateX>
-				<translateY>141.6839</translateY>
+				<translateX>226.645</translateX>
+				<translateY>147.6897</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -218,8 +218,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>207.7079</translateX>
-				<translateY>149.2738</translateY>
+				<translateX>222.5119</translateX>
+				<translateY>157.2245</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -7355,24 +7355,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/BaseA/Bottom3.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>-1.704544</rotationX>
-				<rotationY>-1.671968</rotationY>
-				<rotationZ>-45.51557</rotationZ>
-				<scaleX>0.8165097</scaleX>
-				<scaleY>0.8165097</scaleY>
-				<scaleZ>0.8165097</scaleZ>
-				<translateX>55.87219</translateX>
-				<translateY>101.2761</translateY>
-				<translateZ>0.01512289</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" id="4C26DA2C-5808-4E8B-9E43-13C81D72692F">
 				<Road>
 					<bakedFileName>/Maps/Multiplayer/ARAM_SNOW/__4c26da2c58084e8b9e4313c81d72692f.road</bakedFileName>
@@ -7481,35 +7463,17 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/BaseA/Crane.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-151.1445</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>0.769483</scaleZ>
-				<translateX>56.56169</translateX>
-				<translateY>101.1058</translateY>
-				<translateZ>-0.3717418</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/Shops/_A.SHOP" />
 			<lockMap>true</lockMap>
 			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-110</rotationZ>
+				<rotationX>2.375059</rotationX>
+				<rotationY>-0.4170394</rotationY>
+				<rotationZ>90.59818</rotationZ>
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>46.39243</translateX>
-				<translateY>103.7078</translateY>
+				<translateX>21.83921</translateX>
+				<translateY>111.0744</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -8690,14 +8654,14 @@
 			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/Temples/_A.FNTN" />
 			<lockMap>true</lockMap>
 			<offset>
-				<rotationX>-0.04828143</rotationX>
-				<rotationY>-0.1810773</rotationY>
-				<rotationZ>130</rotationZ>
+				<rotationX>-0.2929569</rotationX>
+				<rotationY>-5.327139</rotationY>
+				<rotationZ>-124.7964</rotationZ>
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>21.95385</translateX>
-				<translateY>100.2871</translateY>
+				<translateX>46.4126</translateX>
+				<translateY>107.1459</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -8708,15 +8672,15 @@
 			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/Temples/_B.FNTN" />
 			<lockMap>true</lockMap>
 			<offset>
-				<rotationX>0.4739254</rotationX>
-				<rotationY>0.06493874</rotationY>
-				<rotationZ>-18.94117</rotationZ>
+				<rotationX>-0.5098583</rotationX>
+				<rotationY>-0.2761725</rotationY>
+				<rotationZ>48.60359</rotationZ>
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>232.0659</translateX>
-				<translateY>159.7417</translateY>
-				<translateZ>-0.8811047</translateZ>
+				<translateX>211.638</translateX>
+				<translateY>151.1023</translateY>
+				<translateZ>-0.1856546</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -14789,110 +14753,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" id="004EDA90-6143-45E1-8B70-0D9DB3EEABC2">
-				<AdvMapWaterZone>
-					<area>
-						<AbsolutePosition>false</AbsolutePosition>
-						<HasWidth>false</HasWidth>
-						<IsCircle>true</IsCircle>
-						<points>
-							<Item>
-								<location>
-									<x>-0.9794464</x>
-									<y>-20.35124</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>6.289963</x>
-									<y>-19.53123</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>9.029709</x>
-									<y>-12.10551</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>8.077576</x>
-									<y>0.515007</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>11.26692</x>
-									<y>19.43067</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>0.3438721</x>
-									<y>23.29168</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-11.46835</x>
-									<y>21.79008</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-7.515022</x>
-									<y>1.475128</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-7.783066</x>
-									<y>-17.47569</y>
-								</location>
-								<width>0</width>
-							</Item>
-						</points>
-					</area>
-					<collision>
-						<x1>0</x1>
-						<x2>0</x2>
-						<y1>0</y1>
-						<y2>0</y2>
-					</collision>
-					<heightObject>false</heightObject>
-					<lockMask>
-						<mask />
-						<tileSize>0.5</tileSize>
-					</lockMask>
-					<minLockScale>0</minLockScale>
-					<rounded>false</rounded>
-				</AdvMapWaterZone>
-			</gameObject>
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>262.192</rotationZ>
-				<scaleX>1.254097</scaleX>
-				<scaleY>1.254097</scaleY>
-				<scaleZ>1.254097</scaleZ>
-				<translateX>129.8763</translateX>
-				<translateY>124.7435</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -16452,7 +16312,7 @@
 				<scaleZ>1.595079</scaleZ>
 				<translateX>34.05237</translateX>
 				<translateY>111.1962</translateY>
-				<translateZ>-0.08504081</translateZ>
+				<translateZ>-0.03756237</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -16468,8 +16328,8 @@
 				<scaleX>0.5198953</scaleX>
 				<scaleY>0.5198953</scaleY>
 				<scaleZ>0.5198953</scaleZ>
-				<translateX>24.54565</translateX>
-				<translateY>113.645</translateY>
+				<translateX>24.59901</translateX>
+				<translateY>113.6406</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -16522,8 +16382,8 @@
 				<scaleX>0.5198953</scaleX>
 				<scaleY>0.5198953</scaleY>
 				<scaleZ>0.5198953</scaleZ>
-				<translateX>24.62335</translateX>
-				<translateY>108.5257</translateY>
+				<translateX>24.50198</translateX>
+				<translateY>108.5663</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -16592,74 +16452,6 @@
 				<scaleZ>1</scaleZ>
 				<translateX>16.41853</translateX>
 				<translateY>123.1232</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" id="50CC9E60-5BA4-4E6B-8651-224ED6A543DD">
-				<Road>
-					<bakedFileName>/Maps/Multiplayer/ARAM_SNOW/__50cc9e605ba44e6b8651224ed6a543dd.road</bakedFileName>
-					<collision>
-						<x1>0</x1>
-						<x2>0</x2>
-						<y1>0</y1>
-						<y2>0</y2>
-					</collision>
-					<heightObject>false</heightObject>
-					<lockMask>
-						<mask />
-						<tileSize>0.5</tileSize>
-					</lockMask>
-					<minLockScale>0</minLockScale>
-					<points>
-						<Item>
-							<location>
-								<x>20.78786</x>
-								<y>98.51011</y>
-							</location>
-							<opacity>1</opacity>
-							<width>3</width>
-						</Item>
-						<Item>
-							<location>
-								<x>34.85418</x>
-								<y>112.2009</y>
-							</location>
-							<opacity>1</opacity>
-							<width>3</width>
-						</Item>
-					</points>
-					<properties>
-						<border>0.7</border>
-						<falloff>0.1</falloff>
-						<fit>false</fit>
-						<flip>false</flip>
-						<materialA href="/Terrain/Roads/road01A.MTRL" />
-						<materialB href="/Terrain/Roads/empty.MTRL" />
-						<materialN href="/Terrain/Roads/empty.MTRL" />
-						<opacity>1</opacity>
-						<priority>1</priority>
-						<tileU>0.3</tileU>
-						<tileV>0.3</tileV>
-						<tileVBorder>0.2</tileVBorder>
-						<width>1</width>
-					</properties>
-					<rounded>false</rounded>
-				</Road>
-			</gameObject>
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>27.2598</translateX>
-				<translateY>104.8832</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -19043,74 +18835,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" id="8535D82F-7577-4C25-AAC3-BA1CEA296C69">
-				<Road>
-					<bakedFileName>/Maps/Multiplayer/ARAM_SNOW/__8535d82f75774c25aac3ba1cea296c69.road</bakedFileName>
-					<collision>
-						<x1>0</x1>
-						<x2>0</x2>
-						<y1>0</y1>
-						<y2>0</y2>
-					</collision>
-					<heightObject>false</heightObject>
-					<lockMask>
-						<mask />
-						<tileSize>0.5</tileSize>
-					</lockMask>
-					<minLockScale>0</minLockScale>
-					<points>
-						<Item>
-							<location>
-								<x>55.74752</x>
-								<y>125.0624</y>
-							</location>
-							<opacity>1</opacity>
-							<width>3</width>
-						</Item>
-						<Item>
-							<location>
-								<x>55.896</x>
-								<y>100.6933</y>
-							</location>
-							<opacity>1</opacity>
-							<width>3</width>
-						</Item>
-					</points>
-					<properties>
-						<border>0.7</border>
-						<falloff>0.1</falloff>
-						<fit>false</fit>
-						<flip>false</flip>
-						<materialA href="/Terrain/Roads/road01A.MTRL" />
-						<materialB href="/Terrain/Roads/empty.MTRL" />
-						<materialN href="/Terrain/Roads/empty.MTRL" />
-						<opacity>1</opacity>
-						<priority>1</priority>
-						<tileU>0.3</tileU>
-						<tileV>0.3</tileV>
-						<tileVBorder>0.2</tileVBorder>
-						<width>1</width>
-					</properties>
-					<rounded>false</rounded>
-				</Road>
-			</gameObject>
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>57.73945</translateX>
-				<translateY>113.8545</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Bushes/_3.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -21037,24 +20761,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>261.5403</rotationZ>
-				<scaleX>1.075803</scaleX>
-				<scaleY>1.075803</scaleY>
-				<scaleZ>1.075803</scaleZ>
-				<translateX>223.8246</translateX>
-				<translateY>160.563</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Bushes/_4.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -21067,24 +20773,6 @@
 				<translateX>203.2784</translateX>
 				<translateY>162.8443</translateY>
 				<translateZ>-0.01646256</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Trees/_03Snow.TREE" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-164.3345</rotationZ>
-				<scaleX>0.8350577</scaleX>
-				<scaleY>0.8350577</scaleY>
-				<scaleZ>0.8350577</scaleZ>
-				<translateX>220.7514</translateX>
-				<translateY>159.6417</translateY>
-				<translateZ>0.008251667</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -21282,24 +20970,6 @@
 				<scaleZ>1.207162</scaleZ>
 				<translateX>200.7925</translateX>
 				<translateY>154.4639</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/Bushes/_2.MSO" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>95.66538</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>222.0219</translateX>
-				<translateY>158.5011</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -22243,24 +21913,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Terrain/BaseB/Arch.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-80.22576</rotationZ>
-				<scaleX>1.238922</scaleX>
-				<scaleY>1.238922</scaleY>
-				<scaleZ>1.238922</scaleZ>
-				<translateX>215.5105</translateX>
-				<translateY>159.5847</translateY>
-				<translateZ>-0.005783796</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Stones/Rough05.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -22327,24 +21979,6 @@
 				<translateX>204.4005</translateX>
 				<translateY>106.3885</translateY>
 				<translateZ>0.1914895</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/BaseB/Turtle.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>-47.62137</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>213.0951</translateX>
-				<translateY>157.6669</translateY>
-				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -23018,106 +22652,6 @@
 				<scaleZ>1</scaleZ>
 				<translateX>224.2727</translateX>
 				<translateY>139.916</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" id="A9B5468E-3C4C-4EA0-AE06-5BF431E2647B">
-				<Road>
-					<bakedFileName>/Maps/Multiplayer/ARAM_SNOW/__a9b5468e3c4c4ea0ae065bf431e2647b.road</bakedFileName>
-					<collision>
-						<x1>0</x1>
-						<x2>0</x2>
-						<y1>0</y1>
-						<y2>0</y2>
-					</collision>
-					<heightObject>false</heightObject>
-					<lockMask>
-						<mask />
-						<tileSize>0.5</tileSize>
-					</lockMask>
-					<minLockScale>0</minLockScale>
-					<points>
-						<Item>
-							<location>
-								<x>207.9041</x>
-								<y>136.5524</y>
-							</location>
-							<opacity>0</opacity>
-							<width>2.182542</width>
-						</Item>
-						<Item>
-							<location>
-								<x>203.4395</x>
-								<y>140.7758</y>
-							</location>
-							<opacity>1</opacity>
-							<width>2.091271</width>
-						</Item>
-						<Item>
-							<location>
-								<x>202.1724</x>
-								<y>147.1252</y>
-							</location>
-							<opacity>1</opacity>
-							<width>2</width>
-						</Item>
-						<Item>
-							<location>
-								<x>203.9421</x>
-								<y>153.0586</y>
-							</location>
-							<opacity>1</opacity>
-							<width>2</width>
-						</Item>
-						<Item>
-							<location>
-								<x>208.0766</x>
-								<y>156.4722</y>
-							</location>
-							<opacity>1</opacity>
-							<width>2</width>
-						</Item>
-						<Item>
-							<location>
-								<x>211.1399</x>
-								<y>157.4962</y>
-							</location>
-							<opacity>0</opacity>
-							<width>2</width>
-						</Item>
-					</points>
-					<properties>
-						<border>0</border>
-						<falloff>1</falloff>
-						<fit>true</fit>
-						<flip>false</flip>
-						<materialA href="/Terrain/Roads/SmallRoadA.MTRL" />
-						<materialB href="/Terrain/Roads/roadBaseB.MTRL" />
-						<materialN href="/Terrain/Roads/SmallRoadN.MTRL" />
-						<opacity>1</opacity>
-						<priority>0.9</priority>
-						<tileU>1</tileU>
-						<tileV>0.25</tileV>
-						<tileVBorder>1</tileVBorder>
-						<width>0.8</width>
-					</properties>
-					<rounded>false</rounded>
-				</Road>
-			</gameObject>
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>212.2336</translateX>
-				<translateY>139.6837</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -24341,250 +23875,6 @@
 				<translateX>148.3891</translateX>
 				<translateY>77.06293</translateY>
 				<translateZ>-0.02025127</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" id="321C6EA9-686B-4810-82AF-ED3033E34813">
-				<AdvMapWaterZone>
-					<area>
-						<AbsolutePosition>false</AbsolutePosition>
-						<HasWidth>false</HasWidth>
-						<IsCircle>true</IsCircle>
-						<points>
-							<Item>
-								<location>
-									<x>-16.82063</x>
-									<y>-34.86404</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-5.905777</x>
-									<y>-41.47719</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>10.90868</x>
-									<y>-38.33863</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>22.79601</x>
-									<y>-26.30955</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>18.68266</x>
-									<y>-4.895844</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>19.02094</x>
-									<y>4.96524</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>20.44513</x>
-									<y>12.89122</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>14.90617</x>
-									<y>21.31795</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>4.216736</x>
-									<y>31.08989</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-3.995438</x>
-									<y>22.49249</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-11.95786</x>
-									<y>21.48044</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-22.07356</x>
-									<y>16.07349</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-22.70262</x>
-									<y>11.62329</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-23.00835</x>
-									<y>-1.996445</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-18.49539</x>
-									<y>-12.87524</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-21.07727</x>
-									<y>-19.5932</y>
-								</location>
-								<width>0</width>
-							</Item>
-							<Item>
-								<location>
-									<x>-19.59962</x>
-									<y>-27.20619</y>
-								</location>
-								<width>0</width>
-							</Item>
-						</points>
-					</area>
-					<collision>
-						<x1>0</x1>
-						<x2>0</x2>
-						<y1>0</y1>
-						<y2>0</y2>
-					</collision>
-					<heightObject>false</heightObject>
-					<lockMask>
-						<mask />
-						<tileSize>0.5</tileSize>
-					</lockMask>
-					<minLockScale>0</minLockScale>
-					<rounded>false</rounded>
-				</AdvMapWaterZone>
-			</gameObject>
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>609.5302</rotationZ>
-				<scaleX>1.011291</scaleX>
-				<scaleY>1.011291</scaleY>
-				<scaleZ>1.011291</scaleZ>
-				<translateX>227.6981</translateX>
-				<translateY>139.0747</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" id="4B9C6BE5-17A7-4585-BB1E-DE1F6E9E5399">
-				<Road>
-					<bakedFileName>/Maps/Multiplayer/ARAM_SNOW/__4b9c6be517a74585bb1ede1f6e9e5399.road</bakedFileName>
-					<collision>
-						<x1>0</x1>
-						<x2>0</x2>
-						<y1>0</y1>
-						<y2>0</y2>
-					</collision>
-					<heightObject>false</heightObject>
-					<lockMask>
-						<mask />
-						<tileSize>0.5</tileSize>
-					</lockMask>
-					<minLockScale>0</minLockScale>
-					<points>
-						<Item>
-							<location>
-								<x>12.31726</x>
-								<y>97.89771</y>
-							</location>
-							<opacity>1</opacity>
-							<width>2</width>
-						</Item>
-						<Item>
-							<location>
-								<x>25.04246</x>
-								<y>97.97583</y>
-							</location>
-							<opacity>1</opacity>
-							<width>2</width>
-						</Item>
-						<Item>
-							<location>
-								<x>45.07518</x>
-								<y>99.14777</y>
-							</location>
-							<opacity>1</opacity>
-							<width>2</width>
-						</Item>
-						<Item>
-							<location>
-								<x>57.21169</x>
-								<y>99.01611</y>
-							</location>
-							<opacity>1</opacity>
-							<width>2</width>
-						</Item>
-					</points>
-					<properties>
-						<border>0</border>
-						<falloff>0.1</falloff>
-						<fit>true</fit>
-						<flip>false</flip>
-						<materialA href="/Terrain/Roads/road02A.MTRL" />
-						<materialB href="/Terrain/Roads/empty.MTRL" />
-						<materialN href="/Terrain/Roads/empty.MTRL" />
-						<opacity>1</opacity>
-						<priority>0</priority>
-						<tileU>1</tileU>
-						<tileV>0.5</tileV>
-						<tileVBorder>1</tileVBorder>
-						<width>0.4</width>
-					</properties>
-					<rounded>false</rounded>
-				</Road>
-			</gameObject>
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>83.62085</translateX>
-				<translateY>115.0457</translateY>
-				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -30144,9 +29434,9 @@
 				<scaleX>0.7818038</scaleX>
 				<scaleY>0.7818038</scaleY>
 				<scaleZ>0.7818038</scaleZ>
-				<translateX>45.59487</translateX>
-				<translateY>104.1413</translateY>
-				<translateZ>0.01296854</translateZ>
+				<translateX>21.77526</translateX>
+				<translateY>111.21</translateY>
+				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -31017,74 +30307,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" id="64BE13F8-1ABB-489A-8FF9-8EF8C4349B32">
-				<Road>
-					<bakedFileName>/Maps/Multiplayer/ARAM_SNOW/__64be13f81abb489a8ff98ef8c4349b32.road</bakedFileName>
-					<collision>
-						<x1>0</x1>
-						<x2>0</x2>
-						<y1>0</y1>
-						<y2>0</y2>
-					</collision>
-					<heightObject>false</heightObject>
-					<lockMask>
-						<mask />
-						<tileSize>0.5</tileSize>
-					</lockMask>
-					<minLockScale>0</minLockScale>
-					<points>
-						<Item>
-							<location>
-								<x>45.8343</x>
-								<y>103.994</y>
-							</location>
-							<opacity>1</opacity>
-							<width>3</width>
-						</Item>
-						<Item>
-							<location>
-								<x>34.08995</x>
-								<y>111.261</y>
-							</location>
-							<opacity>1</opacity>
-							<width>3</width>
-						</Item>
-					</points>
-					<properties>
-						<border>0.7</border>
-						<falloff>0.1</falloff>
-						<fit>false</fit>
-						<flip>false</flip>
-						<materialA href="/Terrain/Roads/road01A.MTRL" />
-						<materialB href="/Terrain/Roads/empty.MTRL" />
-						<materialN href="/Terrain/Roads/empty.MTRL" />
-						<opacity>1</opacity>
-						<priority>1</priority>
-						<tileU>0.3</tileU>
-						<tileV>0.3</tileV>
-						<tileVBorder>0.2</tileVBorder>
-						<width>1</width>
-					</properties>
-					<rounded>false</rounded>
-				</Road>
-			</gameObject>
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>36.42435</translateX>
-				<translateY>108.3031</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Stones/Rough06CTE.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -31778,8 +31000,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>30.41564</translateX>
-				<translateY>106.2011</translateY>
+				<translateX>30.70909</translateX>
+				<translateY>106.2549</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -31796,8 +31018,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>231.3204</translateX>
-				<translateY>142.5179</translateY>
+				<translateX>229.5018</translateX>
+				<translateY>142.9981</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -33236,8 +32458,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>232.5672</translateX>
-				<translateY>149.0169</translateY>
+				<translateX>231.6994</translateX>
+				<translateY>147.3753</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -33254,8 +32476,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>27.98972</translateX>
-				<translateY>112.1913</translateY>
+				<translateX>27.61824</translateX>
+				<translateY>110.9799</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -34511,24 +33733,6 @@
 				<translateX>61.49738</translateX>
 				<translateY>157.3369</translateY>
 				<translateZ>-0.02843332</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Tech/Lock.OBST" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>-4.163734</rotationX>
-				<rotationY>-1.576764</rotationY>
-				<rotationZ>93.04243</rotationZ>
-				<scaleX>0.8371362</scaleX>
-				<scaleY>0.4067939</scaleY>
-				<scaleZ>0.7725784</scaleZ>
-				<translateX>57.69511</translateX>
-				<translateY>100.1934</translateY>
-				<translateZ>-0.01200724</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -36075,7 +35279,7 @@
 								<y>120.6446</y>
 							</location>
 							<opacity>0</opacity>
-							<width>2.477391</width>
+							<width>1.122666</width>
 						</Item>
 						<Item>
 							<location>
@@ -36095,107 +35299,107 @@
 						</Item>
 						<Item>
 							<location>
-								<x>66.60236</x>
-								<y>140.7713</y>
+								<x>67.75623</x>
+								<y>142.0041</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.685273</width>
+							<width>2.060852</width>
 						</Item>
 						<Item>
 							<location>
-								<x>77.40112</x>
-								<y>142.3924</y>
+								<x>76.44983</x>
+								<y>139.7522</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.792875</width>
+							<width>1.285952</width>
 						</Item>
 						<Item>
 							<location>
-								<x>86.23884</x>
-								<y>144.8141</y>
+								<x>83.16787</x>
+								<y>141.6192</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.351898</width>
+							<width>1.740028</width>
 						</Item>
 						<Item>
 							<location>
-								<x>103.2917</x>
-								<y>145.3511</y>
+								<x>103.3284</x>
+								<y>142.9324</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.689613</width>
+							<width>1.623283</width>
 						</Item>
 						<Item>
 							<location>
-								<x>115.7332</x>
-								<y>141.9403</y>
+								<x>120.8185</x>
+								<y>135.6028</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.332429</width>
+							<width>2.645237</width>
 						</Item>
 						<Item>
 							<location>
-								<x>125.196</x>
-								<y>145.6069</y>
+								<x>128.6079</x>
+								<y>135.3008</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.016156</width>
+							<width>2.258773</width>
 						</Item>
 						<Item>
 							<location>
-								<x>137.501</x>
-								<y>143.5808</y>
+								<x>140.7399</x>
+								<y>134.7873</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.201771</width>
+							<width>1.081576</width>
 						</Item>
 						<Item>
 							<location>
-								<x>144.3899</x>
-								<y>142.9222</y>
+								<x>147.3245</x>
+								<y>138.2287</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.932944</width>
+							<width>1.165439</width>
 						</Item>
 						<Item>
 							<location>
-								<x>155.1811</x>
-								<y>142.565</y>
+								<x>156.1457</x>
+								<y>137.585</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.788271</width>
+							<width>1.795201</width>
 						</Item>
 						<Item>
 							<location>
-								<x>161.8245</x>
-								<y>144.9692</y>
+								<x>162.8866</x>
+								<y>141.9407</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.571697</width>
+							<width>0.6698537</width>
 						</Item>
 						<Item>
 							<location>
-								<x>170.2376</x>
-								<y>143.8515</y>
+								<x>173.3672</x>
+								<y>140.9553</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.502948</width>
+							<width>1.834945</width>
 						</Item>
 						<Item>
 							<location>
-								<x>183.4433</x>
-								<y>145.1037</y>
+								<x>183.6823</x>
+								<y>142.2227</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.682966</width>
+							<width>1.388817</width>
 						</Item>
 						<Item>
 							<location>
-								<x>191.945</x>
-								<y>145.535</y>
+								<x>190.4003</x>
+								<y>142.9604</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.372509</width>
+							<width>2.449251</width>
 						</Item>
 						<Item>
 							<location>
@@ -36211,127 +35415,127 @@
 								<y>113.9341</y>
 							</location>
 							<opacity>1</opacity>
-							<width>1.067711</width>
+							<width>1.815232</width>
 						</Item>
 						<Item>
 							<location>
-								<x>185.6772</x>
-								<y>107.4391</y>
+								<x>189.0738</x>
+								<y>108.0945</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.100707</width>
+							<width>2.113072</width>
 						</Item>
 						<Item>
 							<location>
-								<x>178.2582</x>
-								<y>108.9102</y>
+								<x>176.7431</x>
+								<y>110.3362</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.742518</width>
+							<width>2.129868</width>
 						</Item>
 						<Item>
 							<location>
-								<x>164.7395</x>
-								<y>109.0935</y>
+								<x>164.7887</x>
+								<y>113.3415</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.383086</width>
+							<width>1.665214</width>
 						</Item>
 						<Item>
 							<location>
-								<x>155.3505</x>
-								<y>106.8498</y>
+								<x>153.676</x>
+								<y>109.2951</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.662637</width>
+							<width>1.886849</width>
 						</Item>
 						<Item>
 							<location>
-								<x>147.6933</x>
-								<y>106.6373</y>
+								<x>146.9197</x>
+								<y>108.2286</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.507468</width>
+							<width>1.512494</width>
 						</Item>
 						<Item>
 							<location>
-								<x>140.07</x>
-								<y>105.9225</y>
+								<x>139.2238</x>
+								<y>110.0486</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.833293</width>
+							<width>1.868549</width>
 						</Item>
 						<Item>
 							<location>
-								<x>132.5296</x>
-								<y>107.0745</y>
+								<x>130.3422</x>
+								<y>108.9768</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.499166</width>
+							<width>2.111302</width>
 						</Item>
 						<Item>
 							<location>
-								<x>122.2445</x>
-								<y>107.5997</y>
+								<x>120.9165</x>
+								<y>106.9726</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.808178</width>
+							<width>2.241975</width>
 						</Item>
 						<Item>
 							<location>
-								<x>113.8962</x>
-								<y>107.4221</y>
+								<x>111.0172</x>
+								<y>108.5587</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.691525</width>
+							<width>1.716741</width>
 						</Item>
 						<Item>
 							<location>
-								<x>104.4461</x>
-								<y>106.7644</y>
+								<x>102.9804</x>
+								<y>109.456</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.405686</width>
+							<width>1.586319</width>
 						</Item>
 						<Item>
 							<location>
-								<x>91.8136</x>
-								<y>109.8779</y>
+								<x>90.29996</x>
+								<y>112.7367</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.033259</width>
+							<width>1.407498</width>
 						</Item>
 						<Item>
 							<location>
-								<x>85.94094</x>
-								<y>109.2531</y>
+								<x>83.91712</x>
+								<y>111.8664</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.549689</width>
+							<width>1.856941</width>
 						</Item>
 						<Item>
 							<location>
-								<x>79.60128</x>
-								<y>109.6511</y>
+								<x>79.21577</x>
+								<y>113.0616</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.20329</width>
+							<width>1.609471</width>
 						</Item>
 						<Item>
 							<location>
-								<x>71.89861</x>
-								<y>109.9647</y>
+								<x>72.01202</x>
+								<y>110.6907</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.357333</width>
+							<width>1.378203</width>
 						</Item>
 						<Item>
 							<location>
-								<x>67.69592</x>
-								<y>112.0926</y>
+								<x>67.22392</x>
+								<y>114.0669</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.457508</width>
+							<width>1.66378</width>
 						</Item>
 						<Item>
 							<location>
@@ -36339,7 +35543,7 @@
 								<y>123.2211</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.089317</width>
+							<width>1.505346</width>
 						</Item>
 						<Item>
 							<location>
@@ -38095,27 +37299,27 @@
 						</Item>
 						<Item>
 							<location>
-								<x>144.9312</x>
-								<y>124.0232</y>
+								<x>137.7202</x>
+								<y>121.1254</y>
 							</location>
 							<opacity>1</opacity>
-							<width>3.280759</width>
+							<width>1.070363</width>
 						</Item>
 						<Item>
 							<location>
-								<x>134.0737</x>
-								<y>124.409</y>
+								<x>127.4933</x>
+								<y>124.8219</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.742406</width>
+							<width>1.97381</width>
 						</Item>
 						<Item>
 							<location>
-								<x>125.3455</x>
-								<y>124.9388</y>
+								<x>121.2001</x>
+								<y>121.6891</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.937324</width>
+							<width>1.19818</width>
 						</Item>
 						<Item>
 							<location>
@@ -38123,7 +37327,7 @@
 								<y>125.0844</y>
 							</location>
 							<opacity>1</opacity>
-							<width>2.167394</width>
+							<width>1.006657</width>
 						</Item>
 						<Item>
 							<location>
@@ -38162,106 +37366,6 @@
 				<scaleZ>1</scaleZ>
 				<translateX>126.8955</translateX>
 				<translateY>115.9207</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" id="E4FFA101-2421-4DA0-8EE0-AD4E219C1F4C">
-				<Road>
-					<bakedFileName>/Maps/Multiplayer/ARAM_SNOW/__e4ffa10124214da08ee0ad4e219c1f4c.road</bakedFileName>
-					<collision>
-						<x1>0</x1>
-						<x2>0</x2>
-						<y1>0</y1>
-						<y2>0</y2>
-					</collision>
-					<heightObject>false</heightObject>
-					<lockMask>
-						<mask />
-						<tileSize>0.5</tileSize>
-					</lockMask>
-					<minLockScale>0</minLockScale>
-					<points>
-						<Item>
-							<location>
-								<x>127.9124</x>
-								<y>124.9706</y>
-							</location>
-							<opacity>0</opacity>
-							<width>2.955452</width>
-						</Item>
-						<Item>
-							<location>
-								<x>123.6434</x>
-								<y>130.2055</y>
-							</location>
-							<opacity>1</opacity>
-							<width>1.135736</width>
-						</Item>
-						<Item>
-							<location>
-								<x>121.4158</x>
-								<y>136.7413</y>
-							</location>
-							<opacity>1</opacity>
-							<width>4.91038</width>
-						</Item>
-						<Item>
-							<location>
-								<x>137.2702</x>
-								<y>138.0035</y>
-							</location>
-							<opacity>1</opacity>
-							<width>3.022548</width>
-						</Item>
-						<Item>
-							<location>
-								<x>139.3462</x>
-								<y>131.3153</y>
-							</location>
-							<opacity>1</opacity>
-							<width>0.5145605</width>
-						</Item>
-						<Item>
-							<location>
-								<x>131.9085</x>
-								<y>126.7129</y>
-							</location>
-							<opacity>0</opacity>
-							<width>5.251114</width>
-						</Item>
-					</points>
-					<properties>
-						<border>0</border>
-						<falloff>0.5</falloff>
-						<fit>true</fit>
-						<flip>true</flip>
-						<materialA href="/Terrain/Roads/road_Ice.MTRL" />
-						<materialB href="/Terrain/Roads/road_Ice.MTRL" />
-						<materialN href="/Terrain/Roads/road_Ice.MTRL" />
-						<opacity>1</opacity>
-						<priority>4</priority>
-						<tileU>1</tileU>
-						<tileV>0.2</tileV>
-						<tileVBorder>0.5</tileVBorder>
-						<width>2</width>
-					</properties>
-					<rounded>false</rounded>
-				</Road>
-			</gameObject>
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>77.40851</translateX>
-				<translateY>124.3707</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -42193,106 +41297,6 @@
 			<scriptName></scriptName>
 		</Item>
 		<Item>
-			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/_.ADMP" id="2AB5A5BE-70EC-41BC-981C-F4061D1A42F5">
-				<Road>
-					<bakedFileName>/Maps/Multiplayer/ARAM_SNOW/__2ab5a5be70ec41bc981cf4061d1a42f5.road</bakedFileName>
-					<collision>
-						<x1>0</x1>
-						<x2>0</x2>
-						<y1>0</y1>
-						<y2>0</y2>
-					</collision>
-					<heightObject>false</heightObject>
-					<lockMask>
-						<mask />
-						<tileSize>0.5</tileSize>
-					</lockMask>
-					<minLockScale>0</minLockScale>
-					<points>
-						<Item>
-							<location>
-								<x>135.6184</x>
-								<y>120.6061</y>
-							</location>
-							<opacity>0</opacity>
-							<width>2.891871</width>
-						</Item>
-						<Item>
-							<location>
-								<x>136.5471</x>
-								<y>116.5538</y>
-							</location>
-							<opacity>1</opacity>
-							<width>3.098186</width>
-						</Item>
-						<Item>
-							<location>
-								<x>133.7386</x>
-								<y>111.8936</y>
-							</location>
-							<opacity>1</opacity>
-							<width>3.841347</width>
-						</Item>
-						<Item>
-							<location>
-								<x>126.4202</x>
-								<y>111.5524</y>
-							</location>
-							<opacity>1</opacity>
-							<width>4.715306</width>
-						</Item>
-						<Item>
-							<location>
-								<x>119.5792</x>
-								<y>114.2695</y>
-							</location>
-							<opacity>1</opacity>
-							<width>3.394036</width>
-						</Item>
-						<Item>
-							<location>
-								<x>123.8943</x>
-								<y>123.0042</y>
-							</location>
-							<opacity>0</opacity>
-							<width>0.6332504</width>
-						</Item>
-					</points>
-					<properties>
-						<border>0</border>
-						<falloff>0.5</falloff>
-						<fit>true</fit>
-						<flip>true</flip>
-						<materialA href="/Terrain/Roads/road_Ice.MTRL" />
-						<materialB href="/Terrain/Roads/road_Ice.MTRL" />
-						<materialN href="/Terrain/Roads/road_Ice.MTRL" />
-						<opacity>1</opacity>
-						<priority>4</priority>
-						<tileU>1</tileU>
-						<tileV>0.2</tileV>
-						<tileVBorder>0.5</tileVBorder>
-						<width>2</width>
-					</properties>
-					<rounded>false</rounded>
-				</Road>
-			</gameObject>
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>133.4462</translateX>
-				<translateY>112.4797</translateY>
-				<translateZ>0</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
 			<gameObject href="/Terrain/Stones/Flat03.MSO" />
 			<lockMap>true</lockMap>
 			<offset>
@@ -42896,8 +41900,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>33.87939</translateX>
-				<translateY>117.221</translateY>
+				<translateX>30.74983</translateX>
+				<translateY>115.7937</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -42914,8 +41918,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>220.0539</translateX>
-				<translateY>147.173</translateY>
+				<translateX>220.6717</translateX>
+				<translateY>147.2549</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -42990,8 +41994,8 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>75.50605</translateX>
-				<translateY>130.0076</translateY>
+				<translateX>75.51368</translateX>
+				<translateY>129.9957</translateY>
 				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
@@ -43267,24 +42271,6 @@
 				<translateX>214.1864</translateX>
 				<translateY>125.1589</translateY>
 				<translateZ>-0.7704751</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/BaseB/ConstructionBarrack.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
-				<scaleX>1</scaleX>
-				<scaleY>1</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>210.2644</translateX>
-				<translateY>107.2805</translateY>
-				<translateZ>-0.01339841</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -44248,15 +43234,15 @@
 			<gameObject href="/Terrain/Events/NewYear/_Snowman.SMPL" />
 			<lockMap>true</lockMap>
 			<offset>
-				<rotationX>-3.906841</rotationX>
-				<rotationY>-3.697841</rotationY>
-				<rotationZ>8.772058</rotationZ>
+				<rotationX>0.1255244</rotationX>
+				<rotationY>1.196612</rotationY>
+				<rotationZ>162.7024</rotationZ>
 				<scaleX>1.4</scaleX>
 				<scaleY>1.4</scaleY>
 				<scaleZ>1.4</scaleZ>
-				<translateX>209.8313</translateX>
-				<translateY>143.6376</translateY>
-				<translateZ>-0.5925138</translateZ>
+				<translateX>227.4919</translateX>
+				<translateY>136.4198</translateY>
+				<translateZ>-0.6513257</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -44680,15 +43666,15 @@
 			<gameObject href="/Terrain/Events/NewYear/_FXTree.SMPL" />
 			<lockMap>true</lockMap>
 			<offset>
-				<rotationX>0</rotationX>
-				<rotationY>0</rotationY>
-				<rotationZ>0</rotationZ>
+				<rotationX>0.8489839</rotationX>
+				<rotationY>-4.550675</rotationY>
+				<rotationZ>8.548734</rotationZ>
 				<scaleX>0.3307381</scaleX>
 				<scaleY>0.3307381</scaleY>
 				<scaleZ>0.3307381</scaleZ>
-				<translateX>209.4852</translateX>
-				<translateY>143.7575</translateY>
-				<translateZ>-0.008128643</translateZ>
+				<translateX>227.8532</translateX>
+				<translateY>136.308</translateY>
+				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -44725,6 +43711,60 @@
 				<translateX>131.195</translateX>
 				<translateY>142.1293</translateY>
 				<translateZ>-0.09103832</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Terrain/BaseA/Construction6.SMPL" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>179.9999</rotationX>
+				<rotationY>-2.3442</rotationY>
+				<rotationZ>179.9999</rotationZ>
+				<scaleX>1.426867</scaleX>
+				<scaleY>1.426867</scaleY>
+				<scaleZ>1.426867</scaleZ>
+				<translateX>56.64608</translateX>
+				<translateY>108.745</translateY>
+				<translateZ>0.7385161</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Tech/Lock.OBST" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>-4.163734</rotationX>
+				<rotationY>-1.576764</rotationY>
+				<rotationZ>93.04243</rotationZ>
+				<scaleX>0.454715</scaleX>
+				<scaleY>0.2101754</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>56.56908</translateX>
+				<translateY>106.8132</translateY>
+				<translateZ>-0.08647943</translateZ>
+			</offset>
+			<player>None</player>
+			<scriptGroupName></scriptGroupName>
+			<scriptName></scriptName>
+		</Item>
+		<Item>
+			<gameObject href="/Tech/Lock.OBST" />
+			<lockMap>true</lockMap>
+			<offset>
+				<rotationX>-4.163734</rotationX>
+				<rotationY>-1.576764</rotationY>
+				<rotationZ>93.04243</rotationZ>
+				<scaleX>0.454715</scaleX>
+				<scaleY>0.2101754</scaleY>
+				<scaleZ>1</scaleZ>
+				<translateX>203.0552</translateX>
+				<translateY>150.5254</translateY>
+				<translateZ>-0.08647943</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -45016,8 +44056,8 @@
 			<diffuseIntensity>5</diffuseIntensity>
 			<flags>3</flags>
 			<location>
-				<x>47.2218</x>
-				<y>118.8681</y>
+				<x>45.0358</x>
+				<y>120.9665</y>
 				<z>12.93527</z>
 			</location>
 			<range>10</range>
@@ -45050,8 +44090,8 @@
 			<diffuseIntensity>5</diffuseIntensity>
 			<flags>3</flags>
 			<location>
-				<x>18.77782</x>
-				<y>114.4679</y>
+				<x>22.72031</x>
+				<y>117.072</y>
 				<z>12.70693</z>
 			</location>
 			<range>10</range>
@@ -45141,14 +44181,48 @@
 			</location>
 			<range>10</range>
 		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0.3</B>
+				<G>0.3</G>
+				<R>0.3</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>22.38754</x>
+				<y>102.2821</y>
+				<z>12.70693</z>
+			</location>
+			<range>10</range>
+		</Item>
+		<Item>
+			<attenuation>Linear</attenuation>
+			<diffuse>
+				<A>1</A>
+				<B>0.3</B>
+				<G>0.3</G>
+				<R>0.3</R>
+			</diffuse>
+			<diffuseIntensity>5</diffuseIntensity>
+			<flags>3</flags>
+			<location>
+				<x>53.86612</x>
+				<y>101.9363</y>
+				<z>12.70693</z>
+			</location>
+			<range>10</range>
+		</Item>
 	</pointLights>
 	<postEffect href="/Maps/Multiplayer/ARAM_SNOW/PostEffect.PFXP" />
 	<scriptAreas>
 		<Item>
 			<name>HealTemple</name>
 			<position>
-				<x>33.91793</x>
-				<y>111.3863</y>
+				<x>34.04357</x>
+				<y>111.2433</y>
 			</position>
 			<radius>24</radius>
 			<targetType>0</targetType>
@@ -45156,8 +44230,8 @@
 		<Item>
 			<name>HealTemple</name>
 			<position>
-				<x>226.7263</x>
-				<y>147.0455</y>
+				<x>229.102</x>
+				<y>151.1751</y>
 			</position>
 			<radius>24</radius>
 			<targetType>2040319</targetType>

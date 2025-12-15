@@ -4,9 +4,9 @@
 	<BackLink DBID="/Maps/Multiplayer/ARAM_SNOW/_N.LTEN" Count="1" />
 	<AmbientColor>
 		<A>1</A>
-		<B>0.627451</B>
-		<G>0.5019608</G>
-		<R>0.372549</R>
+		<B>0.5764706</B>
+		<G>0.4588235</G>
+		<R>0.3411765</R>
 	</AmbientColor>
 	<biasSlope>4</biasSlope>
 	<depthBias>0.001</depthBias>
@@ -63,7 +63,7 @@
 	</shadowDirection>
 	<shadowFar>1000</shadowFar>
 	<shadowFarRange>10</shadowFarRange>
-	<shadowLength>1</shadowLength>
+	<shadowLength>25</shadowLength>
 	<shadowMode>PCF</shadowMode>
 	<warFogColor>
 		<A>100</A>
