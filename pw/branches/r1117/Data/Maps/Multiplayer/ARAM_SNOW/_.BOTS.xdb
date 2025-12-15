@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BotsSettings>
-	<BackLink DBID="/Maps/Multiplayer/ARAM_SNOW/Mod1/_.ADMPSTTN" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/ARAM_SNOW/_.ADMPSTTN" Count="1" />
 	<doNotBuyMana>
 		<Item href="/Heroes/Vampire/_.HROB" />
 	</doNotBuyMana>
