@@ -8660,9 +8660,9 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>47.8045</translateX>
-				<translateY>110.3918</translateY>
-				<translateZ>0.02303839</translateZ>
+				<translateX>19.32546</translateX>
+				<translateY>124.5502</translateY>
+				<translateZ>-8.673228</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -8678,9 +8678,9 @@
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>209.5201</translateX>
-				<translateY>150.1502</translateY>
-				<translateZ>0.3178625</translateZ>
+				<translateX>236.7205</translateX>
+				<translateY>128.3447</translateY>
+				<translateZ>-7.395749</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -43222,9 +43222,9 @@
 				<scaleX>1.4</scaleX>
 				<scaleY>1.4</scaleY>
 				<scaleZ>1.4</scaleZ>
-				<translateX>23</translateX>
+				<translateX>27.21473</translateX>
 				<translateY>120.8499</translateY>
-				<translateZ>-0.5688903</translateZ>
+				<translateZ>-0.8021367</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -43711,60 +43711,6 @@
 				<translateX>131.195</translateX>
 				<translateY>142.1293</translateY>
 				<translateZ>-0.09103832</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Terrain/BaseA/Construction6.SMPL" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>179.9999</rotationX>
-				<rotationY>-2.3442</rotationY>
-				<rotationZ>179.9999</rotationZ>
-				<scaleX>1.426867</scaleX>
-				<scaleY>1.426867</scaleY>
-				<scaleZ>1.426867</scaleZ>
-				<translateX>57.40219</translateX>
-				<translateY>109.1289</translateY>
-				<translateZ>0.7648869</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Tech/Lock.OBST" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>-4.163734</rotationX>
-				<rotationY>-1.576764</rotationY>
-				<rotationZ>93.04243</rotationZ>
-				<scaleX>0.454715</scaleX>
-				<scaleY>0.2101754</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>57.5787</translateX>
-				<translateY>108.692</translateY>
-				<translateZ>0.001908541</translateZ>
-			</offset>
-			<player>None</player>
-			<scriptGroupName></scriptGroupName>
-			<scriptName></scriptName>
-		</Item>
-		<Item>
-			<gameObject href="/Tech/Lock.OBST" />
-			<lockMap>true</lockMap>
-			<offset>
-				<rotationX>-4.163734</rotationX>
-				<rotationY>-1.576764</rotationY>
-				<rotationZ>93.04243</rotationZ>
-				<scaleX>0.454715</scaleX>
-				<scaleY>0.2101754</scaleY>
-				<scaleZ>1</scaleZ>
-				<translateX>201.4833</translateX>
-				<translateY>149.0735</translateY>
-				<translateZ>0</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
