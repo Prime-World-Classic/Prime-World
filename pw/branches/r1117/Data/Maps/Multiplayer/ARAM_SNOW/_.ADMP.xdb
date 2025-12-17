@@ -8654,15 +8654,15 @@
 			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/Temples/_A.FNTN" />
 			<lockMap>true</lockMap>
 			<offset>
-				<rotationX>-0.2929565</rotationX>
+				<rotationX>-0.2929575</rotationX>
 				<rotationY>-5.32714</rotationY>
-				<rotationZ>-151.5791</rotationZ>
+				<rotationZ>33.07954</rotationZ>
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>19.32546</translateX>
-				<translateY>124.5502</translateY>
-				<translateZ>-8.673228</translateZ>
+				<translateX>6.033784</translateX>
+				<translateY>162.838</translateY>
+				<translateZ>31.2841</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -8673,14 +8673,14 @@
 			<lockMap>true</lockMap>
 			<offset>
 				<rotationX>1.191253</rotationX>
-				<rotationY>0.07860771</rotationY>
-				<rotationZ>28.06039</rotationZ>
+				<rotationY>0.07860792</rotationY>
+				<rotationZ>-127.7443</rotationZ>
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>236.7205</translateX>
-				<translateY>128.3447</translateY>
-				<translateZ>-7.395749</translateZ>
+				<translateX>247.917</translateX>
+				<translateY>98.97146</translateY>
+				<translateZ>28.03165</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
