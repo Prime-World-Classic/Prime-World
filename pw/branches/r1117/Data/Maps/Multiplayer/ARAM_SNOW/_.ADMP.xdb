@@ -8654,15 +8654,15 @@
 			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/Temples/_A.FNTN" />
 			<lockMap>true</lockMap>
 			<offset>
-				<rotationX>-0.2929569</rotationX>
-				<rotationY>-5.327139</rotationY>
-				<rotationZ>-124.7964</rotationZ>
+				<rotationX>-0.2929565</rotationX>
+				<rotationY>-5.32714</rotationY>
+				<rotationZ>-151.5791</rotationZ>
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>46.4126</translateX>
-				<translateY>107.1459</translateY>
-				<translateZ>0</translateZ>
+				<translateX>47.8045</translateX>
+				<translateY>111.279</translateY>
+				<translateZ>0.03018069</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -8672,15 +8672,15 @@
 			<gameObject href="/Maps/Multiplayer/ARAM_SNOW/Temples/_B.FNTN" />
 			<lockMap>true</lockMap>
 			<offset>
-				<rotationX>-0.5098583</rotationX>
-				<rotationY>-0.2761725</rotationY>
-				<rotationZ>48.60359</rotationZ>
+				<rotationX>1.191253</rotationX>
+				<rotationY>0.07860764</rotationY>
+				<rotationZ>18.38694</rotationZ>
 				<scaleX>1</scaleX>
 				<scaleY>1</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>211.638</translateX>
-				<translateY>151.1023</translateY>
-				<translateZ>-0.1856546</translateZ>
+				<translateX>209.5201</translateX>
+				<translateY>150.1502</translateY>
+				<translateZ>0.3178625</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -43726,9 +43726,9 @@
 				<scaleX>1.426867</scaleX>
 				<scaleY>1.426867</scaleY>
 				<scaleZ>1.426867</scaleZ>
-				<translateX>56.64608</translateX>
-				<translateY>108.745</translateY>
-				<translateZ>0.7385161</translateZ>
+				<translateX>57.40219</translateX>
+				<translateY>109.1289</translateY>
+				<translateZ>0.7648869</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
@@ -43744,9 +43744,9 @@
 				<scaleX>0.454715</scaleX>
 				<scaleY>0.2101754</scaleY>
 				<scaleZ>1</scaleZ>
-				<translateX>56.56908</translateX>
-				<translateY>106.8132</translateY>
-				<translateZ>-0.08647943</translateZ>
+				<translateX>57.5787</translateX>
+				<translateY>108.692</translateY>
+				<translateZ>0.001908541</translateZ>
 			</offset>
 			<player>None</player>
 			<scriptGroupName></scriptGroupName>
