@@ -9,7 +9,7 @@
 						<targetSelector href="/Maps/Multiplayer/ARAM_SNOW/Temples/_A.FNTN" id="3A5F1D58-F1C3-4C30-B144-C5F91020EBC2">
 							<AreaTargetSelector>
 								<absolutePosition>
-									<x>41.44269</x>
+									<x>37</x>
 									<y>115.8948</y>
 								</absolutePosition>
 								<flags>0</flags>

@@ -154,7 +154,7 @@ function CheckDeadCaptain( victimId )
 	
 	for faction, data in ipairs( GetGlobalVar( "CAPTAIN_GLYPH" ) ) do 
 		
-		if data.hero ~= "" and victim == data.hero then
+		if data.hero ~= "" and victim == data.hero and LuaGetUnitTypeById( victimId ) ~= UnitTypeSummon and not LuaHeroIsCloneById( victimId ) then
 		
 			--LuaHeroRemoveApplicator( victim, "CaptainAPL" )
 			
