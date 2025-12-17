@@ -27,7 +27,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_7_Glyph/status_Quickness.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A1_SpectralLashAlly.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A1.TALENT" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/ARAM/captain_Program.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/ARAM/_Aram_Haste_status.APLR" Count="1" />
 	<applicatorLists />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />
@@ -40,5 +40,6 @@
 		<Item href="/Items/Talents/Class/Plane/status_A0.APLR" />
 		<Item href="/Items/Talents/Class/Reaper/status_A2Tech_Haste.APLR" />
 		<Item href="/Items/Talents/Class/Shadow/status_Custom_MS.APLR" />
+		<Item href="/Maps/Multiplayer/ARAM/_Aram_Haste_status.APLR" />
 	</applicators>
 </ApplicatorsList>
