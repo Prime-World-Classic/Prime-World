@@ -124,11 +124,11 @@ function SpawnCaptainGlyph()
 			
 			data.state = true
 			
-			if LOCAL_FACTION ~= faction then 
+			--if LOCAL_FACTION ~= faction then 
 			
-				LuaEnableGlyph( data.name, false )
+				--LuaEnableGlyph( data.name, false )
 			
-			end;
+			--end;
 		
 		end
 	
