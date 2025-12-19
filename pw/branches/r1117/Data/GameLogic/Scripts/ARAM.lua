@@ -42,9 +42,9 @@ function Init( reconnecting )
 		
 		local CAPTAIN_GLYPH = {}
 		
-		CAPTAIN_GLYPH[1] = { name = "CaptainGlyph_A", state = false, hero = "", spawn = { x = 27, y = 128 } }
+		CAPTAIN_GLYPH[1] = { name = "CaptainGlyph_A", state = false, hero = "", spawn = { x = 37, y = 115 } }
 		
-		CAPTAIN_GLYPH[2] = { name = "CaptainGlyph_B", state = false, hero = "", spawn = { x = 225, y = 128 } }
+		CAPTAIN_GLYPH[2] = { name = "CaptainGlyph_B", state = false, hero = "", spawn = { x = 223, y = 142 } }
 		
 		SetGlobalVar( "CAPTAIN_GLYPH", CAPTAIN_GLYPH )
 		
@@ -123,11 +123,17 @@ function SpawnCaptainGlyph()
 			LuaCreateGlyph( data.name, "CaptainGlyph", data.spawn.x, data.spawn.y )
 			
 			data.state = true
+			
+			if LOCAL_FACTION ~= faction then 
+			
+				LuaEnableGlyph( data.name, false )
+			
+			end;
 		
 		end
 	
 	end
-	--LuaEnableGlyph( "CaptainGlyph_A", true )
+	
 end
 
 function EventPickupGlyph( hero, glyph )
