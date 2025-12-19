@@ -1613,6 +1613,11 @@
 		<Item href="/UI/Content/CustomFlags/PWClassic/Mimimi" />
 		<Item href="/UI/Content/CustomFlags/PWClassic/New_Years_skull" />
 		<Item href="/UI/Content/CustomFlags/PWClassic/oak" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/Agaric" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/Moon" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/Rose" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/Space" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/The_brown_cutie" />
 	</customFlags>
 	<dialogsSettings>
 		<defaultPhraseDuration>10</defaultPhraseDuration>
