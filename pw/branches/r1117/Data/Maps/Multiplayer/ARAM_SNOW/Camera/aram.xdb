@@ -6,11 +6,6 @@
 		<x>0</x>
 		<y>0</y>
 	</centerOffset>
-	<dampSmoothing>
-		<dampTimeMove>0.2</dampTimeMove>
-		<dampTimeObserv>0.4</dampTimeObserv>
-		<firstJumpTime>0.1</firstJumpTime>
-	</dampSmoothing>
 	<fov>30</fov>
 	<horAngle>80</horAngle>
 	<horCenterAngle>-50</horCenterAngle>
