@@ -42,9 +42,9 @@ function Init( reconnecting )
 		
 		local CAPTAIN_GLYPH = {}
 		
-		CAPTAIN_GLYPH[1] = { name = "CaptainGlyph_A", state = false, hero = "", spawn = { x = 37, y = 115 } }
+		CAPTAIN_GLYPH[1] = { name = "CaptainGlyph_A", state = false, hero = 0, spawn = { x = 37, y = 115 } }
 		
-		CAPTAIN_GLYPH[2] = { name = "CaptainGlyph_B", state = false, hero = "", spawn = { x = 223, y = 142 } }
+		CAPTAIN_GLYPH[2] = { name = "CaptainGlyph_B", state = false, hero = 0, spawn = { x = 223, y = 142 } }
 		
 		SetGlobalVar( "CAPTAIN_GLYPH", CAPTAIN_GLYPH )
 		
@@ -141,12 +141,10 @@ function EventPickupGlyph( hero, glyph )
 	for faction, data in ipairs( GetGlobalVar( "CAPTAIN_GLYPH" ) ) do 
 		
 		if glyph == data.name and faction == LuaGetUnitFaction( hero ) then 
-		
-			--LuaUnitApplyApplicator( hero, "CaptainAPL" )
 			
-			LuaPlaceAttachedEffect( "CaptainStatus_" .. hero, "CaptainStatus", hero )
+			LuaPlaceAttachedEffect( "CaptainStatus_" .. LuaGetObjectId( hero ), "CaptainStatus", hero )
 			
-			data.hero = hero
+			data.hero = LuaGetObjectId( hero )
 			
 		end
 		
@@ -156,19 +154,15 @@ end
 
 function CheckDeadCaptain( victimId )
 	
-	local victim = LuaGetUnitObjectNameById( victimId )
-	
 	for faction, data in ipairs( GetGlobalVar( "CAPTAIN_GLYPH" ) ) do 
 		
-		if data.hero ~= "" and victim == data.hero and LuaGetUnitTypeById( victimId ) ~= UnitTypeSummon and not LuaHeroIsCloneById( victimId ) then
-		
-			--LuaHeroRemoveApplicator( victim, "CaptainAPL" )
+		if data.hero ~= 0 and LuaGetUnitTypeById( victimId ) == UnitTypeHeroMale and data.hero == victimId and not LuaHeroIsCloneById( victimId )  then
 			
 			data.state = false
 			
-			LuaRemoveStandaloneEffect( "CaptainStatus_" .. data.hero )
+			LuaRemoveStandaloneEffect( "CaptainStatus_" .. victimId )
 			
-			data.hero = ""
+			data.hero = 0
 		
 		end
 	
@@ -447,8 +441,6 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	
 	AddTriggerTop( DeadEffect, victimId )
 	
-	AddTriggerTop( CheckDeadCaptain, victimId )
-	
 	if LuaGetUnitTypeById( victimId ) == 3 and LuaGetUnitObjectNameById( victimId ) == "" then
 		
 		local faction = LuaGetUnitFactionById( victimId )
@@ -468,6 +460,8 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 		return
 		
 	end
+	
+	AddTriggerTop( CheckDeadCaptain, victimId )
 	
 	AddTriggerTop( PointReceived, victimId, killerId )
 	
