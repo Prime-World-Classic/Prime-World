@@ -18,7 +18,7 @@
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Season9_CollectionList.ROLLCONT" Count="1" />
 	<BackLink DBID="/Test/Talents/RedSet7_5.TALENTSET" Count="1" />
 	<activationConditions />
-	<activeCustomTrigger>false</activeCustomTrigger>
+	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
 		<returnType>bool</returnType>
@@ -97,9 +97,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString></compiledString>
+		<compiledString>FQkAAAABAAAAFQAAAFRpbWVHaWZ0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>0.0f</sString>
+		<sString>cTimeGift</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -251,27 +251,7 @@
 			</PermanentStatModApplicator>
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/Program_Redset7_5_Discount.APLR" />
-		<Item href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="75210E4D-DCF5-4A09-A65C-EBA8467D47D1">
-			<GiveConsumable>
-				<amount>
-					<compiledString></compiledString>
-					<returnType>int</returnType>
-					<sString>1</sString>
-				</amount>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>GiveConsumable</caption>
-				<consumable href="/Items/Consumables/CleansingPotion.ARCT" />
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<providerName></providerName>
-			</GiveConsumable>
-		</Item>
-		<Item href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="1CDDF44A-B71D-43BA-9EF2-1241ECD5F1B8">
+		<Item href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="25429A32-360E-4718-9ED7-51A3A553C6D0">
 			<SpellPeriodicallyApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
@@ -281,9 +261,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>mPreparedness == 1.0f</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -293,16 +273,16 @@
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<period>
-					<compiledString>FQkAAAABAAAAFQAAAFRpbWVHaWZ0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
 					<returnType>float</returnType>
-					<sString>cTimeGift</sString>
+					<sString>0.1</sString>
 				</period>
 				<providerName></providerName>
 				<scaleMode>ScaleIsCount</scaleMode>
-				<spell href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="04D7DF8A-B129-4949-BA9F-CBD6FB3CE213">
+				<spell href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="26A2339C-DF42-4F48-8938-B5D78B6373FE">
 					<Spell>
 						<applicators>
-							<Item href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="11460CB9-EC1F-4056-AB4B-7469FD461857">
+							<Item href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="029B7160-A248-4D59-AF89-EB20E01C9C3C">
 								<GiveConsumable>
 									<amount>
 										<compiledString></compiledString>
@@ -313,17 +293,47 @@
 									<caption>GiveConsumable</caption>
 									<consumable href="/Items/Consumables/CleansingPotion.ARCT" />
 									<enabled>
-										<compiledString></compiledString>
+										<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
 										<returnType>bool</returnType>
-										<sString>true</sString>
+										<sString>mPreparedness == 1.0f</sString>
 									</enabled>
 									<formulaName></formulaName>
 									<LoggingEvent>-1</LoggingEvent>
 									<providerName></providerName>
 								</GiveConsumable>
 							</Item>
+							<Item href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="BDAA9609-800D-4E7B-8D06-CA5510D4D350">
+								<PermanentStatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption>CleansingPotionConsumableGived</caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+										<returnType>bool</returnType>
+										<sString>mPreparedness == 1.0f</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>CleansingPotionConsumableGived</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
 						</applicators>
-						<dispatch href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="24037AB7-89BA-4556-9F8B-8C55969304FB">
+						<dispatch href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="2D4015D5-F6A0-45C5-9DEF-8AAE556F9699">
 							<DispatchImmediate>
 								<alwaysApply>false</alwaysApply>
 								<applyEffect>
@@ -350,12 +360,116 @@
 					<sString>true</sString>
 				</startCondition>
 				<startOffset>
-					<compiledString>FQkAAAABAAAAFQAAAFRpbWVHaWZ0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 					<returnType>float</returnType>
-					<sString>cTimeGift</sString>
+					<sString>0</sString>
 				</startOffset>
 				<targetSelector href="" />
 			</SpellPeriodicallyApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="96936D1F-B034-4AC3-84BA-4F4E39B8726F">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>184</behaviorFlags>
+				<caption>Запускаем принудительно кд</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+					<returnType>float</returnType>
+					<sString>-1</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="DB9E9ACE-9856-44FE-A480-4AC37A1C8B5D">
+					<EventProcessorCondition>
+						<applyTarget>AbilityOwner</applyTarget>
+						<condition>
+							<compiledString>FR8AAAACAAAAJAAAADoAAABDbGVhbnNpbmdQb3Rpb25Db25zdW1hYmxlR2l2ZWQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdXAAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+							<returnType>bool</returnType>
+							<sString>sender.vCleansingPotionConsumableGived &gt; 0</sString>
+						</condition>
+						<events>8192</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="FADB63AE-1683-4B68-A46C-F511D055143A">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="8A9F4265-699E-4E2E-9618-85CAD528D02B">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>CleansingPotionConsumableGived</caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+													<returnType>float</returnType>
+													<sString>0.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+													<returnType>float</returnType>
+													<sString>0.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>CleansingPotionConsumableGived</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" id="07E9D6BA-8EDA-4D95-A825-680F0ABCA6B8">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>true</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G726</persistentId>
