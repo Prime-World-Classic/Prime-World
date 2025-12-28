@@ -56,9 +56,41 @@ function Init( reconnecting )
 	
 	AddTriggerTop( DelayInit )
 	
+	io.open( "bridge", "w" ):close()
+	
+end
+
+function bridge()
+	
+	local file = io.open( "bridge", "r" )
+	
+	if file then
+		
+		local content = file:read( "*a" )
+		
+		file:close()
+		
+		if content and #content > 0 then
+			
+			if content == "Dragon" then 
+			
+				Spawn( "Dragon", 43, 130, LuaRandom( 1, 2 ) )
+			
+			end
+			
+			LuaMessageToChat( content )
+			
+			io.open( "bridge", "w" ):close()
+			
+		end
+		
+	end
+	
 end
 
 function DelayInit()
+
+	StartTrigger( bridge )
 	
 	WaitState( 15 )
 	
