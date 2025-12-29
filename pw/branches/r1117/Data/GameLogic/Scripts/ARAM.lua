@@ -20,6 +20,8 @@ LOCAL_FACTION = 0
 
 COMPANION_DATA = {}
 
+BRIDGE_ACTION_LOCAL = ""
+
 function Init( reconnecting )
 	
 	if not reconnecting then
@@ -48,6 +50,8 @@ function Init( reconnecting )
 		
 		SetGlobalVar( "CAPTAIN_GLYPH", CAPTAIN_GLYPH )
 		
+		SetGlobalVar( "BRIDGE_ACTION", "" )
+		
 	end
 	
 	InitCaptainGlyph()
@@ -72,11 +76,11 @@ function bridge()
 		
 		if content and #content > 0 then
 			
-			if content == "Dragon" then 
+			SetGlobalVar( "BRIDGE_ACTION", content )
 			
-				Spawn( "Dragon", 43, 130, LuaRandom( 1, 2 ) )
+			BRIDGE_ACTION_LOCAL = content
 			
-			end
+			SpawnGhost()
 			
 			LuaMessageToChat( content )
 			
@@ -85,6 +89,20 @@ function bridge()
 		end
 		
 	end
+	
+	if GetGlobalVar( "BRIDGE_ACTION" ) ~= "" and GetGlobalVar( "BRIDGE_ACTION" ) ~= BRIDGE_ACTION_LOCAL then 
+	
+		SpawnGhost()
+	
+	end
+	
+end
+
+function SpawnGhost()
+
+	Spawn( "Ghost", 43, 130, 1 )
+	
+	Spawn( "Ghost", 214, 125, 2 )
 	
 end
 
