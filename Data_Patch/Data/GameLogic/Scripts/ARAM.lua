@@ -20,6 +20,8 @@ LOCAL_FACTION = 0
 
 COMPANION_DATA = {}
 
+BRIDGE_EVENT_LOCAL = ""
+
 function Init( reconnecting )
 	
 	if not reconnecting then
