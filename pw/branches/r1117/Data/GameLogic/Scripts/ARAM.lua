@@ -20,7 +20,7 @@ LOCAL_FACTION = 0
 
 COMPANION_DATA = {}
 
-BRIDGE_ACTION_LOCAL = ""
+BRIDGE_EVENT_LOCAL = ""
 
 function Init( reconnecting )
 	
@@ -50,7 +50,7 @@ function Init( reconnecting )
 		
 		SetGlobalVar( "CAPTAIN_GLYPH", CAPTAIN_GLYPH )
 		
-		SetGlobalVar( "BRIDGE_ACTION", "" )
+		SetGlobalVar( "BRIDGE_EVENT", "" )
 		
 	end
 	
@@ -60,11 +60,11 @@ function Init( reconnecting )
 	
 	AddTriggerTop( DelayInit )
 	
-	io.open( "bridge", "w" ):close()
+	ClearBridgeEvent()
 	
 end
 
-function bridge()
+function StartBridge()
 	
 	local file = io.open( "bridge", "r" )
 	
@@ -76,26 +76,34 @@ function bridge()
 		
 		if content and #content > 0 then
 			
-			SetGlobalVar( "BRIDGE_ACTION", content )
+			SetGlobalVar( "BRIDGE_EVENT", content )
 			
-			BRIDGE_ACTION_LOCAL = content
+			BRIDGE_EVENT_LOCAL = content
 			
 			SpawnGhost()
 			
 			LuaMessageToChat( content )
 			
-			io.open( "bridge", "w" ):close()
+			ClearBridgeEvent()
 			
 		end
 		
 	end
 	
-	if GetGlobalVar( "BRIDGE_ACTION" ) ~= "" and GetGlobalVar( "BRIDGE_ACTION" ) ~= BRIDGE_ACTION_LOCAL then 
-	
+	if GetGlobalVar( "BRIDGE_EVENT" ) ~= "" and GetGlobalVar( "BRIDGE_EVENT" ) ~= BRIDGE_EVENT_LOCAL then 
+		
+		BRIDGE_EVENT_LOCAL = GetGlobalVar( "BRIDGE_EVENT" )
+		
 		SpawnGhost()
 	
 	end
 	
+end
+
+function ClearBridgeEvent()
+
+	io.open( "bridge", "w" ):close()
+
 end
 
 function SpawnGhost()
@@ -108,7 +116,7 @@ end
 
 function DelayInit()
 
-	StartTrigger( bridge )
+	StartTrigger( StartBridge )
 	
 	WaitState( 15 )
 	
