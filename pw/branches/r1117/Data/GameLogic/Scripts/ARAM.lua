@@ -50,8 +50,6 @@ function Init( reconnecting )
 		
 		SetGlobalVar( "CAPTAIN_GLYPH", CAPTAIN_GLYPH )
 		
-		SetGlobalVar( "BRIDGE_EVENT", "" )
-		
 	end
 	
 	InitCaptainGlyph()
@@ -60,63 +58,9 @@ function Init( reconnecting )
 	
 	AddTriggerTop( DelayInit )
 	
-	ClearBridgeEvent()
-	
-end
-
-function StartBridge()
-	
-	local file = io.open( "bridge", "r" )
-	
-	if file then
-		
-		local content = file:read( "*a" )
-		
-		file:close()
-		
-		if content and #content > 0 then
-			
-			SetGlobalVar( "BRIDGE_EVENT", content )
-			
-			BRIDGE_EVENT_LOCAL = content
-			
-			SpawnGhost()
-			
-			LuaMessageToChat( content )
-			
-			ClearBridgeEvent()
-			
-		end
-		
-	end
-	
-	if GetGlobalVar( "BRIDGE_EVENT" ) ~= "" and GetGlobalVar( "BRIDGE_EVENT" ) ~= BRIDGE_EVENT_LOCAL then 
-		
-		BRIDGE_EVENT_LOCAL = GetGlobalVar( "BRIDGE_EVENT" )
-		
-		SpawnGhost()
-	
-	end
-	
-end
-
-function ClearBridgeEvent()
-
-	io.open( "bridge", "w" ):close()
-
-end
-
-function SpawnGhost()
-
-	Spawn( "Ghost", 43, 130, 1 )
-	
-	Spawn( "Ghost", 214, 125, 2 )
-	
 end
 
 function DelayInit()
-
-	StartTrigger( StartBridge )
 	
 	WaitState( 15 )
 	
