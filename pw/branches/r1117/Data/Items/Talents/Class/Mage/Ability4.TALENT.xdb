@@ -120,9 +120,9 @@
 					<UnitConstant>
 						<name>A4_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsUVaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QK/D33hv2g+b9g8YPiXX820X8XovlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>12</sString>
+							<sString>nt(15,12)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

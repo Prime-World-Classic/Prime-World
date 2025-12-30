@@ -89,16 +89,6 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="26D4509E-E154-4711-AA15-5BC53E9FC7BB">
-					<UnitConstant>
-						<name>A4_MaxDamage</name>
-						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAPkMAgLtEVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
-							<returnType>float</returnType>
-							<sString>damageScale( max(sStrength, sIntellect), 190, 1500)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="82A7230C-56F1-49EE-85F0-8CE063C7B2A1">
 					<UnitConstant>
 						<name>A4_CurseDebuff</name>
@@ -113,9 +103,9 @@
 					<UnitConstant>
 						<name>A4_CurseDebuffPercent</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>50</sString>
+							<sString>70</sString>
 						</var>
 					</UnitConstant>
 				</Item>

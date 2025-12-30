@@ -153,7 +153,7 @@
 	<BackLink DBID="/Items/Talents/Class/Vampire/A2_BlinkToTarget.APLR" Count="1" />
 	<BackLink DBID="/Heroes/Assassin/AttackAbility.ATCK" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3_Upg1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Freeze/status_A2_Root.APLR" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/ARAM/_.ADMP" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Angel/status_A2_AuraBuff.APLR" Count="1" />

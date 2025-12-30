@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Witch/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" Count="3" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Witch/status_A4_FragileCurse.APLR" id="4FA62412-8555-4416-A57D-90D9CD8F8886">
 			<DelegateDamageApplicator>
@@ -57,9 +58,9 @@
 					<sString>0</sString>
 				</stopCondition>
 				<totalDamage>
-					<compiledString>FQ0AAAABAAAAGQAAAEE0X01heERhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 					<returnType>float</returnType>
-					<sString>cA4_MaxDamage</sString>
+					<sString>0</sString>
 				</totalDamage>
 			</DelegateDamageApplicator>
 		</Item>
