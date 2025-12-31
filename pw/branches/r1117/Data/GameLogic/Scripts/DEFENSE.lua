@@ -5,6 +5,8 @@ include ("GameLogic/Scripts/Consts.lua")
 
 BRIDGE_EVENT_LOCAL = ""
 
+BAD_IO = false
+
 function Init( reconnecting )
 
 	--LuaShowUIBlock( "TalentsSetBlock", false )
@@ -53,6 +55,16 @@ function StartBridge()
 			
 			ClearBridgeEvent()
 			
+		end
+		
+	else 
+		
+		if not BAD_IO then
+			
+			BAD_IO = true
+			
+			SpawnGhost()
+		
 		end
 		
 	end
