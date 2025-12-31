@@ -399,15 +399,7 @@ function PointReceived( victimId, killerId )
 	
 		local victimName = LuaGetUnitObjectNameById( victimId )
 		
-		if LuaGetUnitTypeById( victimId ) == UnitTypeHeroMale then 
-			
-			LuaUnitApplyApplicator( killerName, "AddLife50" )
-			
-		else
-			
-			LuaUnitApplyApplicator( killerName, "AddLife10" )
-			
-		end
+		LuaUnitApplyApplicator( killerName, "AddLife10" )
 		
 		local effectId = "PointReceived_" .. victimName;
 		
@@ -465,7 +457,11 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 	
 	AddTriggerTop( CheckDeadCaptain, victimId )
 	
-	AddTriggerTop( PointReceived, victimId, killerId )
+	if LuaGetUnitTypeById( victimId ) ~= UnitTypeHeroMale then 
+	
+		AddTriggerTop( PointReceived, victimId, killerId )
+	
+	end
 	
 	if not ZOMBIE_MODE then 
 	

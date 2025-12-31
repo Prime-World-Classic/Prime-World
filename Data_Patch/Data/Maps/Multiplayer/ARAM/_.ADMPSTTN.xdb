@@ -84,10 +84,6 @@
 					<key>AddLife10</key>
 					<resource href="/Maps/Multiplayer/ARAM/Add_Life_10.APLR" />
 				</Item>
-				<Item>
-					<key>AddLife50</key>
-					<resource href="/Maps/Multiplayer/ARAM/Add_Life_50.APLR" />
-				</Item>
 			</resources>
 		</DictionaryPreloadingResources>
 	</dictionary>

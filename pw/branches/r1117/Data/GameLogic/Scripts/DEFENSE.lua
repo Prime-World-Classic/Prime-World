@@ -5,6 +5,8 @@ include ("GameLogic/Scripts/Consts.lua")
 
 BRIDGE_EVENT_LOCAL = ""
 
+BAD_IO = false
+
 function Init( reconnecting )
 
 	--LuaShowUIBlock( "TalentsSetBlock", false )
@@ -53,6 +55,16 @@ function StartBridge()
 			
 			ClearBridgeEvent()
 			
+		end
+		
+	else 
+		
+		if not BAD_IO then
+			
+			BAD_IO = true
+			
+			SpawnGhost()
+		
 		end
 		
 	end
@@ -115,15 +127,7 @@ function PointReceived( victimId, killerId )
 	
 		local victimName = LuaGetUnitObjectNameById( victimId )
 		
-		if LuaGetUnitTypeById( victimId ) == UnitTypeHeroMale then 
-			
-			LuaUnitApplyApplicator( killerName, "AddLife50" )
-			
-		else
-			
-			LuaUnitApplyApplicator( killerName, "AddLife10" )
-			
-		end
+		LuaUnitApplyApplicator( killerName, "AddLife10" )
 		
 		local effectId = "PointReceived_" .. victimName;
 		
@@ -145,6 +149,10 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 		
 	end
 	
-	AddTriggerTop( PointReceived, victimId, killerId )
+	if LuaGetUnitTypeById( victimId ) ~= UnitTypeHeroMale then 
+	
+		AddTriggerTop( PointReceived, victimId, killerId )
+	
+	end
 	
 end
