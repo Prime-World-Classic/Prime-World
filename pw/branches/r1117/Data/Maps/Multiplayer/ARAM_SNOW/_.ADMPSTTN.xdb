@@ -56,14 +56,6 @@
 					<key>AddLife10</key>
 					<resource href="/Maps/Multiplayer/ARAM/Add_Life_10.APLR" />
 				</Item>
-				<Item>
-					<key>AddLife50</key>
-					<resource href="/Maps/Multiplayer/ARAM/Add_Life_50.APLR" />
-				</Item>
-				<Item>
-					<key>Ghost</key>
-					<resource href="/Creeps/Normals/Normal8/PvE_Coop1.CREEP" />
-				</Item>
 			</resources>
 		</DictionaryPreloadingResources>
 	</dictionary>
