@@ -3,10 +3,6 @@ include ("GameLogic/Scripts/StatesManager.lua")
 include ("GameLogic/Scripts/Common.lua")
 include ("GameLogic/Scripts/Consts.lua")
 
-BRIDGE_EVENT_LOCAL = ""
-
-BAD_IO = false
-
 function Init( reconnecting )
 
 	--LuaShowUIBlock( "TalentsSetBlock", false )
@@ -21,7 +17,7 @@ function Init( reconnecting )
 	
 	if not reconnecting then
 		
-		SetGlobalVar( "BRIDGE_EVENT", "" )
+		
 		
 	end
 	
@@ -45,10 +41,6 @@ function StartBridge()
 		
 		if content and #content > 0 then
 			
-			SetGlobalVar( "BRIDGE_EVENT", content )
-			
-			BRIDGE_EVENT_LOCAL = content
-			
 			SpawnGhost()
 			
 			LuaMessageToChat( content )
@@ -57,24 +49,6 @@ function StartBridge()
 			
 		end
 		
-	else 
-		
-		if not BAD_IO then
-			
-			BAD_IO = true
-			
-			SpawnGhost()
-		
-		end
-		
-	end
-	
-	if GetGlobalVar( "BRIDGE_EVENT" ) ~= "" and GetGlobalVar( "BRIDGE_EVENT" ) ~= BRIDGE_EVENT_LOCAL then 
-		
-		BRIDGE_EVENT_LOCAL = GetGlobalVar( "BRIDGE_EVENT" )
-		
-		SpawnGhost()
-	
 	end
 	
 end
@@ -86,16 +60,9 @@ function ClearBridgeEvent()
 end
 
 function SpawnGhost()
-
-	if LuaRandom(0,100) >= 50 then 
 	
-		Spawn( "Ghost", 187, 126, 2 )
-	
-	else 
-		
-		Spawn( "Ghost", 64, 125, 2 )
-	
-	end
+	Spawn( "Ghost", 187, 126, 2 )
+	--Spawn( "Ghost", 64, 125, 2 )
 	
 end
 
