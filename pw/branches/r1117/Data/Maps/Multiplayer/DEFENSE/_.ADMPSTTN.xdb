@@ -34,7 +34,7 @@
 				</Item>
 				<Item>
 					<key>Ghost</key>
-					<resource href="/Creeps/Normals/Normal8/PvE_Coop1.CREEP" />
+					<resource href="/Creeps/Minions/Minion3/CTF_S1.CREEP" />
 				</Item>
 			</resources>
 		</DictionaryPreloadingResources>
