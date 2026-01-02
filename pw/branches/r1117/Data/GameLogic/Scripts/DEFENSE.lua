@@ -43,7 +43,7 @@ function StartEventBridge()
 				
 				if values[1] == 1 then 
 					
-					AddTriggerTop( WaveSpawn, values[2] )
+					AddTriggerTop( WaveSpawn, values[2], values[3] )
 					
 				end
 				
@@ -65,12 +65,20 @@ function ClearBridgeEvent()
 	
 end
 
-function WaveSpawn( total )
+function WaveSpawn( total, direction )
 
 	for i = 1, total do
 		
-		Spawn( "Ghost", 187, 126, 2 )
-		--Spawn( "Ghost", 64, 125, 2 )
+		if direction == 1 then 
+			
+			Spawn( "Ghost", 19, 120, 2 )
+		
+		else 
+			
+			Spawn( "Ghost", 235, 130, 2 )
+		
+		end
+		
 		WaitState( 1 )
 	
 	end
