@@ -4,16 +4,6 @@ include ("GameLogic/Scripts/Common.lua")
 include ("GameLogic/Scripts/Consts.lua")
 
 function Init( reconnecting )
-
-	--LuaShowUIBlock( "TalentsSetBlock", false )
-	LuaShowUIBlock( "PlayerHeroBlock", false )
-	LuaShowUIBlock( "MiniMapBlock", false )
-	--LuaShowUIBlock( "ActionBarBlock", false )
-	--LuaShowUIBlock( "MoneyBlock", false )
-	--LuaShowUIBlock( "ActionBarEscBtn", false )
-	--LuaShowUIBlock( "ActionBarTalentBtn", false )
-	LuaShowUIBlock( "SelectionBlock", false )
-	--LuaShowUIBlock( "ImpulseTalent", false )
 	
 	if not reconnecting then
 		
@@ -21,15 +11,13 @@ function Init( reconnecting )
 		
 	end
 	
-	LOCAL_FACTION = LuaGetUnitFaction( "local" )
-	
 	ClearBridgeEvent()
 	
-	AddTriggerTop( DelayInit )
+	StartTrigger( StartEventBridge )
 	
 end
 
-function StartBridge()
+function StartEventBridge()
 	
 	local file = io.open( "bridge", "r" )
 	
@@ -41,34 +29,59 @@ function StartBridge()
 		
 		if content and #content > 0 then
 			
-			SpawnGhost()
+			local values = {}
 			
-			LuaMessageToChat( content )
+			for n in content:gmatch( "%d+" ) do
+				
+				values[ #values + 1 ] = tonumber( n )
+				
+			end
 			
-			ClearBridgeEvent()
+			if #values ~= 0 then 
+				
+				LuaMessageToChat( content )
+				
+				if values[1] == 1 then 
+					
+					AddTriggerTop( WaveSpawn, values[2], values[3] )
+					
+				end
+				
+				ClearBridgeEvent()
+				
+			end
 			
 		end
 		
 	end
+	
+	WaitState( 10 )
 	
 end
 
 function ClearBridgeEvent()
 
 	io.open( "bridge", "w" ):close()
-
-end
-
-function SpawnGhost()
-	
-	Spawn( "Ghost", 187, 126, 2 )
-	--Spawn( "Ghost", 64, 125, 2 )
 	
 end
 
-function DelayInit()
+function WaveSpawn( total, direction )
 
-	StartTrigger( StartBridge )
+	for i = 1, total do
+		
+		if direction == 1 then 
+			
+			Spawn( "Ghost", 19, 120, 2 )
+		
+		else 
+			
+			Spawn( "Ghost", 235, 130, 2 )
+		
+		end
+		
+		WaitState( 1 )
+	
+	end
 	
 end
 
