@@ -60,9 +60,9 @@
 					<UnitConstant>
 						<name>Temp_Power</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCRAEAAP/QUdkcJItNCIsRi00Ii4JAAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAoEEAAKBCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCzAAAAP/QUdkcJItNCIsRi00Ii4LIAAAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAoEEAAKBCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( max(sStamina, sWill),20, 80)</sString>
+							<sString>damageScale( max(sBaseStamina, sBaseWill),20, 80)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
