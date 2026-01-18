@@ -140,6 +140,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Witch/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Witch_A0</persistentId>
 	<prerequisiteTalents />

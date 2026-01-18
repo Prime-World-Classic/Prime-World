@@ -140,7 +140,9 @@
 	<naftaCost>0</naftaCost>
 	<name textref="/Items/Talents/Class/Mowgli/Ability0.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Mowgli/_HeroIsHere.APLR" />
+	</passiveApplicators>
 	<persistentId>Mowgli_A0</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

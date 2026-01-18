@@ -709,6 +709,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Invisible/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Invisible_A0</persistentId>
 	<prerequisiteTalents />

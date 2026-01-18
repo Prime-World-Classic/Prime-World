@@ -232,6 +232,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/IronKnight/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>IronKnight_A0</persistentId>
 	<prerequisiteTalents />

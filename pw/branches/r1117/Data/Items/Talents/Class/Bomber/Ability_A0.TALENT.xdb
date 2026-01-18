@@ -83,7 +83,9 @@
 	<naftaCost>0</naftaCost>
 	<name textref="/Items/Talents/Class/Bomber/Ability_A0.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Bomber/_HeroIsHere.APLR" />
+	</passiveApplicators>
 	<persistentId>Bomber_A0</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

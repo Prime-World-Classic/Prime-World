@@ -171,6 +171,7 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Rockman/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Rockman_A0</persistentId>
 	<prerequisiteTalents />

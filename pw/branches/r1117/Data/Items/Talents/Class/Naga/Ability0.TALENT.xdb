@@ -351,6 +351,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Naga/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Naga_A0</persistentId>
 	<prerequisiteTalents />

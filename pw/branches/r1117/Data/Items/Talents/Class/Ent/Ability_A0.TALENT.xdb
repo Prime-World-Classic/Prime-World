@@ -192,6 +192,7 @@
 				<type>None</type>
 			</AuraApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Ent/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Ent_A0</persistentId>
 	<prerequisiteTalents />

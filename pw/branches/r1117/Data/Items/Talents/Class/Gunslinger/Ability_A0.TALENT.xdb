@@ -886,6 +886,7 @@
 			</PermanentStatModApplicator>
 		</Item>
 		<Item href="/Heroes/DefaultStatus/_ManalessHero.APLR" />
+		<Item href="/Items/Talents/Class/Gunslinger/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Gunslinger_A0</persistentId>
 	<prerequisiteTalents />

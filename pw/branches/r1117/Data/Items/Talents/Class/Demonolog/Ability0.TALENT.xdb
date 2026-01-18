@@ -596,6 +596,7 @@
 				<targetSelector href="" />
 			</SpellApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Demonolog/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Demonolog_A0</persistentId>
 	<prerequisiteTalents />

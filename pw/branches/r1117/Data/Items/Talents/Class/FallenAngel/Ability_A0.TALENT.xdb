@@ -308,6 +308,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/FallenAngel/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>FallenAngel_A0</persistentId>
 	<prerequisiteTalents />

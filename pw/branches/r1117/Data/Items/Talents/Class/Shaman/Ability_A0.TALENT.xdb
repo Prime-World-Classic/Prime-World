@@ -543,6 +543,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Shaman/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Shaman_A0</persistentId>
 	<prerequisiteTalents />

@@ -237,6 +237,7 @@
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Plane/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Plane_A0</persistentId>
 	<prerequisiteTalents />

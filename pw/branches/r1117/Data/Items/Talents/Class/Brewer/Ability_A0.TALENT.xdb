@@ -445,6 +445,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Brewer/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Brewer_A0</persistentId>
 	<prerequisiteTalents />

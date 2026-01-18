@@ -196,6 +196,7 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/WitchDoctor/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Vedun_A0</persistentId>
 	<prerequisiteTalents />

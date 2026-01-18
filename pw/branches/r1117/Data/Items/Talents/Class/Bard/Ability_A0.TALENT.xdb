@@ -233,6 +233,7 @@
 				<targetSelector href="" />
 			</SpellApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Bard/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Bard_A0</persistentId>
 	<prerequisiteTalents />

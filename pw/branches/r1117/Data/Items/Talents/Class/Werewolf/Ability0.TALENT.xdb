@@ -119,7 +119,9 @@
 	<naftaCost>0</naftaCost>
 	<name textref="/Items/Talents/Class/Werewolf/Ability0.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Werewolf/_HeroIsHere.APLR" />
+	</passiveApplicators>
 	<persistentId>Werewolf_A0</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

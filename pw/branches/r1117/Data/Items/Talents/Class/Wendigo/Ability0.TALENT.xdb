@@ -292,6 +292,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Wendigo/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Wendigo_A0</persistentId>
 	<prerequisiteTalents />

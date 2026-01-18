@@ -103,6 +103,7 @@
 	<node></node>
 	<passiveApplicators>
 		<Item href="/Items/Talents/Class/PinkGirl/status_A0_PinkGirl.APLR" />
+		<Item href="/Items/Talents/Class/PinkGirl/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>PinkGirl_A0</persistentId>
 	<prerequisiteTalents />

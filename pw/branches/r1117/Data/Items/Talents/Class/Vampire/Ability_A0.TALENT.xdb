@@ -258,6 +258,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Vampire/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Vampire_A0</persistentId>
 	<prerequisiteTalents />

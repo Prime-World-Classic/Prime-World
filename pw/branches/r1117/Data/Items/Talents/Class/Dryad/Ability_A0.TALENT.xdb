@@ -87,7 +87,9 @@
 	<naftaCost>0</naftaCost>
 	<name textref="/Items/Talents/Class/Dryad/Ability_A0.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Dryad/_HeroIsHere.APLR" />
+	</passiveApplicators>
 	<persistentId>Dryad_A0</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

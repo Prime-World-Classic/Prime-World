@@ -218,6 +218,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Fairy/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Fairy_A0</persistentId>
 	<prerequisiteTalents />

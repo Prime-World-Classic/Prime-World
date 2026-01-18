@@ -173,6 +173,7 @@
 	<node></node>
 	<passiveApplicators>
 		<Item href="/Items/Talents/Class/BladeDancer/status_A0.APLR" />
+		<Item href="/Items/Talents/Class/BladeDancer/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>BladeDancer_A0</persistentId>
 	<prerequisiteTalents />

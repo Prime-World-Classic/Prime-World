@@ -273,6 +273,7 @@
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/ThunderGod/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Thunder_A0</persistentId>
 	<prerequisiteTalents />

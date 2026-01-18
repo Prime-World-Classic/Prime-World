@@ -189,6 +189,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Archeress/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Archeress_A0</persistentId>
 	<prerequisiteTalents />

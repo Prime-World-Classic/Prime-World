@@ -1104,6 +1104,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Night/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Night_A0</persistentId>
 	<prerequisiteTalents />

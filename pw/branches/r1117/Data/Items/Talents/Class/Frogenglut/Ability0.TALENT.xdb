@@ -151,7 +151,9 @@
 	<naftaCost>0</naftaCost>
 	<name textref="/Items/Talents/Class/Frogenglut/Ability0.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Frogenglut/_HeroIsHere.APLR" />
+	</passiveApplicators>
 	<persistentId>Frogenglut_A0</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

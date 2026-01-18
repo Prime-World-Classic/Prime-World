@@ -320,6 +320,7 @@
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/WraithKing/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>WraithKing_A0</persistentId>
 	<prerequisiteTalents />

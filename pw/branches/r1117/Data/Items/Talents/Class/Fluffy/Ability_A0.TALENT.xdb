@@ -1150,6 +1150,7 @@
 			</ChangeHeroStateApplicator>
 		</Item>
 		<Item href="/Heroes/DefaultStatus/_ManalessHero.APLR" />
+		<Item href="/Items/Talents/Class/Fluffy/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Fluffy_A0</persistentId>
 	<prerequisiteTalents />

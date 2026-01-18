@@ -107,7 +107,9 @@
 	<naftaCost>0</naftaCost>
 	<name textref="/Items/Talents/Class/Katana/Ability_A0.TALENT_name.txt" />
 	<node>ability1</node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Katana/_HeroIsHere.APLR" />
+	</passiveApplicators>
 	<persistentId>Katana_A0</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

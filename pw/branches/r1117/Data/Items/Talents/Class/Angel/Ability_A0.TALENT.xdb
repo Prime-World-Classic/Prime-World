@@ -144,6 +144,7 @@
 				<type>Ally</type>
 			</AuraApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Angel/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Angel_A0</persistentId>
 	<prerequisiteTalents />

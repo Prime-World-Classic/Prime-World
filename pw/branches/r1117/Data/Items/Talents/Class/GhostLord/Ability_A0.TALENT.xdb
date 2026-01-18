@@ -390,6 +390,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/GhostLord/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>GhostLord_A0</persistentId>
 	<prerequisiteTalents />

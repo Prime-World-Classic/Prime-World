@@ -96,6 +96,7 @@
 	<node></node>
 	<passiveApplicators>
 		<Item href="/Items/Talents/Class/MagicGirl/status_NightMode.APLR" />
+		<Item href="/Items/Talents/Class/MagicGirl/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>MagicGirl_A0</persistentId>
 	<prerequisiteTalents />

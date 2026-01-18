@@ -154,6 +154,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Banshee/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Banshee_A0</persistentId>
 	<prerequisiteTalents />

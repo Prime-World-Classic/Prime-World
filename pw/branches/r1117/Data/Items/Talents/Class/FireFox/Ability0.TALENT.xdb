@@ -242,6 +242,7 @@
 			</StatModApplicator>
 		</Item>
 		<Item href="/Items/Talents/Class/FireFox/status_A0.APLR" />
+		<Item href="/Items/Talents/Class/FireFox/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Firefox_A0</persistentId>
 	<prerequisiteTalents />

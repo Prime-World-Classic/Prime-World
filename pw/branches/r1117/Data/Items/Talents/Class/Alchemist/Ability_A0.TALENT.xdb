@@ -340,6 +340,7 @@
 				<targetSelector href="" />
 			</SpellApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Alchemist/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Alchemist_A0</persistentId>
 	<prerequisiteTalents />

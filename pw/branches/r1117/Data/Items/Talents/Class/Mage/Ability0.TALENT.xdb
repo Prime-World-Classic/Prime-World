@@ -309,6 +309,7 @@
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Mage/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Mage_A0</persistentId>
 	<prerequisiteTalents />

@@ -509,6 +509,7 @@
 			</TriggerApplicator>
 		</Item>
 		<Item href="/Items/Talents/Class/Warlord/status_A0_buff.APLR" />
+		<Item href="/Items/Talents/Class/Warlord/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Warlord_A0</persistentId>
 	<prerequisiteTalents />

@@ -83,7 +83,9 @@
 	<naftaCost>0</naftaCost>
 	<name textref="/Items/Talents/Class/PlagueDoctor/Ability_A0.TALENT_name.txt" />
 	<node>ability1</node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/PlagueDoctor/_HeroIsHere.APLR" />
+	</passiveApplicators>
 	<persistentId>PlagueDoctor_A0</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

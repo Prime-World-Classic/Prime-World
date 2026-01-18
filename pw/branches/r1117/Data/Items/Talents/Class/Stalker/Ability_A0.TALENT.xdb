@@ -144,6 +144,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Stalker/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Stalker_A0</persistentId>
 	<prerequisiteTalents />

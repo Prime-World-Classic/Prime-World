@@ -203,6 +203,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Faceless/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Faceless_A0</persistentId>
 	<prerequisiteTalents />

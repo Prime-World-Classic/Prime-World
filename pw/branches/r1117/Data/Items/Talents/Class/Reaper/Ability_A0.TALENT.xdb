@@ -473,6 +473,7 @@
 			</TriggerApplicator>
 		</Item>
 		<Item href="/Heroes/DefaultStatus/_ManalessHero.APLR" />
+		<Item href="/Items/Talents/Class/Reaper/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Reaper_A0</persistentId>
 	<prerequisiteTalents />

@@ -437,6 +437,7 @@
 			</StatModApplicator>
 		</Item>
 		<Item href="/Heroes/DefaultStatus/_ManalessHero.APLR" />
+		<Item href="/Items/Talents/Class/Inventor/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Inventor_A0</persistentId>
 	<prerequisiteTalents />

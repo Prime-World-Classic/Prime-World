@@ -97,6 +97,7 @@
 	<node></node>
 	<passiveApplicators>
 		<Item href="/Heroes/DefaultStatus/_ManalessHero.APLR" />
+		<Item href="/Items/Talents/Class/Gunner/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Gunner_A0</persistentId>
 	<prerequisiteTalents />

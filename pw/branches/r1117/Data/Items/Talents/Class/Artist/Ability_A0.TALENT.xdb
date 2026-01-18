@@ -1049,6 +1049,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Artist/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Artist_A0</persistentId>
 	<prerequisiteTalents />

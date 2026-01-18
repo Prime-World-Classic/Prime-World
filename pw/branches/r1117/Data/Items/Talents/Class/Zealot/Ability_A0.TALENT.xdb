@@ -82,7 +82,9 @@
 	<naftaCost>0</naftaCost>
 	<name textref="/Items/Talents/Class/Zealot/Ability_A0.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Zealot/_HeroIsHere.APLR" />
+	</passiveApplicators>
 	<persistentId>Zealot_A0</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

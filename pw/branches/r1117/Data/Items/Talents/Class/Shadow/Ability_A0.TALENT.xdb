@@ -528,6 +528,7 @@
 			</TriggerApplicator>
 		</Item>
 		<Item href="/Heroes/DefaultStatus/_ManalessHero.APLR" />
+		<Item href="/Items/Talents/Class/Shadow/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Shadow_A0</persistentId>
 	<prerequisiteTalents />

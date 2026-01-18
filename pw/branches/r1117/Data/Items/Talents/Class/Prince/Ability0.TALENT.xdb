@@ -336,6 +336,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Prince/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Prince_A0</persistentId>
 	<prerequisiteTalents />

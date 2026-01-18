@@ -195,6 +195,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Assassin/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Assassin_A0</persistentId>
 	<prerequisiteTalents />

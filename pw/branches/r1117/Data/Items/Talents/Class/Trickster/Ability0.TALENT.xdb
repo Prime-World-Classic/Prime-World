@@ -82,7 +82,9 @@
 	<naftaCost>0</naftaCost>
 	<name textref="/Items/Talents/Class/Trickster/Ability0.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Trickster/_HeroIsHere.APLR" />
+	</passiveApplicators>
 	<persistentId>Trickster_A0</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

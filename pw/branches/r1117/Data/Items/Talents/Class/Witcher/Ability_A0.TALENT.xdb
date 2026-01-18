@@ -338,6 +338,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Witcher/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Witcher_A0</persistentId>
 	<prerequisiteTalents />

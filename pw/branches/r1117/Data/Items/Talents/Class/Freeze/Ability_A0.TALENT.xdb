@@ -505,6 +505,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Freeze/_HeroIsHere.APLR" />
 	</passiveApplicators>
 	<persistentId>Freeze_A0</persistentId>
 	<prerequisiteTalents />

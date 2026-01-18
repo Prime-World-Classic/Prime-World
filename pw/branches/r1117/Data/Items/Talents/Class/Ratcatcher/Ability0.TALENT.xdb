@@ -118,7 +118,9 @@
 	<naftaCost>0</naftaCost>
 	<name textref="/Items/Talents/Class/Ratcatcher/Ability0.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Ratcatcher/_HeroIsHere.APLR" />
+	</passiveApplicators>
 	<persistentId>Ratcatcher_A0</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>
