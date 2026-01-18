@@ -99,9 +99,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsaAAAABCLRQiLEItNCItCaP/QD7bA99gbwIPAAV3D</compiledString>
+					<compiledString>FScAAAAFAAAARQAAAFsAAABtAAAAhwAAAJ0AAABJbW11bmUyQ29udHJvbAAAVGhyb3dfSnVtcAAAVGVsZXBvcnRlZABVi+xRaAAAABCLRQiLEItNCItCaP/QD7bIhcl1bWgAAAAAi1UMiwKLTQyLkIgBAAD/0twdvwAAAN/g9sREektqAItFEFBoEAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1K2gcAAAAi00MixGLTQyLgogBAAD/0NwdvwAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 					<returnType>bool</returnType>
-					<sString>!sFlag(268435456)</sString>
+					<sString>!sFlag(268435456)&amp;&amp;receiver.vImmune2Control == 0 &amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMisc &amp;&amp; receiver.vTeleported == 0</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
