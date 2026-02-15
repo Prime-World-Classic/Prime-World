@@ -1618,6 +1618,9 @@
 		<Item href="/UI/Content/CustomFlags/PWClassic/Rose" />
 		<Item href="/UI/Content/CustomFlags/PWClassic/Space" />
 		<Item href="/UI/Content/CustomFlags/PWClassic/The_brown_cutie" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/Samovar" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/Pancakes" />
+		<Item href="/UI/Content/CustomFlags/PWClassic/Yarilosolnce" />
 	</customFlags>
 	<dialogsSettings>
 		<defaultPhraseDuration>10</defaultPhraseDuration>
