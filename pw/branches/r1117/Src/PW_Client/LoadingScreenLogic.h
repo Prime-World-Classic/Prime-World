@@ -78,6 +78,7 @@ struct HeroInfo
   bool isBot;
   int  exp;
   float force;
+  int accountRating;
   int raiting;
   float winDeltaRaiting;
   float loseDeltaRaiting;
