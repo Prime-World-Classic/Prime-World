@@ -12,50 +12,48 @@ package LoaderSources
   {
 
     public var raitingBack:MovieClip;
-
     public var raiting_txt:TextField;
-
     public var eliteHero_mc:BaseIconLoader;
-    А;
 
     private var tooltipText:String;
 
     private var ourPlayerTooltipTemplate:String;
-
     private var teamMateTooltipTemplate:String;
 
     public function LoaderHeroRaitingAccBar()
     {
-      super();
       this.visible = false;
       addEventListener(MouseEvent.MOUSE_OVER, this.OnRaitingOver);
       addEventListener(MouseEvent.MOUSE_OUT, this.OnRaitingOut);
-      this.ourPlayerTooltipTemplate = LoaderLocalization.OurPlayerRaitingAccTooltip;
-      this.teamMateTooltipTemplate = LoaderLocalization.TeamMateRaitingAccTooltip;
-      this.raiting_txt.mouseEnabled = false;
+      ourPlayerTooltipTemplate = LoaderLocalization.OurPlayerRaitingAccTooltip;
+      teamMateTooltipTemplate = LoaderLocalization.TeamMateRaitingAccTooltip;
+      raiting_txt.mouseEnabled = false;
       if (LoaderLocalization.CompleteEventDispatcher != null)
       {
         LoaderLocalization.CompleteEventDispatcher.addEventListener(Event.COMPLETE, this.OnFillLocalization);
       }
     }
 
-    private function OnFillLocalization(param1:Event):void
+    private function OnFillLocalization(e:Event):void
     {
-      this.ourPlayerTooltipTemplate = LoaderLocalization.OurPlayerRaitingAccTooltip;
-      this.teamMateTooltipTemplate = LoaderLocalization.TeamMateRaitingAccTooltip;
+      ourPlayerTooltipTemplate = LoaderLocalization.OurPlayerRaitingAccTooltip;
+      teamMateTooltipTemplate = LoaderLocalization.TeamMateRaitingAccTooltip;
     }
 
-    public function SetHeroRaiting(param1:Boolean, param2:int, param3:Number, param4:Number, param5:String, param6:String):void
+    public function SetHeroRaiting(isItOurHero:Boolean,raiting:int, deltaWin:Number, deltaLose:Number, rankIcon:String, rankTooltip:String):void 
     {
       this.visible = true;
-      this.raiting_txt.text = param2.toString();
-      this.eliteHero_mc.SetIcon(param5);
-      this.tooltipText = param6 + (param1 ? this.ourPlayerTooltipTemplate : this.teamMateTooltipTemplate);
-      this.tooltipText = this.tooltipText.replace("{0}", (Math.abs(int(param3 * 10)) / 10).toString());
-      this.tooltipText = this.tooltipText.replace("{1}", (Math.abs(int(param4 * 10)) / 10).toString());
+      
+      raiting_txt.text = raiting.toString();
+      
+      eliteHero_mc.SetIcon(rankIcon);
+      
+      tooltipText = rankTooltip + (isItOurHero ? this.ourPlayerTooltipTemplate : this.teamMateTooltipTemplate);
+      tooltipText = tooltipText.replace("{0}", (Math.abs(int(deltaWin * 10)) / 10).toString());
+      tooltipText = tooltipText.replace("{1}", (Math.abs(int(deltaLose * 10)) / 10).toString());
     }
 
-    private function OnRaitingOver(param1:MouseEvent):void
+    private function OnRaitingOver(e:MouseEvent):void
     {
       var _loc2_:Point = this.localToGlobal(new Point());
       if (this.tooltipText.length == 0)
@@ -65,7 +63,7 @@ package LoaderSources
       dispatchEvent(new ButtonTooltipEvent(ButtonTooltipEvent.ACTION_TYPE_IN, this, _loc2_.x, _loc2_.y, this.tooltipText));
     }
 
-    private function OnRaitingOut(param1:MouseEvent):void
+    private function OnRaitingOut(e:MouseEvent):void
     {
       if (this.tooltipText.length == 0)
       {
