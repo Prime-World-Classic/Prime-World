@@ -71,14 +71,14 @@ class LoadingHeroes;
 
 struct HeroInfo
 {
-  HeroInfo(): isProcessed(false), exp(0), isBot(false), force(0), accountRating(0),
+  HeroInfo(): isProcessed(false), exp(0), isBot(false), force(0), playerRating(0),
     raiting(0), winDeltaRaiting(0), loseDeltaRaiting(0), isNovice(false), isPremium(false), heroId(0), partyId(0),
     isAnimatedAvatar(true), leagueIndex(0), ownLeaguePlace(0) {}
   bool isProcessed;
   bool isBot;
   int  exp;
   float force;
-  int accountRating;
+  int playerRating;
   int raiting;
   float winDeltaRaiting;
   float loseDeltaRaiting;

@@ -250,7 +250,7 @@ static WebUsersDataMap GetUsersData(Json::Value usersData) {
 
     WebLauncherPostRequest::WebUserData resData;
     Json::Value rating = curPlayer.get("rating", Json::Value());
-    resData.accountRating = rating.get("account", Json::Value()).asFloat();
+    resData.playerRating = rating.get("player", Json::Value()).asFloat();
     resData.currentRating = rating.get("current", Json::Value()).asFloat();
     resData.victoryRating = rating.get("victory", Json::Value()).asFloat();
     resData.lossRating = rating.get("loss", Json::Value()).asFloat();
