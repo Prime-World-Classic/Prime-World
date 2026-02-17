@@ -41,8 +41,8 @@ public:
     bool isSmartCast;
   };
 
-  struct WebUserData {
-    WebUserData(): heroSkinID(0), currentRating(1100), victoryRating(1100), lossRating(1100), userId(0) {}
+  struct WebUserData {	
+    WebUserData(): heroSkinID(0), currentRating(1100), victoryRating(1100), lossRating(1100), currentRatingAcc(1100), victoryRatingAcc(1100), lossRatingAcc(1100), userId(0) {}
     std::vector<TalentWebData> talents;
     int profileStats[9];
 	  int heroSkinID;
@@ -50,6 +50,9 @@ public:
     float currentRating;
     float victoryRating;
     float lossRating;
+	float currentRatingAcc;
+	float victoryRatingAcc;
+	float lossRatingAcc;
 
     int heroId;
     int teamId;

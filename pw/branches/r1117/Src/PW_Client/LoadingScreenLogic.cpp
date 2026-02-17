@@ -506,7 +506,7 @@ void LoadingScreenLogic::SetHeroInfo( int userId, const HeroInfo & heroInfo, con
 
 	flashInterface->SetHeroPremium(userId, heroInfo.isPremium, ConvertToFaction( heroInfo.originalTeam));
 
-  //если изменения рейтинга нету просто его не показываем
+  //пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
   if ( _clientSettings.showHeroRating )
   {
 
@@ -516,6 +516,7 @@ void LoadingScreenLogic::SetHeroInfo( int userId, const HeroInfo & heroInfo, con
       //heroInfo.team == lobby::ETeam::Team1? NDb::FACTION_FREEZE: NDb::FACTION_BURN;
 
     flashInterface->SetHeroRaiting(userId, heroInfo.raiting, heroInfo.winDeltaRaiting, heroInfo.loseDeltaRaiting, heroInfo.isNovice,  rankCalculator->GetRankIcon(faction, rank), rankCalculator->GetRankName(faction, rank));
+    flashInterface->SetHeroRaitingAcc(userId, heroInfo.raitingAcc, heroInfo.winDeltaRaitingAcc, heroInfo.loseDeltaRaitingAcc, heroInfo.isNovice,  rankCalculator->GetRankIcon(faction, rank), rankCalculator->GetRankName(faction, rank));
   }
 }
 
