@@ -649,10 +649,13 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
     
     WebUserData resData;
     Json::Value rating = curPlayer.get("rating", Json::Value());
-    resData.playerRating = rating.get("player", Json::Value()).asFloat();
+	Json::Value ratingAcc = curPlayer.get("ratingAcc", Json::Value());
     resData.currentRating = rating.get("current", Json::Value()).asFloat();
     resData.victoryRating = rating.get("victory", Json::Value()).asFloat();
     resData.lossRating = rating.get("loss", Json::Value()).asFloat();
+	resData.currentRatingAcc = ratingAcc.get("current", Json::Value()).asFloat();
+	resData.victoryRatingAcc = ratingAcc.get("victory", Json::Value()).asFloat();
+	resData.lossRatingAcc = ratingAcc.get("loss", Json::Value()).asFloat();
     resData.heroSkinID = curPlayer.get("skin", Json::Value()).asInt();
     resData.userId = curPlayer.get("id", Json::Value()).asInt();
     
