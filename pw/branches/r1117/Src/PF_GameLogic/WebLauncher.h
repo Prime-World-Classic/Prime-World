@@ -47,7 +47,7 @@ public:
     int profileStats[9];
 	  int heroSkinID;
     int userId;
-    float accountRating;
+
     float currentRating;
     float victoryRating;
     float lossRating;
