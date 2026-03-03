@@ -125,6 +125,16 @@
 				<name>PinkGirl_A0_SUP</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/PinkGirl/Ability_A3.TALENT" id="66EC57FC-8373-4A0C-836B-15B5A6CF87EA">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABQaW5rR2lybF9BM19TVVAAUGlua0dpcmxfQTNfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("PinkGirl_A3_SUP") == false</sString>
+				</condition>
+				<name>PinkGirl_A3_SUP</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/PinkGirl/Ability_A3.TALENT" id="EB19CA20-BC6B-4623-8B6E-DD757CA9D6E3">
@@ -189,6 +199,16 @@
 							<compiledString>FSAAAAACAAAAJwAAAEAAAABQaW5rR2lybF9BM19TVVAAUGlua0dpcmxfQTNfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4fuDwRSJTfTbRfSL5V3D</compiledString>
 							<returnType>float</returnType>
 							<sString>tal("PinkGirl_A3_SUP") ? 15 : 20</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/PinkGirl/Ability_A3.TALENT" id="DC3BC71E-8716-469C-A06E-26159A10669A">
+					<UnitConstant>
+						<name>Dispell_Number</name>
+						<var>
+							<compiledString>FSAAAAACAAAAJwAAAEAAAABQaW5rR2lybF9BM19TVVAAUGlua0dpcmxfQTNfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4WODwQGJTfTbRfSL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("PinkGirl_A3_SUP") ? 100 : 1</sString>
 						</var>
 					</UnitConstant>
 				</Item>

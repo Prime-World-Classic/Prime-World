@@ -649,9 +649,13 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
     
     WebUserData resData;
     Json::Value rating = curPlayer.get("rating", Json::Value());
+	Json::Value ratingAcc = curPlayer.get("ratingAcc", Json::Value());
     resData.currentRating = rating.get("current", Json::Value()).asFloat();
     resData.victoryRating = rating.get("victory", Json::Value()).asFloat();
     resData.lossRating = rating.get("loss", Json::Value()).asFloat();
+	resData.currentRatingAcc = ratingAcc.get("current", Json::Value()).asFloat();
+	resData.victoryRatingAcc = ratingAcc.get("victory", Json::Value()).asFloat();
+	resData.lossRatingAcc = ratingAcc.get("loss", Json::Value()).asFloat();
     resData.heroSkinID = curPlayer.get("skin", Json::Value()).asInt();
     resData.userId = curPlayer.get("id", Json::Value()).asInt();
     
@@ -667,7 +671,7 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
     }
     if (!resData.talents.empty()) {
       Json::Value dataActives = curPlayer.get("bar", Json::Value());
-      for (int a = 0; a < 10; ++a) {
+      for (int a = 0; a < 24; ++a) {
         if (!dataActives[a].empty()) {
           int activeRaw = dataActives[a].asInt();
           if (activeRaw != 0) {
