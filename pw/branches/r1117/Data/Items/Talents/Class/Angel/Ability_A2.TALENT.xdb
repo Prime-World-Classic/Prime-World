@@ -451,9 +451,9 @@
 					<UnitConstant>
 						<name>A2_HealAmount</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAdQQAAk0I=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DzcwsQTOzoUI=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 9.8125, 73.5)</sString>
+							<sString>damageScale(sIntellect, 10.8, 80.85)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

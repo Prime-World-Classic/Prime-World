@@ -164,6 +164,7 @@
 					<Item href="/Items/Talents/Class/Shaman/Ability_A4_2.TALENT" />
 					<Item href="/Items/Talents/Class/Bomber/Ability_A4.TALENT" />
 					<Item href="/Items/Talents/Class/Bomber/Ability_A4_2.TALENT" />
+					<Item href="/Items/Talents/Class/Angel/Ability_A5.TALENT" />
 				</talents>
 				<targetAbilities>128</targetAbilities>
 				<useListAs>ListAsRule</useListAs>

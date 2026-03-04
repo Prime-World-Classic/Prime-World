@@ -492,6 +492,57 @@
 																					</VariableProxyApplicator>
 																				</Item>
 																				<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
+																				<Item href="/Items/Talents/Class/Angel/Ability_A3.TALENT" id="734199DD-0C5D-403E-ADC2-0DCE72F0CC2C">
+																					<StatusApplicator>
+																						<applicators />
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<behaviorFlags>0</behaviorFlags>
+																						<caption>статус чтобы следующие копья в цель наносили меньше урона</caption>
+																						<customCounter>
+																							<compiledString></compiledString>
+																							<returnType>int</returnType>
+																							<sString>0</sString>
+																						</customCounter>
+																						<customProgress>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>-1.0</sString>
+																						</customProgress>
+																						<description textref="/Items/Talents/Class/Angel/Ability_A3.TALENT_734199dd0c5d403eadc20dce72f0cc2c_description.txt" />
+																						<dispellPriority>Medium</dispellPriority>
+																						<effect>
+																							<Item href="" />
+																							<Item href="" />
+																						</effect>
+																						<enabled>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<flags>0</flags>
+																						<formulaName>AngelSpearDebuff</formulaName>
+																						<image href="/UI/Styles/Icons/Heroes/Angel/A3.ITEX" />
+																						<lifeTime>
+																							<compiledString>FSkAAAABAAAANQAAAEEzX0RhbWFnZVJlZHVjdGlvbkZvck90aGVyU3BlYXJfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																							<returnType>float</returnType>
+																							<sString>cA3_DamageReductionForOtherSpear_Duration</sString>
+																						</lifeTime>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<name textref="/Items/Talents/Class/Angel/Ability_A3.TALENT_734199dd0c5d403eadc20dce72f0cc2c_name.txt" />
+																						<power>0</power>
+																						<providerName></providerName>
+																						<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+																						<stackCount>0</stackCount>
+																						<startCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</startCondition>
+																						<statusPosition>0</statusPosition>
+																						<stopBehaviour>StopByTime</stopBehaviour>
+																						<unstackableWith href="" />
+																					</StatusApplicator>
+																				</Item>
 																			</applicators>
 																			<dispatch href="/Items/Talents/Class/Angel/Ability_A3.TALENT" id="67D9554C-2752-4DDB-9EAE-0D2E425D7E5F">
 																				<DispatchImmediate>
@@ -703,9 +754,9 @@
 					<UnitConstant>
 						<name>A3_WaitTime</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
 							<returnType>float</returnType>
-							<sString>0.1</sString>
+							<sString>0.2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -764,9 +815,9 @@
 					<UnitConstant>
 						<name>A3_DropTime</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>0.5</sString>
+							<sString>0.7</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -774,9 +825,9 @@
 					<UnitConstant>
 						<name>A3_DamageBase</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACOQgAAHkQ=</compiledString>
+							<compiledString>FREAAAAGAAAAHgAAADwAAABGAAAAfAAAAIYAAAC0AAAAQW5nZWxTcGVhckRlYnVmZgBVi+yD7AxqAYtFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9A5RRB1QGoBUdkF1AAAANkcJFHZBdAAAADZHCRqAItNCIsRi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3V3460RqAVHZBdQAAADZHCRR2QXQAAAA2RwkagCLTQiLEYtNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0NwNyAAAAN1d+N1F+Nld9NlF9IvlXcNmZmZmZmbmPwAAjkIAAB5E</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale (sStrength, 71, 632)</sString>
+							<sString>(pMisc == receiver.applAngelSpearDebuff(UNIT)) ? damageScale (sStrength, 71, 632) : damageScale (sStrength, 71, 632) * 0.7</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -798,6 +849,26 @@
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A3.TALENT" id="F8D63FA2-204D-4ED0-9BD9-1F2142A09925">
+					<UnitConstant>
+						<name>A3_DamageReductionForOtherSpear</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A3.TALENT" id="FC202245-F30D-4512-B129-C1C7FF02D8B1">
+					<UnitConstant>
+						<name>A3_DamageReductionForOtherSpear_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>10.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="2" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -255,7 +256,7 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>А5. </caption>
+	<caption>А5. Хранитель жизни</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>

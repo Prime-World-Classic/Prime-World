@@ -1094,9 +1094,9 @@
 									<placeSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="BC7AF99E-9100-4FAC-9AA4-D10E303061F4">
 										<UnitPlaceCorrector>
 											<checkByRangeToRequester>false</checkByRangeToRequester>
-											<checkLineOfSight>true</checkLineOfSight>
+											<checkLineOfSight>false</checkLineOfSight>
 											<nativeTerrainOnly>false</nativeTerrainOnly>
-											<passabilityCheckMode>7</passabilityCheckMode>
+											<passabilityCheckMode>4</passabilityCheckMode>
 											<radius>7</radius>
 											<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="660C4728-FCD7-4793-A1AB-CE08A561F747">
 												<SelectApplicatorTarget>
@@ -1183,7 +1183,7 @@
 						<checkByRangeToRequester>true</checkByRangeToRequester>
 						<checkLineOfSight>false</checkLineOfSight>
 						<nativeTerrainOnly>false</nativeTerrainOnly>
-						<passabilityCheckMode>7</passabilityCheckMode>
+						<passabilityCheckMode>4</passabilityCheckMode>
 						<radius>15</radius>
 						<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="31C3790B-23AC-4B5A-8AEE-E77F7F878EB5">
 							<SelectApplicatorTarget>

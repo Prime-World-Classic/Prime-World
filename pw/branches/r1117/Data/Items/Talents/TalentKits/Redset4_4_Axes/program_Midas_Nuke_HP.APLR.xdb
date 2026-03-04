@@ -11,9 +11,9 @@
 						<sString>true</sString>
 					</enabled>
 					<lifeTime>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.2f</sString>
+						<sString>0.1f</sString>
 					</lifeTime>
 					<processor href="/Items/Talents/TalentKits/Redset4_4_Axes/processor_CreepLH_All_HP.EVNT" />
 				</TriggerApplicator>

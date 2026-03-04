@@ -46,8 +46,8 @@
 					<attached />
 					<caption>sound</caption>
 					<desc>
-						<eventName>vsego</eventName>
-						<groupName>SFXnew</groupName>
+						<eventName>A2</eventName>
+						<groupName>Heroes/Shaman/Animation</groupName>
 						<projectName>PF</projectName>
 					</desc>
 					<groupFlags>0</groupFlags>
