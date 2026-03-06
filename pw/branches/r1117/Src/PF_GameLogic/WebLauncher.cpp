@@ -671,7 +671,7 @@ WebLauncherPostRequest::WebLoginResponse WebLauncherPostRequest::GetSessionData(
     }
     if (!resData.talents.empty()) {
       Json::Value dataActives = curPlayer.get("bar", Json::Value());
-      for (int a = 0; a < 24; ++a) {
+      for (int a = 0; a < 10; ++a) {
         if (!dataActives[a].empty()) {
           int activeRaw = dataActives[a].asInt();
           if (activeRaw != 0) {

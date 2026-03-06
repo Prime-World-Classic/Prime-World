@@ -515,8 +515,8 @@ void LoadingScreenLogic::SetHeroInfo( int userId, const HeroInfo & heroInfo, con
     NDb::EFaction faction = ConvertToFaction(heroInfo.team);
       //heroInfo.team == lobby::ETeam::Team1? NDb::FACTION_FREEZE: NDb::FACTION_BURN;
 
-    flashInterface->SetHeroRaiting(userId, heroInfo.raiting, heroInfo.winDeltaRaiting, heroInfo.loseDeltaRaiting, heroInfo.isNovice,  rankCalculator->GetRankIcon(faction, rank), rankCalculator->GetRankName(faction, rank));
-    flashInterface->SetHeroRaitingAcc(userId, heroInfo.raitingAcc, heroInfo.winDeltaRaitingAcc, heroInfo.loseDeltaRaitingAcc, heroInfo.isNovice,  rankCalculator->GetRankIcon(faction, rankAcc), rankCalculator->GetRankName(faction, rankAcc));
+  //flashInterface->SetHeroRaiting(userId, heroInfo.raiting, heroInfo.winDeltaRaiting, heroInfo.loseDeltaRaiting, heroInfo.isNovice,  rankCalculator->GetRankIcon(faction, rank), rankCalculator->GetRankName(faction, rank));
+    flashInterface->SetHeroRaiting(userId, heroInfo.raitingAcc, heroInfo.winDeltaRaitingAcc, heroInfo.loseDeltaRaitingAcc, heroInfo.isNovice,  rankCalculator->GetRankIcon(faction, rankAcc), rankCalculator->GetRankName(faction, rankAcc));
   }
 }
 
