@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+﻿#include "StdAfx.h"
 #include "LoadingFlashInterface.h"
 
 
@@ -183,9 +183,9 @@ void LoadingFlashInterface::AddMessage( NDb::EChatChannel channel, const wstring
 }
 
 
-void LoadingFlashInterface::AddMessage(NDb::EChatChannel channel, const wstring & playerName, const wstring & message, const int playerId)
+void LoadingFlashInterface::AddMessage(NDb::EChatChannel channel, const wstring & playerName, const wstring & message, const int /*playerId*/)
 {
-  CallMethod("AddMessageEx", channel, playerName, message, playerId);
+  CallMethod("AddMessage", channel, playerName, message);
 }
 
 
@@ -247,4 +247,6 @@ void LoadingFlashInterface::OnEscape()
 
 
 NI_DEFINE_REFCOUNT( Game::LoadingFlashInterface );
+
+
 
