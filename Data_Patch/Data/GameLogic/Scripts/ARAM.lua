@@ -22,8 +22,6 @@ COMPANION_DATA = {}
 
 function Init( reconnecting )
 	
-	AddTriggerTop( DelayInit )
-
 	if not reconnecting then
 		
 		local QUEST_DRAGON = {}
@@ -42,15 +40,29 @@ function Init( reconnecting )
 		
 		SetGlobalVar( "QUEST_TOWER", QUEST_TOWER )
 		
+		local CAPTAIN_GLYPH = {}
+		
+		CAPTAIN_GLYPH[1] = { name = "CaptainGlyph_A", state = false, hero = 0, spawn = { x = 37, y = 115 } }
+		
+		CAPTAIN_GLYPH[2] = { name = "CaptainGlyph_B", state = false, hero = 0, spawn = { x = 223, y = 142 } }
+		
+		SetGlobalVar( "CAPTAIN_GLYPH", CAPTAIN_GLYPH )
+		
 	end
 	
+	-- InitCaptainGlyph()
+	
 	LOCAL_FACTION = LuaGetUnitFaction( "local" )
+	
+	AddTriggerTop( DelayInit )
 	
 end
 
 function DelayInit()
-
+	
 	WaitState( 15 )
+	
+	-- SpawnCaptainGlyph()
 	
 	LuaPlaceAttachedEffect( "WithLoveIfstLocalId", "WithLoveIfst", "local" )
 	
@@ -84,6 +96,81 @@ function DelayInit()
 	
 	end
 	
+end
+
+function InitCaptainGlyph()
+	
+	for team = 0, 1 do
+	
+		for hero = 0, 4 do
+			
+			local heroNameId = tostring( team ) .. tostring( hero )
+			
+			LuaSubscribeUnitEvent( heroNameId, EventPickup, "EventPickupGlyph" )
+			
+		end
+		
+	end
+	
+end
+
+function SpawnCaptainGlyph()
+	
+	for faction, data in ipairs( GetGlobalVar( "CAPTAIN_GLYPH" ) ) do
+		
+		if not data.state then 
+			
+			LuaCreateGlyph( data.name, "CaptainGlyph", data.spawn.x, data.spawn.y )
+			
+			data.state = true
+			
+			--if LOCAL_FACTION ~= faction then 
+			
+				--LuaEnableGlyph( data.name, false )
+			
+			--end;
+		
+		end
+	
+	end
+	
+end
+
+function EventPickupGlyph( hero, glyph )
+	
+	for faction, data in ipairs( GetGlobalVar( "CAPTAIN_GLYPH" ) ) do 
+		
+		if glyph == data.name and faction == LuaGetUnitFaction( hero ) then 
+			
+			LuaPlaceAttachedEffect( "CaptainStatus_" .. LuaGetObjectId( hero ), "CaptainStatus", hero )
+			
+			data.hero = LuaGetObjectId( hero )
+			
+		end
+		
+	end
+	
+end
+
+function CheckDeadCaptain( victimId )
+	
+	for faction, data in ipairs( GetGlobalVar( "CAPTAIN_GLYPH" ) ) do 
+		
+		if data.hero ~= 0 and LuaGetUnitTypeById( victimId ) == UnitTypeHeroMale and data.hero == victimId and not LuaHeroIsCloneById( victimId )  then
+			
+			data.state = false
+			
+			LuaRemoveStandaloneEffect( "CaptainStatus_" .. victimId )
+			
+			data.hero = 0
+		
+		end
+	
+	
+	end
+	
+	SpawnCaptainGlyph()
+
 end
 
 function QuestDragon()
@@ -310,6 +397,8 @@ function PointReceived( victimId, killerId )
 	
 		local victimName = LuaGetUnitObjectNameById( victimId )
 		
+		LuaUnitApplyApplicator( killerName, "AddLife10" )
+		
 		local effectId = "PointReceived_" .. victimName;
 		
 		LuaPlaceAttachedEffect( effectId, "PointReceived", killerName )
@@ -322,7 +411,27 @@ function PointReceived( victimId, killerId )
 
 end
 
+function DeadEffect( victimId )
+
+	if LuaGetUnitTypeById( victimId ) == UnitTypeHeroMale then
+	
+		local victimName = LuaGetUnitObjectNameById( victimId )
+		
+		local effectId = "deadEffect_"..victimName;
+		
+		LuaPlaceAttachedEffect( effectId, "DeadEffect", victimName )
+		
+		WaitState( 5 )
+		
+		LuaRemoveStandaloneEffect( effectId )
+	
+	end
+
+end
+
 function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
+	
+	AddTriggerTop( DeadEffect, victimId )
 	
 	if LuaGetUnitTypeById( victimId ) == 3 and LuaGetUnitObjectNameById( victimId ) == "" then
 		
@@ -344,7 +453,13 @@ function OnUnitDie( victimId, killerId, lastHitterId, deathParamsInfo )
 		
 	end
 	
-	AddTriggerTop( PointReceived, victimId, killerId )
+	-- AddTriggerTop( CheckDeadCaptain, victimId )
+	
+	if LuaGetUnitTypeById( victimId ) ~= UnitTypeHeroMale then 
+	
+		AddTriggerTop( PointReceived, victimId, killerId )
+	
+	end
 	
 	if not ZOMBIE_MODE then 
 	

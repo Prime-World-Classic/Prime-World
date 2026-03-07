@@ -1434,9 +1434,9 @@
 														<height>2048</height>
 														<width>2048</width>
 													</size>
-													<srcFileName crc="0">/Heroes/Bomber/S1/1BomberUV.tga</srcFileName>
+													<srcFileName crc="0">/Heroes/Bomber/S1/GrayUV.tga</srcFileName>
 													<startMipLevel>0</startMipLevel>
-													<textureFileName>/Heroes/Bomber/S1/1BomberUV.dds</textureFileName>
+													<textureFileName>/Heroes/Bomber/S1/GrayUV.dds</textureFileName>
 													<textureType>Color</textureType>
 												</Texture>
 											</texture>
@@ -1510,7 +1510,23 @@
 												<minFilter>Linear</minFilter>
 												<mipFilter>Linear</mipFilter>
 											</samplerState>
-											<texture href="" />
+											<texture href="/Heroes/Bomber/S1/_.SOBJ" id="03158B3F-31E2-41CF-BF25-9E4302DD3F8A">
+												<Texture>
+													<generatedFileName></generatedFileName>
+													<mipLevels>0</mipLevels>
+													<mipLevelUsage>AutoGenerate</mipLevelUsage>
+													<mipSharpenPasses></mipSharpenPasses>
+													<pixelFormat>DXT1</pixelFormat>
+													<size>
+														<height>0</height>
+														<width>0</width>
+													</size>
+													<srcFileName crc="0">/Heroes/Bomber/S1/1Bomber_SPC.tga</srcFileName>
+													<startMipLevel>0</startMipLevel>
+													<textureFileName>/Heroes/Bomber/S1/1Bomber_SPC.dds</textureFileName>
+													<textureType>Color</textureType>
+												</Texture>
+											</texture>
 										</SpecularMap>
 										<specularPower>5</specularPower>
 										<SubPriority>0</SubPriority>

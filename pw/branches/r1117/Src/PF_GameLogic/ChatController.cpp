@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+﻿#include "StdAfx.h"
 #include "ChatController.h"
 #include "IFlashChat.h"
 #include "FlashFSCommands.h"
@@ -234,7 +234,7 @@ void ChatUiController::Update()
 
       if ( g_sessionChatOff)
       {
-        // NUM_TASK ���� ��������� �� �� ������ ��������
+        // NUM_TASK пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         if (chatMessage.userId != chatClient->GetGameUserId())
           continue;
       }
@@ -299,14 +299,12 @@ void ChatUiController::Update()
 
 void ChatUiController::AddMessageToChatOutput( const wstring & message, NDb::EChatChannel channel, const wstring & playerName, const TUserId userId )
 {
-  const int playerId = GetPlayerIdByUserId(userId);
-
   for (nstl::list<Weak<IFlashChat>>::iterator i = flashChats.begin(); i!=flashChats.end(); i++)
   {
     IFlashChat * flashChat = *i;
 
     if (flashChat)
-      flashChat->AddMessage(channel, playerName, message, playerId);
+      flashChat->AddMessage(channel, playerName, message);
   }
 }
 
@@ -660,3 +658,7 @@ void ChatUiController::NotifyChatMuted(const NWorld::PFPlayer* const player)
 NI_DEFINE_REFCOUNT(NGameX::IFlashChat)
 NI_DEFINE_REFCOUNT(NGameX::IChatMessageHook)
 NI_DEFINE_REFCOUNT(NGameX::ChatUiController)
+
+
+
+

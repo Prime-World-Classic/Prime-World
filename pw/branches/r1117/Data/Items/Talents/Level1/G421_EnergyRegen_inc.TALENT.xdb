@@ -28,7 +28,6 @@
 	<BackLink DBID="/Test/Talents/Witcher/Epic_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/LB_G421" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Trickster_Mighty.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

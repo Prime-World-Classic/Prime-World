@@ -9,7 +9,6 @@
 	<BackLink DBID="/Items/Talents/TalentLists/Str_Sta_Upg" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet6.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Alchemist.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

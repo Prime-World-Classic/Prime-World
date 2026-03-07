@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+﻿#include "StdAfx.h"
 #include "LoadingFlashInterface.h"
 
 
@@ -103,6 +103,11 @@ void LoadingFlashInterface::SetHeroRaiting( int heroId, int raiting, float delta
   CallMethod( "SetHeroRaiting", heroId, raiting, deltaWin, deltaLose, isNovice, rankIcon, rankName);
 }
 
+void LoadingFlashInterface::SetHeroRaitingAcc( int heroId, int raiting, float deltaWin, float deltaLose, bool isNovice, const char* rankIcon, const wstring & rankName )
+{
+  CallMethod( "SetHeroRaitingAcc", heroId, raiting, deltaWin, deltaLose, isNovice, rankIcon, rankName);
+}
+
 
 void LoadingFlashInterface::SetHeroPremium( int heroId, bool hasPremium, NDb::EFaction originalFraction )
 {
@@ -178,9 +183,9 @@ void LoadingFlashInterface::AddMessage( NDb::EChatChannel channel, const wstring
 }
 
 
-void LoadingFlashInterface::AddMessage(NDb::EChatChannel channel, const wstring & playerName, const wstring & message, const int playerId)
+void LoadingFlashInterface::AddMessage(NDb::EChatChannel channel, const wstring & playerName, const wstring & message, const int /*playerId*/)
 {
-  CallMethod("AddMessageEx", channel, playerName, message, playerId);
+  CallMethod("AddMessage", channel, playerName, message);
 }
 
 
@@ -242,4 +247,6 @@ void LoadingFlashInterface::OnEscape()
 
 
 NI_DEFINE_REFCOUNT( Game::LoadingFlashInterface );
+
+
 

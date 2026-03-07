@@ -140,7 +140,7 @@
 	<BackLink DBID="/Items/Talents/Class/Mage/status_A4_2_DemonForm.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Mage/status_A4u_aura.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A4.TALENT" Count="2" />
-	<BackLink DBID="/Items/Talents/Class/MagicGirl/spell_A1_InstantDmg.SPLL" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/MagicGirl/spell_A1_InstantDmg.SPLL" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/status_A1_CharmNet.APLR" Count="1" />
@@ -278,6 +278,7 @@
 	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateA.TOWR" Count="2" />
 	<BackLink DBID="/Maps/Multiplayer/ARAM/Towers/GateB.TOWR" Count="2" />
 	<BackLink DBID="/Items/Talents/Level3/G101_LifeReg-Str.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A3.TALENT" Count="1" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" id="FCDDC7F1-12E2-4611-8C2F-927182843C56">

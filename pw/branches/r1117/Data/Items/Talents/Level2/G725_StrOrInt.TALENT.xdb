@@ -118,9 +118,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString></compiledString>
+		<compiledString>FQkAAAABAAAAFQAAAFRpbWVHaWZ0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>0.0f</sString>
+		<sString>cTimeGift</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -242,27 +242,7 @@
 			</PermanentStatModApplicator>
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/Program_Redset7_5_Discount.APLR" />
-		<Item href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="F947678C-88C3-4C46-8E6E-B47B2852B154">
-			<GiveConsumable>
-				<amount>
-					<compiledString></compiledString>
-					<returnType>int</returnType>
-					<sString>1</sString>
-				</amount>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>GiveConsumable</caption>
-				<consumable href="/Items/Consumables/KU-Stick.ARCT" />
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<providerName></providerName>
-			</GiveConsumable>
-		</Item>
-		<Item href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="93C9FAA9-895B-458C-8ADD-9C062964B5EC">
+		<Item href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="9AA2C5A5-2FA5-4B4F-9E13-60B9F06BC021">
 			<SpellPeriodicallyApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
@@ -272,9 +252,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>mPreparedness == 1.0f</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -284,16 +264,16 @@
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<period>
-					<compiledString>FQkAAAABAAAAFQAAAFRpbWVHaWZ0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
 					<returnType>float</returnType>
-					<sString>cTimeGift</sString>
+					<sString>0.1</sString>
 				</period>
 				<providerName></providerName>
 				<scaleMode>ScaleIsCount</scaleMode>
-				<spell href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="21218CEC-E09E-4444-AE52-00D13450C922">
+				<spell href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="6AC05A8A-437D-4039-B34A-419718680839">
 					<Spell>
 						<applicators>
-							<Item href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="A0ABA8F4-AA51-45A0-B210-E8E7B7ED9AD0">
+							<Item href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="73C1F181-34C7-4A35-9C26-54E17773B172">
 								<GiveConsumable>
 									<amount>
 										<compiledString></compiledString>
@@ -304,17 +284,47 @@
 									<caption>GiveConsumable</caption>
 									<consumable href="/Items/Consumables/KU-Stick.ARCT" />
 									<enabled>
-										<compiledString></compiledString>
+										<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
 										<returnType>bool</returnType>
-										<sString>true</sString>
+										<sString>mPreparedness == 1.0f</sString>
 									</enabled>
 									<formulaName></formulaName>
 									<LoggingEvent>-1</LoggingEvent>
 									<providerName></providerName>
 								</GiveConsumable>
 							</Item>
+							<Item href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="A17816BD-206C-4E57-92F5-B2163B7C83B9">
+								<PermanentStatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption>KU_StickConsumableGived</caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+										<returnType>bool</returnType>
+										<sString>mPreparedness == 1.0f</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>KU_StickConsumableGived</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
 						</applicators>
-						<dispatch href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="DD916107-4896-4BEA-A912-556A47A5D419">
+						<dispatch href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="676C12B4-3CD0-463B-AD3C-0E11941EB976">
 							<DispatchImmediate>
 								<alwaysApply>false</alwaysApply>
 								<applyEffect>
@@ -341,12 +351,116 @@
 					<sString>true</sString>
 				</startCondition>
 				<startOffset>
-					<compiledString>FQkAAAABAAAAFQAAAFRpbWVHaWZ0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 					<returnType>float</returnType>
-					<sString>cTimeGift</sString>
+					<sString>0</sString>
 				</startOffset>
 				<targetSelector href="" />
 			</SpellPeriodicallyApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="F2B6F125-D584-4590-89B8-A4888E691CE2">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>184</behaviorFlags>
+				<caption>Запускаем принудительно кд</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+					<returnType>float</returnType>
+					<sString>-1</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="FDC824D9-2B95-4D54-92E0-B435EA4EA7C6">
+					<EventProcessorCondition>
+						<applyTarget>AbilityOwner</applyTarget>
+						<condition>
+							<compiledString>FRgAAAACAAAAHQAAADMAAABLVV9TdGlja0NvbnN1bWFibGVHaXZlZABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1VAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<returnType>bool</returnType>
+							<sString>sender.vKU_StickConsumableGived &gt; 0</sString>
+						</condition>
+						<events>8192</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="93FFA529-C440-4CA1-AF40-3062A63D02FC">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="B5E2C092-B16B-4DAC-9C54-1AD4900A7403">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>KU_StickConsumableGived</caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+													<returnType>float</returnType>
+													<sString>0.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+													<returnType>float</returnType>
+													<sString>0.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>KU_StickConsumableGived</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level2/G725_StrOrInt.TALENT" id="5C9F2BDC-228F-4FF8-844F-0F84FC9EC83D">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>true</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G725</persistentId>

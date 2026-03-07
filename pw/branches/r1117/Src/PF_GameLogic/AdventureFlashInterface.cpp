@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+﻿#include "StdAfx.h"
 
 #include "AdventureFlashInterface.h"
 
@@ -247,6 +247,11 @@ void AdventureFlashInterface::UseSlot( int slot )
 void AdventureFlashInterface::LockActionBar( bool lock )
 {
   CallMethod( "LockActionBar", lock );
+}
+
+void AdventureFlashInterface::ShowPanel( bool show )
+{
+  CallMethod( "ShowPanel", show );
 }
 
 void AdventureFlashInterface::TempUnlockActionBar( bool unlock )
@@ -692,9 +697,9 @@ void AdventureFlashInterface::AddMessage( NDb::EChatChannel channel, const wstri
   CallMethod("AddMessage", channel, playerName, message);
 }
 
-void AdventureFlashInterface::AddMessage(NDb::EChatChannel channel, const wstring & playerName, const wstring & message, const int playerId)
+void AdventureFlashInterface::AddMessage(NDb::EChatChannel channel, const wstring & playerName, const wstring & message, const int /*playerId*/)
 {
-  CallMethod("AddMessageEx", channel, playerName, message, playerId);
+  CallMethod("AddMessage", channel, playerName, message);
 }
 
 void AdventureFlashInterface::SetDefaultChannel( NDb::EChatChannel channelID )
@@ -1197,3 +1202,5 @@ void NGameX::AdventureFlashInterface::SetBindString(string element)
 }
 
 NI_DEFINE_REFCOUNT( NGameX::AdventureFlashInterface );
+
+
